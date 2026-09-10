@@ -5,25 +5,27 @@ mida serveeritakse Cloudflare'i kaudu.
 
 ---
 
-## 1. Avapilt — ainus asi, mis veel puudu on
+## 1. Avapilt
 
-Leht on ehitatud avapildi ümber, aga **pilti ennast repos ei ole** (see saabus
-vestluse manusena, kust seda faili kujul kätte ei saanud). Lisa see ise:
+Avapilt on repos olemas: `public/assets/hero.jpg` (2400x1345, 625 kB).
+
+Originaal oli 2912x1632 PNG mahuga 8,5 MB — see on avalehe taustapildiks liiga
+suur (mobiilis mitu sekundit ootamist). Repos on sellest tehtud veebi jaoks
+sobiv JPEG: laius 2400 px, kvaliteet 82. Originaalfaili repos ei hoita.
+
+### Pildi vahetamine
 
 ```sh
-cp /tee/sinu/pildini.jpg public/assets/hero.jpg
-git add public/assets/hero.jpg
-git commit -m "Lisa avapilt"
-git push
+cp uus-pilt.jpg public/assets/hero.jpg
+git commit -am "Vaheta avapilt" && git push
 ```
 
-Muud ei ole vaja teha — leht leiab pildi ise üles.
-
-- Nimi võib olla `hero.jpg`, `hero.jpeg`, `hero.png` või `hero.webp`.
-- Soovituslik laius 2000–2400 px, failimaht alla ~600 kB.
-- **Kuni pilti pole**, näitab leht kujundatud varulahendust: kolm emailtahvlit
-  kirjadega *tere · hello · 你好*. Leht ei ole kunagi katki ega tühi, seega
-  võib selle domeeni külge panna juba enne pildi lisamist.
+- Nimi võib olla ka `hero.jpeg`, `hero.png` või `hero.webp` — leht proovib
+  neid selles järjekorras. `hero.jpg` on esimene, seega kiireim.
+- Hoia laius 2000-2400 px ja maht alla ~600 kB.
+- **Kui pilti ei ole**, ei jää leht tühjaks: siis joonistatakse CSS-iga kolm
+  emailtahvlit kirjadega *tere / hello / 你好*. See on valmis kujundus, mitte
+  kohatäide — saiti võib serveerida ka ilma pildita.
 
 Vt ka [`public/assets/README.md`](public/assets/README.md).
 

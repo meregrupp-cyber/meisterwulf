@@ -66,9 +66,14 @@ body{
   inset:0;
   display:grid;
   grid-template-areas:"scene";
+  /* Lahter seotakse konteineri mõõtu. Ilma selleta venitab <img> oma
+     loomuliku kõrgusega rea laial-madalal ekraanil pikemaks kui aken,
+     ja kiri lükkub nähtavast alast välja. */
+  grid-template-rows:minmax(0, 1fr);
+  grid-template-columns:minmax(0, 1fr);
   isolation:isolate;
 }
-.stage > *{ grid-area:scene; min-width:0; }
+.stage > *{ grid-area:scene; min-width:0; min-height:0; }
 
 /* =============================================================
    1. Foto — public/assets/hero.jpg
@@ -87,10 +92,26 @@ body{
 }
 .has-hero .hero{ opacity:1; }
 
-/* Püstisel ekraanil näitame kogu kompositsiooni, mitte väljalõiget.
-   Pilt veidi ülespoole, et alla jääks kirjadele oma ruum. */
+/* Püstisel ekraanil näitame kogu kompositsiooni, mitte väljalõiget:
+   pilt on lai (16:9), telefon kitsas — väljalõikega kaoks kaks tervitust
+   kolmest ära. Pilt ja kiri laotakse ühe rühmana keskele. */
 @media (max-aspect-ratio: 1/1){
-  .hero{ object-fit:contain; object-position:center 36%; }
+  .hero{ object-fit:contain; object-position:center; }
+
+  .has-hero .stage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:clamp(18px, 4vh, 44px);
+  }
+  /* Pilt oma loomulikus kõrguses, mitte üle ekraani venitatud. */
+  .has-hero .hero{ height:auto; max-height:72vh; }
+  /* Katted jäävad kihtideks, mitte veeru osadeks. */
+  .has-hero .room,
+  .has-hero .veil,
+  .has-hero .grain{ position:absolute; inset:0; }
+  .has-hero .plate{ position:static; padding:0 var(--gutter); }
 }
 
 /* =============================================================
@@ -114,11 +135,42 @@ body{
   pointer-events:none;
   background:radial-gradient(120% 94% at 50% 42%, transparent 44%, rgba(6,4,3,.62) 100%);
 }
-/* Foto peal on all tumedam varjund, et kirjad loetavad püsiksid. */
+/* Foto peal ainult vinjett — püstpaigutuses on kiri pildist väljas. */
 .has-hero .veil{
-  background:
-    radial-gradient(118% 92% at 50% 38%, transparent 40%, rgba(6,4,3,.6) 100%),
-    linear-gradient(to top, rgba(6,4,3,.92) 0%, rgba(6,4,3,.45) 22%, transparent 48%);
+  background:radial-gradient(118% 92% at 50% 38%, transparent 40%, rgba(6,4,3,.58) 100%);
+}
+/* Rõhtpaigutuses on kiri pildi peal, ja just seal all on heledad
+   sepiafotod. Tumendame alumise serva, muidu kaob nimi mustri sisse. */
+@media (min-aspect-ratio: 1/1){
+  .has-hero .veil{
+    background:
+      radial-gradient(118% 92% at 50% 38%, transparent 40%, rgba(6,4,3,.58) 100%),
+      linear-gradient(to top,
+        rgba(6,4,3,.94) 0%,
+        rgba(6,4,3,.72) 13%,
+        rgba(6,4,3,.34) 30%,
+        transparent 52%);
+  }
+
+  /* Kohalik varjund kirja taga: foto servad jäävad näha, aga nimi
+     saab endale tumeda aluse ka heledate sepiafotode kohal. */
+  .has-hero .plate{
+    position:relative;
+    padding-bottom:max(clamp(34px, 5vh, 58px), env(safe-area-inset-bottom, 0px));
+  }
+  .has-hero .plate::before{
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:0;
+    z-index:-1;
+    width:min(880px, 96vw);
+    height:clamp(160px, 30vh, 300px);
+    transform:translateX(-50%);
+    background:radial-gradient(58% 100% at 50% 100%,
+      rgba(6,4,3,.92) 0%, rgba(6,4,3,.62) 48%, transparent 76%);
+    pointer-events:none;
+  }
 }
 
 .grain{
@@ -253,7 +305,7 @@ body{
   font-size:clamp(.74rem, 1.35vw, .86rem);
   letter-spacing:.2em;
   text-transform:uppercase;
-  color:rgba(200,177,137,.72);
+  color:rgba(203,182,143,.86);
   text-shadow:0 1px 10px rgba(0,0,0,.85);
 }
 
