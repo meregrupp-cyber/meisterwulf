@@ -7,7 +7,7 @@
 Kirjuta fail lihtsalt üle — muud seadistust vaja ei ole:
 
 ```sh
-cp uus-pilt.jpg public/assets/hero.jpg
+cp uus-pilt.jpg assets/hero.jpg
 git commit -am "Vaheta avapilt" && git push
 ```
 

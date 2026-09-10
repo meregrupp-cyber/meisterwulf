@@ -1,125 +1,114 @@
 # meisterwulf.com
 
-Ajutine avaleht domeenile **meisterwulf.com**. Staatiline üheleheline sait,
-mida serveeritakse Cloudflare'i kaudu.
+Ajutine avaleht domeenile **meisterwulf.com**. Staatiline üheleheline sait.
+
+**Majutus:** GitHub Pages · **DNS ja vahemälu:** Cloudflare
+(sama seadistus nagu freedive.ee)
+
+```
+GitHub Pages            Cloudflare              külastaja
+(serveerib faile)  <--  (proksib, vahemälu)  <--  meisterwulf.com
+       ^
+   see repo, haru juurkaustast
+```
+
+Cloudflare'i DNS-is on CNAME `meregrupp-cyber.github.io` peale, oranži
+pilvega (proksitud). Külastaja näeb Cloudflare'i IP-d, sisu tuleb GitHubist.
 
 ---
 
-## 1. Avapilt
+## Seadistus
 
-Avapilt on repos olemas: `public/assets/hero.jpg` (2400x1345, 625 kB).
+### A. GitHub
 
-Originaal oli 2912x1632 PNG mahuga 8,5 MB — see on avalehe taustapildiks liiga
-suur (mobiilis mitu sekundit ootamist). Repos on sellest tehtud veebi jaoks
-sobiv JPEG: laius 2400 px, kvaliteet 82. Originaalfaili repos ei hoita.
+1. **Settings → Pages**
+2. *Source:* **Deploy from a branch**
+3. *Branch:* `main`, kaust **`/ (root)`** → **Save**
+4. *Custom domain* täitub failist `CNAME` ise (`meisterwulf.com`).
+   Oota, kuni ilmub roheline linnuke ja teade sertifikaadi kohta.
+5. Kui sertifikaat on väljastatud, märgi **Enforce HTTPS**
 
-### Pildi vahetamine
+> **Repo peab olema avalik.** GitHub Pages privaatse repo pealt eeldab
+> tasulist plaani (Pro/Team). Tasuta plaanil: *Settings → General →
+> Danger Zone → Change visibility → Public*.
 
-```sh
-cp uus-pilt.jpg public/assets/hero.jpg
-git commit -am "Vaheta avapilt" && git push
-```
+### B. Cloudflare DNS
 
-- Nimi võib olla ka `hero.jpeg`, `hero.png` või `hero.webp` — leht proovib
-  neid selles järjekorras. `hero.jpg` on esimene, seega kiireim.
-- Hoia laius 2000-2400 px ja maht alla ~600 kB.
-- **Kui pilti ei ole**, ei jää leht tühjaks: siis joonistatakse CSS-iga kolm
-  emailtahvlit kirjadega *tere / hello / 你好*. See on valmis kujundus, mitte
-  kohatäide — saiti võib serveerida ka ilma pildita.
+**DNS → Records → Add record**, kaks kirjet:
 
-Vt ka [`public/assets/README.md`](public/assets/README.md).
+| Type | Name | Target | Proxy |
+|------|------|--------------------------|-----------|
+| CNAME | `@` | `meregrupp-cyber.github.io` | Proxied |
+| CNAME | `www` | `meregrupp-cyber.github.io` | Proxied |
 
----
+`www` suunatakse 301-ga apexile — selle teeb GitHub Pages ise, kuna failis
+`CNAME` on kirjas apex-domeen. Eraldi suunamisreeglit vaja ei ole.
 
-## 2. Cloudflare'i seadistus
+### C. Kaks lõksu, mis muidu murravad HTTPS-i
 
-Domeen `meisterwulf.com` on juba Cloudflare'i kontos tsoonina olemas. Puudu on
-ainult sait, mis selle taga vastaks. Vali üks kahest teest.
+1. **Sertifikaadi väljastamine ja oranž pilv.** Kuni GitHub pole sertifikaati
+   väljastanud, hoia kirjed **DNS only** (hall pilv) — muidu ei näe GitHub
+   domeeni ega saa seda kinnitada. Kui sertifikaat on olemas ja *Enforce
+   HTTPS* märgitud, lülita pilv oranžiks.
 
-### A. Dashboardist, Giti-integratsiooniga *(lihtsaim, soovitatav)*
-
-Iga `git push` paneb muudatuse ise üles — GitHubi saladusi vaja ei ole.
-
-1. Ava **Workers & Pages → Create → Workers → Import a repository**
-2. Vali repo `meregrupp-cyber/meisterwulf`
-3. Seaded loeb Cloudflare failist `wrangler.jsonc`, muuta pole vaja:
-   - Build command: *(tühi)*
-   - Deploy command: `npx wrangler deploy`
-4. Vajuta **Deploy**
-
-Domeenid `meisterwulf.com` ja `www.meisterwulf.com` seotakse esimese
-väljalaske käigus automaatselt (need on kirjas `wrangler.jsonc` failis
-`routes` all). Kontrolli üle: **Workers & Pages → meisterwulf → Settings →
-Domains & Routes**.
-
-> **Tähelepanu:** vali produktsiooniharuks see haru, kus kood tegelikult on.
-> Praegu on kogu töö harus `claude/upbeat-brown-hjmzic` — kui liidad selle
-> `main`-haruga, vali `main`.
-
-### B. Käsurealt
-
-```sh
-npm install
-npx wrangler login
-npm run deploy
-```
-
-### C. GitHub Actions *(valikuline)*
-
-Fail [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) on olemas,
-aga **magab**. Kui tahad seda kasutada (nt Giti-integratsiooni asemel):
-
-1. Lisa saladused `CLOUDFLARE_API_TOKEN` ja `CLOUDFLARE_ACCOUNT_ID`
-   (*Settings → Secrets and variables → Actions → Secrets*)
-2. Lisa muutuja `DEPLOY_VIA_ACTIONS` = `true` (samas, *Variables*)
-
-Ilma nendeta töövoog lihtsalt ei käivitu ega tekita veateateid.
+2. **SSL/TLS režiim peab olema `Full`.** Cloudflare'i *SSL/TLS → Overview*.
+   Kui seal on **Flexible**, tekib GitHub Pagesi *Enforce HTTPS*-iga lõputu
+   ümbersuunamise tsükkel ja leht ei avane.
 
 ---
 
-## 3. Kohapeal vaatamine
-
-```sh
-npm install
-npm run dev      # http://localhost:8787
-npm run check    # kontrollib seadistust ilma üles laadimata
-```
-
----
-
-## 4. Failid
+## Failid
 
 ```
-public/
-  index.html          kogu leht — üks fail, väliste sõltuvusteta
-  404.html            vealehekülg
-  favicon.svg         vahekaardi ikoon
-  robots.txt          otsimootoritele (indekseerimine lubatud)
-  sitemap.xml
-  _headers            turvapäised ja vahemälu reeglid
-  _redirects          www.meisterwulf.com -> meisterwulf.com
-  .assetsignore       mida avalikult ei serveerita
-  assets/
-    hero.jpg          <- AVAPILT KÄIB SIIA (praegu puudu)
-
-wrangler.jsonc        Cloudflare Workersi seadistus
+index.html      kogu leht — üks fail, väliste sõltuvusteta
+404.html        vealehekülg
+assets/
+  hero.jpg      avapilt (2400x1345, 625 kB)
+favicon.svg     vahekaardi ikoon
+robots.txt      indekseerimine lubatud
+sitemap.xml
+CNAME           meisterwulf.com — GitHub Pages loeb siit custom domain'i
+.nojekyll       Jekyll eemale, failid serveeritakse muutmata kujul
 ```
 
 ### Kuidas leht töötab
 
-`public/index.html` sisaldab kogu kujundust — CSS on failis sees, väliseid
-fonte ega teeke ei laadita. Lehel on kaks olekut:
+`index.html` sisaldab kogu kujundust — CSS on failis sees, väliseid fonte ega
+teeke ei laadita. Lehel on kaks olekut:
 
 | Olek | Millal | Mida näidatakse |
 |------|--------|-----------------|
-| varulahendus | `assets/hero.*` puudub | CSS-iga joonistatud emailtahvlid |
-| foto | pilt laeb | pilt katab ekraani, all nimi ja „Varsti avatud" |
+| foto | `assets/hero.*` avaneb | pilt katab ekraani, all nimi |
+| varulahendus | pilti pole | CSS-iga joonistatud emailtahvlid |
 
 Väike skript lehe lõpus proovib pilti laadida ja lisab õnnestumisel `<body>`
-külge klassi `has-hero`. Kui pilti pole, ei juhtu midagi — varulahendus jääb
-ekraanile. Katkist pildiikooni ei näidata kunagi.
+külge klassi `has-hero`. Katkist pildiikooni ei näidata kunagi.
+
+### Pildi vahetamine
+
+```sh
+cp uus-pilt.jpg assets/hero.jpg
+git commit -am "Vaheta avapilt" && git push
+```
+
+Hoia laius 2000-2400 px ja maht alla ~600 kB. Vt [`assets/README.md`](assets/README.md).
 
 ### Teksti muutmine
 
-Nimi, tervitused ja „Varsti avatud" on `public/index.html` lõpus, `<div
-class="plate">` sees. Värvid on ühes kohas, faili alguses `:root` all.
+Nimi ja „Varsti avatud" on `index.html` lõpus, `<div class="plate">` sees.
+Värvid on faili alguses `:root` all.
+
+---
+
+## Kohapeal vaatamine
+
+```sh
+python3 -m http.server 8000
+# http://localhost:8000
+```
+
+## Mida GitHub Pages ei oska
+
+Pages ei toeta kohandatud vastusepäiseid (`_headers` ei tööta). Turvapäised
+saab vajadusel lisada Cloudflare'i poolelt: **Rules → Transform Rules →
+Modify Response Header**. Ajutise avalehe jaoks pole see hädavajalik.
