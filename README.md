@@ -19,7 +19,7 @@ pilvega (proksitud). Külastaja näeb Cloudflare'i IP-d, sisu tuleb GitHubist.
 
 ## Seadistus
 
-### A. GitHub
+### A. GitHub  ·  *github.com/meregrupp-cyber/meisterwulf*
 
 1. **Settings → Pages**
 2. *Source:* **Deploy from a branch**
@@ -32,7 +32,7 @@ pilvega (proksitud). Külastaja näeb Cloudflare'i IP-d, sisu tuleb GitHubist.
 > tasulist plaani (Pro/Team). Tasuta plaanil: *Settings → General →
 > Danger Zone → Change visibility → Public*.
 
-### B. Cloudflare DNS
+### B. Cloudflare  ·  *dash.cloudflare.com -> meisterwulf.com -> DNS*
 
 **DNS → Records → Add record**, kaks kirjet:
 
@@ -46,12 +46,17 @@ pilvega (proksitud). Külastaja näeb Cloudflare'i IP-d, sisu tuleb GitHubist.
 
 ### C. Kaks lõksu, mis muidu murravad HTTPS-i
 
+> Mõlemad seaded on **Cloudflare'i** poolel. GitHubis on ainus TLS-iga
+> seotud asi „Enforce HTTPS" linnuke Pages'i seadetes.
+
 1. **Sertifikaadi väljastamine ja oranž pilv.** Kuni GitHub pole sertifikaati
    väljastanud, hoia kirjed **DNS only** (hall pilv) — muidu ei näe GitHub
    domeeni ega saa seda kinnitada. Kui sertifikaat on olemas ja *Enforce
    HTTPS* märgitud, lülita pilv oranžiks.
 
-2. **SSL/TLS režiim peab olema `Full`.** Cloudflare'i *SSL/TLS → Overview*.
+2. **SSL/TLS režiim peab olema `Full`.**
+   Cloudflare → `meisterwulf.com` → vasak menüü **SSL/TLS** → **Overview** →
+   *Choose an encryption mode*.
    Kui seal on **Flexible**, tekib GitHub Pagesi *Enforce HTTPS*-iga lõputu
    ümbersuunamise tsükkel ja leht ei avane.
 
