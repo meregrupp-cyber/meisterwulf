@@ -1,0 +1,30 @@
+name: Deploy
+
+# Vaikimisi magab: käivitub alles siis, kui repos on muutuja
+# DEPLOY_VIA_ACTIONS = true (Settings -> Secrets and variables -> Actions -> Variables).
+# Kui kasutad Cloudflare'i Git-integratsiooni, ei ole seda töövoogu vaja.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    if: vars.DEPLOY_VIA_ACTIONS == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

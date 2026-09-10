@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Meisterwulf</title>
+<meta name="description" content="Meisterwulf — tere. hello. 你好. Varsti avatud.">
+<link rel="canonical" href="https://meisterwulf.com/">
+
+<meta name="theme-color" content="#0e0a06">
+<meta name="color-scheme" content="dark">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Meisterwulf">
+<meta property="og:title" content="Meisterwulf">
+<meta property="og:description" content="tere. hello. 你好. Varsti avatud.">
+<meta property="og:url" content="https://meisterwulf.com/">
+<meta property="og:image" content="https://meisterwulf.com/assets/hero.jpg">
+<meta property="og:image:alt" content="Vanaaegne kartograafi töölaud — kolm emailtahvlit kirjadega tere, hello ja 你好.">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<style>
+/* ---------------------------------------------------------------
+   Meisterwulf — ajutine avaleht.
+   Üks fail, väliste sõltuvusteta. Juhend: README.md
+
+   Kaks olekut:
+     vaikimisi          -> emailtahvlid CSS-iga (fotot pole veel)
+     body.has-hero      -> public/assets/hero.jpg katab ekraani
+   --------------------------------------------------------------- */
+
+:root{
+  /* Palett avapildilt: lambivalgus, messing, pärgament. */
+  --ink:            #0b0805;
+  --brass:          #c9a227;
+  --parchment:      #f2e4c2;
+  --parchment-dim:  #c8b189;
+
+  --gutter: clamp(20px, 5vw, 72px);
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+
+html,body{ height:100%; }
+
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--parchment);
+  font-family: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow:hidden;                 /* üks ekraan, kerimist pole */
+  overscroll-behavior:none;
+}
+
+/* =============================================================
+   Lava — kõik kihid samas ruudustikulahtris, üksteise peal
+   ============================================================= */
+
+.stage{
+  position:fixed;
+  inset:0;
+  display:grid;
+  grid-template-areas:"scene";
+  isolation:isolate;
+}
+.stage > *{ grid-area:scene; min-width:0; }
+
+/* =============================================================
+   1. Foto — public/assets/hero.jpg
+   Nähtav alles pärast tegelikku laadimist (vt skripti lõpus),
+   nii ei vilgu kunagi katkise pildi ikooni.
+   ============================================================= */
+
+.hero{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 42%;
+  opacity:0;
+  transition:opacity 1.1s ease;
+  z-index:1;
+}
+.has-hero .hero{ opacity:1; }
+
+/* Püstisel ekraanil näitame kogu kompositsiooni, mitte väljalõiget.
+   Pilt veidi ülespoole, et alla jääks kirjadele oma ruum. */
+@media (max-aspect-ratio: 1/1){
+  .hero{ object-fit:contain; object-position:center 36%; }
+}
+
+/* =============================================================
+   2. Taust — soe lambivalgusega tuba
+   ============================================================= */
+
+.room{
+  z-index:0;                       /* jääb alati taustaks, ka foto taha */
+  background:
+    radial-gradient(88% 68% at 14% 22%, rgba(232,201,122,.26), transparent 58%),
+    radial-gradient(120% 100% at 82% 88%, rgba(58,39,22,.72), transparent 62%),
+    linear-gradient(165deg, #241809 0%, #140d07 55%, #090603 100%);
+}
+
+/* =============================================================
+   3. Kate — vinjett ja teralisus
+   ============================================================= */
+
+.veil{
+  z-index:2;
+  pointer-events:none;
+  background:radial-gradient(120% 94% at 50% 42%, transparent 44%, rgba(6,4,3,.62) 100%);
+}
+/* Foto peal on all tumedam varjund, et kirjad loetavad püsiksid. */
+.has-hero .veil{
+  background:
+    radial-gradient(118% 92% at 50% 38%, transparent 40%, rgba(6,4,3,.6) 100%),
+    linear-gradient(to top, rgba(6,4,3,.92) 0%, rgba(6,4,3,.45) 22%, transparent 48%);
+}
+
+.grain{
+  z-index:3;
+  pointer-events:none;
+  opacity:.09;
+  mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* =============================================================
+   4. Sisu
+   ============================================================= */
+
+.plate{
+  z-index:4;
+  display:grid;
+  align-content:center;                  /* fotota: kõik koos keskel */
+  justify-items:center;
+  gap:clamp(13px, 2vh, 22px);
+  padding:var(--gutter);
+  text-align:center;
+  /* Ilma fill-mode'ita: kui animatsioon ei käivitu, on sisu lihtsalt nähtav. */
+  animation:rise 1s cubic-bezier(.22,.68,.32,1);
+}
+.has-hero .plate{
+  align-content:end;                     /* fotoga: kirjad alla */
+  padding-bottom:max(var(--gutter), env(safe-area-inset-bottom, 0px));
+}
+
+@keyframes rise{
+  from{ opacity:0; transform:translateY(16px); }
+  to  { opacity:1; transform:none; }
+}
+
+/* --- Emailtahvlid (ainult siis, kui fotot pole) --- */
+
+.plaques{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  gap:clamp(14px, 2.8vw, 30px);
+  margin-bottom:clamp(18px, 4.6vh, 50px);
+  max-width:100%;
+}
+.has-hero .plaques{ display:none; }
+
+.plaque{
+  position:relative;
+  display:grid;
+  place-items:center;
+  min-width:clamp(172px, 21vw, 280px);
+  padding:clamp(14px, 2.2vw, 24px) clamp(32px, 4.2vw, 54px);
+  border-radius:999px;
+  background:linear-gradient(184deg, #f6ecd2 0%, #e6d5ad 58%, #cdb488 100%);
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.45) inset,
+    0 -2px 6px rgba(90,64,30,.35) inset,
+    0 18px 34px -18px rgba(0,0,0,.85),
+    0 2px 0 rgba(0,0,0,.4);
+}
+/* Sisemine topeltjoon, nagu vanadel emailsiltidel */
+.plaque::before{
+  content:"";
+  position:absolute;
+  inset:clamp(6px, .95vw, 10px) clamp(11px, 1.5vw, 17px);
+  border:1.5px solid rgba(28,46,74,.62);
+  border-radius:999px;
+  box-shadow:0 0 0 2.5px rgba(246,236,210,.55), 0 0 0 4px rgba(28,46,74,.28);
+}
+.plaque span{
+  font-size:clamp(1.5rem, 3.2vw, 2.5rem);
+  line-height:1;
+  color:#14243c;
+  white-space:nowrap;
+}
+/* Messingkruvid otstes */
+.plaque i{
+  position:absolute;
+  top:50%;
+  width:clamp(8px, 1vw, 12px);
+  aspect-ratio:1;
+  margin-top:calc(clamp(8px, 1vw, 12px) / -2);
+  border-radius:50%;
+  background:radial-gradient(circle at 34% 30%, #f0dca4, var(--brass) 58%, #7d6215);
+  box-shadow:0 1px 2px rgba(0,0,0,.55);
+}
+.plaque i:first-of-type{ left:clamp(10px, 1.4vw, 16px); }
+.plaque i:last-of-type { right:clamp(10px, 1.4vw, 16px); }
+
+/* Kerge kallak — käsitsi kruvitud, mitte joonlauaga */
+.plaques > :nth-child(1){ transform:rotate(-1.4deg); }
+.plaques > :nth-child(2){ transform:rotate(.5deg) translateY(-6px); }
+.plaques > :nth-child(3){ transform:rotate(1.6deg); }
+
+/* --- Nimi ja saatetekst --- */
+
+.wordmark{
+  margin:0;
+  font-size:clamp(1.6rem, 4.8vw, 3.2rem);
+  font-weight:400;
+  letter-spacing:clamp(.16em, .5vw, .3em);
+  text-indent:clamp(.16em, .5vw, .3em);   /* tasakaalustab viimase tähevahe */
+  text-transform:uppercase;
+  color:var(--parchment);
+  text-shadow:0 2px 18px rgba(0,0,0,.9), 0 0 42px rgba(201,162,39,.28);
+}
+
+.rule{
+  width:min(230px, 44vw);
+  height:1px;
+  border:0;
+  margin:0;
+  background:linear-gradient(to right, transparent, var(--brass), transparent);
+  opacity:.85;
+}
+
+/* Tervitused on juba tahvlitel (fotota) või fotol endal — teksti neid ei
+   korrata. DOM-i nad jäävad: otsimootoritele ja ekraanilugejale. */
+.greeting{
+  position:absolute;
+  width:1px; height:1px;
+  padding:0; margin:-1px;
+  overflow:hidden;
+  clip-path:inset(50%);
+  white-space:nowrap;
+}
+
+.note{
+  margin:0;
+  font-size:clamp(.74rem, 1.35vw, .86rem);
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:rgba(200,177,137,.72);
+  text-shadow:0 1px 10px rgba(0,0,0,.85);
+}
+
+/* =============================================================
+   Erijuhud
+   ============================================================= */
+
+/* Kitsas ekraan — tahvlid üksteise alla, ühtlase laiusega. */
+@media (max-width: 620px){
+  .plaques{ flex-direction:column; gap:clamp(12px, 2.2vh, 18px); }
+  .plaque{ min-width:min(268px, 76vw); padding:12px 30px; }
+  .plaque span{ font-size:clamp(1.3rem, 6.2vw, 1.75rem); }
+}
+
+/* Madal ekraan (telefon külili) — tahvlid ritta ja väiksemaks,
+   et kogu kompositsioon mahuks ühele ekraanile. */
+@media (max-height: 520px){
+  .plaques{ flex-direction:row; margin-bottom:clamp(12px, 3vh, 24px); }
+  .plaque{ min-width:clamp(124px, 16vw, 186px); padding:9px 24px; }
+  .plaque span{ font-size:clamp(1rem, 2.2vw, 1.45rem); }
+}
+/* Päris madal ekraan — jääb ainult nimi. */
+@media (max-height: 330px){
+  .plaques, .note{ display:none; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:.001ms !important;
+    transition-duration:.001ms !important;
+  }
+}
+
+.sr-only{
+  position:absolute;
+  width:1px; height:1px;
+  padding:0; margin:-1px;
+  overflow:hidden;
+  clip-path:inset(50%);
+  white-space:nowrap;
+}
+</style>
+</head>
+
+<body>
+<main class="stage">
+
+  <img class="hero" id="hero" alt="Vanaaegne kartograafi töölaud: kolm emailtahvlit kirjadega tere, hello ja 你好, maailmakaart, sekstant ja sepiatoonis fotod." decoding="async" fetchpriority="high">
+
+  <div class="room"></div>
+  <div class="veil"></div>
+  <div class="grain"></div>
+
+  <div class="plate">
+    <div class="plaques" aria-hidden="true">
+      <div class="plaque"><i></i><span>tere</span><i></i></div>
+      <div class="plaque"><i></i><span>hello</span><i></i></div>
+      <div class="plaque"><i></i><span lang="zh">你好</span><i></i></div>
+    </div>
+
+    <h1 class="wordmark">Meisterwulf</h1>
+    <hr class="rule">
+    <ul class="greeting">
+      <li lang="et">tere</li>
+      <li lang="en">hello</li>
+      <li lang="zh">你好</li>
+    </ul>
+    <p class="note">Varsti avatud</p>
+  </div>
+
+</main>
+
+<script>
+/* Proovime avapilti mitmes vormingus, et faili lisamine oleks eksimiskindel.
+   Esimene, mis avaneb, jääb ekraanile; ükski ei avane -> jääb CSS-lahendus. */
+(function () {
+  var candidates = [
+    "/assets/hero.jpg",
+    "/assets/hero.jpeg",
+    "/assets/hero.png",
+    "/assets/hero.webp"
+  ];
+  var hero = document.getElementById("hero");
+  var i = 0;
+
+  function attempt() {
+    if (i >= candidates.length) return;      // varulahendus jääb kehtima
+    var probe = new Image();
+    probe.onload  = function () {
+      hero.src = probe.src;
+      document.body.classList.add("has-hero");
+    };
+    probe.onerror = function () { i++; attempt(); };
+    probe.src = candidates[i];
+  }
+
+  attempt();
+})();
+</script>
+</body>
+</html>

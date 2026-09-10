@@ -1,0 +1,2 @@
+# www -> juurdomeen (kanooniline aadress on https://meisterwulf.com)
+https://www.meisterwulf.com/* https://meisterwulf.com/:splat 301
