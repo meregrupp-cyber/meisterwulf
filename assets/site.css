@@ -1,0 +1,394 @@
+/* ---------------------------------------------------------------
+   Meisterwulf — ühised stiilid (esileht + alalehed)
+   Palett tuleb esilehe pildilt: lambivalgus, messing, pärgament,
+   tume nahk ja siltide tumesinine joon.
+   --------------------------------------------------------------- */
+
+:root{
+  --ink:            #0b0805;
+  --ink-2:          #140e08;
+  --leather:        #2a1a0d;
+  --leather-2:      #3b2614;
+  --brass:          #c9a227;
+  --brass-light:    #e8c97a;
+  --brass-dark:     #8a6a1c;
+  --parchment:      #f2e4c2;
+  --parchment-dim:  #c8b189;
+  --cream:          #e9dfb0;
+  --navy:           #1f2e4a;
+  --sepia:          #8a6a45;
+  --glow:           rgba(232,201,122,.85);
+
+  --font-serif: "Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+  --font-zh: "Songti SC","Noto Serif CJK SC","Source Han Serif SC","Noto Serif SC","STSong",SimSun,"PingFang SC",serif;
+
+  --gutter: clamp(18px, 5vw, 64px);
+  --measure: 68ch;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+
+html{ -webkit-text-size-adjust:100%; }
+
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--parchment);
+  font-family:var(--font-serif);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* Hiina tekst saab oma kirjatüübi */
+:lang(zh), [lang="zh"], [data-l="zh"]{ font-family:var(--font-zh); }
+
+/* =============================================================
+   Keeleplokid: iga tekst on lehel kolmes keeles, kuvatakse üks.
+   <html data-lang="et|en|zh"> valib.
+   ============================================================= */
+html[data-lang="et"] [data-l]:not([data-l="et"]),
+html[data-lang="en"] [data-l]:not([data-l="en"]),
+html[data-lang="zh"] [data-l]:not([data-l="zh"]){ display:none !important; }
+
+/* =============================================================
+   Wulfi logo vasakus ülanurgas — tagasi esilehele
+   ============================================================= */
+.wulf{
+  position:fixed;
+  top:clamp(10px, 1.6vw, 22px);
+  left:clamp(10px, 1.8vw, 26px);
+  z-index:60;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:.4em;
+  text-decoration:none;
+  color:var(--parchment);
+  -webkit-tap-highlight-color:transparent;
+}
+.wulf img{
+  display:block;
+  width:clamp(58px, 7.2vw, 112px);
+  height:auto;
+  filter:drop-shadow(0 4px 14px rgba(0,0,0,.75));
+  transition:transform .35s ease, filter .35s ease;
+}
+.wulf:hover img,
+.wulf:focus-visible img{
+  transform:scale(1.05);
+  filter:drop-shadow(0 6px 18px rgba(0,0,0,.85)) drop-shadow(0 0 16px rgba(232,201,122,.6));
+}
+.wulf:focus-visible{ outline:none; }
+.wulf-caption{
+  padding:.35em .8em;
+  border-radius:999px;
+  background:rgba(11,8,5,.62);
+  border:1px solid rgba(232,201,122,.25);
+  -webkit-backdrop-filter:blur(6px);
+  backdrop-filter:blur(6px);
+  font-size:clamp(.52rem, .8vw, .68rem);
+  letter-spacing:.22em;
+  text-indent:.22em;
+  text-transform:uppercase;
+  text-align:center;
+  white-space:nowrap;
+  color:var(--brass-light);
+  text-shadow:0 1px 6px rgba(0,0,0,.9);
+  opacity:0;
+  transform:translateY(-4px);
+  transition:opacity .7s ease, transform .7s ease;
+}
+.has-lang .wulf-caption{ opacity:1; transform:none; }
+.wulf-caption [data-l="zh"]{ letter-spacing:.3em; }
+
+/* =============================================================
+   Keelevalik alalehtedel — samad sildid, väiksena, paremal üleval
+   ============================================================= */
+.langbar{
+  position:fixed;
+  top:clamp(8px, 1.2vw, 18px);
+  right:clamp(8px, 1.4vw, 22px);
+  z-index:60;
+  display:flex;
+  align-items:center;
+  gap:0;
+  margin:0;
+  padding:0;
+}
+.langbar button{
+  appearance:none;
+  border:0;
+  background:none;
+  padding:0;
+  margin:0 0 0 clamp(-14px, -1vw, -6px);
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.langbar button:first-child{ margin-left:0; }
+.langbar img{
+  display:block;
+  width:clamp(64px, 7.6vw, 118px);
+  height:auto;
+  opacity:.34;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.7));
+  transition:opacity .4s ease, transform .4s ease, filter .4s ease;
+}
+.langbar button:hover img,
+.langbar button:focus-visible img{ opacity:.75; }
+.langbar button.is-active img{
+  opacity:1;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.7)) drop-shadow(0 0 12px rgba(232,201,122,.45));
+}
+.langbar button:focus-visible{ outline:none; }
+.langbar button:focus-visible img{ transform:scale(1.06); }
+
+/* =============================================================
+   Alalehe üldine ehitus
+   ============================================================= */
+.page{ overflow-x:hidden; }
+
+.wrap{
+  width:min(1120px, 100% - 2 * var(--gutter));
+  margin-inline:auto;
+}
+
+.hero{
+  position:relative;
+  padding:clamp(120px, 20vh, 190px) 0 clamp(36px, 6vh, 72px);
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0, 1.25fr) minmax(0, .9fr);
+  gap:clamp(24px, 5vw, 72px);
+  align-items:center;
+}
+.kicker{
+  margin:0 0 .8em;
+  font-size:clamp(.66rem, 1vw, .8rem);
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  color:var(--brass);
+}
+h1{
+  margin:0 0 .35em;
+  font-weight:400;
+  font-size:clamp(2.2rem, 6vw, 4.4rem);
+  line-height:1.02;
+  letter-spacing:.02em;
+  color:var(--parchment);
+  text-shadow:0 2px 24px rgba(0,0,0,.8);
+}
+h1 [data-l="zh"]{ letter-spacing:.12em; }
+.lede{
+  margin:0;
+  max-width:var(--measure);
+  font-size:clamp(1.05rem, 1.6vw, 1.3rem);
+  line-height:1.55;
+  color:var(--parchment-dim);
+}
+
+h2{
+  margin:0 0 .6em;
+  font-weight:400;
+  font-size:clamp(1.5rem, 3vw, 2.2rem);
+  line-height:1.15;
+  color:var(--parchment);
+}
+h2::after{
+  content:"";
+  display:block;
+  width:64px;
+  height:1px;
+  margin-top:.5em;
+  background:linear-gradient(to right, var(--brass), transparent);
+}
+h3{
+  margin:0 0 .4em;
+  font-weight:400;
+  font-size:clamp(1.1rem, 1.8vw, 1.35rem);
+  color:var(--brass-light);
+}
+p{ margin:0 0 1em; max-width:var(--measure); }
+p:last-child{ margin-bottom:0; }
+a{ color:var(--brass-light); text-decoration:none; border-bottom:1px solid rgba(232,201,122,.4); transition:color .25s, border-color .25s; }
+a:hover, a:focus-visible{ color:var(--parchment); border-bottom-color:var(--parchment); }
+strong{ font-weight:600; color:var(--parchment); }
+ul{ padding-left:1.2em; }
+
+.section{ padding:clamp(36px, 6vh, 80px) 0; }
+.section + .section{ border-top:1px solid rgba(232,201,122,.12); }
+
+/* Kaart, "pärgament" */
+.card{
+  position:relative;
+  padding:clamp(20px, 3vw, 36px);
+  border-radius:6px;
+  background:linear-gradient(170deg, rgba(242,228,194,.08), rgba(242,228,194,.03));
+  border:1px solid rgba(232,201,122,.22);
+  box-shadow:0 20px 40px -24px rgba(0,0,0,.9);
+}
+.card--paper{
+  color:#2b1d10;
+  background:
+    radial-gradient(120% 90% at 10% 0%, rgba(255,255,255,.35), transparent 55%),
+    linear-gradient(184deg, #f4ead2 0%, #e8d8b0 60%, #d9c393 100%);
+  border:1px solid rgba(90,64,30,.35);
+}
+.card--paper h2, .card--paper h3, .card--paper strong{ color:#2b1d10; }
+.card--paper p{ color:#3d2b17; }
+.card--paper a{ color:#5a3f16; border-bottom-color:rgba(90,64,30,.4); }
+.card--paper a:hover{ color:#2b1d10; }
+.card--paper h3{ color:#6e4e1c; }
+
+/* Pealkirja alla sobiv paar veergu */
+.cols{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap:clamp(18px, 3vw, 36px);
+}
+
+/* Faktirida (ISBN, hind jne) */
+.facts{
+  display:grid;
+  grid-template-columns:max-content 1fr;
+  gap:.35em 1.2em;
+  margin:0;
+  font-size:.98rem;
+}
+.facts dt{ color:var(--brass); letter-spacing:.06em; font-size:.82rem; text-transform:uppercase; padding-top:.2em; }
+.facts dd{ margin:0; }
+
+/* Nupud */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:.5em;
+  padding:.75em 1.4em;
+  border:1px solid var(--brass);
+  border-radius:999px;
+  background:linear-gradient(180deg, rgba(232,201,122,.16), rgba(232,201,122,.06));
+  color:var(--brass-light);
+  font-size:.95rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  text-decoration:none;
+  cursor:pointer;
+  transition:background .3s, color .3s, box-shadow .3s, transform .2s;
+}
+.btn:hover, .btn:focus-visible{
+  background:linear-gradient(180deg, rgba(232,201,122,.32), rgba(232,201,122,.14));
+  color:var(--parchment);
+  box-shadow:0 0 22px rgba(232,201,122,.35);
+  border-bottom-color:var(--brass);
+  transform:translateY(-1px);
+}
+.btn--solid{
+  background:linear-gradient(180deg, #e8c97a, #b8901d);
+  color:#1a1206;
+  border-color:#e8c97a;
+}
+.btn--solid:hover, .btn--solid:focus-visible{ background:linear-gradient(180deg, #f2d98e, #c9a227); color:#0b0805; }
+.btn-row{ display:flex; flex-wrap:wrap; gap:12px; margin-top:1.4em; }
+
+/* Sepiafoto esilehelt, kergelt kaldu */
+.photo-tilt{
+  display:block;
+  width:min(100%, 420px);
+  height:auto;
+  margin-inline:auto;
+  transform:rotate(-3deg);
+  filter:drop-shadow(0 30px 40px rgba(0,0,0,.75));
+  transition:transform .6s ease;
+}
+.photo-tilt:hover{ transform:rotate(-1deg) scale(1.02); }
+
+/* Tsitaat */
+blockquote{
+  margin:0;
+  padding:0 0 0 1.2em;
+  border-left:2px solid var(--brass);
+  font-size:clamp(1.15rem, 2vw, 1.5rem);
+  line-height:1.4;
+  font-style:italic;
+  color:var(--parchment);
+}
+blockquote cite{ display:block; margin-top:.6em; font-size:.8rem; font-style:normal; letter-spacing:.2em; text-transform:uppercase; color:var(--brass); }
+
+/* Kontakt */
+.contact{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap:18px;
+}
+.contact .item{ padding:16px 18px; border:1px solid rgba(232,201,122,.2); border-radius:6px; background:rgba(0,0,0,.25); }
+.contact .item small{ display:block; margin-bottom:.3em; font-size:.72rem; letter-spacing:.22em; text-transform:uppercase; color:var(--brass); }
+.contact .item a{ border:0; font-size:1.05rem; }
+
+/* Jalus */
+.foot{
+  padding:clamp(32px, 6vh, 64px) 0 clamp(28px, 5vh, 48px);
+  border-top:1px solid rgba(232,201,122,.14);
+  font-size:.86rem;
+  color:var(--parchment-dim);
+}
+.foot .wrap{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px 28px; }
+.foot nav{ display:flex; flex-wrap:wrap; gap:8px 22px; }
+.foot nav a{ border:0; letter-spacing:.14em; text-transform:uppercase; font-size:.76rem; }
+.foot nav a.is-here{ color:var(--parchment); }
+
+/* Teralisus — sama mis esilehe ajutisel versioonil */
+.grain{
+  position:fixed;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+  opacity:.08;
+  mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.sr-only{
+  position:absolute;
+  width:1px; height:1px;
+  padding:0; margin:-1px;
+  overflow:hidden;
+  clip-path:inset(50%);
+  white-space:nowrap;
+}
+
+/* Pildigalerii */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+  gap:14px;
+}
+.gallery figure{ margin:0; position:relative; overflow:hidden; border-radius:4px; background:#1b120a; border:1px solid rgba(232,201,122,.16); }
+.gallery img{ display:block; width:100%; height:100%; aspect-ratio:2/1; object-fit:cover; transition:transform .7s ease, filter .7s ease; }
+.gallery figure:hover img{ transform:scale(1.04); }
+.gallery figcaption{ position:absolute; left:0; right:0; bottom:0; padding:8px 12px; font-size:.78rem; letter-spacing:.08em; background:linear-gradient(to top, rgba(6,4,3,.85), transparent); color:var(--parchment-dim); }
+
+/* Dokumendid (tunnistused) */
+.docs{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap:18px;
+}
+.docs figure{ margin:0; }
+.docs img{ display:block; width:100%; height:auto; border-radius:4px; border:1px solid rgba(232,201,122,.25); box-shadow:0 18px 30px -18px rgba(0,0,0,.9); }
+.docs figcaption{ margin-top:.6em; font-size:.84rem; color:var(--parchment-dim); }
+
+/* Kitsas ekraan */
+@media (max-width: 760px){
+  .hero{ padding-top:clamp(120px, 24vh, 170px); }
+  .hero-grid{ grid-template-columns:1fr; }
+  .hero-grid > :last-child{ order:-1; }
+  .photo-tilt{ width:min(70%, 320px); }
+  .facts{ grid-template-columns:1fr; gap:.1em 0; }
+  .facts dt{ margin-top:.7em; }
+  .langbar img{ width:clamp(54px, 15vw, 72px); }
+}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
+}

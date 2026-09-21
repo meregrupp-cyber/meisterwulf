@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en" data-lang="en" data-page="shoemaker"
+      data-title-et="Kingsepp — Meisterwulf" data-title-en="Shoemaker — Meisterwulf" data-title-zh="鞋匠 — Meisterwulf">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shoemaker — Meisterwulf</title>
+<meta name="description" content="Kriuks — jalatsite valmistamine eritellimusel. Käsitsi voolitud liistud, taimparknahk, kuni 200 töötundi paari kohta. Bespoke handmade shoes from Estonia.">
+<link rel="canonical" href="https://meisterwulf.com/shoemaker.html">
+<meta name="theme-color" content="#1c110a">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Meisterwulf">
+<meta property="og:title" content="Kingsepp · Shoemaker · 鞋匠 — Meisterwulf">
+<meta property="og:description" content="Kriuks — jalatsite valmistamine eritellimusel. Bespoke handmade shoes.">
+<meta property="og:url" content="https://meisterwulf.com/shoemaker.html">
+<meta property="og:image" content="https://meisterwulf.com/assets/landing/og.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js"></script>
+<style>
+/* Kingsepa töökoda: tume nahk, messingääris, pärgamentkaardid. */
+body.page-shoemaker{
+  background:
+    radial-gradient(90% 60% at 12% 8%, rgba(232,201,122,.22), transparent 60%),
+    radial-gradient(70% 50% at 90% 100%, rgba(120,70,30,.35), transparent 60%),
+    linear-gradient(165deg, #2a1a0d 0%, #1a100a 48%, #0b0805 100%);
+  background-attachment:fixed;
+}
+/* õmblusjoon lehe ääres */
+body.page-shoemaker::after{
+  content:"";
+  position:fixed;
+  inset:clamp(8px, 1.4vw, 18px);
+  z-index:2;
+  pointer-events:none;
+  border:1px dashed rgba(232,201,122,.28);
+  border-radius:4px;
+}
+.hero-grid .photo-tilt{ transform:rotate(-4deg); }
+
+/* teenuste loend messingnõeltega */
+.pins{ list-style:none; margin:0; padding:0; display:grid; gap:10px; }
+.pins li{ position:relative; padding:12px 16px 12px 40px; border:1px solid rgba(90,64,30,.28); border-radius:4px; background:rgba(255,255,255,.28); }
+.pins li::before{
+  content:""; position:absolute; left:14px; top:50%; width:12px; height:12px; margin-top:-6px; border-radius:50%;
+  background:radial-gradient(circle at 34% 30%, #f0dca4, var(--brass) 58%, #7d6215);
+  box-shadow:0 1px 2px rgba(0,0,0,.5);
+}
+
+/* protsess: neli sammu, suur messingnumber */
+.steps{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap:18px; counter-reset:step; }
+.step{ position:relative; padding:26px 20px 20px; border:1px solid rgba(232,201,122,.2); border-radius:6px; background:rgba(0,0,0,.28); counter-increment:step; }
+.step::before{
+  content:counter(step, decimal-leading-zero);
+  display:block; margin-bottom:.4em;
+  font-size:2.4rem; line-height:1; letter-spacing:.04em;
+  color:var(--brass); text-shadow:0 0 22px rgba(232,201,122,.35);
+}
+.step h3{ margin-bottom:.3em; }
+.step p{ font-size:.96rem; color:var(--parchment-dim); }
+
+.quote-band{
+  padding:clamp(40px, 7vh, 80px) 0;
+  text-align:center;
+}
+.quote-band blockquote{ border:0; padding:0; margin-inline:auto; max-width:38ch; font-size:clamp(1.3rem, 2.6vw, 2rem); }
+.quote-band blockquote::before, .quote-band blockquote::after{
+  content:""; display:block; width:120px; height:1px; margin:18px auto;
+  background:linear-gradient(to right, transparent, var(--brass), transparent);
+}
+
+/* YouTube klõpsu peale: enne seda ainult oma pilt, ühtegi päringut YouTube'i ei tehta */
+.video{ position:relative; aspect-ratio:16/9; overflow:hidden; border-radius:6px; border:1px solid rgba(232,201,122,.3); background:#1b120a; box-shadow:0 24px 40px -22px rgba(0,0,0,.95); }
+.video-play{ display:block; width:100%; height:100%; padding:0; border:0; background:none; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.video-play img{ display:block; width:100%; height:100%; object-fit:cover; transition:transform .8s ease, filter .5s ease; }
+.video-play:hover img, .video-play:focus-visible img{ transform:scale(1.03); filter:brightness(1.08); }
+.video-play:focus-visible{ outline:2px solid var(--brass-light); outline-offset:-2px; }
+.video-btn{ position:absolute; left:50%; top:50%; width:84px; height:84px; margin:-42px 0 0 -42px; border-radius:50%; border:1px solid var(--brass-light); background:rgba(11,8,5,.62); box-shadow:0 0 30px rgba(232,201,122,.35); transition:transform .3s, background .3s; }
+.video-btn::after{ content:""; position:absolute; left:50%; top:50%; margin:-14px 0 0 -9px; border-left:24px solid var(--brass-light); border-top:14px solid transparent; border-bottom:14px solid transparent; }
+.video-play:hover .video-btn{ transform:scale(1.08); background:rgba(11,8,5,.8); }
+.video-title{ position:absolute; left:0; right:0; bottom:0; padding:14px 18px; text-align:left; font-size:.86rem; letter-spacing:.1em; color:var(--parchment); background:linear-gradient(to top, rgba(6,4,3,.85), transparent); }
+.video iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+</style>
+</head>
+<body class="page page-shoemaker has-lang">
+
+<a class="wulf" href="/" aria-label="Meisterwulf">
+  <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
+  <span class="wulf-caption"><span data-l="et">Tagasi esilehele</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span></span>
+</a>
+
+<nav class="langbar" aria-label="Keel · Language · 语言">
+  <button type="button" data-set-lang="et" aria-pressed="false"><img src="/assets/landing/tere.webp" width="717" height="440" alt="eesti keel"></button>
+  <button type="button" data-set-lang="en" aria-pressed="false"><img src="/assets/landing/hello.webp" width="764" height="430" alt="English"></button>
+  <button type="button" data-set-lang="zh" aria-pressed="false"><img src="/assets/landing/nihao.webp" width="711" height="432" alt="中文"></button>
+</nav>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Kriuks · <span data-l="et">käsitöökingad</span><span data-l="en">handmade shoes</span><span data-l="zh">手工制鞋</span></p>
+      <h1><span data-l="et">Kingsepp</span><span data-l="en">Shoemaker</span><span data-l="zh">鞋匠</span></h1>
+      <p class="lede">
+        <span data-l="et">Jalatsite valmistamine eritellimusel. Kliendi jala järgi voolitud liistud, taimparknahk ja kuni 200 töötundi ühe paari kohta.</span>
+        <span data-l="en">Bespoke footwear. Lasts carved to your feet, plant-tanned leather and up to 200 hours of work in a single pair.</span>
+        <span data-l="zh">定制鞋履。按您的双脚雕刻鞋楦，植鞣皮革，一双鞋最多凝聚 200 个工时。</span>
+      </p>
+    </div>
+    <img class="photo-tilt" src="/assets/landing/shoemaker.webp" width="751" height="577" alt="" decoding="async">
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap cols">
+      <div>
+        <h2><span data-l="et">Päris asjade maailm</span><span data-l="en">The world of real things</span><span data-l="zh">真实之物的世界</span></h2>
+        <p data-l="et">Moodsal ajal loovad käsitsi meisterdatud jalanõud kontakti päris asjade maailmaga. Kõrvalseisjatele annavad käsitöökingad signaali nende omaniku positsioonist.</p>
+        <p data-l="et">Jalatsite valmistamine toimub Kriuksus nö rätsepatööna, toetudes ligi 100-aastasele traditsioonide pagasile. Kriuks lähtub aegumatust Euroopa klassikast, mis kliendi soovide järgi vormitakse personaalseks taieseks. Iga jalatsipaar signeeritakse, tagades unikaalsuse terves ilmas.</p>
+        <p data-l="en">In a modern age, hand-made shoes keep us in touch with the world of real things. To onlookers, handcrafted shoes signal the standing of their owner.</p>
+        <p data-l="en">At Kriuks, shoes are made the way a tailor makes a suit, drawing on almost a century of tradition. We start from timeless European classics and shape them to the client's wishes into a personal piece. Every pair is signed, making it unique in the whole world.</p>
+        <p data-l="zh">在当今时代，手工制作的鞋履让人与真实之物的世界保持联系。对旁人而言，手工鞋透露着主人的身份与品位。</p>
+        <p data-l="zh">在 Kriuks，制鞋如同裁缝做衣，依托近百年的手艺传统。我们以经久不衰的欧洲经典为出发点，按顾客的心愿塑造成个人的作品。每一双鞋都有签名，在世上独一无二。</p>
+      </div>
+      <div class="card card--paper">
+        <h3><span data-l="et">Eritellimusel</span><span data-l="en">Made to order</span><span data-l="zh">定制项目</span></h3>
+        <ul class="pins">
+          <li><span data-l="et">Meeste tänavakingad ja saapad</span><span data-l="en">Men's street shoes and boots</span><span data-l="zh">男士街鞋与靴子</span></li>
+          <li><span data-l="et">Naiste tänavakingad ja saapad</span><span data-l="en">Women's street shoes and boots</span><span data-l="zh">女士街鞋与靴子</span></li>
+          <li><span data-l="et">Peojalatsid</span><span data-l="en">Evening and formal shoes</span><span data-l="zh">宴会与正装鞋</span></li>
+          <li><span data-l="et">Tööjalatsid</span><span data-l="en">Work footwear</span><span data-l="zh">工作鞋</span></li>
+          <li><span data-l="et">Eriprojektid</span><span data-l="en">Special projects</span><span data-l="zh">特别项目</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2><span data-l="et">Kuidas king sünnib</span><span data-l="en">How a shoe is born</span><span data-l="zh">一双鞋是怎样诞生的</span></h2>
+      <div class="steps">
+        <div class="step">
+          <h3><span data-l="et">Mõõtmine</span><span data-l="en">Measuring</span><span data-l="zh">量脚</span></h3>
+          <p data-l="et">Jala mõõdud võetakse kohapeal. Koos valime mudeli, naha ja detailid.</p>
+          <p data-l="en">Your feet are measured in the workshop. Together we choose the model, the leather and the details.</p>
+          <p data-l="zh">在工坊现场为您量脚，一起选定款式、皮革与细节。</p>
+        </div>
+        <div class="step">
+          <h3><span data-l="et">Liistud</span><span data-l="en">The lasts</span><span data-l="zh">鞋楦</span></h3>
+          <p data-l="et">Kliendi jala mõõtude järgi voolitakse kohapeal puust liistud — isiklikud vormid, mille peale jalats ehitatakse.</p>
+          <p data-l="en">Wooden lasts are carved on site to your measurements: personal forms on which the shoe is built.</p>
+          <p data-l="zh">按您双脚的尺寸现场雕刻木制鞋楦，这是专属于您的鞋型。</p>
+        </div>
+        <div class="step">
+          <h3><span data-l="et">Ehitus</span><span data-l="en">Building</span><span data-l="zh">制作</span></h3>
+          <p data-l="et">Jalatsit ehitatakse liistule kiht-kihilt. Ühe kingapaari nikerdamisele kulub kuni 200 töötundi.</p>
+          <p data-l="en">The shoe is built on the last layer by layer. Carving out a single pair takes up to 200 hours of work.</p>
+          <p data-l="zh">在鞋楦上一层一层地做出鞋子。一双鞋的制作最多需要 200 个工时。</p>
+        </div>
+        <div class="step">
+          <h3><span data-l="et">Signeerimine</span><span data-l="en">Signing</span><span data-l="zh">签名</span></h3>
+          <p data-l="et">Iga valmis paar signeeritakse. Teist samasugust ei ole kusagil ilmas.</p>
+          <p data-l="en">Every finished pair is signed. There is no other like it anywhere in the world.</p>
+          <p data-l="zh">每一双完成的鞋都有签名，世上再无第二双。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap cols">
+      <div>
+        <h2><span data-l="et">Nahk</span><span data-l="en">The leather</span><span data-l="zh">皮革</span></h2>
+        <p data-l="et">Jalatsinahka pargib, iidseid retsepte kasutades, <a href="https://tripleskin.com/english/" rel="noopener">Lõuna-Eesti nahameister</a>. Nahka pargitakse ja värvitakse taimsete ekstraktidega eksklusiivselt ainult Kriuksule.</p>
+        <p data-l="en">The leather is tanned by a <a href="https://tripleskin.com/english/" rel="noopener">master tanner in South Estonia</a> using ancient recipes. It is tanned and dyed with plant extracts exclusively for Kriuks.</p>
+        <p data-l="zh">鞋用皮革由<a href="https://tripleskin.com/english/" rel="noopener">爱沙尼亚南部的制革师傅</a>按古法鞣制，以植物提取物鞣制和染色，专供 Kriuks 使用。</p>
+      </div>
+      <div>
+        <h2><span data-l="et">Hooldus</span><span data-l="en">Care</span><span data-l="zh">保养</span></h2>
+        <p data-l="et">Taimpargitud nahk elab koos kandjaga: ta võtab vormi, tumeneb ja saab patina. Puhastamine, toitmine ja liistude kasutamine hoiavad paari aastakümneid. Küsi hooldusnõu tellimisel — iga nahk on erinev.</p>
+        <p data-l="en">Plant-tanned leather lives with its wearer: it takes shape, darkens and gains a patina. Cleaning, feeding and shoe trees keep a pair going for decades. Ask for care advice when you order; every leather is different.</p>
+        <p data-l="zh">植鞣皮革会与主人一同生长：它会定型、变深、形成包浆。清洁、滋养并使用鞋撑，可让一双鞋陪伴您数十年。订购时请咨询保养建议，每种皮革都不一样。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="video">
+    <div class="wrap">
+      <h2><span data-l="et">Kingade tegemine</span><span data-l="en">Making a pair of shoes</span><span data-l="zh">制鞋</span></h2>
+      <p data-l="et">Lühifilm Kriuksu töökojast: pigitraadist ja liistust valmis kingani. Video avaneb YouTube'ist alles klõpsu peale.</p>
+      <p data-l="en">A short film from the Kriuks workshop: from waxed thread and last to the finished shoe. The video loads from YouTube only when you press play.</p>
+      <p data-l="zh">来自 Kriuks 工坊的短片：从蜡线和鞋楦到成鞋。视频在点击播放后才从 YouTube 加载。</p>
+      <div class="video" id="ytvideo" data-yt="hkIvoLg7GcA">
+        <button type="button" class="video-play" aria-label="Play: Kingade tegemine">
+          <img src="/assets/shoemaker/video-kingade-tegemine.jpg" width="1280" height="720" alt="Taniel Suvi keerutab töökoja ees pigitraati" loading="lazy" decoding="async">
+          <span class="video-btn" aria-hidden="true"></span>
+          <span class="video-title">Kingade tegemine · <span data-l="et">Eesti Käsitöö</span><span data-l="en">Eesti Käsitöö (Estonian Handicraft)</span><span data-l="zh">Eesti Käsitöö（爱沙尼亚手工艺）</span></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="galerii">
+    <div class="wrap">
+      <h2><span data-l="et">Galerii</span><span data-l="en">Gallery</span><span data-l="zh">作品</span></h2>
+      <p data-l="et">Valik Kriuksu töökojas valminud jalatseid.</p>
+      <p data-l="en">A selection of footwear made in the Kriuks workshop.</p>
+      <p data-l="zh">Kriuks 工坊制作的部分鞋履。</p>
+      <div class="gallery">
+        <figure><img src="/assets/shoemaker/kingad_01.jpg" width="1024" height="512" alt="Brown cap-toe oxfords, plant-tanned leather" loading="lazy" decoding="async"><figcaption><span data-l="et">Pruunid oksfordid, taimparknahk</span><span data-l="en">Brown cap-toe oxfords, plant-tanned leather</span><span data-l="zh">棕色牛津鞋，植鞣皮革</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/semi-brogue.jpg" width="1024" height="512" alt="Semi-brogue with leather sole" loading="lazy" decoding="async"><figcaption><span data-l="et">Semi-brogue, nahktald</span><span data-l="en">Semi-brogue with leather sole</span><span data-l="zh">半雕花牛津鞋，皮底</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/012.jpg" width="1024" height="512" alt="Black monk-strap shoes" loading="lazy" decoding="async"><figcaption><span data-l="et">Mustad pannalkingad</span><span data-l="en">Black monk-strap shoes</span><span data-l="zh">黑色孟克鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/monk-shoes-3.jpg" width="1024" height="512" alt="Monk-strap shoes" loading="lazy" decoding="async"><figcaption><span data-l="et">Pannalkingad</span><span data-l="en">Monk-strap shoes</span><span data-l="zh">孟克鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/yufte_00-1.jpg" width="1024" height="512" alt="Double monks in Russian leather (yuft)" loading="lazy" decoding="async"><figcaption><span data-l="et">Kahe pandlaga kingad juhtnahast</span><span data-l="en">Double monks in Russian leather (yuft)</span><span data-l="zh">俄罗斯皮革双扣孟克鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/easy_walker_russian_leather_4.jpg" width="1024" height="512" alt="Easy Walker, Russian leather" loading="lazy" decoding="async"><figcaption><span data-l="et">Easy Walker, juhtnahk</span><span data-l="en">Easy Walker, Russian leather</span><span data-l="zh">Easy Walker，俄罗斯皮革</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/dark_clerks_3.jpg" width="1024" height="512" alt="Dark Clerks" loading="lazy" decoding="async"><figcaption><span data-l="et">Dark Clerks</span><span data-l="en">Dark Clerks</span><span data-l="zh">Dark Clerks</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/kingad-eritellimusel-3.jpg" width="1024" height="512" alt="Two-tone spectator shoes" loading="lazy" decoding="async"><figcaption><span data-l="et">Kahevärvilised kingad</span><span data-l="en">Two-tone spectator shoes</span><span data-l="zh">双色拼接皮鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/blue-steel-shoes.jpg" width="1024" height="512" alt="Blue Steel boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Blue Steel — sinised saapad</span><span data-l="en">Blue Steel boots</span><span data-l="zh">Blue Steel 蓝色短靴</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/02.jpg" width="1024" height="512" alt="Lace-up boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Nöörsaapad</span><span data-l="en">Lace-up boots</span><span data-l="zh">系带靴</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/kauboisaapad-023.jpg" width="1024" height="512" alt="Cowboy boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Kauboisaapad</span><span data-l="en">Cowboy boots</span><span data-l="zh">牛仔靴</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/Jaktstovlar-lader-01.jpg" width="1024" height="512" alt="Hunting boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Jahisaapad</span><span data-l="en">Hunting boots</span><span data-l="zh">猎靴</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/moto03.jpg" width="1024" height="512" alt="Riding boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Ratsasaapad</span><span data-l="en">Riding boots</span><span data-l="zh">马靴</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/kingad-eritellimusel-01.jpg" width="1024" height="512" alt="Women’s brogued pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Naiste kingad, kontsaga</span><span data-l="en">Women’s brogued pumps</span><span data-l="zh">女士雕花高跟鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/aeon_kriuks_11.jpg" width="1024" height="512" alt="Aeon, blue pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Aeon — sinised kingad</span><span data-l="en">Aeon, blue pumps</span><span data-l="zh">Aeon 蓝色高跟鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/kasitoo-kingad-1.jpg" width="1024" height="512" alt="Peep-toe pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Lahtise ninaga kingad</span><span data-l="en">Peep-toe pumps</span><span data-l="zh">鱼嘴高跟鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/black_red_platfor_shoes.jpg" width="1024" height="512" alt="Platform pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Platvormkingad</span><span data-l="en">Platform pumps</span><span data-l="zh">厚底高跟鞋</span></figcaption></figure>
+        <figure><img src="/assets/shoemaker/yes-minister-kriuks-01.jpg" width="1024" height="512" alt="Yes Minister" loading="lazy" decoding="async"><figcaption><span data-l="et">Yes Minister</span><span data-l="en">Yes Minister</span><span data-l="zh">Yes Minister</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section quote-band">
+    <div class="wrap">
+      <blockquote lang="fr">La mode se démode, le style jamais.
+        <span lang="et" data-l="et">— mood läheb moest, stiil mitte kunagi</span>
+        <span lang="en" data-l="en">— fashion fades, style never does</span>
+        <span lang="zh" data-l="zh">— 时尚易逝，风格永存</span>
+        <cite>Coco Chanel</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2><span data-l="et">Kontakt</span><span data-l="en">Contact</span><span data-l="zh">联系</span></h2>
+      <p data-l="et">Tellimine algab vestlusest: kirjuta, milliseid jalatseid soovid, ja lepime kokku mõõtmise aja.</p>
+      <p data-l="en">Every order starts with a conversation: write what kind of shoes you have in mind and we will arrange a time for measuring.</p>
+      <p data-l="zh">每一份订单都从一次交谈开始：请写下您想要的鞋子，我们会约定量脚的时间。</p>
+      <div class="contact">
+        <div class="item"><small><span data-l="et">E-post</span><span data-l="en">Email</span><span data-l="zh">电子邮件</span></small><a data-u="kriuks" data-d="suvi.ch" data-subject="Kriuks — jalatsid eritellimusel" href="#">kriuks [at] suvi.ch</a></div>
+        <div class="item"><small><span data-l="et">Töökoda</span><span data-l="en">Workshop</span><span data-l="zh">工坊</span></small>Alliku küla (Laagri), Saue vald, <span data-l="et">Eesti</span><span data-l="en">Estonia</span><span data-l="zh">爱沙尼亚</span></div>
+        <div class="item"><small><span data-l="et">Meister</span><span data-l="en">Master</span><span data-l="zh">师傅</span></small>Taniel Suvi · Kriuks OÜ</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Meisterwulf · Kriuks OÜ</span>
+    <nav aria-label="Meisterwulf">
+      <a href="/">Meisterwulf</a>
+      <a href="/shoemaker.html" class="is-here" data-keep-lang><span data-l="et">Kingsepp</span><span data-l="en">Shoemaker</span><span data-l="zh">鞋匠</span></a>
+      <a href="/mantis.html" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
+      <a href="/books.html" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
+    </nav>
+  </div>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+(function () {
+  var box = document.getElementById("ytvideo");
+  if (!box) return;
+  box.querySelector(".video-play").addEventListener("click", function () {
+    var f = document.createElement("iframe");
+    f.src = "https://www.youtube-nocookie.com/embed/" + box.getAttribute("data-yt") + "?autoplay=1&rel=0";
+    f.title = "Kingade tegemine";
+    f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    f.setAttribute("allowfullscreen", "");
+    f.referrerPolicy = "strict-origin-when-cross-origin";
+    box.replaceChildren(f);
+  });
+})();
+</script>
+</body>
+</html>

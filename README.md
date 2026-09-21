@@ -1,6 +1,9 @@
 # meisterwulf.com
 
-Ajutine avaleht domeenile **meisterwulf.com**. Staatiline üheleheline sait.
+Staatiline sait domeenile **meisterwulf.com**: esileht ja kolm alalehte kolmes
+keeles (eesti, inglise, hiina). Väliseid teeke ega fonte ei laadita; ainus
+kolmanda osapoole sisu on kingsepa lehe YouTube'i video, mis laetakse alles
+klõpsu peale.
 
 **Majutus:** GitHub Pages · **DNS ja vahemälu:** Cloudflare
 (sama seadistus nagu freedive.ee)
@@ -12,8 +15,85 @@ GitHub Pages            Cloudflare              külastaja
    see repo, haru juurkaustast
 ```
 
-Cloudflare'i DNS-is on CNAME `meregrupp-cyber.github.io` peale, oranži
-pilvega (proksitud). Külastaja näeb Cloudflare'i IP-d, sisu tuleb GitHubist.
+---
+
+## Lehed
+
+| Fail | Sisu |
+|------|------|
+| `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm fotokaarti |
+| `shoemaker.html` | kingsepp (Kriuks): tekst, protsess, video, galerii, kontakt |
+| `mantis.html` | kung fu: treeningud, stiil, meister Wulf, liin, vormid, dokumendid |
+| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026) ja 狼的印记 (hiina k), andmed, tutvustus, näidis-PDF |
+| `404.html` | vealehekülg |
+
+### Esilehe loogika
+
+Paigutus järgib GIMP-i lõuendit 2912 × 1632 px. Kaks gruppi (sildid ja fotod)
+on lõuendi koordinaatides protsentidena, tükid gruppide sees samuti — nii
+püsivad ülekatted ja lõiked (tere parem serv hello all, mantise nurk
+shoemakeri all) igal ekraanil õiged. Püstisel ekraanil laotakse kaks gruppi
+üksteise alla ja taust katab ekraani.
+
+| Olek | Mis juhtub |
+|------|------------|
+| algus | inglise keel vaikimisi, kõik sildid 100%; fotod passiivsed (klõps paneb sildid korraks vilkuma) |
+| keel valitud | valitud silt vilgub õrnalt 5×, jääb 100%; teised tuhmuvad 30% peale; logo alla ilmub „Tagasi esilehele“ valitud keeles; fotod hakkavad laines helendama ja on klikitavad |
+| foto valitud | see vilgub kiiremini, teised kaovad; 2 s pärast avaneb alaleht `?lang=xx` |
+| logo | tagasi algolekusse |
+
+Klikitav ala on iga tüki tegelik kuju (`clip-path: polygon`), mitte
+ristkülik — nii ei jää läbipaistev nurk teise tüki ette.
+
+### Keeled
+
+Iga tekst on lehel kolmes keeles, iga keel oma elemendis: `data-l="et|en|zh"`.
+`<html data-lang="…">` valib, CSS peidab ülejäänud. Keel tuleb URL-ist
+(`?lang=zh`), muidu `localStorage`-ist (`mw-lang`), muidu inglise. Alalehe
+paremas ülanurgas on samad sildid keele vahetamiseks. Esileht algab alati
+neutraalsest olekust.
+
+Uue keele­teksti lisamiseks kirjuta kolm elementi kõrvuti:
+
+```html
+<p data-l="et">…</p><p data-l="en">…</p><p data-l="zh">…</p>
+```
+
+### Failid
+
+```
+index.html, shoemaker.html, mantis.html, books.html, 404.html
+assets/
+  site.css, site.js        ühised stiilid ja keelevalik
+  landing/                 esilehe tükid GIMP-i failist: bg.jpg (taust), tere/hello/nihao,
+                           shoemaker/mantis/books (.webp, läbipaistvad), og.jpg
+  logo/                    wulf-logo-320/640 (.webp, .png)
+  shoemaker/               galerii (1024×512, ühtlustatud toon), video eelvaade
+  kungfu/                  tunnistus 1991–92, pärimusregister 2023
+  books/                   kaaned (et, zh), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k)
+favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
+```
+
+Esilehe tükid on GIMP-i failist kihtidena välja võetud (koordinaadid on
+`index.html` sees `--px/--py/--pw/--ph` muutujatena). Kui GIMP-i faili
+muudad, ekspordi kihid uuesti samade nimedega.
+
+Galerii pildid on ühtlustatud tooniga (küllastus 58%, soe pruun-kuldne
+toon, vinjett), et erineva taustaga fotod istuksid lehe värvigammaga.
+
+### Raamatu lisamine
+
+`books.html` sees on iga raamat üks `<article class="book" id="…">`: kaanepilt
+(`assets/books/`, 700 px lai, .jpg + .webp), pealkiri, autor, lühitutvustus
+kolmes keeles, `<dl class="facts">` andmetega ja nupud. Hiinakeelne väljaanne
+tõstetakse hiina keele valikul CSS-iga esimeseks (`order:-1`). Lisa uus
+raamat ka `<script type="application/ld+json">` plokki.
+
+### Kontaktid lehel
+
+E-posti aadressid pannakse kokku JavaScriptiga (`data-u` + `data-d`), et
+robotid neid lähtekoodist ei korjaks. Kingsepp: kriuks@suvi.ch; kung fu ja
+raamatud: meister.wulf@pm.me, tel 510 5573.
 
 ---
 
@@ -42,66 +122,15 @@ pilvega (proksitud). Külastaja näeb Cloudflare'i IP-d, sisu tuleb GitHubist.
 | CNAME | `www` | `meregrupp-cyber.github.io` | Proxied |
 
 `www` suunatakse 301-ga apexile — selle teeb GitHub Pages ise, kuna failis
-`CNAME` on kirjas apex-domeen. Eraldi suunamisreeglit vaja ei ole.
+`CNAME` on kirjas apex-domeen.
 
 ### C. Kaks lõksu, mis muidu murravad HTTPS-i
 
-> Mõlemad seaded on **Cloudflare'i** poolel. GitHubis on ainus TLS-iga
-> seotud asi „Enforce HTTPS" linnuke Pages'i seadetes.
-
 1. **Sertifikaadi väljastamine ja oranž pilv.** Kuni GitHub pole sertifikaati
-   väljastanud, hoia kirjed **DNS only** (hall pilv) — muidu ei näe GitHub
-   domeeni ega saa seda kinnitada. Kui sertifikaat on olemas ja *Enforce
-   HTTPS* märgitud, lülita pilv oranžiks.
-
-2. **SSL/TLS režiim peab olema `Full`.**
-   Cloudflare → `meisterwulf.com` → vasak menüü **SSL/TLS** → **Overview** →
-   *Choose an encryption mode*.
-   Kui seal on **Flexible**, tekib GitHub Pagesi *Enforce HTTPS*-iga lõputu
-   ümbersuunamise tsükkel ja leht ei avane.
-
----
-
-## Failid
-
-```
-index.html      kogu leht — üks fail, väliste sõltuvusteta
-404.html        vealehekülg
-assets/
-  hero.jpg      avapilt (2400x1345, 625 kB)
-favicon.svg     vahekaardi ikoon
-robots.txt      indekseerimine lubatud
-sitemap.xml
-CNAME           meisterwulf.com — GitHub Pages loeb siit custom domain'i
-.nojekyll       Jekyll eemale, failid serveeritakse muutmata kujul
-```
-
-### Kuidas leht töötab
-
-`index.html` sisaldab kogu kujundust — CSS on failis sees, väliseid fonte ega
-teeke ei laadita. Lehel on kaks olekut:
-
-| Olek | Millal | Mida näidatakse |
-|------|--------|-----------------|
-| foto | `assets/hero.*` avaneb | pilt katab ekraani, all nimi |
-| varulahendus | pilti pole | CSS-iga joonistatud emailtahvlid |
-
-Väike skript lehe lõpus proovib pilti laadida ja lisab õnnestumisel `<body>`
-külge klassi `has-hero`. Katkist pildiikooni ei näidata kunagi.
-
-### Pildi vahetamine
-
-```sh
-cp uus-pilt.jpg assets/hero.jpg
-git commit -am "Vaheta avapilt" && git push
-```
-
-Hoia laius 2000-2400 px ja maht alla ~600 kB. Vt [`assets/README.md`](assets/README.md).
-
-### Teksti muutmine
-
-Nimi ja „Varsti avatud" on `index.html` lõpus, `<div class="plate">` sees.
-Värvid on faili alguses `:root` all.
+   väljastanud, hoia kirjed **DNS only** (hall pilv). Kui sertifikaat on
+   olemas ja *Enforce HTTPS* märgitud, lülita pilv oranžiks.
+2. **SSL/TLS režiim peab olema `Full`.** Cloudflare → **SSL/TLS** →
+   **Overview**. `Flexible` tekitab lõputu ümbersuunamise.
 
 ---
 
@@ -111,9 +140,3 @@ Värvid on faili alguses `:root` all.
 python3 -m http.server 8000
 # http://localhost:8000
 ```
-
-## Mida GitHub Pages ei oska
-
-Pages ei toeta kohandatud vastusepäiseid (`_headers` ei tööta). Turvapäised
-saab vajadusel lisada Cloudflare'i poolelt: **Rules → Transform Rules →
-Modify Response Header**. Ajutise avalehe jaoks pole see hädavajalik.

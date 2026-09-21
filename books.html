@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en" data-lang="en" data-page="books"
+      data-title-et="Raamatud — Meisterwulf" data-title-en="Books — Meisterwulf" data-title-zh="书 — Meisterwulf">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Books — Meisterwulf</title>
+<meta name="description" content="狼的印记 — Meister Wulf. Taniel Suvi romaan kingsepast ja tema õpipoisist Läänemere ääres, hiinakeelne väljaanne 24 linoollõikega. ISBN 978-9908-9922-1-1.">
+<link rel="canonical" href="https://meisterwulf.com/books.html">
+<meta name="theme-color" content="#0b1020">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Meisterwulf">
+<meta property="og:title" content="狼的印记 · Meister Wulf — raamat">
+<meta property="og:description" content="Taniel Suvi. Kingsepp Läänemere ääres ja tema õpipoiss. Hiinakeelne väljaanne, 24 linoollõiget. 49.99 €">
+<meta property="og:url" content="https://meisterwulf.com/books.html">
+<meta property="og:image" content="https://meisterwulf.com/assets/books/wolf-mark-cover.jpg">
+<meta property="book:isbn" content="978-9908-9922-1-1">
+<meta property="book:author" content="Taniel Suvi">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Book",
+      "name": "Meister Wulf",
+      "author": {"@type": "Person", "name": "Taniel Suvi"},
+      "isbn": "978-9908-9922-0-4",
+      "bookFormat": "https://schema.org/Hardcover",
+      "inLanguage": "et",
+      "datePublished": "2026-10",
+      "publisher": {"@type": "Organization", "name": "OÜ Kriuks", "address": "Tallinn, Estonia"},
+      "image": "https://meisterwulf.com/assets/books/meister-wulf-cover.jpg",
+      "offers": {"@type": "Offer", "price": "49.99", "priceCurrency": "EUR", "availability": "https://schema.org/PreOrder", "url": "https://meisterwulf.com/books.html#meister-wulf"}
+    },
+    {
+      "@type": "Book",
+      "name": "狼的印记 (Meister Wulf)",
+      "alternateName": "Meister Wulf",
+      "author": {"@type": "Person", "name": "Taniel Suvi"},
+      "editor": {"@type": "Person", "name": "Mai Suvi"},
+      "isbn": "978-9908-9922-1-1",
+      "inLanguage": "zh-Hans",
+      "datePublished": "2026",
+      "publisher": {"@type": "Organization", "name": "OÜ Kriuks", "address": "Tallinn, Estonia"},
+      "image": "https://meisterwulf.com/assets/books/wolf-mark-cover.jpg",
+      "offers": {"@type": "Offer", "price": "49.99", "priceCurrency": "EUR", "availability": "https://schema.org/PreOrder", "url": "https://meisterwulf.com/books.html#wolf-mark"}
+    }
+  ]
+}
+</script>
+<style>
+/* Raamatud: kaane tumesinine nahk, kuld, eeslehe muster ribana. */
+body.page-books{
+  background:
+    radial-gradient(70% 45% at 50% 0%, rgba(201,162,39,.14), transparent 60%),
+    linear-gradient(175deg, #10182b 0%, #0b1020 40%, #070a14 100%);
+  background-attachment:fixed;
+}
+.endpaper{
+  height:clamp(70px, 12vh, 130px);
+  background:url("/assets/books/endpaper.jpg") center / 600px auto repeat;
+  border-bottom:1px solid rgba(232,201,122,.35);
+  box-shadow:0 12px 40px rgba(0,0,0,.6);
+  -webkit-mask-image:linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,.55));
+  mask-image:linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,.55));
+}
+.hero{ padding-top:clamp(72px, 11vh, 120px); }
+
+.books{ display:grid; gap:clamp(48px, 8vh, 96px); }
+html[data-lang="zh"] #wolf-mark{ order:-1; }
+.book-title--latin{ font-family:var(--font-serif); text-transform:uppercase; letter-spacing:.12em; font-size:clamp(1.8rem, 4.4vw, 3rem); }
+.badge{ display:inline-block; margin-left:.6em; padding:.15em .7em; border-radius:999px; border:1px solid rgba(232,201,122,.5); font-size:.68rem; letter-spacing:.18em; text-transform:uppercase; vertical-align:middle; color:var(--brass-light); }
+.book-lang{ font-size:.8rem; letter-spacing:.2em; text-transform:uppercase; color:var(--parchment-dim); }
+.book{
+  display:grid;
+  grid-template-columns:minmax(220px, 340px) minmax(0, 1fr);
+  gap:clamp(24px, 5vw, 64px);
+  align-items:start;
+}
+.book-cover{
+  position:relative;
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:3px 8px 8px 3px;
+  box-shadow:
+    inset 6px 0 10px -6px rgba(255,255,255,.25),
+    0 30px 50px -20px rgba(0,0,0,.95),
+    0 0 0 1px rgba(232,201,122,.25);
+  transform:perspective(1200px) rotateY(8deg);
+  transform-origin:left center;
+  transition:transform .6s ease;
+}
+.book-cover:hover{ transform:perspective(1200px) rotateY(2deg) scale(1.01); }
+.book-title{
+  margin:0 0 .2em;
+  font-weight:400;
+  font-size:clamp(2rem, 5vw, 3.6rem);
+  line-height:1.05;
+  letter-spacing:.06em;
+  color:var(--brass-light);
+  font-family:var(--font-zh);
+}
+.book-sub{ margin:0 0 .8em; font-size:clamp(1.05rem, 2vw, 1.4rem); color:var(--parchment); }
+.book-author{ margin:0 0 1.2em; font-size:.85rem; letter-spacing:.24em; text-transform:uppercase; color:var(--brass); }
+.price{
+  display:inline-flex; align-items:baseline; gap:.35em;
+  padding:.35em .9em; border:1px solid var(--brass); border-radius:999px;
+  font-size:1.25rem; color:var(--parchment); background:rgba(232,201,122,.08);
+}
+.price small{ font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); }
+
+.blurb{
+  margin-top:0;
+  padding:clamp(22px, 3vw, 40px);
+  border:1px solid rgba(232,201,122,.28);
+  border-radius:6px;
+  background:linear-gradient(180deg, rgba(232,201,122,.06), rgba(0,0,0,.25));
+}
+.blurb .tagline{
+  margin:0 0 1em;
+  font-size:clamp(1.25rem, 2.4vw, 1.8rem);
+  line-height:1.3;
+  color:var(--brass-light);
+  font-style:italic;
+}
+.blurb .tagline[data-l="zh"]{ font-style:normal; }
+.blurb p{ max-width:70ch; }
+
+.peek{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap:18px;
+  align-items:start;
+}
+.peek figure{ margin:0; }
+.peek img{ display:block; width:100%; height:auto; border-radius:4px; border:1px solid rgba(232,201,122,.2); box-shadow:0 20px 30px -20px rgba(0,0,0,.95); background:#f3ead6; }
+.peek figcaption{ margin-top:.6em; font-size:.84rem; color:var(--parchment-dim); }
+
+.about{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap:clamp(18px, 3vw, 36px); }
+
+@media (max-width: 700px){
+  .book{ grid-template-columns:1fr; }
+  .book-cover{ width:min(70%, 300px); margin-inline:auto; transform:none; }
+}
+</style>
+</head>
+<body class="page page-books has-lang">
+
+<a class="wulf" href="/" aria-label="Meisterwulf">
+  <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
+  <span class="wulf-caption"><span data-l="et">Tagasi esilehele</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span></span>
+</a>
+
+<nav class="langbar" aria-label="Keel · Language · 语言">
+  <button type="button" data-set-lang="et" aria-pressed="false"><img src="/assets/landing/tere.webp" width="717" height="440" alt="eesti keel"></button>
+  <button type="button" data-set-lang="en" aria-pressed="false"><img src="/assets/landing/hello.webp" width="764" height="430" alt="English"></button>
+  <button type="button" data-set-lang="zh" aria-pressed="false"><img src="/assets/landing/nihao.webp" width="711" height="432" alt="中文"></button>
+</nav>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="endpaper" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Meisterwulf · Kriuks</p>
+    <h1><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></h1>
+    <p class="lede">
+      <span data-l="et">Meister Wulfi raamatud ja trükised. Kingad, meri ja rusikas — kõik asjad, mida autor on oma käega teinud.</span>
+      <span data-l="en">Books and print from Master Wulf. Shoes, the sea and the fist: all things the author has done with his own hands.</span>
+      <span data-l="zh">Wulf 师傅的书与印刷品。鞋、海和拳，都是作者亲手做过的事。</span>
+    </p>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap books">
+
+      <article class="book" id="meister-wulf">
+        <picture>
+          <source srcset="/assets/books/meister-wulf-cover.webp" type="image/webp">
+          <img class="book-cover" src="/assets/books/meister-wulf-cover.jpg" width="700" height="1045" alt="Meister Wulf — raamatu kaas: tumesinine nahk, kuldne vapp hundiga" decoding="async">
+        </picture>
+        <div>
+          <h2 class="book-title book-title--latin">Meister Wulf <span class="badge"><span data-l="et">Ilmub oktoobris 2026</span><span data-l="en">Out October 2026</span><span data-l="zh">2026 年 10 月出版</span></span></h2>
+          <p class="book-sub">
+            <span data-l="et">Romaan kingsepast Läänemere ääres ja tema õpipoisist</span>
+            <span data-l="en">A novel about a shoemaker on the Baltic shore and his apprentice</span>
+            <span data-l="zh">关于波罗的海边的鞋匠与他的学徒的长篇小说</span>
+          </p>
+          <p class="book-author">Taniel Suvi · <span class="book-lang"><span data-l="et">eesti keeles</span><span data-l="en">in Estonian</span><span data-l="zh">爱沙尼亚文版</span></span></p>
+
+          <p data-l="et">1908, üks Eesti kaluriküla. Neljateistkümneaastane maata poiss Taniel saadetakse neljaks aastaks õpipoisiks kingsepa juurde, keda küla kutsub Kriuksuks. Õpiraha on ainult neli aastat pigitraati. Ta õpib pigitraati keerutama, pealseid liistule tõmbama, pigi keetma ja nahka parkima; õpib jää all lahtiste silmadega lugema — ja saab tasapisi aru, et meister, kes igal varahommikul õues käsi vehib, ei aja kärbseid. Miks saapad vahel laulavad ja vahel vaikivad, annab see maja välja kõige viimasena.</p>
+          <p data-l="en">1908, an Estonian fishing village. Taniel, a landless boy of fourteen, is sent for four years as apprentice to the shoemaker the village calls Kriuks. The fee is four years of waxed thread. He learns to twist thread, to last uppers, to boil pitch and to tan leather; to count with his eyes open under the ice; and, little by little, that the master swinging his arms in the yard each dawn is not shooing flies. Why the boots sometimes sing and sometimes stay silent is the last thing the house gives up.</p>
+          <p data-l="zh">一九〇八年，一个爱沙尼亚渔村。十四岁没有土地的少年塔尼耶尔被送到人们叫作“咯吱”的鞋匠家当四年学徒，拜师钱只要四年的蜡线。他学会搓蜡线、绷帮、熬沥青、硝皮；学会在冰底下睁着眼睛数数；也一点一点明白，师傅每天清早在院子里挥动胳膊，不是在赶苍蝇。至于靴子为什么有时候唱、有时候一声不出，那是这所房子最后才肯交出来的东西。</p>
+
+          <dl class="facts">
+            <dt><span data-l="et">Keel</span><span data-l="en">Language</span><span data-l="zh">语言</span></dt><dd><span data-l="et">eesti</span><span data-l="en">Estonian</span><span data-l="zh">爱沙尼亚文</span></dd>
+            <dt><span data-l="et">Köide</span><span data-l="en">Binding</span><span data-l="zh">装帧</span></dt><dd><span data-l="et">kõvad kaaned</span><span data-l="en">hardcover</span><span data-l="zh">精装</span></dd>
+            <dt><span data-l="et">Ilmumine</span><span data-l="en">Published</span><span data-l="zh">出版时间</span></dt><dd><span data-l="et">oktoober 2026</span><span data-l="en">October 2026</span><span data-l="zh">2026 年 10 月</span></dd>
+            <dt><span data-l="et">Kirjastus</span><span data-l="en">Publisher</span><span data-l="zh">出版</span></dt><dd>OÜ Kriuks, Tallinn</dd>
+            <dt>ISBN</dt><dd>978-9908-9922-0-4</dd>
+            <dt><span data-l="et">Hind</span><span data-l="en">Price</span><span data-l="zh">价格</span></dt><dd><span class="price">49.99 € <small>EUR</small></span></dd>
+          </dl>
+
+          <div class="btn-row">
+            <a class="btn btn--solid" data-u="meister.wulf" data-d="pm.me" data-subject="Ettetellimus: Meister Wulf (eesti k)" data-keep-text="1" href="#"><span data-l="et">Telli ette e-posti teel</span><span data-l="en">Pre-order by email</span><span data-l="zh">邮件预订</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="book" id="wolf-mark">
+        <a href="/assets/books/hundi-margid-naidis-zh.pdf" target="_blank" rel="noopener" aria-label="狼的印记 — PDF">
+          <picture>
+            <source srcset="/assets/books/wolf-mark-cover.webp" type="image/webp">
+            <img class="book-cover" src="/assets/books/wolf-mark-cover.jpg" width="700" height="1045" alt="狼的印记 — raamatu kaas: tumesinine nahk, kuldne vapp hundiga" decoding="async">
+          </picture>
+        </a>
+        <div>
+          <h2 class="book-title" lang="zh">狼的印记</h2>
+          <p class="book-sub">
+            <span data-l="et">Meister Wulf — kingsepp Läänemere ääres ja tema õpipoiss</span>
+            <span data-l="en">Meister Wulf — a shoemaker on the Baltic shore and his apprentice</span>
+            <span data-l="zh">波罗的海边的鞋匠与他的学徒</span>
+          </p>
+          <p class="book-author">Taniel Suvi · <span lang="zh">塔涅尔·苏维</span> · <span class="book-lang"><span data-l="et">hiina keeles</span><span data-l="en">in Chinese</span><span data-l="zh">中文版</span></span></p>
+
+          <p data-l="et">Romaani „Meister Wulf“ hiinakeelne väljaanne 24 linoollõikega. Sama lugu Tanielist, Kriuksust ja saabastest, mis laulavad — nüüd hiina lugejale, kes näeb raamatus ühte liini enne eesti lugejat: seda, mida meister Shandongist kaasa tõi.</p>
+          <p data-l="en">The Chinese edition of "Meister Wulf", with 24 linocuts. The same story of Taniel, Kriuks and the boots that sing, now for Chinese readers, who will spot one thread in the book before Estonian readers do: what the master brought back from Shandong.</p>
+          <p data-l="zh">长篇小说《Meister Wulf》中文版，附麻胶版画二十四幅。塔尼耶尔、“咯吱”和会唱的靴子——这个故事里还有一条线，中国读者会比爱沙尼亚读者先看出来：那位师傅从山东带回来的东西。</p>
+
+          <dl class="facts">
+            <dt><span data-l="et">Keel</span><span data-l="en">Language</span><span data-l="zh">语言</span></dt><dd><span data-l="et">hiina (lihtsustatud kirjas)</span><span data-l="en">Chinese (simplified)</span><span data-l="zh">中文（简体）</span></dd>
+            <dt><span data-l="et">Illustratsioonid</span><span data-l="en">Illustrations</span><span data-l="zh">插图</span></dt><dd><span data-l="et">24 linoollõiget, 24 peatükki</span><span data-l="en">24 linocuts, 24 chapters</span><span data-l="zh">麻胶版画二十四幅，二十四章</span></dd>
+            <dt><span data-l="et">Kirjastus</span><span data-l="en">Publisher</span><span data-l="zh">出版</span></dt><dd>OÜ Kriuks, Tallinn 2026</dd>
+            <dt><span data-l="et">Toimetaja ja kujundus</span><span data-l="en">Editor and design</span><span data-l="zh">编辑、装帧设计</span></dt><dd>Mai Suvi</dd>
+            <dt><span data-l="et">Trükk</span><span data-l="en">Printed by</span><span data-l="zh">印刷</span></dt><dd>Librix Print</dd>
+            <dt>ISBN</dt><dd>978-9908-9922-1-1</dd>
+            <dt><span data-l="et">Hind</span><span data-l="en">Price</span><span data-l="zh">价格</span></dt><dd><span class="price">49.99 € <small>EUR</small></span></dd>
+          </dl>
+
+          <div class="btn-row">
+            <a class="btn" href="/assets/books/hundi-margid-naidis-zh.pdf" target="_blank" rel="noopener"><span data-l="et">Loe näidet (PDF)</span><span data-l="en">Read a sample (PDF)</span><span data-l="zh">阅读试读（PDF）</span></a>
+            <a class="btn btn--solid" data-u="meister.wulf" data-d="pm.me" data-subject="Tellimus: 狼的印记 (Meister Wulf)" data-keep-text="1" href="#"><span data-l="et">Telli e-posti teel</span><span data-l="en">Order by email</span><span data-l="zh">邮件订购</span></a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2><span data-l="et">Raamatust</span><span data-l="en">About the book</span><span data-l="zh">关于这本书</span></h2>
+      <div class="blurb">
+
+        <p class="tagline" data-l="et">„Sinu omad kriuksuvad. Tema omad laulavad.“</p>
+        <p class="tagline" data-l="en">"Yours creak. His sing."</p>
+        <p class="tagline" data-l="zh">“你的是吱吱嘎嘎响。他的是唱。”</p>
+
+        <p data-l="et">1908, Läänemere idakallas, üks Eesti kaluriküla. Neljateistkümneaastase Tanieli perel ei ole maad; nad elavad jõe ääres saunas. Jaaniöö kiigeplatsil kuuleb ta esimest korda seda häält: kõrge ja kuiv, iga sammuga kaks korda, täpselt lõõtspilli taktis. Kogu küla teab, kelle käe alt niisugused saapad tulevad. Kingseppa kutsuvad inimesed Kriuksuks.</p>
+        <p data-l="et">Tema kohta räägitakse viit juttu: parun, sakslane, hull, joodik, hiinlane. Mida inimesed ei tea, seda arvavad nad seda kindlamalt.</p>
+        <p data-l="et">Mihklipäeval saadetakse Taniel neljaks aastaks õpipoisiks. Õpiraha on ainult neli aastat pigitraati, muud midagi. Selles hallis majas õpib ta pigitraati keerutama, pealseid liistule tõmbama, puunaelu lööma, pigi keetma ja veisenahka parkima; õpib jää all lahtiste silmadega lugema; ja saab tasapisi aru, et meister, kes igal varahommikul õues käsi vehib, ei aja kärbseid. Miks saapad vahel laulavad ja vahel vaikivad — selle annab see maja välja kõige viimasena.</p>
+        <p data-l="et">Aasta kestab mihklipäevast mihklipäevani. Selle lõpus on augustikuu mereudu, laev, mida siia lahte ei tohiks tulla, ja jälg, mille üks inimene jätab teise sisse.</p>
+
+        <p data-l="en">1908, the eastern shore of the Baltic, an Estonian fishing village. Fourteen-year-old Taniel's family owns no land; they live in a sauna by the river. On the Midsummer Night swing ground he hears that sound for the first time: high and dry, twice with every step, right on the accordion's beat. The whole village knows whose hands make boots like these. People call the shoemaker Kriuks, "Creak".</p>
+        <p data-l="en">There are five stories about him: a baron, a German, a madman, a drunk, a Chinese. What people do not know, they believe all the more firmly.</p>
+        <p data-l="en">On Michaelmas, Taniel is sent away as an apprentice for four years. The fee is four years of waxed thread, nothing else. In that grey house he learns to twist waxed thread, to last uppers, to drive wooden pegs, to boil pitch and to tan a cowhide; to count with his eyes open under the ice; and, little by little, to understand that the master swinging his arms in the yard each dawn is not shooing flies. Why the boots sometimes sing and sometimes stay silent is the last thing the house is willing to give up.</p>
+        <p data-l="en">The year runs from Michaelmas to Michaelmas. At its end are the August sea fog, a ship that should not be in this bay, and the mark one person leaves on another.</p>
+
+        <p data-l="zh">一九〇八年，波罗的海东岸，一个爱沙尼亚渔村。十四岁的塔尼耶尔一家没有土地，住在河边一间浴房里。仲夏夜的秋千场上，他第一次听见那个声音：又高又干，一响两下，正踩在手风琴的拍子上。全村都知道，这样的靴子出自谁的手。那个鞋匠，人们叫他“咯吱”。</p>
+        <p data-l="zh">关于他的说法有五种：男爵，德国人，疯子，酒鬼，中国人。人们不知道的，想得就更有把握。</p>
+        <p data-l="zh">米迦勒节那天，塔尼耶尔被送去当四年学徒。拜师钱只要四年的蜡线，别的什么都不要。在那所灰房子里，他学会搓蜡线、绷帮、钉木钉、熬沥青、硝一张牛皮；学会在冰底下睁着眼睛数数；也一点一点看明白，师傅每天清早在院子里挥动胳膊，不是在赶苍蝇。至于靴子为什么有时候唱、有时候一声不出，那是这所房子最后才肯交出来的东西。</p>
+        <p data-l="zh">这一年从米迦勒节走到米迦勒节。它的尽头是八月的海雾，一艘不该出现在这片海湾里的船，和一个人留在另一个人身上的印记。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2><span data-l="et">Pilk raamatusse</span><span data-l="en">A look inside</span><span data-l="zh">书中一瞥</span></h2>
+      <div class="peek">
+        <figure>
+          <img src="/assets/books/linocut-boots.jpg" width="1400" height="934" alt="Linoollõige: poiss saabastega kadakate all" loading="lazy" decoding="async">
+          <figcaption><span data-l="et">I peatükk „Saapaproov“ — linoollõige.</span><span data-l="en">Chapter I, "Trying on the boots". Linocut.</span><span data-l="zh">第一章《试靴》，麻胶版画。</span></figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/books/linocut-spring.jpg" width="1220" height="1400" alt="Linoollõige: poiss sukeldub allika põhja" loading="lazy" decoding="async">
+          <figcaption><span data-l="et">II peatükk „Allikakraav“ — linoollõige.</span><span data-l="en">Chapter II, "The spring ditch". Linocut.</span><span data-l="zh">第二章《泉沟》，麻胶版画。</span></figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/books/tsingtau-1903.jpg" width="900" height="1350" alt="Vana foto: meister ja tema õpilane, Tsingtau 1903" loading="lazy" decoding="async">
+          <figcaption><span data-l="et">Eesleht: „Der Meister und sein Schüler“, Tsingtau, talv 1903.</span><span data-l="en">Frontispiece: "Der Meister und sein Schüler", Tsingtau, winter 1903.</span><span data-l="zh">扉页：“师傅与他的学生”，青岛，1903 年冬。</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap about">
+      <div>
+        <h2><span data-l="et">Autorist</span><span data-l="en">About the author</span><span data-l="zh">关于作者</span></h2>
+        <p data-l="et">Taniel Suvi on kingsepp (Kriuks), Shandongi Weifangi meistri Wang Xiuyuani õpilane alates 1991. aastast ja Taiji Tanglangquani 9. põlvkonna siseringi õpilane, vabasukeldumise instruktor ja allveepääste tegija. Raamatu käsitöö on tal kodust kaasas: vanavanaisa Artur oli Peipsi ääres Mehikoorma kingsepp, ja vanaema Hedwig õpetas talle, kuidas naaskel käes seisab.</p>
+        <p data-l="en">Taniel Suvi is a shoemaker (Kriuks), a student of the Weifang master Wang Xiuyuan since 1991 and a 9th-generation inner-circle disciple of Taiji Tanglangquan, a freediving instructor and an underwater rescuer. The craft in the book runs in the family: his great-grandfather Artur was the shoemaker of Mehikoorma on Lake Peipus, and his grandmother Hedwig taught him how to hold an awl.</p>
+        <p data-l="zh">塔涅尔·苏维是鞋匠（Kriuks），自 1991 年起师从山东潍坊的王秀远先生，太极螳螂拳第九代入室弟子，自由潜水教练，也做水下救援。书里的手艺是家传的：外曾祖父阿尔图尔是佩普西湖边梅希科尔马村的鞋匠，外祖母海德薇格教会他锥子怎么拿。</p>
+      </div>
+      <div>
+        <h2><span data-l="et">Tellimine</span><span data-l="en">Ordering</span><span data-l="zh">订购</span></h2>
+        <p data-l="et">Raamatut saab tellida e-posti teel. Kirjuta, mitu eksemplari soovid ja kuhu saata; vastame hinna, saatmiskulu ja maksmise üksikasjadega.</p>
+        <p data-l="en">The book can be ordered by email. Tell us how many copies you want and where to send them; we reply with the price, shipping cost and payment details.</p>
+        <p data-l="zh">本书可通过电子邮件订购。请告知所需册数与寄送地址，我们会回复价格、运费及付款方式。</p>
+        <div class="contact">
+          <div class="item"><small><span data-l="et">E-post</span><span data-l="en">Email</span><span data-l="zh">电子邮件</span></small><a data-u="meister.wulf" data-d="pm.me" data-subject="Tellimus: 狼的印记 (Meister Wulf)" href="#">meister.wulf [at] pm.me</a></div>
+          <div class="item"><small><span data-l="et">Kirjastus</span><span data-l="en">Publisher</span><span data-l="zh">出版</span></small>OÜ Kriuks, Tallinn</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Meisterwulf · Kriuks OÜ</span>
+    <nav aria-label="Meisterwulf">
+      <a href="/">Meisterwulf</a>
+      <a href="/shoemaker.html" data-keep-lang><span data-l="et">Kingsepp</span><span data-l="en">Shoemaker</span><span data-l="zh">鞋匠</span></a>
+      <a href="/mantis.html" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
+      <a href="/books.html" class="is-here" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
+    </nav>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
