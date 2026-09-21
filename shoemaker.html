@@ -81,6 +81,14 @@ body.page-shoemaker::after{
 .video-play:hover .video-btn{ transform:scale(1.08); background:rgba(11,8,5,.8); }
 .video-title{ position:absolute; left:0; right:0; bottom:0; padding:14px 18px; text-align:left; font-size:.86rem; letter-spacing:.1em; color:var(--parchment); background:linear-gradient(to top, rgba(6,4,3,.85), transparent); }
 .video iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+
+/* galerii suurendus: klõps avab originaali (töötlemata värvid), klõps ükskõik kuhu sulgeb */
+.gallery a.zoom{ display:block; border:0; cursor:zoom-in; }
+.lightbox{ position:fixed; inset:0; z-index:100; display:grid; place-items:center; align-content:center; gap:14px; padding:4vh 4vw; background:rgba(6,4,3,.93); cursor:zoom-out; animation:lb-in .25s ease; }
+.lightbox[hidden]{ display:none; }
+.lightbox img{ display:block; max-width:min(100%, 1400px); max-height:82vh; width:auto; height:auto; border:1px solid rgba(232,201,122,.35); box-shadow:0 40px 80px -30px rgba(0,0,0,1); background:#1b120a; }
+.lightbox-cap{ margin:0; max-width:none; font-size:.9rem; letter-spacing:.12em; text-transform:uppercase; color:var(--parchment-dim); text-align:center; }
+@keyframes lb-in{ from{ opacity:0; } to{ opacity:1; } }
 </style>
 </head>
 <body class="page page-shoemaker has-lang">
@@ -174,9 +182,9 @@ body.page-shoemaker::after{
     <div class="wrap cols">
       <div>
         <h2><span data-l="et">Nahk</span><span data-l="en">The leather</span><span data-l="zh">皮革</span></h2>
-        <p data-l="et">Jalatsinahka pargib, iidseid retsepte kasutades, <a href="https://tripleskin.com/english/" rel="noopener">Lõuna-Eesti nahameister</a>. Nahka pargitakse ja värvitakse taimsete ekstraktidega eksklusiivselt ainult Kriuksule.</p>
-        <p data-l="en">The leather is tanned by a <a href="https://tripleskin.com/english/" rel="noopener">master tanner in South Estonia</a> using ancient recipes. It is tanned and dyed with plant extracts exclusively for Kriuks.</p>
-        <p data-l="zh">鞋用皮革由<a href="https://tripleskin.com/english/" rel="noopener">爱沙尼亚南部的制革师傅</a>按古法鞣制，以植物提取物鞣制和染色，专供 Kriuks 使用。</p>
+        <p data-l="et">Jalatsinahka pargib, iidseid retsepte kasutades, Lõuna-Eesti nahameister. Nahka pargitakse ja värvitakse taimsete ekstraktidega eksklusiivselt ainult Kriuksule.</p>
+        <p data-l="en">The leather is tanned by a master tanner in South Estonia using ancient recipes. It is tanned and dyed with plant extracts exclusively for Kriuks.</p>
+        <p data-l="zh">鞋用皮革由爱沙尼亚南部的制革师傅按古法鞣制，以植物提取物鞣制和染色，专供 Kriuks 使用。</p>
       </div>
       <div>
         <h2><span data-l="et">Hooldus</span><span data-l="en">Care</span><span data-l="zh">保养</span></h2>
@@ -210,24 +218,24 @@ body.page-shoemaker::after{
       <p data-l="en">A selection of footwear made in the Kriuks workshop.</p>
       <p data-l="zh">Kriuks 工坊制作的部分鞋履。</p>
       <div class="gallery">
-        <figure><img src="/assets/shoemaker/kingad_01.jpg" width="1024" height="512" alt="Brown cap-toe oxfords, plant-tanned leather" loading="lazy" decoding="async"><figcaption><span data-l="et">Pruunid oksfordid, taimparknahk</span><span data-l="en">Brown cap-toe oxfords, plant-tanned leather</span><span data-l="zh">棕色牛津鞋，植鞣皮革</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/semi-brogue.jpg" width="1024" height="512" alt="Semi-brogue with leather sole" loading="lazy" decoding="async"><figcaption><span data-l="et">Semi-brogue, nahktald</span><span data-l="en">Semi-brogue with leather sole</span><span data-l="zh">半雕花牛津鞋，皮底</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/012.jpg" width="1024" height="512" alt="Black monk-strap shoes" loading="lazy" decoding="async"><figcaption><span data-l="et">Mustad pannalkingad</span><span data-l="en">Black monk-strap shoes</span><span data-l="zh">黑色孟克鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/monk-shoes-3.jpg" width="1024" height="512" alt="Monk-strap shoes" loading="lazy" decoding="async"><figcaption><span data-l="et">Pannalkingad</span><span data-l="en">Monk-strap shoes</span><span data-l="zh">孟克鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/yufte_00-1.jpg" width="1024" height="512" alt="Double monks in Russian leather (yuft)" loading="lazy" decoding="async"><figcaption><span data-l="et">Kahe pandlaga kingad juhtnahast</span><span data-l="en">Double monks in Russian leather (yuft)</span><span data-l="zh">俄罗斯皮革双扣孟克鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/easy_walker_russian_leather_4.jpg" width="1024" height="512" alt="Easy Walker, Russian leather" loading="lazy" decoding="async"><figcaption><span data-l="et">Easy Walker, juhtnahk</span><span data-l="en">Easy Walker, Russian leather</span><span data-l="zh">Easy Walker，俄罗斯皮革</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/dark_clerks_3.jpg" width="1024" height="512" alt="Dark Clerks" loading="lazy" decoding="async"><figcaption><span data-l="et">Dark Clerks</span><span data-l="en">Dark Clerks</span><span data-l="zh">Dark Clerks</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/kingad-eritellimusel-3.jpg" width="1024" height="512" alt="Two-tone spectator shoes" loading="lazy" decoding="async"><figcaption><span data-l="et">Kahevärvilised kingad</span><span data-l="en">Two-tone spectator shoes</span><span data-l="zh">双色拼接皮鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/blue-steel-shoes.jpg" width="1024" height="512" alt="Blue Steel boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Blue Steel — sinised saapad</span><span data-l="en">Blue Steel boots</span><span data-l="zh">Blue Steel 蓝色短靴</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/02.jpg" width="1024" height="512" alt="Lace-up boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Nöörsaapad</span><span data-l="en">Lace-up boots</span><span data-l="zh">系带靴</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/kauboisaapad-023.jpg" width="1024" height="512" alt="Cowboy boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Kauboisaapad</span><span data-l="en">Cowboy boots</span><span data-l="zh">牛仔靴</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/Jaktstovlar-lader-01.jpg" width="1024" height="512" alt="Hunting boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Jahisaapad</span><span data-l="en">Hunting boots</span><span data-l="zh">猎靴</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/moto03.jpg" width="1024" height="512" alt="Riding boots" loading="lazy" decoding="async"><figcaption><span data-l="et">Ratsasaapad</span><span data-l="en">Riding boots</span><span data-l="zh">马靴</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/kingad-eritellimusel-01.jpg" width="1024" height="512" alt="Women’s brogued pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Naiste kingad, kontsaga</span><span data-l="en">Women’s brogued pumps</span><span data-l="zh">女士雕花高跟鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/aeon_kriuks_11.jpg" width="1024" height="512" alt="Aeon, blue pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Aeon — sinised kingad</span><span data-l="en">Aeon, blue pumps</span><span data-l="zh">Aeon 蓝色高跟鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/kasitoo-kingad-1.jpg" width="1024" height="512" alt="Peep-toe pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Lahtise ninaga kingad</span><span data-l="en">Peep-toe pumps</span><span data-l="zh">鱼嘴高跟鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/black_red_platfor_shoes.jpg" width="1024" height="512" alt="Platform pumps" loading="lazy" decoding="async"><figcaption><span data-l="et">Platvormkingad</span><span data-l="en">Platform pumps</span><span data-l="zh">厚底高跟鞋</span></figcaption></figure>
-        <figure><img src="/assets/shoemaker/yes-minister-kriuks-01.jpg" width="1024" height="512" alt="Yes Minister" loading="lazy" decoding="async"><figcaption><span data-l="et">Yes Minister</span><span data-l="en">Yes Minister</span><span data-l="zh">Yes Minister</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/kingad_01.jpg"><img src="/assets/shoemaker/kingad_01.jpg" width="1024" height="512" alt="Brown cap-toe oxfords, plant-tanned leather" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Pruunid oksfordid, taimparknahk</span><span data-l="en">Brown cap-toe oxfords, plant-tanned leather</span><span data-l="zh">棕色牛津鞋，植鞣皮革</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/semi-brogue.jpg"><img src="/assets/shoemaker/semi-brogue.jpg" width="1024" height="512" alt="Semi-brogue with leather sole" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Semi-brogue, nahktald</span><span data-l="en">Semi-brogue with leather sole</span><span data-l="zh">半雕花牛津鞋，皮底</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/012.jpg"><img src="/assets/shoemaker/012.jpg" width="1024" height="512" alt="Black monk-strap shoes" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Mustad pannalkingad</span><span data-l="en">Black monk-strap shoes</span><span data-l="zh">黑色孟克鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/monk-shoes-3.jpg"><img src="/assets/shoemaker/monk-shoes-3.jpg" width="1024" height="512" alt="Monk-strap shoes" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Pannalkingad</span><span data-l="en">Monk-strap shoes</span><span data-l="zh">孟克鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/yufte_00-1.jpg"><img src="/assets/shoemaker/yufte_00-1.jpg" width="1024" height="512" alt="Double monks in Russian leather (yuft)" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Kahe pandlaga kingad juhtnahast</span><span data-l="en">Double monks in Russian leather (yuft)</span><span data-l="zh">俄罗斯皮革双扣孟克鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/easy_walker_russian_leather_4.jpg"><img src="/assets/shoemaker/easy_walker_russian_leather_4.jpg" width="1024" height="512" alt="Easy Walker, Russian leather" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Easy Walker, juhtnahk</span><span data-l="en">Easy Walker, Russian leather</span><span data-l="zh">Easy Walker，俄罗斯皮革</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/dark_clerks_3.jpg"><img src="/assets/shoemaker/dark_clerks_3.jpg" width="1024" height="512" alt="Dark Clerks" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Dark Clerks</span><span data-l="en">Dark Clerks</span><span data-l="zh">Dark Clerks</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/kingad-eritellimusel-3.jpg"><img src="/assets/shoemaker/kingad-eritellimusel-3.jpg" width="1024" height="512" alt="Two-tone spectator shoes" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Kahevärvilised kingad</span><span data-l="en">Two-tone spectator shoes</span><span data-l="zh">双色拼接皮鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/blue-steel-shoes.jpg"><img src="/assets/shoemaker/blue-steel-shoes.jpg" width="1024" height="512" alt="Blue Steel boots" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Blue Steel — sinised saapad</span><span data-l="en">Blue Steel boots</span><span data-l="zh">Blue Steel 蓝色短靴</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/02.jpg"><img src="/assets/shoemaker/02.jpg" width="1024" height="512" alt="Lace-up boots" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Nöörsaapad</span><span data-l="en">Lace-up boots</span><span data-l="zh">系带靴</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/kauboisaapad-023.jpg"><img src="/assets/shoemaker/kauboisaapad-023.jpg" width="1024" height="512" alt="Cowboy boots" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Kauboisaapad</span><span data-l="en">Cowboy boots</span><span data-l="zh">牛仔靴</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/Jaktstovlar-lader-01.jpg"><img src="/assets/shoemaker/Jaktstovlar-lader-01.jpg" width="1024" height="512" alt="Hunting boots" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Jahisaapad</span><span data-l="en">Hunting boots</span><span data-l="zh">猎靴</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/moto03.jpg"><img src="/assets/shoemaker/moto03.jpg" width="1024" height="512" alt="Riding boots" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Ratsasaapad</span><span data-l="en">Riding boots</span><span data-l="zh">马靴</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/kingad-eritellimusel-01.jpg"><img src="/assets/shoemaker/kingad-eritellimusel-01.jpg" width="1024" height="512" alt="Women’s brogued pumps" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Naiste kingad, kontsaga</span><span data-l="en">Women’s brogued pumps</span><span data-l="zh">女士雕花高跟鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/aeon_kriuks_11.jpg"><img src="/assets/shoemaker/aeon_kriuks_11.jpg" width="1024" height="512" alt="Aeon, blue pumps" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Aeon — sinised kingad</span><span data-l="en">Aeon, blue pumps</span><span data-l="zh">Aeon 蓝色高跟鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/kasitoo-kingad-1.jpg"><img src="/assets/shoemaker/kasitoo-kingad-1.jpg" width="1024" height="512" alt="Peep-toe pumps" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Lahtise ninaga kingad</span><span data-l="en">Peep-toe pumps</span><span data-l="zh">鱼嘴高跟鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/black_red_platfor_shoes.jpg"><img src="/assets/shoemaker/black_red_platfor_shoes.jpg" width="1024" height="512" alt="Platform pumps" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Platvormkingad</span><span data-l="en">Platform pumps</span><span data-l="zh">厚底高跟鞋</span></figcaption></figure>
+        <figure><a class="zoom" href="/assets/shoemaker/orig/yes-minister-kriuks-01.jpg"><img src="/assets/shoemaker/yes-minister-kriuks-01.jpg" width="1024" height="512" alt="Yes Minister" loading="lazy" decoding="async"></a><figcaption><span data-l="et">Yes Minister</span><span data-l="en">Yes Minister</span><span data-l="zh">Yes Minister</span></figcaption></figure>
       </div>
     </div>
   </section>
@@ -258,6 +266,11 @@ body.page-shoemaker::after{
   </section>
 </main>
 
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Pilt suurelt">
+  <img alt="">
+  <p class="lightbox-cap"></p>
+</div>
+
 <footer class="foot">
   <div class="wrap">
     <span>© <span id="year">2026</span> Meisterwulf · Kriuks OÜ</span>
@@ -283,6 +296,34 @@ document.getElementById("year").textContent = new Date().getFullYear();
     f.referrerPolicy = "strict-origin-when-cross-origin";
     box.replaceChildren(f);
   });
+})();
+(function () {
+  var box = document.getElementById("lightbox");
+  var img = box.querySelector("img");
+  var cap = box.querySelector(".lightbox-cap");
+  var links = document.querySelectorAll(".gallery a.zoom");
+  var last = null;
+  function open(a) {
+    var fig = a.parentNode;
+    var fc = fig.querySelector("figcaption");
+    img.src = a.getAttribute("href");
+    img.alt = a.querySelector("img").alt;
+    cap.textContent = fc ? fc.innerText : "";
+    box.hidden = false;
+    document.body.style.overflow = "hidden";
+    last = a;
+  }
+  function close() {
+    box.hidden = true;
+    document.body.style.overflow = "";
+    img.removeAttribute("src");
+    if (last) { last.focus(); last = null; }
+  }
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function (e) { e.preventDefault(); open(this); });
+  }
+  box.addEventListener("click", close);
+  document.addEventListener("keydown", function (e) { if (!box.hidden && e.key === "Escape") close(); });
 })();
 </script>
 </body>

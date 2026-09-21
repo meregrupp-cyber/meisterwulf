@@ -37,10 +37,11 @@ shoemakeri all) igal ekraanil õiged. Püstisel ekraanil laotakse kaks gruppi
 
 | Olek | Mis juhtub |
 |------|------------|
-| algus | inglise keel vaikimisi, kõik sildid 100%; fotod passiivsed (klõps paneb sildid korraks vilkuma) |
+| esmakülastus | inglise keel vaikimisi, kõik suured sildid 100%; vihje „Vali keel“ paremal üleval; fotod passiivsed (klõps paneb sildid korraks vilkuma) |
 | keel valitud | valitud silt vilgub õrnalt 5×, jääb 100%; teised tuhmuvad 30% peale; logo alla ilmub „Tagasi esilehele“ valitud keeles; fotod hakkavad laines helendama ja on klikitavad |
 | foto valitud | see vilgub kiiremini, teised kaovad; 2 s pärast avaneb alaleht `?lang=xx` |
-| logo | tagasi algolekusse |
+| korduvkülastus | keel on `localStorage`-is (või URL-is) meeles: suuri silte ei näidata, paremal üleval on väike keelevalik nagu alalehtedel, fotod on kohe aktiivsed |
+| logo | link esilehele (korduvkülastajale avaneb see juba ilma keeleküsimuseta) |
 
 Klikitav ala on iga tüki tegelik kuju (`clip-path: polygon`), mitte
 ristkülik — nii ei jää läbipaistev nurk teise tüki ette.
@@ -69,6 +70,7 @@ assets/
                            shoemaker/mantis/books (.webp, läbipaistvad), og.jpg
   logo/                    wulf-logo-320/640 (.webp, .png)
   shoemaker/               galerii (1024×512, ühtlustatud toon), video eelvaade
+  shoemaker/orig/          samad fotod töötlemata värvides — avanevad galeriis klõpsu peale suurelt
   kungfu/                  tunnistus 1991–92, pärimusregister 2023
   books/                   kaaned (et, zh), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k)
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
@@ -80,6 +82,9 @@ muudad, ekspordi kihid uuesti samade nimedega.
 
 Galerii pildid on ühtlustatud tooniga (küllastus 58%, soe pruun-kuldne
 toon, vinjett), et erineva taustaga fotod istuksid lehe värvigammaga.
+Klõps pildil avab kaustast `orig/` originaali õigetes värvides; klõps
+ükskõik kuhu (või Esc) sulgeb. Uue pildi lisamisel pane töödeldud
+versioon `shoemaker/` ja originaal sama nimega `shoemaker/orig/` alla.
 
 ### Raamatu lisamine
 

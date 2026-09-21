@@ -154,27 +154,45 @@ body.landing::before{
 .is-leaving .langs img{ opacity:.15 !important; }
 .is-leaving .hit{ cursor:default; }
 
-/* --- vihje --- */
+/* --- vihje ja väike keelevalik paremal üleval --- */
+.topright{
+  position:fixed;
+  top:clamp(8px, 1.2vw, 16px);
+  right:clamp(10px, 1.6vw, 24px);
+  z-index:61;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:6px;
+}
 .hint{
-  position:absolute;
-  left:50%;
-  bottom:2.4%;
-  z-index:3;
   margin:0;
-  transform:translateX(-50%);
-  font-size:clamp(.58rem, 1.05vw, .82rem);
+  padding:.45em .95em;
+  border-radius:999px;
+  background:rgba(11,8,5,.58);
+  border:1px solid rgba(232,201,122,.25);
+  -webkit-backdrop-filter:blur(6px);
+  backdrop-filter:blur(6px);
+  font-size:clamp(.56rem, .95vw, .74rem);
   letter-spacing:.2em;
   text-transform:uppercase;
+  text-align:right;
   white-space:nowrap;
-  color:rgba(232,201,122,.78);
-  text-shadow:0 1px 8px #000, 0 0 16px rgba(0,0,0,.9);
+  color:var(--brass-light);
+  text-shadow:0 1px 6px rgba(0,0,0,.9);
   transition:opacity .8s ease;
 }
 .hint .h2{ display:none; }
 .has-lang .hint .h1{ display:none; }
 .has-lang .hint .h2{ display:inline; }
 .is-leaving .hint{ opacity:0; }
-.hint [data-l="zh"]{ letter-spacing:.35em; }
+.hint [lang="zh"], .hint [data-l="zh"]{ letter-spacing:.35em; }
+
+/* Korduvkülastaja: keel on meeles, suuri silte ei näidata,
+   keelt saab vahetada väikestest siltidest paremal üleval. */
+.landing .langbar{ position:static; display:none; }
+.is-returning .langbar{ display:flex; }
+.is-returning .group.langs{ display:none; }
 
 /* =============================================================
    Püstine ekraan (telefon): sama kaks gruppi üksteise all,
@@ -213,14 +231,10 @@ body.landing::before{
     aspect-ratio:var(--gw) / var(--gh);
   }
   .group.cards{ width:96%; margin-inline:auto; }
-  .hint{
-    position:fixed;
-    bottom:max(18px, env(safe-area-inset-bottom, 0px));
-    white-space:normal;
-    text-align:center;
-    width:90%;
-    font-size:.68rem;
-  }
+  .hint{ white-space:normal; max-width:min(62vw, 300px); font-size:.6rem; line-height:1.7; }
+  .hint .sep{ display:none; }
+  .hint .hp{ display:block; }
+  .scene{ padding-top:clamp(150px, 24vh, 230px); }
 }
 
 @media (prefers-reduced-motion: reduce){
@@ -237,6 +251,18 @@ body.landing::before{
   <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
   <span class="wulf-caption" aria-hidden="true"><span data-l="et">Tagasi esilehele</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span></span>
 </a>
+
+<div class="topright">
+  <p class="hint" aria-live="polite">
+    <span class="h1"><span class="hp">Vali keel</span><span class="sep"> &nbsp;·&nbsp; </span><span class="hp">Choose a language</span><span class="sep"> &nbsp;·&nbsp; </span><span class="hp" lang="zh">请选择语言</span></span>
+    <span class="h2"><span data-l="et">Vali kaart, kuhu edasi</span><span data-l="en">Pick a card to continue</span><span data-l="zh">请选择一张卡片</span></span>
+  </p>
+  <nav class="langbar" aria-label="Keel · Language · 语言">
+    <button type="button" data-set-lang="et" aria-pressed="false"><img src="/assets/landing/tere.webp" width="717" height="440" alt="eesti keel"></button>
+    <button type="button" data-set-lang="en" aria-pressed="false"><img src="/assets/landing/hello.webp" width="764" height="430" alt="English"></button>
+    <button type="button" data-set-lang="zh" aria-pressed="false"><img src="/assets/landing/nihao.webp" width="711" height="432" alt="中文"></button>
+  </nav>
+</div>
 
 <h1 class="sr-only">Meisterwulf</h1>
 
@@ -278,29 +304,40 @@ body.landing::before{
     </a>
   </nav>
 
-  <p class="hint" aria-live="polite">
-    <span class="h1">Vali keel &nbsp;·&nbsp; Choose a language &nbsp;·&nbsp; <span lang="zh">请选择语言</span></span>
-    <span class="h2"><span data-l="et">Vali kaart, kuhu edasi</span><span data-l="en">Pick a card to continue</span><span data-l="zh">请选择一张卡片</span></span>
-  </p>
 </main>
 
 <script>
 (function () {
-  var body = document.body;
+  var body  = document.body;
   var langs = [].slice.call(document.querySelectorAll(".lang"));
   var cards = [].slice.call(document.querySelectorAll(".card"));
-  var wulf  = document.getElementById("wulf");
+  var small = [].slice.call(document.querySelectorAll(".langbar [data-set-lang]"));
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   var lang = null, leaving = false, waveTimer = null;
 
   function restart(el, cls) {           /* animatsioon algab alati algusest */
     el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls);
   }
+  function activateCards() {
+    cards.forEach(function (c, i) {
+      c.removeAttribute("aria-disabled");
+      c.classList.remove("is-chosen", "is-gone");
+      c.style.setProperty("--delay", (i * 0.55) + "s");
+    });
+  }
+  function startWave(delay) {
+    clearTimeout(waveTimer);
+    waveTimer = setTimeout(function () {
+      cards.forEach(function (c) { c.classList.add("is-wave"); });
+    }, reduce ? 0 : delay);
+  }
 
+  /* Esmakülastus: suured sildid. Valitud silt vilgub 5x, teised
+     tuhmuvad, kaardid ärkavad laines pärast vilkumist. */
   function selectLang(l) {
     if (leaving) return;
     lang = l;
-    MW.apply(l);                        /* jätab keele meelde alalehtede jaoks */
+    MW.apply(l);                        /* jätab keele meelde */
     body.classList.add("has-lang");
     body.setAttribute("data-state", "lang");
     langs.forEach(function (b) {
@@ -310,15 +347,19 @@ body.landing::before{
       b.setAttribute("aria-pressed", on ? "true" : "false");
       if (on) restart(b, "is-selected"); else b.classList.remove("is-selected");
     });
-    cards.forEach(function (c, i) {
-      c.removeAttribute("aria-disabled");
-      c.style.setProperty("--delay", (i * 0.55) + "s");
-    });
-    /* laine algab, kui silt on vilkumise lõpetanud */
-    clearTimeout(waveTimer);
-    waveTimer = setTimeout(function () {
-      cards.forEach(function (c) { c.classList.add("is-wave"); });
-    }, reduce ? 0 : 2400);
+    activateCards();
+    startWave(2400);
+  }
+
+  /* Korduvkülastus: keel on meeles, suuri silte ei küsita, väike
+     keelevalik on paremal üleval ja kaardid on kohe aktiivsed. */
+  function returning(l) {
+    lang = l;
+    MW.apply(l, { persist: false });
+    body.classList.add("has-lang", "is-returning");
+    body.setAttribute("data-state", "returning");
+    activateCards();
+    startWave(500);
   }
 
   function chooseCard(c) {
@@ -339,32 +380,28 @@ body.landing::before{
     setTimeout(function () { location.href = url; }, reduce ? 400 : 2000);
   }
 
-  function reset() {
-    leaving = false; lang = null;
-    clearTimeout(waveTimer);
-    body.classList.remove("has-lang", "is-leaving");
-    body.setAttribute("data-state", "idle");
-    langs.forEach(function (b) {
-      b.classList.remove("is-dim", "is-selected", "is-nudge");
-      b.setAttribute("aria-pressed", "false");
-    });
-    cards.forEach(function (c) {
-      c.classList.remove("is-wave", "is-chosen", "is-gone");
-      c.setAttribute("aria-disabled", "true");
-    });
-    MW.apply("en", { persist: false });
-  }
-
   langs.forEach(function (b) {
     b.addEventListener("click", function () { selectLang(b.getAttribute("data-lang")); });
+  });
+  small.forEach(function (b) {          /* keele rakendab site.js, siin jätame meelde */
+    b.addEventListener("click", function () { lang = b.getAttribute("data-set-lang"); });
   });
   cards.forEach(function (c) {
     c.addEventListener("click", function (e) { e.preventDefault(); chooseCard(c); });
   });
-  wulf.addEventListener("click", function (e) { e.preventDefault(); reset(); });
 
-  /* tagasi-nupuga naastes (bfcache) alustame puhtalt */
-  window.addEventListener("pageshow", function (e) { if (e.persisted) reset(); });
+  function init() {
+    leaving = false;
+    body.classList.remove("is-leaving");
+    var stored = null;
+    try { stored = new URLSearchParams(location.search).get("lang"); } catch (e) {}
+    if (MW.LANGS.indexOf(stored) === -1) stored = MW.stored();
+    if (stored) returning(stored);
+    else if (body.classList.contains("has-lang")) { activateCards(); startWave(300); }
+  }
+  init();
+  /* tagasi-nupuga naastes (bfcache) kaardid uuesti ellu */
+  window.addEventListener("pageshow", function (e) { if (e.persisted) init(); });
 })();
 </script>
 </body>
