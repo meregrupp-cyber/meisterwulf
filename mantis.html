@@ -64,6 +64,7 @@ body.page-mantis{
   border-radius:6px;
   background:linear-gradient(180deg, rgba(232,201,122,.12), rgba(232,201,122,.04));
 }
+.keyfacts li:last-child:nth-child(odd){ grid-column:1 / -1; }   /* paaritu viimane kaart üle rea */
 .keyfacts b{ display:block; font-weight:400; font-size:1.25rem; color:var(--brass-light); }
 .keyfacts span{ font-size:.86rem; color:var(--parchment-dim); }
 
@@ -87,11 +88,29 @@ body.page-mantis{
 /* mida saab õppida */
 .offer{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap:18px; }
 .offer .card h3{ letter-spacing:.14em; text-transform:uppercase; font-size:.92rem; }
+
+/* koolituse sisu: viis väravat + treeningprogrammi PDF hüpikaknas */
+.programme{ margin-top:1.4em; padding-top:1.1em; border-top:1px solid rgba(232,201,122,.18); }
+.programme .gates{ display:block; margin-top:.4em; font-size:.92rem; color:var(--parchment-dim); }
+.programme .gates [lang="zh"]{ color:var(--brass-light); }
+.pdfbox{ position:fixed; inset:0; z-index:100; display:flex; align-items:center; justify-content:center; padding:max(10px, 2vh) max(10px, 2vw); background:rgba(6,4,3,.92); animation:pb-in .25s ease; }
+.pdfbox[hidden]{ display:none; }
+.pdfbox-panel{ display:flex; flex-direction:column; width:min(1000px, 100%); height:min(92vh, 1300px); height:min(92dvh, 1300px); max-height:100%; border:1px solid rgba(232,201,122,.4); border-radius:6px; background:#1b120a; box-shadow:0 40px 80px -30px rgba(0,0,0,1); overflow:hidden; }
+.pdfbox-bar{ display:flex; align-items:center; gap:14px; padding:10px 12px 10px 18px; border-bottom:1px solid rgba(232,201,122,.25); font-size:.86rem; letter-spacing:.08em; }
+.pdfbox-bar .pdfbox-title{ flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--parchment); }
+.pdfbox-bar a{ border:0; font-size:.76rem; letter-spacing:.14em; text-transform:uppercase; white-space:nowrap; }
+.pdfbox-close{ flex:none; width:38px; height:38px; border:1px solid rgba(232,201,122,.4); border-radius:50%; background:none; color:var(--brass-light); font:1.5rem/1 var(--font-serif); cursor:pointer; }
+.pdfbox-close:hover, .pdfbox-close:focus-visible{ color:var(--parchment); border-color:var(--parchment); }
+.pdfbox-doc{ flex:1; min-height:0; background:#3a2d1c; }
+.pdfbox-doc object, .pdfbox-doc iframe{ display:block; width:100%; height:100%; border:0; }
+.pdfbox-fallback{ display:grid; place-content:center; gap:14px; height:100%; padding:24px; text-align:center; color:var(--parchment-dim); }
+@keyframes pb-in{ from{ opacity:0; } to{ opacity:1; } }
+@media (max-width: 600px){ .pdfbox-bar{ gap:10px; padding-left:12px; } .pdfbox-bar .pdfbox-title{ display:none; } .pdfbox-bar a{ flex:1; font-size:.7rem; } }
 </style>
 </head>
 <body class="page page-mantis has-lang">
 
-<a class="wulf" href="/" aria-label="Meisterwulf">
+<a class="wulf" href="/" data-keep-lang aria-label="Meisterwulf">
   <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
   <span class="wulf-caption"><span data-l="et">Tagasi esilehele</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span></span>
 </a>
@@ -116,7 +135,7 @@ body.page-mantis{
         <span data-l="zh">源自山东潍坊一脉的螳螂拳。训练按需安排，只做一对一，不设团体班。</span>
       </p>
     </div>
-    <img class="photo-tilt" src="/assets/landing/mantis.webp" width="526" height="481" alt="" decoding="async">
+    <img class="photo-tilt" src="/assets/landing/mantis-card.webp" width="698" height="760" alt="" decoding="async">
   </div>
 </header>
 
@@ -134,6 +153,15 @@ body.page-mantis{
             <li><span data-l="et"><strong>Liigutuste koordineerimine</strong> — võitlusliigutuste kombinatsioonid ja esinemiskavad.</span><span data-l="en"><strong>Coordination</strong>: combinations of fighting movements and demonstration routines.</span><span data-l="zh"><strong>动作协调</strong>——攻防动作的组合与套路。</span></li>
             <li><span data-l="et"><strong>Reaktsioon ja täpsus</strong> — kahevõitluse harjutused.</span><span data-l="en"><strong>Reaction and precision</strong>: partner drills.</span><span data-l="zh"><strong>反应与精准</strong>——对练。</span></li>
           </ul>
+          <p class="programme">
+            <span data-l="et"><strong>Koolituse sisu.</strong> Õpe on jagatud viieks väravaks; iga värav annab ühe uue oskuse ja lõpeb testiga. Vormid, paaristöö ja qínná lisanduvad väravast väravasse.</span>
+            <span data-l="en"><strong>What the training covers.</strong> The teaching is divided into five gates; each gate gives one new skill and ends with a test. Forms, partner work and qínná are added gate by gate.</span>
+            <span data-l="zh"><strong>训练内容。</strong>教学分为五关；每一关传授一项新本领，并以考核结束。套路、对练与擒拿逐关递进。</span>
+            <span class="gates"><span data-l="et">1 keha püsti <span lang="zh">立身</span> · 2 käed selged <span lang="zh">明手</span> · 3 jõu mõistmine <span lang="zh">懂劲</span> · 4 kogu keha relvaks <span lang="zh">分身</span> · 5 essents <span lang="zh">摘要</span></span><span data-l="en">1 body upright <span lang="zh">立身</span> · 2 clear hands <span lang="zh">明手</span> · 3 understanding force <span lang="zh">懂劲</span> · 4 the whole body as a weapon <span lang="zh">分身</span> · 5 the essence <span lang="zh">摘要</span></span><span data-l="zh">一 立身 · 二 明手 · 三 懂劲 · 四 分身 · 五 摘要</span></span>
+          </p>
+          <div class="btn-row">
+            <button type="button" class="btn" id="pdf-open" data-pdf-et="/assets/kungfu/treeningprogramm-et.pdf" data-pdf-en="/assets/kungfu/treeningprogramm-en.pdf" data-pdf-zh="/assets/kungfu/treeningprogramm-zh.pdf"><span data-l="et">Koolituse tutvustus (PDF)</span><span data-l="en">Training programme (PDF)</span><span data-l="zh">训练大纲（PDF）</span></button>
+          </div>
         </div>
         <div>
           <ul class="keyfacts">
@@ -141,6 +169,7 @@ body.page-mantis{
             <li><b><span data-l="et">Üks-ühele</span><span data-l="en">One to one</span><span data-l="zh">一对一</span></b><span data-l="et">Gruppe ei ole. Õpetaja ja õpilane.</span><span data-l="en">No groups. Teacher and student.</span><span data-l="zh">不设团体班。只有师与徒。</span></li>
             <li><b><span data-l="et">Õues, aasta ringi</span><span data-l="en">Outdoors, all year</span><span data-l="zh">户外，全年</span></b><span data-l="et">Alliku küla (Laagri), Saue vald.</span><span data-l="en">Alliku village (Laagri), Saue parish, Estonia.</span><span data-l="zh">爱沙尼亚 Saue 区 Alliku 村（Laagri）。</span></li>
             <li><b><span data-l="et">Alates 9. eluaastast</span><span data-l="en">From age 9</span><span data-l="zh">九岁起</span></b><span data-l="et">Nooremad varaküpsed testimise alusel.</span><span data-l="en">Younger students by assessment.</span><span data-l="zh">更小的孩子经测试后可以接收。</span></li>
+            <li><b>20 €</b><span data-l="et">Personaalne tund.</span><span data-l="en">Personal lesson.</span><span data-l="zh">个人课程（一对一）。</span></li>
           </ul>
           <div class="btn-row">
             <a class="btn btn--solid" data-u="meister.wulf" data-d="pm.me" data-subject="Kung fu treening" data-keep-text="1" href="#"><span data-l="et">Küsi treeningut</span><span data-l="en">Ask for a session</span><span data-l="zh">预约训练</span></a>
@@ -189,13 +218,13 @@ body.page-mantis{
       </div>
       <div>
         <h2><span data-l="et">Kes on meister Wulf?</span><span data-l="en">Who is Master Wulf?</span><span data-l="zh">Wulf 师傅是谁？</span></h2>
-        <p data-l="et">Kung fu väljaõpet juhendab meister Wulf — Taniel Suvi —, Hiina meistri Wang Xiuyuani (王秀远) siseringi õpilane ja Eestis ainus atesteeritud taiji meihua tanglangquan'i treener. Talle on omistatud ka allveespordi ja wushu/kungfu treeneri kvalifikatsioonid.</p>
-        <p data-l="en">Training is led by Master Wulf, Taniel Suvi, an inner-circle disciple of the Chinese master Wang Xiuyuan (王秀远) and the only certified taiji meihua tanglangquan coach in Estonia. He also holds coaching qualifications in underwater sports and wushu / kung fu.</p>
-        <p data-l="zh">功夫教学由 Wulf 师傅——Taniel Suvi——主持。他是中国师傅王秀远的入室弟子，也是爱沙尼亚唯一经认证的太极梅花螳螂拳教练，并持有潜水运动与武术教练资格。</p>
+        <p data-l="et">Kung fu väljaõpet juhendab meister Wulf — Taniel Suvi —, Hiina meistri Wang Xiuyuani (王秀远) siseringi õpilane ja Eestis ainus atesteeritud taiji meihua tanglangquan'i treener. Talle on omistatud ka <a href="https://meregrupp.ee/" target="_blank" rel="noopener">allveespordi</a> ja wushu/kungfu treeneri kvalifikatsioonid.</p>
+        <p data-l="en">Training is led by Master Wulf, Taniel Suvi, an inner-circle disciple of the Chinese master Wang Xiuyuan (王秀远) and the only certified taiji meihua tanglangquan coach in Estonia. He also holds coaching qualifications in <a href="https://meregrupp.ee/en/" target="_blank" rel="noopener">underwater sports</a> and wushu / kung fu.</p>
+        <p data-l="zh">功夫教学由 Wulf 师傅——Taniel Suvi——主持。他是中国师傅王秀远的入室弟子，也是爱沙尼亚唯一经认证的太极梅花螳螂拳教练，并持有<a href="https://meregrupp.ee/en/" target="_blank" rel="noopener">潜水运动</a>与武术教练资格。</p>
         <ul class="timeline">
-          <li><time>1991 – 1992</time><p data-l="et">Tanglangquani kursus ja eksam Tallinnas Wang Xiuyuani juhendamisel. Hinne 良好 (hea); õigus tegutseda treenerina. Tunnistusel on Weifangi Taiji Meihua Tanglangquani uurimisühingu pitsat.</p><p data-l="en">Tanglangquan course and examination in Tallinn under Wang Xiuyuan. Grade 良好 (good) and the right to work as a coach, sealed by the Weifang Taiji Meihua Tanglangquan Research Association.</p><p data-l="zh">在塔林随王秀远学习螳螂拳并通过考试，成绩“良好”，获准担任教练；证书盖有潍坊市太极梅花螳螂拳研究会印章。</p></li>
+          <li><time>1991 – 1992</time><p data-l="et">Tanglangquani kursus ja eksam Tallinnas Wang Xiuyuani juhendamisel. Hinne 良好 (hea); õigus tegutseda treenerina. Tunnistusel on 1982 asutatud Weifangi Taiji Meihua Tanglangquani uurimisühingu (潍坊市太极梅花螳螂拳研究会) pitsat; Wang Xiuyuan on tunnistusele alla kirjutanud ühingu presidendina.</p><p data-l="en">Tanglangquan course and examination in Tallinn under Wang Xiuyuan. Grade 良好 (good) and the right to work as a coach, sealed by the Weifang Taiji Meihua Tanglangquan Research Association (潍坊市太极梅花螳螂拳研究会), founded in 1982; Wang Xiuyuan signs the certificate as its president.</p><p data-l="zh">在塔林随王秀远学习螳螂拳并通过考试，成绩“良好”，获准担任教练；证书盖有 1982 年成立的潍坊市太极梅花螳螂拳研究会印章，王秀远以会长身份签发。</p></li>
           <li><time>2023</time><p data-l="et">Ametlik bàishī (拜师) Weifangis ja kanne pärimusregistrisse 《莱阳螳螂拳潍坊支传承谱》: Taiji Tanglangquani 9. põlvkonna siseringi õpilane (入室弟子).</p><p data-l="en">Formal bàishī (拜师) ceremony in Weifang and entry in the lineage register 《莱阳螳螂拳潍坊支传承谱》 as a 9th-generation inner-circle disciple (入室弟子) of Taiji Tanglangquan.</p><p data-l="zh">七月赴潍坊正式拜王秀远先生为师，载入《莱阳螳螂拳潍坊支传承谱》：太极螳螂拳第九代入室弟子。</p></li>
-          <li><time>2024</time><p data-l="et">Weifangi Taiji Tanglangquani avalik 9. põlvkonna register: Taniel Suvi (Eesti), 师承王秀远.</p><p data-l="en">Listed in the public 9th-generation register of Weifang Taiji Tanglangquan: Taniel Suvi (Estonia), 师承王秀远.</p><p data-l="zh">列入潍坊太极螳螂拳第九代公开传承名录：Taniel Suvi（爱沙尼亚）——师承王秀远。</p></li>
+          <li><time>2024</time><p data-l="et">Weifangi Taiji Tanglangquani avalik 9. põlvkonna register: Taniel Suvi (Eesti), 师承王秀远. Allikas: Weifangi Tanglangquani klubi (潍坊螳螂拳俱乐部) mälestusartikkel Wang Yushani 130. sünniaastapäevaks, aprill 2024.</p><p data-l="en">Listed in the public 9th-generation register of Weifang Taiji Tanglangquan: Taniel Suvi (Estonia), 师承王秀远. Source: the Weifang Tanglangquan Club's (潍坊螳螂拳俱乐部) memorial article for the 130th anniversary of Wang Yushan's birth, April 2024.</p><p data-l="zh">列入潍坊太极螳螂拳第九代公开传承名录：Taniel Suvi（爱沙尼亚）——师承王秀远。来源：潍坊螳螂拳俱乐部《纪念太极螳螂拳宗师王玉山先生诞辰130周年》，2024 年 4 月。</p></li>
         </ul>
       </div>
     </div>
@@ -212,10 +241,10 @@ body.page-mantis{
         <li><span class="zh">小反车</span><span class="py">Xiǎo Fǎnchē</span><span class="tr"><span data-l="et">„väike ümberpöörduv vanker“</span><span data-l="en">"small turning cart"</span><span data-l="zh">缠绕翻转的连贯动作</span></span></li>
         <li><span class="zh">梅花路</span><span class="py">Méihuālù</span><span class="tr"><span data-l="et">„ploomiõie tee“ — Meihua keskne vorm</span><span data-l="en">"plum blossom road", the central Meihua form</span><span data-l="zh">梅花手法与步法的核心套路</span></span></li>
         <li><span class="zh">连五掌</span><span class="py">Liánwǔzhǎng</span><span class="tr"><span data-l="et">„seotud viis peopesa“</span><span data-l="en">"five linked palms"</span><span data-l="zh">连贯的掌法短套</span></span></li>
-        <li><span class="zh">拦截</span><span class="py">Lánjié</span><span class="tr"><span data-l="et">„tõkestamine ja katkestamine“ — kontakt ja vasturünnak</span><span data-l="en">"intercepting", contact and counter-attack</span><span data-l="zh">接触与反击的重要套路</span></span></li>
+        <li><span class="zh">拦截 · 梅花拦截</span><span class="py">Lánjié · Méihuā Lánjié</span><span class="tr"><span data-l="et">„tõkestamine ja katkestamine“ — kontakt ja vasturünnak; Wangi liinis nimekujul 梅花拦截</span><span data-l="en">"intercepting", contact and counter-attack; in Wang's line under the name 梅花拦截</span><span data-l="zh">接触与反击的重要套路；王师一脉称梅花拦截</span></span></li>
         <li><span class="zh">崩步</span><span class="py">Bēngbù</span><span class="tr"><span data-l="et">Bengbu — klassikaline võitlusvorm</span><span data-l="en">Bengbu, a classical fighting form</span><span data-l="zh">经典实战套路</span></span></li>
         <li><span class="zh">摘要</span><span class="py">Zhāiyào</span><span class="tr"><span data-l="et">„essents“ — edasijõudnute korpus</span><span data-l="en">"the essentials", advanced material</span><span data-l="zh">进阶核心内容</span></span></li>
-        <li><span class="zh">八肘</span><span class="py">Bāzhǒu</span><span class="tr"><span data-l="et">„kaheksa küünarnukki“ — lähimaa vorm</span><span data-l="en">"eight elbows", close-range form</span><span data-l="zh">近身短打套路</span></span></li>
+        <li><span class="zh">分身八肘</span><span class="py">Fēnshēn Bāzhǒu</span><span class="tr"><span data-l="et">„kaheksa küünarnukki“, täisnimega 分身八肘 — lähimaa vorm</span><span data-l="en">"eight elbows", full name 分身八肘, close-range form</span><span data-l="zh">全称分身八肘，近身短打套路</span></span></li>
         <li><span class="zh">刀 · 枪 · 剑 · 棍</span><span class="py">dāo · qiāng · jiàn · gùn</span><span class="tr"><span data-l="et">relvad: säbel, oda, sirgmõõk, kepp</span><span data-l="en">weapons: sabre, spear, straight sword, staff</span><span data-l="zh">器械四类</span></span></li>
       </ul>
     </div>
@@ -226,9 +255,9 @@ body.page-mantis{
       <h2><span data-l="et">Meister Wang Xiuyuan</span><span data-l="en">Master Wang Xiuyuan</span><span data-l="zh">王秀远师傅</span></h2>
       <div class="cols">
         <div>
-          <p data-l="et">Wang Xiuyuan (王秀远, sündinud 1953 Weifangis, Shandong) on Hiina wushu 6. duani meister ja Weifangi Tanglangquani vaimse kultuuripärandi esindaja. Ta õppis 1960. aastatest Wang Fenghe, Sheng Fengzhou, Hao Bini ning Wang Yuanliangi ja Wang Yuanqiani juures, kogus 1982. aastaks riikliku inventuuri tarbeks 36 komplekti vorme ning asutas 1999 Weifangi Jinbao wushu kooli. Tema õpetuses kohtuvad Song Zide–Wang Yushani Taiji Tanglangquani liin ja Hao perekonna Taiji Meihua Tanglangquani materjal.</p>
-          <p data-l="en">Wang Xiuyuan (王秀远, born 1953 in Weifang, Shandong) holds the 6th duan of Chinese wushu and represents Weifang Tanglangquan as an intangible cultural heritage. From the 1960s he studied under Wang Fenghe, Sheng Fengzhou, Hao Bin, Wang Yuanliang and Wang Yuanqian, compiled 36 sets of forms for the national inventory of 1982 and founded the Weifang Jinbao Wushu School in 1999. His teaching brings together the Song Zide–Wang Yushan line of Taiji Tanglangquan and the Hao family's Taiji Meihua Tanglangquan.</p>
-          <p data-l="zh">王秀远，1953 年生于山东潍坊，中国武术六段，潍坊螳螂拳非物质文化遗产代表性传承人。自 1960 年代起先后师从王凤鹤、盛凤洲、郝斌、王元亮、王元乾诸位先生，1982 年为国家武术挖掘整理工作提交三十六套拳械，1999 年创办潍坊金宝武术学校。其所传融汇宋子德—王玉山一系的太极螳螂拳与郝家太极梅花螳螂拳。</p>
+          <p data-l="et">Wang Xiuyuan (王秀远, sündinud 1953 Weifangis, Shandong) on Hiina wushu 6. duani meister ja Weifangi Tanglangquani vaimse kultuuripärandi esindaja. 1960. aastatel sai temast Wang Fenghe (王凤鹤) õpilane; 1972–1978 käis ta peaaegu igal laupäeval Qingdaos õppimas ja võrdlemas; 1970. aastate lõpust õppis ta üle 20 aasta Wang Yuanliangi (王元亮) ja Wang Yuanqiani (王元乾) juures. Tema õpetajate hulka kuuluvad ka Sheng Fengzhou (盛凤洲), Hao Bin (郝斌) ja Zhou Yongxiang (周永祥). 1982. aastaks kogus ta riikliku inventuuri tarbeks 36 komplekti vorme; samal aastal asutatud Weifangi Taiji Meihua Tanglangquani uurimisühing (潍坊市太极梅花螳螂拳研究会) on sama ühing, mille pitsat on allpool 1991–92 tunnistusel — tunnistusel on Wang Xiuyuan märgitud selle ühingu presidendina. 1999 asutas ta Weifangi Jinbao wushu kooli. Tema õpetuses kohtuvad Song Zide–Wang Yushani Taiji Tanglangquani liin ja Hao perekonna Taiji Meihua Tanglangquani materjal.</p>
+          <p data-l="en">Wang Xiuyuan (王秀远, born 1953 in Weifang, Shandong) holds the 6th duan of Chinese wushu and represents Weifang Tanglangquan as an intangible cultural heritage. In the 1960s he became a disciple of Wang Fenghe (王凤鹤); from 1972 to 1978 he travelled to Qingdao almost every Saturday to study and compare; and from the late 1970s he studied for more than twenty years under Wang Yuanliang (王元亮) and Wang Yuanqian (王元乾). His teachers also include Sheng Fengzhou (盛凤洲), Hao Bin (郝斌) and Zhou Yongxiang (周永祥). By 1982 he had compiled 36 sets of forms for the national inventory; the Weifang Taiji Meihua Tanglangquan Research Association (潍坊市太极梅花螳螂拳研究会), founded that year, is the same body whose seal appears on the 1991–92 certificate below, where Wang Xiuyuan is named as its president. In 1999 he founded the Weifang Jinbao Wushu School. His teaching brings together the Song Zide–Wang Yushan line of Taiji Tanglangquan and the Hao family's Taiji Meihua Tanglangquan.</p>
+          <p data-l="zh">王秀远，1953 年生于山东潍坊，中国武术六段，潍坊螳螂拳非物质文化遗产代表性传承人。1960 年代拜王凤鹤先生为师；1972 至 1978 年几乎每个星期六赴青岛学习切磋；自 1970 年代末起，随王元亮、王元乾两位先生学习二十余年。其师承还包括盛凤洲、郝斌、周永祥诸位先生。1982 年为国家武术挖掘整理工作提交三十六套拳械；同年成立的潍坊市太极梅花螳螂拳研究会即下方 1991–92 年证书上盖章的协会，证书上王秀远署名为该会会长。1999 年创办潍坊金宝武术学校。其所传融汇宋子德—王玉山一系的太极螳螂拳与郝家太极梅花螳螂拳。</p>
         </div>
         <div class="docs">
           <figure>
@@ -238,6 +267,10 @@ body.page-mantis{
           <figure>
             <img src="/assets/kungfu/parimusregister-2023.jpg" width="1200" height="845" alt="Pärimusregistri leht 2023" loading="lazy" decoding="async">
             <figcaption><span data-l="et">Sissekanne pärimusregistris koos meistri allkirja ja pitseriga, Weifang, juuli 2023.</span><span data-l="en">Entry in the lineage register with the master's signature and seal, Weifang, July 2023.</span><span data-l="zh">传承谱中的记载，附师傅签名与印章，潍坊，2023 年 7 月。</span></figcaption>
+          </figure>
+          <figure>
+            <img src="/assets/kungfu/duan-2026.jpg" width="1200" height="848" alt="Hiina Wushu Assotsiatsiooni duanitunnistus, 3. duan, 2026" loading="lazy" decoding="async">
+            <figcaption><span data-l="et">Hiina Wushu Assotsiatsiooni duanitunnistus: 3. duan, tanglangquan, märts 2026.</span><span data-l="en">Chinese Wushu Association duan certificate: 3rd duan, tanglangquan, March 2026.</span><span data-l="zh">中国武术协会段位证书：三段，螳螂拳，2026 年 3 月。</span></figcaption>
           </figure>
         </div>
       </div>
@@ -260,13 +293,87 @@ body.page-mantis{
   <div class="wrap">
     <span>© <span id="year">2026</span> Meisterwulf</span>
     <nav aria-label="Meisterwulf">
-      <a href="/">Meisterwulf</a>
+      <a href="/" data-keep-lang>Meisterwulf</a>
       <a href="/shoemaker.html" data-keep-lang><span data-l="et">Kingsepp</span><span data-l="en">Shoemaker</span><span data-l="zh">鞋匠</span></a>
       <a href="/mantis.html" class="is-here" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
       <a href="/books.html" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
     </nav>
+    <a class="fb" href="https://www.facebook.com/meister.von.wulf" target="_blank" rel="noopener" aria-label="Facebook: Meister von Wulf"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22h3.4z"/></svg><span>Facebook</span></a>
   </div>
 </footer>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+<!-- treeningprogrammi PDF hüpikaknas; fail valitakse parajasti valitud keele järgi -->
+<div class="pdfbox" id="pdfbox" hidden role="dialog" aria-modal="true" aria-label="Treeningprogramm (PDF)">
+  <div class="pdfbox-panel">
+    <div class="pdfbox-bar">
+      <span class="pdfbox-title" id="pdfbox-title"><span data-l="et">Palvetajaritsika stiil — viis väravat</span><span data-l="en">The Praying Mantis Style — the five gates</span><span data-l="zh">螳螂拳——五关</span></span>
+      <a class="pdfbox-new" href="/assets/kungfu/treeningprogramm-en.pdf" target="_blank" rel="noopener"><span data-l="et">Ava uues aknas</span><span data-l="en">Open in a new window</span><span data-l="zh">新窗口打开</span></a>
+      <button type="button" class="pdfbox-close" aria-label="Sulge · Close · 关闭">×</button>
+    </div>
+    <div class="pdfbox-doc"></div>
+  </div>
+</div>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+(function () {
+  var btn = document.getElementById("pdf-open");
+  var box = document.getElementById("pdfbox");
+  if (!btn || !box) return;
+  var doc = box.querySelector(".pdfbox-doc");
+  var link = box.querySelector(".pdfbox-new");
+  var close = box.querySelector(".pdfbox-close");
+  var open = false, current = "";
+  function src() {
+    var l = document.documentElement.getAttribute("data-lang") || "en";
+    box.setAttribute("aria-label", { et: "Treeningprogramm (PDF)", en: "Training programme (PDF)", zh: "训练大纲（PDF）" }[l] || "PDF");
+    return btn.getAttribute("data-pdf-" + l) || btn.getAttribute("data-pdf-en");
+  }
+  function load() {
+    var s = src();
+    if (s === current) return;
+    current = s;
+    link.href = s;
+    var o = document.createElement("object");
+    o.setAttribute("data", s + "#view=FitH");
+    o.setAttribute("type", "application/pdf");
+    o.setAttribute("aria-label", "PDF");
+    var fb = document.createElement("div");
+    fb.className = "pdfbox-fallback";
+    fb.innerHTML = '<p><span data-l="et">Selles brauseris ei saa PDF-i siin näidata.</span><span data-l="en">This browser cannot show the PDF here.</span><span data-l="zh">此浏览器无法在此显示 PDF。</span></p>';
+    var a = document.createElement("a");
+    a.className = "btn btn--solid"; a.href = s; a.target = "_blank"; a.rel = "noopener";
+    a.innerHTML = '<span data-l="et">Ava PDF</span><span data-l="en">Open the PDF</span><span data-l="zh">打开 PDF</span>';
+    fb.appendChild(a);
+    o.appendChild(fb);
+    while (doc.firstChild) doc.removeChild(doc.firstChild);
+    doc.appendChild(o);
+  }
+  function show() {
+    load();
+    box.hidden = false; open = true;
+    document.body.style.overflow = "hidden";
+    close.focus();
+  }
+  function hide() {
+    box.hidden = true; open = false;
+    document.body.style.overflow = "";
+    btn.focus();
+  }
+  btn.addEventListener("click", show);
+  close.addEventListener("click", hide);
+  box.addEventListener("click", function (e) { if (e.target === box) hide(); });
+  document.addEventListener("keydown", function (e) {
+    if (!open) return;
+    if (e.key === "Escape") { hide(); return; }
+    if (e.key === "Tab") {                /* fookus jääb akna sisse */
+      var f = box.querySelectorAll("a[href], button, object");
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+  document.addEventListener("mw:lang", function () { if (open) load(); else current = ""; });
+})();
+</script>
 </body>
 </html>

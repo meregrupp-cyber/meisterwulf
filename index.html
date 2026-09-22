@@ -29,8 +29,10 @@
 /* ---------------------------------------------------------------
    Esileht. Paigutus järgib GIMP-i faili (lõuend 2912 × 1632 px):
    kaks gruppi — sildid (744,125 / 2054×458) ja fotod
-   (307,928 / 1589×651) — ning nende sees tükid lõuendi
-   koordinaatides. Kõik mõõdud on protsendid, seega skaleerub
+   (307,860 / 1970×760) — ning nende sees tükid lõuendi
+   koordinaatides. Kolm fotokaarti on terved ja ei kata
+   üksteist: kingsepp (313,975), kung fu (1075,899),
+   raamatud (1670,880). Kõik mõõdud on protsendid, seega skaleerub
    kompositsioon tervikuna.
 
    Olekud (body):
@@ -38,6 +40,8 @@
      .has-lang        keel valitud: valitud silt vilgub 5x, teised
                       tuhmuvad 30% peale, fotod hakkavad laines
                       helendama ja on klikitavad
+     .is-wave         laine käib: kaartide all on kiri
+                      "vali kaart, kuhu soovid minna"
      .is-leaving      foto valitud: see vilgub kiiremini, teised
                       kaovad, 2 s pärast avaneb alaleht
    --------------------------------------------------------------- */
@@ -92,7 +96,7 @@ body.landing::before{
   z-index:2;
 }
 .group.langs{ --gx:744; --gy:125; --gw:2054; --gh:458; }
-.group.cards{ --gx:307; --gy:928; --gw:1589; --gh:651; }
+.group.cards{ --gx:307; --gy:860; --gw:1970; --gh:760; }
 
 .piece{
   position:absolute;
@@ -182,11 +186,42 @@ body.landing::before{
   text-shadow:0 1px 6px rgba(0,0,0,.9);
   transition:opacity .8s ease;
 }
-.hint .h2{ display:none; }
-.has-lang .hint .h1{ display:none; }
-.has-lang .hint .h2{ display:inline; }
-.is-leaving .hint{ opacity:0; }
-.hint [lang="zh"], .hint [data-l="zh"]{ letter-spacing:.35em; }
+.has-lang .hint{ opacity:0; pointer-events:none; }
+.is-returning .hint{ display:none; }
+.hint [lang="zh"]{ letter-spacing:.35em; }
+
+/* --- kiri kaartide all: ilmub, kui kaardid hakkavad laines helendama --- */
+.card-hint{
+  position:absolute;
+  left:calc(307 / 2912 * 100%);
+  width:calc(1970 / 2912 * 100%);
+  top:calc(1574 / 1632 * 100%);
+  z-index:3;
+  margin:0;
+  font-size:clamp(.6rem, 1.05vw, .92rem);
+  letter-spacing:.28em;
+  text-indent:.28em;
+  text-transform:uppercase;
+  text-align:center;
+  white-space:nowrap;
+  color:var(--brass-light);
+  text-shadow:0 1px 8px rgba(0,0,0,.95), 0 0 18px rgba(0,0,0,.8);
+  opacity:0;
+  transform:translateY(6px);
+  transition:opacity .9s ease, transform .9s ease;
+  pointer-events:none;
+}
+.card-hint [data-l="zh"]{ letter-spacing:.4em; }
+.is-wave .card-hint{ opacity:1; transform:none; }
+.is-leaving .card-hint{ opacity:0; }
+
+/* --- Facebook paremal all --- */
+.landing .fb{
+  position:fixed;
+  right:clamp(10px, 1.6vw, 24px);
+  bottom:clamp(10px, 1.6vw, 24px);
+  z-index:61;
+}
 
 /* Korduvkülastaja: keel on meeles, suuri silte ei näidata,
    keelt saab vahetada väikestest siltidest paremal üleval. */
@@ -235,6 +270,16 @@ body.landing::before{
   .hint .sep{ display:none; }
   .hint .hp{ display:block; }
   .scene{ padding-top:clamp(150px, 24vh, 230px); }
+  .card-hint{
+    position:relative;
+    left:auto; top:auto;
+    width:100%;
+    margin-top:calc(-1 * clamp(12px, 3vh, 44px));
+    font-size:.62rem;
+    line-height:1.7;
+    letter-spacing:.22em;
+    white-space:normal;
+  }
 }
 
 @media (prefers-reduced-motion: reduce){
@@ -255,7 +300,6 @@ body.landing::before{
 <div class="topright">
   <p class="hint" aria-live="polite">
     <span class="h1"><span class="hp">Vali keel</span><span class="sep"> &nbsp;·&nbsp; </span><span class="hp">Choose a language</span><span class="sep"> &nbsp;·&nbsp; </span><span class="hp" lang="zh">请选择语言</span></span>
-    <span class="h2"><span data-l="et">Vali kaart, kuhu edasi</span><span data-l="en">Pick a card to continue</span><span data-l="zh">请选择一张卡片</span></span>
   </p>
   <nav class="langbar" aria-label="Keel · Language · 语言">
     <button type="button" data-set-lang="et" aria-pressed="false"><img src="/assets/landing/tere.webp" width="717" height="440" alt="eesti keel"></button>
@@ -287,24 +331,29 @@ body.landing::before{
 
   <!-- fotokaardid: kingsepp / kung fu / raamatud -->
   <nav class="group cards" aria-label="Meisterwulf">
-    <a class="piece card" href="/shoemaker.html" data-page="shoemaker" aria-disabled="true" style="--px:6;--py:47;--pw:751;--ph:577;--z:3">
+    <a class="piece card" href="/shoemaker.html" data-page="shoemaker" aria-disabled="true" style="--px:6;--py:115;--pw:751;--ph:577;--z:3">
       <img src="/assets/landing/shoemaker.webp" width="751" height="577" alt="" decoding="async">
       <span class="sr-only"><span data-l="et">Kingsepp — jalatsite valmistamine</span><span data-l="en">Shoemaker — bespoke footwear</span><span data-l="zh">鞋匠 — 定制鞋履</span></span>
       <span class="hit" style="clip-path:polygon(0.3% 97.1%, 7.3% 16.6%, 8.5% 14.6%, 19.2% 11.8%, 68.2% 0.3%, 70.8% 0.7%, 72.3% 3.5%, 86.8% 37.6%, 99.9% 69.3%, 99.6% 71.9%, 98.0% 72.8%, 93.7% 74.4%, 49.0% 88.0%, 6.8% 99.1%, 1.3% 99.8%, 0.3% 98.4%)"></span>
     </a>
-    <a class="piece card" href="/mantis.html" data-page="mantis" aria-disabled="true" style="--px:571;--py:7;--pw:526;--ph:481;--z:2">
-      <img src="/assets/landing/mantis.webp" width="526" height="481" alt="" decoding="async">
+    <a class="piece card" href="/mantis.html" data-page="mantis" aria-disabled="true" style="--px:768;--py:39;--pw:607;--ph:661;--z:2">
+      <img src="/assets/landing/mantis-card.webp" width="698" height="760" alt="" decoding="async">
       <span class="sr-only"><span data-l="et">Kung fu — palvetajaritsika stiil</span><span data-l="en">Kung fu — praying mantis style</span><span data-l="zh">功夫 — 螳螂拳</span></span>
-      <span class="hit" style="clip-path:polygon(3.0% 4.8%, 3.8% 2.1%, 5.3% 1.2%, 77.6% 0.2%, 79.8% 0.4%, 81.2% 1.7%, 85.9% 23.5%, 90.1% 44.9%, 99.4% 93.1%, 99.8% 95.6%, 99.6% 97.7%, 98.9% 98.8%, 66.2% 99.6%, 55.7% 99.8%, 16.9% 99.8%, 0.0% 21.2%)"></span>
+      <span class="hit" style="clip-path:polygon(1.0% 7.9%, 1.3% 6.6%, 2.9% 5.5%, 80.7% 2.5%, 82.4% 4.3%, 97.4% 92.4%, 96.3% 93.4%, 12.8% 97.5%, 10.3% 96.6%, 9.6% 94.2%)"></span>
     </a>
-    <a class="piece card" href="/books.html" data-page="books" aria-disabled="true" style="--px:1021;--py:32;--pw:560;--ph:599;--z:4">
-      <img src="/assets/landing/books.webp" width="560" height="599" alt="" decoding="async">
+    <a class="piece card" href="/books.html" data-page="books" aria-disabled="true" style="--px:1363;--py:20;--pw:606;--ph:681;--z:4">
+      <img src="/assets/landing/books-card.webp" width="730" height="821" alt="" decoding="async">
       <span class="sr-only"><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></span>
-      <span class="hit" style="clip-path:polygon(0.0% 13.4%, 6.4% 0.8%, 7.9% 0.2%, 11.8% 0.7%, 78.0% 14.7%, 82.9% 16.0%, 85.0% 22.5%, 90.7% 48.7%, 96.4% 77.8%, 99.8% 97.5%, 98.6% 99.7%, 95.7% 99.8%, 87.1% 98.0%, 67.9% 93.2%, 13.9% 78.8%, 2.9% 75.5%)"></span>
+      <span class="hit" style="clip-path:polygon(0.8% 73.7%, 18.6% 4.1%, 19.6% 2.3%, 20.8% 1.7%, 95.8% 16.4%, 96.7% 17.7%, 90.1% 96.2%, 88.6% 98.1%, 86.7% 98.1%, 1.5% 75.2%)"></span>
     </a>
   </nav>
 
+  <!-- kiri kaartide all, kui on aeg kaarti valida -->
+  <p class="card-hint" aria-live="polite" hidden><span data-l="et">Vali kaart, kuhu soovid minna</span><span data-l="en">Choose the card you want to go to</span><span data-l="zh">请选择卡片，前往你想去的地方</span></p>
+
 </main>
+
+<a class="fb" href="https://www.facebook.com/meister.von.wulf" target="_blank" rel="noopener" aria-label="Facebook: Meister von Wulf"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22h3.4z"/></svg><span>Facebook</span></a>
 
 <script>
 (function () {
@@ -312,6 +361,7 @@ body.landing::before{
   var langs = [].slice.call(document.querySelectorAll(".lang"));
   var cards = [].slice.call(document.querySelectorAll(".card"));
   var small = [].slice.call(document.querySelectorAll(".langbar [data-set-lang]"));
+  var hint  = document.querySelector(".card-hint");
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   var lang = null, leaving = false, waveTimer = null;
 
@@ -325,10 +375,13 @@ body.landing::before{
       c.style.setProperty("--delay", (i * 0.55) + "s");
     });
   }
-  function startWave(delay) {
+  function startWave(delay) {           /* kaardid helendavad laines, all ilmub "vali kaart" */
     clearTimeout(waveTimer);
     waveTimer = setTimeout(function () {
       cards.forEach(function (c) { c.classList.add("is-wave"); });
+      hint.hidden = false;              /* ilmub DOM-i alles nüüd, et ekraanilugeja selle ette loeks */
+      void hint.offsetWidth;
+      body.classList.add("is-wave");
     }, reduce ? 0 : delay);
   }
 
@@ -337,7 +390,7 @@ body.landing::before{
   function selectLang(l) {
     if (leaving) return;
     lang = l;
-    MW.apply(l);                        /* jätab keele meelde */
+    MW.apply(l, { url: true });         /* jätab keele meelde, ka URL-i */
     body.classList.add("has-lang");
     body.setAttribute("data-state", "lang");
     langs.forEach(function (b) {
@@ -370,6 +423,7 @@ body.landing::before{
     }
     leaving = true;
     clearTimeout(waveTimer);
+    body.classList.remove("is-wave");
     body.classList.add("is-leaving");
     body.setAttribute("data-state", "card");
     cards.forEach(function (o) {
@@ -393,9 +447,9 @@ body.landing::before{
   function init() {
     leaving = false;
     body.classList.remove("is-leaving");
-    var stored = null;
-    try { stored = new URLSearchParams(location.search).get("lang"); } catch (e) {}
-    if (MW.LANGS.indexOf(stored) === -1) stored = MW.stored();
+    var stored = MW.stored();          /* selektoris valitud keel on ülimuslik */
+    if (!stored) { try { stored = new URLSearchParams(location.search).get("lang"); } catch (e) {} }
+    if (MW.LANGS.indexOf(stored) === -1) stored = null;
     if (stored) returning(stored);
     else if (body.classList.contains("has-lang")) { activateCards(); startWave(300); }
   }
