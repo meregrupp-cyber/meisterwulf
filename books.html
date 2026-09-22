@@ -41,13 +41,22 @@
       "name": "狼的印记 (Meister Wulf)",
       "alternateName": "Meister Wulf",
       "author": {"@type": "Person", "name": "Taniel Suvi"},
-      "editor": {"@type": "Person", "name": "Mai Suvi"},
       "isbn": "978-9908-9922-1-1",
       "inLanguage": "zh-Hans",
       "datePublished": "2026",
       "publisher": {"@type": "Organization", "name": "OÜ Kriuks", "address": "Tallinn, Estonia"},
       "image": "https://meisterwulf.com/assets/books/wolf-mark-cover.jpg",
       "offers": {"@type": "Offer", "price": "49.99", "priceCurrency": "EUR", "availability": "https://schema.org/PreOrder", "url": "https://meisterwulf.com/books.html#wolf-mark"}
+    },
+    {
+      "@type": "Book",
+      "name": "Lola ja Lohe päästesalk",
+      "author": {"@type": "Person", "name": "Markus Saksatamm"},
+      "illustrator": {"@type": "Person", "name": "Urmas Nemvalts"},
+      "inLanguage": "et",
+      "numberOfPages": 112,
+      "image": "https://meisterwulf.com/assets/books/lola-ja-lohe-cover.jpg",
+      "offers": {"@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": "https://www.apollo.ee/et/lola-ja-lohe-paastesalk.html"}
     }
   ]
 }
@@ -143,15 +152,30 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
 
 .about{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap:clamp(18px, 3vw, 36px); }
 
+/* Lola ja Lohe: katkend (ajakirjalehekülg) raamatu kõrval, klõps avab suurelt */
+#lola-ja-lohe .book-cover{ background:#f6efb8; }
+.excerpt{ display:grid; grid-template-columns:minmax(120px, 190px) minmax(0, 1fr); gap:18px; align-items:center; margin:1.6em 0 0; padding-top:1.4em; border-top:1px solid rgba(232,201,122,.18); }
+.excerpt a.zoom{ display:block; border:0; cursor:zoom-in; }
+.excerpt img{ display:block; width:100%; height:auto; border-radius:3px; border:1px solid rgba(232,201,122,.25); box-shadow:0 18px 30px -18px rgba(0,0,0,.95); background:#f3ead6; transition:transform .5s ease; }
+.excerpt a.zoom:hover img{ transform:scale(1.03); }
+.excerpt figcaption{ font-size:.9rem; color:var(--parchment-dim); }
+.excerpt figcaption q{ color:var(--parchment); font-style:italic; }
+.lightbox{ position:fixed; inset:0; z-index:100; display:grid; place-items:center; align-content:center; gap:14px; padding:4vh 4vw; background:rgba(6,4,3,.93); cursor:zoom-out; animation:lb-in .25s ease; }
+.lightbox[hidden]{ display:none; }
+.lightbox img{ display:block; max-width:min(100%, 900px); max-height:88vh; width:auto; height:auto; border:1px solid rgba(232,201,122,.35); box-shadow:0 40px 80px -30px rgba(0,0,0,1); background:#f3ead6; }
+.lightbox-cap{ margin:0; max-width:none; font-size:.9rem; letter-spacing:.12em; text-transform:uppercase; color:var(--parchment-dim); text-align:center; }
+@keyframes lb-in{ from{ opacity:0; } to{ opacity:1; } }
+
 @media (max-width: 700px){
   .book{ grid-template-columns:1fr; }
   .book-cover{ width:min(70%, 300px); margin-inline:auto; transform:none; }
+  .excerpt{ grid-template-columns:minmax(100px, 140px) minmax(0, 1fr); }
 }
 </style>
 </head>
 <body class="page page-books has-lang">
 
-<a class="wulf" href="/" aria-label="Meisterwulf">
+<a class="wulf" href="/" data-keep-lang aria-label="Meisterwulf">
   <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
   <span class="wulf-caption"><span data-l="et">Tagasi esilehele</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span></span>
 </a>
@@ -238,7 +262,6 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
             <dt><span data-l="et">Keel</span><span data-l="en">Language</span><span data-l="zh">语言</span></dt><dd><span data-l="et">hiina (lihtsustatud kirjas)</span><span data-l="en">Chinese (simplified)</span><span data-l="zh">中文（简体）</span></dd>
             <dt><span data-l="et">Illustratsioonid</span><span data-l="en">Illustrations</span><span data-l="zh">插图</span></dt><dd><span data-l="et">24 linoollõiget, 24 peatükki</span><span data-l="en">24 linocuts, 24 chapters</span><span data-l="zh">麻胶版画二十四幅，二十四章</span></dd>
             <dt><span data-l="et">Kirjastus</span><span data-l="en">Publisher</span><span data-l="zh">出版</span></dt><dd>OÜ Kriuks, Tallinn 2026</dd>
-            <dt><span data-l="et">Toimetaja ja kujundus</span><span data-l="en">Editor and design</span><span data-l="zh">编辑、装帧设计</span></dt><dd>Mai Suvi</dd>
             <dt><span data-l="et">Trükk</span><span data-l="en">Printed by</span><span data-l="zh">印刷</span></dt><dd>Librix Print</dd>
             <dt>ISBN</dt><dd>978-9908-9922-1-1</dd>
             <dt><span data-l="et">Hind</span><span data-l="en">Price</span><span data-l="zh">价格</span></dt><dd><span class="price">49.99 € <small>EUR</small></span></dd>
@@ -248,6 +271,45 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
             <a class="btn" href="/assets/books/hundi-margid-naidis-zh.pdf" target="_blank" rel="noopener"><span data-l="et">Loe näidet (PDF)</span><span data-l="en">Read a sample (PDF)</span><span data-l="zh">阅读试读（PDF）</span></a>
             <a class="btn btn--solid" data-u="meister.wulf" data-d="pm.me" data-subject="Tellimus: 狼的印记 (Meister Wulf)" data-keep-text="1" href="#"><span data-l="et">Telli e-posti teel</span><span data-l="en">Order by email</span><span data-l="zh">邮件订购</span></a>
           </div>
+        </div>
+      </article>
+
+      <article class="book" id="lola-ja-lohe">
+        <a href="https://www.apollo.ee/et/lola-ja-lohe-paastesalk.html" target="_blank" rel="noopener" aria-label="Lola ja Lohe päästesalk — Apollo">
+          <picture>
+            <source srcset="/assets/books/lola-ja-lohe-cover.webp" type="image/webp">
+            <img class="book-cover" src="/assets/books/lola-ja-lohe-cover.jpg" width="700" height="828" alt="Lola ja Lohe päästesalk — raamatu kaas: kollasel taustal oranž lohe kahe jäätisega ja tüdruk kiigel" decoding="async">
+          </picture>
+        </a>
+        <div>
+          <h2 class="book-title book-title--latin">Lola ja Lohe päästesalk</h2>
+          <p class="book-sub">
+            <span data-l="et">Lasteraamat tüdrukust, lohest ja päästjatest — üks tegelastest on kung fu treener meister Wulf</span>
+            <span data-l="en">A children's book about a girl, a dragon and rescuers, with the kung fu teacher Meister Wulf among its characters</span>
+            <span data-l="zh">一本关于小女孩、小龙和救援者的儿童读物，功夫教练 Wulf 师傅是书中人物之一</span>
+          </p>
+          <p class="book-author">Markus Saksatamm · <span class="book-lang"><span data-l="et">pildid Urmas Nemvalts · eesti keeles</span><span data-l="en">illustrated by Urmas Nemvalts · in Estonian</span><span data-l="zh">乌尔马斯·内姆瓦尔茨绘图 · 爱沙尼亚文版</span></span></p>
+
+          <p data-l="et">See raamat on Lolast — tüdrukust, kelle lemmikloomaks on… ei-ei, mitte koer. Ega ka kass. Vaid päris ehtne lohemadu, kes armastab koerustükke teha. Koos õpivad Lola ja Lohe tundma maailma ja selles varitsevaid ohte: kuidas üle tee minna, mida teha, kui keegi jääb haigeks või saab päikesepiste või otsustab puhtast rumalusest mõne osmiku põlema panna. Tüdruk ja lohemadu saavad teada, kuidas ohte ennetada ja kuidas ohu puhul käituda. Tehakse ka sporti ja avastatakse üht-teist põnevat hoopis teistsugusest kultuurist — muu hulgas käiakse kung fu treeningul meister Wulfi juures. Kõik tegelased, kes on nende kaante vahel nimepidi nimetatud, on päriselt olemas. Ja veel: kõik raamatu 112 lehekülge on pühendatud kõigile endistele, praegustele ja tulevastele päästjatele.</p>
+          <p data-l="en">This book is about Lola, a girl whose pet is… no, not a dog. Not a cat either. A real live dragon, and one that loves mischief. Together Lola and the Dragon get to know the world and the dangers lurking in it: how to cross the road, what to do when someone falls ill or gets sunstroke, or decides out of sheer foolishness to set a shed on fire. The girl and the dragon learn how to prevent danger and how to behave when it comes. They do sport, too, and discover something exciting from a very different culture, including a kung fu lesson with Meister Wulf. Every character named between these covers is a real person. And one more thing: all 112 pages of the book are dedicated to all past, present and future rescuers.</p>
+          <p data-l="zh">这本书讲的是萝拉——一个小女孩，她的宠物是……不不，不是狗，也不是猫，而是一条货真价实、专爱恶作剧的小龙。萝拉和小龙一起认识世界和其中潜伏的危险：怎样过马路，有人生病或中暑了该怎么办，有人一时糊涂想把小棚屋点着了又该怎么办。小女孩和小龙学会怎样预防危险，遇到危险时又该怎样做。他们还做运动，并从一种截然不同的文化里发现新鲜事——其中包括去 Wulf 师傅那里上功夫课。书中所有提到名字的人物都真实存在。还有一点：全书 112 页，献给所有曾经的、现在的和未来的救援者。</p>
+
+          <dl class="facts">
+            <dt><span data-l="et">Keel</span><span data-l="en">Language</span><span data-l="zh">语言</span></dt><dd><span data-l="et">eesti</span><span data-l="en">Estonian</span><span data-l="zh">爱沙尼亚文</span></dd>
+            <dt><span data-l="et">Autor</span><span data-l="en">Author</span><span data-l="zh">作者</span></dt><dd>Markus Saksatamm</dd>
+            <dt><span data-l="et">Illustratsioonid</span><span data-l="en">Illustrations</span><span data-l="zh">插图</span></dt><dd>Urmas Nemvalts</dd>
+            <dt><span data-l="et">Maht</span><span data-l="en">Length</span><span data-l="zh">篇幅</span></dt><dd><span data-l="et">112 lehekülge</span><span data-l="en">112 pages</span><span data-l="zh">112 页</span></dd>
+            <dt><span data-l="et">Müügil</span><span data-l="en">Available from</span><span data-l="zh">购买</span></dt><dd><a href="https://www.apollo.ee/et/lola-ja-lohe-paastesalk.html" target="_blank" rel="noopener">Apollo</a></dd>
+          </dl>
+
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://www.apollo.ee/et/lola-ja-lohe-paastesalk.html" target="_blank" rel="noopener"><span data-l="et">Osta Apollost</span><span data-l="en">Buy from Apollo</span><span data-l="zh">在 Apollo 购买</span></a>
+          </div>
+
+          <figure class="excerpt">
+            <a class="zoom" href="/assets/books/lola-ja-lohe-lk5.jpg"><img src="/assets/books/lola-ja-lohe-lk5.jpg" width="762" height="1065" alt="Ajakirjalehekülg: katkend raamatust „Lola ja Lohe päästesalk“ ja raamatu tutvustus" loading="lazy" decoding="async"></a>
+            <figcaption><span data-l="et">Katkend: <q>Meister Wulf on kung fu treener,</q> seletab tüdruk. <q>Netis on kirjas, et tegu on mingi Hiina võitluskunstiga.</q> Klõps avab lehekülje suurelt.</span><span data-l="en">Excerpt: <q>Meister Wulf is a kung fu teacher,</q> the girl explains. <q>It says online that it is some kind of Chinese martial art.</q> Click to enlarge the page.</span><span data-l="zh">节选：<q>Wulf 师傅是功夫教练，</q>小女孩解释道，<q>网上说这是一种中国武术。</q>点击放大页面。</span></figcaption>
+          </figure>
         </div>
       </article>
 
@@ -305,9 +367,9 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
     <div class="wrap about">
       <div>
         <h2><span data-l="et">Autorist</span><span data-l="en">About the author</span><span data-l="zh">关于作者</span></h2>
-        <p data-l="et">Taniel Suvi on kingsepp (Kriuks), Shandongi Weifangi meistri Wang Xiuyuani õpilane alates 1991. aastast ja Taiji Tanglangquani 9. põlvkonna siseringi õpilane, vabasukeldumise instruktor ja allveepääste tegija. Raamatu käsitöö on tal kodust kaasas: vanavanaisa Artur oli Peipsi ääres Mehikoorma kingsepp, ja vanaema Hedwig õpetas talle, kuidas naaskel käes seisab.</p>
-        <p data-l="en">Taniel Suvi is a shoemaker (Kriuks), a student of the Weifang master Wang Xiuyuan since 1991 and a 9th-generation inner-circle disciple of Taiji Tanglangquan, a freediving instructor and an underwater rescuer. The craft in the book runs in the family: his great-grandfather Artur was the shoemaker of Mehikoorma on Lake Peipus, and his grandmother Hedwig taught him how to hold an awl.</p>
-        <p data-l="zh">塔涅尔·苏维是鞋匠（Kriuks），自 1991 年起师从山东潍坊的王秀远先生，太极螳螂拳第九代入室弟子，自由潜水教练，也做水下救援。书里的手艺是家传的：外曾祖父阿尔图尔是佩普西湖边梅希科尔马村的鞋匠，外祖母海德薇格教会他锥子怎么拿。</p>
+        <p data-l="et">Taniel Suvi on kingsepp (Kriuks), Shandongi Weifangi meistri Wang Xiuyuani õpilane alates 1991. aastast ja Taiji Tanglangquani 9. põlvkonna siseringi õpilane, <a href="https://meregrupp.ee/" target="_blank" rel="noopener">vabasukeldumise instruktor</a> ja allveepääste tegija. Raamatu käsitöö on tal kodust kaasas: vanavanaisa Artur oli Peipsi ääres Mehikoorma kingsepp, ja vanaema Hedwig õpetas talle, kuidas naaskel käes seisab.</p>
+        <p data-l="en">Taniel Suvi is a shoemaker (Kriuks), a student of the Weifang master Wang Xiuyuan since 1991 and a 9th-generation inner-circle disciple of Taiji Tanglangquan, a <a href="https://meregrupp.ee/en/" target="_blank" rel="noopener">freediving instructor</a> and an underwater rescuer. The craft in the book runs in the family: his great-grandfather Artur was the shoemaker of Mehikoorma on Lake Peipus, and his grandmother Hedwig taught him how to hold an awl.</p>
+        <p data-l="zh">塔涅尔·苏维是鞋匠（Kriuks），自 1991 年起师从山东潍坊的王秀远先生，太极螳螂拳第九代入室弟子，<a href="https://meregrupp.ee/en/" target="_blank" rel="noopener">自由潜水教练</a>，也做水下救援。书里的手艺是家传的：外曾祖父阿尔图尔是佩普西湖边梅希科尔马村的鞋匠，外祖母海德薇格教会他锥子怎么拿。</p>
       </div>
       <div>
         <h2><span data-l="et">Tellimine</span><span data-l="en">Ordering</span><span data-l="zh">订购</span></h2>
@@ -332,8 +394,42 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
       <a href="/mantis.html" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
       <a href="/books.html" class="is-here" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
     </nav>
+    <a class="fb" href="https://www.facebook.com/meister.von.wulf" target="_blank" rel="noopener" aria-label="Facebook: Meister von Wulf"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22h3.4z"/></svg><span>Facebook</span></a>
   </div>
 </footer>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Pilt suurelt">
+  <img alt="">
+  <p class="lightbox-cap"></p>
+</div>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+(function () {
+  var box = document.getElementById("lightbox");
+  var img = box.querySelector("img");
+  var cap = box.querySelector(".lightbox-cap");
+  var links = document.querySelectorAll("a.zoom");
+  var last = null;
+  function open(a) {
+    img.src = a.getAttribute("href");
+    img.alt = a.querySelector("img").alt;
+    cap.textContent = "Lola ja Lohe päästesalk";
+    box.hidden = false;
+    document.body.style.overflow = "hidden";
+    last = a;
+  }
+  function close() {
+    box.hidden = true;
+    document.body.style.overflow = "";
+    img.removeAttribute("src");
+    if (last) { last.focus(); last = null; }
+  }
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function (e) { e.preventDefault(); open(this); });
+  }
+  box.addEventListener("click", close);
+  document.addEventListener("keydown", function (e) { if (!box.hidden && e.key === "Escape") close(); });
+})();
+</script>
 </body>
 </html>

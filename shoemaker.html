@@ -47,6 +47,10 @@ body.page-shoemaker::after{
   background:radial-gradient(circle at 34% 30%, #f0dca4, var(--brass) 58%, #7d6215);
   box-shadow:0 1px 2px rgba(0,0,0,.5);
 }
+/* hind pärgamentkaardi all */
+.price-note{ margin:1.2em 0 0; padding-top:1em; border-top:1px dashed rgba(90,64,30,.4); font-size:1.02rem; letter-spacing:.03em; }
+.price-note b{ display:block; font-weight:400; font-size:1.5rem; line-height:1.15; color:#5a3f16; }
+.card--paper .price-note{ color:#3d2b17; }
 
 /* protsess: neli sammu, suur messingnumber */
 .steps{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap:18px; counter-reset:step; }
@@ -93,7 +97,7 @@ body.page-shoemaker::after{
 </head>
 <body class="page page-shoemaker has-lang">
 
-<a class="wulf" href="/" aria-label="Meisterwulf">
+<a class="wulf" href="/" data-keep-lang aria-label="Meisterwulf">
   <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
   <span class="wulf-caption"><span data-l="et">Tagasi esilehele</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span></span>
 </a>
@@ -142,6 +146,12 @@ body.page-shoemaker::after{
           <li><span data-l="et">Tööjalatsid</span><span data-l="en">Work footwear</span><span data-l="zh">工作鞋</span></li>
           <li><span data-l="et">Eriprojektid</span><span data-l="en">Special projects</span><span data-l="zh">特别项目</span></li>
         </ul>
+        <p class="price-note">
+          <b><span data-l="et">Hind alates 2500 €</span><span data-l="en">From €2,500</span><span data-l="zh">2500 欧元起</span></b>
+          <span data-l="et">Kingad ja saapad, paari kohta. Lõplik hind sõltub mudelist, nahast ja detailidest.</span>
+          <span data-l="en">Shoes and boots, per pair. The final price depends on the model, the leather and the details.</span>
+          <span data-l="zh">鞋与靴，每双价格。最终价格取决于款式、皮革与细节。</span>
+        </p>
       </div>
     </div>
   </section>
@@ -254,9 +264,9 @@ body.page-shoemaker::after{
   <section class="section">
     <div class="wrap">
       <h2><span data-l="et">Kontakt</span><span data-l="en">Contact</span><span data-l="zh">联系</span></h2>
-      <p data-l="et">Tellimine algab vestlusest: kirjuta, milliseid jalatseid soovid, ja lepime kokku mõõtmise aja.</p>
-      <p data-l="en">Every order starts with a conversation: write what kind of shoes you have in mind and we will arrange a time for measuring.</p>
-      <p data-l="zh">每一份订单都从一次交谈开始：请写下您想要的鞋子，我们会约定量脚的时间。</p>
+      <p data-l="et">Tellimine algab vestlusest: kirjuta, milliseid jalatseid soovid, ja lepime kokku mõõtmise aja. Kingade ja saabaste hind on alates 2500 € paar.</p>
+      <p data-l="en">Every order starts with a conversation: write what kind of shoes you have in mind and we will arrange a time for measuring. Shoes and boots start from €2,500 a pair.</p>
+      <p data-l="zh">每一份订单都从一次交谈开始：请写下您想要的鞋子，我们会约定量脚的时间。鞋与靴每双 2500 欧元起。</p>
       <div class="contact">
         <div class="item"><small><span data-l="et">E-post</span><span data-l="en">Email</span><span data-l="zh">电子邮件</span></small><a data-u="kriuks" data-d="suvi.ch" data-subject="Kriuks — jalatsid eritellimusel" href="#">kriuks [at] suvi.ch</a></div>
         <div class="item"><small><span data-l="et">Töökoda</span><span data-l="en">Workshop</span><span data-l="zh">工坊</span></small>Alliku küla (Laagri), Saue vald, <span data-l="et">Eesti</span><span data-l="en">Estonia</span><span data-l="zh">爱沙尼亚</span></div>
@@ -280,6 +290,7 @@ body.page-shoemaker::after{
       <a href="/mantis.html" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
       <a href="/books.html" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
     </nav>
+    <a class="fb" href="https://www.facebook.com/meister.von.wulf" target="_blank" rel="noopener" aria-label="Facebook: Meister von Wulf"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22h3.4z"/></svg><span>Facebook</span></a>
   </div>
 </footer>
 <script>

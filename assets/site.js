@@ -10,6 +10,24 @@
 
   function valid(l) { return LANGS.indexOf(l) > -1 ? l : null; }
 
+  /* Sisemised lingid (data-keep-lang) kannavad alati parajasti valitud
+     keele kaasa — ka siis, kui keelt vahetati alles sellel lehel. Nii
+     ei muutu keel lehte vahetades enne, kui selektoris tehakse uus valik. */
+  function keepLang(l) {
+    var links = document.querySelectorAll("a[data-keep-lang]");
+    for (var k = 0; k < links.length; k++) {
+      var href = links[k].getAttribute("href") || "";
+      var hash = "", i = href.indexOf("#");
+      if (i > -1) { hash = href.slice(i); href = href.slice(0, i); }
+      var q = href.indexOf("?");
+      var path = q > -1 ? href.slice(0, q) : href;
+      var parts = q > -1 ? href.slice(q + 1).split("&") : [];
+      parts = parts.filter(function (p) { return p && p.indexOf("lang=") !== 0; });
+      parts.push("lang=" + l);
+      links[k].setAttribute("href", path + "?" + parts.join("&") + hash);
+    }
+  }
+
   function apply(l, opts) {
     opts = opts || {};
     l = valid(l) || "en";
@@ -33,6 +51,8 @@
         history.replaceState(null, "", u.pathname + u.search + u.hash);
       } catch (e) {}
     }
+    keepLang(l);
+    try { document.dispatchEvent(new CustomEvent("mw:lang", { detail: l })); } catch (e) {}
   }
 
   var isHome = doc.getAttribute("data-page") === "home";
@@ -46,7 +66,8 @@
     LANGS: LANGS,
     apply: apply,
     current: function () { return doc.getAttribute("data-lang") || "en"; },
-    stored: function () { return valid(stored); }
+    stored: function () { return valid(stored); },
+    keepLang: keepLang
   };
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -70,14 +91,7 @@
       if (!a.getAttribute("data-keep-text")) a.textContent = addr;
     }
 
-    /* sisemised lingid kannavad keele kaasa */
-    var lang = doc.getAttribute("data-lang");
-    var links = document.querySelectorAll("a[data-keep-lang]");
-    for (var k = 0; k < links.length; k++) {
-      var href = links[k].getAttribute("href");
-      if (href && href.indexOf("lang=") === -1) {
-        links[k].setAttribute("href", href + (href.indexOf("?") > -1 ? "&" : "?") + "lang=" + lang);
-      }
-    }
+    /* sisemised lingid kannavad keele kaasa (uuendatakse igal keelevahetusel) */
+    keepLang(doc.getAttribute("data-lang") || "en");
   });
 })();
