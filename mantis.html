@@ -67,6 +67,14 @@ body.page-mantis{
 .keyfacts li:last-child:nth-child(odd){ grid-column:1 / -1; }   /* paaritu viimane kaart üle rea */
 .keyfacts b{ display:block; font-weight:400; font-size:1.25rem; color:var(--brass-light); }
 .keyfacts span{ font-size:.86rem; color:var(--parchment-dim); }
+/* personaalse tunni hinnakiri taseme (värava) järgi */
+.prices{ list-style:none; margin:.55em 0 0; padding:0; display:grid; gap:.3em; }
+.keyfacts .prices li{ display:grid; grid-template-columns:max-content max-content 1fr; gap:.2em .9em; align-items:baseline; padding:0; border:0; border-radius:0; background:none; }
+.keyfacts .prices .p{ font-size:1rem; color:var(--brass-light); white-space:nowrap; }
+.keyfacts .prices .name{ white-space:nowrap; }
+.keyfacts .prices .zh{ font-family:var(--font-zh); font-size:1.05rem; color:var(--parchment); }
+.keyfacts .prices .py{ font-size:.86rem; color:var(--parchment-dim); }
+.keyfacts .prices .lv{ font-size:.86rem; color:var(--parchment-dim); }
 
 /* ajajoon */
 .timeline{ list-style:none; margin:0; padding:0 0 0 22px; border-left:1px solid rgba(232,201,122,.35); display:grid; gap:22px; }
@@ -156,7 +164,15 @@ body.page-mantis{
             <li><b><span data-l="et">Üks-ühele</span><span data-l="en">One to one</span><span data-l="zh">一对一</span></b><span data-l="et">Gruppe ei ole. Õpetaja ja õpilane.</span><span data-l="en">No groups. Teacher and student.</span><span data-l="zh">不设团体班。只有师与徒。</span></li>
             <li><b><span data-l="et">Õues, aasta ringi</span><span data-l="en">Outdoors, all year</span><span data-l="zh">户外，全年</span></b><span data-l="et">Alliku küla (Laagri), Saue vald.</span><span data-l="en">Alliku village (Laagri), Saue parish, Estonia.</span><span data-l="zh">爱沙尼亚 Saue 区 Alliku 村（Laagri）。</span></li>
             <li><b><span data-l="et">Alates 9. eluaastast</span><span data-l="en">From age 9</span><span data-l="zh">九岁起</span></b><span data-l="et">Nooremad varaküpsed testimise alusel.</span><span data-l="en">Younger students by assessment.</span><span data-l="zh">更小的孩子经测试后可以接收。</span></li>
-            <li><b>20 €</b><span data-l="et">Personaalne tund.</span><span data-l="en">Personal lesson.</span><span data-l="zh">个人课程（一对一）。</span></li>
+            <li class="keyfacts-prices"><b><span data-l="et">Personaalne tund</span><span data-l="en">Personal lesson</span><span data-l="zh">个人课程（一对一）</span></b>
+              <ul class="prices">
+                <li><span class="p"><span data-l="et">20 € / h</span><span data-l="en">20 € / h</span><span data-l="zh">20 € / 小时</span></span><span class="name"><span class="zh">立身</span> <span class="py">lìshēn</span></span><span class="lv"><span data-l="et">esimene tase</span><span data-l="en">level 1</span><span data-l="zh">第一级</span></span></li>
+                <li><span class="p"><span data-l="et">25 € / h</span><span data-l="en">25 € / h</span><span data-l="zh">25 € / 小时</span></span><span class="name"><span class="zh">明手</span> <span class="py">míngshǒu</span></span><span class="lv"><span data-l="et">teine tase</span><span data-l="en">level 2</span><span data-l="zh">第二级</span></span></li>
+                <li><span class="p"><span data-l="et">30 € / h</span><span data-l="en">30 € / h</span><span data-l="zh">30 € / 小时</span></span><span class="name"><span class="zh">懂劲</span> <span class="py">dǒngjìn</span></span><span class="lv"><span data-l="et">kolmas tase</span><span data-l="en">level 3</span><span data-l="zh">第三级</span></span></li>
+                <li><span class="p"><span data-l="et">35 € / h</span><span data-l="en">35 € / h</span><span data-l="zh">35 € / 小时</span></span><span class="name"><span class="zh">分身</span> <span class="py">fēnshēn</span></span><span class="lv"><span data-l="et">neljas tase</span><span data-l="en">level 4</span><span data-l="zh">第四级</span></span></li>
+                <li><span class="p"><span data-l="et">40 € / h</span><span data-l="en">40 € / h</span><span data-l="zh">40 € / 小时</span></span><span class="name"><span class="zh">摘要</span> <span class="py">zhāiyào</span></span><span class="lv"><span data-l="et">viies tase</span><span data-l="en">level 5</span><span data-l="zh">第五级</span></span></li>
+              </ul>
+            </li>
           </ul>
           <div class="btn-row">
             <a class="btn btn--solid" data-u="meister.wulf" data-d="pm.me" data-subject="Kung fu treening" data-keep-text="1" href="#"><span data-l="et">Küsi treeningut</span><span data-l="en">Ask for a session</span><span data-l="zh">预约训练</span></a>
