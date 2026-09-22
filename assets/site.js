@@ -3,12 +3,17 @@
 (function () {
   var LANGS = ["et", "en", "zh"];
   var doc = document.documentElement;
-  var stored = null;
-  try { stored = localStorage.getItem("mw-lang"); } catch (e) {}
   var fromUrl = null;
   try { fromUrl = new URLSearchParams(location.search).get("lang"); } catch (e) {}
 
   function valid(l) { return LANGS.indexOf(l) > -1 ? l : null; }
+  /* selektoris tehtud valik; loetakse iga kord uuesti, sest teine leht
+     (või tagasi-nupuga taastatud leht) võib olla vahepeal keelt vahetanud */
+  function stored() {
+    var s = null;
+    try { s = localStorage.getItem("mw-lang"); } catch (e) {}
+    return valid(s);
+  }
 
   /* Sisemised lingid (data-keep-lang) kannavad alati parajasti valitud
      keele kaasa — ka siis, kui keelt vahetati alles sellel lehel. Nii
@@ -56,19 +61,32 @@
   }
 
   var isHome = doc.getAttribute("data-page") === "home";
-  var initial = valid(fromUrl) || valid(stored) || "en";
+
+  /* Selektoris valitud keel on ülimuslik: see ei muutu lehte vahetades
+     (ka mitte vana ajalookirje või kõrvalise lingi ?lang= järgi), kuni
+     selektoris tehakse uus valik. URL-i ?lang= kehtib, kui valikut pole
+     veel tehtud (esmakülastus, jagatud link). */
+  var chosen = stored();
+  var initial = chosen || valid(fromUrl) || "en";
 
   /* Esileht algab alati neutraalsest olekust (inglise keel, kõik sildid
-     100%). Alalehed avanevad viimati valitud keeles. */
-  if (!isHome) apply(initial, { persist: !!fromUrl });
+     100%). Alalehed avanevad valitud keeles. */
+  if (!isHome) apply(initial, { persist: !chosen && !!valid(fromUrl), url: !!fromUrl && fromUrl !== initial });
 
   window.MW = {
     LANGS: LANGS,
     apply: apply,
     current: function () { return doc.getAttribute("data-lang") || "en"; },
-    stored: function () { return valid(stored); },
+    stored: stored,
     keepLang: keepLang
   };
+
+  /* tagasi-nupuga taastatud leht (bfcache) võtab vahepeal mujal valitud keele */
+  window.addEventListener("pageshow", function (e) {
+    if (!e.persisted || isHome) return;
+    var l = stored();
+    if (l && l !== doc.getAttribute("data-lang")) apply(l, { persist: false, url: !!fromUrl });
+  });
 
   document.addEventListener("DOMContentLoaded", function () {
     /* keelenupud alalehel */

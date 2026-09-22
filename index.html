@@ -349,7 +349,7 @@ body.landing::before{
   </nav>
 
   <!-- kiri kaartide all, kui on aeg kaarti valida -->
-  <p class="card-hint" aria-live="polite"><span data-l="et">Vali kaart, kuhu soovid minna</span><span data-l="en">Choose the card you want to go to</span><span data-l="zh">请选择你想去的卡片</span></p>
+  <p class="card-hint" aria-live="polite" hidden><span data-l="et">Vali kaart, kuhu soovid minna</span><span data-l="en">Choose the card you want to go to</span><span data-l="zh">请选择你想去的卡片</span></p>
 
 </main>
 
@@ -361,6 +361,7 @@ body.landing::before{
   var langs = [].slice.call(document.querySelectorAll(".lang"));
   var cards = [].slice.call(document.querySelectorAll(".card"));
   var small = [].slice.call(document.querySelectorAll(".langbar [data-set-lang]"));
+  var hint  = document.querySelector(".card-hint");
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   var lang = null, leaving = false, waveTimer = null;
 
@@ -376,9 +377,10 @@ body.landing::before{
   }
   function startWave(delay) {           /* kaardid helendavad laines, all ilmub "vali kaart" */
     clearTimeout(waveTimer);
-    body.classList.remove("is-wave");
     waveTimer = setTimeout(function () {
       cards.forEach(function (c) { c.classList.add("is-wave"); });
+      hint.hidden = false;              /* ilmub DOM-i alles nüüd, et ekraanilugeja selle ette loeks */
+      void hint.offsetWidth;
       body.classList.add("is-wave");
     }, reduce ? 0 : delay);
   }
@@ -388,7 +390,7 @@ body.landing::before{
   function selectLang(l) {
     if (leaving) return;
     lang = l;
-    MW.apply(l);                        /* jätab keele meelde */
+    MW.apply(l, { url: true });         /* jätab keele meelde, ka URL-i */
     body.classList.add("has-lang");
     body.setAttribute("data-state", "lang");
     langs.forEach(function (b) {
@@ -445,9 +447,9 @@ body.landing::before{
   function init() {
     leaving = false;
     body.classList.remove("is-leaving");
-    var stored = null;
-    try { stored = new URLSearchParams(location.search).get("lang"); } catch (e) {}
-    if (MW.LANGS.indexOf(stored) === -1) stored = MW.stored();
+    var stored = MW.stored();          /* selektoris valitud keel on ülimuslik */
+    if (!stored) { try { stored = new URLSearchParams(location.search).get("lang"); } catch (e) {} }
+    if (MW.LANGS.indexOf(stored) === -1) stored = null;
     if (stored) returning(stored);
     else if (body.classList.contains("has-lang")) { activateCards(); startWave(300); }
   }

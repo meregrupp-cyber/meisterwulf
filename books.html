@@ -378,7 +378,7 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
   <div class="wrap">
     <span>© <span id="year">2026</span> Meisterwulf · Kriuks OÜ</span>
     <nav aria-label="Meisterwulf">
-      <a href="/">Meisterwulf</a>
+      <a href="/" data-keep-lang>Meisterwulf</a>
       <a href="/shoemaker.html" data-keep-lang><span data-l="et">Kingsepp</span><span data-l="en">Shoemaker</span><span data-l="zh">鞋匠</span></a>
       <a href="/mantis.html" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
       <a href="/books.html" class="is-here" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
@@ -387,7 +387,7 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
   </div>
 </footer>
 
-<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Pilt suurelt">
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Pilt suurelt" tabindex="-1">
   <img alt="">
   <p class="lightbox-cap"></p>
 </div>
@@ -406,6 +406,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
     box.hidden = false;
     document.body.style.overflow = "hidden";
     last = a;
+    box.focus();
   }
   function close() {
     box.hidden = true;
@@ -414,7 +415,10 @@ document.getElementById("year").textContent = new Date().getFullYear();
     if (last) { last.focus(); last = null; }
   }
   for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function (e) { e.preventDefault(); open(this); });
+    links[i].addEventListener("click", function (e) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1) return;   /* uude aknasse avamine jääb alles */
+      e.preventDefault(); open(this);
+    });
   }
   box.addEventListener("click", close);
   document.addEventListener("keydown", function (e) { if (!box.hidden && e.key === "Escape") close(); });

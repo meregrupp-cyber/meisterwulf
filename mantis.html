@@ -64,6 +64,7 @@ body.page-mantis{
   border-radius:6px;
   background:linear-gradient(180deg, rgba(232,201,122,.12), rgba(232,201,122,.04));
 }
+.keyfacts li:last-child:nth-child(odd){ grid-column:1 / -1; }   /* paaritu viimane kaart üle rea */
 .keyfacts b{ display:block; font-weight:400; font-size:1.25rem; color:var(--brass-light); }
 .keyfacts span{ font-size:.86rem; color:var(--parchment-dim); }
 
@@ -94,7 +95,7 @@ body.page-mantis{
 .programme .gates [lang="zh"]{ color:var(--brass-light); }
 .pdfbox{ position:fixed; inset:0; z-index:100; display:flex; align-items:center; justify-content:center; padding:max(10px, 2vh) max(10px, 2vw); background:rgba(6,4,3,.92); animation:pb-in .25s ease; }
 .pdfbox[hidden]{ display:none; }
-.pdfbox-panel{ display:flex; flex-direction:column; width:min(1000px, 100%); height:min(92vh, 1300px); border:1px solid rgba(232,201,122,.4); border-radius:6px; background:#1b120a; box-shadow:0 40px 80px -30px rgba(0,0,0,1); overflow:hidden; }
+.pdfbox-panel{ display:flex; flex-direction:column; width:min(1000px, 100%); height:min(92vh, 1300px); height:min(92dvh, 1300px); max-height:100%; border:1px solid rgba(232,201,122,.4); border-radius:6px; background:#1b120a; box-shadow:0 40px 80px -30px rgba(0,0,0,1); overflow:hidden; }
 .pdfbox-bar{ display:flex; align-items:center; gap:14px; padding:10px 12px 10px 18px; border-bottom:1px solid rgba(232,201,122,.25); font-size:.86rem; letter-spacing:.08em; }
 .pdfbox-bar .pdfbox-title{ flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--parchment); }
 .pdfbox-bar a{ border:0; font-size:.76rem; letter-spacing:.14em; text-transform:uppercase; white-space:nowrap; }
@@ -221,7 +222,7 @@ body.page-mantis{
         <p data-l="en">Training is led by Master Wulf, Taniel Suvi, an inner-circle disciple of the Chinese master Wang Xiuyuan (王秀远) and the only certified taiji meihua tanglangquan coach in Estonia. He also holds qualifications as an <a href="https://meregrupp.ee/en/" target="_blank" rel="noopener">underwater sports instructor</a> and as a wushu / kung fu coach.</p>
         <p data-l="zh">功夫教学由 Wulf 师傅——Taniel Suvi——主持。他是中国师傅王秀远的入室弟子，也是爱沙尼亚唯一经认证的太极梅花螳螂拳教练，并持有<a href="https://meregrupp.ee/en/" target="_blank" rel="noopener">潜水运动教练</a>与武术教练资格。</p>
         <ul class="timeline">
-          <li><time>1991 – 1992</time><p data-l="et">Tanglangquani kursus ja eksam Tallinnas Wang Xiuyuani juhendamisel. Hinne 良好 (hea); õigus tegutseda treenerina. Tunnistusel on 1982 asutatud Weifangi Taiji Meihua Tanglangquani uurimisühingu (潍坊市太极梅花螳螂拳研究会) pitsat — sama ühing, mida Wang Xiuyuan juhtis.</p><p data-l="en">Tanglangquan course and examination in Tallinn under Wang Xiuyuan. Grade 良好 (good) and the right to work as a coach, sealed by the Weifang Taiji Meihua Tanglangquan Research Association (潍坊市太极梅花螳螂拳研究会), founded in 1982 and presided over by Wang Xiuyuan.</p><p data-l="zh">在塔林随王秀远学习螳螂拳并通过考试，成绩“良好”，获准担任教练；证书盖有 1982 年成立、由王秀远任会长的潍坊市太极梅花螳螂拳研究会印章。</p></li>
+          <li><time>1991 – 1992</time><p data-l="et">Tanglangquani kursus ja eksam Tallinnas Wang Xiuyuani juhendamisel. Hinne 良好 (hea); õigus tegutseda treenerina. Tunnistusel on 1982 asutatud Weifangi Taiji Meihua Tanglangquani uurimisühingu (潍坊市太极梅花螳螂拳研究会) pitsat; Wang Xiuyuan on tunnistusele alla kirjutanud ühingu presidendina.</p><p data-l="en">Tanglangquan course and examination in Tallinn under Wang Xiuyuan. Grade 良好 (good) and the right to work as a coach, sealed by the Weifang Taiji Meihua Tanglangquan Research Association (潍坊市太极梅花螳螂拳研究会), founded in 1982; Wang Xiuyuan signs the certificate as its president.</p><p data-l="zh">在塔林随王秀远学习螳螂拳并通过考试，成绩“良好”，获准担任教练；证书盖有 1982 年成立的潍坊市太极梅花螳螂拳研究会印章，王秀远以会长身份签发。</p></li>
           <li><time>2023</time><p data-l="et">Ametlik bàishī (拜师) Weifangis ja kanne pärimusregistrisse 《莱阳螳螂拳潍坊支传承谱》: Taiji Tanglangquani 9. põlvkonna siseringi õpilane (入室弟子).</p><p data-l="en">Formal bàishī (拜师) ceremony in Weifang and entry in the lineage register 《莱阳螳螂拳潍坊支传承谱》 as a 9th-generation inner-circle disciple (入室弟子) of Taiji Tanglangquan.</p><p data-l="zh">七月赴潍坊正式拜王秀远先生为师，载入《莱阳螳螂拳潍坊支传承谱》：太极螳螂拳第九代入室弟子。</p></li>
           <li><time>2024</time><p data-l="et">Weifangi Taiji Tanglangquani avalik 9. põlvkonna register: Taniel Suvi (Eesti), 师承王秀远. Allikas: Weifangi Tanglangquani klubi (潍坊螳螂拳俱乐部) mälestusartikkel Wang Yushani 130. sünniaastapäevaks, aprill 2024.</p><p data-l="en">Listed in the public 9th-generation register of Weifang Taiji Tanglangquan: Taniel Suvi (Estonia), 师承王秀远. Source: the Weifang Tanglangquan Club's (潍坊螳螂拳俱乐部) memorial article for the 130th anniversary of Wang Yushan's birth, April 2024.</p><p data-l="zh">列入潍坊太极螳螂拳第九代公开传承名录：Taniel Suvi（爱沙尼亚）——师承王秀远。来源：潍坊螳螂拳俱乐部《纪念太极螳螂拳宗师王玉山先生诞辰130周年》，2024 年 4 月。</p></li>
         </ul>
@@ -254,9 +255,9 @@ body.page-mantis{
       <h2><span data-l="et">Meister Wang Xiuyuan</span><span data-l="en">Master Wang Xiuyuan</span><span data-l="zh">王秀远师傅</span></h2>
       <div class="cols">
         <div>
-          <p data-l="et">Wang Xiuyuan (王秀远, sündinud 1953 Weifangis, Shandong) on Hiina wushu 6. duani meister ja Weifangi Tanglangquani vaimse kultuuripärandi esindaja. 1960. aastatel sai temast Wang Fenghe (王凤鹤) õpilane; 1972–1978 käis ta peaaegu igal laupäeval Qingdaos õppimas ja võrdlemas; 1970. aastate lõpust õppis ta üle 20 aasta Wang Yuanliangi (王元亮) ja Wang Yuanqiani (王元乾) juures. Tema õpetajate hulka kuuluvad ka Sheng Fengzhou (盛凤洲), Hao Bin (郝斌) ja Zhou Yongxiang (周永祥). 1982. aastaks kogus ta riikliku inventuuri tarbeks 36 komplekti vorme; samal aastal asutatud Weifangi Taiji Meihua Tanglangquani uurimisühing (潍坊市太极梅花螳螂拳研究会), mille president ta oli, on sama ühing, mille pitsat on allpool 1991–92 tunnistusel. 1999 asutas ta Weifangi Jinbao wushu kooli. Tema õpetuses kohtuvad Song Zide–Wang Yushani Taiji Tanglangquani liin ja Hao perekonna Taiji Meihua Tanglangquani materjal.</p>
-          <p data-l="en">Wang Xiuyuan (王秀远, born 1953 in Weifang, Shandong) holds the 6th duan of Chinese wushu and represents Weifang Tanglangquan as an intangible cultural heritage. In the 1960s he became a disciple of Wang Fenghe (王凤鹤); from 1972 to 1978 he travelled to Qingdao almost every Saturday to study and compare; and from the late 1970s he studied for more than twenty years under Wang Yuanliang (王元亮) and Wang Yuanqian (王元乾). His teachers also include Sheng Fengzhou (盛凤洲), Hao Bin (郝斌) and Zhou Yongxiang (周永祥). By 1982 he had compiled 36 sets of forms for the national inventory; the Weifang Taiji Meihua Tanglangquan Research Association (潍坊市太极梅花螳螂拳研究会), founded that year and presided over by him, is the same body whose seal appears on the 1991–92 certificate below. In 1999 he founded the Weifang Jinbao Wushu School. His teaching brings together the Song Zide–Wang Yushan line of Taiji Tanglangquan and the Hao family's Taiji Meihua Tanglangquan.</p>
-          <p data-l="zh">王秀远，1953 年生于山东潍坊，中国武术六段，潍坊螳螂拳非物质文化遗产代表性传承人。1960 年代拜王凤鹤先生为师；1972 至 1978 年几乎每个星期六赴青岛学习切磋；自 1970 年代末起，随王元亮、王元乾两位先生学习二十余年。其师承还包括盛凤洲、郝斌、周永祥诸位先生。1982 年为国家武术挖掘整理工作提交三十六套拳械；同年成立的潍坊市太极梅花螳螂拳研究会由他任会长，下方 1991–92 年证书上的印章即为该会。1999 年创办潍坊金宝武术学校。其所传融汇宋子德—王玉山一系的太极螳螂拳与郝家太极梅花螳螂拳。</p>
+          <p data-l="et">Wang Xiuyuan (王秀远, sündinud 1953 Weifangis, Shandong) on Hiina wushu 6. duani meister ja Weifangi Tanglangquani vaimse kultuuripärandi esindaja. 1960. aastatel sai temast Wang Fenghe (王凤鹤) õpilane; 1972–1978 käis ta peaaegu igal laupäeval Qingdaos õppimas ja võrdlemas; 1970. aastate lõpust õppis ta üle 20 aasta Wang Yuanliangi (王元亮) ja Wang Yuanqiani (王元乾) juures. Tema õpetajate hulka kuuluvad ka Sheng Fengzhou (盛凤洲), Hao Bin (郝斌) ja Zhou Yongxiang (周永祥). 1982. aastaks kogus ta riikliku inventuuri tarbeks 36 komplekti vorme; samal aastal asutatud Weifangi Taiji Meihua Tanglangquani uurimisühing (潍坊市太极梅花螳螂拳研究会) on sama ühing, mille pitsat on allpool 1991–92 tunnistusel — tunnistusel on Wang Xiuyuan märgitud selle ühingu presidendina. 1999 asutas ta Weifangi Jinbao wushu kooli. Tema õpetuses kohtuvad Song Zide–Wang Yushani Taiji Tanglangquani liin ja Hao perekonna Taiji Meihua Tanglangquani materjal.</p>
+          <p data-l="en">Wang Xiuyuan (王秀远, born 1953 in Weifang, Shandong) holds the 6th duan of Chinese wushu and represents Weifang Tanglangquan as an intangible cultural heritage. In the 1960s he became a disciple of Wang Fenghe (王凤鹤); from 1972 to 1978 he travelled to Qingdao almost every Saturday to study and compare; and from the late 1970s he studied for more than twenty years under Wang Yuanliang (王元亮) and Wang Yuanqian (王元乾). His teachers also include Sheng Fengzhou (盛凤洲), Hao Bin (郝斌) and Zhou Yongxiang (周永祥). By 1982 he had compiled 36 sets of forms for the national inventory; the Weifang Taiji Meihua Tanglangquan Research Association (潍坊市太极梅花螳螂拳研究会), founded that year, is the same body whose seal appears on the 1991–92 certificate below, where Wang Xiuyuan is named as its president. In 1999 he founded the Weifang Jinbao Wushu School. His teaching brings together the Song Zide–Wang Yushan line of Taiji Tanglangquan and the Hao family's Taiji Meihua Tanglangquan.</p>
+          <p data-l="zh">王秀远，1953 年生于山东潍坊，中国武术六段，潍坊螳螂拳非物质文化遗产代表性传承人。1960 年代拜王凤鹤先生为师；1972 至 1978 年几乎每个星期六赴青岛学习切磋；自 1970 年代末起，随王元亮、王元乾两位先生学习二十余年。其师承还包括盛凤洲、郝斌、周永祥诸位先生。1982 年为国家武术挖掘整理工作提交三十六套拳械；同年成立的潍坊市太极梅花螳螂拳研究会即下方 1991–92 年证书上盖章的协会，证书上王秀远署名为该会会长。1999 年创办潍坊金宝武术学校。其所传融汇宋子德—王玉山一系的太极螳螂拳与郝家太极梅花螳螂拳。</p>
         </div>
         <div class="docs">
           <figure>
@@ -292,7 +293,7 @@ body.page-mantis{
   <div class="wrap">
     <span>© <span id="year">2026</span> Meisterwulf</span>
     <nav aria-label="Meisterwulf">
-      <a href="/">Meisterwulf</a>
+      <a href="/" data-keep-lang>Meisterwulf</a>
       <a href="/shoemaker.html" data-keep-lang><span data-l="et">Kingsepp</span><span data-l="en">Shoemaker</span><span data-l="zh">鞋匠</span></a>
       <a href="/mantis.html" class="is-here" data-keep-lang><span data-l="et">Kung fu</span><span data-l="en">Kung fu</span><span data-l="zh">功夫</span></a>
       <a href="/books.html" data-keep-lang><span data-l="et">Raamatud</span><span data-l="en">Books</span><span data-l="zh">书</span></a>
@@ -302,7 +303,7 @@ body.page-mantis{
 </footer>
 
 <!-- treeningprogrammi PDF hüpikaknas; fail valitakse parajasti valitud keele järgi -->
-<div class="pdfbox" id="pdfbox" hidden role="dialog" aria-modal="true" aria-labelledby="pdfbox-title">
+<div class="pdfbox" id="pdfbox" hidden role="dialog" aria-modal="true" aria-label="Treeningprogramm (PDF)">
   <div class="pdfbox-panel">
     <div class="pdfbox-bar">
       <span class="pdfbox-title" id="pdfbox-title"><span data-l="et">Palvetajaritsika stiil — viis väravat</span><span data-l="en">The Praying Mantis Style — the five gates</span><span data-l="zh">螳螂拳——五关</span></span>
@@ -324,6 +325,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
   var open = false, current = "";
   function src() {
     var l = document.documentElement.getAttribute("data-lang") || "en";
+    box.setAttribute("aria-label", { et: "Treeningprogramm (PDF)", en: "Training programme (PDF)", zh: "训练大纲（PDF）" }[l] || "PDF");
     return btn.getAttribute("data-pdf-" + l) || btn.getAttribute("data-pdf-en");
   }
   function load() {
@@ -343,7 +345,8 @@ document.getElementById("year").textContent = new Date().getFullYear();
     a.innerHTML = '<span data-l="et">Ava PDF</span><span data-l="en">Open the PDF</span><span data-l="zh">打开 PDF</span>';
     fb.appendChild(a);
     o.appendChild(fb);
-    doc.replaceChildren(o);
+    while (doc.firstChild) doc.removeChild(doc.firstChild);
+    doc.appendChild(o);
   }
   function show() {
     load();
@@ -359,7 +362,16 @@ document.getElementById("year").textContent = new Date().getFullYear();
   btn.addEventListener("click", show);
   close.addEventListener("click", hide);
   box.addEventListener("click", function (e) { if (e.target === box) hide(); });
-  document.addEventListener("keydown", function (e) { if (open && e.key === "Escape") hide(); });
+  document.addEventListener("keydown", function (e) {
+    if (!open) return;
+    if (e.key === "Escape") { hide(); return; }
+    if (e.key === "Tab") {                /* fookus jääb akna sisse */
+      var f = box.querySelectorAll("a[href], button, object");
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
   document.addEventListener("mw:lang", function () { if (open) load(); else current = ""; });
 })();
 </script>
