@@ -31,9 +31,9 @@ GitHub Pages            Cloudflare              külastaja
 
 Paigutus järgib GIMP-i lõuendit 2912 × 1632 px. Kaks gruppi (sildid ja fotod)
 on lõuendi koordinaatides protsentidena, tükid gruppide sees samuti — nii
-püsivad ülekatted ja lõiked (tere parem serv hello all, mantise nurk
-shoemakeri all) igal ekraanil õiged. Püstisel ekraanil laotakse kaks gruppi
-üksteise alla ja taust katab ekraani.
+püsivad siltide ülekatted (tere parem serv hello all) igal ekraanil õiged.
+Kolm fotokaarti on terved ega kata üksteist. Püstisel ekraanil laotakse kaks
+gruppi üksteise alla ja taust katab ekraani.
 
 | Olek | Mis juhtub |
 |------|------------|
@@ -52,17 +52,20 @@ terved (ei kata üksteist): kingsepp `shoemaker.webp`, kung fu
 ### Keeled
 
 Iga tekst on lehel kolmes keeles, iga keel oma elemendis: `data-l="et|en|zh"`.
-`<html data-lang="…">` valib, CSS peidab ülejäänud. Keel tuleb URL-ist
-(`?lang=zh`), muidu `localStorage`-ist (`mw-lang`), muidu inglise. Alalehe
+`<html data-lang="…">` valib, CSS peidab ülejäänud. Keel tuleb selektoris
+tehtud valikust (`localStorage`, võti `mw-lang`); kui valikut pole veel
+tehtud, siis URL-ist (`?lang=zh`, nt jagatud link), muidu inglise. Alalehe
 paremas ülanurgas on samad sildid keele vahetamiseks. Esileht algab alati
 neutraalsest olekust.
 
 Valitud keel püsib lehte vahetades, kuni selektoris tehakse uus valik:
 kõik sisemised lingid (jaluse menüü, logo) kannavad atribuuti
 `data-keep-lang` ja `site.js` kirjutab neile iga keelevahetuse järel
-`?lang=…` uuesti (`MW.keepLang`). Keelevahetusel saadetakse
-`document`-ile sündmus `mw:lang` (kung fu lehe PDF-aken vahetab selle
-peale faili).
+`?lang=…` uuesti (`MW.keepLang`). Valik on ülimuslik ka vana ajalookirje
+või kõrvalise lingi `?lang=` ees (URL kirjutatakse valitud keelele) ja
+tagasi-nupuga (bfcache) taastatud leht võtab vahepeal mujal valitud keele.
+Keelevahetusel saadetakse `document`-ile sündmus `mw:lang` (kung fu lehe
+PDF-aken vahetab selle peale faili).
 
 Uue keele­teksti lisamiseks kirjuta kolm elementi kõrvuti:
 
@@ -88,9 +91,11 @@ assets/
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
 ```
 
-Esilehe tükid on GIMP-i failist kihtidena välja võetud (koordinaadid on
-`index.html` sees `--px/--py/--pw/--ph` muutujatena). Kui GIMP-i faili
-muudad, ekspordi kihid uuesti samade nimedega.
+Taust ja sildid on GIMP-i failist kihtidena välja võetud; kolm kaarti
+(`shoemaker.webp`, `mantis-card.webp`, `books-card.webp`) on eraldi
+läbipaistvad pildid. Koordinaadid on `index.html` sees `--px/--py/--pw/--ph`
+muutujatena. Uue kaardipildi puhul arvuta klikitav kuju (`clip-path`) pildi
+läbipaistvuse järgi uuesti.
 
 Galerii pildid on ühtlustatud tooniga (küllastus 58%, soe pruun-kuldne
 toon, vinjett), et erineva taustaga fotod istuksid lehe värvigammaga.
