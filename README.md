@@ -84,7 +84,7 @@ assets/
   kungfu/                  tunnistus 1991–92, pärimusregister 2023, duani tunnistus 2026,
                            treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb hüpikaknas)
   books/                   kaaned (et, zh, lola), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k),
-                           lola-ja-lohe-lk5.jpg (katkend)
+                           lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
 ```
 

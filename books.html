@@ -152,14 +152,8 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
 
 .about{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap:clamp(18px, 3vw, 36px); }
 
-/* Lola ja Lohe: katkend (ajakirjalehekülg) raamatu kõrval, klõps avab suurelt */
+/* Lola ja Lohe: näidis (ajakirjalehekülg) avaneb nupust "Loe näidet" suurelt */
 #lola-ja-lohe .book-cover{ background:#f6efb8; }
-.excerpt{ display:grid; grid-template-columns:minmax(120px, 190px) minmax(0, 1fr); gap:18px; align-items:center; margin:1.6em 0 0; padding-top:1.4em; border-top:1px solid rgba(232,201,122,.18); }
-.excerpt a.zoom{ display:block; border:0; cursor:zoom-in; }
-.excerpt img{ display:block; width:100%; height:auto; border-radius:3px; border:1px solid rgba(232,201,122,.25); box-shadow:0 18px 30px -18px rgba(0,0,0,.95); background:#f3ead6; transition:transform .5s ease; }
-.excerpt a.zoom:hover img{ transform:scale(1.03); }
-.excerpt figcaption{ font-size:.9rem; color:var(--parchment-dim); }
-.excerpt figcaption q{ color:var(--parchment); font-style:italic; }
 .lightbox{ position:fixed; inset:0; z-index:100; display:grid; place-items:center; align-content:center; gap:14px; padding:4vh 4vw; background:rgba(6,4,3,.93); cursor:zoom-out; animation:lb-in .25s ease; }
 .lightbox[hidden]{ display:none; }
 .lightbox img{ display:block; max-width:min(100%, 900px); max-height:88vh; width:auto; height:auto; border:1px solid rgba(232,201,122,.35); box-shadow:0 40px 80px -30px rgba(0,0,0,1); background:#f3ead6; }
@@ -169,7 +163,6 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
 @media (max-width: 700px){
   .book{ grid-template-columns:1fr; }
   .book-cover{ width:min(70%, 300px); margin-inline:auto; transform:none; }
-  .excerpt{ grid-template-columns:minmax(100px, 140px) minmax(0, 1fr); }
 }
 </style>
 </head>
@@ -303,14 +296,9 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
           </dl>
 
           <div class="btn-row">
-            <a class="btn zoom" href="/assets/books/lola-ja-lohe-lk5.jpg"><span data-l="et">Loe näidet</span><span data-l="en">Read a sample</span><span data-l="zh">阅读试读</span></a>
+            <a class="btn zoom" href="/assets/books/lola-ja-lohe-lk5.jpg" data-alt="Ajakirjalehekülg: katkend raamatust „Lola ja Lohe päästesalk“ ja raamatu tutvustus"><span data-l="et">Loe näidet</span><span data-l="en">Read a sample</span><span data-l="zh">阅读试读</span></a>
             <a class="btn btn--solid" href="https://www.apollo.ee/et/lola-ja-lohe-paastesalk.html" target="_blank" rel="noopener"><span data-l="et">Osta Apollost</span><span data-l="en">Buy from Apollo</span><span data-l="zh">在 Apollo 购买</span></a>
           </div>
-
-          <figure class="excerpt">
-            <a class="zoom" href="/assets/books/lola-ja-lohe-lk5.jpg"><img src="/assets/books/lola-ja-lohe-lk5.jpg" width="762" height="1065" alt="Ajakirjalehekülg: katkend raamatust „Lola ja Lohe päästesalk“ ja raamatu tutvustus" loading="lazy" decoding="async"></a>
-            <figcaption><span data-l="et">Näidis: <q>Meister Wulf on kung fu treener,</q> seletab tüdruk. <q>Netis on kirjas, et tegu on mingi Hiina võitluskunstiga.</q> Klõps pildil või nupul „Loe näidet“ avab lehekülje suurelt.</span><span data-l="en">Sample: <q>Meister Wulf is a kung fu teacher,</q> the girl explains. <q>It says online that it is some kind of Chinese martial art.</q> Click the picture or “Read a sample” to enlarge the page.</span><span data-l="zh">试读：<q>Wulf 师傅是功夫教练，</q>小女孩解释道，<q>网上说这是一种中国武术。</q>点击图片或“阅读试读”可放大页面。</span></figcaption>
-          </figure>
         </div>
       </article>
 
@@ -412,9 +400,8 @@ document.getElementById("year").textContent = new Date().getFullYear();
   var links = document.querySelectorAll("a.zoom");
   var last = null;
   function open(a) {
-    var pic = a.querySelector("img") || document.querySelector('.excerpt img[src="' + a.getAttribute("href") + '"]');
     img.src = a.getAttribute("href");
-    img.alt = pic ? pic.alt : "";
+    img.alt = a.getAttribute("data-alt") || "";
     cap.textContent = "Lola ja Lohe päästesalk";
     box.hidden = false;
     document.body.style.overflow = "hidden";
