@@ -303,12 +303,13 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
           </dl>
 
           <div class="btn-row">
+            <a class="btn zoom" href="/assets/books/lola-ja-lohe-lk5.jpg"><span data-l="et">Loe näidet</span><span data-l="en">Read a sample</span><span data-l="zh">阅读试读</span></a>
             <a class="btn btn--solid" href="https://www.apollo.ee/et/lola-ja-lohe-paastesalk.html" target="_blank" rel="noopener"><span data-l="et">Osta Apollost</span><span data-l="en">Buy from Apollo</span><span data-l="zh">在 Apollo 购买</span></a>
           </div>
 
           <figure class="excerpt">
             <a class="zoom" href="/assets/books/lola-ja-lohe-lk5.jpg"><img src="/assets/books/lola-ja-lohe-lk5.jpg" width="762" height="1065" alt="Ajakirjalehekülg: katkend raamatust „Lola ja Lohe päästesalk“ ja raamatu tutvustus" loading="lazy" decoding="async"></a>
-            <figcaption><span data-l="et">Katkend: <q>Meister Wulf on kung fu treener,</q> seletab tüdruk. <q>Netis on kirjas, et tegu on mingi Hiina võitluskunstiga.</q> Klõps avab lehekülje suurelt.</span><span data-l="en">Excerpt: <q>Meister Wulf is a kung fu teacher,</q> the girl explains. <q>It says online that it is some kind of Chinese martial art.</q> Click to enlarge the page.</span><span data-l="zh">节选：<q>Wulf 师傅是功夫教练，</q>小女孩解释道，<q>网上说这是一种中国武术。</q>点击放大页面。</span></figcaption>
+            <figcaption><span data-l="et">Näidis: <q>Meister Wulf on kung fu treener,</q> seletab tüdruk. <q>Netis on kirjas, et tegu on mingi Hiina võitluskunstiga.</q> Klõps pildil või nupul „Loe näidet“ avab lehekülje suurelt.</span><span data-l="en">Sample: <q>Meister Wulf is a kung fu teacher,</q> the girl explains. <q>It says online that it is some kind of Chinese martial art.</q> Click the picture or “Read a sample” to enlarge the page.</span><span data-l="zh">试读：<q>Wulf 师傅是功夫教练，</q>小女孩解释道，<q>网上说这是一种中国武术。</q>点击图片或“阅读试读”可放大页面。</span></figcaption>
           </figure>
         </div>
       </article>
@@ -411,8 +412,9 @@ document.getElementById("year").textContent = new Date().getFullYear();
   var links = document.querySelectorAll("a.zoom");
   var last = null;
   function open(a) {
+    var pic = a.querySelector("img") || document.querySelector('.excerpt img[src="' + a.getAttribute("href") + '"]');
     img.src = a.getAttribute("href");
-    img.alt = a.querySelector("img").alt;
+    img.alt = pic ? pic.alt : "";
     cap.textContent = "Lola ja Lohe päästesalk";
     box.hidden = false;
     document.body.style.overflow = "hidden";
