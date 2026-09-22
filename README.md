@@ -23,8 +23,8 @@ GitHub Pages            Cloudflare              külastaja
 |------|------|
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
-| `mantis.html` | kung fu: treeningud (personaalne tund 20 €), koolituse sisu + treeningprogrammi PDF hüpikaknas (keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
-| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), 狼的印记 (hiina k) ja „Lola ja Lohe päästesalk“ (Markus Saksatamm, ostulink Apollosse), andmed, tutvustus, näidis-PDF |
+| `mantis.html` | kung fu: treeningud (personaalne tund 20 €), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
+| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, pilk raamatusse, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
 | `404.html` | vealehekülg |
 
 ### Esilehe loogika
@@ -65,7 +65,7 @@ kõik sisemised lingid (jaluse menüü, logo) kannavad atribuuti
 või kõrvalise lingi `?lang=` ees (URL kirjutatakse valitud keelele) ja
 tagasi-nupuga (bfcache) taastatud leht võtab vahepeal mujal valitud keele.
 Keelevahetusel saadetakse `document`-ile sündmus `mw:lang` (kung fu lehe
-PDF-aken vahetab selle peale faili).
+treeningprogrammi link vahetab selle peale PDF-faili).
 
 Uue keele­teksti lisamiseks kirjuta kolm elementi kõrvuti:
 
@@ -85,7 +85,7 @@ assets/
   shoemaker/               galerii (1024×512, ühtlustatud toon), video eelvaade
   shoemaker/orig/          samad fotod töötlemata värvides — avanevad galeriis klõpsu peale suurelt
   kungfu/                  tunnistus 1991–92, pärimusregister 2023, duani tunnistus 2026,
-                           treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb hüpikaknas)
+                           treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas)
   books/                   kaaned (et, zh, lola), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll

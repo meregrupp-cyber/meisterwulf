@@ -89,23 +89,10 @@ body.page-mantis{
 .offer{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap:18px; }
 .offer .card h3{ letter-spacing:.14em; text-transform:uppercase; font-size:.92rem; }
 
-/* koolituse sisu: viis väravat + treeningprogrammi PDF hüpikaknas */
+/* koolituse sisu: viis väravat; treeningprogrammi PDF avaneb uues aknas keele järgi */
 .programme{ margin-top:1.4em; padding-top:1.1em; border-top:1px solid rgba(232,201,122,.18); }
 .programme .gates{ display:block; margin-top:.4em; font-size:.92rem; color:var(--parchment-dim); }
 .programme .gates [lang="zh"]{ color:var(--brass-light); }
-.pdfbox{ position:fixed; inset:0; z-index:100; display:flex; align-items:center; justify-content:center; padding:max(10px, 2vh) max(10px, 2vw); background:rgba(6,4,3,.92); animation:pb-in .25s ease; }
-.pdfbox[hidden]{ display:none; }
-.pdfbox-panel{ display:flex; flex-direction:column; width:min(1000px, 100%); height:min(92vh, 1300px); height:min(92dvh, 1300px); max-height:100%; border:1px solid rgba(232,201,122,.4); border-radius:6px; background:#1b120a; box-shadow:0 40px 80px -30px rgba(0,0,0,1); overflow:hidden; }
-.pdfbox-bar{ display:flex; align-items:center; gap:14px; padding:10px 12px 10px 18px; border-bottom:1px solid rgba(232,201,122,.25); font-size:.86rem; letter-spacing:.08em; }
-.pdfbox-bar .pdfbox-title{ flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--parchment); }
-.pdfbox-bar a{ border:0; font-size:.76rem; letter-spacing:.14em; text-transform:uppercase; white-space:nowrap; }
-.pdfbox-close{ flex:none; width:38px; height:38px; border:1px solid rgba(232,201,122,.4); border-radius:50%; background:none; color:var(--brass-light); font:1.5rem/1 var(--font-serif); cursor:pointer; }
-.pdfbox-close:hover, .pdfbox-close:focus-visible{ color:var(--parchment); border-color:var(--parchment); }
-.pdfbox-doc{ flex:1; min-height:0; background:#3a2d1c; }
-.pdfbox-doc object, .pdfbox-doc iframe{ display:block; width:100%; height:100%; border:0; }
-.pdfbox-fallback{ display:grid; place-content:center; gap:14px; height:100%; padding:24px; text-align:center; color:var(--parchment-dim); }
-@keyframes pb-in{ from{ opacity:0; } to{ opacity:1; } }
-@media (max-width: 600px){ .pdfbox-bar{ gap:10px; padding-left:12px; } .pdfbox-bar .pdfbox-title{ display:none; } .pdfbox-bar a{ flex:1; font-size:.7rem; } }
 </style>
 </head>
 <body class="page page-mantis has-lang">
@@ -160,7 +147,7 @@ body.page-mantis{
             <span class="gates"><span data-l="et">1 keha püsti <span lang="zh">立身</span> · 2 käed selged <span lang="zh">明手</span> · 3 jõu mõistmine <span lang="zh">懂劲</span> · 4 kogu keha relvaks <span lang="zh">分身</span> · 5 essents <span lang="zh">摘要</span></span><span data-l="en">1 body upright <span lang="zh">立身</span> · 2 clear hands <span lang="zh">明手</span> · 3 understanding force <span lang="zh">懂劲</span> · 4 the whole body as a weapon <span lang="zh">分身</span> · 5 the essence <span lang="zh">摘要</span></span><span data-l="zh">一 立身 · 二 明手 · 三 懂劲 · 四 分身 · 五 摘要</span></span>
           </p>
           <div class="btn-row">
-            <button type="button" class="btn" id="pdf-open" data-pdf-et="/assets/kungfu/treeningprogramm-et.pdf" data-pdf-en="/assets/kungfu/treeningprogramm-en.pdf" data-pdf-zh="/assets/kungfu/treeningprogramm-zh.pdf"><span data-l="et">Koolituse tutvustus (PDF)</span><span data-l="en">Training programme (PDF)</span><span data-l="zh">训练大纲（PDF）</span></button>
+            <a class="btn" id="pdf-open" href="/assets/kungfu/treeningprogramm-en.pdf" target="_blank" rel="noopener" data-pdf-et="/assets/kungfu/treeningprogramm-et.pdf" data-pdf-en="/assets/kungfu/treeningprogramm-en.pdf" data-pdf-zh="/assets/kungfu/treeningprogramm-zh.pdf"><span data-l="et">Koolituse tutvustus (PDF)</span><span data-l="en">Training programme (PDF)</span><span data-l="zh">训练大纲（PDF）</span></a>
           </div>
         </div>
         <div>
@@ -302,77 +289,18 @@ body.page-mantis{
   </div>
 </footer>
 
-<!-- treeningprogrammi PDF hüpikaknas; fail valitakse parajasti valitud keele järgi -->
-<div class="pdfbox" id="pdfbox" hidden role="dialog" aria-modal="true" aria-label="Treeningprogramm (PDF)">
-  <div class="pdfbox-panel">
-    <div class="pdfbox-bar">
-      <span class="pdfbox-title" id="pdfbox-title"><span data-l="et">Palvetajaritsika stiil — viis väravat</span><span data-l="en">The Praying Mantis Style — the five gates</span><span data-l="zh">螳螂拳——五关</span></span>
-      <a class="pdfbox-new" href="/assets/kungfu/treeningprogramm-en.pdf" target="_blank" rel="noopener"><span data-l="et">Ava uues aknas</span><span data-l="en">Open in a new window</span><span data-l="zh">新窗口打开</span></a>
-      <button type="button" class="pdfbox-close" aria-label="Sulge · Close · 关闭">×</button>
-    </div>
-    <div class="pdfbox-doc"></div>
-  </div>
-</div>
 <script>
 document.getElementById("year").textContent = new Date().getFullYear();
 (function () {
-  var btn = document.getElementById("pdf-open");
-  var box = document.getElementById("pdfbox");
-  if (!btn || !box) return;
-  var doc = box.querySelector(".pdfbox-doc");
-  var link = box.querySelector(".pdfbox-new");
-  var close = box.querySelector(".pdfbox-close");
-  var open = false, current = "";
-  function src() {
+  /* treeningprogrammi PDF avaneb uues aknas parajasti valitud keeles */
+  var a = document.getElementById("pdf-open");
+  if (!a) return;
+  function set() {
     var l = document.documentElement.getAttribute("data-lang") || "en";
-    box.setAttribute("aria-label", { et: "Treeningprogramm (PDF)", en: "Training programme (PDF)", zh: "训练大纲（PDF）" }[l] || "PDF");
-    return btn.getAttribute("data-pdf-" + l) || btn.getAttribute("data-pdf-en");
+    a.href = a.getAttribute("data-pdf-" + l) || a.getAttribute("data-pdf-en");
   }
-  function load() {
-    var s = src();
-    if (s === current) return;
-    current = s;
-    link.href = s;
-    var o = document.createElement("object");
-    o.setAttribute("data", s + "#view=FitH");
-    o.setAttribute("type", "application/pdf");
-    o.setAttribute("aria-label", "PDF");
-    var fb = document.createElement("div");
-    fb.className = "pdfbox-fallback";
-    fb.innerHTML = '<p><span data-l="et">Selles brauseris ei saa PDF-i siin näidata.</span><span data-l="en">This browser cannot show the PDF here.</span><span data-l="zh">此浏览器无法在此显示 PDF。</span></p>';
-    var a = document.createElement("a");
-    a.className = "btn btn--solid"; a.href = s; a.target = "_blank"; a.rel = "noopener";
-    a.innerHTML = '<span data-l="et">Ava PDF</span><span data-l="en">Open the PDF</span><span data-l="zh">打开 PDF</span>';
-    fb.appendChild(a);
-    o.appendChild(fb);
-    while (doc.firstChild) doc.removeChild(doc.firstChild);
-    doc.appendChild(o);
-  }
-  function show() {
-    load();
-    box.hidden = false; open = true;
-    document.body.style.overflow = "hidden";
-    close.focus();
-  }
-  function hide() {
-    box.hidden = true; open = false;
-    document.body.style.overflow = "";
-    btn.focus();
-  }
-  btn.addEventListener("click", show);
-  close.addEventListener("click", hide);
-  box.addEventListener("click", function (e) { if (e.target === box) hide(); });
-  document.addEventListener("keydown", function (e) {
-    if (!open) return;
-    if (e.key === "Escape") { hide(); return; }
-    if (e.key === "Tab") {                /* fookus jääb akna sisse */
-      var f = box.querySelectorAll("a[href], button, object");
-      var first = f[0], last = f[f.length - 1];
-      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-    }
-  });
-  document.addEventListener("mw:lang", function () { if (open) load(); else current = ""; });
+  set();
+  document.addEventListener("mw:lang", set);
 })();
 </script>
 </body>
