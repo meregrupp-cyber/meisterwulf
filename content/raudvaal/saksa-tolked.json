@@ -1,0 +1,447 @@
+[
+ {
+  "saksa": "Papiere, bitte.",
+  "tolge": "„Paberid, palun.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Bin gleich da.",
+  "tolge": "„Tulen kohe.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Krüger. Obersteuermann.",
+  "tolge": "„Krüger. Tüürimeeste vanem.” Obersteuermann – tüürimeeste vanem, vanemallohvitser.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Sechs zusätzliche Personen,",
+  "tolge": "„Kuus lisareisijat.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Zwei davon Ihre Eltern.",
+  "tolge": "„Kaks neist teie vanemad.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Jawohl, Herr Kaleun.",
+  "tolge": "„Just nii, härra kaptenleitnant.” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Selbstverständlich,",
+  "tolge": "„Loomulikult.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Schon zur See gefahren?",
+  "tolge": "„Olete juba merel sõitnud?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Ja. Russische Marine. Als Taucher.",
+  "tolge": "„Jah. Vene merevägi. Tuukrina.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Wann?",
+  "tolge": "„Millal?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Fünfzehn bis siebzehn.",
+  "tolge": "„Viieteistkümnendast seitsmeteistkümnendani.” – s.t aastatel 1915–1917.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Verstanden.",
+  "tolge": "„Selge.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Sondertransport",
+  "tolge": "erivedu, eritransport",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Und mein Mann?",
+  "tolge": "„Aga minu mees?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Ihr Mann setzt sich vorläufig hier.",
+  "tolge": "„Teie mees istub esialgu siia.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Klar zum Ablegen!",
+  "tolge": "„Valmis kaist lahkumiseks!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Beide Maschinen kleine Fahrt voraus.",
+  "tolge": "„Mõlemad masinad väike käik edasi.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Beide Maschinen kleine Fahrt voraus!",
+  "tolge": "„Mõlemad masinad väike käik edasi!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Baltikum",
+  "tolge": "Baltimaad; sakslaste nimetus Balti provintside kohta",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Herr Kaleun?",
+  "tolge": "„Härra kaptenleitnant?” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Abstand halten.",
+  "tolge": "„Hoida vahemaad.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Kleines Boot an Steuerbord!",
+  "tolge": "„Väike paat tüürpoordis!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Menschen an Bord. Sie treiben.",
+  "tolge": "„Inimesed pardal. Nad triivivad.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Meldung an den Geleitführer.",
+  "tolge": "„Teade saatelaeva juhile.” Geleitführer – konvoi juht, saatelaeva komandör.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Wie viele?",
+  "tolge": "„Kui palju?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Mindestens sieben. Vielleicht mehr.",
+  "tolge": "„Vähemalt seitse. Võib-olla rohkem.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Maschine kaputt!",
+  "tolge": "„Mootor katki!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Wie viele sind Sie?",
+  "tolge": "„Kui palju teid on?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Neun!",
+  "tolge": "„Üheksa!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Nicht festholen!",
+  "tolge": "„Mitte pingule tõmmata!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Lose lassen!",
+  "tolge": "„Jätke lõdvaks!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Den Jungen zuerst!",
+  "tolge": "„Poiss esimesena!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Zwei Mann hierher! Den Jungen nach unten!",
+  "tolge": "„Kaks meest siia! Poiss alla!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Auf Ihren Plätzen bleiben!",
+  "tolge": "„Jääge oma kohtadele!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Jawohl, Herr Oberleutnant!",
+  "tolge": "„Just nii, härra vanemleitnant!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Langsam. Nicht rucken.",
+  "tolge": "„Aeglaselt. Mitte jõnksutada.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Kommen Sie!",
+  "tolge": "„Tulge!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Neun an Bord!",
+  "tolge": "„Üheksa pardal!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Neun,",
+  "tolge": "„Üheksa.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Leinen los!",
+  "tolge": "„Otsad lahti!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Die nassen Sachen ganz aus. Auch die Strümpfe.",
+  "tolge": "„Märjad riided täiesti seljast. Ka sukad.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "LI,",
+  "tolge": "„Vaneminsener.” LI – lühend ametinimetusest Leitender Ingenieur, vaneminsener; allveelaeva masinaohvitser.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Unser leitender Ingenieur. Herr von Tiesenhausen.",
+  "tolge": "„Meie vaneminsener. Härra von Tiesenhausen.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Sie beide nach achtern. Krüger zeigt Ihnen wohin.",
+  "tolge": "„Teie kaks ahtrisse. Krüger näitab, kuhu.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Einundsechzig,",
+  "tolge": "„Kuuskümmend üks.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Jetzt sind wir einundsechzig.",
+  "tolge": "„Nüüd on meid kuuskümmend üks.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Papiere?",
+  "tolge": "„Paberid?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Keine Papiere,",
+  "tolge": "„Pabereid ei ole.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "ohne Papiere",
+  "tolge": "„ilma paberiteta”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Nicht öffnen.",
+  "tolge": "„Mitte avada.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Destilliert. Für die Batterie.",
+  "tolge": "„Destilleeritud. Akude jaoks.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Alles in Ordnung.",
+  "tolge": "„Kõik on korras.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Alles in Ordnung,",
+  "tolge": "„Kõik on korras.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Der Mann kommt mit.",
+  "tolge": "„Mees tuleb kaasa.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Weshalb?",
+  "tolge": "„Mispärast?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Ist das seine Unterschrift?",
+  "tolge": "„Kas see on tema allkiri?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Meine,",
+  "tolge": "„Minu.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Nun?",
+  "tolge": "„Noh?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Nein.",
+  "tolge": "„Ei.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Der Mann bleibt an Bord.",
+  "tolge": "„Mees jääb pardale.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Haben Sie meinen Befehl verstanden?",
+  "tolge": "„Kas te saite minu käsust aru?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Nein, Herr Kaleun.",
+  "tolge": "„Ei, härra kaptenleitnant.” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "So heißt er.",
+  "tolge": "„Nii on tema nimi.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Geburtsname?",
+  "tolge": "„Sünninimi?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Bringen Sie den Mann her.",
+  "tolge": "„Tooge mees siia.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Laufplanke weg!",
+  "tolge": "„Ülekäigulaud ära!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Sie kommen mit mir.",
+  "tolge": "„Te tulete minuga kaasa.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "So geht es.",
+  "tolge": "„Nii see käib.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Sanitäter!",
+  "tolge": "„Sanitar!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Jawohl.",
+  "tolge": "„Just nii.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Tiefe?",
+  "tolge": "„Sügavus?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Dreißig!",
+  "tolge": "„Kolmkümmend!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Ruhe im Boot!",
+  "tolge": "„Vaikus paati!”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Und hören?",
+  "tolge": "„Aga kuulata?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Der Sender ist zerstört, Herr Kaleun.",
+  "tolge": "„Saatja on purunenud, komandör.” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Ich weiß.",
+  "tolge": "„Ma tean.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Auch.",
+  "tolge": "„Ka selle pärast.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Wir werden gerufen.",
+  "tolge": "„Meid kutsutakse.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Noch einmal?",
+  "tolge": "„Veel kord?”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Kaleun",
+  "tolge": "kaptenleitnant, kõnekeelne lühend auastmest Kapitänleutnant; allveelaeva komandör",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Kapitänleutnant",
+  "tolge": "kaptenleitnant",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Oberleutnant",
+  "tolge": "vanemleitnant",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Leutnant",
+  "tolge": "leitnant",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Obersteuermann",
+  "tolge": "tüürimeeste vanem, vanemallohvitser",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Bootsmann",
+  "tolge": "pootsman",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Flottillenstab",
+  "tolge": "flotilli staap",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Dienststelle",
+  "tolge": "teenistusasutus",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Geleitführer",
+  "tolge": "konvoi juht, saatelaeva komandör",
+  "liik": "sona"
+ },
+ {
+  "saksa": "Sanitäter",
+  "tolge": "sanitar",
+  "liik": "sona"
+ }
+]

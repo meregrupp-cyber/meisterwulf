@@ -87,7 +87,7 @@ function applyDictionary(body, dict, stats) {
   return body;
 }
 /* saksapärased tsitaadid, millel mulli pole (uue peatüki kontrolliks) */
-const GERMAN = new Set("der die das den dem des ein eine einen einem einer und oder nicht ist sind war waren wird werden hat haben sein ich du er es wir ihr mich mir dich dir uns euch ihn ihm ihnen sich herr frau zum zur zu auf aus mit für von bei nach vor über unter im am bis ohne gegen durch kein keine noch schon jetzt hier dort dann wenn dass was wer wie wo warum alle alles nichts etwas auch nur mehr sehr gut nein bitte danke bleibt bleiben kommen kommt geht gehen mann leute schiff boot befehl wache kaleun oberleutnant leutnant kommandant sie sehen danach weiter ordnung jawohl papiere öffnen zuerst langsam bringen seine meinen verstanden heißt unterschrift beide achtern zeigt wohin gleich mein setzt vorläufig klar ablegen viele festhalten jungen zwei hierher unten ihren plätzen rucken unser sachen ganz strümpfe weiß".split(" "));
+const GERMAN = new Set("der die das den dem des ein eine einen einem einer und oder nicht ist sind war waren wird werden hat haben sein ich du er es wir ihr mich mir dich dir uns euch ihn ihm ihnen sich herr frau zum zur zu auf aus mit für bei nach vor über unter im am bis ohne gegen durch kein keine noch schon jetzt hier dort dann wenn dass was wer wie wo warum alle alles nichts etwas auch nur mehr sehr gut nein bitte danke bleibt bleiben kommen kommt geht gehen mann leute schiff boot befehl wache kaleun oberleutnant leutnant kommandant sie sehen danach weiter ordnung jawohl papiere öffnen zuerst langsam bringen seine meinen verstanden heißt unterschrift beide achtern zeigt wohin gleich mein setzt vorläufig klar ablegen viele festhalten jungen zwei hierher unten ihren plätzen rucken unser sachen ganz strümpfe weiß".split(" "));
 const ESTONIAN = new Set("ja on ei ta kas mis kui siis oma ka aga et või mida kes nii seda olen oled tema meie teie nad ma sa me te ole olid oli need selle minu sinu tal mul sul kus kuhu miks kuidas juba veel ainult midagi keegi mitte nüüd sest siia sinna seal siin kõik sind".split(" "));
 function looksGerman(t) {
   const words = t.toLowerCase().match(/[a-zäöüß]+/g) || [];
@@ -213,6 +213,7 @@ writeFileSync(path.join(OUT, "sonastik.json"), JSON.stringify(sonastik, null, 1)
 console.log(`Ehitatud: ${path.relative(ROOT, OUT)}/  (${toc.filter((r) => r.published).length} avaldatud peatükki ${toc.length - 1}-st, sõnastikus ${sonastik.length} väljendit)`);
 for (const s of summary) console.log("  " + s);
 if (!kontroll) console.log("  (krüpteeritud sisu pole; koodi ei olnud vaja)");
-const unused = [...dictStats.entries()].filter(([, n]) => n === 0).map(([k]) => k);
+const sonad = new Set(dict.filter((e) => e.liik === "sona").map((e) => e.saksa));   /* üksiksõnad on varuks ka siis, kui praegu ei esine */
+const unused = [...dictStats.entries()].filter(([k, n]) => n === 0 && !sonad.has(k)).map(([k]) => k);
 console.log(`Tõlkesõnastik: ${dict.length} kirjet, ${[...dictStats.values()].reduce((a, b) => a + b, 0)} lisatud mulli` + (unused.length ? `; EI ESINE kuskil (${unused.length}): ${unused.map((u) => "„" + u + "”").join(", ")}` : ""));
 if (kontrolli.length) { console.log(`KONTROLLI: ${kontrolli.length} saksapärast tsitaati ilma mullita (lisa content/${RAAMAT}/saksa-tolked.json faili):`); for (const k of kontrolli) console.log("  " + k); }
