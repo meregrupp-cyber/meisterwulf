@@ -1,0 +1,101 @@
+/* Raudvaal — lugemisleht. Sama süsteem mis books.html (tumesinine nahk, messing),
+   peatüki tekst on paberil: pikaks lugemiseks hele pind ja tume kiri. */
+body.page-raudvaal{
+  background:
+    radial-gradient(70% 45% at 50% 0%, rgba(201,162,39,.14), transparent 60%),
+    linear-gradient(175deg, #10182b 0%, #0b1020 40%, #070a14 100%);
+  background-attachment:fixed;
+}
+.sr-only{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+[hidden]{ display:none !important; }
+
+/* Päis */
+.hero--book{ padding:clamp(110px, 18vh, 170px) 0 clamp(24px, 4vh, 48px); }
+.book-head{ display:grid; grid-template-columns:minmax(110px, 170px) minmax(0, 1fr); gap:clamp(20px, 4vw, 48px); align-items:end; }
+.book-head-cover{ display:block; border-bottom:0; }
+.book-head img{ display:block; width:100%; height:auto; border-radius:3px 6px 6px 3px; box-shadow:inset 4px 0 8px -5px rgba(255,255,255,.25), 0 24px 40px -18px rgba(0,0,0,.95), 0 0 0 1px rgba(232,201,122,.25); }
+.book-head h1{ font-family:var(--font-serif); text-transform:uppercase; letter-spacing:.14em; text-indent:.14em; }
+.seis{ margin-top:1em; font-size:.92rem; letter-spacing:.04em; color:var(--parchment-dim); }
+
+/* Sisukord */
+main#app{ padding-bottom:clamp(48px, 8vh, 96px); }
+.jatka{ margin:0 0 1.4em; }
+.jatka .btn{ font-size:.85rem; }
+.sisukord h2{ margin:1.8em 0 .5em; font-size:clamp(1.15rem, 2vw, 1.5rem); letter-spacing:.06em; }
+.sisukord h2::after{ width:48px; }
+.peatukid{ list-style:none; margin:0; padding:0; }
+.pt{
+  display:grid; grid-template-columns:3.4em minmax(0, 1fr) auto; gap:.3em 1em; align-items:baseline;
+  padding:.55em 0; border-bottom:1px solid rgba(232,201,122,.12);
+}
+.pt-nr{ color:var(--brass); letter-spacing:.08em; font-size:.95rem; }
+.pt-nimi{ font-size:1.08rem; color:var(--parchment); }
+.pt a.pt-nimi{ border-bottom:0; }
+.pt a.pt-nimi:hover, .pt a.pt-nimi:focus-visible{ color:var(--brass-light); }
+.pt--tulekul .pt-nimi, .pt--tulekul .pt-nr{ color:rgba(200,177,137,.5); }
+.pt-silt{ display:inline-block; font-size:.64rem; letter-spacing:.18em; text-transform:uppercase; color:var(--brass); border:1px solid rgba(232,201,122,.4); border-radius:999px; padding:.18em .65em; white-space:nowrap; }
+.pt-silt--tasuta{ color:#1a1206; background:linear-gradient(180deg, #e8c97a, #b8901d); border-color:#e8c97a; }
+.pt-silt--mustand{ color:#1a1206; background:#e8c24a; border-color:#e8c24a; }
+.pt-silt--tulekul{ color:rgba(200,177,137,.6); border-color:rgba(232,201,122,.2); }
+.lukk{ width:.85em; height:.85em; margin-right:.35em; vertical-align:-.08em; fill:currentColor; opacity:.75; }
+.pt-silt--tulekul .lukk{ display:none; }
+
+/* Kood */
+.koodikast{ margin-top:2.6em; padding:clamp(18px, 3vw, 32px); border:1px solid rgba(232,201,122,.3); border-radius:6px; background:linear-gradient(180deg, rgba(232,201,122,.06), rgba(0,0,0,.25)); }
+.koodikast h2{ font-size:1.3rem; }
+.koodikast form{ display:flex; flex-wrap:wrap; gap:10px; margin:1em 0 .6em; }
+.koodikast input{ flex:1 1 220px; min-width:0; padding:.7em 1em; font:inherit; font-size:1rem; letter-spacing:.06em; color:var(--parchment); background:rgba(11,8,5,.6); border:1px solid rgba(232,201,122,.4); border-radius:999px; }
+.koodikast input:focus{ outline:none; border-color:var(--brass-light); box-shadow:0 0 0 3px rgba(232,201,122,.2); }
+.koodikast--vihje{ margin-top:2.2em; padding:clamp(14px, 2.5vw, 24px); font-size:.95rem; color:var(--parchment-dim); }
+.koodikast--vihje p{ margin:0; }
+.kood-teade{ min-height:1.4em; margin:0 0 .8em; color:#f0b48a; }
+.kood-teade.on-ok{ color:var(--brass-light); }
+.teade{ font-size:1.1rem; color:var(--parchment-dim); }
+
+/* Peatükk paberil */
+.leht{
+  width:min(100%, 46rem); margin:0 auto;
+  padding:clamp(24px, 5vw, 64px) clamp(18px, 5vw, 64px) clamp(28px, 5vw, 56px);
+  color:#2b1d10;
+  background:
+    radial-gradient(120% 90% at 10% 0%, rgba(255,255,255,.35), transparent 55%),
+    linear-gradient(184deg, #f4ead2 0%, #eadcb6 60%, #dfcb9d 100%);
+  border:1px solid rgba(90,64,30,.35); border-radius:4px;
+  box-shadow:0 30px 60px -30px rgba(0,0,0,.95);
+}
+.leht-pea{ text-align:center; margin:0 0 2em; }
+.leht-nr{ margin:0 0 .3em; font-size:1.15rem; letter-spacing:.34em; text-indent:.34em; color:#8a6a1c; max-width:none; }
+.leht h1{ margin:0 0 .35em; font-size:clamp(1.7rem, 4vw, 2.4rem); letter-spacing:.04em; color:#2b1d10; text-shadow:none; }
+.leht-dateline{ margin:0; max-width:none; font-style:italic; color:#6e4e1c; }
+.leht-pilt{ margin:0 auto 2em; max-width:420px; }
+.leht-pilt img{ display:block; width:100%; height:auto; border:1px solid rgba(90,64,30,.35); }
+.tekst p{ max-width:none; margin:0 0 .9em; font-size:clamp(1.08rem, 1.05vw + .8rem, 1.24rem); line-height:1.72; color:#2b1d10; }
+.tekst p:last-child{ margin-bottom:0; }
+.tekst em{ font-style:italic; }
+.tekst hr{ border:0; height:auto; margin:1.6em 0; text-align:center; color:#8a6a1c; letter-spacing:.6em; text-indent:.6em; }
+.tekst hr::after{ content:"*\00a0*\00a0*"; font-size:1.1rem; }
+.leht .saksa{ text-decoration-color:#8a6a1c; }
+.leht .saksa:focus-visible{ outline-color:#8a6a1c; }
+.mustand-riba{ margin:0 0 1.6em; padding:.55em 1em; text-align:center; font-size:.76rem; letter-spacing:.16em; text-transform:uppercase; color:#1a1206; background:#e8c24a; border-radius:4px; max-width:none; }
+.leht-nav{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; margin-top:2.6em; padding-top:1.2em; border-top:1px solid rgba(90,64,30,.3); font-size:.95rem; }
+.leht-nav a{ color:#5a3f16; border-bottom-color:rgba(90,64,30,.4); }
+.leht-nav a:hover, .leht-nav a:focus-visible{ color:#2b1d10; border-bottom-color:#2b1d10; }
+.leht-nav a[hidden]{ display:none; }
+.leht-nav a:first-child{ margin-right:auto; }
+.leht-nav a:last-child{ margin-left:auto; text-align:right; }
+
+/* Sõnastik */
+.sonastik dl{ display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1.5fr); gap:.6em 1.6em; margin:1.4em 0; }
+.sonastik dt{ color:var(--brass-light); }
+.sonastik dd{ margin:0; color:var(--parchment-dim); }
+.sonastik dd small{ display:block; margin-top:.2em; font-size:.76rem; letter-spacing:.1em; text-transform:uppercase; color:var(--brass); }
+.sonastik-selgitus{ color:var(--parchment-dim); }
+
+@media (max-width: 700px){
+  .book-head{ grid-template-columns:1fr; align-items:start; }
+  .book-head-cover{ width:min(46%, 170px); }
+  .pt{ grid-template-columns:2.8em minmax(0, 1fr); }
+  .pt .pt-silt{ grid-column:2; justify-self:start; }
+  .sonastik dl{ grid-template-columns:1fr; gap:.2em 0; }
+  .sonastik dt{ margin-top:.8em; }
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="et" data-page="raudvaal">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raudvaal — Meister Wulf</title>
+<meta name="description" content="Raudvaal — Taniel Suvi romaani „Meister Wulf“ järg. E-raamat, mis ilmub peatükkide kaupa: sisukord, tasuta proloog ja I peatükk, saksakeelsete väljendite tõlked puudutusega.">
+<link rel="canonical" href="https://meisterwulf.com/raudvaal/">
+<meta name="theme-color" content="#0b1020">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Meisterwulf">
+<meta property="og:title" content="Raudvaal — Meister Wulf, teine raamat">
+<meta property="og:description" content="E-raamat, ilmub peatükkide kaupa. Proloog ja I peatükk on tasuta.">
+<meta property="og:url" content="https://meisterwulf.com/raudvaal/">
+<meta property="og:image" content="https://meisterwulf.com/assets/books/raudvaal-cover.jpg">
+<meta property="book:author" content="Taniel Suvi">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/tolge.css">
+<link rel="stylesheet" href="/raudvaal/loe.css">
+</head>
+<body class="page page-raudvaal has-lang">
+
+<a class="wulf" href="/?lang=et" aria-label="Meisterwulf">
+  <img src="/assets/logo/wulf-logo-320.webp" srcset="/assets/logo/wulf-logo-320.webp 1x, /assets/logo/wulf-logo-640.webp 2x" width="320" height="480" alt="" decoding="async">
+  <span class="wulf-caption">Tagasi esilehele</span>
+</a>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="hero hero--book">
+  <div class="wrap book-head">
+    <a class="book-head-cover" href="/books.html?lang=et#raudvaal" aria-label="Raudvaal raamatute lehel">
+      <picture>
+        <source srcset="/assets/books/raudvaal-cover.webp" type="image/webp">
+        <img src="/assets/books/raudvaal-cover.jpg" width="700" height="1045" alt="Raudvaal — kaas: tumesinine nahk, kuldne vapp mõõgaga hundiga" decoding="async">
+      </picture>
+    </a>
+    <div>
+      <p class="kicker">Meister Wulf · teine raamat · e-raamat</p>
+      <h1>Raudvaal</h1>
+      <p class="lede">Taniel Suvi. Järg romaanile „Meister Wulf“: kolmkümmend kuus aastat hiljem, teise sõja viimasel kevadel, sama mere teises otsas.</p>
+      <p class="seis" id="seis" aria-live="polite"></p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <noscript><p class="teade">Lugemisleht vajab JavaScripti.</p></noscript>
+
+  <section id="vaade-sisukord" hidden>
+    <div id="jatka" class="jatka"></div>
+    <div id="sisukord" class="sisukord" aria-label="Sisukord"></div>
+    <div class="koodikast koodikast--vihje" id="koodivihje"></div>
+  </section>
+
+  <section id="vaade-peatukk" hidden>
+    <article class="leht" id="leht">
+      <p class="mustand-riba" id="pt-mustand" hidden>Mustand, avalikkusele nähtamatu</p>
+      <header class="leht-pea">
+        <p class="leht-nr" id="pt-number"></p>
+        <h1 id="pt-pealkiri"></h1>
+        <p class="leht-dateline" id="pt-dateline"></p>
+      </header>
+      <figure class="leht-pilt" id="pt-pilt" hidden><img id="pt-pilt-img" alt="" decoding="async"></figure>
+      <div class="tekst" id="pt-tekst"></div>
+      <nav class="leht-nav" aria-label="Peatükid">
+        <a id="nav-eelmine" href="#sisukord"></a>
+        <a href="#sisukord">Sisukord</a>
+        <a id="nav-jargmine" href="#sisukord"></a>
+      </nav>
+    </article>
+  </section>
+
+  <section id="vaade-sonastik" class="sonastik" hidden>
+    <h2>Sõnastik</h2>
+    <p class="sonastik-selgitus">Saksakeelsed väljendid raamatust ja nende tõlked, tähestikus. Sama tõlge avaneb tekstis väljendit puudutades.</p>
+    <dl id="sonastik"></dl>
+    <p><a href="#sisukord">Sisukord</a></p>
+  </section>
+
+  <section id="vaade-kood" hidden>
+    <div class="koodikast">
+      <h2>Kood</h2>
+      <p id="kood-selgitus">See peatükk on lukus. Koodiga avanevad kõik valmis peatükid; kood jääb sellesse brauserisse meelde.</p>
+      <form id="kood-vorm" autocomplete="off">
+        <label class="sr-only" for="kood">Kood</label>
+        <input id="kood" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Kood" required>
+        <button type="submit" class="btn btn--solid" id="kood-nupp">Ava</button>
+      </form>
+      <p id="kood-teade" class="kood-teade" aria-live="polite"></p>
+      <p><a href="#sisukord">Tagasi sisukorda</a></p>
+    </div>
+  </section>
+
+  <section id="vaade-teade" hidden>
+    <p class="teade" id="teade"></p>
+    <p><a href="#sisukord">Sisukord</a></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Meisterwulf · Kriuks OÜ</span>
+    <nav aria-label="Meisterwulf">
+      <a href="/?lang=et">Meisterwulf</a>
+      <a href="/shoemaker.html?lang=et">Kingsepp</a>
+      <a href="/mantis.html?lang=et">Kung fu</a>
+      <a href="/books.html?lang=et" class="is-here">Raamatud</a>
+    </nav>
+    <a class="fb" href="https://www.facebook.com/meister.von.wulf" target="_blank" rel="noopener" aria-label="Facebook: Meister von Wulf"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22h3.4z"/></svg><span>Facebook</span></a>
+  </div>
+</footer>
+
+<script src="/assets/tolge.js"></script>
+<script src="/raudvaal/loe.js"></script>
+</body>
+</html>

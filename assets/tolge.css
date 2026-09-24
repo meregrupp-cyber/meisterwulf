@@ -1,0 +1,34 @@
+/* Saksa väljendite tõlkemullid — vt assets/tolge.js */
+.saksa{
+  cursor:pointer;
+  text-decoration:underline dotted;
+  text-decoration-color:currentColor;
+  text-decoration-thickness:1px;
+  text-underline-offset:.2em;
+  border-radius:2px;
+}
+.saksa:hover, .saksa[aria-expanded="true"]{ text-decoration-style:solid; }
+.saksa:focus-visible{ outline:2px solid #c9a227; outline-offset:2px; }
+.tolge-mull{
+  position:absolute; z-index:70;
+  max-width:340px;
+  padding:.6em .9em;
+  border:1px solid rgba(232,201,122,.6);
+  border-radius:6px;
+  background:#140e08;
+  color:#f2e4c2;
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+  font-size:.94rem; line-height:1.45;
+  white-space:pre-line;
+  box-shadow:0 16px 32px -12px rgba(0,0,0,.9);
+  animation:tolge-in .15s ease;
+}
+.tolge-mull[hidden]{ display:none; }
+.tolge-mull::after{
+  content:""; position:absolute; left:var(--nool, 50%); bottom:-7px;
+  transform:translateX(-50%);
+  border:7px solid transparent; border-bottom:0; border-top-color:rgba(232,201,122,.6);
+}
+.tolge-mull.is-all::after{ bottom:auto; top:-7px; border-top:0; border-bottom:7px solid rgba(232,201,122,.6); }
+@keyframes tolge-in{ from{ opacity:0; transform:translateY(2px); } to{ opacity:1; transform:none; } }
+@media (prefers-reduced-motion: reduce){ .tolge-mull{ animation:none; } }

@@ -303,9 +303,9 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
 
           <div class="btn-row">
             <button type="button" class="btn" data-about="proloog"><span data-l="et">Loe proloogi</span><span data-l="en">Read the prologue (Estonian)</span><span data-l="zh">阅读序章（爱沙尼亚文）</span></button>
-            <a class="btn btn--solid" href="/raudvaal/" data-when-live hidden><span data-l="et">Loe veebis</span><span data-l="en">Read online</span><span data-l="zh">在线阅读</span></a>
+            <a class="btn btn--solid" href="/raudvaal/"><span data-l="et">Loe veebis</span><span data-l="en">Read online</span><span data-l="zh">在线阅读</span></a>
           </div>
-          <p class="facts-note" data-until-live><span data-l="et">Lugemisleht on tulekul. Proloogi saab lugeda juba siin.</span><span data-l="en">The reading site is on its way. The prologue can be read here already.</span><span data-l="zh">在线阅读页面尚在准备中，序章现在就可以在这里阅读。</span></p>
+          <p class="facts-note"><span data-l="et">Lugemislehel on sisukord, tasuta proloog ja I peatükk; saksakeelsete väljendite tõlge avaneb puudutusega.</span><span data-l="en">The reading page has the table of contents, the free prologue and chapter I; tap a German phrase for its translation.</span><span data-l="zh">阅读页面提供目录、免费序章与第一章；点按德语短语即可查看译文。</span></p>
         </div>
       </article>
 
@@ -578,22 +578,6 @@ document.getElementById("year").textContent = new Date().getFullYear();
       else if (!e.shiftKey && document.activeElement === lastEl) { e.preventDefault(); first.focus(); }
     }
   });
-})();
-(function () {
-  /* "Loe veebis" (data-when-live) ilmub alles siis, kui lugemisleht päriselt vastab —
-     enne seda pole lehel katkist linki ja kõrval olev märkus (data-until-live) jääb
-     nähtavale. Kontrollitakse ainult sama saidi aadressi; võõra aadressi (nt alamdomeen)
-     puhul näidatakse nuppu kohe. */
-  if (!window.fetch) return;
-  var links = document.querySelectorAll("a[data-when-live]");
-  for (var i = 0; i < links.length; i++) (function (a) {
-    var note = a.parentNode.parentNode.querySelector("[data-until-live]");
-    function live() { a.hidden = false; if (note) note.hidden = true; }
-    var url;
-    try { url = new URL(a.getAttribute("href"), location.href); } catch (e) { return; }
-    if (url.origin !== location.origin) { live(); return; }
-    fetch(url.href, { method: "HEAD", cache: "no-store" }).then(function (r) { if (r.ok) live(); }).catch(function () {});
-  })(links[i]);
 })();
 </script>
 </body>

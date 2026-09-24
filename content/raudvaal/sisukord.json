@@ -1,0 +1,37 @@
+{
+  "raamat": "Raudvaal",
+  "sari": "Meister Wulf",
+  "osad": [
+    { "ord": 1, "pealkiri": "Esimene osa. Läänemeri" },
+    { "ord": 2, "pealkiri": "Teine osa. Võlg" },
+    { "ord": 3, "pealkiri": "Kolmas osa. Teine laev" },
+    { "ord": 4, "pealkiri": "Neljas osa. Kallas" }
+  ],
+  "peatukid": [
+    { "ord": 0,  "slug": "proloog",    "number": null,    "pealkiri": "Proloog",              "osa": 0, "free": true },
+    { "ord": 1,  "slug": "peatukk-01", "number": "I",     "pealkiri": "Saabas vaikib",        "osa": 1, "free": true },
+    { "ord": 2,  "slug": "peatukk-02", "number": "II",    "pealkiri": "Poeg mundris",         "osa": 1, "free": false },
+    { "ord": 3,  "slug": "peatukk-03", "number": "III",   "pealkiri": "Võõras käsk",          "osa": 1, "free": false },
+    { "ord": 4,  "slug": "peatukk-04", "number": "IV",    "pealkiri": "Kadunud paat",         "osa": 1, "free": false },
+    { "ord": 5,  "slug": "peatukk-05", "number": "V",     "pealkiri": "Kalda tuled",          "osa": 1, "free": false },
+    { "ord": 6,  "slug": "peatukk-06", "number": "VI",    "pealkiri": "Seis õõtsuval laual",  "osa": 1, "free": false },
+    { "ord": 7,  "slug": "peatukk-07", "number": "VII",   "pealkiri": "Võlg",                 "osa": 2, "free": false },
+    { "ord": 8,  "slug": "peatukk-08", "number": "VIII",  "pealkiri": "Soe ase",              "osa": 2, "free": false },
+    { "ord": 9,  "slug": "peatukk-09", "number": "IX",    "pealkiri": "Mees vees",            "osa": 2, "free": false },
+    { "ord": 10, "slug": "peatukk-10", "number": "X",     "pealkiri": "Rüütlite laud",        "osa": 2, "free": false },
+    { "ord": 11, "slug": "peatukk-11", "number": "XI",    "pealkiri": "Vaikne lahing",        "osa": 2, "free": false },
+    { "ord": 12, "slug": "peatukk-12", "number": "XII",   "pealkiri": "Käsk lõunasse",        "osa": 2, "free": false },
+    { "ord": 13, "slug": "peatukk-13", "number": "XIII",  "pealkiri": "Teine hunt",           "osa": 3, "free": false },
+    { "ord": 14, "slug": "peatukk-14", "number": "XIV",   "pealkiri": "Neli tonni",           "osa": 3, "free": false },
+    { "ord": 15, "slug": "peatukk-15", "number": "XV",    "pealkiri": "Viimane käik",         "osa": 3, "free": false },
+    { "ord": 16, "slug": "peatukk-16", "number": "XVI",   "pealkiri": "Härra Wolf",           "osa": 3, "free": false },
+    { "ord": 17, "slug": "peatukk-17", "number": "XVII",  "pealkiri": "Teade rahust",         "osa": 3, "free": false },
+    { "ord": 18, "slug": "peatukk-18", "number": "XVIII", "pealkiri": "Pool sõna",            "osa": 3, "free": false },
+    { "ord": 19, "slug": "peatukk-19", "number": "XIX",   "pealkiri": "Kelle laev",           "osa": 4, "free": false },
+    { "ord": 20, "slug": "peatukk-20", "number": "XX",    "pealkiri": "Kaheksa kätt",         "osa": 4, "free": false },
+    { "ord": 21, "slug": "peatukk-21", "number": "XXI",   "pealkiri": "Maa",                  "osa": 4, "free": false },
+    { "ord": 22, "slug": "peatukk-22", "number": "XXII",  "pealkiri": "Kulla hind",           "osa": 4, "free": false },
+    { "ord": 23, "slug": "peatukk-23", "number": "XXIII", "pealkiri": "Hea Lootuse neem",     "osa": 4, "free": false },
+    { "ord": 24, "slug": "peatukk-24", "number": "XXIV",  "pealkiri": "Võõras kallas",        "osa": 4, "free": false }
+  ]
+}

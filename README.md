@@ -1,7 +1,8 @@
 # meisterwulf.com
 
 Staatiline sait domeenile **meisterwulf.com**: esileht ja kolm alalehte kolmes
-keeles (eesti, inglise, hiina). Väliseid teeke ega fonte ei laadita; ainus
+keeles (eesti, inglise, hiina) ning e-raamatu „Raudvaal“ lugemisleht
+(`/raudvaal/`, eesti keeles). Väliseid teeke ega fonte ei laadita; ainus
 kolmanda osapoole sisu on kingsepa lehe YouTube'i video, mis laetakse alles
 klõpsu peale.
 
@@ -24,7 +25,8 @@ GitHub Pages            Cloudflare              külastaja
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
 | `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
-| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, pilk raamatusse, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
+| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, pilk raamatusse, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
+| `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, saksa väljendite tõlkemullid, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
 | `404.html` | vealehekülg |
 
 ### Esilehe loogika
@@ -88,6 +90,14 @@ assets/
                            treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas)
   books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
+  raudvaal/                Raudvaali peatükkide illustratsioonid (raudvaal-NN.png), kui on
+  tolge.js, tolge.css      saksa väljendite tõlkemullid (kasutab lugemisleht)
+raudvaal/
+  index.html, loe.js, loe.css   lugemisleht (üks leht, vaated #sisukord, #peatukk-NN, #sonastik, #kood)
+  sisu/*.json              ehitatud sisu: sisukord, peatükid (tasuta avatekstina, tasulised krüpteerituna), sõnastik
+content/raudvaal/          käsikirjad markdownina + sisukord.json (register); repos ainult tasuta peatükid
+scripts/                   import-kasikiri.py (.odt/.docx -> markdown), build-raudvaal.mjs (markdown -> sisu/*.json)
+kasikiri/                  (gitignore) toorkäsikirjad .odt/.docx, kust importer loeb
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
 ```
 
@@ -118,20 +128,74 @@ plokid lehe lõpus; nupp `data-about="<id>"` avab vastava akna (tühi väärtus 
 
 ### E-raamat „Raudvaal“
 
-Järg eestikeelsele „Meister Wulfile“, ilmub veebis järjejutuna (eraldi
-lugemiskeskkond maksumüüriga, hind 4,99 €, proloog ja I peatükk tasuta).
-Kaardil on selge märgistus: kuldne silt `.badge--ebook` pealkirja kõrval ja
-lint `.cover-tag` kaane nurgas. Proloogi tekst on lehel endas (`#proloog`,
-sama tekst mis lugemiskeskkonna failis `content/raudvaal/00-proloog.md`) ja
-avaneb nupust „Loe proloogi“; uue versiooni korral uuenda mõlemat.
+Järg eestikeelsele „Meister Wulfile“, ilmub veebis peatükkide kaupa. Raamatute
+lehel on kaart (`#raudvaal`, silt `.badge--ebook` ja lint `.cover-tag` kaane
+nurgas, proloog hüpikaknas `#proloog`) ja nupp „Loe veebis“, mis viib
+lugemislehele **`/raudvaal/`**.
 
-Nupp „Loe veebis“ (`a[data-when-live]`, `href="/raudvaal/"`) on peidus, kuni
-see aadress päriselt vastab (lehe enda skript teeb `HEAD`-päringu); seni on
-nupu all märkus „Lugemisleht on tulekul“ (`data-until-live`). Kui
-lugemiskeskkond avaneb samal aadressil, ilmub nupp ise; kui mujal (nt
-alamdomeen), muuda ainult `href` — võõra päritolu aadressi näidatakse kohe.
-Kui raamat läheb müüki, vaheta hinna märkus „Müügile tuleb, kui raamat on
-valmis“ ja JSON-LD `availability` (praegu `PreOrder`).
+#### Lugemisleht
+
+Üks leht (`raudvaal/index.html` + `loe.js` + `loe.css`), vaated aadressi
+lõpu järgi: `#sisukord` (vaikimisi), `#proloog`, `#peatukk-01` … `#peatukk-24`,
+`#sonastik`, `#kood`. Sisu tuleb failidest `raudvaal/sisu/*.json`:
+
+- **tasuta peatükid** (proloog ja I; frontmatteris `free: true`) on failis
+  avatekstina ja avanevad kõigile;
+- **tasulised peatükid** on failis krüpteerituna (AES-256-GCM; võti tuletatakse
+  koodist PBKDF2-SHA256-ga, 600 000 iteratsiooni). Brauser tuletab sisestatud
+  koodist sama võtme ja avab sisu kohapeal; võti jääb `localStorage`-isse
+  (`rv-voti`), nii et koodi küsitakse ühes brauseris ühe korra. „Unusta kood“
+  sisukorra all kustutab selle;
+- **avaldamata** peatükid (`published: false`) on sisukorras hallid, „tulekul“;
+  koodiga on need loetavad kollase ribaga „Mustand“ (nii saab uue peatüki üle
+  vaadata enne avaldamist);
+- **sõnastik** (`sonastik.json`, tasuta) tehakse kõigi avaldatud peatükkide
+  `[[saksa||tõlge]]` paaridest.
+
+Saksa väljendid tekstis on `<span class="saksa" data-tolge="…">`; klõps või
+puudutus avab tõlkemulli väljendi kohal, uus puudutus, klõps mujal või Esc
+sulgeb (`assets/tolge.js`, klaviatuuriga Tab + Enter). Lugemisjärg (viimane
+peatükk ja kerimisasukoht) on `localStorage`-is (`rv-jarg`): sisukorras nupp
+„Jätka lugemist“.
+
+**Turvalisus ausalt.** Repo on avalik ja sait staatiline, seega kaitse on
+ainult krüpteering ja kood. Kood ei ole kuskil repos ega saidil; see antakse
+ehitusele keskkonnamuutujaga. Kes koodi teab, loeb kõik. Koodi vahetamiseks
+ehita sisu uuesti uue koodiga (vanad brauserid küsivad siis koodi uuesti).
+Tasuliste peatükkide markdown-allikad on `.gitignore`-is
+(`content/raudvaal/*.md`, erandiks `00-*` ja `01-*`) ja ehitus keeldub, kui
+mõni mitte-tasuta allikas on gitis jälgitav. Ära commiti neid ka kogemata:
+`git status` ei tohi tasulisi `.md` faile näidata.
+
+#### Uue peatüki lisamine
+
+Käsikiri tuleb .odt või .docx failina, kus saksakeelsete lausete tõlked on
+**joonealuste märkustena** kohe tsitaadi „…” järel ja stseenivahe on üksik `*`
+omaette real. Vaja on `python3`, `node` (v18+) ja pandoci
+(`python3 -m pip install pypandoc_binary` toob pandoci kaasa).
+
+```sh
+# 1. toorfail kausta kasikiri/ (gitignore'is), import registri numbri järgi (0 = proloog)
+python3 scripts/import-kasikiri.py kasikiri/Meister_Wulf_Raudvaal_IV_Kadunud_paat.odt --nr 4
+#    -> content/raudvaal/04-kadunud-paat.md; lõpus raport: joonealuseta saksakeelsed
+#       tsitaadid ("KONTROLLI"), mille tõlke saab lisada käsitsi kujul [[saksa||tõlge]]
+#    --mustand   published: false (koodiga loetav, avalikult "tulekul")
+#    --raport saksa-tolked-kontrolliks.md   kirjutab mullid ja kontrollkohad faili (gitignore'is)
+
+# 2. ehitus koodiga (sama kood, millega varasemad peatükid; muudab ainult sisu/ faile)
+RAUDVAAL_KOOD='…' node scripts/build-raudvaal.mjs
+
+# 3. vaata kohapeal (python3 -m http.server 8000 -> http://localhost:8000/raudvaal/),
+#    commiti raudvaal/sisu/ (ja tasuta peatüki .md, kui see on 00/01), pushi
+```
+
+Pealkirjad, numbrid ja osad on registris `content/raudvaal/sisukord.json`
+(24 peatükki neljas osas; „Härra Wolf“ on o-ga). Peatüki tasuta/tasuline
+tuleb registrist frontmatterisse (`free`), avaldatus frontmatterist
+(`published`). Illustratsioon: `assets/raudvaal/raudvaal-NN.png`; kui faili
+pole, peatükk ilmub ilma pildita. Kui raamat läheb müüki, vaheta
+raamatute lehel hinna märkus „Müügile tuleb, kui raamat on valmis“ ja JSON-LD
+`availability` (praegu `PreOrder`).
 
 ### Kontaktid lehel
 

@@ -1,0 +1,307 @@
+{
+ "raamat": "Raudvaal",
+ "sari": "Meister Wulf",
+ "osad": [
+  {
+   "ord": 1,
+   "pealkiri": "Esimene osa. Läänemeri"
+  },
+  {
+   "ord": 2,
+   "pealkiri": "Teine osa. Võlg"
+  },
+  {
+   "ord": 3,
+   "pealkiri": "Kolmas osa. Teine laev"
+  },
+  {
+   "ord": 4,
+   "pealkiri": "Neljas osa. Kallas"
+  }
+ ],
+ "kdf": {
+  "salt": "zXoIyRnDwpB/yv30Dgi63g==",
+  "iter": 600000
+ },
+ "kontroll": {
+  "iv": "zz9DoX7nHgUp+YzU",
+  "ct": "kMnRItV5ui8sgQQ0NkKKBWmu"
+ },
+ "peatukid": [
+  {
+   "slug": "proloog",
+   "number": null,
+   "pealkiri": "Proloog",
+   "ord": 0,
+   "osa": 0,
+   "free": true,
+   "published": true,
+   "mustand": false,
+   "dateline": "Tallinn, mihklipäevast 1908 mihklipäevani 1909"
+  },
+  {
+   "slug": "peatukk-01",
+   "number": "I",
+   "pealkiri": "Saabas vaikib",
+   "ord": 1,
+   "osa": 1,
+   "free": true,
+   "published": true,
+   "mustand": false,
+   "dateline": "Kiel, 8. märts 1945"
+  },
+  {
+   "slug": "peatukk-02",
+   "number": "II",
+   "pealkiri": "Poeg mundris",
+   "ord": 2,
+   "osa": 1,
+   "free": false,
+   "published": true,
+   "mustand": false,
+   "dateline": "Kielist Hortenisse, 8.–16. märts 1945"
+  },
+  {
+   "slug": "peatukk-03",
+   "number": "III",
+   "pealkiri": "Võõras käsk",
+   "ord": 3,
+   "osa": 1,
+   "free": false,
+   "published": true,
+   "mustand": false,
+   "dateline": "Horten ja Kristiansand, märts – 17. aprill 1945"
+  },
+  {
+   "slug": "peatukk-04",
+   "number": "IV",
+   "pealkiri": "Kadunud paat",
+   "ord": 4,
+   "osa": 1,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-05",
+   "number": "V",
+   "pealkiri": "Kalda tuled",
+   "ord": 5,
+   "osa": 1,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-06",
+   "number": "VI",
+   "pealkiri": "Seis õõtsuval laual",
+   "ord": 6,
+   "osa": 1,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-07",
+   "number": "VII",
+   "pealkiri": "Võlg",
+   "ord": 7,
+   "osa": 2,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-08",
+   "number": "VIII",
+   "pealkiri": "Soe ase",
+   "ord": 8,
+   "osa": 2,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-09",
+   "number": "IX",
+   "pealkiri": "Mees vees",
+   "ord": 9,
+   "osa": 2,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-10",
+   "number": "X",
+   "pealkiri": "Rüütlite laud",
+   "ord": 10,
+   "osa": 2,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-11",
+   "number": "XI",
+   "pealkiri": "Vaikne lahing",
+   "ord": 11,
+   "osa": 2,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-12",
+   "number": "XII",
+   "pealkiri": "Käsk lõunasse",
+   "ord": 12,
+   "osa": 2,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-13",
+   "number": "XIII",
+   "pealkiri": "Teine hunt",
+   "ord": 13,
+   "osa": 3,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-14",
+   "number": "XIV",
+   "pealkiri": "Neli tonni",
+   "ord": 14,
+   "osa": 3,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-15",
+   "number": "XV",
+   "pealkiri": "Viimane käik",
+   "ord": 15,
+   "osa": 3,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-16",
+   "number": "XVI",
+   "pealkiri": "Härra Wolf",
+   "ord": 16,
+   "osa": 3,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-17",
+   "number": "XVII",
+   "pealkiri": "Teade rahust",
+   "ord": 17,
+   "osa": 3,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-18",
+   "number": "XVIII",
+   "pealkiri": "Pool sõna",
+   "ord": 18,
+   "osa": 3,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-19",
+   "number": "XIX",
+   "pealkiri": "Kelle laev",
+   "ord": 19,
+   "osa": 4,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-20",
+   "number": "XX",
+   "pealkiri": "Kaheksa kätt",
+   "ord": 20,
+   "osa": 4,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-21",
+   "number": "XXI",
+   "pealkiri": "Maa",
+   "ord": 21,
+   "osa": 4,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-22",
+   "number": "XXII",
+   "pealkiri": "Kulla hind",
+   "ord": 22,
+   "osa": 4,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-23",
+   "number": "XXIII",
+   "pealkiri": "Hea Lootuse neem",
+   "ord": 23,
+   "osa": 4,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  },
+  {
+   "slug": "peatukk-24",
+   "number": "XXIV",
+   "pealkiri": "Võõras kallas",
+   "ord": 24,
+   "osa": 4,
+   "free": false,
+   "published": false,
+   "mustand": false,
+   "dateline": null
+  }
+ ]
+}

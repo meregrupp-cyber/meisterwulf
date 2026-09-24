@@ -2,3 +2,13 @@
 *.log
 node_modules/
 .wrangler/
+
+# Raudvaali käsikirjad: repos on avatekstina AINULT tasuta peatükid (proloog, I).
+# Tasuliste peatükkide allikad jäävad kohalikule kettale; saidile läheb neist
+# ainult krüpteeritud sisu (raudvaal/sisu/*.json, ehitab scripts/build-raudvaal.mjs).
+content/raudvaal/*.md
+!content/raudvaal/00-*.md
+!content/raudvaal/01-*.md
+kasikiri/
+saksa-tolked-kontrolliks*.md
+__pycache__/
