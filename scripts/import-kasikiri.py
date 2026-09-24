@@ -17,9 +17,9 @@ Mida tehakse:
         „Jawohl, Herr Kaleun.”[^3]  ->  „[[Jawohl, Herr Kaleun.||„Just nii, härra kaptenleitnant.”]]”
     (kui ühes lõigus on enne viidet mitu saksakeelset tsitaati, saavad kõik sama tõlke);
   * üksik * omaette real on stseenivahe -> ***;
-  * lõpus raport: saksapärased tsitaadid, millel tõlget ei ole. Autori reegel: mull on
-    ainult keerulisematel lausetel; lihtsad ja need, mille mõte korratakse eesti keeles,
-    jäävad tõlketa. Raport on seega ülevaade, mitte veanimekiri.
+  * lõpus raport: saksapärased tsitaadid, millel joonealust tõlget ei ole. Need saavad mulli
+    ehituse ajal tõlkesõnastikust content/<raamat>/saksa-tolked.json (kõik saksakeelsed sõnad
+    ja laused peavad olema mullidega); ehitus raporteerib, mis sõnastikust puudub.
 
 Pandoc: süsteemi `pandoc` või `pip install pypandoc_binary`.
 Pärast importi: node scripts/build-raudvaal.mjs (vt README).

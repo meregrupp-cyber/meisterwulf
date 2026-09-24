@@ -94,7 +94,8 @@ assets/
 raudvaal/
   index.html, loe.js, loe.css   lugemisleht (üks leht, vaated #sisukord, #peatukk-NN, #sonastik, #kood)
   sisu/*.json              ehitatud sisu: sisukord, peatükid (tasuta avatekstina, tasulised krüpteerituna), sõnastik
-content/raudvaal/          käsikirjad markdownina + sisukord.json (register); repos ainult tasuta peatükid
+content/raudvaal/          käsikirjad markdownina + sisukord.json (register) + saksa-tolked.json (tõlkesõnastik); repos ainult tasuta peatükid
+assets/raudvaal/           das-boot-alarm.mp3 (õhuhäire heli)
 scripts/                   import-kasikiri.py (.odt/.docx -> markdown), build-raudvaal.mjs (markdown -> sisu/*.json)
 kasikiri/                  (gitignore) toorkäsikirjad .odt/.docx, kust importer loeb
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
@@ -154,7 +155,23 @@ lõpu järgi: `#sisukord` (vaikimisi), `#proloog`, `#peatukk-01` … `#peatukk-2
 
 Saksa väljendid tekstis on `<span class="saksa" data-tolge="…">`; klõps või
 puudutus avab tõlkemulli väljendi kohal, uus puudutus, klõps mujal või Esc
-sulgeb (`assets/tolge.js`, klaviatuuriga Tab + Enter). Lugemisjärg (viimane
+sulgeb (`assets/tolge.js`, klaviatuuriga Tab + Enter). Reegel: **kõik**
+saksakeelsed sõnad, väljendid ja laused on mullidega. Kaks allikat:
+
+1. autori joonealused käsikirjas (importer teeb neist `[[saksa||tõlge]]`);
+2. tõlkesõnastik `content/raudvaal/saksa-tolked.json` (kirjed `{saksa, tolge,
+   liik}`; `liik` on `lause` või `sona`), mille ehitus rakendab igale
+   peatükile, ka tulevastele: iga kirje iga esinemine väljaspool autori mulle
+   saab mulli, `sona` haarab kaasa eesti käändelõpu (Kaleun → Kaleunile),
+   pikem kirje võidab lühema. Autori enda mull jääb alati peale.
+
+Ehitus prindib lõpus, mitu mulli sõnastikust lisandus, millised kirjed ei
+esine kuskil (trükiviga kirjes) ja „KONTROLLI“ nimekirja saksapärastest
+tsitaatidest, millel mulli pole: need lisa sõnastikku ja ehita uuesti.
+
+Õhuhäire „ALARRRM!“ on tekstis `<span class="alarm">` (ehitus märgib ise);
+klõps mängib tasa (25 %) faili `assets/raudvaal/das-boot-alarm.mp3`, uus
+klõps või peatükist lahkumine peatab. Lugemisjärg (viimane
 peatükk ja kerimisasukoht) on `localStorage`-is (`rv-jarg`): sisukorras nupp
 „Jätka lugemist“.
 
@@ -178,14 +195,16 @@ omaette real. Vaja on `python3`, `node` (v18+) ja pandoci
 # 1. toorfail kausta kasikiri/ (gitignore'is), import registri numbri järgi (0 = proloog)
 python3 scripts/import-kasikiri.py kasikiri/Meister_Wulf_Raudvaal_IV_Kadunud_paat.odt --nr 4
 #    -> content/raudvaal/04-kadunud-paat.md; lõpus raport: joonealuseta saksakeelsed
-#       tsitaadid ("KONTROLLI"). Autori reegel: mull on ainult keerulisematel lausetel,
-#       lihtsad ja eesti keeles korratud jäävad tõlketa; raport on ülevaade, mitte veanimekiri.
-#       Vajadusel saab tõlke lisada käsitsi kujul [[saksa||tõlge]].
+#       tsitaadid ("KONTROLLI"), mis peavad tulema tõlkesõnastikust (vt 2.)
 #    --mustand   published: false (koodiga loetav, avalikult "tulekul")
 #    --raport saksa-tolked-kontrolliks.md   kirjutab mullid ja kontrollkohad faili (gitignore'is)
 
 # 2. ehitus koodiga (sama kood, millega varasemad peatükid; muudab ainult sisu/ faile)
 RAUDVAAL_KOOD='…' node scripts/build-raudvaal.mjs
+#    lõpus "KONTROLLI": saksakeelsed kohad, mida sõnastikus veel pole -> lisa need
+#    content/raudvaal/saksa-tolked.json faili ({saksa, tolge, liik}) ja ehita uuesti,
+#    kuni nimekiri on tühi. Ühesõnalised saksa terminid jutustuse sees (auastmed jms)
+#    lisa samuti, liik "sona".
 
 # 3. vaata kohapeal (python3 -m http.server 8000 -> http://localhost:8000/raudvaal/),
 #    commiti raudvaal/sisu/ (ja tasuta peatüki .md, kui see on 00/01), pushi

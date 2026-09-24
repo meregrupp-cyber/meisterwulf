@@ -9,6 +9,11 @@
   * Tasulised ja avaldamata (mustand) peatükid krüpteeritakse: AES-256-GCM, võti
     tuletatakse koodist PBKDF2-SHA256-ga (600 000 iteratsiooni, sool on avalik).
     Brauser (raudvaal/loe.js) tuletab sama võtme koodist ja avab sisu kohapeal.
+  * Tõlkesõnastik content/<raamat>/saksa-tolked.json ({saksa, tolge, liik}) rakendatakse igale
+    peatükile: iga kirje iga esinemine tekstis (väljaspool autori enda [[…]] mulle) saab mulli.
+    liik "sona" haarab kaasa ka eesti käändelõpu (Kaleun -> Kaleunile). Pikem kirje enne lühemat.
+    Ehitus raporteerib kirjed, mis ei esine kuskil, ja saksapärased tsitaadid, millel mulli pole.
+  * „ALARRRM!” (õhuhäire) saab klassi .alarm: lugemisleht mängib klõpsu peale heli.
   * Sõnastik (sonastik.json) tehakse kõigi avaldatud peatükkide [[saksa||tõlge]] paaridest.
   * Lekkekontroll: kui mõni mitte-tasuta või avaldamata allikas on gitis jälgitav, ehitus katkeb.
   Ainult Node'i sisseehitatud moodulid, sõltuvusi pole.
@@ -49,6 +54,54 @@ function parseSource(text) {
   return { fm, body: m[2] };
 }
 
+/* ---------- tõlkesõnastik ---------- */
+const isWordChar = (c) => c !== undefined && /[\p{L}\p{N}]/u.test(c);
+function protectedRanges(text) {
+  const r = []; const re = /\[\[[\s\S]*?\]\]/g; let m;
+  while ((m = re.exec(text))) r.push([m.index, m.index + m[0].length]);
+  return r;
+}
+function inRange(ranges, i) { return ranges.some(([a, b]) => i >= a && i < b); }
+function applyDictionary(body, dict, stats) {
+  const entries = [...dict].filter((e) => e.saksa && e.tolge).sort((a, b) => b.saksa.length - a.saksa.length);
+  for (const e of entries) {
+    const ranges = protectedRanges(body);
+    let out = "", pos = 0, count = 0;
+    let idx = body.indexOf(e.saksa);
+    while (idx !== -1) {
+      let end = idx + e.saksa.length;
+      const ok = !isWordChar(body[idx - 1]) && !inRange(ranges, idx) && !inRange(ranges, end - 1);
+      if (ok && e.liik === "sona") {                        /* eesti käändelõpp jääb mulli sisse */
+        const suf = /^[a-zäöõü]{1,5}(?![\p{L}])/u.exec(body.slice(end, end + 6));
+        if (suf) end += suf[0].length;
+      }
+      if (ok && !isWordChar(body[end])) {
+        out += body.slice(pos, idx) + "[[" + body.slice(idx, end) + "||" + e.tolge + "]]";
+        pos = end; count++;
+      }
+      idx = body.indexOf(e.saksa, end);
+    }
+    body = out + body.slice(pos);
+    stats.set(e.saksa, (stats.get(e.saksa) || 0) + count);
+  }
+  return body;
+}
+/* saksapärased tsitaadid, millel mulli pole (uue peatüki kontrolliks) */
+const GERMAN = new Set("der die das den dem des ein eine einen einem einer und oder nicht ist sind war waren wird werden hat haben sein ich du er es wir ihr mich mir dich dir uns euch ihn ihm ihnen sich herr frau zum zur zu auf aus mit für von bei nach vor über unter im am bis ohne gegen durch kein keine noch schon jetzt hier dort dann wenn dass was wer wie wo warum alle alles nichts etwas auch nur mehr sehr gut nein bitte danke bleibt bleiben kommen kommt geht gehen mann leute schiff boot befehl wache kaleun oberleutnant leutnant kommandant sie sehen danach weiter ordnung jawohl papiere öffnen zuerst langsam bringen seine meinen verstanden heißt unterschrift beide achtern zeigt wohin gleich mein setzt vorläufig klar ablegen viele festhalten jungen zwei hierher unten ihren plätzen rucken unser sachen ganz strümpfe weiß".split(" "));
+const ESTONIAN = new Set("ja on ei ta kas mis kui siis oma ka aga et või mida kes nii seda olen oled tema meie teie nad ma sa me te ole olid oli need selle minu sinu tal mul sul kus kuhu miks kuidas juba veel ainult midagi keegi mitte nüüd sest siia sinna seal siin kõik sind".split(" "));
+function looksGerman(t) {
+  const words = t.toLowerCase().match(/[a-zäöüß]+/g) || [];
+  if (!words.length || /[õšž]/.test(t) || words.some((w) => ESTONIAN.has(w))) return false;
+  const hits = words.filter((w) => GERMAN.has(w)).length;
+  return t.includes("ß") || hits >= 2 || (hits >= 1 && words.length <= 3);
+}
+function unmarkedGerman(body) {
+  const plain = body.replace(/\[\[[\s\S]*?\]\]/g, "◊");          /* olemasolev mull = ◊ */
+  const found = []; const re = /„([^„”]+)”/g; let m;
+  while ((m = re.exec(plain))) if (looksGerman(m[1]) && !/ALAR+M!/.test(m[1])) found.push(m[1].replace(/◊/g, "…"));
+  return found;
+}
+
 /* ---------- markdown -> html ---------- */
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const escAttr = (s) => esc(s).replace(/"/g, "&quot;");
@@ -63,6 +116,7 @@ function inline(text, bubbles) {
   html = html.replace(/(?<![\\*])\*(?!\s)([^*]+?)(?<!\s)\*(?!\*)/g, "<em>$1</em>");   /* *kaldkiri* */
   html = html.replace(/\\(&gt;|&lt;|[\\`*_{}\[\]()#+\-.!'"])/g, "$1");                 /* pandoci varjestus */
   html = html.replace(/(?<!-)--(?!-)/g, "–");
+  html = html.replace(/\bALAR+M!/g, (m) => `<span class="alarm" role="button" tabindex="0" title="Õhuhäire. Klõps mängib heli, uus klõps peatab.">${m}</span>`);
   html = html.replace(/\u0000(\d+)\u0000/g, (m, i) => {
     const [a, b] = found[Number(i)];
     bubbles.push([a, b]);
@@ -95,6 +149,10 @@ function encrypt(text) {
 
 /* ---------- ehitus ---------- */
 const reg = JSON.parse(readFileSync(path.join(SRC, "sisukord.json"), "utf8"));
+const dictPath = path.join(SRC, "saksa-tolked.json");
+const dict = existsSync(dictPath) ? JSON.parse(readFileSync(dictPath, "utf8")) : [];
+const dictStats = new Map();
+const kontrolli = [];
 const files = existsSync(SRC) ? readdirSync(SRC).filter((f) => /^\d\d-.*\.md$/.test(f)) : [];
 let tracked = [];
 try { tracked = execSync("git ls-files -- " + JSON.stringify(path.relative(ROOT, SRC)), { cwd: ROOT, encoding: "utf8" }).split(/\r?\n/).filter(Boolean).map((f) => path.basename(f)); } catch (e) { /* ilma gitita */ }
@@ -117,7 +175,9 @@ for (const p of reg.peatukid) {
   if ((!free || !published) && tracked.includes(file)) leaks.push(file);
 
   const bubbles = [];
-  const html = toHtml(body, bubbles);
+  const marked = applyDictionary(body, dict, dictStats);
+  for (const q of unmarkedGerman(marked)) kontrolli.push(`${p.number || "Proloog"}: „${q}”`);
+  const html = toHtml(marked, bubbles);
   const illu = fm.illustration && existsSync(path.join(PILDID, fm.illustration)) ? `/assets/${RAAMAT}/${fm.illustration}` : null;
   const chapter = { slug: p.slug, number: p.number, title: fm.title || p.pealkiri, ord: p.ord, part_ord: p.osa, part: fm.part || null,
                     dateline: fm.dateline || null, free, published, illustration: illu };
@@ -153,3 +213,6 @@ writeFileSync(path.join(OUT, "sonastik.json"), JSON.stringify(sonastik, null, 1)
 console.log(`Ehitatud: ${path.relative(ROOT, OUT)}/  (${toc.filter((r) => r.published).length} avaldatud peatükki ${toc.length - 1}-st, sõnastikus ${sonastik.length} väljendit)`);
 for (const s of summary) console.log("  " + s);
 if (!kontroll) console.log("  (krüpteeritud sisu pole; koodi ei olnud vaja)");
+const unused = [...dictStats.entries()].filter(([, n]) => n === 0).map(([k]) => k);
+console.log(`Tõlkesõnastik: ${dict.length} kirjet, ${[...dictStats.values()].reduce((a, b) => a + b, 0)} lisatud mulli` + (unused.length ? `; EI ESINE kuskil (${unused.length}): ${unused.map((u) => "„" + u + "”").join(", ")}` : ""));
+if (kontrolli.length) { console.log(`KONTROLLI: ${kontrolli.length} saksapärast tsitaati ilma mullita (lisa content/${RAAMAT}/saksa-tolked.json faili):`); for (const k of kontrolli) console.log("  " + k); }
