@@ -5,22 +5,38 @@ ord: 0
 part_ord: 0
 free: true
 published: true
-illustration: "raudvaal-00.png"
-dateline: "Tallinn, mihklipäevast 1908 mihklipäevani 1909"
 ---
 
-Enne esimest sõda oli Tallinnas töökoda, mille uksel seisis aadlinimi: von Wulf. Nime pärast jäi mõni võõras trepile seisma ja luges teist korda. Aadlimehe nimi ja pigilõhn ei tahtnud kokku käia.
+Taaniel tahtis endale saapaid, mille pärast poleks tarvis silmi maha lüüa. Isa omades tuli ninaotsad õlgi täis toppida ja ikka loksus jalg sees. Aga ühel jaaniõhtul oli ta kuulnud tantsuplatsil hoopis teistsuguseid saapaid: need kriuksusid igal sammul, selgelt ja puhtalt, ning tüdrukud vaatasid nende kandjat. Sellised tegi kingsepp, keda hüüti Kriuksuks.
 
-Meister ise seda vahet ei seletanud. Ta oli baltisakslane; suguvõsa mõis oli Hundimäe, hunt oli väraval ja taldrikutel, ja sama hunt jooksis tema taskuuri kaanel. Mõis oli põlenud, hunt uuril alles. Noorena oli ta õppinud kingsepaks eesti meistri Arturi käe all, ja see käis seisusekorrast nõnda risti, et sellestki ei räägitud. Ta oli olnud laevastiku tuuker Kroonlinnas ja Port Arturis ning käinud veel kaugemal idas. Sealt olid kaasa tulnud foto ja puust ritsikas. Fotol istub hiinlane, käed rahulikult reitel; tema kõrval seisab meister, mõõk puusa juures. Hiinlast nimetas ta meister Wangiks. Rohkem ta ei seletanud, ja töökojas õpiti mitte küsima.
+Mihklipäeval 1908 viis isa poisi tema juurde õppima. Taaniel oli neljateistkümnene. Leping sõlmiti neljaks aastaks ja õpirahaks küsis meister pigitraati, mida poisi kodus valmistati. Isa oli kartnud, et sellest jääb väheks. Meister ei tahtnud midagi juurde.
 
-Tema tütar Katharina oli sündinud aastal, mil Tallinna ja Helsingi vahel uppus laev, ning kasvanud oma sõnul kolmes meres ja ühes koolis. Port Arturist lahkus ta lapsena, kui algas sõda. Papa jäi, tema läks. Töökojas olid arved ja aeg tema käes.
+Alles hiljem sai Taaniel teada, miks.
 
-Mihklipäeval 1908 tuli töökotta neljateistkümneaastane poiss, Arturi pojapoeg. Meister võttis ta õpipoisiks vana võla pärast: Artur oli õpetanud teda, nüüd õpetas tema Arturi verd. Poiss sai ühe aasta. Ta õppis nahka lugema, liistu valima ja naela hoidma. Ta õppis, et saabas räägib enne inimest ja et kord kuuldud kinga tunneb hämaras ära kergemini kui näo. Ta õppis ka seda, mida meister sõnadeta õpetas: kuidas seista, kuidas oodata, millal käsi ei tohi kiirustada. Ritsikas seisis riiulil ja vaatas pealt.
+Kriuksu nimi oli von Wulf. Ta pärines Hundimäe mõisast ning oli noorena õppinud kingsepaametit Taanieli vanaisa Arturi juures. Mõisapoiss oli pidanud tegema sama tööd ja taluma samu karistusi nagu teised õpipoisid. Amet jäi talle ka siis, kui ta kodust lahkus, mereväes teenis ja kaugel Hiinas elas. Nüüd, aastakümneid hiljem, istus tema ees kunagise õpetaja lapselaps, kes oskas küll pigitraati teha, kuid polnud veel ainsatki saabast valmis saanud.
 
-1909. aasta suvel jäi meister merele. Töökoda oleks võinud ukse kinni panna; ei pannud. Mihklipäeva hommikul, aasta pärast tulekut, istus laua otsas viieteistkümneaastane poiss, ja tellijad harjusid ükshaaval mõttega, et von Wulfi töö tuleb nüüd tema käte alt.
+Pärnumaa rannakülas, kus meister oma tütrega elas, räägiti temast palju. Mõni pidas teda paruniks, mõni hulluks; võõristust tekitas juba see, et aadlisoost mees teenis leiba oma kätega. Ta käis jõest vett toomas, parandas kalurite jalavarje ja võttis mõõtu meestelt, kes muidu saksa ees mütsi näppude vahel keerutasid. Taaniel vaatas, kuidas ta tellija jala oma põlvele tõstis. Meistri käes tundus see nii loomulik, et poiss hakkas tasapisi unustama, kelle ees tohtis üks härra kummarduda.
 
-Viis aastat hiljem, enne uut sõda, abiellus Katharina von Wulf oma isa õpipoisiga. Mees võttis naise nime ja see aeti paberites eraldi korda, et keegi ei arvaks, nagu tuleks nimega kaasa seisus. Töökoja uksele löödi uus silt: naine hoidis silti sirgena, naelad lõi mees. Nõnda sai eesti kingsepp hundi nime. Kes hiljem küsis, mis õigusega ta seda kannab, sai vastuseks töö.
+Tööpäevad olid pikad. Algul väsisid sõrmed, siis selg; mõni valesti tehtud piste tuli lahti võtta alles siis, kui Taaniel oli jõudnud endaga rahule jääda. Meister võis tükk aega vaikides kõrval istuda, enne kui näitas, kust viga algas. Poiss õppis tema käsi jälgima. Vähehaaval hakkas ta märkama ka seda, mida polnud seni osanud vaadata: naha venimise suunda, tellija viltu kulunud kontsa, meistri jalgu, mis seisid põrandal kindlalt isegi siis, kui ülakeha liikus.
 
-Nõnda jutustab sellest esimene raamat. Siinne lugu algab kolmkümmend kuus aastat hiljem, teise sõja viimasel kevadel, sama mere teises otsas. Vahele jäävad aastad, mille see raamat avab siis, kui neid tarvis läheb: tuukrikiiver Kroonlinnas, poeg, kes sündis pärast üht sõda ja lahkus enne teist, Shandongi tolm ritsika jalgade küljes, sügisene rand, kust vaadati tagasi, kuni kaldast oli saanud tume joon. Kaasas on uur, naaskel, ritsikas ja foto. Ülejäänu jäi maha.
+Mõnda õpetust anti õues, mõnda jõe ääres. Meister näitas, kuidas hoida tasakaalu ja vabastada kinnivõetud käsi, kuidas vees jõudu säästa. Ta oli olnud tuuker ning õppinud Hiinas mehe juures, kelle foto rippus tagatoas. Pildil istus meister Wang, tema kõrval seisis mundris von Wulf. Taaniel käis seda pilti vaatamas, kui teda tuppa lubati. Aastatega avastas ta sellelt ikka mõne üksikasja, mida polnud varem tähele pannud.
 
-Kiel, märts 1945. Saabas on määritud ja vaikib.
+Katharina rääkis Hiinast meelsamini kui isa. Seal oli möödunud osa tema lapsepõlvest; Taanieli jaoks võõrad kohanimed tähendasid talle tänavaid, kus ta oli kõndinud, ja inimesi, keda mäletas. Ta oli poisist aasta vanem, pidas töökoja arveid ega jätnud oma arvamust ütlemata ka siis, kui see isale ei meeldinud. Taaniel avastas peagi, et tema ees polnud suuremat mõtet tarka nägu teha. Katharina küsis edasi, kuni selgus, mida poiss tegelikult teadis.
+
+Nelja-aastasest õpiajast ei saanud aastagi täis. Järgmisel suvel läks meister merele ega tulnud enam tagasi.
+
+Tema tehtud saapad jäid tellijate jalga, pooleliolevad tööd pinkidele. Inimesed tulid lubatud päeval järele ja leidsid töötoast poisi. Mõni küsis, millal saaks rääkida kellegi vanemaga. Taaniel kutsus selli, kui oli vaja, ning õppis edasi. Katharina võttis vastu tellimusi, Leena pani hommikuti toidu lauale ja igaüks tegi seda, mida oskas. Sügiseks julges mõni tellija anda Taanielile juba parema naha.
+
+1914. aastal abiellusid Taaniel ja Katharina. Nimeasja ajasid nad eraldi korda: Taaniel võttis naise perekonnanime. Sugulaste seas tekitas see pahameelt, kuid Katharina ei näinud põhjust otsust uuesti arutama hakata. Töökojas harjuti. Seal oli von Wulfi nimi tähendanud head tööd juba enne neid.
+
+Sõja ajal teenis Taaniel Kroonlinnas tuukrina. Ta jõudis koju tagasi ning 1919. aastal sündis neil Katharinaga poeg Otto. Töökojas tuli nüüd arvestada lapsega, kes kõigepealt magas ja seejärel üha sagedamini jalgu jäi. Hiljem viis vana meistri õpetus Taanieli endagi Hiinasse, Shandongi. Sealt naastes oli tal asju, millest ta rääkis vähe, nagu vanal Wulfil kunagi.
+
+Otto kasvas üles töökoja häälte keskel. 1939. aasta sügisel läks ta koos ümberasujatega Saksamaale. Katharina keeldus kaasa minemast ja Taaniel jäi tema juurde. Pärast tulid pojalt kirjad, harvemini fotod. Ühel neist oli Otto mereväeohvitseri mundris. Isa uuris pilti kaua; tal oli raske kokku viia seda meest ja poissi, kelle saapaid ta alles mõne aasta eest oli parandanud.
+
+1944. aasta sügisel pidid ka vanemad Eestist lahkuma. Tööpink jäi maha. Taaniel keeras tööriistad rulli ja pani koduvõtme taskusse, Katharina pakkis isa foto ettevaatlikult riiete vahele. Kumbki ei teadnud, kuhu nad talveks jõuavad.
+
+Kevadeks olid nad Kielis. Linn oli puruks pommitatud, Taaniel tegi keldris kingsepatööd ning nad ootasid teateid pojalt.
+
+Märtsi algul saabus Otto kiri. Ta oli leidnud neile koha Norrasse sõitval laeval.
+
+Kaasa võis võtta ainult nii palju, kui ise kanda jõudis.

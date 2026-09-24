@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "zz9DoX7nHgUp+YzU",
-  "ct": "kMnRItV5ui8sgQQ0NkKKBWmu"
+  "iv": "TwprIP0amYCHpwdA",
+  "ct": "W6rIgCOeonfWKxLSunFlrg8/"
  },
  "peatukid": [
   {
@@ -37,7 +37,7 @@
    "free": true,
    "published": true,
    "mustand": false,
-   "dateline": "Tallinn, mihklipäevast 1908 mihklipäevani 1909"
+   "dateline": null
   },
   {
    "slug": "peatukk-01",

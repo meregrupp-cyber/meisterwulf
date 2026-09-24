@@ -17,7 +17,9 @@ Mida tehakse:
         „Jawohl, Herr Kaleun.”[^3]  ->  „[[Jawohl, Herr Kaleun.||„Just nii, härra kaptenleitnant.”]]”
     (kui ühes lõigus on enne viidet mitu saksakeelset tsitaati, saavad kõik sama tõlke);
   * üksik * omaette real on stseenivahe -> ***;
-  * lõpus raport: saksapärased tsitaadid, millel tõlget ei ole (autor otsustab, kas vaja).
+  * lõpus raport: saksapärased tsitaadid, millel tõlget ei ole. Autori reegel: mull on
+    ainult keerulisematel lausetel; lihtsad ja need, mille mõte korratakse eesti keeles,
+    jäävad tõlketa. Raport on seega ülevaade, mitte veanimekiri.
 
 Pandoc: süsteemi `pandoc` või `pip install pypandoc_binary`.
 Pärast importi: node scripts/build-raudvaal.mjs (vt README).
@@ -243,8 +245,7 @@ def main():
     if part:
         fm.append(f'part: "{part["pealkiri"]}"')
     fm += [f"free: {'true' if entry.get('free') else 'false'}",
-           f"published: {'false' if a.mustand else 'true'}",
-           f'illustration: "{a.raamat}-{a.nr:02d}.png"']
+           f"published: {'false' if a.mustand else 'true'}"]
     if dateline:
         fm.append(f'dateline: "{dateline}"')
     fm.append("---")

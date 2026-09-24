@@ -25,7 +25,7 @@ GitHub Pages            Cloudflare              külastaja
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
 | `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
-| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, pilk raamatusse, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
+| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
 | `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, saksa väljendite tõlkemullid, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
 | `404.html` | vealehekülg |
 
@@ -88,9 +88,8 @@ assets/
   shoemaker/orig/          samad fotod töötlemata värvides — avanevad galeriis klõpsu peale suurelt
   kungfu/                  tunnistus 1991–92, pärimusregister 2023, duani tunnistus 2026,
                            treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas)
-  books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k),
+  books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked (praegu kasutamata), näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
-  raudvaal/                Raudvaali peatükkide illustratsioonid (raudvaal-NN.png), kui on
   tolge.js, tolge.css      saksa väljendite tõlkemullid (kasutab lugemisleht)
 raudvaal/
   index.html, loe.js, loe.css   lugemisleht (üks leht, vaated #sisukord, #peatukk-NN, #sonastik, #kood)
@@ -130,7 +129,8 @@ plokid lehe lõpus; nupp `data-about="<id>"` avab vastava akna (tühi väärtus 
 
 Järg eestikeelsele „Meister Wulfile“, ilmub veebis peatükkide kaupa. Raamatute
 lehel on kaart (`#raudvaal`, silt `.badge--ebook` ja lint `.cover-tag` kaane
-nurgas, proloog hüpikaknas `#proloog`) ja nupp „Loe veebis“, mis viib
+nurgas, proloog hüpikaknas `#proloog`; sama tekst mis `content/raudvaal/00-proloog.md`,
+uue versiooni korral uuenda mõlemat) ja nupp „Loe veebis“, mis viib
 lugemislehele **`/raudvaal/`**.
 
 #### Lugemisleht
@@ -178,7 +178,9 @@ omaette real. Vaja on `python3`, `node` (v18+) ja pandoci
 # 1. toorfail kausta kasikiri/ (gitignore'is), import registri numbri järgi (0 = proloog)
 python3 scripts/import-kasikiri.py kasikiri/Meister_Wulf_Raudvaal_IV_Kadunud_paat.odt --nr 4
 #    -> content/raudvaal/04-kadunud-paat.md; lõpus raport: joonealuseta saksakeelsed
-#       tsitaadid ("KONTROLLI"), mille tõlke saab lisada käsitsi kujul [[saksa||tõlge]]
+#       tsitaadid ("KONTROLLI"). Autori reegel: mull on ainult keerulisematel lausetel,
+#       lihtsad ja eesti keeles korratud jäävad tõlketa; raport on ülevaade, mitte veanimekiri.
+#       Vajadusel saab tõlke lisada käsitsi kujul [[saksa||tõlge]].
 #    --mustand   published: false (koodiga loetav, avalikult "tulekul")
 #    --raport saksa-tolked-kontrolliks.md   kirjutab mullid ja kontrollkohad faili (gitignore'is)
 
@@ -192,8 +194,8 @@ RAUDVAAL_KOOD='…' node scripts/build-raudvaal.mjs
 Pealkirjad, numbrid ja osad on registris `content/raudvaal/sisukord.json`
 (24 peatükki neljas osas; „Härra Wolf“ on o-ga). Peatüki tasuta/tasuline
 tuleb registrist frontmatterisse (`free`), avaldatus frontmatterist
-(`published`). Illustratsioon: `assets/raudvaal/raudvaal-NN.png`; kui faili
-pole, peatükk ilmub ilma pildita. Kui raamat läheb müüki, vaheta
+(`published`). Raudvaalal illustratsioone ei ole (ehitus toetaks faili
+`assets/raudvaal/raudvaal-NN.png`, kui see kunagi lisandub). Kui raamat läheb müüki, vaheta
 raamatute lehel hinna märkus „Müügile tuleb, kui raamat on valmis“ ja JSON-LD
 `availability` (praegu `PreOrder`).
 
