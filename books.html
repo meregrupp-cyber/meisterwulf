@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Books — Meisterwulf</title>
-<meta name="description" content="狼的印记 — Meister Wulf. Taniel Suvi romaan kingsepast ja tema õpipoisist Läänemere ääres, hiinakeelne väljaanne 24 linoollõikega. ISBN 978-9908-9922-1-1. Nimistus ka „Lola ja Lohe päästesalk“ (Markus Saksatamm), kus meister Wulf on tegelane.">
+<meta name="description" content="狼的印记 — Meister Wulf. Taniel Suvi romaan kingsepast ja tema õpipoisist Läänemere ääres, hiinakeelne väljaanne 24 linoollõikega. ISBN 978-9908-9922-1-1. Järg „Raudvaal“ ilmub e-raamatuna, peatükkide kaupa. Nimistus ka „Lola ja Lohe päästesalk“ (Markus Saksatamm), kus meister Wulf on tegelane.">
 <link rel="canonical" href="https://meisterwulf.com/books.html">
 <meta name="theme-color" content="#0b1020">
 <meta name="color-scheme" content="dark">
@@ -35,6 +35,17 @@
       "publisher": {"@type": "Organization", "name": "OÜ Kriuks", "address": "Tallinn, Estonia"},
       "image": "https://meisterwulf.com/assets/books/meister-wulf-cover.jpg",
       "offers": {"@type": "Offer", "price": "49.99", "priceCurrency": "EUR", "availability": "https://schema.org/PreOrder", "url": "https://meisterwulf.com/books.html#meister-wulf"}
+    },
+    {
+      "@type": "Book",
+      "name": "Raudvaal",
+      "author": {"@type": "Person", "name": "Taniel Suvi"},
+      "bookFormat": "https://schema.org/EBook",
+      "inLanguage": "et",
+      "isPartOf": {"@type": "BookSeries", "name": "Meister Wulf"},
+      "publisher": {"@type": "Organization", "name": "OÜ Kriuks", "address": "Tallinn, Estonia"},
+      "image": "https://meisterwulf.com/assets/books/raudvaal-cover.jpg",
+      "offers": {"@type": "Offer", "price": "4.99", "priceCurrency": "EUR", "availability": "https://schema.org/PreOrder", "url": "https://meisterwulf.com/books.html#raudvaal"}
     },
     {
       "@type": "Book",
@@ -84,6 +95,24 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
 .book-title--latin{ font-family:var(--font-serif); text-transform:uppercase; letter-spacing:.12em; font-size:clamp(1.8rem, 4.4vw, 3rem); }
 .badge{ display:inline-block; margin-left:.6em; padding:.15em .7em; border-radius:999px; border:1px solid rgba(232,201,122,.5); font-size:.68rem; letter-spacing:.18em; text-transform:uppercase; vertical-align:middle; color:var(--brass-light); }
 .book-lang{ font-size:.8rem; letter-spacing:.2em; text-transform:uppercase; color:var(--parchment-dim); }
+[hidden]{ display:none !important; }
+
+/* E-raamat: selge märgistus pealkirja kõrval ja kaane nurgas */
+.badge--ebook{ background:linear-gradient(180deg, #e8c97a, #b8901d); border-color:#e8c97a; color:#1a1206; font-weight:600; }
+.cover-wrap{ position:relative; }
+.cover-tag{
+  position:absolute; top:16px; left:-8px; z-index:1;
+  padding:.35em .9em .35em 1.1em;
+  background:linear-gradient(180deg, #e8c97a, #b8901d);
+  color:#1a1206;
+  font-size:.7rem; font-weight:600; letter-spacing:.22em; text-transform:uppercase;
+  box-shadow:0 8px 18px -6px rgba(0,0,0,.9);
+}
+.cover-tag::after{ content:""; position:absolute; left:0; bottom:-6px; border:3px solid transparent; border-top-color:#8a6a1c; border-right-color:#8a6a1c; }  /* ümber serva volditud nurk */
+.facts-note{ display:block; margin:.5em 0 0; font-size:.86rem; line-height:1.5; color:var(--parchment-dim); }
+.dateline{ margin:0 0 1.2em; font-style:italic; color:var(--parchment-dim); }
+.prose p{ font-size:1.02rem; line-height:1.7; }
+.prose-foot{ margin-top:1.2em; font-size:.92rem; color:var(--parchment-dim); }
 .book{
   display:grid;
   grid-template-columns:minmax(220px, 340px) minmax(0, 1fr);
@@ -171,6 +200,8 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
 @media (max-width: 700px){
   .book{ grid-template-columns:1fr; }
   .book-cover{ width:min(70%, 300px); margin-inline:auto; transform:none; }
+  .cover-wrap{ width:min(70%, 300px); margin-inline:auto; }
+  .cover-wrap .book-cover{ width:100%; }
 }
 </style>
 </head>
@@ -237,6 +268,44 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
             <button type="button" class="btn" data-about><span data-l="et">Loe raamatust</span><span data-l="en">About the book</span><span data-l="zh">关于这本书</span></button>
             <a class="btn btn--solid" data-u="meister.wulf" data-d="pm.me" data-subject="Ettetellimus: Meister Wulf (eesti k)" data-keep-text="1" href="#"><span data-l="et">Telli ette e-posti teel</span><span data-l="en">Pre-order by email</span><span data-l="zh">邮件预订</span></a>
           </div>
+        </div>
+      </article>
+
+      <article class="book book--ebook" id="raudvaal">
+        <div class="cover-wrap">
+          <picture>
+            <source srcset="/assets/books/raudvaal-cover.webp" type="image/webp">
+            <img class="book-cover" src="/assets/books/raudvaal-cover.jpg" width="700" height="1045" alt="Raudvaal — e-raamatu kaas: tumesinine nahk, kuldne vapp mõõgaga hundiga" decoding="async">
+          </picture>
+          <span class="cover-tag" aria-hidden="true"><span data-l="et">E-raamat</span><span data-l="en">E-book</span><span data-l="zh">电子书</span></span>
+        </div>
+        <div>
+          <h2 class="book-title book-title--latin">Raudvaal <span class="badge badge--ebook"><span data-l="et">E-raamat</span><span data-l="en">E-book</span><span data-l="zh">电子书</span></span></h2>
+          <p class="book-sub">
+            <span data-l="et">Järg romaanile „Meister Wulf“ — ilmub e-raamatuna, peatükkide kaupa</span>
+            <span data-l="en">The sequel to “Meister Wulf”, published as an e-book, chapter by chapter</span>
+            <span data-l="zh">《Meister Wulf》的续篇，以电子书形式逐章发布</span>
+          </p>
+          <p class="book-author">Taniel Suvi · <span class="book-lang"><span data-l="et">eesti keeles</span><span data-l="en">in Estonian</span><span data-l="zh">爱沙尼亚文版</span></span></p>
+
+          <p data-l="et">„Meister Wulf“ jutustab ühest aastast mihklipäevast mihklipäevani. „Raudvaal“ algab kolmkümmend kuus aastat hiljem, teise sõja viimasel kevadel, sama mere teises otsas: Kiel, märts 1945. Kaasas on uur, naaskel, ritsikas ja foto. Ülejäänu jäi maha. Proloog ja 24 peatükki neljas osas — Läänemeri, Võlg, Teine laev, Kallas. Raamat ilmub veebis järjejutuna, peatükk peatüki järel, nii nagu need valmivad; proloog ja I peatükk on tasuta.</p>
+          <p data-l="en">“Meister Wulf” tells of one year, from Michaelmas to Michaelmas. “Raudvaal” begins thirty-six years later, in the last spring of the second war, at the other end of the same sea: Kiel, March 1945. Along come a watch, an awl, a cricket and a photograph; the rest stayed behind. A prologue and 24 chapters in four parts: The Baltic, The Debt, The Second Ship, The Shore. The book appears online as a serial, chapter by chapter, as they are finished; the prologue and chapter I are free.</p>
+          <p data-l="zh">《Meister Wulf》讲的是从米迦勒节到米迦勒节的一年。《Raudvaal》始于三十六年后，第二次战争的最后一个春天，同一片海的另一端：基尔，1945 年 3 月。随身带着怀表、锥子、蟋蟀和一张照片，其余的都留在了身后。序章及二十四章，分四部：波罗的海、债、第二艘船、岸。本书在网上连载，写成一章便发一章；序章与第一章免费。</p>
+
+          <dl class="facts">
+            <dt><span data-l="et">Keel</span><span data-l="en">Language</span><span data-l="zh">语言</span></dt><dd><span data-l="et">eesti</span><span data-l="en">Estonian</span><span data-l="zh">爱沙尼亚文</span></dd>
+            <dt><span data-l="et">Formaat</span><span data-l="en">Format</span><span data-l="zh">形式</span></dt><dd><span data-l="et">e-raamat, loetav veebis (brauseris)</span><span data-l="en">e-book, read online in the browser</span><span data-l="zh">电子书，在浏览器中在线阅读</span></dd>
+            <dt><span data-l="et">Maht</span><span data-l="en">Length</span><span data-l="zh">篇幅</span></dt><dd><span data-l="et">proloog ja 24 peatükki neljas osas</span><span data-l="en">a prologue and 24 chapters in four parts</span><span data-l="zh">序章及二十四章，分四部</span></dd>
+            <dt><span data-l="et">Ilmumine</span><span data-l="en">Published</span><span data-l="zh">出版方式</span></dt><dd><span data-l="et">järjejutuna, peatükkide kaupa; proloog ja I peatükk tasuta</span><span data-l="en">serialised, chapter by chapter; prologue and chapter I free</span><span data-l="zh">逐章连载；序章与第一章免费</span></dd>
+            <dt><span data-l="et">Kirjastus</span><span data-l="en">Publisher</span><span data-l="zh">出版</span></dt><dd>OÜ Kriuks, Tallinn</dd>
+            <dt><span data-l="et">Hind</span><span data-l="en">Price</span><span data-l="zh">价格</span></dt><dd><span class="price">4.99 € <small>EUR</small></span><span class="facts-note"><span data-l="et">Ühekordne ost avab kogu raamatu, ka hiljem lisanduvad peatükid. Müügile tuleb, kui raamat on valmis.</span><span data-l="en">One purchase opens the whole book, including chapters added later. On sale once the book is complete.</span><span data-l="zh">一次购买即可阅读全书，包括之后新增的章节；全书完成后开售。</span></span></dd>
+          </dl>
+
+          <div class="btn-row">
+            <button type="button" class="btn" data-about="proloog"><span data-l="et">Loe proloogi</span><span data-l="en">Read the prologue (Estonian)</span><span data-l="zh">阅读序章（爱沙尼亚文）</span></button>
+            <a class="btn btn--solid" href="/raudvaal/" data-when-live hidden><span data-l="et">Loe veebis</span><span data-l="en">Read online</span><span data-l="zh">在线阅读</span></a>
+          </div>
+          <p class="facts-note" data-until-live><span data-l="et">Lugemisleht on tulekul. Proloogi saab lugeda juba siin.</span><span data-l="en">The reading site is on its way. The prologue can be read here already.</span><span data-l="zh">在线阅读页面尚在准备中，序章现在就可以在这里阅读。</span></p>
         </div>
       </article>
 
@@ -411,6 +480,27 @@ html[data-lang="zh"] #wolf-mark{ order:-1; }
   </div>
 </div>
 
+<!-- Raudvaal: tasuta proloog avaneb nupust "Loe proloogi" (tekst on content-failist 00-proloog.md) -->
+<div class="aboutbox" id="proloog" hidden role="dialog" aria-modal="true" aria-label="Raudvaal — proloog">
+  <div class="aboutbox-panel">
+    <button type="button" class="aboutbox-close" aria-label="Sulge · Close · 关闭">×</button>
+    <p class="kicker">Raudvaal · <span data-l="et">e-raamat · tasuta proloog</span><span data-l="en">e-book · free prologue, in Estonian</span><span data-l="zh">电子书 · 免费序章（爱沙尼亚文）</span></p>
+    <h2 lang="et">Proloog</h2>
+    <p class="dateline" lang="et">Tallinn, mihklipäevast 1908 mihklipäevani 1909</p>
+    <div class="blurb prose" lang="et">
+      <p>Enne esimest sõda oli Tallinnas töökoda, mille uksel seisis aadlinimi: von Wulf. Nime pärast jäi mõni võõras trepile seisma ja luges teist korda. Aadlimehe nimi ja pigilõhn ei tahtnud kokku käia.</p>
+      <p>Meister ise seda vahet ei seletanud. Ta oli baltisakslane; suguvõsa mõis oli Hundimäe, hunt oli väraval ja taldrikutel, ja sama hunt jooksis tema taskuuri kaanel. Mõis oli põlenud, hunt uuril alles. Noorena oli ta õppinud kingsepaks eesti meistri Arturi käe all, ja see käis seisusekorrast nõnda risti, et sellestki ei räägitud. Ta oli olnud laevastiku tuuker Kroonlinnas ja Port Arturis ning käinud veel kaugemal idas. Sealt olid kaasa tulnud foto ja puust ritsikas. Fotol istub hiinlane, käed rahulikult reitel; tema kõrval seisab meister, mõõk puusa juures. Hiinlast nimetas ta meister Wangiks. Rohkem ta ei seletanud, ja töökojas õpiti mitte küsima.</p>
+      <p>Tema tütar Katharina oli sündinud aastal, mil Tallinna ja Helsingi vahel uppus laev, ning kasvanud oma sõnul kolmes meres ja ühes koolis. Port Arturist lahkus ta lapsena, kui algas sõda. Papa jäi, tema läks. Töökojas olid arved ja aeg tema käes.</p>
+      <p>Mihklipäeval 1908 tuli töökotta neljateistkümneaastane poiss, Arturi pojapoeg. Meister võttis ta õpipoisiks vana võla pärast: Artur oli õpetanud teda, nüüd õpetas tema Arturi verd. Poiss sai ühe aasta. Ta õppis nahka lugema, liistu valima ja naela hoidma. Ta õppis, et saabas räägib enne inimest ja et kord kuuldud kinga tunneb hämaras ära kergemini kui näo. Ta õppis ka seda, mida meister sõnadeta õpetas: kuidas seista, kuidas oodata, millal käsi ei tohi kiirustada. Ritsikas seisis riiulil ja vaatas pealt.</p>
+      <p>1909. aasta suvel jäi meister merele. Töökoda oleks võinud ukse kinni panna; ei pannud. Mihklipäeva hommikul, aasta pärast tulekut, istus laua otsas viieteistkümneaastane poiss, ja tellijad harjusid ükshaaval mõttega, et von Wulfi töö tuleb nüüd tema käte alt.</p>
+      <p>Viis aastat hiljem, enne uut sõda, abiellus Katharina von Wulf oma isa õpipoisiga. Mees võttis naise nime ja see aeti paberites eraldi korda, et keegi ei arvaks, nagu tuleks nimega kaasa seisus. Töökoja uksele löödi uus silt: naine hoidis silti sirgena, naelad lõi mees. Nõnda sai eesti kingsepp hundi nime. Kes hiljem küsis, mis õigusega ta seda kannab, sai vastuseks töö.</p>
+      <p>Nõnda jutustab sellest esimene raamat. Siinne lugu algab kolmkümmend kuus aastat hiljem, teise sõja viimasel kevadel, sama mere teises otsas. Vahele jäävad aastad, mille see raamat avab siis, kui neid tarvis läheb: tuukrikiiver Kroonlinnas, poeg, kes sündis pärast üht sõda ja lahkus enne teist, Shandongi tolm ritsika jalgade küljes, sügisene rand, kust vaadati tagasi, kuni kaldast oli saanud tume joon. Kaasas on uur, naaskel, ritsikas ja foto. Ülejäänu jäi maha.</p>
+      <p>Kiel, märts 1945. Saabas on määritud ja vaikib.</p>
+    </div>
+    <p class="prose-foot"><span data-l="et">Terve lugu: </span><span data-l="en">The whole story: </span><span data-l="zh">完整的故事：</span><a href="#meister-wulf">„Meister Wulf“<span data-l="et"> — esimene raamat</span><span data-l="en">, the first book</span><span data-l="zh">，第一部</span></a></p>
+  </div>
+</div>
+
 <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Pilt suurelt" tabindex="-1">
   <img alt="">
   <p class="lightbox-cap"></p>
@@ -448,39 +538,62 @@ document.getElementById("year").textContent = new Date().getFullYear();
   document.addEventListener("keydown", function (e) { if (!box.hidden && e.key === "Escape") close(); });
 })();
 (function () {
-  var box = document.getElementById("aboutbox");
+  /* "Loe raamatust" / "Loe proloogi": nupu data-about ütleb, milline aken avada
+     (tühi väärtus = #aboutbox). Korraga on lahti üks aken. */
   var btns = document.querySelectorAll("[data-about]");
-  if (!box || !btns.length) return;
-  var close = box.querySelector(".aboutbox-close");
-  var panel = box.querySelector(".aboutbox-panel");
-  var last = null;
+  var boxes = document.querySelectorAll(".aboutbox");
+  if (!btns.length || !boxes.length) return;
+  var box = null, last = null;
   function show(b) {
-    last = b;
+    var target = document.getElementById(b.getAttribute("data-about") || "aboutbox");
+    if (!target) return;
+    box = target; last = b;
     box.hidden = false;
     document.body.style.overflow = "hidden";
-    panel.scrollTop = 0;
-    close.focus();
+    box.querySelector(".aboutbox-panel").scrollTop = 0;
+    box.querySelector(".aboutbox-close").focus();
   }
   function hide() {
-    box.hidden = true;
+    if (!box) return;
+    box.hidden = true; box = null;
     document.body.style.overflow = "";
     if (last) { last.focus(); last = null; }
   }
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () { show(this); });
   }
-  close.addEventListener("click", hide);
-  box.addEventListener("click", function (e) { if (e.target === box) hide(); });
+  for (var j = 0; j < boxes.length; j++) {
+    boxes[j].querySelector(".aboutbox-close").addEventListener("click", hide);
+    boxes[j].addEventListener("click", function (e) { if (e.target === this) hide(); });
+    var inner = boxes[j].querySelectorAll('a[href^="#"]');      /* lehesisene link (nt "Terve lugu") sulgeb akna */
+    for (var k = 0; k < inner.length; k++) inner[k].addEventListener("click", hide);
+  }
   document.addEventListener("keydown", function (e) {
-    if (box.hidden) return;
+    if (!box) return;
     if (e.key === "Escape") { hide(); return; }
-    if (e.key === "Tab") {                /* fookus jääb akna sisse (ainus nupp on sulgemine) */
+    if (e.key === "Tab") {                /* fookus jääb akna sisse */
       var f = box.querySelectorAll("a[href], button");
       var first = f[0], lastEl = f[f.length - 1];
       if (e.shiftKey && document.activeElement === first) { e.preventDefault(); lastEl.focus(); }
       else if (!e.shiftKey && document.activeElement === lastEl) { e.preventDefault(); first.focus(); }
     }
   });
+})();
+(function () {
+  /* "Loe veebis" (data-when-live) ilmub alles siis, kui lugemisleht päriselt vastab —
+     enne seda pole lehel katkist linki ja kõrval olev märkus (data-until-live) jääb
+     nähtavale. Kontrollitakse ainult sama saidi aadressi; võõra aadressi (nt alamdomeen)
+     puhul näidatakse nuppu kohe. */
+  if (!window.fetch) return;
+  var links = document.querySelectorAll("a[data-when-live]");
+  for (var i = 0; i < links.length; i++) (function (a) {
+    var note = a.parentNode.parentNode.querySelector("[data-until-live]");
+    function live() { a.hidden = false; if (note) note.hidden = true; }
+    var url;
+    try { url = new URL(a.getAttribute("href"), location.href); } catch (e) { return; }
+    if (url.origin !== location.origin) { live(); return; }
+    fetch(url.href, { method: "HEAD", cache: "no-store" }).then(function (r) { if (r.ok) live(); }).catch(function () {});
+  })(links[i]);
 })();
 </script>
 </body>

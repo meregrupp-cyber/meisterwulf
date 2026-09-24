@@ -24,7 +24,7 @@ GitHub Pages            Cloudflare              külastaja
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
 | `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
-| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, pilk raamatusse, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
+| `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, pilk raamatusse, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
 | `404.html` | vealehekülg |
 
 ### Esilehe loogika
@@ -86,7 +86,7 @@ assets/
   shoemaker/orig/          samad fotod töötlemata värvides — avanevad galeriis klõpsu peale suurelt
   kungfu/                  tunnistus 1991–92, pärimusregister 2023, duani tunnistus 2026,
                            treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas)
-  books/                   kaaned (et, zh, lola), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k),
+  books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked, näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
 ```
@@ -111,6 +111,27 @@ kolmes keeles, `<dl class="facts">` andmetega ja nupud. Hiinakeelne väljaanne
 tõstetakse hiina keele valikul CSS-iga esimeseks (`order:-1`). Lisa uus
 raamat ka `<script type="application/ld+json">` plokki. Väline ostulink
 (nt Apollo) on tavaline `<a class="btn" target="_blank" rel="noopener">`.
+
+Hüpikaknad („Loe raamatust“, „Loe proloogi“) on `<div class="aboutbox" id="…">`
+plokid lehe lõpus; nupp `data-about="<id>"` avab vastava akna (tühi väärtus =
+`aboutbox`, Meister Wulfi tutvustus).
+
+### E-raamat „Raudvaal“
+
+Järg eestikeelsele „Meister Wulfile“, ilmub veebis järjejutuna (eraldi
+lugemiskeskkond maksumüüriga, hind 4,99 €, proloog ja I peatükk tasuta).
+Kaardil on selge märgistus: kuldne silt `.badge--ebook` pealkirja kõrval ja
+lint `.cover-tag` kaane nurgas. Proloogi tekst on lehel endas (`#proloog`,
+sama tekst mis lugemiskeskkonna failis `content/raudvaal/00-proloog.md`) ja
+avaneb nupust „Loe proloogi“; uue versiooni korral uuenda mõlemat.
+
+Nupp „Loe veebis“ (`a[data-when-live]`, `href="/raudvaal/"`) on peidus, kuni
+see aadress päriselt vastab (lehe enda skript teeb `HEAD`-päringu); seni on
+nupu all märkus „Lugemisleht on tulekul“ (`data-until-live`). Kui
+lugemiskeskkond avaneb samal aadressil, ilmub nupp ise; kui mujal (nt
+alamdomeen), muuda ainult `href` — võõra päritolu aadressi näidatakse kohe.
+Kui raamat läheb müüki, vaheta hinna märkus „Müügile tuleb, kui raamat on
+valmis“ ja JSON-LD `availability` (praegu `PreOrder`).
 
 ### Kontaktid lehel
 
