@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "TwprIP0amYCHpwdA",
-  "ct": "W6rIgCOeonfWKxLSunFlrg8/"
+  "iv": "vAcglOQ6y/Cgrn+k",
+  "ct": "ZyDKrRnMi0kP+C8vJvCW4m9c"
  },
  "peatukid": [
   {
@@ -79,9 +79,9 @@
    "ord": 4,
    "osa": 1,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Skagerrak, öö vastu 19. aprilli 1945"
   },
   {
    "slug": "peatukk-05",

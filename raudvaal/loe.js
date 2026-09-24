@@ -26,6 +26,7 @@
     VIEWS.forEach(function (v) { $("#vaade-" + v).hidden = v !== name; });
     if (window.Tolge) window.Tolge.close();
     if (name !== "peatukk") current = null;
+    alarmStop();
   }
   function teade(text) { $("#teade").textContent = text; document.title = "Raudvaal — Meister Wulf"; show("teade"); window.scrollTo(0, 0); }
 
@@ -238,6 +239,34 @@
       show("sonastik"); window.scrollTo(0, 0);
     }, function () { teade("Sõnastikku ei õnnestunud laadida."); });
   }
+
+  /* ---------- õhuhäire: „ALARRRM!” klõps mängib heli tasa, uus klõps peatab ---------- */
+  var alarmAudio = null;
+  function alarmStop() {
+    if (alarmAudio && !alarmAudio.paused) { alarmAudio.pause(); alarmAudio.currentTime = 0; }
+    var on = document.querySelectorAll(".alarm.is-playing");
+    for (var i = 0; i < on.length; i++) on[i].classList.remove("is-playing");
+  }
+  function alarmToggle(el) {
+    if (!alarmAudio) {
+      alarmAudio = new Audio("/assets/raudvaal/das-boot-alarm.mp3");
+      alarmAudio.preload = "auto";
+      alarmAudio.volume = 0.25;
+      alarmAudio.addEventListener("ended", alarmStop);
+    }
+    if (!alarmAudio.paused) { alarmStop(); return; }
+    el.classList.add("is-playing");
+    var p = alarmAudio.play();
+    if (p && p.catch) p.catch(function () { el.classList.remove("is-playing"); });
+  }
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest ? e.target.closest(".alarm") : null;
+    if (el) { e.preventDefault(); alarmToggle(el); }
+  });
+  document.addEventListener("keydown", function (e) {
+    var t = e.target;
+    if ((e.key === "Enter" || e.key === " ") && t && t.classList && t.classList.contains("alarm")) { e.preventDefault(); alarmToggle(t); }
+  });
 
   /* ---------- teed ---------- */
   function route() {
