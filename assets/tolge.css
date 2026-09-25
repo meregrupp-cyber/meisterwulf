@@ -54,7 +54,7 @@
 .tolge-mull-sulge{ position:absolute; top:.25em; right:.3em; width:1.6em; height:1.6em; border:0; border-radius:50%; background:transparent; color:#c8b189; font:1.1rem/1 inherit; cursor:pointer; }
 .tolge-mull-sulge:hover, .tolge-mull-sulge:focus-visible{ color:#f2e4c2; background:rgba(232,201,122,.15); outline:none; }
 .tolge-mull-pealkiri{ margin:0 1.6em .35em 0; font-size:.78rem; font-weight:400; letter-spacing:.18em; text-transform:uppercase; color:#e8c97a; }
-.tolge-mull-tekst{ margin:0 0 .6em; max-width:none; }
+.tolge-mull-tekst{ margin:0 0 .6em; max-width:none; white-space:pre-line; }
 .tolge-mull-tekst:last-child{ margin-bottom:0; }
 .tolge-mull-pilt{ margin:.3em 0 .5em; }
 .tolge-mull-pilt img{ display:block; width:100%; height:auto; max-height:260px; object-fit:contain; border:1px solid rgba(232,201,122,.3); background:#0b0805; }

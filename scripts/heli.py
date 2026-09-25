@@ -4,10 +4,12 @@
 Heliillustratsioonid lugemislehe mullidele: sünteesitud numpy-ga, MP3 ffmpeg-iga.
 
     python3 scripts/heli.py koik                      # menüü helid -> assets/raudvaal/heli/<id>.mp3
+    python3 scripts/heli.py uks kuumpea                # ainult üks heli menüüst
     python3 scripts/heli.py morse "SOS U398" morse-u398.mp3   # morsekood antud tekstist
 
 Menüü: sonar (ASDIC-i ping), wasserbombe (süvaveepommid), diesel (allveelaeva diislid),
-emootor (elektrimootorid vee all), laevakell (laevakell), lennuk (lennuk möödub), flak (õhutõrje).
+emootor (elektrimootorid vee all), laevakell (laevakell), lennuk (lennuk möödub), flak (õhutõrje),
+kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid).
 Merelaineid meelega ei ole. Kõik on heliillustratsioonid, mitte ajaloolised salvestised.
 Vajab: numpy, imageio-ffmpeg (python3 -m pip install numpy imageio-ffmpeg).
 """
@@ -159,6 +161,32 @@ def morse(text, wpm=16, f=720):
     return fade(norm(out, 0.8), 5, 300)
 
 
+def kuumpea(sec=9.0, bpm=150):
+    """Aeglane kuumpeamootor (semidiisel): üksikud madalad löögid, vahel raua klõbin."""
+    n = int(SR * sec); out = np.zeros(n)
+    period = 60.0 / bpm
+    k = 0
+    while k * period < sec:
+        at = k * period + rng.normal(0, 0.008)
+        # pehme madal löök: summutatud impulss + resonants
+        dur = 0.35; tt = t(dur)
+        thump = np.sin(2 * np.pi * 52 * tt) * np.exp(-tt * 14) + 0.4 * np.sin(2 * np.pi * 104 * tt) * np.exp(-tt * 22)
+        thump += 0.25 * lowpass_fast(rng.normal(0, 1, len(tt)), 40) * np.exp(-tt * 30)
+        mix_at(out, thump * (0.9 + 0.2 * rng.random()), at)
+        # väljalaske "tuh": hingav müra
+        puff = lowpass_fast(rng.normal(0, 1, int(SR * 0.16)), 12) * np.exp(-t(0.16) * 18)
+        mix_at(out, puff * 0.35, at + 0.03)
+        # raua klõbin löökide vahel
+        if rng.random() < 0.7:
+            c = t(0.06); click = np.sin(2 * np.pi * (1800 + 600 * rng.random()) * c) * np.exp(-c * 90)
+            mix_at(out, click * 0.12, at + period * (0.45 + 0.1 * rng.random()))
+        k += 1
+    # tasane pidev põhi (hooratas, vibratsioon)
+    hum = 0.05 * np.sin(2 * np.pi * 26 * t(sec)) * (1 + 0.3 * np.sin(2 * np.pi * 0.7 * t(sec)))
+    out[:len(hum)] += hum
+    return fade(norm(out, 0.8), 400, 900)
+
+
 def write_mp3(x, path: Path):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -172,12 +200,14 @@ def write_mp3(x, path: Path):
     print(f"  {path.relative_to(ROOT)}  {len(x) / SR:.1f} s, {path.stat().st_size // 1024} KB")
 
 
-MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak}
+MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea}
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "koik":
         for name, fn in MENU.items():
             write_mp3(fn(), OUT / f"{name}.mp3")
+    elif len(sys.argv) >= 3 and sys.argv[1] == "uks":
+        write_mp3(MENU[sys.argv[2]](), OUT / f"{sys.argv[2]}.mp3")
     elif len(sys.argv) >= 4 and sys.argv[1] == "morse":
         write_mp3(morse(sys.argv[2]), OUT / sys.argv[3])
     else:

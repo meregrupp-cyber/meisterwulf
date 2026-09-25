@@ -14,6 +14,13 @@
   ]
  },
  {
+  "saksa": "Alle halbe Stunde eintragen. Auch die Bilgen nachsehen. Wenn der Wasserstand steigt, wecken Sie mich.",
+  "tolge": "Kirjutage näidud iga poole tunni järel üles. Vaadake ka pilsid üle. Kui veetase tõuseb, äratage mind.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Alle Mann voraus!",
   "tolge": "„Kõik mehed vööri!” Korraldus puudutab neid, kes saavad oma kohalt lahkuda; tüürimehed ja masinaid teenindavad mehed jäävad paigale.",
   "peatukid": [
@@ -140,6 +147,20 @@
   ]
  },
  {
+  "saksa": "Boot geht auf Grund.",
+  "tolge": "Paat laskub põhjale.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
+  "saksa": "Boot hat Grund berührt. Wassertiefe zweiundzwanzig Meter.",
+  "tolge": "Paat puudutas põhja. Vee sügavus kakskümmend kaks meetrit.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Bringen Sie den Mann her.",
   "tolge": "„Tooge mees siia.”",
   "peatukid": [
@@ -165,6 +186,13 @@
   "tolge": "„Seda ei vaidlusta keegi.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Das Bilgenwasser bleibt an Bord. Wenn wir jetzt abtauchen und weiter Öl hinausdrücken, haben die Flieger morgen ein leichtes Ziel. Ich brauche Licht und einen zweiten Mann.",
+  "tolge": "Pilsivett üle parda ei pumbata. Kui me nüüd sukeldume ja õli edasi välja ajame, oleme homme lenduritele kerge sihtmärk. Mul on valgust ja teist meest vaja.",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -284,6 +312,13 @@
   "tolge": "„Märjad riided täiesti seljast. Ka sukad.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Die Patronen nehmen die Kohlensäure auf. Den Sauerstoff geben wir aus Flaschen zu. Aber zuerst wird gemessen.",
+  "tolge": "Padrunid seovad süsihappegaasi. Hapnikku anname juurde balloonidest. Aga kõigepealt mõõdetakse.",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -455,6 +490,13 @@
   ]
  },
  {
+  "saksa": "Ich suche den verantwortlichen Offizier. Man sagte mir, hier läge ein Boot, das Hilfe benötigt.",
+  "tolge": "Otsin vastutavat ohvitseri. Mulle öeldi, et siin seisab paat, mis vajab abi.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Ich weiß.",
   "tolge": "„Ma tean.”",
   "peatukid": [
@@ -487,6 +529,20 @@
   "tolge": "„Kas see on tema allkiri?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Ist für die Mutter auch noch eine Portion da? Sie hat vorhin nichts genommen.",
+  "tolge": "Kas emale on ka veel portsjon alles? Ta ei võtnud enne midagi. Die Mutter tähendab „ema”.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
+  "saksa": "Ja, meine Portion ist hier. Ich esse gleich.",
+  "tolge": "Jah, minu portsjon on siin. Ma hakkan kohe sööma.",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -670,6 +726,13 @@
   "tolge": "„Minu korraldus ei ole sellega tühistatud. Nõuan üleandmist.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Mein Name ist Doktor Schrade. Sprechen wir lieber näher miteinander. Ihre Männer müssen nicht alles über das Wasser hören.",
+  "tolge": "Minu nimi on doktor Schrade. Räägime parem lähemalt. Teie mehed ei pea kõike üle vee kuulma.",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -995,10 +1058,24 @@
   ]
  },
  {
+  "saksa": "So? Soll ich die Knie beugen?",
+  "tolge": "Nii? Kas pean põlvi kõverdama?",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Sondertransport",
   "tolge": "erivedu, eritransport",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Später einen Transport. Darüber können wir sprechen, sobald ich weiß, ob Sie an meinem Angebot interessiert sind.",
+  "tolge": "Hiljem üht vedu. Sellest võime rääkida niipea, kui tean, kas minu pakkumine teid huvitab.",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -1076,6 +1153,13 @@
   "tolge": "„Ja mis saab neist, kes siia jäävad?”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Und was verlangen Sie dafür?",
+  "tolge": "Ja mida te selle eest nõuate?",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -1177,6 +1261,13 @@
   ]
  },
  {
+  "saksa": "Weib an Bord bringt Unglück.",
+  "tolge": "Naine pardal toob õnnetust.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Weiter … runter.",
   "tolge": "„Edasi … alla.”",
   "peatukid": [
@@ -1184,10 +1275,31 @@
   ]
  },
  {
+  "saksa": "Welche Ersatzteile können Sie liefern?",
+  "tolge": "Milliseid varuosi saate te tarnida?",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Wenn der Junge geht, muss ein anderer seine Wache mit übernehmen. Ich kann die Leute nicht länger arbeiten lassen, als sie auf den Beinen bleiben. Er kennt die Maschine. Ich habe keinen zweiten Mann wie ihn.",
   "tolge": "„Kui poiss läheb, peab keegi teine ka tema vahikorra üle võtma. Ma ei saa lasta meestel kauem töötada, kui nad jalul püsivad. Ta tunneb seda masinat. Mul ei ole teist temasugust meest.”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Wer für einen anderen abholt, nennt auch dessen Namen. Die Portionen für die Wache bleiben zugedeckt hier. Dann muss niemand später die Reste zusammenkratzen.",
+  "tolge": "Kes teisele toitu viib, ütleb ka tema nime. Vahis olijate portsjonid jäävad siia kaane alla. Siis ei pea keegi hiljem riismeid kokku kraapima.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
+  "saksa": "Wer hat Ihnen gesagt, dass wir hier liegen? Und in wessen Auftrag sind Sie gekommen?",
+  "tolge": "Kes teile ütles, et me siin oleme? Ja kelle ülesandel te tulite?",
+  "peatukid": [
+   "VI"
   ]
  },
  {
@@ -1233,10 +1345,31 @@
   ]
  },
  {
+  "saksa": "Wir gehen auf Grund. Keine weiteren Arbeiten an Deck. Die Leute sollen schlafen, sobald wir unten sicher liegen.",
+  "tolge": "Laskume põhjale. Tekil rohkem tööd ei tehta. Niipea kui oleme all kindlalt paigas, lähevad mehed magama.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
   "saksa": "Wir gehen nach Schweden.",
   "tolge": "„Me läheme Rootsi.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Wir haben Wache gehabt, während die anderen gegessen haben. Jetzt sind wir da, und der Topf ist leer. So war es gestern auch.",
+  "tolge": "Me olime vahis, kui teised sõid. Nüüd oleme siin ja pott on tühi. Eile oli samamoodi.",
+  "peatukid": [
+   "VI"
+  ]
+ },
+ {
+  "saksa": "Wir können Ersatzteile und Lebensmittel beschaffen. Auch Leute für die Arbeiten, die Ihre Besatzung allein nicht schafft.",
+  "tolge": "Me saame hankida varuosi ja toiduaineid. Samuti inimesi tööde jaoks, millega teie meeskond üksi toime ei tule.",
+  "peatukid": [
+   "VI"
   ]
  },
  {

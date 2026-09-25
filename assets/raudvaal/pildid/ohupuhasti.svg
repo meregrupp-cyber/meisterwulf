@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="700" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Miks hapnikuballoonist üksi ei piisanud</title>
+  <desc id="d">Läbilõige nelja padruniga õhupuhastist, nooled näitavad õhu liikumist ruumist läbi padrunite tagasi ruumi; kõrval hapnikuballoon oma ühendustoruga.</desc>
+  <defs>
+    <marker id="s1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#8a1c1c"/></marker>
+    <marker id="s2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#1f4e79"/></marker>
+    <marker id="s3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#2e6b2e"/></marker>
+  </defs>
+  <rect width="700" height="360" fill="#f4ead2"/>
+  <!-- surverõngas / kere piir: ruum on suletud -->
+  <rect x="14" y="14" width="672" height="292" rx="60" fill="none" stroke="#2b1d10" stroke-width="4" stroke-dasharray="14 8"/>
+  <text x="40" y="44" font-family="Georgia, serif" font-size="14" fill="#2b1d10">paadi siseruum vee all: välisõhuga ühendust ei ole</text>
+  <!-- puhasti korpus -->
+  <rect x="70" y="120" width="330" height="110" rx="6" fill="#d9c393" stroke="#5a3f16" stroke-width="2"/>
+  <text x="235" y="110" font-family="Georgia, serif" font-size="15" fill="#2b1d10" text-anchor="middle">õhupuhasti (Kalipatrone)</text>
+  <!-- ventilaator -->
+  <circle cx="105" cy="175" r="22" fill="#f4ead2" stroke="#5a3f16" stroke-width="2"/>
+  <path d="M105 175l0-16M105 175l14 8M105 175l-14 8" stroke="#5a3f16" stroke-width="3"/>
+  <text x="105" y="250" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">ventilaator</text>
+  <!-- neli padrunit -->
+  <g fill="#e8e0c8" stroke="#5a3f16" stroke-width="2">
+    <rect x="150" y="135" width="50" height="80" rx="4"/><rect x="210" y="135" width="50" height="80" rx="4"/>
+    <rect x="270" y="135" width="50" height="80" rx="4"/><rect x="330" y="135" width="50" height="80" rx="4"/>
+  </g>
+  <g fill="#b59a5c" opacity=".8">
+    <circle cx="165" cy="150" r="3"/><circle cx="185" cy="160" r="3"/><circle cx="170" cy="180" r="3"/><circle cx="188" cy="198" r="3"/><circle cx="160" cy="205" r="3"/>
+    <circle cx="225" cy="150" r="3"/><circle cx="245" cy="160" r="3"/><circle cx="230" cy="180" r="3"/><circle cx="248" cy="198" r="3"/><circle cx="220" cy="205" r="3"/>
+    <circle cx="285" cy="150" r="3"/><circle cx="305" cy="160" r="3"/><circle cx="290" cy="180" r="3"/><circle cx="308" cy="198" r="3"/><circle cx="280" cy="205" r="3"/>
+    <circle cx="345" cy="150" r="3"/><circle cx="365" cy="160" r="3"/><circle cx="350" cy="180" r="3"/><circle cx="368" cy="198" r="3"/><circle cx="340" cy="205" r="3"/>
+  </g>
+  <text x="265" y="250" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">neli padrunit naatriumhüdroksiidiga: seovad süsihappegaasi (CO₂)</text>
+  <!-- õhu tee: ruumist sisse, läbi padrunite, tagasi ruumi -->
+  <path d="M40 175 H80" stroke="#8a1c1c" stroke-width="3" fill="none" marker-end="url(#s1)"/>
+  <text x="18" y="164" font-family="Georgia, serif" font-size="12" fill="#8a1c1c">ruumi õhk</text>
+  <text x="18" y="196" font-family="Georgia, serif" font-size="12" fill="#8a1c1c">CO₂-ga</text>
+  <path d="M135 175 H148" stroke="#8a1c1c" stroke-width="3" fill="none" marker-end="url(#s1)"/>
+  <path d="M200 175 H208M260 175 H268M320 175 H328" stroke="#8a1c1c" stroke-width="3" fill="none" marker-end="url(#s1)"/>
+  <path d="M382 175 H430" stroke="#1f4e79" stroke-width="3" fill="none" marker-end="url(#s2)"/>
+  <text x="392" y="164" font-family="Georgia, serif" font-size="12" fill="#1f4e79">puhastatud õhk</text>
+  <text x="392" y="196" font-family="Georgia, serif" font-size="12" fill="#1f4e79">tagasi ruumi</text>
+  <!-- ring tagasi -->
+  <path d="M440 175 C520 175 520 80 300 80 C120 80 60 80 40 150" stroke="#1f4e79" stroke-width="2" fill="none" stroke-dasharray="6 5" opacity=".6"/>
+  <!-- hapnikuballoon -->
+  <rect x="560" y="120" width="44" height="130" rx="20" fill="#2e6b2e" stroke="#1d4a1d" stroke-width="2"/>
+  <rect x="574" y="104" width="16" height="18" fill="#1d4a1d"/>
+  <path d="M582 104 V90 H470 V130" stroke="#2e6b2e" stroke-width="3" fill="none" marker-end="url(#s3)"/>
+  <text x="582" y="272" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">hapnikuballoon (O₂)</text>
+  <text x="582" y="290" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">lisab hapnikku,</text>
+  <text x="582" y="306" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">CO₂ ei eemalda</text>
+  <text x="470" y="150" font-family="Georgia, serif" font-size="12" fill="#2e6b2e" text-anchor="middle">O₂ juurde</text>
+  <text x="20" y="335" font-family="Georgia, serif" font-size="14" fill="#5a3f16">Kaks eri ülesannet: hapnikku lisada (balloon) ja süsihappegaasi eemaldada (padrunid). Skeem VIIC käsiraamatu (1940) järgi. Joonis: meisterwulf.com.</text>
+</svg>
