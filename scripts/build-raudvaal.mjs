@@ -65,13 +65,13 @@ function protectedRanges(text) {
   return r;
 }
 function inRange(ranges, i) { return ranges.some(([a, b]) => i >= a && i < b); }
-function applyDictionary(body, dict, stats) {
+function applyDictionary(body, dict, stats, once, forms) {
   const entries = [...dict].filter((e) => e.saksa && e.tolge).sort((a, b) => b.saksa.length - a.saksa.length);
   for (const e of entries) {
     const ranges = protectedRanges(body);
     let out = "", pos = 0, count = 0;
     let idx = body.indexOf(e.saksa);
-    while (idx !== -1) {
+    while (idx !== -1 && !(once && count)) {
       let end = idx + e.saksa.length;
       const ok = !isWordChar(body[idx - 1]) && !inRange(ranges, idx) && !inRange(ranges, end - 1);
       if (ok && e.liik === "sona") {                        /* eesti käändelõpp jääb mulli sisse */
@@ -80,6 +80,7 @@ function applyDictionary(body, dict, stats) {
       }
       if (ok && !isWordChar(body[end])) {
         out += body.slice(pos, idx) + "[[" + body.slice(idx, end) + "||" + e.tolge + "]]";
+        if (forms) forms.push(`${e.saksa} → ${body.slice(idx, end)}`);
         pos = end; count++;
       }
       idx = body.indexOf(e.saksa, end);
@@ -168,6 +169,7 @@ const lisad = existsSync(lisadPath) ? JSON.parse(readFileSync(lisadPath, "utf8")
 const lisaTerms = lisad.filter((e) => e.saksa);
 const lisaMarkers = lisad.filter((e) => e.marker);
 const lisaStats = new Map();
+const lisaForms = [];
 const LISA = "\u0002";                              /* [[tekst||\u0002N]] = lisamull nr N */
 const hoiatused = [];
 function lisaFail(kind, name) {
@@ -222,7 +224,9 @@ for (const p of reg.peatukid) {
 
   const bubbles = [];
   let marked = applyDictionary(body, dict, dictStats);
-  marked = applyDictionary(marked, lisaTerms.map((e, i) => ({ saksa: e.saksa, liik: e.liik || "sona", tolge: LISA + i })), lisaStats);
+  const forms = [];
+  marked = applyDictionary(marked, lisaTerms.map((e, i) => ({ saksa: e.saksa, liik: e.liik || "sona", tolge: LISA + i })), lisaStats, true, forms);   /* lisamull: esimene esinemine peatükis */
+  if (forms.length) lisaForms.push(`${p.number || "Proloog"}: ` + forms.join("; "));
   for (const q of unmarkedGerman(marked)) kontrolli.push(`${p.number || "Proloog"}: „${q}”`);
   CUR = { ord: p.ord, number: p.number, markersUsed: new Set() };
   const html = toHtml(marked, bubbles);
@@ -268,4 +272,5 @@ console.log(`Tõlkesõnastik: ${dict.length} kirjet, ${[...dictStats.values()].r
 const lisaUnused = [...lisaStats.entries()].filter(([k, n]) => n === 0).map(([k]) => lisaTerms[Number(k.length ? lisaTerms.findIndex((e) => e.saksa === k) : -1)]).filter(Boolean).map((e) => e.saksa);
 console.log(`Lisamullid: ${lisaTerms.length} sõnakirjet (${[...lisaStats.values()].reduce((a, b) => a + b, 0)} mulli), ${lisaMarkers.length} autori infomulli` + (lisaUnused.length ? `; EI ESINE kuskil: ${lisaUnused.map((u) => "„" + u + "”").join(", ")}` : ""));
 if (hoiatused.length) console.log("HOIATUS: puuduvad failid: " + [...new Set(hoiatused)].join(", "));
+if (process.env.RAUDVAAL_VORMID) for (const f of lisaForms) console.log("  lisamullide vormid " + f);
 if (kontrolli.length) { console.log(`KONTROLLI: ${kontrolli.length} saksapärast tsitaati ilma mullita (lisa content/${RAAMAT}/saksa-tolked.json faili):`); for (const k of kontrolli) console.log("  " + k); }

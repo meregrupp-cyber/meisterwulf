@@ -490,6 +490,13 @@
   ]
  },
  {
+  "saksa": "Ja.",
+  "tolge": "„Jah.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Ja. Russische Marine. Als Taucher.",
   "tolge": "„Jah. Vene merevägi. Tuukrina.”",
   "peatukid": [
@@ -813,10 +820,24 @@
   ]
  },
  {
+  "saksa": "Niemand.",
+  "tolge": "„Mitte keegi.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Noch einmal?",
   "tolge": "„Veel kord?”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Noch nicht.",
+  "tolge": "„Veel mitte.”",
+  "peatukid": [
+   "V"
   ]
  },
  {

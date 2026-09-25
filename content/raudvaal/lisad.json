@@ -131,5 +131,557 @@
   "markused": [
    "Salvestatava heli kirjeldus. Rootsi emakeelega mees loeb hüüu kaks korda sisse, vahepeal lühike kuulamispaus. Hääl kostab üle vee, taustal tasane väikese laevamootori hääl. Kõnetoon on küsiv ja valvas. Kestus umbes 8–12 sekundit. See oleks romaani jaoks loodud helilavastus; valmis ajaloolist salvestist ei ole kasutatud."
   ]
+ },
+ {
+  "saksa": "Norra",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Norra 1945",
+  "tekst": "Saksamaa okupeeris Norra 1940. aasta aprillis ja hoidis seda kuni kapitulatsioonini 1945. aasta mais. Norra sadamad (Bergen, Trondheim, Kristiansand, Horten) olid Saksa mereväe baasid; Bergenisse ja Trondheimi ehitati allveelaevadele betoonpunkrid. Sõja viimastel kuudel, kui Saksamaa enda sadamaid pommitati, koondus allveelaevade tegevus üha enam Norrasse.",
+  "pohjendus": "I ptk: sihtkoht kõlab esimest korda eesti dialoogis; lugeja peaks teadma, miks paadid just Norrasse lähevad. Avaneb sama sisuga ka hilisemates peatükkides."
+ },
+ {
+  "saksa": "pimenduspapi",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Pimendus",
+  "tekst": "Saksamaal kehtis alates 1939. aasta septembrist üldine pimenduskohustus: aknad kaeti öösel papi, paberi või paksude kardinatega, tänavalaternad kustutati ja autotuled varjati. Eesmärk oli raskendada pommituslennukitel linnade leidmist; rikkumise eest karistati.",
+  "pohjendus": "I ptk: selgitab, miks akna ees on papp ja miks tänavad hiljem pimedad on."
+ },
+ {
+  "saksa": "varjend",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Õhukaitsevarjend",
+  "tekst": "Pidevate õhurünnakute tõttu ehitati Kieli suuri betoonist õhukaitsevarjendeid, sealhulgas mitmekorruselisi kõrgpunkreid. Varjendite sissepääsud märgiti majaseintele valgete, sageli helendava värviga nooltega, et neid leiaks ka pimenduses.",
+  "pohjendus": "I ptk: varjend ja valge nool seinal tulevad peatükis mitu korda ette ilma selgituseta."
+ },
+ {
+  "saksa": "läbipääsuloaga",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Läbipääsuluba",
+  "tekst": "Sõjaaegsel Saksamaal olid sadamad, laevatehased ja mereväe alad keelutsoonid, kuhu pääses ainult võimude väljastatud läbipääsuloaga (Passierschein). Pabereid kontrolliti tänavapatrullides ja kontrollpostidel, sõja lõpukuudel eriti hoolikalt.",
+  "pohjendus": "I ptk: lubade, kontrollpostide ja värava tähendus saab selgeks ühe lühikese selgitusega. Ankur tekstis esinevas vormis, sest algvorm „läbipääsuluba” peatükis ei esine."
+ },
+ {
+  "saksa": "Rannas",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "1944. aasta suur põgenemine",
+  "tekst": "1944. aasta sügisel lahkus Nõukogude vägede pealetungi eest Eestist hinnanguliselt 70 000–80 000 inimest: paatidega üle mere Rootsi ja laevadega Saksamaale. Saksamaale jõudnud põgenikud paigutati laagritesse ja korteritesse ning rakendati tööle.",
+  "pohjendus": "I ptk: tagasivaade rannale ja paadile viitab põgenemisele, mille ajaloolist tausta noorem või välismaine lugeja ei pruugi teada."
+ },
+ {
+  "saksa": "rusuhunnik",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Pommitatud Kiel",
+  "tekst": "1945. aasta kevadeks oli Kiel – Saksa mereväe peamine Läänemere baas ja allveelaevade ehituskeskus – kümnete õhurünnakute järel suures osas varemeis. Rusud lükati tänavaservadesse, et liikumisteed vabaks jääksid.",
+  "pilt_otsing": "Kiel 1945 ruins bomb damage street",
+  "pilt_kirjeldus": "Kieli purustatud elamukvartal või tänav 1945. aastal: rusuhunnikud, seinteta majad, inimesed jalgsi; eelistatult mitte sadama- ega laevatehase vaade. Sobivad Bundesarchivi või Imperial War Museumi (mai 1945) fotod, mis on Commonsis vabad.",
+  "pildi_allkiri": "Pommitatud Kiel 1945 – ajastu võrdluspilt.",
+  "pohjendus": "I ptk: foto näitab tänavapilti, mida tekst kirjeldab ainult detailide kaudu; kuna „Kiel” I peatüki narratiivis ei esine, kannab see mull ka linna sõjaaegse tähenduse (linna enda selgitus on II ptk sõna „Kiel” all)."
+ },
+ {
+  "saksa": "metallist silti",
+  "liik": "lause",
+  "tyyp": "pilt",
+  "pealkiri": "Sõjaväepolitsei rinnasilt",
+  "tekst": "Saksa sõjaväepolitsei (Feldgendarmerie) kandis teenistuses keti otsas kaelas poolkuukujulist metallist rinnasilti (Ringkragen), mille kiri helendas pimedas. Silt näitas, et kandjal on õigus pabereid kontrollida ja inimesi kinni pidada.",
+  "pilt_otsing": "Feldgendarmerie gorget Ringkragen chain",
+  "pilt_kirjeldus": "Feldgendarmerie poolkuukujuline metallsilt (Ringkragen) keti otsas – museaal lähivaates või ajastufoto sõjaväepolitseinikust, kellel silt rinnal näha.",
+  "pildi_allkiri": "Sõjaväepolitsei rinnasilt ketiga – ajastu võrdluspilt.",
+  "pohjendus": "I ptk: sildi kõlin on stseenis oluline; pilt näitab, mis see ese oli. Hüüdnimi on eraldi mullis „ketikoer”."
+ },
+ {
+  "saksa": "ketikoer",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "„Ketikoerad”",
+  "tekst": "„Ketikoerteks” (Kettenhunde) kutsuti rahvasuus Saksa sõjaväepolitseid selle keti järgi, millega ta kaelas metallist rinnasilti kandis. Sõja viimastel kuudel kontrollisid nad tänavatel, jaamades ja sadamates pabereid ning otsisid deserteerunuid.",
+  "pohjendus": "I ptk: hüüdnimi jääb ilma selgituseta arusaamatuks; lühike, et mitte korrata rinnasildi pildimulli."
+ },
+ {
+  "saksa": "kingaliist",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Kingaliistud",
+  "tekst": "Liist on jala kuju järgi tehtud puust vorm, mille ümber king või saabas ehitatakse. Meister hoidis püsiklientide jaoks sageli isiklikke liiste, mis olid tema töö alus.",
+  "pilt_otsing": "wooden shoe last shoemaker workshop",
+  "pilt_kirjeldus": "Puust kingaliistud (jalakujulised vormid), soovitavalt vanad ja kulunud, üksikult või töökoja riiulil; mitte tänapäevased plastliistud.",
+  "pildi_allkiri": "Kingsepa puust liistud – ajastu võrdluspilt.",
+  "pohjendus": "I ptk: liistud on peatüki läbiv motiiv, mida linnalugeja ei pruugi ette kujutada."
+ },
+ {
+  "saksa": "pikk hall selg",
+  "liik": "lause",
+  "tyyp": "pilt",
+  "pealkiri": "VII tüüpi allveelaev",
+  "tekst": "Saksa VII tüüpi allveelaev oli sõja kõige arvukam paaditüüp: umbes 67 meetrit pikk, veepinnal madal ja kitsas, nii et kai äärest paistab peamiselt tekk ja torn. Muuseumipaat U-995 seisab tänini Laboe rannal Kieli lahe suudmes.",
+  "pilt_otsing": "U-995 Laboe Type VIIC submarine side view",
+  "pilt_kirjeldus": "VIIC tüüpi allveelaev küljelt: madal tekk, torn keskel, torni taga relvaplatvorm; sobib muuseumipaat U-995 Laboes või ajastufoto paadist kai ääres.",
+  "pildi_allkiri": "VIIC-tüüpi allveelaev U-995 Laboe rannal – ajastu võrdluspilt.",
+  "pohjendus": "I ptk: lugeja näeb paati esimest korda koos tegelastega; foto annab mõõtkava. Torni ja silla lähivaade on eraldi mullis „torn” (II ptk)."
+ },
+ {
+  "saksa": "püstist jämedat toru",
+  "liik": "lause",
+  "tyyp": "pilt",
+  "pealkiri": "Šnorklimast",
+  "tekst": "Püsti tõstetud šnorklimast seisab torni kõrval; tipus on õhuvõtupea ujukklapiga, mis sulgub, kui laine pea üle käib. Pinnalsõidul lasti mast tekile alla, kus see lebas tekisüvendis.",
+  "pilt_otsing": "U-boat Schnorchel mast raised Type VII",
+  "pilt_kirjeldus": "Allveelaeva torni kõrval püsti tõstetud šnorklimast, tipus tömp õhuvõtupea; VII või IX tüüpi paat, ajastufoto või muuseumivaade. Kui püstitatud masti fotot ei leidu, sobib ka U-995 tekile langetatud mast, kui masti kuju on selgelt näha.",
+  "pildi_allkiri": "Šnorklimast VIIC-tüüpi allveelaeval – ajastu võrdluspilt.",
+  "pohjendus": "I ptk: Taaniel ei tunne toru ära; pilt näitab, mida ta nägi. Šnorkli pea lähivaade on eraldi mullis „Klapp” (III ptk)."
+ },
+ {
+  "saksa": "Šnorkel",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Šnorkel",
+  "tekst": "Šnorkel on tõstetav toru, mis laseb allveelaeval periskoobisügavusel diislitega sõita ja akusid laadida, ilma et paat peaks pinnale tõusma. Idee pärines Hollandi mereväest; Saksa paatidele hakati seda paigaldama 1944. aastal, kui liitlaste lennukid ja radar muutsid pinnalsõidu eluohtlikuks.",
+  "pohjendus": "I ptk: saatja lause ütleb ainult, milleks toru on; taust ütleb, miks see 1945. aastal elutähtis oli. Sõna on eesti dialoogis, mitte saksa tsitaadis. III ptk trükivorm „Šnorkli” (tüvemuutus) selle ankruga ei kattu – III ptk vajalik osa (klapi sulgumine ja rõhulangus) on viidud mulli „Klapp”."
+ },
+ {
+  "saksa": "undamine",
+  "liik": "sona",
+  "tyyp": "heli",
+  "pealkiri": "Undamine paadi seest",
+  "tekst": "Kai ääres seisval allveelaeval töötavad sisemuses ventilaatorid, pumbad ja muud elektriseadmed ka siis, kui diislid seisavad. Pardal olles kuuldi seda madalat ühtlast heli pidevalt.",
+  "heli_allkiri": "Heliillustratsioon: allveelaeva sisemusest kostev elektrimasinate madal ühtlane undamine.",
+  "pohjendus": "I ptk: tekst kirjeldab heli, mis stseenis kostab („madal ühtlane undamine”), ja see on peatüki ainus laeva enda hääl; menüüst sobib ainult elektrimasinate undamine.",
+  "heli_id": "emootor",
+  "heli": "emootor.mp3"
+ },
+ {
+  "saksa": "torn",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Allveelaeva torn ja sild",
+  "tekst": "VII tüüpi allveelaev oli Saksa mereväe kõige arvukam paaditüüp, umbes 67 meetrit pikk ja 6 meetrit lai; torn on paadi ainus kõrgem osa, mille peal on avatud sild vahimeestele ja selle taga madala reelinguga õhutõrjeplatvorm. Sillal on korraga neli-viis meest, igaüks oma vaatesektoriga; Laboes Kieli lahe ääres seisab muuseumina viimane säilinud VIIC-paat U-995.",
+  "pilt_otsing": "U-995 Laboe conning tower deck",
+  "pilt_kirjeldus": "Muuseumipaat U-995 Laboes väljastpoolt, torn küljelt või tagant nii, et näha on avatud sild koos redeli või luugiga, periskoobid, torni taga madala reelinguga õhutõrjeplatvorm kahuriga ja kitsas ülemine tekk.",
+  "pildi_allkiri": "VIIC-tüüpi allveelaeva torn ja õhutõrjeplatvorm, muuseumipaat U-995 Laboes – ajastu võrdluspilt.",
+  "pohjendus": "II ja IV ptk pakkusid sama ankrut; liidetud üheks (II ptk rida 18). Lugeja näeb, kui kitsas ja kõrge on paat, kus sillavahtkond seisab ja kust mees IV peatükis üle parda kaob. Sõna esineb ka I, III ja V peatükis."
+ },
+ {
+  "saksa": "rõhumõõtja",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Allveelaeva keskruum",
+  "tekst": "Torni all asus keskruum ehk tsentraal (Zentrale), kust juhiti sukeldumist ja rooli ning kus olid koos sügavus- ja rõhumõõturid, ventiilide käsirattad, periskoop ja kaardilaud. Sealt kulges läbipääs vööri ja ahtri poole.",
+  "pilt_otsing": "U-995 control room Zentrale interior gauges valves",
+  "pilt_kirjeldus": "U-995 või mõne teise VIIC-paadi keskruumi sisevaade: ümmargused mõõteriistad, ventiilide käsirattad, torud lae all ja ümmargune vaheseinaluuk.",
+  "pildi_allkiri": "Ajastu võrdluspilt: VIIC-tüüpi allveelaeva keskruum U-995 pardal – mõõturid, ventiilirattad ja ümmargune läbipääs.",
+  "pohjendus": "II ptk: Taaniel kirjeldab ruumi nimede järgi tundmata; pilt näitab, mida ta näeb. V ptk pakutud sama ruumi pilt „tsentraal” jäetud kordusena välja; IV ptk „sügavusnäidik” näitab sama ruumi teise, stseenile olulise nurga alt."
+ },
+ {
+  "saksa": "Kaptenleitnant",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Kaptenleitnant",
+  "tekst": "Kapitänleutnant oli Saksa mereväe ohvitseri auaste, mis vastas maaväe kaptenile. Sõja lõpuaastail juhtisid allveelaevu enamasti kaptenleitnandid või neist astme võrra madalamad vanemleitnandid (Oberleutnant zur See); meeskond kutsus komandöri kõnekeeles „Kaleun”.",
+  "pohjendus": "II ptk: lugeja kohtub komandöriga esimest korda ja auastme kaal laeval vajab konteksti."
+ },
+ {
+  "saksa": "Kroonlinn",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Kroonlinn",
+  "tekst": "Kroonlinn (Kronstadt) on merekindlus ja mereväebaas Kotlini saarel Peterburi ees, Vene Balti laevastiku peabaas alates 18. sajandist; tsaariajal teenis Balti laevastikus palju eestlasi. Kroonlinnas tegutses 1882. aastast Venemaa esimene tuukrikool, kus õpetati tööd raskes vasest kiivriga skafandris, millele pumpasid õhku pinnalt käsipumba juures mitu meest.",
+  "pohjendus": "II ja III ptk pakkusid sama ankrut; liidetud (II ptk rida 102). Selgitab, kus ja millisel taustal Taaniel on tuukriametit pidanud; III ptk vihje voolikule ja kiivrile saab sama mulliga taustaks."
+ },
+ {
+  "saksa": "Erivedu",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Sondertransport",
+  "tekst": "Sondertransport ehk erivedu tähendab saksa asjaajamiskeeles tavapärasest korrast väljaspool toimuvat vedu, mille jaoks vormistati eraldi luba. Sõja lõpul vedasid Saksa allveelaevad Läänemerel mõnikord ka reisijaid ja tsiviilisikuid, kuid see jäi erandiks ja nõudis eraldi otsust.",
+  "pohjendus": "II ptk: loa ja templi tähendus jääb ilma lühikese selgituseta hämaraks."
+ },
+ {
+  "saksa": "torpeedo",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Torpeedo",
+  "tekst": "Saksa allveelaevade standardtorpeedo G7 oli 53,3 cm läbimõõduga, veidi üle seitsme meetri pikk ja kaalus umbes poolteist tonni. VII tüüpi paat võttis tavaliselt kaasa 14 torpeedot: viis torudes ja ülejäänud varuks, osa neist vööriruumis põrandaplaatide all ning koide all ja kõrval; sadamas laaditi ja vahetati torpeedosid kraana ning kaldus laadimisrööbaste abil läbi tekiluugi.",
+  "pohjendus": "II ja III ptk pakkusid sama ankrut; liidetud (II ptk rida 110). Aitab mõista, miks magatakse torpeedode kohal, ja annab III ptk arvule „neliteist” ning laadimise vaevalisusele tehnilise tausta. Esineb ka IV ja V peatükis."
+ },
+ {
+  "saksa": "vööriruum",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Vööri torpeedoruum",
+  "tekst": "VII tüüpi paadi vööriruum oli ühtaegu torpeedoruum ja meeskonna magamiskoht: seal olid neli torpeedotoru ja varutorpeedod, koid rippusid üksteise kohal, osa neist otse torpeedode peal, ning põrand oli vahel torpeedode tõttu tõstetud.",
+  "pilt_otsing": "U-995 bow torpedo room bunks torpedo tubes Laboe",
+  "pilt_kirjeldus": "Muuseumipaadi U-995 (Laboe) või mõne teise VIIC-paadi vööriruumi sisevaade: torpeedotorude luugid, kitsad rippkoid mitmes kihis ja põrandal või koide all lamav varutorpeedo või selle kinnitused.",
+  "pildi_allkiri": "Ajastu võrdluspilt: U-995 vööriruum – koid torpeedode kohal.",
+  "pohjendus": "II ja III ptk pakkusid sama pilti (III ptk suure algustähega „Vööriruum”); liidetud väiketähelise ankru alla (II ptk rida 110), mis esineb ka III ja IV peatükis. Ruum, kus reisijad kogu sõidu veedavad, tasub lugejale näidata."
+ },
+ {
+  "saksa": "Tallinn",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Baltisakslaste ümberasumine 1939",
+  "tekst": "Pärast Saksa-Nõukogude pakti kutsus Saksamaa 1939. aasta sügisel baltisakslased „koju riiki” (heim ins Reich). Oktoobrist detsembrini lahkus Eestist laevadega, peamiselt Tallinna sadamast, ligi 14 000 inimest; enamik asustati Saksamaa poolt annekteeritud Poola aladele.",
+  "pohjendus": "II ptk: annab ajaloolise tausta sügisesele lahkumisele Tallinna kailt."
+ },
+ {
+  "saksa": "Mürwik",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Mürwiki mereväekool",
+  "tekst": "Marineschule Mürwik Flensburgi fjordi kaldal on Saksa mereväe ohvitseride kool, mis avati 1910. aastal ja mida punase tellishoone järgi kutsutakse „punaseks lossiks mere ääres”. Sealt käis läbi enamik Kriegsmarine allveelaevaohvitsere.",
+  "pilt_otsing": "Marineschule Mürwik Flensburg building",
+  "pilt_kirjeldus": "Mürwiki mereväekooli punane tellishoone tornidega, soovitavalt fjordi või vee poolt vaadatuna; sobib nii ajalooline kui tänapäevane foto.",
+  "pildi_allkiri": "Mürwiki mereväekool Flensburgis, kus koolitati Saksa mereväe ohvitsere.",
+  "pohjendus": "II ptk: selgitab, kus Otto ohvitseriks õppis."
+ },
+ {
+  "saksa": "saatelaev",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Saatelaev",
+  "tekst": "Läänemerel, Taani väinades ja Norra rannikul liikusid Saksa allveelaevad 1945. aastal sadamate lähedal saatelaeva – harilikult miinitraaleri, valvelaeva või eelpostilaeva (Vorpostenboot) – kaitse all, sest madalas ja mineeritud vees said nad ohu korral harva sukelduda ning pinnal sõitev paat oli lennukitele ja vaenlase allveelaevadele kerge sihtmärk. Saatelaev juhatas paadi läbi miinitõkete ja tõkkepuomide; konvoi juht (Geleitführer) määras kursi ja kiiruse.",
+  "pohjendus": "II ja III ptk pakkusid sama ankrut; liidetud (II ptk rida 176). Selgitab, miks allveelaev sõidab teise laeva järel ja kelle käsku ta järgib, ning III ptk väljumise kiirustamist. III ptk trükivorm on lause alguses „Saatelaev” (suur algustäht), mida see ankur ei kata."
+ },
+ {
+  "saksa": "Kiel",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Kiel 1945",
+  "tekst": "Kiel oli Saksa mereväe tähtsaim Läänemere baas ja suurte allveelaevatehaste linn. Sõja viimastel kuudel oli linn liitlaste pommitamisest suures osas varemeis ja sadamas seisis uppunud ning vigastatud laevu; paljud allveelaevad viidi sealt 1945. aasta kevadel Norra baasidesse.",
+  "pohjendus": "II ptk: lugeja vajab pilti sellest, millisest sadamast ja olukorrast lahkutakse. Linna tänavapilt on I ptk pildimullis „rusuhunnik”."
+ },
+ {
+  "saksa": "traaler",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Miinitraalerid ja traalitud faarvaater",
+  "tekst": "Läänemeri ja Taani väinad olid sõja lõpuks tihedalt mineeritud, sealhulgas liitlaste lennukitelt heidetud miinidega. Laevad liikusid seetõttu kitsastes traalitud faarvaatrites, mille miinitraalerid ees puhastasid; kaardile märgitud ribast kõrvalekaldumine tähendas miiniohtu.",
+  "pohjendus": "II ptk: ilma selleta jääb arusaamatuks, miks paat ei tohi kaardil ribast välja sõita."
+ },
+ {
+  "saksa": "diisli",
+  "liik": "sona",
+  "tyyp": "heli",
+  "pealkiri": "Diislid",
+  "tekst": "Pinnal sõites töötasid VII tüüpi allveelaeval kaks diiselmootorit, mis ühtlasi laadisid vee all sõitmiseks akusid; nende müra ja värin olid tunda läbi kogu kere. Sukeldudes lülituti vaiksematele elektrimootoritele; šnorkliga sõites töötasid diislid periskoobisügavusel ja tõmbasid õhku läbi toru.",
+  "heli_allkiri": "Heliillustratsioon: allveelaeva diiselmootorite müra pinnal sõites.",
+  "pohjendus": "II, III, IV ja V ptk pakkusid kõik diislite heli (ankrud „diislite”, „Diislid”, „diisli”); liidetud üheks. Algvorm „diisel” tekstis ei esine, seepärast ankur „diisli”, mis katab II ptk „diislite” (rida 186), IV ptk „diisliga” ja V ptk „diisli”; III ja IV ptk lause alguses olev „Diislid” jääb suure algustähe tõttu katmata. „diislikütuse” (II ptk rida 60) ankur ei haara, sest lubatud käändelõpp on kuni viis tähte.",
+  "heli_id": "diesel",
+  "heli": "diesel.mp3"
+ },
+ {
+  "saksa": "sanitar",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Sanitar allveelaeval",
+  "tekst": "Saksa VII tüüpi allveelaevadel arsti tavaliselt ei olnud. Meeskonna tervise eest vastutas lühikese meditsiiniõppe saanud allohvitser ehk sanitar (Sanitätsmaat), kelle käsutuses olid sidemed, valuvaigistid ja väike ravimikapp; raskete haavade puhul olid tema võimalused piiratud ning haavatu tuli võimaluse korral üle anda kaldale või suuremale laevale.",
+  "pohjendus": "II, IV ja V ptk pakkusid sama ankrut; liidetud (II ptk rida 346). Selgitab, miks haavatute ja alajahtunute eest hoolitseb üks madrus, miks komandöri haav IV peatükis piirab kõiki otsuseid ja miks V peatükis ravib sanitar komandöri jalga ja hambaid. Väiketäheline vorm esineb kõigis peatükkides II–V."
+ },
+ {
+  "saksa": "Vaneminsener",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Vaneminsener (LI)",
+  "tekst": "Leitender Ingenieur ehk LI oli allveelaeva vaneminsener, komandöri järel üks tähtsamaid ohvitsere. Tema vastutas masinate, ballastipaakide ja sukeldumise eest ning arvestas laeva trimmi: raskuse jaotus vööri ja ahtri vahel tuli enne sukeldumist tasakaalu viia, muidu ei püsinud paat vee all kontrolli all.",
+  "pohjendus": "II ptk: lugeja saab aru, miks insener loeb inimesi ja kaalu ning tohib päästetuid ümber paigutada."
+ },
+ {
+  "saksa": "Horten",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Horten",
+  "tekst": "Horten on väike linn Oslofjordi läänekaldal, kus asus Norra mereväe peabaas Karljohansvern koos laevatehase, dokkide, ladude ja töökodadega. Saksa okupatsiooni ajal 1940–1945 kasutas baasi Kriegsmarine allveelaevade remondiks, varustamiseks ja fjordis peetavateks õppusteks; sõja viimasel aastal käis sealt läbi palju Saksa allveelaevu.",
+  "pilt_otsing": "Karljohansvern Horten naval base harbour",
+  "pilt_kirjeldus": "Horteni sadam või Karljohansverni mereväebaas: kai, sadamahooned, dokid ja metsased rannad Oslofjordi kaldal; sobib ajalooline foto või tänapäevane vaade veelt või kõrgemalt võetud üldplaan.",
+  "pildi_allkiri": "Horteni mereväebaas Karljohansvern Oslofjordi läänekaldal – võrdluspilt.",
+  "pohjendus": "II ptk (pilt), III ptk (selgitus) ja V ptk (pilt) pakkusid sama ankrut; liidetud üheks pildimulliks, tekst III ptk selgitusest (II ptk rida 480). III ptk pakutud sama baasi teine pilt „Fjordis” jäetud kordusena välja. Sõna esineb peatükkides II–V."
+ },
+ {
+  "saksa": "akudele",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Allveelaeva akud",
+  "tekst": "Allveelaeva veealune käik sõltus suurtest plii-happeakudest – VII tüübi paadil oli kaks patareid kokku 124 elemendiga, mis kaalusid üle 60 tonni ja asusid põrandaplaatide all. Elementide vedelikutaset tuli pidevalt mõõta ning täita ainult destilleeritud veega, sest kraanivee mineraalid oleksid plaadid rikkunud.",
+  "pohjendus": "III ptk: selgitab, miks pudelivett nii hoolikalt valvatakse ja miks põrandaplaadid üles on võetud. Ankur trükitud vormis, sest algvorm „aku” peatükis ei esine; laadimise rütm on eraldi IV ptk mullis „akusid laadima”."
+ },
+ {
+  "saksa": "kraana",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Torpeedo laadimine",
+  "tekst": "Torpeedo lasti läbi tekiluugi kaldus rööbastel vööriruumi; iga vahetus tähendas kogu ruumi tühjendamist inimestest ja madratsitest.",
+  "pilt_otsing": "U-boat torpedo loading crane Bundesarchiv",
+  "pilt_kirjeldus": "Teise maailmasõja aegne foto: torpeedo ripub kraana otsas allveelaeva teki kohal või libiseb kaldus rööbastel luuki; meeskond kõrval.",
+  "pildi_allkiri": "Torpeedo laadimine Saksa allveelaevale kraana ja laadimisrööbaste abil – ajastu võrdluspilt.",
+  "pohjendus": "III ptk: kraana on lause „jääb kraana otsas korraks horisontaalselt õhku” keskne ese („kraanajuht” esineb ainult käändes); Bundesarchivi torpeedolaadimise fotod on Commonsis CC BY-SA litsentsiga."
+ },
+ {
+  "saksa": "Klapp",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Šnorkli pea",
+  "tekst": "Šnorkli pea ujukklapp sulgus automaatselt, kui laine toru otsa kattis. Diislid tõmbasid siis õhku paadi seest ja rõhk langes järsult – just see lõi meeskonnal kõrvad valusaks.",
+  "pilt_otsing": "U-995 Schnorchel head valve Laboe",
+  "pilt_kirjeldus": "Allveelaeva šnorkli masti ülemine ots koos ujukklapi ja väljalaskega, kas muuseumipaadil U-995 või ajastufotol; mast peab olema tuvastatav šnorklina, mitte periskoobina.",
+  "pildi_allkiri": "Šnorkli pea ujukklapiga muuseumipaadil U-995 Laboes – ajastu võrdluspilt.",
+  "pohjendus": "III ptk: seade, mida tekst nimetab, kuid mida lugeja pole tõenäoliselt näinud. Kuna III ptk trükivorm „Šnorkli” I ptk ankruga „Šnorkel” ei kattu, on stseeni füüsilise sündmuse – äkilise kõrvavalu – tehniline seletus toodud siia."
+ },
+ {
+  "saksa": "Vahiohvitser",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Vahiohvitser",
+  "tekst": "Vahiohvitser (Wachoffizier) juhtis allveelaeval kordamööda vahti sillal ning vastutas oma vahikorra ajal navigatsiooni ja vaatluse eest; VII tüübi paadil oli tavaliselt kaks vahiohvitseri, kellest esimene oli ühtlasi komandöri asetäitja ja juhtis pealveerünnakul torpeedolaskmist. Vahiohvitser andis masinakäske ja vastutas komandöri ees kogu vahikorra eest.",
+  "pohjendus": "III ptk: ametinimetus tuleb siin esimest korda ja peatüki lõpus mängib vahikord keskset rolli."
+ },
+ {
+  "saksa": "Kristiansand",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Kristiansand",
+  "tekst": "Kristiansand on Lõuna-Norra sadamalinn Skagerraki kaldal, Taani rannikust umbes 130 km kaugusel. Saksa okupatsiooni ajal 1940–1945 oli see Kriegsmarine tugipunkt, kus Norra ja Saksamaa vahel liikuvad allveelaevad sageli vahepeatuse ja varustuse võtmiseks sisse põikasid ning kust saatelaevad neid avamerele saatsid.",
+  "pilt_otsing": "Kristiansand harbour 1940s",
+  "pilt_kirjeldus": "Kristiansandi sadam ja linn Lõuna-Norras: kai, sadamabassein ja linna hooned; eelistatavalt 1940. aastate foto Saksa sõjalaevade või allveelaevadega kai ääres, sobib ka vanem ajalooline sadamavaade.",
+  "pildi_allkiri": "Kristiansandi sadam Lõuna-Norras Skagerraki ääres – ajastu võrdluspilt.",
+  "pohjendus": "III ptk (selgitus) ja V ptk (pilt) pakkusid sama ankrut; liidetud üheks pildimulliks (III ptk rida 154). Järgmine sihtkoht, mille kohta lugeja vajab kaardilist ettekujutust; V peatükis küsib Vogel korduvalt Kristiansandi pööramise järele. Esineb ka IV peatükis."
+ },
+ {
+  "saksa": "sillal",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Allveelaeva sild",
+  "tekst": "Allveelaeva sild on avatud vaatlusplatvorm torni otsas, kus vahiohvitser ja vaatlejad binoklitega pinnal sõidu ajal valvet pidasid.",
+  "pilt_otsing": "U-boat conning tower bridge lookouts binoculars Bundesarchiv",
+  "pilt_kirjeldus": "Teise maailmasõja aegne foto Saksa allveelaeva torni sillast: ohvitser ja vaatlejad binoklitega, tornirinnatis ja periskoobitoed nähtavad.",
+  "pildi_allkiri": "Vahiohvitser ja vaatlejad allveelaeva sillal – ajastu võrdluspilt.",
+  "pohjendus": "III ptk: kogu kaistseen vaadatakse tornist ja sillalt; erinevalt mullist „torn” (muuseumipaadi välisvaade) näitab see ajastufoto vahtkonda tööl."
+ },
+ {
+  "saksa": "Väejooks",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Väejooks",
+  "tekst": "Väejooksu (Fahnenflucht) eest nägi Saksa sõjaaegne sõjaväekriminaalõigus ette surmanuhtluse ning sõja viimastel kuudel viidi sõjakohtute otsused täide sageli mõne päeva jooksul. See puudutas ka Saksa relvajõududes teenivaid eestlasi.",
+  "pohjendus": "III ptk: süüdistuse raskus 1945. aasta kevadel ei ole tänasele lugejale iseenesest selge."
+ },
+ {
+  "saksa": "sadamakomandantuur",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Sadamakomandantuur",
+  "tekst": "Sadamakomandantuur (Hafenkommandantur) oli Kriegsmarine kohalik asutus okupeeritud sadamates, mis korraldas laevade sisse- ja väljasõitu, saatelaevu, lootse ja tõkkepuomide avamist ning andis välja väljumiskäske. Sõjalaev ei tohtinud sadamast lahkuda ilma komandantuuri kinnitatud ajata.",
+  "pohjendus": "III ptk: selgitab, miks ümbrikus saabunud paber kaalub üles võõra mehe nõudmise."
+ },
+ {
+  "saksa": "akusid laadima",
+  "liik": "lause",
+  "tyyp": "selgitus",
+  "pealkiri": "Akude laadimine",
+  "tekst": "Vee all liikus allveelaev elektrimootoritel, mida toitsid rasked pliiakud; neist jätkus aeglasel käigul kuni ööpäevaks. Laadida sai ainult diislitega, mis vajasid õhku, seepärast tõusti öösiti pinnale või sõideti šnorkliga periskoobisügavusel; laadimisest sõltus kogu paadi päevakord.",
+  "pohjendus": "IV ptk: selgitab, miks paat öösel pinnal on ja miks sellest sõltub kogu päevakord. Akude ehitus on III ptk mullis „akudele”, šnorkel I ptk mullis „Šnorkel”."
+ },
+ {
+  "saksa": "Skagerrak",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Skagerrak",
+  "tekst": "Skagerrak on väin Norra lõunaranniku ning Jüütimaa ja Rootsi lääneranniku vahel, mis ühendab Põhjamerd Kattegatiga; see on umbes 240 km pikk ja 80–140 km lai, Norra-poolses osas kuni 700 m sügav. 1945. aasta kevadel oli see Saksamaa ja Norra vahelise laevaliikluse peamine tee ning Briti õhujõudude rannikuväejuhatus ründas seal Norra poole ja tagasi liikuvaid allveelaevu.",
+  "pohjendus": "IV ptk: peatüki toimumispaik; ajalooline taust rünnaku tõenäosusele."
+ },
+ {
+  "saksa": "hoiatusvastuvõtja",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Radarihoiatusvastuvõtja",
+  "tekst": "Radarihoiatusvastuvõtja (saksa FuMB, Funkmessbeobachtung) püüdis kinni vastase radari kiirguse ja andis sellest märku enne, kui ründaja ise nähtavale jõudis. Esimene seade Metox võeti kasutusele 1942. aastal; hiljem lisandusid Naxos ja Tunis, mis tundsid ära ka lühema lainepikkusega lennukiradarid. Hoiatus tuli sageli vaid mõni minut enne rünnakut.",
+  "pohjendus": "IV ptk: sündmuse võti – mida seade tegelikult teeb ja miks aega jääb nii vähe."
+ },
+ {
+  "saksa": "radar",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Radarihoiatusseadme antenn",
+  "tekst": "Esimeste hoiatusvastuvõtjate antenn oli puust ristile keritud traatraam, nn Biskaia rist, mida vahimees sillal käsitsi ringi pööras. Hilisemad antennid olid väiksemad ja kinnitati torni külge.",
+  "pilt_otsing": "Biskayakreuz Metox antenna U-boat FuMB Naxos",
+  "pilt_kirjeldus": "Allveelaeva sillal seisev ristikujuline puuraamiga traatantenn (Biskayakreuz) või torni külge kinnitatud Naxos-tüüpi FuMB antenn; sobib ka museaal antennist (Bundesarchivi fotod on Commonsis CC BY-SA litsentsiga).",
+  "pildi_allkiri": "Radarihoiatusvastuvõtja antenn Saksa allveelaeva sillal – ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: konkreetne ese, mida lugeja muidu ette ei kujuta."
+ },
+ {
+  "saksa": "võõrast undamist",
+  "liik": "lause",
+  "tyyp": "heli",
+  "pealkiri": "Lennuk läheneb",
+  "tekst": "Lähenev madalalt lendav lennuk kostab sillale enne, kui seda pimeduses näha on.",
+  "heli_allkiri": "Heliillustratsioon: läheneva lennuki mootorite undamine.",
+  "pohjendus": "IV ptk: tekstis kirjeldatud heli, mis eelneb rünnakule.",
+  "heli_id": "lennuk",
+  "heli": "lennuk.mp3"
+ },
+ {
+  "saksa": "prožektor",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Leigh Light",
+  "tekst": "Briti rannikuväejuhatuse lennukid kandsid alates 1942. aastast võimsat prožektorit, nn Leigh Lighti. Lennuk lähenes öösel madalalt radari abil ja lülitas valguse sisse alles viimasel lähenemisel, umbes 1,5 km kauguselt, nii et pinnal olev allveelaev jäi otse valgusvihku ilma sukeldumisajata.",
+  "pohjendus": "IV ptk: ajalooline taktika, mida stseen täpselt kirjeldab, aga nimetamata jätab."
+ },
+ {
+  "saksa": "kaht tumedat mootorit",
+  "liik": "lause",
+  "tyyp": "pilt",
+  "pealkiri": "Rünnak prožektoriga",
+  "tekst": "Briti rannikuväejuhatuse Wellingtoni, Catalina ja Liberatori tüüpi lennukid kandsid prožektorit ning sügavuspomme; rünnak toimus öösel madalalt, mõnekümne meetri kõrguselt.",
+  "pilt_otsing": "Leigh Light Wellington Coastal Command",
+  "pilt_kirjeldus": "Kahemootoriline Vickers Wellington, mille kere all on nähtav väljalastav ümar prožektor (Leigh Light), või Catalina/Liberator prožektoriga tiiva all; Imperial War Museumi fotod on Commonsis avalikus omandis.",
+  "pildi_allkiri": "Leigh Light prožektoriga varustatud rannikuväejuhatuse lennuk – ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: näitab, mis „tiibade ja kahe tumeda mootori” taga tegelikult on. Ankur nihutatud sõnalt „lennuk” samas lauses olevale fraasile, sest „lennuk” esineb ka I peatükis (rida 182, pommitaja Kieli kohal), kus Leigh Lighti pilt oleks eksitav."
+ },
+ {
+  "saksa": "relvaplatvorm",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Relvaplatvorm ehk Wintergarten",
+  "tekst": "Torni taga asuv madala reelinguga platvorm, mille meeskond nimetas „talveaiaks” (Wintergarten), kandis õhutõrjekahureid. Kui lennukirünnakud 1943. aastast sagenesid, laiendati platvormi ja lisati 2 cm ja 3,7 cm suurtükke. Platvorm on avatud ja ilma varjeta ning laine ulatub sinna kergesti.",
+  "pohjendus": "IV ptk: selgitab, kuhu Mertens langeb ja miks see koht on ohtlik."
+ },
+ {
+  "saksa": "sügavusnäidik",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Tsentraal ja sügavustüüride rattad",
+  "tekst": "Tsentraalis istuvad kaks tüürimeest suurte rataste ees, mis liigutavad vööri ja ahtri sügavustüüre; nende ees on sügavusnäidikud ja kaldemõõtur. Elektriajami rikke korral tuleb rattaid käsitsi keerata.",
+  "pilt_otsing": "U-995 control room depth gauge hydroplane wheels",
+  "pilt_kirjeldus": "VIIC tüüpi paadi tsentraali sisevaade: kaks suurt käsiratast kõrvuti, nende kohal ümmargused sügavusnäidikud ja mullkaldemõõtur; U-995 Laboes või teiste muuseumipaatide fotod.",
+  "pildi_allkiri": "Sügavustüüride rattad ja sügavusnäidikud VIIC tüüpi paadi tsentraalis, U-995 – ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: kogu sukeldumisdraama toimub selle näidiku ja rataste ümber; erineb II ptk keskruumi üldvaatest („rõhumõõtja”)."
+ },
+ {
+  "saksa": "Esimene plahvatus",
+  "liik": "lause",
+  "tyyp": "heli",
+  "pealkiri": "Sügavuspomm lõhkeb",
+  "tekst": "Sügavuspommi plahvatus jõuab paati löögina läbi vee ja kere; lähedane plahvatus kustutab tuled ja purustab klaasi.",
+  "heli_allkiri": "Heliillustratsioon: sügavuspommi plahvatus vee all.",
+  "pohjendus": "IV ptk: peatüki keskne heli, mida tekst mitmel real kirjeldab.",
+  "heli_id": "wasserbombe",
+  "heli": "wasserbombe.mp3"
+ },
+ {
+  "saksa": "pomm",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Sügavuspomm",
+  "tekst": "Lennukilt heidetud sügavuspommid lõhkevad seatud sügavusel; kere vastupidavus sõltub plahvatuse kaugusest. Veest tõusev veesammas on paljudel sõjaaegsetel fotodel jäädvustatud.",
+  "pilt_otsing": "depth charge explosion aircraft U-boat attack 1943",
+  "pilt_kirjeldus": "Lennukilt või saatelaevalt tehtud foto, millel sügavuspommide plahvatuse veesambad tõusevad allveelaeva või selle sukeldumiskoha ümber; IWM, US Navy või RAF fotod avalikus omandis.",
+  "pildi_allkiri": "Sügavuspommide plahvatused rünnatava allveelaeva ümber – ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: annab pildi sellest, mida paadis olijad ainult tunnevad ja kuulevad. Sõna „pomm” esineb peatükkidest I–V ainult IV peatükis („pommid”), seega ei ava see pilti mujal."
+ },
+ {
+  "saksa": "tasakaalustuspaagist",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Tasakaalustuspaak",
+  "tekst": "Peale suurte ballastitankide, mis paadi uputavad, on allveelaeval väiksemad reguleerimis- ja trimmpaagid, millega inseneri meeskond häälestab paadi kaalu täpselt väljatõrjutud vee kaalu vastu. Vett võetakse juurde või pumbatakse välja tonnide kaupa, et paat püsiks soovitud sügavusel ja rõhtsalt.",
+  "pohjendus": "IV ptk: aitab mõista „tonni väljapumpamise” ja pidama jäämise stseeni. Ankur trükitud vormis, sest tüvi muutub (paak → paagi)."
+ },
+ {
+  "saksa": "arvestusliku lõigu",
+  "liik": "lause",
+  "tyyp": "selgitus",
+  "pealkiri": "Arvestuslik asukoht",
+  "tekst": "Kui tähti ega kallast ei näe, arvutab tüürimees asukoha viimasest kindlast punktist kursi, kiiruse ja aja järgi; seda nimetatakse arvestuslikuks navigatsiooniks (inglise dead reckoning). Hoovus ja tuul tekitavad vea, mis kasvab iga tunniga, kuni saadakse uus kindel asukoht.",
+  "pohjendus": "IV ptk: navigeerimise mõiste, mida romaan kasutab hiljem korduvalt."
+ },
+ {
+  "saksa": "periskoobisügavus",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Periskoobisügavus ja kaks periskoopi",
+  "tekst": "Periskoobisügavus on sügavus, kus paadi kere on vee all, aga tõstetud periskoop ulatub pinnale; VII tüübi paadil oli see umbes 12–14 meetrit. Paadil oli kaks periskoopi: tornis asuv ründeperiskoop kitsa pea ja väikese lainejäljega ning tsentraalist kasutatav vaatlus- ehk õhuperiskoop laiema vaateväljaga.",
+  "pohjendus": "IV ptk: selgitab, miks „teise periskoobiga” näeb ja kus komandör seisab."
+ },
+ {
+  "saksa": "kutsung",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Kutsung ja pikklaine",
+  "tekst": "Kutsung on iga laeva ja raadiojaama tähekombinatsioon, mille järgi saade adressaadile suunatakse. Allveelaevade juhtimine saatis käske pikklainel: Saksamaal Kalbe lähedal asunud Goliathi saatja signaal ulatus ka mõne meetri sügavusele vee alla, nii et paat sai kuulata sukeldunult. Vastata sai aga ainult pinnalt ja lühilainel, mis andis vaenlasele peilimisvõimaluse.",
+  "pohjendus": "IV ptk: selgitab, kuidas paat sügavusel kutset kuuleb, aga vastata ei saa."
+ },
+ {
+  "saksa": "vahivahetus",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Vahikorrad allveelaeval",
+  "tekst": "Allveelaeva meeskond jagunes vahikordadeks: sillal ja roolis oldi harilikult neli tundi korraga ja seejärel puhati kaks vahetust, masinate juures kestis vahikord sageli kauem. Rikete ja pika sõidu ajal jäi puhkeaeg tihti olematuks.",
+  "pohjendus": "V ptk: vahtide vahetamine ja vahikordade koostamine käib läbi kogu peatüki; ankur haarab kaasa käändelõpu („vahivahetuste”)."
+ },
+ {
+  "saksa": "teenistusraamat",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Soldbuch",
+  "tekst": "Soldbuch oli Wehrmachti, sealhulgas Kriegsmarine sõduri isikut tõendav dokument ja teenistusraamat, kuhu märgiti üksus, auaste, palk, varustus, autasud ja haiglas viibimised.",
+  "pilt_otsing": "Soldbuch Kriegsmarine",
+  "pilt_kirjeldus": "Saksa sõjaväelase Soldbuch: kaas kotka ja sõnaga „Soldbuch” või avatud sisekülg foto ja kirjetega; eelistatult Kriegsmarine oma, sobib ka Wehrmachti üldine eksemplar.",
+  "pildi_allkiri": "Saksa sõjaväelase Soldbuch – teenistusraamat, mida kanti alati kaasas.",
+  "pohjendus": "V ptk: madrus küsib teenistusraamatut kaasa; lugeja peaks teadma, miks see talle oluline on. Commonsis on Soldbuchi fotosid rohkesti."
+ },
+ {
+  "saksa": "torpedomadrus",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Torpeedomeeskond",
+  "tekst": "Torpeedomeeskond hooldas torpeedosid ja laadis need vööritorudesse. Vööriruum, kus varutorpeedod lebasid, oli ühtlasi suure osa meeskonna magamis- ja söögikoht.",
+  "pohjendus": "V ptk: vanem vend on torpedomadrus; sõna seletab ühtlasi, miks vööris istutakse torpeedo kõrval."
+ },
+ {
+  "saksa": "Kaardilambi",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Punane valgus öösel",
+  "tekst": "Öösel kasutati juhtimisruumis punast valgust: silm säilitab punase valguse juures pimedusega harjumise ja sillale tõusev vahimees näeb kohe. Valge valgus rikuks ööpimeduses nägemise pikaks ajaks.",
+  "pohjendus": "V ptk: punakas kuma on väike, kuid tähenduslik detail, mille põhjust tekst ei seleta."
+ },
+ {
+  "saksa": "ummiklainetus",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Ummiklainetus",
+  "tekst": "Ummiklainetus on pikk ja lauge laine, mille on tekitanud kaugel puhunud tuul ja mis kestab ka tuulevaikuses. Skäärides sumbub see välimiste saarte ja kaljude vastu, mistõttu saarestiku sees on vesi rahulikum kui avamerel.",
+  "pohjendus": "V ptk: haruldasem meresõna, mis põhjendab, miks varjuline vesi kaljude tagant leitakse."
+ },
+ {
+  "saksa": "ankur",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Allveelaeva ankur",
+  "tekst": "Ka allveelaeval oli vööris ankur koos ketikasti ja ankrupeliga, ehkki seda kasutati harva – peamiselt reidil või varjulises lahes seismiseks. Vee all sõites püsis ankur kerekujulises pesas, et voolutakistust mitte suurendada.",
+  "pohjendus": "V ptk: lugejale võib olla üllatav, et allveelaev üldse ankrusse jääb; sõna esineb peatükkidest I–V ainult siin."
+ },
+ {
+  "saksa": "kaater",
+  "liik": "sona",
+  "tyyp": "pilt",
+  "pealkiri": "Rootsi patrullkaater",
+  "tekst": "Rootsi rannikuvetes liikusid sõja ajal öösiti väikesed patrullalused, mis kontrollisid prožektori abil, kes saarestikus liigub.",
+  "pilt_otsing": "Swedish Navy vedettbåt 1940s patrol boat",
+  "pilt_kirjeldus": "Väike Rootsi mereväe, rannavalve või tolli patrullalus 1930.–1940. aastatest: madal roolimaja, eelistatult nähtava prožektoriga; sobib nt vedettbåt-tüüpi alus või Sjöhistoriska museet' foto.",
+  "pildi_allkiri": "Rootsi patrullkaater 1940. aastatel – ajastu võrdluspilt.",
+  "pohjendus": "V ptk: kaatri ilmumine on peatüki pingelisim hetk; pilt aitab seda alust ette kujutada. Alus ei ole tekstis kindla ametkonnaga seotud, seetõttu allkiri üldistatud."
+ },
+ {
+  "saksa": "Patrull",
+  "liik": "sona",
+  "tyyp": "selgitus",
+  "pealkiri": "Rootsi neutraliteedivalve",
+  "tekst": "Neutraalne Rootsi hoidis 1939–1945 rannikul neutraliteedivalvet (neutralitetsvakt): merevägi, rannakaitse ja rannavalve jälgisid territoriaalvett, võõrad sõjalaevad ja nende meeskonnad peatati ning saarestikke patrulliti nii merelt kui maalt.",
+  "pohjendus": "V ptk: selgitab, kelle patrull see oli ja miks selle eest varjuti, kordamata internimise pop-upi. Suur algustäht hoiab ankru lahus I ptk Kieli tänavapatrullist („patrull”, rida 72)."
  }
 ]
