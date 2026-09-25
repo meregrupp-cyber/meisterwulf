@@ -45,7 +45,9 @@ def api(params, base=API):
 
 
 def fetch(url, path: Path):
-    """Pildifail; pisipildid ainult standardlaiuses (640, 1024 …), muidu Commons keeldub (429)."""
+    """Pildifail. upload.wikimedia.org teenindab robotitele ainult standardlaiuses pisipilte
+    (20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840 px); originaal ja muud laiused annavad 429/400.
+    imageinfo API iiurlwidth ümardatakse ise lähima standardlaiuseni."""
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     for wait in (0, 30, 90, 180, 300):
         if wait:
@@ -88,13 +90,13 @@ def _info_from_page(page):
             "kirjeldus": strip(md.get("ImageDescription"))[:300], "aeg": md.get("DateTimeOriginal", "")}
 
 
-def imageinfo(title, width=1024):
+def imageinfo(title, width=1280):
     d = api(dict(IIPROPS, action="query", titles=title, iiurlwidth=width))
     pages = d["query"]["pages"]
     return _info_from_page(pages[0]) if pages else None
 
 
-def imageinfo_many(titles, width=640):
+def imageinfo_many(titles, width=500):
     """Kuni 50 faili ühe päringuga."""
     out = []
     for i in range(0, len(titles), 50):
