@@ -1442,5 +1442,141 @@
   "markused": [
    "Lisamaterjali kirjeldus. Käsujada näide eeskirja järgi: käsk, sõnasõnaline kordus, täitmisteade. Hääled kuivad ja töölikud, taustal ainult ventilatsioon ja elektrimootor; nii kuuleb lugeja, kuidas allveelaeva käsuliin tegelikult kõlas."
   ]
+ },
+ {
+  "saksa": "kapok",
+  "liik": "sona",
+  "pealkiri": "Kapok",
+  "tekst": "Kapok on kapokipuu (Ceiba pentandra) seemnekupardest saadav õõnes kiud, mis on kuni 80% ulatuses õhku täis ja vahaja kattekihi tõttu vett hülgav. Seetõttu oli see 20. sajandil päästevestide ja päästerõngaste tavaline täidis, samuti madratsite ja patjade täitematerjal. Kerge ja vetruv kapok on aga kergesti süttiv: reisilaeva Normandie tulekahju 1942. aasta veebruaris sai alguse keevitussädemest kapokiga täidetud päästevestide hunnikus.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Kapok fibre",
+    "url": "https://en.wikipedia.org/wiki/Kapok_fibre"
+   },
+   {
+    "tekst": "Wikipedia (de) · Kapok",
+    "url": "https://de.wikipedia.org/wiki/Kapok"
+   }
+  ]
+ },
+ {
+  "saksa": "vahipäevik",
+  "liik": "sona",
+  "pealkiri": "Vahipäevik ja sõjapäevik (KTB)",
+  "tekst": "Allveelaeval peeti mitut päevikut; tähtsaim oli sõjapäevik (Kriegstagebuch, KTB). Merel kirjutati see käsitsi, tulpades kuupäev ja kellaaeg, asukoht, ilm ja sündmused, ning pärast sõitu trükiti puhtalt ümber; koopiad koos teekonnakaardi ja torpeedolaskeraportitega läksid mereväe juhatusele, allveelaevade ülemjuhatajale (BdU) ja flotillile. Sõja järel viidi päevikud Londonisse ja mikrofilmiti; originaalid on alates 1955. aastast Saksa sõjaarhiivis Freiburgis.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · KTB Notes: History",
+    "url": "https://www.uboatarchive.net/KTB/KTBNotesHistory.htm"
+   },
+   {
+    "tekst": "Wikipedia (de) · Kriegstagebuch",
+    "url": "https://de.wikipedia.org/wiki/Kriegstagebuch"
+   }
+  ]
+ },
+ {
+  "saksa": "proovisukeldumine",
+  "liik": "sona",
+  "pealkiri": "Proovisukeldumine",
+  "tekst": "Saksa mereväe ülemjuhatuse 1943. aasta augusti sukeldumiseeskiri nõudis proovisukeldumist igal merel oldud päeval ja alati pärast ballasti- või kütusepaakide ümberseadmist: nii kontrolliti paadi kaalu- ja trimmiarvestust. Enne pidi vaneminsener veenduma, et paat on sukeldumisvalmis, lekkeproov tehtud ja sukeldumiskohad mehitatud. Pärast proovi pidi paat olema inseneri käes igas rünnakuolukorras kindlalt juhitav, paakide täitmist muutmata.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Diving Regulations for U-boats (OKM, August 1943)",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "elektrimootoriruum",
+  "liik": "sona",
+  "pealkiri": "Elektrimootoriruum",
+  "tekst": "VII C tüüpi paadi kõige ahtripoolsem ruum oli elektrimootoriruum (E-Maschinenraum), kuhu pääses diisliruumi kaudu. Seal olid kahe elektrimootori lülitustahvlid – akude toitel sõitis paat vee all kuni 7,6 sõlme – ja ahtri torpeedotoru, mis oli mõeldud eeskätt kaitseks konvoi saatelaevade vastu. Muuseumipaadil U-995 Laboes saab tee vööri torpeedoruumist läbi ohvitseride ruumi, tsentraali, kambüüsi ja diisliruumi elektrimootoriruumini ise läbi käia.",
+  "allikad": [
+   {
+    "tekst": "kbismarck.com · Virtuelle Besichtigung von U-995 (Typ VIIC/41)",
+    "url": "https://www.kbismarck.com/u-boot/u995tour.htm"
+   },
+   {
+    "tekst": "uboat.net · Type VIIC",
+    "url": "https://uboat.net/types/viic.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "õhutus",
+  "liik": "sona",
+  "pealkiri": "Õhutusklapid ja sukeldumispaagid",
+  "tekst": "Allveelaev sukeldub ballasti- ehk sukeldumispaakide (Tauchzellen) abil: neil on veeklapid ja õhutusklapid (Entlüftungen), mille avamisel pääseb õhk paagist välja ja vesi voolab asemele. Pinnale tõusmiseks surutakse vesi suruõhuga uuesti välja (anblasen). 1943. aasta sukeldumiseeskirja järgi käis täitmine kindlas järjekorras: avada veeklapid, seada õhutusklapid valmis ja vabastada lukust, avada need numbrite järjekorras ning lõpuks uuesti sulgeda.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (de) · Tauchzelle",
+    "url": "https://de.wikipedia.org/wiki/Tauchzelle"
+   },
+   {
+    "tekst": "U-boat Archive · Diving Regulations for U-boats (OKM, August 1943)",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "Nahk on valge ja kortsus",
+  "liik": "sona",
+  "pealkiri": "Märja jala haigus",
+  "tekst": "Pikalt märjas ja külmas püsinud jalg saab nn kaevikujala ehk immersioonijala: nahk imab vett ja läheb kortsu, jääb tuimaks, hiljem punetab või sinetab, paisub ning lööb villi. Nimi pärineb Esimese maailmasõja kaevikutest; haigus tekib ka plusskraadidel, mõnikord vaid poole ööpäevaga, ja kitsad saapad soodustavad seda. Briti armee õpetas mehi jalgu kuivatama ja sokke mitu korda päevas vahetama; abi algab sellest, et jalg saaks kuivaks, puhtaks ja soojaks.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Trench foot",
+    "url": "https://en.wikipedia.org/wiki/Trench_foot"
+   },
+   {
+    "tekst": "Wikipedia · Immersion foot syndromes",
+    "url": "https://en.wikipedia.org/wiki/Immersion_foot_syndromes"
+   }
+  ]
+ },
+ {
+  "saksa": "aadliseisus",
+  "liik": "sona",
+  "pealkiri": "Aadliseisus: von Uexküllid",
+  "tekst": "Von Uexküllid (ka Üxküll) on Vestfaalist pärit baltisaksa põlisaadli suguvõsa, Liivimaal teada 13. sajandist; nad olid kantud Eestimaa (1746) ja Liivimaa (1747) rüütelkonna matriklisse ning neile kuulus mitu mõisat, sealhulgas Vigala. Samast suguvõsast on bioloog Jakob von Uexküll (1864–1944). 1939. aastal, Molotovi-Ribbentropi pakti järel, asustati Eestist Saksa riiki ümber ligi 13 700 baltisakslast; paljud nende mehed teenisid seejärel Saksa armees.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · Uexküllid",
+    "url": "https://et.wikipedia.org/wiki/Uexk%C3%BCllid"
+   },
+   {
+    "tekst": "Wikipedia · Baltic Germans",
+    "url": "https://en.wikipedia.org/wiki/Baltic_Germans"
+   }
+  ]
+ },
+ {
+  "saksa": "kartul",
+  "liik": "sona",
+  "pealkiri": "Toit allveelaeval",
+  "tekst": "Allveelaeval jätkus värsket toitu vaid esimesteks päevadeks, sest külmkapp ja sahver olid pisikesed; seejärel elati vorsti ja konservide peal. Singid ja vorstid rippusid vööri torpeedotorude vahel ja tsentraali lae all, leib seisis vööriruumis ja elektrimootoriruumis. Ühele 12-nädalasele sõidule võeti IX C tüüpi paadile ligi 1,8 tonni kartulit ja 2,3 tonni lihakonserve. Hea kokk oli kulda väärt, eriti sõja lõpupoole, kui toitu jätkati sojaasendajatega.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · The food onboard the U-boats",
+    "url": "https://uboat.net/men/foodstuffs.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "Pinnale tuleku",
+  "liik": "sona",
+  "pealkiri": "Enne luugi avamist",
+  "tekst": "1943. aasta sukeldumiseeskirja järgi tohtis komandör pinnale tõusta alles siis, kui ta oli periskoobiga ringi vaadanud ja hüdrofoniga kuulanud, et läheduses midagi ei liigu; kuulamisseade GHG koosnes kere kummalgi küljel 24 mikrofonist ja kuulis laeva kuni 20 km, konvoid kuni 100 km kauguselt. Enne torniluugi avamist võrdsustati paadi õhurõhk välisõhuga, avades diisli õhuvõtu klappi 3–4 pööret; alles siis keeras komandör luugi lahti, esmalt riivi peale.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Diving Regulations for U-boats (OKM, August 1943), IX Surfacing",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   },
+   {
+    "tekst": "Wikipedia · Gruppenhorchgerät",
+    "url": "https://en.wikipedia.org/wiki/Gruppenhorchger%C3%A4t"
+   }
+  ]
  }
 ]
