@@ -1352,5 +1352,83 @@
     "url": "https://uboat.net/types/viic.htm"
    }
   ]
+ },
+ {
+  "marker": "warme-koje-soe-koi",
+  "peatukk": 8,
+  "pealkiri": "Warme Koje: soe koi",
+  "tekst": "Allveelaeval ei jätkunud koisid kõigile. Eri vahikordades teenivad mehed jagasid sama magamiskohta: kui üks tõusis vahikorda, tuli teine tema asemele, ja koi ei jõudnudki jahtuda. Sakslased ütlesid selle kohta „warme Koje”, inglise keeles on sama asi „hot bunking”. Kitsikusest olulisem on arusaamine, et magamisase oli allveelaevas osa vahisüsteemist, mitte kellegi isiklik ruum: koid, tekid ja padjad käisid ringi koos vahikordadega.",
+  "allikad": [
+   {
+    "tekst": "kbismarck.com · Das tägliche Leben an Bord der deutschen U-Boote",
+    "url": "https://www.kbismarck.com/u-boot/ubordleb.htm"
+   },
+   {
+    "tekst": "Wikipedia · Hot racking",
+    "url": "https://en.wikipedia.org/wiki/Hot_racking"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. VIIC tüübi vööriruumi foto, millel on näha torpeedod ja nende vahele surutud koid."
+  ]
+ },
+ {
+  "marker": "seaharjas-kingsepa-nõela-asemel",
+  "peatukk": 8,
+  "pealkiri": "Seaharjas kingsepa nõela asemel",
+  "tekst": "Käsitsi valmistatud jalanõu tugevaid õmblusi ei tehtud tingimata metallnõelaga. Naaskel tegi naha sisse kanali; pigitatud või vahatatud linase niidi otsa kinnitati seaharjas, mis oli nõelast painduvam ning suutis kõverat kanalit mööda liikuda. Kahe harjasega sai sama pistet teha vastassuundadest: kumbki ots läheb august läbi teisele poole ja tõmme pingutab pistme mõlemalt poolt korraga. See on vana töövõte, mida valmis saabast vaadates enam ära ei tunne.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Shoemaking",
+    "url": "https://en.wikipedia.org/wiki/Shoemaking"
+   },
+   {
+    "tekst": "Wikipedia · Stitching awl",
+    "url": "https://en.wikipedia.org/wiki/Stitching_awl"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Naaskel, vahatud linane niit ja ehtne kingsepaharjas; niidi ots harjase külge keerutatud."
+  ]
+ },
+ {
+  "marker": "šnorkel-ja-kõrvadest-tõmbav-paat",
+  "peatukk": 8,
+  "pealkiri": "Šnorkel ja kõrvadest tõmbav paat",
+  "tekst": "Saksa hilissõja allveelaeva šnorkli õhuvõtupeas oli klapp, mis laine üle šnorkli lüües sulgus. Diislid töötasid hetke edasi ja võtsid vajaliku õhu paadi seest. Siserõhk langes kiiresti; klapi uuesti avanedes taastus rõhk järsult. Meeskond tundis seda eriti kõrvades. See oli üks šnorklisõidu ebameeldivamaid ja tänapäeval vähe tuntud külgi.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Submarine snorkel",
+    "url": "https://en.wikipedia.org/wiki/Submarine_snorkel"
+   },
+   {
+    "tekst": "uboat.net · The Schnorchel",
+    "url": "https://uboat.net/technical/schnorchel.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Šnorkli läbilõige nelja sammuna: laine lööb pea üle, õhuvõtuklapp sulgub, diisel tõmbab õhku paadi sisemusest ja siserõhk langeb, klapp avaneb. Mootorimüra näidist siia pole vaja; väärtuslikum on rõhumuutuse skeem."
+  ],
+  "pilt": "snorkel-klapp.svg",
+  "pildi_allkiri": "Animeeritud skeem: klapp lahti, välisõhk tuleb masti mööda diislitele; laine lööb pea üle, klapp sulgub, diislid võtavad õhku paadi seest ja siserõhk langeb; klapp avaneb ja rõhk taastub.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
+  "heli": "snorkel.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: diislid šnorklisõidul, klapi sulgumisel mootorid summutuvad ja rõhk langeb, avanemisel tuleb õhk tagasi. Mitte ajalooline salvestis."
+ },
+ {
+  "marker": "sukeldumiskäsud-ei-olnud-filmidialoog",
+  "peatukk": 8,
+  "pealkiri": "Sukeldumiskäsud ei olnud filmidialoog",
+  "tekst": "Saksa 1943. aasta sukeldumiseeskiri nõudis, et sukeldumise, ballastipaakide täitmise, tõusmise ja muude elutähtsate toimingute käsud korrataks tagasi ning pärast täitmist antaks eraldi täitmisteade. See seletab, miks Mats võib saksa keelt vähe mõistes terve käsujada häälikuliselt pähe õppida, ning miks sellest võib sündida hüüdnimi Papagoi.",
+  "allikad": [
+   {
+    "tekst": "Saksa sukeldumiseeskiri 1943 (uboatarchive.net)",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   }
+  ],
+  "markused": [
+   "Lisamaterjali kirjeldus. Käsujada näide eeskirja järgi: käsk, sõnasõnaline kordus, täitmisteade. Hääled kuivad ja töölikud, taustal ainult ventilatsioon ja elektrimootor; nii kuuleb lugeja, kuidas allveelaeva käsuliin tegelikult kõlas."
+  ]
  }
 ]

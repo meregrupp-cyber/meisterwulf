@@ -272,6 +272,15 @@ RAUDVAAL_KOOD='…' node scripts/build-raudvaal.mjs
 #    commiti raudvaal/sisu/ (ja tasuta peatüki .md, kui see on 00/01), pushi
 ```
 
+Kui peatükk on toimetatud siin (mitte autori .docx-is), kirjuta see pandoci
+markdownina (`# Pealkiri`, `*dateline*`, „…” tsitaadid joonealustega `[^n]`,
+stseenivahe `\*`, viited `^[[1]](#pealkirja-slug)^`, lõpus `# Infomullid ja
+allikad` osa `## 1 Pealkiri` alajaotustega, `**Pildi kirjeldus.**` ja
+`Allikas: [tekst](url)` ridadega) faili `kasikiri/<nimi>.md` (gitignore'is) ja
+tee sellest docx: `python3 -c "import pypandoc; pypandoc.convert_file('kasikiri/X.md','docx',outputfile='kasikiri/X.docx',extra_args=['--from=markdown'])"`.
+Selle docx-i impordib sama skript nagu autori oma; docx tasub autorile
+Drive'i tagasi panna. (Näide: VIII peatükk.)
+
 Pealkirjad, numbrid ja osad on registris `content/raudvaal/sisukord.json`
 (24 peatükki neljas osas; „Härra Wolf“ on o-ga). Peatüki tasuta/tasuline
 tuleb registrist frontmatterisse (`free`), avaldatus frontmatterist

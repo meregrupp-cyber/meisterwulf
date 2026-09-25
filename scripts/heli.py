@@ -10,7 +10,8 @@ Heliillustratsioonid lugemislehe mullidele: sünteesitud numpy-ga, MP3 ffmpeg-ig
 Menüü: sonar (ASDIC-i ping), wasserbombe (süvaveepommid), diesel (allveelaeva diislid),
 emootor (elektrimootorid vee all), laevakell (laevakell), lennuk (lennuk möödub), flak (õhutõrje),
 kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid), diisel-kaivitus (allveelaeva
-diisli käivitamine suruõhuga), praam (väikese praami tihke mootor ja lahtine plekk).
+diisli käivitamine suruõhuga), praam (väikese praami tihke mootor ja lahtine plekk), snorkel (šnorklisõit:
+peaklapp sulgub, diislid summutuvad ja rõhk langeb).
 Merelaineid meelega ei ole. Kõik on heliillustratsioonid, mitte ajaloolised salvestised.
 Vajab: numpy, imageio-ffmpeg (python3 -m pip install numpy imageio-ffmpeg).
 """
@@ -230,6 +231,36 @@ def praam(sec=9.0):
     return fade(norm(out, 0.8), 500, 900)
 
 
+def snorkel(sec=12.0):
+    """Šnorklisõit: diislid töötavad vee all, laine sulgeb peaklapi: mootorid summutuvad, rõhk langeb (madal tõmme), klapp avaneb."""
+    tt = t(sec); n = len(tt)
+    rpm = 11.5 + 0.3 * np.sin(2 * np.pi * 0.2 * tt)
+    phase = 2 * np.pi * np.cumsum(rpm) / SR
+    pulses = np.maximum(0, np.sin(phase)) ** 12
+    body = pulses * (np.sin(2 * np.pi * 55 * tt) + 0.5 * np.sin(2 * np.pi * 110 * tt) + 0.3 * np.sin(2 * np.pi * 220 * tt))
+    hiss = lowpass_fast(rng.normal(0, 1, n), 6) * 0.07 * (0.6 + pulses)
+    out = 0.75 * (body + hiss)
+    # kaks klapi sulgumist: 3.5–5.2 s ja 8.0–10.2 s
+    for a, b in ((3.5, 5.2), (8.0, 10.2)):
+        m = (tt > a) & (tt < b)
+        # summutus: mootorihääl vaibub ja madaldub (õhk saab otsa)
+        env = np.ones(n); env[m] = 0.45
+        env = lowpass_fast(env, int(SR * 0.08))
+        out *= env
+        # rõhulangus: madal "tõmme" (sügav siinus, mis libiseb alla) + kõrvades kinni mineku tuim vaikus
+        tm = tt[m] - a
+        drop = np.sin(2 * np.pi * (34 - 10 * tm / (b - a)) * tm) * np.exp(-tm * 0.8) * 0.5
+        out[m] += drop
+        # klapi klõps sulgumisel ja avanemisel
+        for at in (a, b):
+            c = t(0.08); click = (np.sin(2 * np.pi * 700 * c) + 0.5 * np.sin(2 * np.pi * 1400 * c)) * np.exp(-c * 60) * 0.45
+            mix_at(out, click, at)
+        # avanemisel õhu pahvak tagasi
+        c2 = t(0.5); puff = lowpass_fast(rng.normal(0, 1, len(c2)), 5) * np.exp(-t(0.5) * 6) * 0.35
+        mix_at(out, puff, b)
+    return fade(norm(out, 0.8), 800, 900)
+
+
 def write_mp3(x, path: Path):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -243,7 +274,7 @@ def write_mp3(x, path: Path):
     print(f"  {path.relative_to(ROOT)}  {len(x) / SR:.1f} s, {path.stat().st_size // 1024} KB")
 
 
-MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam}
+MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel}
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "koik":

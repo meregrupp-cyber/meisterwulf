@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "bk9DENMnHyM75DVp",
-  "ct": "WltdiOXiTnHgsQ03L8GFLNgZ"
+  "iv": "hFYotqOWZPZuxaDp",
+  "ct": "LXU22iNnEo4X+ohGsKamPKQ8"
  },
  "peatukid": [
   {
@@ -123,9 +123,9 @@
    "ord": 8,
    "osa": 2,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Põhjameri, 29. aprill 1945"
   },
   {
    "slug": "peatukk-09",
