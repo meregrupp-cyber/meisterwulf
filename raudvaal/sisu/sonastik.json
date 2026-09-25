@@ -7,6 +7,13 @@
   ]
  },
  {
+  "saksa": "Achtundsiebzig.",
+  "tolge": "Seitsekümmend kaheksa.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Achtzig Meter. Das Boot ist abgefangen.",
   "tolge": "„Kaheksakümmend meetrit. Paadi vajumine on peatatud.”",
   "peatukid": [
@@ -70,6 +77,13 @@
   ]
  },
  {
+  "saksa": "Auf fünfzehn Meter abfangen.",
+  "tolge": "Viieteistkümnel meetril tasandada.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Auf Handbetrieb! Beide!",
   "tolge": "„Käsijuhtimisele! Mõlemad!”",
   "peatukid": [
@@ -84,6 +98,20 @@
   ]
  },
  {
+  "saksa": "Aufstehen.",
+  "tolge": "Üles.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Aus.",
+  "tolge": "Ära.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Backborddiesel bleibt aus. Wasser am Zylinderkopf. Das muss ich erst offen sehen.",
   "tolge": "„Vasak diisel jääb seisma. Silindripea juures on vett. Pean selle enne lahti võtma.”",
   "peatukid": [
@@ -95,6 +123,13 @@
   "tolge": "Baltimaad; sakslaste nimetus Balti provintside kohta",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Befehl des Kommandanten. Von heute an wird nach Wachen geteilt. Nicht nach Dienstgrad.",
+  "tolge": "Komandöri käsk. Tänasest jagatakse koid vahikordade, mitte auastme järgi.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -147,6 +182,13 @@
   ]
  },
  {
+  "saksa": "Bitte.",
+  "tolge": "Palun.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Boot fängt sich.",
   "tolge": "„Paat jääb pidama.” Allapoole vajumine lakkab.",
   "peatukid": [
@@ -182,10 +224,24 @@
   ]
  },
  {
+  "saksa": "Dann benutzen Sie das Wort nicht ohne Grund.",
+  "tolge": "Siis ärge kasutage seda sõna ilma põhjuseta.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Dann führen Sie ihn ab.",
   "tolge": "„Siis viige ta ära.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Dann schreiben wir: beide Antriebe ausgefallen.",
+  "tolge": "Siis kirjutame: mõlemad ajamid rivist väljas.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -221,6 +277,13 @@
   "tolge": "„See on minu abikaasa seaduslik nimi. Meie abiellumisest saadik.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Das ist die Wache.",
+  "tolge": "See on vaht.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -315,6 +378,13 @@
   ]
  },
  {
+  "saksa": "Der rechte Kurat arbeitet nicht.",
+  "tolge": "Parempoolne kurat ei tööta.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Der Sender ist zerstört, Herr Kaleun.",
   "tolge": "„Saatja on purunenud, komandör.” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
   "peatukid": [
@@ -322,10 +392,24 @@
   ]
  },
  {
+  "saksa": "Der was?",
+  "tolge": "Mis asi?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Destilliert. Für die Batterie.",
   "tolge": "„Destilleeritud. Akude jaoks.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Die gebe ich Ihnen nicht.",
+  "tolge": "Seda ma teile ei anna.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -378,6 +462,20 @@
   ]
  },
  {
+  "saksa": "Dieses Wort.",
+  "tolge": "See sõna.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Doch.",
+  "tolge": "On küll.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Dreißig!",
   "tolge": "„Kolmkümmend!”",
   "peatukid": [
@@ -389,6 +487,13 @@
   "tolge": "„Niisuguse nimega võib ka oma tegelikust päritolust eksitava mulje jätta.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Eine Koje. Gegenschicht.",
+  "tolge": "Üks koi. Vastandvahetused.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -420,10 +525,45 @@
   ]
  },
  {
+  "saksa": "Entlüftungen klar",
+  "tolge": "Õhutusklapid valmis",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Entlüftungen klar.",
+  "tolge": "Õhutusklapid valmis.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Er braucht einen Arzt. Hier kann ich nicht mehr viel für ihn tun.",
   "tolge": "„Ta vajab arsti. Siin ei saa ma tema heaks enam palju teha.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Es fehlen Leute.",
+  "tolge": "Mehi on puudu.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Es tut nur beim Anziehen weh.",
+  "tolge": "See teeb ainult jalga pannes valu.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Fluten!",
+  "tolge": "Täita!",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -469,6 +609,20 @@
   ]
  },
  {
+  "saksa": "Gibt es wirklich keine andere –",
+  "tolge": "Kas tõesti ei ole ühtegi teist –",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Gut. Erst Ursache.",
+  "tolge": "Hästi. Kõigepealt põhjus.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Haben Sie ihn fallen sehen?",
   "tolge": "„Kas nägite teda kukkumas?”",
   "peatukid": [
@@ -497,10 +651,24 @@
   ]
  },
  {
+  "saksa": "Herr Kaleun.",
+  "tolge": "Härra komandör. (Kaleun on kõnekeelne lühend auastmest Kapitänleutnant; Krüger ütleb seda Otto kohta komandöri tähenduses.)",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Herr Oberleutnant! Der Kaleun wartet.",
   "tolge": "„Härra vanemleitnant! Komandör ootab.” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant.",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Herr Obersteuermann.",
+  "tolge": "Härra tüürimeeste vanem.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -539,6 +707,13 @@
   ]
  },
  {
+  "saksa": "Ich auch.",
+  "tolge": "Mina ka.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Ich habe das Boot.",
   "tolge": "„Paat on minu käes.” Otto teatab, et võtab laeva juhtimise üle.",
   "peatukid": [
@@ -553,10 +728,38 @@
   ]
  },
  {
+  "saksa": "Ich habe keine Zeit.",
+  "tolge": "Mul ei ole aega.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Ich hätte –",
+  "tolge": "Ma oleksin –",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Ich hatte Wache.",
+  "tolge": "Mina olin vahis.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Ich kümmere mich um die Ablösung an den Rudern.",
   "tolge": "„Ma korraldan tüürimeeste vahetuse.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Ich muss zur Wache.",
+  "tolge": "Ma pean vahti minema.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -623,6 +826,13 @@
   ]
  },
  {
+  "saksa": "Ja?",
+  "tolge": "Jah?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Ja.",
   "tolge": "„Jah.”",
   "peatukid": [
@@ -663,6 +873,13 @@
   "tolge": "„Nüüd on meid kuuskümmend üks.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Kapok. Der Rest kann weg.",
+  "tolge": "Kapok. Ülejäänu võib minema visata.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -712,6 +929,13 @@
   "tolge": "„Periskoobi ülemine klaas on vigastatud. Proovime teist.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Kopfventil.",
+  "tolge": "Peaklapp.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -820,6 +1044,13 @@
   ]
  },
  {
+  "saksa": "Meine Ablösung?",
+  "tolge": "Minu vahetus?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Meine Papiere?",
   "tolge": "„Minu dokumendid?”",
   "peatukid": [
@@ -831,6 +1062,13 @@
   "tolge": "„Minu.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Meine.",
+  "tolge": "Minu oma.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -925,6 +1163,13 @@
   ]
  },
  {
+  "saksa": "Neue Kojenordnung.",
+  "tolge": "Uus koide jaotus.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Neun an Bord!",
   "tolge": "„Üheksa pardal!”",
   "peatukid": [
@@ -946,6 +1191,13 @@
   ]
  },
  {
+  "saksa": "Neununddreißig Mann.",
+  "tolge": "Kolmkümmend üheksa meest.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Nicht festholen!",
   "tolge": "„Mitte pingule tõmmata!”",
   "peatukid": [
@@ -957,6 +1209,13 @@
   "tolge": "„Mitte avada.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Nichts.",
+  "tolge": "Ei midagi.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1023,6 +1282,13 @@
   ]
  },
  {
+  "saksa": "Papagei.",
+  "tolge": "Papagoi.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Papiere, bitte.",
   "tolge": "„Paberid, palun.”",
   "peatukid": [
@@ -1041,6 +1307,13 @@
   "tolge": "„Isikuline koosseis viia edasi muutmata kujul. Kedagi kaldale üle ei anta.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Rechts oder links?",
+  "tolge": "Parem või vasak?",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1079,6 +1352,20 @@
   ]
  },
  {
+  "saksa": "Sehr gut.",
+  "tolge": "Väga hea.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Sehr lustig.",
+  "tolge": "Väga naljakas.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Selbstverständlich,",
   "tolge": "„Loomulikult.”",
   "peatukid": [
@@ -1114,6 +1401,13 @@
   ]
  },
  {
+  "saksa": "Sie haben mich gehört.",
+  "tolge": "Te kuulsite mind.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Sie kommen mit mir.",
   "tolge": "„Te tulete minuga kaasa.”",
   "peatukid": [
@@ -1135,6 +1429,13 @@
   ]
  },
  {
+  "saksa": "Sie wollten festen Stoff.",
+  "tolge": "Te tahtsite tugevat riiet.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "So geht es.",
   "tolge": "„Nii see käib.”",
   "peatukid": [
@@ -1146,6 +1447,13 @@
   "tolge": "„Nii on tema nimi.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "So viel. Nicht mehr.",
+  "tolge": "Nii palju. Mitte rohkem.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1198,6 +1506,27 @@
   ]
  },
  {
+  "saksa": "Stiefelkontrolle.",
+  "tolge": "Saapakontroll.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Tauchzellen klar zum Fluten",
+  "tolge": "Sukeldumispaagid täitmiseks valmis",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Tauchzellen klar zum Fluten!",
+  "tolge": "Sukeldumispaagid täitmiseks valmis!",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Tiefe?",
   "tolge": "„Sügavus?”",
   "peatukid": [
@@ -1247,6 +1576,13 @@
   ]
  },
  {
+  "saksa": "Und morgen fehlen zwei Füße,",
+  "tolge": "Ja homme on puudu kaks jalga.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Und was geschieht mit denen, die hierbleiben?",
   "tolge": "„Ja mis saab neist, kes siia jäävad?”",
   "peatukid": [
@@ -1261,6 +1597,13 @@
   ]
  },
  {
+  "saksa": "Und wenn der erste richtig ist?",
+  "tolge": "Aga kui esimene on õige?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Unser leitender Ingenieur. Herr von Tiesenhausen.",
   "tolge": "„Meie vaneminsener. Härra von Tiesenhausen.”",
   "peatukid": [
@@ -1272,6 +1615,13 @@
   "tolge": "„Rippuva koorma all ei seisa keegi.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Ventil?",
+  "tolge": "Ventiil?",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1296,6 +1646,13 @@
   ]
  },
  {
+  "saksa": "Vier.",
+  "tolge": "Neli.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Vierzehn Meter.",
   "tolge": "„Neliteist meetrit.”",
   "peatukid": [
@@ -1317,10 +1674,31 @@
   ]
  },
  {
+  "saksa": "Von Uexküll. Kask.",
+  "tolge": "Kaks nime nimekirjast: von Uexküll ja Kask.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Von Wulf. Sie übergeben den Mann.",
   "tolge": "„Von Wulf. Te annate selle mehe üle.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Vorderes Luk klar",
+  "tolge": "Vööriluuk valmis",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Vorderes Luk klar.",
+  "tolge": "Vööriluuk valmis.",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1345,10 +1723,45 @@
   ]
  },
  {
+  "saksa": "Warum haben Sie mich nicht geweckt?",
+  "tolge": "Miks te mind ei äratanud?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Was bedeutet es genau?",
+  "tolge": "Mida see täpselt tähendab?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Was fehlt Ihnen?",
   "tolge": "„Mis teil puudu on?”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Was ist diesmal kaputt?",
+  "tolge": "Mis seekord katki on?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Was ist kaputt?",
+  "tolge": "Mis on katki?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Was?",
+  "tolge": "Mis?",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1408,10 +1821,31 @@
   ]
  },
  {
+  "saksa": "Werkzeug?",
+  "tolge": "Tööriist?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Weshalb?",
   "tolge": "„Mispärast?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Wie bitte?",
+  "tolge": "Kuidas, palun?",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
+  "saksa": "Wie spät?",
+  "tolge": "Mis kell on?",
+  "peatukid": [
+   "VIII"
   ]
  },
  {
@@ -1489,6 +1923,13 @@
   "tolge": "„Meid kutsutakse.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Wovon?",
+  "tolge": "Millest?",
+  "peatukid": [
+   "VIII"
   ]
  },
  {

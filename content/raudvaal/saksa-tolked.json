@@ -458,5 +458,35 @@
   "saksa": "Niemand.",
   "tolge": "„Mitte keegi.”",
   "liik": "lause"
+ },
+ {
+  "saksa": "Vorderes Luk klar",
+  "tolge": "Vööriluuk valmis",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Entlüftungen klar",
+  "tolge": "Õhutusklapid valmis",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Tauchzellen klar zum Fluten",
+  "tolge": "Sukeldumispaagid täitmiseks valmis",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Was?",
+  "tolge": "Mis?",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Nichts.",
+  "tolge": "Ei midagi.",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Aus.",
+  "tolge": "Ära. (Siin: saabas jalast ära.)",
+  "liik": "lause"
  }
 ]
