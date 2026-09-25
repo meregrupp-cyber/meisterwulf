@@ -9,7 +9,8 @@ Heliillustratsioonid lugemislehe mullidele: sünteesitud numpy-ga, MP3 ffmpeg-ig
 
 Menüü: sonar (ASDIC-i ping), wasserbombe (süvaveepommid), diesel (allveelaeva diislid),
 emootor (elektrimootorid vee all), laevakell (laevakell), lennuk (lennuk möödub), flak (õhutõrje),
-kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid).
+kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid), diisel-kaivitus (allveelaeva
+diisli käivitamine suruõhuga), praam (väikese praami tihke mootor ja lahtine plekk).
 Merelaineid meelega ei ole. Kõik on heliillustratsioonid, mitte ajaloolised salvestised.
 Vajab: numpy, imageio-ffmpeg (python3 -m pip install numpy imageio-ffmpeg).
 """
@@ -187,6 +188,48 @@ def kuumpea(sec=9.0, bpm=150):
     return fade(norm(out, 0.8), 400, 900)
 
 
+def diisel_kaivitus(sec=11.0):
+    """Allveelaeva diisli käivitamine suruõhuga: õhu pahvak, aeglane raske pöörlemine, esimesed süütelöögid, ühtlane töö."""
+    tt = t(sec); n = len(tt)
+    # pöörlemiskiirus (süütetakte sekundis): 0.3 s kuni õhk liigutab, siis kiireneb kütuse peal
+    rpm = np.where(tt < 0.3, 0.0, np.where(tt < 2.5, 1.5 + (tt - 0.3) / 2.2 * 2.5, np.where(tt < 5.0, 4.0 + (tt - 2.5) / 2.5 * 7.5, 11.5 + 0.4 * np.sin(2 * np.pi * 0.15 * tt))))
+    phase = 2 * np.pi * np.cumsum(rpm) / SR
+    soft = np.maximum(0, np.sin(phase)) ** 6                 # õhuga pööramise pehmed lohud
+    sharp = np.maximum(0, np.sin(phase)) ** 12               # süütetaktid
+    comb = np.clip((tt - 2.2) / 2.3, 0, 1)                   # kütuse põlemine tuleb järk-järgult
+    air = np.clip(1 - (tt - 3.5) / 1.5, 0, 1) * (tt > 0.3)  # õhuga pööramine kaob
+    body = sharp * comb * (np.sin(2 * np.pi * 55 * tt) + 0.5 * np.sin(2 * np.pi * 110 * tt) + 0.3 * np.sin(2 * np.pi * 220 * tt))
+    body += soft * air * 0.7 * (np.sin(2 * np.pi * 38 * tt) + 0.4 * np.sin(2 * np.pi * 76 * tt))
+    breath = lowpass_fast(rng.normal(0, 1, n), 5) * (0.25 * soft * air + 0.08 * (0.6 + sharp) * comb)
+    hiss = lowpass_fast(rng.normal(0, 1, n), 4) * 0.55 * np.exp(-tt / 0.9) * (tt > 0.05)   # käivitusõhu pahvak
+    out = body + breath + hiss
+    valve = t(0.05); mix_at(out, np.sin(2 * np.pi * 900 * valve) * np.exp(-valve * 120) * 0.5, 0.05)   # käivitusventiili klõps
+    return fade(norm(out, 0.85), 10, 900)
+
+
+def praam(sec=9.0):
+    """Väike praam: kiirem ja tihkem ühesilindriline mootor, ahtris lahtine plekk klõbiseb vastu teist plekki."""
+    tt = t(sec); n = len(tt)
+    rate = 7.0 + 0.3 * np.sin(2 * np.pi * 0.4 * tt)
+    phase = 2 * np.pi * np.cumsum(rate) / SR
+    pulses = np.maximum(0, np.sin(phase)) ** 10
+    body = pulses * (np.sin(2 * np.pi * 70 * tt) + 0.6 * np.sin(2 * np.pi * 140 * tt) + 0.25 * np.sin(2 * np.pi * 280 * tt))
+    exhaust = lowpass_fast(rng.normal(0, 1, n), 4) * 0.12 * (0.5 + pulses)
+    out = body + exhaust
+    # lahtine plekk: iga löögi järel juhuslik plekiklõbin, vahel topelt
+    k = 0
+    while k / 7.0 < sec:
+        at = k / 7.0 + 0.04 + rng.normal(0, 0.01)
+        if rng.random() < 0.85:
+            c = t(0.09); f = 2200 + 900 * rng.random()
+            clank = (np.sin(2 * np.pi * f * c) + 0.5 * np.sin(2 * np.pi * f * 1.7 * c)) * np.exp(-c * 70) * (0.12 + 0.1 * rng.random())
+            clank += lowpass_fast(rng.normal(0, 1, len(c)), 2) * np.exp(-c * 90) * 0.08
+            mix_at(out, clank, at)
+            if rng.random() < 0.3: mix_at(out, clank * 0.6, at + 0.05)
+        k += 1
+    return fade(norm(out, 0.8), 500, 900)
+
+
 def write_mp3(x, path: Path):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -200,7 +243,7 @@ def write_mp3(x, path: Path):
     print(f"  {path.relative_to(ROOT)}  {len(x) / SR:.1f} s, {path.stat().st_size // 1024} KB")
 
 
-MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea}
+MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam}
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "koik":

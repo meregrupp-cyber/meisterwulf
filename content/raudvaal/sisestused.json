@@ -3,6 +3,139 @@
   "peatukk": 6,
   "parast": "a47eaf9402bb1c47",
   "markus": "Meeskonna laul „U-Boot voran” (Fathoms of Honor): teine päev põhjas, kambüüsi ja riiete lõigu järel, enne Matsi tulekut",
-  "loik": "Vööris hakkab keegi tasakesi laulma. Paar häält tuleb juurde, ülejäänud jätkavad oma toimetusi. Taaniel ei saa sõnadest aru, taktist saab.[[#laul-u-boot-voran]]"
+  "loik": "Vööris hakkab keegi tasakesi laulma. Paar häält tuleb juurde, ülejäänud jätkavad oma toimetusi. Taaniel ei saa vaiksest laulust sõnu kätte, taktist saab.[[#laul-u-boot-voran]]"
+ },
+ {
+  "peatukk": 2,
+  "parast": "91b585602e94771e",
+  "asenda": "Otto suu kõrval sedasama sügavat vagu",
+  "uus": "Otto nina kõrval sedasama sügavat vagu",
+  "markus": "Sidusus L17: vagu on II algul nina kõrval („sedasama vagu, mida kail märkas“)"
+ },
+ {
+  "peatukk": 4,
+  "parast": "207205e9ec44fc54",
+  "asenda": "Ta on paljajalu ja surub end",
+  "uus": "Ta on saabasteta ja surub end",
+  "markus": "Sidusus L5: Otto on sukkis (enne kohendab sukakanda, pärast on üks sukk kadunud)"
+ },
+ {
+  "peatukk": 4,
+  "parast": "8f2634e54988fe50",
+  "asenda": "ka mees, kes Villemit enne valvas,",
+  "uus": "ka madrus, kes Villemit nüüd valvab,",
+  "markus": "Sidusus L2: „mees, kes Villemit valvas“ tähistas samas peatükis Mertensit, kes on selleks ajaks hukkunud"
+ },
+ {
+  "peatukk": 5,
+  "parast": "cdb1abf4cea0a273",
+  "asenda": "Taaniel leiab nende koti koide alt.",
+  "uus": "Taaniel leiab Katharina koti koide alt.",
+  "markus": "Sidusus L4: kumbki kannab oma kotti; Katharina ütleb kohe „minu kotti“"
+ },
+ {
+  "peatukk": 5,
+  "parast": "4dfa9cb70967e5a9",
+  "asenda": "Masinamees ütleb midagi, mille lõpu neelab",
+  "uus": "Noorem vend ütleb midagi, mille lõpu neelab",
+  "markus": "Sidusus L7: „masinamees“ on raamatus Jaani püsinimetus; siin räägib noorem vend"
+ },
+ {
+  "peatukk": 7,
+  "parast": "cda2c5e6c3a908a1",
+  "asenda": "Wang istub, käed põlvedel, ning",
+  "uus": "Wang istub, käed reitel, ning",
+  "markus": "Sidusus L13: I peatükis on samal fotol Wangi käed reitel; VII rõhutab just käsi"
+ },
+ {
+  "peatukk": 4,
+  "parast": "db103be84da68f56",
+  "asenda": "ballastitankidest",
+  "uus": "ballastipaakidest",
+  "markus": "Sidusus T2: samas peatükis on „tasakaalustuspaak“; paak, mitte tank"
+ },
+ {
+  "peatukk": 5,
+  "parast": "297f45d5f1d44057",
+  "asenda": "Tema kõrval istuv vanem naine hakkab",
+  "uus": "Tema kõrval istuv vanem naine, seesama, kes päästepaadis enam ei tõusnud, hakkab",
+  "markus": "Sidusus T3/L9: tagasiviide II peatüki teadvuseta naisele"
+ },
+ {
+  "peatukk": 5,
+  "parast": "b7bc8c48ef688cbd",
+  "asenda": "Tagasi jõudes ootavad järgmised seitse tekil, kotid jalgade vahel,",
+  "uus": "Tagasi jõudes ootavad järgmised seitse tekil, nende seas kaks Kielist kaasa tulnud võõrast, kotid jalgade vahel,",
+  "markus": "Sidusus T3/L3: kaks Kieli erireisijat lähevad Rootsis maale (arvud: 39 pardal, kuus tsiviilisikut)"
+ },
+ {
+  "peatukk": 6,
+  "parast": "74572d23826d6503",
+  "asenda": "Keskruumis on rohkem mehi",
+  "uus": "Tsentraalis on rohkem mehi",
+  "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides"
+ },
+ {
+  "peatukk": 6,
+  "parast": "c0c12be6f279c046",
+  "asenda": "läheb alles siis keskruumist ära. Trepi juures pöördub",
+  "uus": "läheb alles siis tsentraalist ära. Redeli juures pöördub",
+  "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides; Sidusus T2: torniredel on „redel“ (IV, V, VI l. 111, 123); „trepp“ jääb kai kivitrepile"
+ },
+ {
+  "peatukk": 6,
+  "parast": "dea6c901a68acc97",
+  "asenda": "kuid keskruumi kogunedes",
+  "uus": "kuid tsentraali kogunedes",
+  "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides"
+ },
+ {
+  "peatukk": 6,
+  "parast": "6fd2d887a5c41f2b",
+  "asenda": "meeste hääled trepi juures",
+  "uus": "meeste hääled redeli juures",
+  "markus": "Sidusus T2: torniredel on „redel“ (IV, V, VI l. 111, 123); „trepp“ jääb kai kivitrepile"
+ },
+ {
+  "peatukk": 6,
+  "parast": "10019be16e41ab9b",
+  "asenda": "Õhtul kutsub Otto isa keskruumi.",
+  "uus": "Õhtul kutsub Otto isa tsentraali.",
+  "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides"
+ },
+ {
+  "peatukk": 6,
+  "parast": "4e91234223e6af2b",
+  "asenda": "Trepile astudes võtab ta aega",
+  "uus": "Redelile astudes võtab ta aega",
+  "markus": "Sidusus T2: torniredel on „redel“ (IV, V, VI l. 111, 123); „trepp“ jääb kai kivitrepile"
+ },
+ {
+  "peatukk": 6,
+  "parast": "ef02130036285b69",
+  "asenda": "Tasakaalupaaki võetakse",
+  "uus": "Tasakaalustuspaaki võetakse",
+  "markus": "Sidusus T2: IV peatükis „tasakaalustuspaak“"
+ },
+ {
+  "peatukk": 6,
+  "parast": "2257473b9225874a",
+  "asenda": "torpeedoruumi riiulis",
+  "uus": "vööriruumi riiulis",
+  "markus": "Sidusus T2: ruum on läbivalt „vööriruum“"
+ },
+ {
+  "peatukk": 7,
+  "parast": "dcf6df07b95d1516",
+  "asenda": "Schrade vaatab keskruumis ringi",
+  "uus": "Schrade vaatab tsentraalis ringi",
+  "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides"
+ },
+ {
+  "peatukk": 7,
+  "parast": "8395a276208d6a5c",
+  "asenda": "Otto seisab keskruumis, paber",
+  "uus": "Otto seisab tsentraalis, paber",
+  "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides"
  }
 ]

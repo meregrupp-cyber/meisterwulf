@@ -207,7 +207,7 @@ ootab ja proovib uuesti, ära käivita mitut korraga.
 
 **Helid** on sünteesitud heliillustratsioonid (`python3 scripts/heli.py koik`:
 sonar, süvaveepomm, diisel, elektrimootor, laevakell, lennuk, õhutõrje,
-kuumpea; `heli.py uks kuumpea` teeb ühe; `heli.py morse "TEKST" fail.mp3`
+kuumpea, diisel-kaivitus, praam; `heli.py uks kuumpea` teeb ühe; `heli.py morse "TEKST" fail.mp3`
 morsekood). Merelaineid meelega ei ole. Meeskonna laul „U-Boot voran“
 (`assets/raudvaal/heli/fathoms-of-honor.mp3`, autori lugu „Fathoms of Honor“,
 128 kbit/s) on `lisad.json` markerkirje `laul-u-boot-voran` (`klass: laul`):
@@ -218,7 +218,10 @@ mulli avamisel.
 ole (nt laulu koht), ei muudeta gitignore'is olevat `.md` faili käsitsi, vaid
 kirje pannakse faili `content/raudvaal/sisestused.json`:
 `{"peatukk": 6, "parast": "<ankru räsi>", "loik": "…[[#marker]]", "markus": "…"}`.
-Import lisab lõigu ankrulõigu järele igal impordil. Ankru räsi annab
+Import lisab lõigu ankrulõigu järele igal impordil. Väikese paranduse
+lõigu sees teeb kirje `{"peatukk": 7, "parast": "<räsi>", "asenda": "vana katke",
+"uus": "uus katke", "markus": "…"}` (sidususe silumiseks; iga parandus on
+raportis kirjas, et autor saaks selle käsikirja üle kanda). Ankru räsi annab
 `python3 scripts/import-kasikiri.py content/raudvaal/06-….md --rasi "Lõigu algus"`
 (räsi arvutatakse lõigu sisust, teksti ennast avalikku faili ei lähe). Kui autor
 lõiku muudab, ütleb import, et ankrut ei leitud, ja räsi tuleb uuendada.

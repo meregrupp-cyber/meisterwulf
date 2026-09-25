@@ -298,7 +298,7 @@
   "saksa": "rõhumõõtja",
   "liik": "sona",
   "tyyp": "pilt",
-  "pealkiri": "Allveelaeva keskruum",
+  "pealkiri": "Allveelaeva tsentraal ehk keskruum",
   "tekst": "Torni all asus keskruum ehk tsentraal (Zentrale), kust juhiti sukeldumist ja rooli ning kus olid koos sügavus- ja rõhumõõturid, ventiilide käsirattad, periskoop ja kaardilaud. Sealt kulges läbipääs vööri ja ahtri poole.",
   "pilt_otsing": "U-995 control room Zentrale interior gauges valves",
   "pilt_kirjeldus": "U-995 või mõne teise VIIC-paadi keskruumi sisevaade: ümmargused mõõteriistad, ventiilide käsirattad, torud lae all ja ümmargune vaheseinaluuk.",
@@ -1057,6 +1057,283 @@
    {
     "tekst": "Eesti keele seletav sõnaraamat · abajas",
     "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=abajas"
+   }
+  ]
+ },
+ {
+  "marker": "miks-vahetati-ainult-üks-silindripea",
+  "peatukk": 7,
+  "pealkiri": "Miks vahetati ainult üks silindripea",
+  "tekst": "Silindripea sulgeb mootori silindri ülemise otsa. Selles paiknevad klapid ja kütusepihusti ning jahutusvee kanalid. VIIC tüübi suurtes diislites oli igal silindril oma eemaldatav pea. Nii sai vigase osa välja vahetada kogu mootorit paadist välja tõstmata. Jahutuskanalist põlemiskambrisse ulatuv pragu võis lasta vee silindrisse. Vesi surutakse kokku väga vähe: kui kolb tõuseb ja vesi ei pääse välja, võivad mootori osad puruneda. Seepärast tuleb enne käivitamist kontrollida ka seda, et silindris poleks vett.",
+  "allikad": [
+   {
+    "tekst": "VIIC tüübi allveelaeva käsiraamat 1940, diiselmootorite ehitus ja jahutus",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "USA mereväe „Submarine Main Propulsion Diesels” 1946, ptk 13: käivitamiseelne kontroll",
+    "url": "https://www.maritime.org/doc/fleetsub/diesel/chap13.php"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne läbilõige ühe silindri ülaosast. Eri värviga märkida põlemiskamber ja silindripeas kulgev jahutuskanal; nende vahele joonistada pragu. Eraldi väikesel üldvaatel näidata, milline osa tervest mootorist välja vahetatakse. Joonis on käsiraamatul põhinev selgitav skeem, mitte U-398 vigastuse ajalooline ülesvõte."
+  ],
+  "pilt": "silindripea.svg",
+  "pildi_allkiri": "Ühe silindri ülaosa läbilõige: põlemiskamber (oranž), silindripeas kulgev jahutusvesi (sinine) ja nende vahel pragu; kõrval üldvaade kuuest silindrist, millest ühe pea vahetatakse. Skeem käsiraamatu kirjelduse järgi.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "diiselmootori-käivitamine-suruõhuga",
+  "peatukk": 7,
+  "pealkiri": "Diiselmootori käivitamine suruõhuga",
+  "tekst": "VIIC diislite käivitamisel pani väntvõlli liikuma suruõhk. Silindritesse juhiti õhku õiges järjekorras; see surus kolbe, kuni mootor hakkas kütuse põlemise jõul ise töötama. 1940. aasta käsiraamatus on käivitusõhu rõhuks märgitud 30 tehnilist atmosfääri ehk ligikaudu 29 baari. Õhk oli varem mahutitesse surutud. Käivitushääl laseb eristada kahte etappi: algul liigutab masinat õhk, seejärel lisanduvad põlemise löögid. See erineb eelmise peatüki kutri kuumpeamootorist, mille süüteosa tuli enne töölehakkamist kuumutada.",
+  "allikad": [
+   {
+    "tekst": "VIIC tüübi allveelaeva käsiraamat 1940, MAN-i ja Germaniawerfti diislite käivitusõhk",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Video „H.C. Orsted Diesel engine startup”, avaldaja Ulathon",
+    "url": "https://www.youtube.com/watch?v=6JyRY9aiMOQ"
+   },
+   {
+    "tekst": "DieselHouse: säilinud B&W mootor ja muuseumi tutvustus",
+    "url": "https://dieselhouse.dk/en/"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. Võrdlusnäiteks sobib DieselHouse’i muuseumis töötava vana B&W mootori käivitussalvestis „H.C. Orsted Diesel engine startup”. Veebimulli jaoks valida lõik suruõhu sisselaskmisest kuni ühtlase tööni; lisada kaks märget: „käivitusõhk” ja „mootor töötab kütusel”. Pildil tasub jätta nähtavale masina liikuvad osad. Allkiri: „Elektrijaama diiselmootor. Sama käivituspõhimõtte võrdlusnäide; U-398 mootor oli teistsugune.”"
+  ],
+  "heli": "diisel-kaivitus.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: käivitusõhu pahvak, aeglane raske pöörlemine, esimesed süütelöögid ja ühtlane töö. Mitte ajalooline salvestis; DieselHouse’i mootori käivitusvideo on allikate all.",
+  "pilt": "dieselhouse.jpg",
+  "pildi_allkiri": "Elektrijaama diiselmootor: Burmeister & Waini kahetaktiline diisel (käivitatud 1933) DieselHouse’i muuseumis Kopenhaagenis. Sama käivituspõhimõtte võrdlusnäide; U-398 mootor oli teistsugune.",
+  "pildi_allikas": "Work With Sounds, 2014, DieselHouse, Kopenhaagen / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:H.C._Ørsted_engine.JPG",
+  "pildi_litsents": "CC BY-SA 4.0"
+ },
+ {
+  "marker": "kurrent-keel-on-tuttav-tähed-võõrad",
+  "peatukk": 7,
+  "pealkiri": "Kurrent: keel on tuttav, tähed võõrad",
+  "tekst": "Vanades saksakeelsetes kirjades võib tuttavate sõnade lugemist takistada Kurrent-käekiri. Selle tähtede kujud erinevad tänapäeva ladina käekirjast; ka trükikirja lugemise oskus ei taga veel käsikirjast arusaamist. Eriti kergesti lähevad segi mitmest lühikesest joonest koosnevad tähed. Abiks on tähestikutabel ning sama kirjutaja teiste sõnade võrdlemine: tuttavas nimes tuvastatud tähte saab otsida ülejäänud tekstist. Baden-Württembergi maa-arhiivi õppematerjal kõrvutab 19. ja 16. sajandi tähekujusid ning pakub lisaks kuju järgi rühmitatud tabelit.",
+  "allikad": [
+   {
+    "tekst": "Landesarchiv Baden-Württemberg: vana kirja lugemise õppematerjalid",
+    "url": "https://www.landesarchiv-bw.de/de/recherche/recherchehilfen/lesen-und-verstehen-lernen/76226"
+   },
+   {
+    "tekst": "Saksa kirja tähestikutabel, 19. ja 16. sajandi kujud (PDF)",
+    "url": "https://www.landesarchiv-bw.de/sixcms/media.php/120/Deutsche_Schrift_nach_Alphabet.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi ja lisainfo kirjeldus. Näidata suurendatavat väljavõtet maa-arhiivi tähestikutabeli 19. sajandi ridadest koos tänapäevaste vastetega. Tähele vajutades tõsta esile selle kuju ning ava kõrvale võrdlustäht. Katharina kirja võib kujutada eraldi, selgelt romaani jaoks loodud näidisena; päris arhiivimaterjali ei esitata tegelase kirjana."
+  ],
+  "pilt": "kurrent.jpg",
+  "pildi_allkiri": "Saksa Kurrent-kirja tähestik 1866. aasta kirjaõpetusraamatust „Der Damen-Briefsteller“: iga rea ees on tänapäevane täht, selle järel Kurrent-kirja väike- ja suurtäht; all umlaudid ja ligatuurid (ch, ck, sch, st, ß, tz).",
+  "pildi_allikas": "„Der Damen-Briefsteller“, 1866; vektor: Martin Kozák / Public domain",
+  "pildi_litsents_url": "https://commons.wikimedia.org/wiki/File:Deutsche_Kurrentschrift.svg",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Deutsche_Kurrentschrift.svg",
+  "pildi_litsents": "Public domain"
+ },
+ {
+  "saksa": "sootuks teistsuguse hääle",
+  "liik": "sona",
+  "peatukk": 7,
+  "pealkiri": "Praami mootor",
+  "tekst": "Väikesel puust praamil või lihtril oli enamasti üks väike ühe- või kahesilindriline mootor, mis töötas kutri raske kuumpeamootoriga võrreldes kiiremini ja tihedamalt. Lahtine plekk ahtris annab niisugusele paadile oma hääle: iga mootorilöök paneb selle vastu teist plekki klõbisema.",
+  "heli": "praam.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: väikese praami tihke mootor ja ahtris klõbisev lahtine plekk. Mitte ajalooline salvestis."
+ },
+ {
+  "saksa": "praam",
+  "liik": "sona",
+  "peatukk": 7,
+  "pealkiri": "Praam",
+  "tekst": "Praam on lameda põhjaga lastialus sadamas ja rannavetes vedamiseks. Väiksemad mootoriga praamid vedasid 1930.–40. aastatel kive, lupja, kütust ja kaupu kai ja laevade vahel; madal parras ja lai tekk tegid laadimise lihtsaks. Saksa mereväel olid oma mootorpraamid (Marine-Kraftkähne) varustuse vedamiseks sadamates.",
+  "pilt": "praam.jpg",
+  "pildi_allkiri": "Mootorpraam „Pargas 22“ Helsingi Hietalahti kai ääres umbes 1930. aastal: madal parras, lai tekk ja väike roolikamber ahtris. Ajastu võrdluspilt.",
+  "pildi_allikas": "Sakari Pälsi, u 1930, Helsingi linnamuuseum / CC BY 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by/4.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Hietalahdenranta_-_Helsinki_1930_-_N203841_-_hkm.HKMS000005-km003tzs.jpg",
+  "pildi_litsents": "CC BY 4.0"
+ },
+ {
+  "saksa": "Tsingtau",
+  "liik": "sona",
+  "peatukk": 7,
+  "pealkiri": "Tsingtau",
+  "tekst": "Tsingtau (Qingdao) Shandongi poolsaarel oli 1898–1914 Saksa rendiala Kiautschou keskus: Saksamaa ehitas sinna sadama, raudtee, sõjaväebaasi ja Euroopa ilmega linna. 1914. aastal vallutas linna Jaapan, 1922 läks see tagasi Hiinale. Saksa keel, koolid ja kaubandussidemed jäid linna mõjutama ka pärast rendiaja lõppu.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Kiautschou Bay Leased Territory",
+    "url": "https://en.wikipedia.org/wiki/Kiautschou_Bay_Leased_Territory"
+   }
+  ],
+  "pilt": "tsingtau.jpg",
+  "pildi_allkiri": "Tsingtau rannapromenaad (Kaiser-Wilhelm-Ufer) Saksa rendiaja lõpul, 1913. Ajastu võrdluspilt.",
+  "pildi_allikas": "Adolf Haupt, „Album von Tsingtau“, 1913 / Public domain",
+  "pildi_litsents_url": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A4%AA%E5%B9%B3%E8%B7%AF%E5%BE%B7%E7%A7%9F%E6%97%B6%E6%9C%9F03.jpg",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:青岛太平路德租时期03.jpg",
+  "pildi_litsents": "Public domain"
+ },
+ {
+  "saksa": "otsad mõlemale poole",
+  "liik": "sona",
+  "pealkiri": "Otsad ehk kinnitusköied",
+  "tekst": "Meremeeste keeles on „ots” köis või tross, millega laev kinnitatakse: laev annab otsad lahti, kinnitusots pannakse kai külge. Sama tähendus on siin ka tõsteotsal ja kinnitusotsal, mida praamimees hiljem näitab. Praam seotakse allveelaeva külge otstega mõlemast otsast, vöörist ja ahtrist, et ta ei pöörduks ega triiviks; lahkumisel võetakse otsad lahti.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · ots (9. tähendus, mer)",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=ots"
+   }
+  ]
+ },
+ {
+  "saksa": "kaitsepak",
+  "liik": "sona",
+  "pealkiri": "Kaitsepakud ehk vendrid",
+  "tekst": "Kaitsepakud ehk vendrid on laevakere ja kai või kahe kere vahele pandavad pehmendid, mis võtavad vastu lööke sadamas manööverdades ja kõrvuti seistes. Neid on punutud köiest, puitprussidest ja vanadest autokummidest, hiljem ka täispuhutavast kummist või plastist. Kuiv puitvender võib suure surve all pilbasteks minna, ja kahe raske kere vahele ei tohi sõrmi jätta.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Fender (Schifffahrt)",
+    "url": "https://de.wikipedia.org/wiki/Fender_(Schifffahrt)"
+   },
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · vender",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=vender"
+   }
+  ]
+ },
+ {
+  "saksa": "ketttali",
+  "liik": "sona",
+  "pealkiri": "Ketttali",
+  "tekst": "Tali on rippuv tõsteseade; ketttali tõstab raskust ketiga, mida veetakse käsitsi. Levinud diferentsiaalplokk (Thomas Weston, 1854) koosneb ühisel võllil olevast kahest erineva läbimõõduga kettarattast ja lõputust ketist: käsi tõmbab ketti pikalt, koorem tõuseb vähe, kuid raske asi püsib ka ketist lahti lastes paigal. Sellega tõstetakse töökojas mootoreid; siin ripub tali luugi kohale seatud tõstepalgi küljes.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Differential pulley",
+    "url": "https://en.wikipedia.org/wiki/Differential_pulley"
+   },
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · tali",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=tali"
+   }
+  ]
+ },
+ {
+  "saksa": "Keevitaja",
+  "liik": "sona",
+  "pealkiri": "Gaaskeevitus allveelaevas",
+  "tekst": "Balloonid, voolik ja prillid viitavad gaaskeevitusele: atsetüleeni ja hapniku leek põleb umbes 3500 °C juures, gaasid tulevad balloonidest voolikute kaudu; meetodi töötasid välja Fouché ja Picard 1903. aastal. Leek võib voolikusse tagasi lüüa ja sädemed süütavad õli, seepärast on vaja valvet ja ventilatsiooni. Allveelaevas on oht suurem: pliiakud eraldavad laadimisel vesinikku, mille segu õhuga on juba mõne protsendi juures süttiv.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Oxy-fuel welding and cutting",
+    "url": "https://en.wikipedia.org/wiki/Oxy-fuel_welding_and_cutting"
+   },
+   {
+    "tekst": "uboat.net · Maintenance and usage of submarine batteries",
+    "url": "https://uboat.net/articles/id/54"
+   }
+  ]
+ },
+ {
+  "saksa": "Periskoobi pea",
+  "liik": "sona",
+  "pealkiri": "Periskoobi pea",
+  "tekst": "Periskoop on toru, mille kummaski otsas on prisma või peegel: ülemine ots ehk pea püüab valguse ja saadab selle toru sees alla okulaari. Pea on ainus osa, mis vee alt sõites pinnale ulatub; maailmasõdade paatidel oli tõstetud toru 5–10 m pikk, VII C ründeperiskoop ulatus torni katusest üle viie meetri. Just pea saab pinnal kõige kergemini viga, ja ilma korraliku peata ei aita muu optika: üks periskoop on kasutuskõlbmatu, teise pilt pragunenud.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Periskop",
+    "url": "https://de.wikipedia.org/wiki/Periskop"
+   },
+   {
+    "tekst": "uboatarchive.net · Type VII C Manual",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "võllile minev ühendus",
+  "liik": "sona",
+  "pealkiri": "Sidur ja generaator",
+  "tekst": "VII C paadil olid kummalgi pardal diisel, elektrimasin ja sõukruvi võll ühel teljel ning nende vahel sidurid. Käsiraamat loetleb töörežiime: ainult diisel, ainult elektrimootorid, tugi- ja puhverrežiim, diisel-elektriline sõit ja laadimine. Laadimisel ajab diisel elektrimasinat, mis töötab generaatorina ja laeb akusid. Kai ääres seistes tuleb võlli sidur lahti võtta: siis saab mootorit generaatori kaudu koormata, ilma et sõukruvi pöörleks.",
+  "allikad": [
+   {
+    "tekst": "uboatarchive.net · Type VII C Manual (võllid ja sidurid; mootorite ja elektrimasinate koostöö)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "uboat.net · Maintenance and usage of submarine batteries",
+    "url": "https://uboat.net/articles/id/54"
+   }
+  ]
+ },
+ {
+  "saksa": "päris kohv",
+  "liik": "sona",
+  "pealkiri": "Päris kohv",
+  "tekst": "Sõja-aastail oli ubadest kohv Saksamaal ja okupeeritud Norras haruldus. Norras jagati leibkondadele kohvikaarte, kuni kohvi polnud enam seaduslikul teel saada; asemele tuli näiteks hernekohv, mille jaoks kuivatatud herneid rösititi ja jahvatati nagu ube. Saksamaal joodi aseainet Ersatzkaffee ehk Getreidekaffee, mida tehti röstitud teraviljast, sigurist või tõrudest. Kotike päris kohvi oli seega hinnaline asi.",
+  "allikad": [
+   {
+    "tekst": "Norgeshistorie.no (Oslo ülikool) · Kosthold og ernæring under okkupasjonen",
+    "url": "https://www.norgeshistorie.no/andre-verdenskrig/1704-kosthold-og-ernering-under-okkupasjonen.html"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Ersatz good",
+    "url": "https://en.wikipedia.org/wiki/Ersatz_good"
+   }
+  ]
+ },
+ {
+  "saksa": "kopeerpaber",
+  "liik": "sona",
+  "pealkiri": "Kopeerpaber ja koopia",
+  "tekst": "Kopeerpaber on ühelt küljelt pigmendiga kaetud leht, mis pannakse kahe paberi vahele: kirjutusmasina või pliiatsi surve kannab sinise või musta jälje alumisele lehele ja koopia sünnib originaaliga ühekorraga; mõistlik piir oli neli-viis koopiat. Meetodi leiutas Pellegrino Turri 1801, patendi sai Ralph Wedgwood 1806; asjaajamises oli kopeerpaber laialt kasutusel 1870.–1980. aastatel. Schrade leht on niisugune koopia: õhuke ja tagaküljel sinine.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Carbon paper",
+    "url": "https://en.wikipedia.org/wiki/Carbon_paper"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Carbon copy",
+    "url": "https://en.wikipedia.org/wiki/Carbon_copy"
+   }
+  ]
+ },
+ {
+  "saksa": "Kahekümne kaheksanda aprilli",
+  "liik": "sona",
+  "pealkiri": "28. aprill 1945",
+  "tekst": "24. aprillil sulges Punaarmee Berliini ümber piiramisrõnga, 25. aprillil kohtusid Nõukogude ja USA väed Elbe ääres Torgau juures. 28. aprillil lasti maha Mussolini ja Hitler sai teada Himmleri alistumisläbirääkimistest; 29. aprillil allkirjastati Saksa vägede kapitulatsioon Itaalias, 30. aprillil tappis Hitler end ja järglaseks sai Dönitz. Norras seisis veel umbes 400 000 Saksa sõdurit; nende kapitulatsioon jõustus alles 8. mai 1945 südaööl.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · April 1945",
+    "url": "https://en.wikipedia.org/wiki/April_1945"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Occupation of Norway by Nazi Germany",
+    "url": "https://en.wikipedia.org/wiki/Occupation_of_Norway_by_Nazi_Germany"
+   }
+  ]
+ },
+ {
+  "saksa": "kotkaga tempel",
+  "liik": "sona",
+  "pealkiri": "Kotkaga tempel",
+  "tekst": "Saksa riigi vapiks (Hoheitszeichen) oli 5. novembri 1935 määrusest alates NSDAP kotkas, kes hoiab küünte vahel tammepärjas haakristi; 1936. aasta märtsi määrus kirjeldas kuju täpselt ja eristas riigi- ja parteikotkast. Riigi vappi kannavad lipud, märgid ja ametipitsatid, nii et sõja ajal oli kotkas igal ametlikul templil koos asutuse nimetusega. Otto ei vaidlusta kotkast, vaid numbrit, mis templil nimetatud asutusele ei kuulu.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Coat of arms of Germany",
+    "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Germany"
+   },
+   {
+    "tekst": "Wikipedia (saksa) · Hoheitszeichen",
+    "url": "https://de.wikipedia.org/wiki/Hoheitszeichen"
    }
   ]
  }

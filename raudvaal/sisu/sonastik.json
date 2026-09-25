@@ -119,6 +119,13 @@
   ]
  },
  {
+  "saksa": "Bezahlung: Dienstleistung.",
+  "tolge": "Tasumine: teenus.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "Bin gleich da.",
   "tolge": "„Tulen kohe.”",
   "peatukid": [
@@ -231,10 +238,24 @@
   ]
  },
  {
+  "saksa": "Den haben wir nicht bekommen. Ich bestätige Ihnen keinen Empfang, solange das Stück auf irgendeinem anderen Schiff liegt.",
+  "tolge": "Seda me pole saanud. Mina ei kinnita teile kättesaamist, kuni see osa kusagil teisel laeval seisab.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "Den Jungen zuerst!",
   "tolge": "„Poiss esimesena!”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Den Kopf können wir wechseln. Danach müssen wir prüfen, was die Maschine unter Last macht. Vorher kann ich keine Probefahrt verantworten.",
+  "tolge": "Pea saame ära vahetada. Seejärel tuleb kontrollida, kuidas mootor koormuse all töötab. Enne ei saa ma proovisõidu eest vastutada.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -256,6 +277,13 @@
   "tolge": "„Vastuvõtjal on vool olemas. Kas antenn on terve, näeme kõrgemal.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Der Kopf wird beim Treffen übergeben. Den Termin erhalten Sie über Funk.",
+  "tolge": "Pea antakse üle kohtumisel. Aja saate teada raadio kaudu.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -301,6 +329,13 @@
   ]
  },
  {
+  "saksa": "Die Liste bekommen Sie, wenn wir die neuen Papiere gesehen haben. Für heute muss Ihnen die Zahl genügen.",
+  "tolge": "Nimekirja saate siis, kui oleme uusi pabereid näinud. Täna peab teile inimeste arvust piisama.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "Die Liste zum Obersteuermann. Ich komme gleich.",
   "tolge": "„Nimekiri tüürimeeste vanemale. Tulen kohe.” Obersteuermann – tüürimeeste vanem, vanemallohvitser.",
   "peatukid": [
@@ -322,10 +357,24 @@
   ]
  },
  {
+  "saksa": "Die zuständigen Stellen werden das Papier anerkennen, Herr Leutnant. Sie brauchen es nicht an jede Dienststelle weiterzugeben.",
+  "tolge": "Asjasse puutuvad ametiasutused tunnustavad seda paberit, härra leitnant. Teil pole vaja seda igale poole esitada.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "Diese Koje ist bis sechs frei,",
   "tolge": "„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Diese Nummer gehört nicht zu der Dienststelle.",
+  "tolge": "See number ei kuulu sellele ametiasutusele.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -350,6 +399,13 @@
   ]
  },
  {
+  "saksa": "Eine Werkstatt kann ich Ihnen hier nicht versprechen, Herr Leutnant. Schreiben Sie auf, was unbedingt gebraucht wird. Mit den genauen Bezeichnungen.",
+  "tolge": "Töökoda ma teile siin lubada ei saa, härra leitnant. Pange kirja, mida on tingimata vaja. Koos täpsete nimetustega.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "Einer von ihnen kann den Schweden sagen, wo wir liegen.",
   "tolge": "„Keegi neist võib rootslastele öelda, kus me oleme.”",
   "peatukid": [
@@ -371,6 +427,13 @@
   ]
  },
  {
+  "saksa": "Frau von Wulf, die Einzelheiten werden rechtzeitig mitgeteilt. Sie können sicher sein, dass niemand Unmögliches von diesem Boot verlangt.",
+  "tolge": "Proua von Wulf, üksikasjad teatatakse õigel ajal. Võite kindel olla, et keegi ei nõua sellelt paadilt võimatut.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "FuMB-Ortung!",
   "tolge": "„FuMB tuvastas radari!” FuMB (Funkmessbeobachtung) on vastase radarikiirgust avastav hoiatusseade.",
   "peatukid": [
@@ -382,6 +445,13 @@
   "tolge": "„Viieteistkümnendast seitsmeteistkümnendani.” – s.t aastatel 1915–1917.",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Gebraucht. Das muss auch auf dem Lieferschein stehen. Und ob er dicht ist, prüfen wir selbst, bevor er eingebaut wird.",
+  "tolge": "Kasutatud. See peab ka saatelehel kirjas olema. Ja kas ta peab vett, kontrollime enne paigaldamist ise üle.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -452,6 +522,13 @@
   "tolge": "„Siia ei panda midagi. Läbipääs peab vabaks jääma.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Hier. Erst sauber. Dann sehen.",
+  "tolge": "Siit. Enne puhtaks. Siis vaatame.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -656,6 +733,13 @@
   "tolge": "„Krüger. Tüürimeeste vanem.” Obersteuermann – tüürimeeste vanem, vanemallohvitser.",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Langsam mit der Last. Wenn sich die Temperatur ändert, sofort melden. Ich bleibe unten, bis wir gleichmäßige Werte haben. Die Maschine soll heute noch die Batterien laden.",
+  "tolge": "Koormust lisage aeglaselt. Kui temperatuur muutub, teatage kohe. Ma jään alla, kuni näidud on püsivad. Mootor peab täna veel akusid laadima.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -918,6 +1002,13 @@
   ]
  },
  {
+  "saksa": "Ohne den Kopf bleibt es bei der eingeschränkten Sicht. Daran ändert auch ein neuer Befehl nichts.",
+  "tolge": "Ilma peata jääb nähtavus piiratuks. Seda ei muuda ka uus käsk.",
+  "peatukid": [
+   "VII"
+  ]
+ },
+ {
   "saksa": "Ohne meinen Bruder gehe ich nicht.",
   "tolge": "„Ilma vennata ma ei lähe.”",
   "peatukid": [
@@ -1062,6 +1153,13 @@
   "tolge": "Nii? Kas pean põlvi kõverdama?",
   "peatukid": [
    "VI"
+  ]
+ },
+ {
+  "saksa": "Sonderstab",
+  "tolge": "Eristaap.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
@@ -1314,6 +1412,13 @@
   "tolge": "„Mispärast?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Wie viele Menschen? Wie viel Ladung? Und wohin? Ohne diese Angaben wissen wir nicht, was wir zusagen.",
+  "tolge": "Kui palju inimesi? Kui palju lasti? Ja kuhu? Ilma nende andmeteta me ei tea, millega nõustume.",
+  "peatukid": [
+   "VII"
   ]
  },
  {
