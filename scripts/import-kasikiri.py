@@ -29,7 +29,7 @@ Mida tehakse:
 Pandoc: süsteemi `pandoc` või `pip install pypandoc_binary`.
 Pärast importi: node scripts/build-raudvaal.mjs (vt README).
 """
-import argparse
+import argparse, hashlib
 import json
 import re
 import shutil
@@ -252,17 +252,61 @@ def report_unmarked(body):
                 found.append((i, q.group(1)))
     return found
 
+SISESTUS_STRIP = [(re.compile(r"\[\[([^\]|]*)\|\|[^\]]*\]\]"), r"\1"),   # tõlkemull -> saksa originaal
+                  (re.compile(r"\[\[#[^\]]*\]\]"), ""),                     # seletusviide maha
+                  (re.compile(r"\[\^[^\]]+\]"), "")]                        # joonealuse viide maha
+
+
+def sisestus_hash(par: str) -> str:
+    """Lõigu ankur: sisu räsi, mis ei sõltu mullimärgistusest ega tühikutest (tekst ise ei lähe avalikku faili)."""
+    s = par
+    for rx, rep in SISESTUS_STRIP:
+        s = rx.sub(rep, s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()[:16]
+
+
+def apply_sisestused(out_lines, nr, raamat, warnings):
+    """content/<raamat>/sisestused.json: toimetaja lisatud lõigud, mis pannakse ankrulõigu järele.
+    Kirje: {"peatukk": 6, "parast": "<sisestus_hash>", "loik": "…", "markus": "…"}. Ankru räsi annab --rasi."""
+    path = Path("content") / raamat / "sisestused.json"
+    if not path.exists():
+        return out_lines
+    items = [x for x in json.loads(path.read_text(encoding="utf-8")) if x.get("peatukk") == nr]
+    n = 0
+    for it in items:
+        idx = {sisestus_hash(l): i for i, l in enumerate(out_lines) if l and l != "***"}
+        i = idx.get(it["parast"])
+        if i is None:
+            warnings.append(f"sisestus „{it.get('markus', '')}”: ankrulõiku {it['parast']} ei leitud, lõik jäi lisamata")
+            continue
+        out_lines[i + 1:i + 1] = ["", it["loik"]]
+        n += 1
+    if items:
+        print(f"  {n} sisestust {len(items)}-st lisatud (content/{raamat}/sisestused.json)")
+    return out_lines
+
 
 def main():
     ap = argparse.ArgumentParser(description="Käsikirja import (.odt/.docx -> markdown tõlkemullidega)")
     ap.add_argument("fail", type=Path)
-    ap.add_argument("--nr", type=int, required=True, help="peatüki number (0 = proloog)")
+    ap.add_argument("--nr", type=int, help="peatüki number (0 = proloog)")
     ap.add_argument("--raamat", default="raudvaal")
     ap.add_argument("--mustand", action="store_true", help="published: false (avalikkusele tulekul, koodiga loetav)")
     ap.add_argument("--raport", type=Path, help="kirjuta märgistamata saksapäraste kohtade raport siia faili")
     ap.add_argument("--valjund", type=Path, help="kirjuta mujale kui content/<raamat>/")
+    ap.add_argument("--rasi", metavar="ALGUS", help="prindi sisestuste ankru räsi: lõik antud .md failist, mis algab selle tekstiga")
     ap.add_argument("--uuenda-lisad", action="store_true", help="kirjuta autori infomullid lisad.json faili üle ka siis, kui need seal juba on")
     a = ap.parse_args()
+    if a.rasi is not None:
+        pars = [l for l in a.fail.read_text(encoding="utf-8").split("\n") if l.strip() and l.strip() != "***"]
+        hits = [l for l in pars if l.lstrip("„").startswith(a.rasi)]
+        if len(hits) != 1:
+            sys.exit(f"{len(hits)} lõiku algab tekstiga „{a.rasi}” (vaja täpselt üht)")
+        print(sisestus_hash(hits[0]))
+        return
+    if a.nr is None:
+        ap.error("--nr on kohustuslik")
 
     reg_path = ROOT / "content" / a.raamat / "sisukord.json"
     reg = json.loads(reg_path.read_text(encoding="utf-8"))
@@ -294,6 +338,7 @@ def main():
         if k not in used:
             warnings.append(f"joonealune [^{k}] on defineeritud, aga tekstis viidet pole: {notes[k][:60]}")
 
+    out_lines = apply_sisestused(out_lines, a.nr, a.raamat, warnings)
     text = "\n".join(out_lines).strip("\n")
     text = re.sub(r"\n{3,}", "\n\n", text) + "\n"
 
@@ -349,9 +394,10 @@ def main():
             added += 1
             if im["marker"] not in markers:
                 warnings.append(f"infomullil „{im['pealkiri']}” (#{im['marker']}) ei ole tekstis viidet")
+        known = {im["marker"] for im in infomullid} | {x.get("marker") for x in lisad if x.get("marker")}
         for mk in markers:
-            if mk not in {im["marker"] for im in infomullid}:
-                warnings.append(f"tekstis on viide [[#{mk}]], aga infomullide osas sellist pealkirja pole")
+            if mk not in known:
+                warnings.append(f"tekstis on viide [[#{mk}]], aga infomullide osas ega lisad.json failis sellist markerit pole")
         lisad_path.write_text(json.dumps(lisad, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(f"  {len(infomullid)} autori infomulli -> content/{a.raamat}/lisad.json ({added} lisatud/uuendatud, {kept} jäi alles; ülekirjutamiseks --uuenda-lisad)")
         print("    pildid: " + ", ".join(f"{im['marker']} <- {im['pilt_url']}" for im in infomullid if im.get("pilt_url")) if any(im.get("pilt_url") for im in infomullid) else "    (Commonsi pildiviiteid pole)")

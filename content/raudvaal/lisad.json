@@ -771,5 +771,138 @@
   "pealkiri": "Rootsi neutraliteedivalve",
   "tekst": "Neutraalne Rootsi hoidis 1939–1945 rannikul neutraliteedivalvet (neutralitetsvakt): merevägi, rannakaitse ja rannavalve jälgisid territoriaalvett, võõrad sõjalaevad ja nende meeskonnad peatati ning saarestikke patrulliti nii merelt kui maalt.",
   "pohjendus": "V ptk: selgitab, kelle patrull see oli ja miks selle eest varjuti, kordamata internimise pop-upi. Suur algustäht hoiab ankru lahus I ptk Kieli tänavapatrullist („patrull”, rida 72)."
+ },
+ {
+  "marker": "kuidas-allveelaev-põhjast-lahti-sai",
+  "peatukk": 6,
+  "pealkiri": "Kuidas allveelaev põhjast lahti sai",
+  "tekst": "Põhjale laskumiseks muudeti paat veidi raskemaks kui tema väljatõrjutud vesi. Üles tõusmiseks tuli see ülekaal uuesti kõrvaldada. 1943. aasta Saksa sukeldumiseeskiri soovitas vajaduse korral osa meeskonnast vööri ja ahtri vahet liigutada, et aidata paadil põhjast vabaneda. Ballastitankide tühjakspuhumine suruõhuga pidi jääma viimaseks abinõuks: üles kerkivad õhumullid võisid varjupaiga reeta. Mudast põhja püüti vältida, sest sette sisse vajunud laev võis sinna kinni jääda.",
+  "allikad": [
+   {
+    "tekst": "Saksa sukeldumiseeskiri 1943, X jagu, § 231–239; originaali tõlge ja faksiimile",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Kolm lihtsat läbilõiget samast paadist: põhjas lebamine, veekoguse vähendamine tasakaalupaagis ja vabanemine. Keskmisel joonisel näidata lisaks meeste ümberpaiknemist ning sellest muutuvat kallet."
+  ],
+  "pilt": "pohjast-lahti.svg",
+  "pildi_allkiri": "Kolm läbilõiget: paat lebab põhjas; tasakaalupaagist lastakse vett välja ja mehed liiguvad vöörist ahtrisse, kalle muutub; paat on vaba. Skeem 1943. aasta sukeldumiseeskirja järgi.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "miks-hapnikuballoonist-üksi-ei-piisanud",
+  "peatukk": 6,
+  "pealkiri": "Miks hapnikuballoonist üksi ei piisanud",
+  "tekst": "Suletud allveelaevas tuli lahendada kaks eri ülesannet: lisada hingamiseks hapnikku ja eemaldada väljahingatud süsihappegaas. Ainult hapniku juurdeandmine teist muret ei kõrvaldanud. VIIC tüübi 1940. aasta käsiraamat kirjeldab kolme õhupuhastit, igaühes neli naatriumhüdroksiidi sisaldavat padrunit. Ventilatsioon juhtis õhu läbi padrunite ja tagasi ruumi. Hapnik tuli eraldi balloonidest; selle sisaldust ja süsihappegaasi hulka kontrolliti mõõteriistadega. Padruni leelis sidus süsihappegaasi keemiliselt, mitte pelgalt ei sõelunud õhust mustust.",
+  "allikad": [
+   {
+    "tekst": "VIIC tüübi allveelaeva käsiraamat 1940, lk 84–85, õhupuhastus ja hapnikuvaru",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Läbilõige nelja padruniga õhupuhastist, nooled õhu liikumise suunas. Kõrval eraldi hapnikuballoon oma ühendustoruga. Märkida, et puhasti kasutab laeva siseõhku: vee all puudub ühendus välisõhuga. Joonis koostada käsiraamatu kirjelduse põhjal."
+  ],
+  "pilt": "ohupuhasti.svg",
+  "pildi_allkiri": "Õhupuhasti läbilõige: ventilaator ajab ruumi õhu läbi nelja naatriumhüdroksiidipadruni ja tagasi ruumi; hapnikuballoon lisab ainult hapnikku. Vee all välisõhuga ühendust ei ole.",
+  "pildi_allikas": "Joonis: meisterwulf.com, VIIC käsiraamatu (1940) kirjelduse järgi"
+ },
+ {
+  "marker": "meremeeste-keeld-naisi-pardale-tuua",
+  "peatukk": 6,
+  "pealkiri": "Meremeeste keeld naisi pardale tuua",
+  "tekst": "Usk, et naine laevas toob õnnetust, püsis osas Saksa kalurimeeskondades ka pärast Teist maailmasõda. Kristin Kube küsitles aastatel 2005–2011 endisi avamerekalureid, kes olid merel töötanud aastail 1945–1990. Algul eitas enamik küsitletuid oma töös ebausku; konkreetsete näidete järel meenusid keelud ja rituaalid, mida peeti tavaliseks meremehekombeks. Naiste pardaletuleku kõrval mainiti vilistamise ja masti kraapimise keeldu. Need tunnistused kirjeldavad kalurite pärimust; need ei tõenda ühesugust usku kõigis sõjalaevade meeskondades.\n\nKombestik laiemalt. Vilistamist laevas seostati halva ilma kutsumisega, masti kraapimist mere pahandamisega. Kube küsitletud kalurite meeskond võis niisugust keeldu valvata ka siis, kui liikmed end ise ebausklikuks ei pidanud.",
+  "allikad": [
+   {
+    "tekst": "Kristin Kube, „Magie auf See. Rituale und Tabus deutscher Hochseefischer”, Deutsches Schiffahrtsarchiv 35 (2012), lk 234 ja 241–242",
+    "url": "https://urn.dsm.museum/DSA/DSA35_2012_233260_Kube.pdf"
+   }
+  ],
+  "markused": [
+   "Lisainfo veebimullis. Avatav teine tekstikiht: vilistamist seostati halva ilma kutsumisega, masti kraapimist mere pahandamisega. Kube uurimus näitab, et meeskond võis sellist keeldu valvata ka siis, kui liikmed end ise ebausklikuks ei pidanud. Siin annab lisaväärtuse kombestiku seletus."
+  ]
+ },
+ {
+  "marker": "kuumpeamootori-käivitamine-ja-hääl",
+  "peatukk": 6,
+  "pealkiri": "Kuumpeamootori käivitamine ja hääl",
+  "tekst": "Kuumpeamootori kütus süttis eelnevalt kuumutatud osa juures. Paljudel sellistel mootoritel tuli enne käivitamist kasutada leeklampi; tööle hakanud mootor hoidis vajalikku kuumust juba põlemisega. Suur hooratas aitas väntvõllil üksikute töötaktide vahel edasi pöörata. Seepärast eristuvad aeglase mootori hääles löögid, mis kiirel mootoril sulavad ühtlaseks müraks. Norra laevapärandi hoidjate juhend nimetab seda mootoriperet semidiisliks ning rõhutab, et selle käivitamise ja hooldamise oskus on kadumas.",
+  "allikad": [
+   {
+    "tekst": "Video „Mootori käivitamine” – Sillaotsa Talumuuseumi galerii viidatud salvestis",
+    "url": "https://www.youtube.com/watch?v=yOQb-FzP_5Q"
+   },
+   {
+    "tekst": "Video „Töötav mootor – Video 1” – Sillaotsa Talumuuseumi galerii viidatud salvestis",
+    "url": "https://www.youtube.com/watch?v=IcleJZGuSRQ"
+   },
+   {
+    "tekst": "Sillaotsa Talumuuseumi videogalerii ja salvestiste kirjeldused",
+    "url": "https://muuseum.velise.ee/videogalerii"
+   },
+   {
+    "tekst": "Norra laevapärandi juhend „Oppstartsprosedyre semidiesel”, lk 1",
+    "url": "https://fartoyvern.no/wp-content/uploads/2022/11/fakta-startprosedyre-semidiesel.pdf"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. Kaks lühikest näidet Sillaotsa Talumuuseumi videogaleriist: „Mootori käivitamine” ja „Töötav mootor – Video 1”. Esimene näitab vana masina käivitamist, teine laseb kuulata selle töö rütmi ning näha hooratta liikumist. Galeriis on ka muuseumi kuumpeamootori salvestis Pärnu Hansapäevadelt 2011. Veebimullis märkida: „Muuseumi maamootor; võrdlus sama mootoritüübi tööga.” See pole peatüki Norra kalakutri ega allveelaeva mootori salvestis."
+  ],
+  "heli": "kuumpea.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: aeglase kuumpeamootori üksikud löögid ja raua klõbin, mitte ajalooline salvestis. Muuseumi mootori videod on allikate all (muuseumi maamootor; võrdlus sama mootoritüübi tööga).",
+  "pilt": "kuumpea.jpg",
+  "pildi_allkiri": "Rootsi Bolinderi 9 hj kuumpea-paadimootor 1930. aastate algusest Londoni kanalimuuseumis: suur hooratas ja silindri otsas kuumutatav pea. Tänapäevane võrdluspilt.",
+  "pildi_allikas": "ell brown (Flickr), 2015, London Canal Museum / CC BY-SA 2.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:London_Canal_Museum_-_Bolinder_Engine.jpg",
+  "pildi_litsents": "CC BY-SA 2.0"
+ },
+ {
+  "marker": "laul-u-boot-voran",
+  "peatukk": 6,
+  "klass": "laul",
+  "pealkiri": "„U-Boot voran” – meeskonna laul",
+  "tekst": "Laul, mida vööris tasakesi lauldakse. Mull mängib selle avamisel ette; laula kaasa. (Loo pealkiri „Fathoms of Honor”.)\n\n(Eins-zwei-drei-vier) (Eins-zwei-drei-vier)\n\n1. salm\nTief im Ozean, das U-Boot gleitet (Eins-zwei-drei-vier)\nDurch Sturm und Wellen, die Kraft uns leitet (Eins-zwei-drei-vier)\nFür Vaterland und Ehre wir stehen (Eins-zwei-drei-vier)\nDie See ist unser Schicksal, wir werden nicht vergehen (Eins-zwei-drei-vier)\n\nRefrään\nU-Boot voran, durch Dunkelheit und Sturm\nMit Stahl und Mut, wir trotzen jedem Turm\nDie Tiefe ruft, wir folgen ihrem Pfad\nFür unser Reich, für unsere Tat\n\n2. salm\nWenn Heimathafen ruft, dann kehren wir zurück\nDoch bis dahin kämpf'n wir, Stück für Stück\nDie Flagge weht, der Sieg uns ruft\nWir segeln stolz, mit stahlhartem Luft\n\nRefrään\nU-Boot voran, durch Dunkelheit und Sturm\nMit Stahl und Mut, wir trotzen jedem Turm\nDie Tiefe ruft, wir folgen ihrem Pfad\nFür unser Reich, für unsere Tat\n\n3. salm\nDurch Sturm und Not, die Tiefe kennen wir\nDie Kameraden einig, keine Angst verspür'n\nVom Bug zum Heck, das Herz aus Stahl\nWir navigier'n durch Wellen, groß wie ein Mahl\n\nRefrään\nU-Boot voran, durch Dunkelheit und Sturm\nMit Stahl und Mut, trotzen jedem Turm\nDie Tiefe ruft, wir folgen ihrem Pfad\nFür unser Reich, für unsere Tat\n\nLõpp\nWenn Heimathafen ruft, dann kehren wir zurück\nDoch bis dahin kämpf'n wir, Stück für Stück\n\nTõlge\n1. Sügaval ookeanis libiseb allveelaev, / läbi tormi ja lainete juhib meid jõud. / Isamaa ja au eest me seisame, / meri on meie saatus, me ei hukku.\n\nRefrään. Allveelaev, edasi, läbi pimeduse ja tormi! / Terase ja julgusega trotsime iga torni. / Sügavus kutsub, me käime tema rada, / oma riigi eest, oma teo eest.\n\n2. Kui kodusadam kutsub, pöördume tagasi, / aga seni võitleme, tükk tüki haaval. / Lipp lehvib, võit kutsub meid, / me seilame uhkelt, hingus terasest.\n\n3. Läbi tormi ja häda tunneme sügavust, / kaaslased ühel meelel, hirmu ei tunne. / Vöörist ahtrini süda terasest, / me juhime paati läbi lainete, suurte nagu mäed.\n\nLõpp. Kui kodusadam kutsub, pöördume tagasi, / aga seni võitleme, tükk tüki haaval.",
+  "heli": "fathoms-of-honor.mp3",
+  "helitugevus": 0.7,
+  "heli_allkiri": "„Fathoms of Honor” (U-Boot voran), 2 min 11 s. Laul mängib mulli avamisel ja peatub sulgemisel; nupuga saab peatada ja uuesti käivitada."
+ },
+ {
+  "saksa": "Kutter",
+  "liik": "sona",
+  "pealkiri": "Kalakutter",
+  "tekst": "Norra rannikul kutsuti väikest puust mootorkalapaati skøyte’ks; eesti keeles on sama tüüpi alus kutter. Sellisel paadil oli madal roolikamber ahtri pool, mast ja poom võrkude ja lasti tõstmiseks ning enamasti üks aeglane paadimootor. Sõja ajal vedasid Norra kalakutrid ka inimesi ja kaupa üle mere, sealhulgas salaja Shetlandi saartele.",
+  "allikad": [
+   {
+    "tekst": "Sunnmøre Museum: kalaskøyte M/K Heland (ehitatud 1937), Shetlandi-liini paat",
+    "url": "https://commons.wikimedia.org/wiki/File:Heland.JPG"
+   }
+  ],
+  "pilt": "kutter.jpg",
+  "pildi_allkiri": "Norra puust kalaskøyte M/K Heland (ehitatud 1937) Sunnmøre muuseumis Ålesundis: madal roolikamber, mast ja poom. Tänapäevane võrdluspilt.",
+  "pildi_allikas": "Andrva, 2010, Sunnmøre Museum, Ålesund / CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Heland.JPG",
+  "pildi_litsents": "CC BY-SA 3.0"
+ },
+ {
+  "saksa": "tuukrikiivri",
+  "liik": "sona",
+  "pealkiri": "Raske tuukrivarustus",
+  "tekst": "Raske tuukrivarustus koosnes vasest kiivrist, veekindlast ülikonnast, rasketest pliitaldadega saabastest ja rinnaraskustest. Õhk pumbati tuukrile pinnalt vooliku kaudu, kiivri esiklaasi kaudu nägi ta oma tööd ja jalgadega seisis ta merepõhjal. Sadama- ja päästetöödel oli see 1940. aastatel tavaline varustus.",
+  "allikad": [
+   {
+    "tekst": "Bundesarchiv Bild 146-2004-225: tuuker Tallinna sadamas, 13. september 1941",
+    "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2004-225,_Reval,_Taucher_im_Hafen.jpg"
+   }
+  ],
+  "pilt": "tuukrikiiver.jpg",
+  "pildi_allkiri": "Raske tuukrivarustusega tuuker astub paadist vette Tallinna sadamas 13. septembril 1941, vrakitükkide väljatõstmise töödel. Ajastu võrdluspilt.",
+  "pildi_allikas": "Bundesarchiv, Bild 146-2004-225 / Erich Dumm, 13.9.1941 / CC BY-SA 3.0 DE",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2004-225,_Reval,_Taucher_im_Hafen.jpg",
+  "pildi_litsents": "CC BY-SA 3.0 DE"
  }
 ]

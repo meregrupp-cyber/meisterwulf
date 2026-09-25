@@ -206,8 +206,22 @@ toob kandidaadid ülevaatamiseks Vikipeedia artiklite piltidest (või
 ootab ja proovib uuesti, ära käivita mitut korraga.
 
 **Helid** on sünteesitud heliillustratsioonid (`python3 scripts/heli.py koik`:
-sonar, süvaveepomm, diisel, elektrimootor, laevakell, lennuk, õhutõrje;
-`heli.py morse "TEKST" fail.mp3` morsekood). Merelaineid meelega ei ole.
+sonar, süvaveepomm, diisel, elektrimootor, laevakell, lennuk, õhutõrje,
+kuumpea; `heli.py uks kuumpea` teeb ühe; `heli.py morse "TEKST" fail.mp3`
+morsekood). Merelaineid meelega ei ole. Meeskonna laul „U-Boot voran“
+(`assets/raudvaal/heli/fathoms-of-honor.mp3`, autori lugu „Fathoms of Honor“,
+128 kbit/s) on `lisad.json` markerkirje `laul-u-boot-voran` (`klass: laul`):
+mullis on saksakeelne tekst salmide kaupa ja eestikeelne tõlge, laul käivitub
+mulli avamisel.
+
+**Toimetaja sisestused.** Kui teksti on vaja lisada lõik, mida käsikirjas ei
+ole (nt laulu koht), ei muudeta gitignore'is olevat `.md` faili käsitsi, vaid
+kirje pannakse faili `content/raudvaal/sisestused.json`:
+`{"peatukk": 6, "parast": "<ankru räsi>", "loik": "…[[#marker]]", "markus": "…"}`.
+Import lisab lõigu ankrulõigu järele igal impordil. Ankru räsi annab
+`python3 scripts/import-kasikiri.py content/raudvaal/06-….md --rasi "Lõigu algus"`
+(räsi arvutatakse lõigu sisust, teksti ennast avalikku faili ei lähe). Kui autor
+lõiku muudab, ütleb import, et ankrut ei leitud, ja räsi tuleb uuendada.
 Õhuhäire „ALARRRM!“ on `lisad.json` kirje (`klass: alarm`, helitugevus 0,25)
 faili `assets/raudvaal/heli/das-boot-alarm.mp3` jaoks. Heli käivitub mulli
 avamisel, mullis on nupp „Peata / Mängi“; sulgemine peatab. Lugemisjärg (viimane
@@ -247,6 +261,9 @@ RAUDVAAL_KOOD='…' node scripts/build-raudvaal.mjs
 #    viited ilma kirjeta, puuduvad pildi-/helifailid.
 #    Kui käsikirjas oli osa "Infomullid ja allikad": python3 scripts/pildid.py too
 #    (toob Commonsi pildid) ja vajadusel lisa kirjetele pilt/heli käsitsi.
+#    Autori "Joonise kirjeldus" märkused (lisad.json väli markused) -> joonista SVG
+#    kausta assets/raudvaal/pildid/ (näited: kompass-hoovus.svg, pohjast-lahti.svg,
+#    ohupuhasti.svg) ja pane kirjele pilt/pildi_allkiri/pildi_allikas.
 
 # 3. vaata kohapeal (python3 -m http.server 8000 -> http://localhost:8000/raudvaal/),
 #    commiti raudvaal/sisu/ (ja tasuta peatüki .md, kui see on 00/01), pushi
