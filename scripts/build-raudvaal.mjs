@@ -263,6 +263,19 @@ writeFileSync(path.join(OUT, "sisukord.json"), JSON.stringify(sisukord, null, 1)
 const sonastik = [...glossary.values()].sort((x, y) => x.saksa.localeCompare(y.saksa, "de"));
 writeFileSync(path.join(OUT, "sonastik.json"), JSON.stringify(sonastik, null, 1) + "\n");
 
+/* Versioonimärk lugemislehe JS/CSS viidetele: brauser ja Cloudflare hoiavad neid tunde (max-age 14400),
+   sisu ise tuleb fetch(cache: "no-cache") kaudu värskena. Faili räsi URL-is sunnib uue JS/CSS-i laadima. */
+const INDEX = path.join(ROOT, "raudvaal", "index.html");
+let indexHtml = readFileSync(INDEX, "utf8"), stamped = 0;
+indexHtml = indexHtml.replace(/(href|src)="((?:\/assets|\/raudvaal)\/[^"?]+\.(?:css|js))(?:\?v=[0-9a-f]+)?"/g, (m, attr, file) => {
+  const fp = path.join(ROOT, file);
+  if (!existsSync(fp)) return m;
+  stamped++;
+  return `${attr}="${file}?v=${createHash("sha1").update(readFileSync(fp)).digest("hex").slice(0, 8)}"`;
+});
+writeFileSync(INDEX, indexHtml);
+console.log(`Versioonimärgid: ${stamped} JS/CSS viidet failis raudvaal/index.html`);
+
 console.log(`Ehitatud: ${path.relative(ROOT, OUT)}/  (${toc.filter((r) => r.published).length} avaldatud peatükki ${toc.length - 1}-st, sõnastikus ${sonastik.length} väljendit)`);
 for (const s of summary) console.log("  " + s);
 if (!kontroll) console.log("  (krüpteeritud sisu pole; koodi ei olnud vaja)");
