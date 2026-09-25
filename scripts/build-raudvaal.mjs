@@ -13,7 +13,10 @@
     peatükile: iga kirje iga esinemine tekstis (väljaspool autori enda [[…]] mulle) saab mulli.
     liik "sona" haarab kaasa ka eesti käändelõpu (Kaleun -> Kaleunile). Pikem kirje enne lühemat.
     Ehitus raporteerib kirjed, mis ei esine kuskil, ja saksapärased tsitaadid, millel mulli pole.
-  * „ALARRRM!” (õhuhäire) saab klassi .alarm: lugemisleht mängib klõpsu peale heli.
+  * Lisamullid content/<raamat>/lisad.json: seletus, pilt (assets/<raamat>/pildid/) või heli
+    (assets/<raamat>/heli/). Kaks kuju: {saksa, liik} -> sõna tekstis saab mulli nagu tõlkegi;
+    {marker, peatukk} -> autori infomulli viide [[#marker]] tekstis saab ikoonimärgi.
+    Liik (ikoon) tuletatakse sisust: heli > pilt > selgitus. Puuduv pilt/heli fail = hoiatus.
   * Sõnastik (sonastik.json) tehakse kõigi avaldatud peatükkide [[saksa||tõlge]] paaridest.
   * Lekkekontroll: kui mõni mitte-tasuta või avaldamata allikas on gitis jälgitav, ehitus katkeb.
   Ainult Node'i sisseehitatud moodulid, sõltuvusi pole.
@@ -116,11 +119,17 @@ function inline(text, bubbles) {
   html = html.replace(/(?<![\\*])\*(?!\s)([^*]+?)(?<!\s)\*(?!\*)/g, "<em>$1</em>");   /* *kaldkiri* */
   html = html.replace(/\\(&gt;|&lt;|[\\`*_{}\[\]()#+\-.!'"])/g, "$1");                 /* pandoci varjestus */
   html = html.replace(/(?<!-)--(?!-)/g, "–");
-  html = html.replace(/\bALAR+M!/g, (m) => `<span class="alarm" role="button" tabindex="0" title="Õhuhäire. Klõps mängib heli, uus klõps peatab.">${m}</span>`);
+  html = html.replace(/\[\[#([^\]]+)\]\]/g, (m, slug) => {
+    const e = lisaMarkers.find((x) => x.marker === slug && x.peatukk === CUR.ord) || lisaMarkers.find((x) => x.marker === slug);
+    if (!e) { kontrolli.push(`${CUR.number || "Proloog"}: seletusviide [[#${slug}]] ilma kirjeta lisad.json failis`); return ""; }
+    CUR.markersUsed.add(slug);
+    return lisaSpan(e, "", true);
+  });
   html = html.replace(/\u0000(\d+)\u0000/g, (m, i) => {
     const [a, b] = found[Number(i)];
+    if (b.startsWith(LISA)) return lisaSpan(lisaTerms[Number(b.slice(1))], esc(a), false);
     bubbles.push([a, b]);
-    return `<span class="saksa" tabindex="0" role="button" aria-expanded="false" data-tolge="${escAttr(b)}">${esc(a)}</span>`;
+    return `<span class="saksa" tabindex="0" role="button" aria-expanded="false" data-liik="tolge" data-tolge="${escAttr(b)}">${esc(a)}</span>`;
   });
   return html;
 }
@@ -148,11 +157,48 @@ function encrypt(text) {
 }
 
 /* ---------- ehitus ---------- */
+let CUR = { ord: 0, number: null, markersUsed: new Set() };
 const reg = JSON.parse(readFileSync(path.join(SRC, "sisukord.json"), "utf8"));
 const dictPath = path.join(SRC, "saksa-tolked.json");
 const dict = existsSync(dictPath) ? JSON.parse(readFileSync(dictPath, "utf8")) : [];
 const dictStats = new Map();
 const kontrolli = [];
+const lisadPath = path.join(SRC, "lisad.json");
+const lisad = existsSync(lisadPath) ? JSON.parse(readFileSync(lisadPath, "utf8")) : [];
+const lisaTerms = lisad.filter((e) => e.saksa);
+const lisaMarkers = lisad.filter((e) => e.marker);
+const lisaStats = new Map();
+const LISA = "\u0002";                              /* [[tekst||\u0002N]] = lisamull nr N */
+const hoiatused = [];
+function lisaFail(kind, name) {
+  if (!name) return null;
+  const rel = `/assets/${RAAMAT}/${kind}/${name}`;
+  if (!existsSync(path.join(ROOT, "assets", RAAMAT, kind, name))) { hoiatused.push(`${kind}/${name} puudub`); return null; }
+  return rel;
+}
+function lisaSpan(e, inner, iconOnly) {
+  const heli = lisaFail("heli", e.heli), pilt = lisaFail("pildid", e.pilt);
+  const liik = heli ? "heli" : pilt ? "pilt" : "selgitus";
+  const a = [`class="lisa lisa--${liik}${iconOnly ? " lisa--markus" : ""}${e.klass ? " " + e.klass : ""}"`,
+             `role="button" tabindex="0" aria-expanded="false" data-liik="${liik}"`];
+  if (e.pealkiri) a.push(`data-pealkiri="${escAttr(e.pealkiri)}"`);
+  a.push(`data-tolge="${escAttr(e.tekst || "")}"`);
+  if (pilt) {
+    a.push(`data-pilt="${pilt}"`);
+    if (e.pildi_allkiri) a.push(`data-pildi-allkiri="${escAttr(e.pildi_allkiri)}"`);
+    if (e.pildi_allikas) a.push(`data-pildi-allikas="${escAttr(e.pildi_allikas)}"`);
+    if (e.pildi_litsents_url) a.push(`data-litsents="${escAttr(e.pildi_litsents_url)}"`);
+    if (e.pildi_leht) a.push(`data-pildi-leht="${escAttr(e.pildi_leht)}"`);
+  }
+  if (heli) {
+    a.push(`data-heli="${heli}"`);
+    if (e.heli_allkiri) a.push(`data-heli-allkiri="${escAttr(e.heli_allkiri)}"`);
+    if (e.helitugevus) a.push(`data-helitugevus="${e.helitugevus}"`);
+  }
+  if (e.allikad && e.allikad.length) a.push(`data-allikad="${escAttr(JSON.stringify(e.allikad))}"`);
+  const label = iconOnly ? `<span class="sr-only">Lisa: ${esc(e.pealkiri || "selgitus")}</span>` : inner;
+  return `<span ${a.join(" ")}>${label}</span>`;
+}
 const files = existsSync(SRC) ? readdirSync(SRC).filter((f) => /^\d\d-.*\.md$/.test(f)) : [];
 let tracked = [];
 try { tracked = execSync("git ls-files -- " + JSON.stringify(path.relative(ROOT, SRC)), { cwd: ROOT, encoding: "utf8" }).split(/\r?\n/).filter(Boolean).map((f) => path.basename(f)); } catch (e) { /* ilma gitita */ }
@@ -175,9 +221,12 @@ for (const p of reg.peatukid) {
   if ((!free || !published) && tracked.includes(file)) leaks.push(file);
 
   const bubbles = [];
-  const marked = applyDictionary(body, dict, dictStats);
+  let marked = applyDictionary(body, dict, dictStats);
+  marked = applyDictionary(marked, lisaTerms.map((e, i) => ({ saksa: e.saksa, liik: e.liik || "sona", tolge: LISA + i })), lisaStats);
   for (const q of unmarkedGerman(marked)) kontrolli.push(`${p.number || "Proloog"}: „${q}”`);
+  CUR = { ord: p.ord, number: p.number, markersUsed: new Set() };
   const html = toHtml(marked, bubbles);
+  for (const e of lisaMarkers) if (e.peatukk === p.ord && !CUR.markersUsed.has(e.marker)) kontrolli.push(`${p.number}: infomull „${e.pealkiri}” (#${e.marker}) ei ole tekstis viidatud`);
   const illu = fm.illustration && existsSync(path.join(PILDID, fm.illustration)) ? `/assets/${RAAMAT}/${fm.illustration}` : null;
   const chapter = { slug: p.slug, number: p.number, title: fm.title || p.pealkiri, ord: p.ord, part_ord: p.osa, part: fm.part || null,
                     dateline: fm.dateline || null, free, published, illustration: illu };
@@ -216,4 +265,7 @@ if (!kontroll) console.log("  (krüpteeritud sisu pole; koodi ei olnud vaja)");
 const sonad = new Set(dict.filter((e) => e.liik === "sona").map((e) => e.saksa));   /* üksiksõnad on varuks ka siis, kui praegu ei esine */
 const unused = [...dictStats.entries()].filter(([k, n]) => n === 0 && !sonad.has(k)).map(([k]) => k);
 console.log(`Tõlkesõnastik: ${dict.length} kirjet, ${[...dictStats.values()].reduce((a, b) => a + b, 0)} lisatud mulli` + (unused.length ? `; EI ESINE kuskil (${unused.length}): ${unused.map((u) => "„" + u + "”").join(", ")}` : ""));
+const lisaUnused = [...lisaStats.entries()].filter(([k, n]) => n === 0).map(([k]) => lisaTerms[Number(k.length ? lisaTerms.findIndex((e) => e.saksa === k) : -1)]).filter(Boolean).map((e) => e.saksa);
+console.log(`Lisamullid: ${lisaTerms.length} sõnakirjet (${[...lisaStats.values()].reduce((a, b) => a + b, 0)} mulli), ${lisaMarkers.length} autori infomulli` + (lisaUnused.length ? `; EI ESINE kuskil: ${lisaUnused.map((u) => "„" + u + "”").join(", ")}` : ""));
+if (hoiatused.length) console.log("HOIATUS: puuduvad failid: " + [...new Set(hoiatused)].join(", "));
 if (kontrolli.length) { console.log(`KONTROLLI: ${kontrolli.length} saksapärast tsitaati ilma mullita (lisa content/${RAAMAT}/saksa-tolked.json faili):`); for (const k of kontrolli) console.log("  " + k); }

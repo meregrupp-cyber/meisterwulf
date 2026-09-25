@@ -17,6 +17,11 @@ Mida tehakse:
         „Jawohl, Herr Kaleun.”[^3]  ->  „[[Jawohl, Herr Kaleun.||„Just nii, härra kaptenleitnant.”]]”
     (kui ühes lõigus on enne viidet mitu saksakeelset tsitaati, saavad kõik sama tõlke);
   * üksik * omaette real on stseenivahe -> ***;
+  * autori seletusviide (ülaindeksis [n] linkina pealkirjale) -> marker [[#pealkirja-slug]];
+    faili lõpus olev osa „Infomullid ja allikad” (## N Pealkiri, tekst, **tootmismärkused**,
+    Autorimärge:, Allikas: lingid) loetakse sisse ja kirjutatakse content/<raamat>/lisad.json
+    faili (marker + peatukk); olemasolevaid kirjeid ei kirjutata üle ilma --uuenda-lisad;
+    Commonsi faililehe link saab pilt_url väljaks, pildi toob scripts/pildid.py too;
   * lõpus raport: saksapärased tsitaadid, millel joonealust tõlget ei ole. Need saavad mulli
     ehituse ajal tõlkesõnastikust content/<raamat>/saksa-tolked.json (kõik saksakeelsed sõnad
     ja laused peavad olema mullidega); ehitus raporteerib, mis sõnastikust puudub.
@@ -61,6 +66,60 @@ MARK = re.compile(r"\[\^(\d+)\]")
 NOTE_DEF = re.compile(r"^\[\^(\d+)\]:\s*(.*)$")
 ITALIC_LINE = re.compile(r"^\*([^*].*?)\*$")
 SCENE_BREAK = re.compile(r"^(\\?\*\s*){1,3}$")
+# autori seletusviide: ülaindeksis [n], mis on link infomulli pealkirjale. Pandoc annab kaks kuju:
+#   [^\[4\]^](#käsilood)        ja        ^ [\[2\]](#mida-tähendas-internimine)^
+SUP_LINK = re.compile(r"\[\^\\\[(\d+)\\\]\^\]\(#([^)]+)\)|\^\s*\[\\\[(\d+)\\\]\]\(#([^)]+)\)\^")
+INFO_HEAD = re.compile(r"^#+\s*Infomullid\b", re.I)
+SUB_HEAD = re.compile(r"^##\s*(\d+)\s+(.+?)\s*$")
+MD_LINK = re.compile(r"\[\[?([^\]]+?)\]?(?:\{\.underline\})?\]\((https?://[^)\s]+)\)")
+
+
+def pandoc_slug(title: str) -> str:
+    """Pandoci automaatne pealkirja-id: väiketähed, tühik -> sidekriips, algusest numbrid maha."""
+    t = title.lower()
+    t = re.sub(r"[^\w\s\-.]", "", t)
+    t = re.sub(r"\s+", "-", t.strip())
+    t = re.sub(r"^[^a-zäöüõšž]+", "", t)
+    return t
+
+
+def parse_infomullid(lines):
+    """Autori osa „Infomullid ja allikad” faili lõpus -> (kehareead, kirjed).
+    Kirje: pealkiri, tekst (lõigud), markused (tootmismärkused, ei näidata), allikad (lingid),
+    pilt_url (Commonsi failileht, kui viidatud), pildi_allikas (Autorimärge), pildi_allkiri."""
+    start = next((i for i, ln in enumerate(lines) if INFO_HEAD.match(ln.strip())), None)
+    if start is None:
+        return lines, []
+    entries, cur = [], None
+    for ln in lines[start + 1:]:
+        s = ln.strip()
+        m = SUB_HEAD.match(s)
+        if m:
+            cur = {"nr": int(m.group(1)), "pealkiri": m.group(2).strip(), "marker": pandoc_slug(m.group(2)),
+                   "tekst": [], "markused": [], "allikad": []}
+            entries.append(cur)
+            continue
+        if cur is None or not s:
+            continue
+        if s.startswith("Allikas:"):
+            for lm in MD_LINK.finditer(s):
+                text = re.sub(r"\{\.underline\}", "", lm.group(1)).strip("[] ")
+                url = lm.group(2)
+                cur["allikad"].append({"tekst": text, "url": url})
+                if ("commons.wikimedia.org/wiki/File:" in url or "upload.wikimedia.org" in url) and "pilt_url" not in cur:
+                    cur["pilt_url"] = url
+            continue
+        if s.startswith("Autorimärge:"):
+            cur["pildi_allikas"] = s[len("Autorimärge:"):].strip()
+            continue
+        if s.startswith("**"):
+            cur["markused"].append(s.replace("**", ""))
+            pm = re.search(r"Pildiallkiri:\s*„([^”]+)”", s)
+            if pm:
+                cur["pildi_allkiri"] = pm.group(1)
+            continue
+        cur["tekst"].append(s)
+    return lines[:start], entries
 
 
 def pandoc_path():
@@ -202,6 +261,7 @@ def main():
     ap.add_argument("--mustand", action="store_true", help="published: false (avalikkusele tulekul, koodiga loetav)")
     ap.add_argument("--raport", type=Path, help="kirjuta märgistamata saksapäraste kohtade raport siia faili")
     ap.add_argument("--valjund", type=Path, help="kirjuta mujale kui content/<raamat>/")
+    ap.add_argument("--uuenda-lisad", action="store_true", help="kirjuta autori infomullid lisad.json faili üle ka siis, kui need seal juba on")
     a = ap.parse_args()
 
     reg_path = ROOT / "content" / a.raamat / "sisukord.json"
@@ -215,6 +275,7 @@ def main():
     md = to_markdown(a.fail)
     lines = md.replace("\r\n", "\n").split("\n")
     body, notes = split_notes(lines)
+    body, infomullid = parse_infomullid(body)
     dateline, body = strip_header(body, entry["pealkiri"], warnings)
 
     out_lines, used = [], set()
@@ -227,6 +288,7 @@ def main():
             out_lines.append("***")
             continue
         used.update(MARK.findall(s))
+        s = SUP_LINK.sub(lambda m: "[[#" + (m.group(2) or m.group(4)) + "]]", s)      # seletusviide jääb markeriks [[#slug]]
         out_lines.append(bubble_paragraph(s, notes, i, warnings))
     for k in notes:
         if k not in used:
@@ -256,10 +318,43 @@ def main():
     out_path.write_text("\n".join(fm) + "\n\n" + text, encoding="utf-8")
 
     paras = sum(1 for l in out_lines if l and l != "***")
-    bubbles = text.count("[[")
+    markers = re.findall(r"\[\[#([^\]]+)\]\]", text)
+    bubbles = text.count("[[") - len(markers)
     breaks = out_lines.count("***")
     print(f"{a.fail.name} -> {out_path.relative_to(ROOT) if out_path.is_relative_to(ROOT) else out_path}")
     print(f"  {paras} lõiku, {breaks} stseenivahet, {bubbles} tõlkemulli ({len(notes)} joonealust), dateline: {dateline or '—'}")
+    if markers:
+        print(f"  {len(markers)} autori seletusviidet tekstis: " + ", ".join(markers))
+    if infomullid:
+        lisad_path = ROOT / "content" / a.raamat / "lisad.json"
+        lisad = json.loads(lisad_path.read_text(encoding="utf-8")) if lisad_path.exists() else []
+        olemas = {(e.get("marker"), e.get("peatukk")) for e in lisad}
+        added, kept = 0, 0
+        for im in infomullid:
+            key = (im["marker"], entry["ord"])
+            if key in olemas and not a.uuenda_lisad:
+                kept += 1
+                continue
+            lisad = [e for e in lisad if (e.get("marker"), e.get("peatukk")) != key]
+            rec = {"marker": im["marker"], "peatukk": entry["ord"], "pealkiri": im["pealkiri"],
+                   "tekst": "\n\n".join(im["tekst"])}
+            for k in ("pilt_url", "pildi_allikas", "pildi_allkiri"):
+                if im.get(k):
+                    rec[k] = im[k]
+            if im["allikad"]:
+                rec["allikad"] = im["allikad"]
+            if im["markused"]:
+                rec["markused"] = im["markused"]
+            lisad.append(rec)
+            added += 1
+            if im["marker"] not in markers:
+                warnings.append(f"infomullil „{im['pealkiri']}” (#{im['marker']}) ei ole tekstis viidet")
+        for mk in markers:
+            if mk not in {im["marker"] for im in infomullid}:
+                warnings.append(f"tekstis on viide [[#{mk}]], aga infomullide osas sellist pealkirja pole")
+        lisad_path.write_text(json.dumps(lisad, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"  {len(infomullid)} autori infomulli -> content/{a.raamat}/lisad.json ({added} lisatud/uuendatud, {kept} jäi alles; ülekirjutamiseks --uuenda-lisad)")
+        print("    pildid: " + ", ".join(f"{im['marker']} <- {im['pilt_url']}" for im in infomullid if im.get("pilt_url")) if any(im.get("pilt_url") for im in infomullid) else "    (Commonsi pildiviiteid pole)")
     for w in warnings:
         print("  HOIATUS: " + w)
 

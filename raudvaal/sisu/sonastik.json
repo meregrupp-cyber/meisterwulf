@@ -168,6 +168,20 @@
   ]
  },
  {
+  "saksa": "Das Boot bleibt so lange hier, bis Sie zurück sind. Bei Licht halten Sie sich hinter den Steinen.",
+  "tolge": "„Laev jääb siia, kuni olete tagasi. Kui näete valgust, hoidke kivide taha.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
+  "saksa": "Das Boot ist jetzt in guten Händen. Aber das habe ich nie gesagt.",
+  "tolge": "„Paat on nüüd heades kätes. Aga seda pole ma kunagi öelnud.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Das ist der rechtmäßige Name meines Mannes. Seit unserer Heirat.",
   "tolge": "„See on minu abikaasa seaduslik nimi. Meie abiellumisest saadik.”",
   "peatukid": [
@@ -301,6 +315,13 @@
   ]
  },
  {
+  "saksa": "Einer von ihnen kann den Schweden sagen, wo wir liegen.",
+  "tolge": "„Keegi neist võib rootslastele öelda, kus me oleme.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Einundsechzig,",
   "tolge": "„Kuuskümmend üks.”",
   "peatukid": [
@@ -354,6 +375,13 @@
   "tolge": "„Kas te saite minu käsust aru?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Hallå där! Vilken båt?",
+  "tolge": "Rootsi keeles: „Hei, seal! Mis paat see on?”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -420,10 +448,24 @@
   ]
  },
  {
+  "saksa": "Ich passe auf. Geh nur.",
+  "tolge": "„Ma vaatan järele. Mine aga.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Ich weiß.",
   "tolge": "„Ma tean.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Ich weiß. Wir müssen vorher fort sein.",
+  "tolge": "„Ma tean. Peame enne lahkuma.”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -589,6 +631,13 @@
   ]
  },
  {
+  "saksa": "Leise, leise. Köpfe runter.",
+  "tolge": "„Tasa, tasa. Pead alla.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "LI,",
   "tolge": "„Vaneminsener.” LI – lühend ametinimetusest Leitender Ingenieur, vaneminsener; allveelaeva masinaohvitser.",
   "peatukid": [
@@ -614,6 +663,13 @@
   "tolge": "„Minu korraldus ei ole sellega tühistatud. Nõuan üleandmist.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Meine Papiere?",
+  "tolge": "„Minu dokumendid?”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -750,6 +806,13 @@
   ]
  },
  {
+  "saksa": "Niemand fehlt?",
+  "tolge": "„Keegi pole puudu?” Taaniel kinnitab, et kõik on kohal.",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Noch einmal?",
   "tolge": "„Veel kord?”",
   "peatukid": [
@@ -757,10 +820,24 @@
   ]
  },
  {
+  "saksa": "Noch nicht. Der Strom setzt uns nach Norden.",
+  "tolge": "„Veel mitte. Hoovus kannab meid põhja poole.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Nun?",
   "tolge": "„Noh?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Ohne meinen Bruder gehe ich nicht.",
+  "tolge": "„Ilma vennata ma ei lähe.”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -848,6 +925,13 @@
   ]
  },
  {
+  "saksa": "Sie brauchen Ruhe, Herr Kaleun. An Land finden wir einen Arzt für Sie.",
+  "tolge": "„Te vajate puhkust, komandör. Maal leiame teile arsti.” Kaleun on meremeeste lühend auastmest Kapitänleutnant.",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Sie gehen unter Deck und warten auf weitere Befehle.",
   "tolge": "„Te lähete alla ja ootate edasisi korraldusi.”",
   "peatukid": [
@@ -859,6 +943,13 @@
   "tolge": "„Te tulete minuga kaasa.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Sie kommen nicht mit.",
+  "tolge": "„Teie ei tule kaasa.” Otto vastab: „Veel mitte.”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -897,6 +988,13 @@
   ]
  },
  {
+  "saksa": "Sprechen Sie miteinander. Für Sie beide ist im letzten Boot Platz.",
+  "tolge": "„Rääkige omavahel. Viimases paadis on teile mõlemale koht.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Steuerbord kann laufen. Aber erst, wenn ich die Abgasleitung geprüft habe.",
   "tolge": "„Parempoolne võib töötada. Aga alles siis, kui olen väljalasketoru üle kontrollinud.”",
   "peatukid": [
@@ -925,6 +1023,13 @@
   ]
  },
  {
+  "saksa": "Und dann sind Boot und Besatzung interniert. Sie eingeschlossen.",
+  "tolge": "„Ja siis interneeritakse laev koos meeskonnaga. Teie kaasa arvatud.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Und den Adel hat er von Ihnen gleich mitbekommen?",
   "tolge": "„Ja aadliseisuse sai ta kohe teie käest kaasa?”",
   "peatukid": [
@@ -943,6 +1048,13 @@
   "tolge": "„Aga minu mees?”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Und was geschieht mit denen, die hierbleiben?",
+  "tolge": "„Ja mis saab neist, kes siia jäävad?”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -967,10 +1079,24 @@
   ]
  },
  {
+  "saksa": "Verstanden, Herr Kaleun.",
+  "tolge": "„Sain aru, komandör.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Verstanden.",
   "tolge": "„Selge.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Vierzehn Meter.",
+  "tolge": "„Neliteist meetrit.”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -992,6 +1118,13 @@
   "tolge": "„Von Wulf. Te annate selle mehe üle.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Waffen bleiben an Bord. Nehmen Sie nur mit, was Sie selbst tragen können. Wenn Sie noch Zeit zum Überlegen brauchen, sprechen Sie mit Krüger. Bis zur letzten Fahrt können Sie sich entscheiden.",
+  "tolge": "„Relvad jäävad pardale. Võtke kaasa ainult nii palju, kui ise kanda jaksate. Kui vajate veel mõtlemisaega, rääkige Krügeriga. Otsustada saab viimase sõiduni.”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -1027,6 +1160,13 @@
   "tolge": "„Edasi … alla.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Wenn der Junge geht, muss ein anderer seine Wache mit übernehmen. Ich kann die Leute nicht länger arbeiten lassen, als sie auf den Beinen bleiben. Er kennt die Maschine. Ich habe keinen zweiten Mann wie ihn.",
+  "tolge": "„Kui poiss läheb, peab keegi teine ka tema vahikorra üle võtma. Ma ei saa lasta meestel kauem töötada, kui nad jalul püsivad. Ta tunneb seda masinat. Mul ei ole teist temasugust meest.”",
+  "peatukid": [
+   "V"
   ]
  },
  {
@@ -1079,6 +1219,13 @@
   ]
  },
  {
+  "saksa": "Wir setzen den Kommandanten und die Zivilisten an Land. Wer von der Besatzung mitgehen will, meldet sich bei Krüger. Ich werde niemanden zurückhalten.",
+  "tolge": "„Viime komandöri ja tsiviilisikud kaldale. Kes meeskonnast tahab kaasa minna, teatagu Krügerile. Ma ei hoia kedagi kinni.”",
+  "peatukid": [
+   "V"
+  ]
+ },
+ {
   "saksa": "Wir werden gerufen.",
   "tolge": "„Meid kutsutakse.”",
   "peatukid": [
@@ -1090,6 +1237,13 @@
   "tolge": "„Aega. Ja mehi nende kohtadele.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Zuerst brauchen wir eine geschützte Bucht und eine Reparatur. Weiter kann ich Ihnen heute nichts versprechen.",
+  "tolge": "„Kõigepealt vajame varjulist lahte ja remonti. Rohkem ei saa ma teile täna lubada.”",
+  "peatukid": [
+   "V"
   ]
  },
  {

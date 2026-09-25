@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "vAcglOQ6y/Cgrn+k",
-  "ct": "ZyDKrRnMi0kP+C8vJvCW4m9c"
+  "iv": "D6qym4tbbXx5m65q",
+  "ct": "W2x3akBf8dkuGD3vGPozDfv8"
  },
  "peatukid": [
   {
@@ -90,9 +90,9 @@
    "ord": 5,
    "osa": 1,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Bohusläni rannik, öö vastu 21. aprilli 1945"
   },
   {
    "slug": "peatukk-06",

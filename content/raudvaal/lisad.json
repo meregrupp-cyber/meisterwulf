@@ -1,0 +1,135 @@
+[
+ {
+  "saksa": "ALARRRM!",
+  "liik": "lause",
+  "tyyp": "heli",
+  "pealkiri": "Õhuhäire",
+  "tekst": "Allveelaeva häirekell: vaatleja on märganud lennukit või laeva ja paat sukeldub kiirsukeldumisega. Klõps mängib heli, uus klõps peatab.",
+  "heli": "das-boot-alarm.mp3",
+  "heli_allkiri": "Häirekell (heliillustratsioon).",
+  "helitugevus": 0.25,
+  "klass": "alarm"
+ },
+ {
+  "marker": "bohusläni-skäärid",
+  "peatukk": 5,
+  "pealkiri": "Bohusläni skäärid",
+  "tekst": "Rootsi lääneranniku saarestikus vahelduvad paljad kaljusaared, veealused rahud ja sügavad veeteed. Kosterfjordi ümbruses leidub nii gneissi kui ka graniiti; vee all jätkub sama järsk ja liigestatud maastik. Peatüki maabumispaik on väljamõeldud ning seda pole seotud ühe kindla külaga.",
+  "allikad": [
+   {
+    "tekst": "Kosterhaveti rahvuspark · Intressant geologi",
+    "url": "https://www.kosterhavet.se/om-nationalparken/intressant_geologi/"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Originaalillustratsioon: madalad tumedad skäärid veepinnalt vaadatuna, tagaplaanil mõni majaaken. Kõrval väike asukohakaart, millel on Kiel, Kristiansand ja Bohuslän. Maabumiskohale täpset punkti ei märgita."
+  ]
+ },
+ {
+  "marker": "mida-tähendas-internimine",
+  "peatukk": 5,
+  "pealkiri": "Mida tähendas internimine",
+  "tekst": "Neutraalsesse riiki jõudmine võis sõjaväelase jaoks tähendada internimist: teda peeti kinni, et ta sõjategevusse tagasi ei pöörduks. Rootsis viibisid sõja ajal interneeritud Poola allveelaevad ja nende meeskonnad. See ajalooline näide selgitab Dietrichi kartust; iga põgeniku saatust see ette ei määra.",
+  "allikad": [
+   {
+    "tekst": "Sörmlands museum · SLM P07-1942",
+    "url": "https://cust.kulturhotell.se/c24/items/show/426693"
+   }
+  ],
+  "markused": [
+   "Lisainfo. Sörmlandsi muuseumi kogukirje SLM P07-1942 näitab Poola allveelaevu Mariefredis 1940. aastal ning sisaldab meremees Wadek Sloma mälestusi internimisest. Sobib infomullist avatavaks muuseumiviiteks. Tegemist on teise riigi laevade ja varasema sündmusega."
+  ]
+ },
+ {
+  "marker": "kummipaadiga-kaldale",
+  "peatukk": 5,
+  "pealkiri": "Kummipaadiga kaldale",
+  "tekst": "Saksa sõjavägi kasutas sõja ajal eri suuruses täispuhutavaid paate, muu hulgas eemaldatava puitpõhjaga aluseid. Need võimaldasid viia inimesi kaldale seal, kus suur laev ligi ei pääsenud. Romaani kolme maabumissõidu jaoks Hortenist kaasa võetud suur kummipaat on loo osa, mitte tõendatud ese U-398 varustusloendist.",
+  "pilt_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-263-1582-20,_Frankreich,_Schlauchboot_mit_Besatzung.jpg",
+  "pildi_allikas": "Bundesarchiv, Bild 101I-263-1582-20 / Wette / CC-BY-SA 3.0. Litsents: CC BY-SA 3.0 DE. Kasutamisel lisada litsentsilink ja märkida pildi muudatused; töödeldud pildile kehtib sama litsents.",
+  "pildi_allkiri": "Saksa sõdurid kummipaadis Prantsusmaal 1944. aastal. Ajastu võrdluspilt.",
+  "allikad": [
+   {
+    "tekst": "Bundesarchivi foto Wikimedia Commonsis",
+    "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-263-1582-20,_Frankreich,_Schlauchboot_mit_Besatzung.jpg"
+   },
+   {
+    "tekst": "Foto litsents CC BY-SA 3.0 DE",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+   },
+   {
+    "tekst": "USA sõjaministeeriumi luureteade · German Large Pneumatic Boat · 17.12.1942",
+    "url": "https://lonesentry.com/articles/ttt08/german-large-pneumatic-boat.html"
+   }
+  ],
+  "markused": [
+   "Leitud foto. Sõdurid kummipaadis Gironde’i suudmealal Prantsusmaal, 21. märts 1944. Võrdluspilt aitab kujutada täislastis kummipaadi ruumikitsikust. Pildiallkiri: „Saksa sõdurid kummipaadis Prantsusmaal 1944. aastal. Ajastu võrdluspilt.”"
+  ],
+  "pilt": "kummipaadiga-kaldale.jpg",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-263-1582-20,_Frankreich,_Schlauchboot_mit_Besatzung.jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "pildi_litsents": "CC BY-SA 3.0 de"
+ },
+ {
+  "marker": "käsilood",
+  "peatukk": 5,
+  "pealkiri": "Käsilood",
+  "tekst": "Käsilood koosneb raskusest ja märgistatud liinist. Kui raskus puudutab põhja, loetakse liinilt vee sügavus. VII C tüübi 1940. aasta käsiraamat kirjeldab 50 meetri pikkust, iga kahe meetri tagant märgistatud loodiliini. Mõne loodi põhjas olevasse õõnsusse pandi rasva, mille külge jäi merepõhja pinnaseproov.",
+  "allikad": [
+   {
+    "tekst": "VII C käsiraamat · A VII 5c · käsilood · lk 76",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Royal Museums Greenwich · NAV0681 · Sounding lead and line",
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-42893"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Originaaljoonis: käsi hoiab loodiliini, raskus ulatub merepõhjani; eraldi suurendusel on liini märgid ja loodi põhjaõõnsus. Eseme kuju võrdluseks sobib Royal Museums Greenwichi käsilood NAV0681, valmistatud umbes 1900. aastal. Muuseumifoto kasutusluba küsitakse eraldi; joonis oleks uus illustratsioon."
+  ]
+ },
+ {
+  "marker": "miks-kompassist-üksi-ei-piisa",
+  "peatukk": 5,
+  "pealkiri": "Miks kompassist üksi ei piisa",
+  "tekst": "Kompass näitab laeva suunda, kuid hoovus võib kogu laeva samal ajal küljele kanda. Kursi, kiiruse ja möödunud aja järgi arvutatud asukohta tuleb seepärast tegelike vaatlustega kontrollida. Selles stseenis võrdleb Krüger kaarti nähtavate kaldamärkidega, samal ajal kui vööris mõõdetakse sügavust.",
+  "allikad": [
+   {
+    "tekst": "NGA · The American Practical Navigator · Dead Reckoning · jaotised 1006–1008",
+    "url": "https://thenauticalalmanac.com/2024_Bowditch-_American_Practical_Navigator/Volume_1/04_Volume_1_Part_2_Piloting/Chapter_10_Dead_Reckoning.pdf"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne ülaltvaade: üks nool näitab laeva liikumist vee suhtes, teine hoovust ja kolmas nende koosmõjul kujunevat tegelikku teed. Kõrval kaks kaldamärki. Tegemist on põhimõtteskeemiga, mitte maabumiskoha navigatsioonikaardiga."
+  ],
+  "pilt": "kompass-hoovus.svg",
+  "pildi_allkiri": "Põhimõtteskeem: kurss kompassi järgi, hoovus ja nende koosmõjul kujunev tegelik tee; kõrval kaldamärgid.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "vesi-kivide-vahel",
+  "peatukk": 5,
+  "pealkiri": "Vesi kivide vahel",
+  "tekst": "Kiviklibu liikumine, vee loksumine ja mõlatõmbed kostavad varjulises rannas lähedalt: heli ütleb paadisolijatele, kui lähedal kivid on, enne kui neid näha on.",
+  "allikad": [
+   {
+    "tekst": "Freesound · HarmonicMess · helifail 838667",
+    "url": "https://freesound.org/people/HarmonicMess/sounds/838667/"
+   }
+  ],
+  "markused": [
+   "Leitud heli ja soovitud töötlus. HarmonicMessi „Sea waves on the rocks – Close-up recording”, Freesound, avaldatud 17.12.2025. Autori kirjelduse järgi on see vee lähedalt salvestatud kividele murduvate merelainete heli. Infomulli jaoks valida 15–20 sekundi pikkune rahulikum lõik; mõlatõmbed võib eraldi juurde salvestada. Muusikat pole vaja. Heli käivitub lugeja vajutusel."
+  ],
+  "markus_toimetaja": "Autori kavandatud merelainete heli jäeti kirjastaja soovil välja."
+ },
+ {
+  "marker": "hüüd-rootsi-keeles",
+  "peatukk": 5,
+  "pealkiri": "Hüüd rootsi keeles",
+  "tekst": "„Hallå där! Vilken båt?” tähendab „Hei, seal! Mis paat see on?”. Kaatrilt oodatakse vastust. Kummipaadis olijad vaikivad, sest nad ei tea, mida vastamine kaasa tooks.",
+  "markused": [
+   "Salvestatava heli kirjeldus. Rootsi emakeelega mees loeb hüüu kaks korda sisse, vahepeal lühike kuulamispaus. Hääl kostab üle vee, taustal tasane väikese laevamootori hääl. Kõnetoon on küsiv ja valvas. Kestus umbes 8–12 sekundit. See oleks romaani jaoks loodud helilavastus; valmis ajaloolist salvestist ei ole kasutatud."
+  ]
+ }
+]
