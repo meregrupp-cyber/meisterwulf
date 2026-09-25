@@ -275,9 +275,11 @@ def apply_sisestused(out_lines, nr, raamat, warnings):
     if not path.exists():
         return out_lines
     items = [x for x in json.loads(path.read_text(encoding="utf-8")) if x.get("peatukk") == nr]
+    items.sort(key=lambda x: 0 if x.get("asenda") is not None else 1)    # asendused enne lisamisi: ankur on algteksti räsi
     n = 0
+    idx0 = {sisestus_hash(l): i for i, l in enumerate(out_lines) if l and l != "***"}   # räsid algtekstist, enne muudatusi
     for it in items:
-        idx = {sisestus_hash(l): i for i, l in enumerate(out_lines) if l and l != "***"}
+        idx = idx0 if it.get("asenda") is not None else {sisestus_hash(l): i for i, l in enumerate(out_lines) if l and l != "***"}
         i = idx.get(it["parast"])
         if i is None:
             warnings.append(f"sisestus „{it.get('markus', '')}”: ankrulõiku {it['parast']} ei leitud, muudatus jäi tegemata")
