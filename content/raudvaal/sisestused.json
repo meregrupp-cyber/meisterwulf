@@ -137,5 +137,32 @@
   "asenda": "Otto seisab keskruumis, paber",
   "uus": "Otto seisab tsentraalis, paber",
   "markus": "Sidusus T1: sama ruum on IV–V „tsentraal“, VI–VII „keskruum“; ühtlustatud hilisemates peatükkides"
+ },
+ {
+  "peatukk": 5,
+  "parast": "f5936a03eef4b748",
+  "asenda": "kuiva särgiga, mida on seni kaenla all hoidnud",
+  "uus": "kuiva särgiga, mis jäi Mertensi madratsi alla ja mida ta on seni kaenla all hoidnud",
+  "markus": "Sidusus L1: Kielis jäi teine särk maha (I); kuiv särk tuleb Mertensi koist (IV: pestud särk madratsi serva all)"
+ },
+ {
+  "peatukk": 5,
+  "parast": "aeea0c02f4947134",
+  "asenda": "Pimeduses tundub see lähedal.",
+  "uus": "Pilvise taeva all tundub see lähedal.",
+  "markus": "Sidusus T6: 20/21.04.1945 oli kuu u 65% ja üleval kuni u 3–4-ni; pimedus eeldab pilvkatet"
+ },
+ {
+  "peatukk": 6,
+  "parast": "c79bfedbbbe14c95",
+  "asenda": "Väljas on pimenenud, kuuri taga eristub ainult katusehari.",
+  "uus": "Väljas on pimenenud ja kuu on pilvede taga, kuuri taga eristub ainult katusehari.",
+  "markus": "Sidusus T6: 23.–28.04.1945 oli kuu peaaegu täis ja kogu öö üleval; pimedad ööd eeldavad pilvkatet"
+ },
+ {
+  "peatukk": 7,
+  "parast": "17259501f52af403",
+  "loik": "Auastme ütleb ta astme võrra madalamalt. Otto ei paranda.",
+  "markus": "Sidusus L6/T8: Otto on Oberleutnant (II), Schrade ütleb „Herr Leutnant“; märkus teeb sellest taotlusliku joone"
  }
 ]
