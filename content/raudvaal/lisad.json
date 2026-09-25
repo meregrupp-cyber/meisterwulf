@@ -1370,7 +1370,13 @@
   ],
   "markused": [
    "Pildi kirjeldus. VIIC tüübi vööriruumi foto, millel on näha torpeedod ja nende vahele surutud koid."
-  ]
+  ],
+  "pilt": "koid.jpg",
+  "pildi_allkiri": "VIIC tüüpi allveelaeva U-995 vööriruum Laboe muuseumis: koid külgedel, keskel varutorpeedo, mille peal ja kõrval mehed magasid ja sõid. Tänapäevane võrdluspilt.",
+  "pildi_allikas": "Ralf Stöcker, 2015, U-995 Laboe / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U995Mannschaftsraum.JPG",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "marker": "seaharjas-kingsepa-nõela-asemel",
@@ -1389,7 +1395,13 @@
   ],
   "markused": [
    "Pildi kirjeldus. Naaskel, vahatud linane niit ja ehtne kingsepaharjas; niidi ots harjase külge keerutatud."
-  ]
+  ],
+  "pilt": "naaskel.jpg",
+  "pildi_allkiri": "Kingsepa naasklid puust käepidemetega. Naaskel teeb naha sisse kanali, mida mööda painduv harjasega niit läheb; kõver tera on kannaõmbluste jaoks.",
+  "pildi_allikas": "Dominique Grassigli, 2006 / CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:7alenebott.png",
+  "pildi_litsents": "CC BY-SA 3.0"
  },
  {
   "marker": "šnorkel-ja-kõrvadest-tõmbav-paat",
