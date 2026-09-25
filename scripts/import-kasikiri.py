@@ -268,7 +268,9 @@ def sisestus_hash(par: str) -> str:
 
 def apply_sisestused(out_lines, nr, raamat, warnings):
     """content/<raamat>/sisestused.json: toimetaja lisatud lõigud, mis pannakse ankrulõigu järele.
-    Kirje: {"peatukk": 6, "parast": "<sisestus_hash>", "loik": "…", "markus": "…"}. Ankru räsi annab --rasi."""
+    Kirje: {"peatukk": 6, "parast": "<sisestus_hash>", "loik": "…", "markus": "…"} lisab lõigu ankrulõigu järele;
+    {"peatukk": 7, "parast": "<räsi>", "asenda": "vana katke", "uus": "uus katke", "markus": "…"} asendab katke ankrulõigu sees.
+    Ankru räsi annab --rasi. Räsi arvutatakse enne asendust, seega ankur jääb kehtima ka pärast oma muudatust."""
     path = Path("content") / raamat / "sisestused.json"
     if not path.exists():
         return out_lines
@@ -278,9 +280,15 @@ def apply_sisestused(out_lines, nr, raamat, warnings):
         idx = {sisestus_hash(l): i for i, l in enumerate(out_lines) if l and l != "***"}
         i = idx.get(it["parast"])
         if i is None:
-            warnings.append(f"sisestus „{it.get('markus', '')}”: ankrulõiku {it['parast']} ei leitud, lõik jäi lisamata")
+            warnings.append(f"sisestus „{it.get('markus', '')}”: ankrulõiku {it['parast']} ei leitud, muudatus jäi tegemata")
             continue
-        out_lines[i + 1:i + 1] = ["", it["loik"]]
+        if it.get("asenda") is not None:                      # asendus ankrulõigu sees: {"asenda": "vana", "uus": "uus"}
+            if it["asenda"] not in out_lines[i]:
+                warnings.append(f"sisestus „{it.get('markus', '')}”: ankrulõigus ei ole teksti „{it['asenda'][:40]}”, asendus jäi tegemata")
+                continue
+            out_lines[i] = out_lines[i].replace(it["asenda"], it["uus"], 1)
+        else:                                                  # uus lõik ankrulõigu järele
+            out_lines[i + 1:i + 1] = ["", it["loik"]]
         n += 1
     if items:
         print(f"  {n} sisestust {len(items)}-st lisatud (content/{raamat}/sisestused.json)")

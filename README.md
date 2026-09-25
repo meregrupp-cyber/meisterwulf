@@ -218,7 +218,10 @@ mulli avamisel.
 ole (nt laulu koht), ei muudeta gitignore'is olevat `.md` faili käsitsi, vaid
 kirje pannakse faili `content/raudvaal/sisestused.json`:
 `{"peatukk": 6, "parast": "<ankru räsi>", "loik": "…[[#marker]]", "markus": "…"}`.
-Import lisab lõigu ankrulõigu järele igal impordil. Ankru räsi annab
+Import lisab lõigu ankrulõigu järele igal impordil. Väikese paranduse
+lõigu sees teeb kirje `{"peatukk": 7, "parast": "<räsi>", "asenda": "vana katke",
+"uus": "uus katke", "markus": "…"}` (sidususe silumiseks; iga parandus on
+raportis kirjas, et autor saaks selle käsikirja üle kanda). Ankru räsi annab
 `python3 scripts/import-kasikiri.py content/raudvaal/06-….md --rasi "Lõigu algus"`
 (räsi arvutatakse lõigu sisust, teksti ennast avalikku faili ei lähe). Kui autor
 lõiku muudab, ütleb import, et ankrut ei leitud, ja räsi tuleb uuendada.
