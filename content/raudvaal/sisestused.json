@@ -3,6 +3,48 @@
   "peatukk": 6,
   "parast": "a47eaf9402bb1c47",
   "markus": "Meeskonna laul „U-Boot voran” (Fathoms of Honor): teine päev põhjas, kambüüsi ja riiete lõigu järel, enne Matsi tulekut",
-  "loik": "Vööris hakkab keegi tasakesi laulma. Paar häält tuleb juurde, ülejäänud jätkavad oma toimetusi. Taaniel ei saa sõnadest aru, taktist saab.[[#laul-u-boot-voran]]"
+  "loik": "Vööris hakkab keegi tasakesi laulma. Paar häält tuleb juurde, ülejäänud jätkavad oma toimetusi. Taaniel ei saa vaiksest laulust sõnu kätte, taktist saab.[[#laul-u-boot-voran]]"
+ },
+ {
+  "peatukk": 2,
+  "parast": "91b585602e94771e",
+  "asenda": "Otto suu kõrval sedasama sügavat vagu",
+  "uus": "Otto nina kõrval sedasama sügavat vagu",
+  "markus": "Sidusus L17: vagu on II algul nina kõrval („sedasama vagu, mida kail märkas“)"
+ },
+ {
+  "peatukk": 4,
+  "parast": "207205e9ec44fc54",
+  "asenda": "Ta on paljajalu ja surub end",
+  "uus": "Ta on saabasteta ja surub end",
+  "markus": "Sidusus L5: Otto on sukkis (enne kohendab sukakanda, pärast on üks sukk kadunud)"
+ },
+ {
+  "peatukk": 4,
+  "parast": "8f2634e54988fe50",
+  "asenda": "ka mees, kes Villemit enne valvas,",
+  "uus": "ka madrus, kes Villemit nüüd valvab,",
+  "markus": "Sidusus L2: „mees, kes Villemit valvas“ tähistas samas peatükis Mertensit, kes on selleks ajaks hukkunud"
+ },
+ {
+  "peatukk": 5,
+  "parast": "cdb1abf4cea0a273",
+  "asenda": "Taaniel leiab nende koti koide alt.",
+  "uus": "Taaniel leiab Katharina koti koide alt.",
+  "markus": "Sidusus L4: kumbki kannab oma kotti; Katharina ütleb kohe „minu kotti“"
+ },
+ {
+  "peatukk": 5,
+  "parast": "4dfa9cb70967e5a9",
+  "asenda": "Masinamees ütleb midagi, mille lõpu neelab",
+  "uus": "Noorem vend ütleb midagi, mille lõpu neelab",
+  "markus": "Sidusus L7: „masinamees“ on raamatus Jaani püsinimetus; siin räägib noorem vend"
+ },
+ {
+  "peatukk": 7,
+  "parast": "cda2c5e6c3a908a1",
+  "asenda": "Wang istub, käed põlvedel, ning",
+  "uus": "Wang istub, käed reitel, ning",
+  "markus": "Sidusus L13: I peatükis on samal fotol Wangi käed reitel; VII rõhutab just käsi"
  }
 ]
