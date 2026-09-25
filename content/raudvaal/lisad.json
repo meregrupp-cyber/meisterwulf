@@ -1106,7 +1106,13 @@
   ],
   "heli": "diisel-kaivitus.mp3",
   "helitugevus": 0.5,
-  "heli_allkiri": "Sünteesitud heliillustratsioon: käivitusõhu pahvak, aeglane raske pöörlemine, esimesed süütelöögid ja ühtlane töö. Mitte ajalooline salvestis; DieselHouse’i mootori käivitusvideo on allikate all."
+  "heli_allkiri": "Sünteesitud heliillustratsioon: käivitusõhu pahvak, aeglane raske pöörlemine, esimesed süütelöögid ja ühtlane töö. Mitte ajalooline salvestis; DieselHouse’i mootori käivitusvideo on allikate all.",
+  "pilt": "dieselhouse.jpg",
+  "pildi_allkiri": "Elektrijaama diiselmootor: Burmeister & Waini kahetaktiline diisel (käivitatud 1933) DieselHouse’i muuseumis Kopenhaagenis. Sama käivituspõhimõtte võrdlusnäide; U-398 mootor oli teistsugune.",
+  "pildi_allikas": "Work With Sounds, 2014, DieselHouse, Kopenhaagen / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:H.C._Ørsted_engine.JPG",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "marker": "kurrent-keel-on-tuttav-tähed-võõrad",
@@ -1125,7 +1131,13 @@
   ],
   "markused": [
    "Pildi ja lisainfo kirjeldus. Näidata suurendatavat väljavõtet maa-arhiivi tähestikutabeli 19. sajandi ridadest koos tänapäevaste vastetega. Tähele vajutades tõsta esile selle kuju ning ava kõrvale võrdlustäht. Katharina kirja võib kujutada eraldi, selgelt romaani jaoks loodud näidisena; päris arhiivimaterjali ei esitata tegelase kirjana."
-  ]
+  ],
+  "pilt": "kurrent.jpg",
+  "pildi_allkiri": "Saksa Kurrent-kirja tähestik 1866. aasta kirjaõpetusraamatust „Der Damen-Briefsteller“: iga rea ees on tänapäevane täht, selle järel Kurrent-kirja väike- ja suurtäht; all umlaudid ja ligatuurid (ch, ck, sch, st, ß, tz).",
+  "pildi_allikas": "„Der Damen-Briefsteller“, 1866; vektor: Martin Kozák / Public domain",
+  "pildi_litsents_url": "https://commons.wikimedia.org/wiki/File:Deutsche_Kurrentschrift.svg",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Deutsche_Kurrentschrift.svg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "sootuks teistsuguse hääle",
@@ -1136,5 +1148,37 @@
   "heli": "praam.mp3",
   "helitugevus": 0.5,
   "heli_allkiri": "Sünteesitud heliillustratsioon: väikese praami tihke mootor ja ahtris klõbisev lahtine plekk. Mitte ajalooline salvestis."
+ },
+ {
+  "saksa": "praam",
+  "liik": "sona",
+  "peatukk": 7,
+  "pealkiri": "Praam",
+  "tekst": "Praam on lameda põhjaga lastialus sadamas ja rannavetes vedamiseks. Väiksemad mootoriga praamid vedasid 1930.–40. aastatel kive, lupja, kütust ja kaupu kai ja laevade vahel; madal parras ja lai tekk tegid laadimise lihtsaks. Saksa mereväel olid oma mootorpraamid (Marine-Kraftkähne) varustuse vedamiseks sadamates.",
+  "pilt": "praam.jpg",
+  "pildi_allkiri": "Mootorpraam „Pargas 22“ Helsingi Hietalahti kai ääres umbes 1930. aastal: madal parras, lai tekk ja väike roolikamber ahtris. Ajastu võrdluspilt.",
+  "pildi_allikas": "Sakari Pälsi, u 1930, Helsingi linnamuuseum / CC BY 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by/4.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Hietalahdenranta_-_Helsinki_1930_-_N203841_-_hkm.HKMS000005-km003tzs.jpg",
+  "pildi_litsents": "CC BY 4.0"
+ },
+ {
+  "saksa": "Tsingtau",
+  "liik": "sona",
+  "peatukk": 7,
+  "pealkiri": "Tsingtau",
+  "tekst": "Tsingtau (Qingdao) Shandongi poolsaarel oli 1898–1914 Saksa rendiala Kiautschou keskus: Saksamaa ehitas sinna sadama, raudtee, sõjaväebaasi ja Euroopa ilmega linna. 1914. aastal vallutas linna Jaapan, 1922 läks see tagasi Hiinale. Saksa keel, koolid ja kaubandussidemed jäid linna mõjutama ka pärast rendiaja lõppu.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Kiautschou Bay Leased Territory",
+    "url": "https://en.wikipedia.org/wiki/Kiautschou_Bay_Leased_Territory"
+   }
+  ],
+  "pilt": "tsingtau.jpg",
+  "pildi_allkiri": "Tsingtau rannapromenaad (Kaiser-Wilhelm-Ufer) Saksa rendiaja lõpul, 1913. Ajastu võrdluspilt.",
+  "pildi_allikas": "Adolf Haupt, „Album von Tsingtau“, 1913 / Public domain",
+  "pildi_litsents_url": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E5%B2%9B%E5%A4%AA%E5%B9%B3%E8%B7%AF%E5%BE%B7%E7%A7%9F%E6%97%B6%E6%9C%9F03.jpg",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:青岛太平路德租时期03.jpg",
+  "pildi_litsents": "Public domain"
  }
 ]
