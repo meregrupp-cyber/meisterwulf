@@ -207,7 +207,7 @@ ootab ja proovib uuesti, ära käivita mitut korraga.
 
 **Helid** on sünteesitud heliillustratsioonid (`python3 scripts/heli.py koik`:
 sonar, süvaveepomm, diisel, elektrimootor, laevakell, lennuk, õhutõrje,
-kuumpea; `heli.py uks kuumpea` teeb ühe; `heli.py morse "TEKST" fail.mp3`
+kuumpea, diisel-kaivitus, praam; `heli.py uks kuumpea` teeb ühe; `heli.py morse "TEKST" fail.mp3`
 morsekood). Merelaineid meelega ei ole. Meeskonna laul „U-Boot voran“
 (`assets/raudvaal/heli/fathoms-of-honor.mp3`, autori lugu „Fathoms of Honor“,
 128 kbit/s) on `lisad.json` markerkirje `laul-u-boot-voran` (`klass: laul`):

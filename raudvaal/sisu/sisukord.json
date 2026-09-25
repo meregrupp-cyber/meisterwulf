@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "etejJd+4cNjAfI9Z",
-  "ct": "8qX+HNamMWYFuLReJcokx6pH"
+  "iv": "Yzswh75jcCliOCrc",
+  "ct": "JYrOTzwQ/yYZ3kf3bup49gZP"
  },
  "peatukid": [
   {
@@ -112,9 +112,9 @@
    "ord": 7,
    "osa": 2,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Norra lõunarannik, 24.–28. aprill 1945"
   },
   {
    "slug": "peatukk-08",

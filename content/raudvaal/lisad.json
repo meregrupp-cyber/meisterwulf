@@ -1059,5 +1059,82 @@
     "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=abajas"
    }
   ]
+ },
+ {
+  "marker": "miks-vahetati-ainult-üks-silindripea",
+  "peatukk": 7,
+  "pealkiri": "Miks vahetati ainult üks silindripea",
+  "tekst": "Silindripea sulgeb mootori silindri ülemise otsa. Selles paiknevad klapid ja kütusepihusti ning jahutusvee kanalid. VIIC tüübi suurtes diislites oli igal silindril oma eemaldatav pea. Nii sai vigase osa välja vahetada kogu mootorit paadist välja tõstmata. Jahutuskanalist põlemiskambrisse ulatuv pragu võis lasta vee silindrisse. Vesi surutakse kokku väga vähe: kui kolb tõuseb ja vesi ei pääse välja, võivad mootori osad puruneda. Seepärast tuleb enne käivitamist kontrollida ka seda, et silindris poleks vett.",
+  "allikad": [
+   {
+    "tekst": "VIIC tüübi allveelaeva käsiraamat 1940, diiselmootorite ehitus ja jahutus",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "USA mereväe „Submarine Main Propulsion Diesels” 1946, ptk 13: käivitamiseelne kontroll",
+    "url": "https://www.maritime.org/doc/fleetsub/diesel/chap13.php"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne läbilõige ühe silindri ülaosast. Eri värviga märkida põlemiskamber ja silindripeas kulgev jahutuskanal; nende vahele joonistada pragu. Eraldi väikesel üldvaatel näidata, milline osa tervest mootorist välja vahetatakse. Joonis on käsiraamatul põhinev selgitav skeem, mitte U-398 vigastuse ajalooline ülesvõte."
+  ],
+  "pilt": "silindripea.svg",
+  "pildi_allkiri": "Ühe silindri ülaosa läbilõige: põlemiskamber (oranž), silindripeas kulgev jahutusvesi (sinine) ja nende vahel pragu; kõrval üldvaade kuuest silindrist, millest ühe pea vahetatakse. Skeem käsiraamatu kirjelduse järgi.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "diiselmootori-käivitamine-suruõhuga",
+  "peatukk": 7,
+  "pealkiri": "Diiselmootori käivitamine suruõhuga",
+  "tekst": "VIIC diislite käivitamisel pani väntvõlli liikuma suruõhk. Silindritesse juhiti õhku õiges järjekorras; see surus kolbe, kuni mootor hakkas kütuse põlemise jõul ise töötama. 1940. aasta käsiraamatus on käivitusõhu rõhuks märgitud 30 tehnilist atmosfääri ehk ligikaudu 29 baari. Õhk oli varem mahutitesse surutud. Käivitushääl laseb eristada kahte etappi: algul liigutab masinat õhk, seejärel lisanduvad põlemise löögid. See erineb eelmise peatüki kutri kuumpeamootorist, mille süüteosa tuli enne töölehakkamist kuumutada.",
+  "allikad": [
+   {
+    "tekst": "VIIC tüübi allveelaeva käsiraamat 1940, MAN-i ja Germaniawerfti diislite käivitusõhk",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Video „H.C. Orsted Diesel engine startup”, avaldaja Ulathon",
+    "url": "https://www.youtube.com/watch?v=6JyRY9aiMOQ"
+   },
+   {
+    "tekst": "DieselHouse: säilinud B&W mootor ja muuseumi tutvustus",
+    "url": "https://dieselhouse.dk/en/"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. Võrdlusnäiteks sobib DieselHouse’i muuseumis töötava vana B&W mootori käivitussalvestis „H.C. Orsted Diesel engine startup”. Veebimulli jaoks valida lõik suruõhu sisselaskmisest kuni ühtlase tööni; lisada kaks märget: „käivitusõhk” ja „mootor töötab kütusel”. Pildil tasub jätta nähtavale masina liikuvad osad. Allkiri: „Elektrijaama diiselmootor. Sama käivituspõhimõtte võrdlusnäide; U-398 mootor oli teistsugune.”"
+  ],
+  "heli": "diisel-kaivitus.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: käivitusõhu pahvak, aeglane raske pöörlemine, esimesed süütelöögid ja ühtlane töö. Mitte ajalooline salvestis; DieselHouse’i mootori käivitusvideo on allikate all."
+ },
+ {
+  "marker": "kurrent-keel-on-tuttav-tähed-võõrad",
+  "peatukk": 7,
+  "pealkiri": "Kurrent: keel on tuttav, tähed võõrad",
+  "tekst": "Vanades saksakeelsetes kirjades võib tuttavate sõnade lugemist takistada Kurrent-käekiri. Selle tähtede kujud erinevad tänapäeva ladina käekirjast; ka trükikirja lugemise oskus ei taga veel käsikirjast arusaamist. Eriti kergesti lähevad segi mitmest lühikesest joonest koosnevad tähed. Abiks on tähestikutabel ning sama kirjutaja teiste sõnade võrdlemine: tuttavas nimes tuvastatud tähte saab otsida ülejäänud tekstist. Baden-Württembergi maa-arhiivi õppematerjal kõrvutab 19. ja 16. sajandi tähekujusid ning pakub lisaks kuju järgi rühmitatud tabelit.",
+  "allikad": [
+   {
+    "tekst": "Landesarchiv Baden-Württemberg: vana kirja lugemise õppematerjalid",
+    "url": "https://www.landesarchiv-bw.de/de/recherche/recherchehilfen/lesen-und-verstehen-lernen/76226"
+   },
+   {
+    "tekst": "Saksa kirja tähestikutabel, 19. ja 16. sajandi kujud (PDF)",
+    "url": "https://www.landesarchiv-bw.de/sixcms/media.php/120/Deutsche_Schrift_nach_Alphabet.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi ja lisainfo kirjeldus. Näidata suurendatavat väljavõtet maa-arhiivi tähestikutabeli 19. sajandi ridadest koos tänapäevaste vastetega. Tähele vajutades tõsta esile selle kuju ning ava kõrvale võrdlustäht. Katharina kirja võib kujutada eraldi, selgelt romaani jaoks loodud näidisena; päris arhiivimaterjali ei esitata tegelase kirjana."
+  ]
+ },
+ {
+  "saksa": "sootuks teistsuguse hääle",
+  "liik": "sona",
+  "peatukk": 7,
+  "pealkiri": "Praami mootor",
+  "tekst": "Väikesel puust praamil või lihtril oli enamasti üks väike ühe- või kahesilindriline mootor, mis töötas kutri raske kuumpeamootoriga võrreldes kiiremini ja tihedamalt. Lahtine plekk ahtris annab niisugusele paadile oma hääle: iga mootorilöök paneb selle vastu teist plekki klõbisema.",
+  "heli": "praam.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: väikese praami tihke mootor ja ahtris klõbisev lahtine plekk. Mitte ajalooline salvestis."
  }
 ]
