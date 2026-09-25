@@ -38,7 +38,12 @@
   ],
   "markused": [
    "Lisainfo. Sörmlandsi muuseumi kogukirje SLM P07-1942 näitab Poola allveelaevu Mariefredis 1940. aastal ning sisaldab meremees Wadek Sloma mälestusi internimisest. Sobib infomullist avatavaks muuseumiviiteks. Tegemist on teise riigi laevade ja varasema sündmusega."
-  ]
+  ],
+  "pilt": "mida-tahendas-internimine.jpg",
+  "pildi_allkiri": "Poola allveelaev ORP Sęp, mis 1939. aasta septembris Rootsi vetesse pääses ja koos Rysi ja Żbikuga sõja lõpuni Mälari järvel Mariefredi lähedal interneerituna seisis.",
+  "pildi_allikas": "tundmatu autor, 1939 / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Polish_submarine_Sep_1939.jpeg",
+  "pildi_litsents": "Public domain"
  },
  {
   "marker": "kummipaadiga-kaldale",
@@ -87,7 +92,12 @@
   ],
   "markused": [
    "Pildi kirjeldus. Originaaljoonis: käsi hoiab loodiliini, raskus ulatub merepõhjani; eraldi suurendusel on liini märgid ja loodi põhjaõõnsus. Eseme kuju võrdluseks sobib Royal Museums Greenwichi käsilood NAV0681, valmistatud umbes 1900. aastal. Muuseumifoto kasutusluba küsitakse eraldi; joonis oleks uus illustratsioon."
-  ]
+  ],
+  "pilt": "kasilood.jpg",
+  "pildi_allkiri": "Kaks käsiloodi pliiraskust 1905. aasta õpikujoonisel: lihtne lood ja topsiga lood, mille põhjaõõnsusse määriti rasva merepõhja proovi võtmiseks. Ajastu võrdluspilt.",
+  "pildi_allikas": "Samuel Hill Lea, 1905 / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Sounding_leads.jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "marker": "miks-kompassist-üksi-ei-piisa",
@@ -191,8 +201,13 @@
   "tekst": "Saksa sõjaväepolitsei (Feldgendarmerie) kandis teenistuses keti otsas kaelas poolkuukujulist metallist rinnasilti (Ringkragen), mille kiri helendas pimedas. Silt näitas, et kandjal on õigus pabereid kontrollida ja inimesi kinni pidada.",
   "pilt_otsing": "Feldgendarmerie gorget Ringkragen chain",
   "pilt_kirjeldus": "Feldgendarmerie poolkuukujuline metallsilt (Ringkragen) keti otsas – museaal lähivaates või ajastufoto sõjaväepolitseinikust, kellel silt rinnal näha.",
-  "pildi_allkiri": "Sõjaväepolitsei rinnasilt ketiga – ajastu võrdluspilt.",
-  "pohjendus": "I ptk: sildi kõlin on stseenis oluline; pilt näitab, mis see ese oli. Hüüdnimi on eraldi mullis „ketikoer”."
+  "pildi_allkiri": "Saksa sõjaväepolitsei (Feldgendarmerie) poolkuukujuline metallist rinnasilt keti otsas, mida sõjaväepolitseinik kandis rinnal teenistuse tunnusena; Kopenhaageni Sõjamuuseumi museaal. Tänapäevane võrdluspilt.",
+  "pohjendus": "I ptk: sildi kõlin on stseenis oluline; pilt näitab, mis see ese oli. Hüüdnimi on eraldi mullis „ketikoer”.",
+  "pilt": "metallist-silti.jpg",
+  "pildi_allikas": "Wolfmann, Krigsmuseet København / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Danish_War_Museum_(Krigsmuseet)_Copenhagen_Nazi_Germany_WW2_uniform_military_equipment_etc_Feldgendarmerie_military_police_gorget_chain_Ringkragen_Ketten_Wehrmachtsadler_Eagle-and-swastika_German_occupation_of_Denmark_1940-45_2024-05-2.jpg",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "saksa": "ketikoer",
@@ -210,8 +225,12 @@
   "tekst": "Liist on jala kuju järgi tehtud puust vorm, mille ümber king või saabas ehitatakse. Meister hoidis püsiklientide jaoks sageli isiklikke liiste, mis olid tema töö alus.",
   "pilt_otsing": "wooden shoe last shoemaker workshop",
   "pilt_kirjeldus": "Puust kingaliistud (jalakujulised vormid), soovitavalt vanad ja kulunud, üksikult või töökoja riiulil; mitte tänapäevased plastliistud.",
-  "pildi_allkiri": "Kingsepa puust liistud – ajastu võrdluspilt.",
-  "pohjendus": "I ptk: liistud on peatüki läbiv motiiv, mida linnalugeja ei pruugi ette kujutada."
+  "pildi_allkiri": "Vanad kulunud puust kingaliistud kingsepatöökoja riiulil (Salzburgi vabaõhumuuseum, Grossgmain). Tänapäevane võrdluspilt.",
+  "pohjendus": "I ptk: liistud on peatüki läbiv motiiv, mida linnalugeja ei pruugi ette kujutada.",
+  "pilt": "kingaliist.jpg",
+  "pildi_allikas": "Immanuel Giel, Freilichtmuseum Salzburg / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Leisten_Grossgmain_01.JPG",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "pikk hall selg",
@@ -221,8 +240,13 @@
   "tekst": "Saksa VII tüüpi allveelaev oli sõja kõige arvukam paaditüüp: umbes 67 meetrit pikk, veepinnal madal ja kitsas, nii et kai äärest paistab peamiselt tekk ja torn. Muuseumipaat U-995 seisab tänini Laboe rannal Kieli lahe suudmes.",
   "pilt_otsing": "U-995 Laboe Type VIIC submarine side view",
   "pilt_kirjeldus": "VIIC tüüpi allveelaev küljelt: madal tekk, torn keskel, torni taga relvaplatvorm; sobib muuseumipaat U-995 Laboes või ajastufoto paadist kai ääres.",
-  "pildi_allkiri": "VIIC-tüüpi allveelaev U-995 Laboe rannal – ajastu võrdluspilt.",
-  "pohjendus": "I ptk: lugeja näeb paati esimest korda koos tegelastega; foto annab mõõtkava. Torni ja silla lähivaade on eraldi mullis „torn” (II ptk)."
+  "pildi_allkiri": "VIIC tüüpi allveelaev U-995 muuseumipaadina Laboes Kieli lahe kaldal – madal tekk, keskel torn ja selle taga õhutõrjekahurite platvorm. Tänapäevane võrdluspilt.",
+  "pohjendus": "I ptk: lugeja näeb paati esimest korda koos tegelastega; foto annab mõõtkava. Torni ja silla lähivaade on eraldi mullis „torn” (II ptk).",
+  "pilt": "pikk-hall-selg.jpg",
+  "pildi_allikas": "Wiki05 / CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U_995_Laboe.JPG",
+  "pildi_litsents": "CC BY-SA 3.0"
  },
  {
   "saksa": "püstist jämedat toru",
@@ -262,8 +286,13 @@
   "tekst": "VII tüüpi allveelaev oli Saksa mereväe kõige arvukam paaditüüp, umbes 67 meetrit pikk ja 6 meetrit lai; torn on paadi ainus kõrgem osa, mille peal on avatud sild vahimeestele ja selle taga madala reelinguga õhutõrjeplatvorm. Sillal on korraga neli-viis meest, igaüks oma vaatesektoriga; Laboes Kieli lahe ääres seisab muuseumina viimane säilinud VIIC-paat U-995.",
   "pilt_otsing": "U-995 Laboe conning tower deck",
   "pilt_kirjeldus": "Muuseumipaat U-995 Laboes väljastpoolt, torn küljelt või tagant nii, et näha on avatud sild koos redeli või luugiga, periskoobid, torni taga madala reelinguga õhutõrjeplatvorm kahuriga ja kitsas ülemine tekk.",
-  "pildi_allkiri": "VIIC-tüüpi allveelaeva torn ja õhutõrjeplatvorm, muuseumipaat U-995 Laboes – ajastu võrdluspilt.",
-  "pohjendus": "II ja IV ptk pakkusid sama ankrut; liidetud üheks (II ptk rida 18). Lugeja näeb, kui kitsas ja kõrge on paat, kus sillavahtkond seisab ja kust mees IV peatükis üle parda kaob. Sõna esineb ka I, III ja V peatükis."
+  "pildi_allkiri": "Muuseumiallveelaeva U-995 torn Laboes: periskoobid ja antennid, torni tagune reelinguga õhutõrjeplatvorm koos kahuriga ning kitsas ülemine tekk. Tänapäevane võrdluspilt.",
+  "pohjendus": "II ja IV ptk pakkusid sama ankrut; liidetud üheks (II ptk rida 18). Lugeja näeb, kui kitsas ja kõrge on paat, kus sillavahtkond seisab ja kust mees IV peatükis üle parda kaob. Sõna esineb ka I, III ja V peatükis.",
+  "pilt": "torn.jpg",
+  "pildi_allikas": "Marseille77 / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-995_Laboe_2015_A2.jpg",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "saksa": "rõhumõõtja",
@@ -273,8 +302,13 @@
   "tekst": "Torni all asus keskruum ehk tsentraal (Zentrale), kust juhiti sukeldumist ja rooli ning kus olid koos sügavus- ja rõhumõõturid, ventiilide käsirattad, periskoop ja kaardilaud. Sealt kulges läbipääs vööri ja ahtri poole.",
   "pilt_otsing": "U-995 control room Zentrale interior gauges valves",
   "pilt_kirjeldus": "U-995 või mõne teise VIIC-paadi keskruumi sisevaade: ümmargused mõõteriistad, ventiilide käsirattad, torud lae all ja ümmargune vaheseinaluuk.",
-  "pildi_allkiri": "Ajastu võrdluspilt: VIIC-tüüpi allveelaeva keskruum U-995 pardal – mõõturid, ventiilirattad ja ümmargune läbipääs.",
-  "pohjendus": "II ptk: Taaniel kirjeldab ruumi nimede järgi tundmata; pilt näitab, mida ta näeb. V ptk pakutud sama ruumi pilt „tsentraal” jäetud kordusena välja; IV ptk „sügavusnäidik” näitab sama ruumi teise, stseenile olulise nurga alt."
+  "pildi_allkiri": "Saksa VIIC-tüüpi allveelaeva U-995 keskruum Laboe muuseumis: mõõteriistad, ventiilide käsirattad, torud lae all ja ümmargune vaheseinaluuk. Tänapäevane võrdluspilt.",
+  "pohjendus": "II ptk: Taaniel kirjeldab ruumi nimede järgi tundmata; pilt näitab, mida ta näeb. V ptk pakutud sama ruumi pilt „tsentraal” jäetud kordusena välja; IV ptk „sügavusnäidik” näitab sama ruumi teise, stseenile olulise nurga alt.",
+  "pilt": "rohumootja.jpg",
+  "pildi_allikas": "Arjun Sarup, Georgfotoart / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U995_Zentrale_b.jpg",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "saksa": "Kaptenleitnant",
@@ -316,8 +350,13 @@
   "tekst": "VII tüüpi paadi vööriruum oli ühtaegu torpeedoruum ja meeskonna magamiskoht: seal olid neli torpeedotoru ja varutorpeedod, koid rippusid üksteise kohal, osa neist otse torpeedode peal, ning põrand oli vahel torpeedode tõttu tõstetud.",
   "pilt_otsing": "U-995 bow torpedo room bunks torpedo tubes Laboe",
   "pilt_kirjeldus": "Muuseumipaadi U-995 (Laboe) või mõne teise VIIC-paadi vööriruumi sisevaade: torpeedotorude luugid, kitsad rippkoid mitmes kihis ja põrandal või koide all lamav varutorpeedo või selle kinnitused.",
-  "pildi_allkiri": "Ajastu võrdluspilt: U-995 vööriruum – koid torpeedode kohal.",
-  "pohjendus": "II ja III ptk pakkusid sama pilti (III ptk suure algustähega „Vööriruum”); liidetud väiketähelise ankru alla (II ptk rida 110), mis esineb ka III ja IV peatükis. Ruum, kus reisijad kogu sõidu veedavad, tasub lugejale näidata."
+  "pildi_allkiri": "Muuseumipaadi U-995 (Laboe) vööri torpeedoruum: neli torpeedotoru luuki, nende vahel kitsas vahekäik ja vasakul torpeedo kere. Tänapäevane võrdluspilt.",
+  "pohjendus": "II ja III ptk pakkusid sama pilti (III ptk suure algustähega „Vööriruum”); liidetud väiketähelise ankru alla (II ptk rida 110), mis esineb ka III ja IV peatükis. Ruum, kus reisijad kogu sõidu veedavad, tasub lugejale näidata.",
+  "pilt": "vooriruum.jpg",
+  "pildi_allikas": "Arjun Sarup / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U995_Torpedorohre.png",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "saksa": "Tallinn",
@@ -335,8 +374,13 @@
   "tekst": "Marineschule Mürwik Flensburgi fjordi kaldal on Saksa mereväe ohvitseride kool, mis avati 1910. aastal ja mida punase tellishoone järgi kutsutakse „punaseks lossiks mere ääres”. Sealt käis läbi enamik Kriegsmarine allveelaevaohvitsere.",
   "pilt_otsing": "Marineschule Mürwik Flensburg building",
   "pilt_kirjeldus": "Mürwiki mereväekooli punane tellishoone tornidega, soovitavalt fjordi või vee poolt vaadatuna; sobib nii ajalooline kui tänapäevane foto.",
-  "pildi_allkiri": "Mürwiki mereväekool Flensburgis, kus koolitati Saksa mereväe ohvitsere.",
-  "pohjendus": "II ptk: selgitab, kus Otto ohvitseriks õppis."
+  "pildi_allkiri": "Mürwiki mereväekooli punane tellishoone Flensburgi fjordi poolt vaadatuna, ees purjeõppelaev Gorch Fock. Tänapäevane võrdluspilt.",
+  "pohjendus": "II ptk: selgitab, kus Otto ohvitseriks õppis.",
+  "pilt": "murwik.jpg",
+  "pildi_allikas": "Sönke Rahn / CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Marineschule_Mürwik_(Flensburg)_mit_der_Gorch_Fock_vor_ihr_am_Liegeplatz.jpg",
+  "pildi_litsents": "CC BY-SA 3.0"
  },
  {
   "saksa": "saatelaev",
@@ -397,8 +441,12 @@
   "tekst": "Horten on väike linn Oslofjordi läänekaldal, kus asus Norra mereväe peabaas Karljohansvern koos laevatehase, dokkide, ladude ja töökodadega. Saksa okupatsiooni ajal 1940–1945 kasutas baasi Kriegsmarine allveelaevade remondiks, varustamiseks ja fjordis peetavateks õppusteks; sõja viimasel aastal käis sealt läbi palju Saksa allveelaevu.",
   "pilt_otsing": "Karljohansvern Horten naval base harbour",
   "pilt_kirjeldus": "Horteni sadam või Karljohansverni mereväebaas: kai, sadamahooned, dokid ja metsased rannad Oslofjordi kaldal; sobib ajalooline foto või tänapäevane vaade veelt või kõrgemalt võetud üldplaan.",
-  "pildi_allkiri": "Horteni mereväebaas Karljohansvern Oslofjordi läänekaldal – võrdluspilt.",
-  "pohjendus": "II ptk (pilt), III ptk (selgitus) ja V ptk (pilt) pakkusid sama ankrut; liidetud üheks pildimulliks, tekst III ptk selgitusest (II ptk rida 480). III ptk pakutud sama baasi teine pilt „Fjordis” jäetud kordusena välja. Sõna esineb peatükkides II–V."
+  "pildi_allkiri": "Rannakaitselaev Harald Haarfagre Karljohansverni mereväebaasi kuivdokis Hortenis 1903. aastal, taamal Oslofjordi metsased kaldad. Ajastu võrdluspilt.",
+  "pohjendus": "II ptk (pilt), III ptk (selgitus) ja V ptk (pilt) pakkusid sama ankrut; liidetud üheks pildimulliks, tekst III ptk selgitusest (II ptk rida 480). III ptk pakutud sama baasi teine pilt „Fjordis” jäetud kordusena välja. Sõna esineb peatükkides II–V.",
+  "pilt": "horten.jpg",
+  "pildi_allikas": "Anders Beer Wilse, 1903 / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:HNoMS_Harald_Haarfagre_in_drydock_at_Karljohansvern.jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "akudele",
@@ -416,8 +464,13 @@
   "tekst": "Torpeedo lasti läbi tekiluugi kaldus rööbastel vööriruumi; iga vahetus tähendas kogu ruumi tühjendamist inimestest ja madratsitest.",
   "pilt_otsing": "U-boat torpedo loading crane Bundesarchiv",
   "pilt_kirjeldus": "Teise maailmasõja aegne foto: torpeedo ripub kraana otsas allveelaeva teki kohal või libiseb kaldus rööbastel luuki; meeskond kõrval.",
-  "pildi_allkiri": "Torpeedo laadimine Saksa allveelaevale kraana ja laadimisrööbaste abil – ajastu võrdluspilt.",
-  "pohjendus": "III ptk: kraana on lause „jääb kraana otsas korraks horisontaalselt õhku” keskne ese („kraanajuht” esineb ainult käändes); Bundesarchivi torpeedolaadimise fotod on Commonsis CC BY-SA litsentsiga."
+  "pildi_allkiri": "Torpeedot lastakse kraanaga Saksa allveelaeva tekile ja laadimisluuki Wilhelmshavenis, meeskond suunab seda kõrvalt. Ajastu võrdluspilt.",
+  "pohjendus": "III ptk: kraana on lause „jääb kraana otsas korraks horisontaalselt õhku” keskne ese („kraanajuht” esineb ainult käändes); Bundesarchivi torpeedolaadimise fotod on Commonsis CC BY-SA litsentsiga.",
+  "pilt": "kraana.jpg",
+  "pildi_allikas": "Bundesarchiv, Bild 101II-MW-5536-01 / Dietrich / CC-BY-SA 3.0 / CC BY-SA 3.0 de",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101II-MW-5536-01,_Wilhelmshaven,_U-Boot,_Torpedo-Übernahme.jpg",
+  "pildi_litsents": "CC BY-SA 3.0 de"
  },
  {
   "saksa": "Klapp",
@@ -427,8 +480,13 @@
   "tekst": "Šnorkli pea ujukklapp sulgus automaatselt, kui laine toru otsa kattis. Diislid tõmbasid siis õhku paadi seest ja rõhk langes järsult – just see lõi meeskonnal kõrvad valusaks.",
   "pilt_otsing": "U-995 Schnorchel head valve Laboe",
   "pilt_kirjeldus": "Allveelaeva šnorkli masti ülemine ots koos ujukklapi ja väljalaskega, kas muuseumipaadil U-995 või ajastufotol; mast peab olema tuvastatav šnorklina, mitte periskoobina.",
-  "pildi_allkiri": "Šnorkli pea ujukklapiga muuseumipaadil U-995 Laboes – ajastu võrdluspilt.",
-  "pohjendus": "III ptk: seade, mida tekst nimetab, kuid mida lugeja pole tõenäoliselt näinud. Kuna III ptk trükivorm „Šnorkli” I ptk ankruga „Šnorkel” ei kattu, on stseeni füüsilise sündmuse – äkilise kõrvavalu – tehniline seletus toodud siia."
+  "pildi_allkiri": "Rootsi mereväe 1942. aasta allveelaeva šnorkli pea Karlskrona meremuuseumis: perforeeritud võred on õhuvõtuavad, poltidega silindriline korpus peidab ujukklappi, mis lainete üle mineku ajal õhutoru sulges. Tänapäevane võrdluspilt.",
+  "pohjendus": "III ptk: seade, mida tekst nimetab, kuid mida lugeja pole tõenäoliselt näinud. Kuna III ptk trükivorm „Šnorkli” I ptk ankruga „Šnorkel” ei kattu, on stseeni füüsilise sündmuse – äkilise kõrvavalu – tehniline seletus toodud siia.",
+  "pilt": "klapp.jpg",
+  "pildi_allikas": "Daderot, Marinmuseum Karlskrona / CC0",
+  "pildi_litsents_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Submarine_snorkel,_1942,_the_first_used_by_the_Swedish_Navy,_used_on_Neptun_and_later_Nacken_-_Marinmuseum,_Karlskrona,_Sweden_-_DSC08950.JPG",
+  "pildi_litsents": "CC0"
  },
  {
   "saksa": "Vahiohvitser",
@@ -446,8 +504,13 @@
   "tekst": "Kristiansand on Lõuna-Norra sadamalinn Skagerraki kaldal, Taani rannikust umbes 130 km kaugusel. Saksa okupatsiooni ajal 1940–1945 oli see Kriegsmarine tugipunkt, kus Norra ja Saksamaa vahel liikuvad allveelaevad sageli vahepeatuse ja varustuse võtmiseks sisse põikasid ning kust saatelaevad neid avamerele saatsid.",
   "pilt_otsing": "Kristiansand harbour 1940s",
   "pilt_kirjeldus": "Kristiansandi sadam ja linn Lõuna-Norras: kai, sadamabassein ja linna hooned; eelistatavalt 1940. aastate foto Saksa sõjalaevade või allveelaevadega kai ääres, sobib ka vanem ajalooline sadamavaade.",
-  "pildi_allkiri": "Kristiansandi sadam Lõuna-Norras Skagerraki ääres – ajastu võrdluspilt.",
-  "pohjendus": "III ptk (selgitus) ja V ptk (pilt) pakkusid sama ankrut; liidetud üheks pildimulliks (III ptk rida 154). Järgmine sihtkoht, mille kohta lugeja vajab kaardilist ettekujutust; V peatükis küsib Vogel korduvalt Kristiansandi pööramise järele. Esineb ka IV peatükis."
+  "pildi_allkiri": "Kristiansandi sadamabassein, kaid ja linn Lõuna-Norras tänapäeval. Võrdluspilt.",
+  "pohjendus": "III ptk (selgitus) ja V ptk (pilt) pakkusid sama ankrut; liidetud üheks pildimulliks (III ptk rida 154). Järgmine sihtkoht, mille kohta lugeja vajab kaardilist ettekujutust; V peatükis küsib Vogel korduvalt Kristiansandi pööramise järele. Esineb ka IV peatükis.",
+  "pilt": "kristiansand.jpg",
+  "pildi_allikas": "Tecfan / CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Kristiansand_harbour.jpg",
+  "pildi_litsents": "CC BY-SA 3.0"
  },
  {
   "saksa": "sillal",
@@ -508,8 +571,12 @@
   "tekst": "Esimeste hoiatusvastuvõtjate antenn oli puust ristile keritud traatraam, nn Biskaia rist, mida vahimees sillal käsitsi ringi pööras. Hilisemad antennid olid väiksemad ja kinnitati torni külge.",
   "pilt_otsing": "Biskayakreuz Metox antenna U-boat FuMB Naxos",
   "pilt_kirjeldus": "Allveelaeva sillal seisev ristikujuline puuraamiga traatantenn (Biskayakreuz) või torni külge kinnitatud Naxos-tüüpi FuMB antenn; sobib ka museaal antennist (Bundesarchivi fotod on Commonsis CC BY-SA litsentsiga).",
-  "pildi_allkiri": "Radarihoiatusvastuvõtja antenn Saksa allveelaeva sillal – ajastu võrdluspilt.",
-  "pohjendus": "IV ptk: konkreetne ese, mida lugeja muidu ette ei kujuta."
+  "pildi_allkiri": "Radarihoiatusseadme Naxos- ja Tunis-antenn Saksa allveelaeva silla masti otsas, kõrvaklappidega operaator kuulamas hoiatussignaali (1945). Ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: konkreetne ese, mida lugeja muidu ette ei kujuta.",
+  "pilt": "radar.jpg",
+  "pildi_allikas": "Royal Canadian Navy / Library and Archives Canada PA-137697, 1945 / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:FuMB-7_Naxos_and_FuMB-26_Tunis_antenna.jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "võõrast undamist",
@@ -538,8 +605,12 @@
   "tekst": "Briti rannikuväejuhatuse Wellingtoni, Catalina ja Liberatori tüüpi lennukid kandsid prožektorit ning sügavuspomme; rünnak toimus öösel madalalt, mõnekümne meetri kõrguselt.",
   "pilt_otsing": "Leigh Light Wellington Coastal Command",
   "pilt_kirjeldus": "Kahemootoriline Vickers Wellington, mille kere all on nähtav väljalastav ümar prožektor (Leigh Light), või Catalina/Liberator prožektoriga tiiva all; Imperial War Museumi fotod on Commonsis avalikus omandis.",
-  "pildi_allkiri": "Leigh Light prožektoriga varustatud rannikuväejuhatuse lennuk – ajastu võrdluspilt.",
-  "pohjendus": "IV ptk: näitab, mis „tiibade ja kahe tumeda mootori” taga tegelikult on. Ankur nihutatud sõnalt „lennuk” samas lauses olevale fraasile, sest „lennuk” esineb ka I peatükis (rida 182, pommitaja Kieli kohal), kus Leigh Lighti pilt oleks eksitav."
+  "pildi_allkiri": "Mehaanik puhastab Briti rannikuväe Liberatori tiiva alla kinnitatud Leigh Lighti prožektorit, millega öösel pinnal sõitvaid allveelaevu valgustati (1944). Ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: näitab, mis „tiibade ja kahe tumeda mootori” taga tegelikult on. Ankur nihutatud sõnalt „lennuk” samas lauses olevale fraasile, sest „lennuk” esineb ka I peatükis (rida 182, pommitaja Kieli kohal), kus Leigh Lighti pilt oleks eksitav.",
+  "pilt": "kaht-tumedat-mootorit.jpg",
+  "pildi_allikas": "Royal Air Force official photographer, 1944 (IWM) / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Leigh_Light.jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "relvaplatvorm",
@@ -557,8 +628,13 @@
   "tekst": "Tsentraalis istuvad kaks tüürimeest suurte rataste ees, mis liigutavad vööri ja ahtri sügavustüüre; nende ees on sügavusnäidikud ja kaldemõõtur. Elektriajami rikke korral tuleb rattaid käsitsi keerata.",
   "pilt_otsing": "U-995 control room depth gauge hydroplane wheels",
   "pilt_kirjeldus": "VIIC tüüpi paadi tsentraali sisevaade: kaks suurt käsiratast kõrvuti, nende kohal ümmargused sügavusnäidikud ja mullkaldemõõtur; U-995 Laboes või teiste muuseumipaatide fotod.",
-  "pildi_allkiri": "Sügavustüüride rattad ja sügavusnäidikud VIIC tüüpi paadi tsentraalis, U-995 – ajastu võrdluspilt.",
-  "pohjendus": "IV ptk: kogu sukeldumisdraama toimub selle näidiku ja rataste ümber; erineb II ptk keskruumi üldvaatest („rõhumõõtja”)."
+  "pildi_allkiri": "VIIC tüüpi paadi U-995 tsentraali sügavustüüripost Laboe muuseumis: suur sügavusmõõtur (0–25 m vett kiilu alumisest servast) ja selle all eesmise sügavustüüri asendinäidik, mille järgi tüürimehed käsirattaid keerasid. Tänapäevane võrdluspilt.",
+  "pohjendus": "IV ptk: kogu sukeldumisdraama toimub selle näidiku ja rataste ümber; erineb II ptk keskruumi üldvaatest („rõhumõõtja”).",
+  "pilt": "sugavusnaidik.jpg",
+  "pildi_allikas": "TeWeBs / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Laboe_U995_Tiefenmesser.JPG",
+  "pildi_litsents": "CC BY-SA 4.0"
  },
  {
   "saksa": "Esimene plahvatus",
@@ -579,8 +655,12 @@
   "tekst": "Lennukilt heidetud sügavuspommid lõhkevad seatud sügavusel; kere vastupidavus sõltub plahvatuse kaugusest. Veest tõusev veesammas on paljudel sõjaaegsetel fotodel jäädvustatud.",
   "pilt_otsing": "depth charge explosion aircraft U-boat attack 1943",
   "pilt_kirjeldus": "Lennukilt või saatelaevalt tehtud foto, millel sügavuspommide plahvatuse veesambad tõusevad allveelaeva või selle sukeldumiskoha ümber; IWM, US Navy või RAF fotod avalikus omandis.",
-  "pildi_allkiri": "Sügavuspommide plahvatused rünnatava allveelaeva ümber – ajastu võrdluspilt.",
-  "pohjendus": "IV ptk: annab pildi sellest, mida paadis olijad ainult tunnevad ja kuulevad. Sõna „pomm” esineb peatükkidest I–V ainult IV peatükis („pommid”), seega ei ava see pilti mujal."
+  "pildi_allkiri": "Sügavuspommi plahvatuse veesammas Briti ristleja HMS Ceylon pardal, 1944 (IWM). Ajastu võrdluspilt.",
+  "pohjendus": "IV ptk: annab pildi sellest, mida paadis olijad ainult tunnevad ja kuulevad. Sõna „pomm” esineb peatükkidest I–V ainult IV peatükis („pommid”), seega ei ava see pilti mujal.",
+  "pilt": "pomm.jpg",
+  "pildi_allikas": "C. Trusler, Royal Navy official photographer, 1944 (IWM) / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:HMS_Ceylon_depth_charge.jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "tasakaalustuspaagist",
@@ -630,8 +710,12 @@
   "tekst": "Soldbuch oli Wehrmachti, sealhulgas Kriegsmarine sõduri isikut tõendav dokument ja teenistusraamat, kuhu märgiti üksus, auaste, palk, varustus, autasud ja haiglas viibimised.",
   "pilt_otsing": "Soldbuch Kriegsmarine",
   "pilt_kirjeldus": "Saksa sõjaväelase Soldbuch: kaas kotka ja sõnaga „Soldbuch” või avatud sisekülg foto ja kirjetega; eelistatult Kriegsmarine oma, sobib ka Wehrmachti üldine eksemplar.",
-  "pildi_allkiri": "Saksa sõjaväelase Soldbuch – teenistusraamat, mida kanti alati kaasas.",
-  "pohjendus": "V ptk: madrus küsib teenistusraamatut kaasa; lugeja peaks teadma, miks see talle oluline on. Commonsis on Soldbuchi fotosid rohkesti."
+  "pildi_allkiri": "Avatud Wehrmachti Soldbuch aastast 1939: vasakul omaniku foto ja pitsatid, paremal tiitelleht auastme, nime ja tunnusmärgi kirjetega. Ajastu võrdluspilt.",
+  "pohjendus": "V ptk: madrus küsib teenistusraamatut kaasa; lugeja peaks teadma, miks see talle oluline on. Commonsis on Soldbuchi fotosid rohkesti.",
+  "pilt": "teenistusraamat.jpg",
+  "pildi_allikas": "Huddyhuddy / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:1939_Soldbuch_used_by_a_soldier_in_the_1._Gebirgs-Division,_later_also_in_the_Artillery_Regiment_1057_towards_the_end_of_the_war.jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "torpedomadrus",
@@ -673,8 +757,12 @@
   "tekst": "Rootsi rannikuvetes liikusid sõja ajal öösiti väikesed patrullalused, mis kontrollisid prožektori abil, kes saarestikus liigub.",
   "pilt_otsing": "Swedish Navy vedettbåt 1940s patrol boat",
   "pilt_kirjeldus": "Väike Rootsi mereväe, rannavalve või tolli patrullalus 1930.–1940. aastatest: madal roolimaja, eelistatult nähtava prožektoriga; sobib nt vedettbåt-tüüpi alus või Sjöhistoriska museet' foto.",
-  "pildi_allkiri": "Rootsi patrullkaater 1940. aastatel – ajastu võrdluspilt.",
-  "pohjendus": "V ptk: kaatri ilmumine on peatüki pingelisim hetk; pilt aitab seda alust ette kujutada. Alus ei ole tekstis kindla ametkonnaga seotud, seetõttu allkiri üldistatud."
+  "pildi_allkiri": "Rootsi mereväe vedettbåt-tüüpi patrullalus Jägaren 1930. aastate postkaardil. Ajastu võrdluspilt.",
+  "pohjendus": "V ptk: kaatri ilmumine on peatüki pingelisim hetk; pilt aitab seda alust ette kujutada. Alus ei ole tekstis kindla ametkonnaga seotud, seetõttu allkiri üldistatud.",
+  "pilt": "kaater.jpg",
+  "pildi_allikas": "tundmatu autor, postkaart / Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:HMS_Jägaren_(1932).jpg",
+  "pildi_litsents": "Public domain"
  },
  {
   "saksa": "Patrull",
