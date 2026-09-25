@@ -872,11 +872,19 @@
  {
   "saksa": "Kutter",
   "liik": "sona",
-  "pealkiri": "Kalakutter",
-  "tekst": "Norra rannikul kutsuti väikest puust mootorkalapaati skøyte’ks; eesti keeles on sama tüüpi alus kutter. Sellisel paadil oli madal roolikamber ahtri pool, mast ja poom võrkude ja lasti tõstmiseks ning enamasti üks aeglane paadimootor. Sõja ajal vedasid Norra kalakutrid ka inimesi ja kaupa üle mere, sealhulgas salaja Shetlandi saartele.",
+  "pealkiri": "Kutter",
+  "tekst": "Kutter on väike, algselt ühemastiline purjealus, mida Norras kasutati palju ranna- ja avamerepüügil; mootorite tulekuga võeti purjekutritelt taglas maha ja pandi sisse mootor. Eesti keeles tähendab kutter ka väikest auru- või mootorpaati rannalähedasteks sõitudeks. Sõja ajal vedasid Norra kalakutrid ka inimesi ja kaupa üle mere, sealhulgas salaja Shetlandi saartele.",
   "allikad": [
    {
-    "tekst": "Sunnmøre Museum: kalaskøyte M/K Heland (ehitatud 1937), Shetlandi-liini paat",
+    "tekst": "Wikipedia (norra) · Kutter",
+    "url": "https://no.wikipedia.org/wiki/Kutter"
+   },
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · kutter",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kutter"
+   },
+   {
+    "tekst": "Sunnmøre Museum: kalaskøyte M/K Heland (1937), Shetlandi-liini paat",
     "url": "https://commons.wikimedia.org/wiki/File:Heland.JPG"
    }
   ],
@@ -890,9 +898,17 @@
  {
   "saksa": "tuukrikiivri",
   "liik": "sona",
-  "pealkiri": "Raske tuukrivarustus",
-  "tekst": "Raske tuukrivarustus koosnes vasest kiivrist, veekindlast ülikonnast, rasketest pliitaldadega saabastest ja rinnaraskustest. Õhk pumbati tuukrile pinnalt vooliku kaudu, kiivri esiklaasi kaudu nägi ta oma tööd ja jalgadega seisis ta merepõhjal. Sadama- ja päästetöödel oli see 1940. aastatel tavaline varustus.",
+  "pealkiri": "Tuukrikiiver",
+  "tekst": "Klassikaline tuukrivarustus koosnes vasest kiivrist, mille ees on klaasaken, kiivri rinnaplaadi külge kinnitatud veekindlast ülikonnast ning raskustest rinnal, seljal ja jalanõudel, mis hoidsid tuukri põhjas. Õhku pumbati pinnalt voolikut mööda kiivrisse ja ülearune õhk pääses klapist välja. Sellise varustusega tehti raskemaid veealuseid töid 19. sajandi esimesest poolest kuni kergema varustuse tulekuni.",
   "allikad": [
+   {
+    "tekst": "Wikipedia · Standard diving dress",
+    "url": "https://en.wikipedia.org/wiki/Standard_diving_dress"
+   },
+   {
+    "tekst": "Wikipedia · Diving helmet",
+    "url": "https://en.wikipedia.org/wiki/Diving_helmet"
+   },
    {
     "tekst": "Bundesarchiv Bild 146-2004-225: tuuker Tallinna sadamas, 13. september 1941",
     "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2004-225,_Reval,_Taucher_im_Hafen.jpg"
@@ -904,5 +920,144 @@
   "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
   "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2004-225,_Reval,_Taucher_im_Hafen.jpg",
   "pildi_litsents": "CC BY-SA 3.0 DE"
+ },
+ {
+  "saksa": "loodida",
+  "liik": "sona",
+  "pealkiri": "Loodimine",
+  "tekst": "Loodimine on vee sügavuse mõõtmine loodiga: märgistatud liini otsas olev raskus lastakse põhja ja sügavus loetakse liini märkidelt. Loodi põhja õõnsusse määritud rasva külge jääb pinnaseproov (liiv, kivikesed, savi, karbid), mille järgi hinnati asukohta ja ankrukoha sobivust. Kajalood ei tõrjunud käsiloodi 20. sajandil veel välja; madalas ja tundmatus vees kasutati seda edasi.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Depth sounding",
+    "url": "https://en.wikipedia.org/wiki/Depth_sounding"
+   }
+  ]
+ },
+ {
+  "saksa": "pilsivee",
+  "liik": "sona",
+  "pealkiri": "Pilsivesi",
+  "tekst": "Pilss on laeva põhja alumine osa põrandaplaatide all, kuhu valgub lekkiv vesi koos kütuse ja õliga; sealt pumbatakse see pilsipumbaga üle parda. Saksa 1943. aasta sukeldumiseeskirja järgi tuli allveelaeval pilsse pidevalt jälgida ja iga tunni järel mõõta ning pärast pumpamist torustik ja pump õlijääkidest läbi loputada. Õline pilsivesi jätab veepinnale laigu; allveelaevade õhust jahtimisel otsiti veepinnalt muu hulgas just õlilaike.",
+  "allikad": [
+   {
+    "tekst": "Saksa sukeldumiseeskiri 1943, § 155 ja § 221 (uboatarchive.net)",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   },
+   {
+    "tekst": "Smithsonian National Air and Space Museum · K-Ships vs. U-Boats",
+    "url": "https://airandspace.si.edu/stories/editorial/k-ships-vs-u-boats"
+   }
+  ]
+ },
+ {
+  "saksa": "võllitihend",
+  "liik": "sona",
+  "pealkiri": "Võllitihend",
+  "tekst": "Sõukruvi võll läbib laevakere ahtris tihenduskarbi (topiskarbi), kus võlli ümber surutud pakend hoiab vee väljas, lastes võllil pöörelda. Väike läbiimbumine on sellisel tihendil tavaline ja isegi vajalik, sest vesi määrib pakendit; liigset leket vähendatakse pakendi pingutamise või vahetamisega. Läbi tulnud vesi koguneb pilssi, seepärast mõõdetakse selle hulka ja jälgitakse, kas leke kasvab.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Stuffing box",
+    "url": "https://en.wikipedia.org/wiki/Stuffing_box"
+   },
+   {
+    "tekst": "Practical Sailor · Stuffing Box Care",
+    "url": "https://www.practical-sailor.com/systems-propulsion/stuffing-box-care/"
+   }
+  ]
+ },
+ {
+  "saksa": "silindripea",
+  "liik": "sona",
+  "pealkiri": "Silindripea",
+  "tekst": "Silindripea on mootori silindrite peal olev kaas, mis sulgeb põlemiskambri; selles on sisse- ja väljalaskekanalid, klapid, kütuse sissepritse ja jahutuskanalid. Ploki ja pea vahel on tihend, mis ei lase põlemiskambri, jahutuse ja määrimise vahel midagi läbi. VII C tüüpi paadil oli kaks kuuesilindrilist neljataktilist diiselmootorit (MAN M6V 40/46 või Germaniawerft F46), kokku 2800–3200 hj.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Cylinder head",
+    "url": "https://en.wikipedia.org/wiki/Cylinder_head"
+   },
+   {
+    "tekst": "Wikipedia · Type VII submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_VII_submarine"
+   }
+  ]
+ },
+ {
+  "saksa": "Elektrimootorid",
+  "liik": "sona",
+  "pealkiri": "Elektrimootorid",
+  "tekst": "Vee all liikus VII C tüüpi paat kahe elektrimootoriga, mis said voolu akudest ja andsid kokku 750 hj; suurim veealune kiirus oli 7,6 sõlme ning nelja sõlmega jätkus akudest umbes 80 meremiiliks. Pinnal sõideti ja akusid laeti diislitega; sukeldudes seisatati diislid ja sõideti ainult elektrimootoritega.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Type VII submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_VII_submarine"
+   },
+   {
+    "tekst": "uboat.net · Type VIIC",
+    "url": "https://uboat.net/types/viic.htm"
+   }
+  ],
+  "heli": "emootor.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: elektrimootorite undamine vee all, mitte ajalooline salvestis."
+ },
+ {
+  "saksa": "vabavahi",
+  "liik": "sona",
+  "pealkiri": "Vabavaht",
+  "tekst": "Vabavaht (saksa keeles Freiwache) on kahe vahikorra vaheline aeg, mil meeskonnaliige on laevatöödest vaba ja võib magada; nii nimetatakse ka parajasti vabu mehi endid. Ka vabavahi ajal võidakse anda hooldustöid ning häire või „kõik mehed tekile” korral tuleb kohale tulla. Allveelaeval ei olnud igal mehel oma koid ega tekki: vahti minev mees andis need vabavahile üle.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Freiwache",
+    "url": "https://de.wikipedia.org/wiki/Freiwache"
+   },
+   {
+    "tekst": "kbismarck.com · Das tägliche Leben an Bord der deutschen U-Boote",
+    "url": "https://www.kbismarck.com/u-boot/ubordleb.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "kambüüs",
+  "liik": "sona",
+  "pealkiri": "Kambüüs",
+  "tekst": "Kambüüs on laevaköök. VII C tüüpi paadil asus see allohvitseride ruumi ja diiselmootoriruumi vahel, ahtripoolse luugi all. Pisikeses ruumis töötas üksainus kokk, kes toitis umbes 50 meest ega pidanud vahis käima; kartulikoorimisel ja nõudepesul aitasid teised. Et ahtriluuk avanes kambüüsi, pidi kokk ohvitseridele teatama ka sealt tulevatest lekkidest.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · The Cook",
+    "url": "https://uboat.net/men/crew/cook.htm"
+   },
+   {
+    "tekst": "Community Stories · Layout of German Type VIIC U-boat",
+    "url": "https://www.communitystories.ca/v2/tragic-sinking-ss-caribou_naufrage-tragique/gallery/layout-of-german-type-viic-u-boat/"
+   }
+  ]
+ },
+ {
+  "saksa": "latern",
+  "liik": "sona",
+  "pealkiri": "Pimendus Norras",
+  "tekst": "Okupeeritud Norras kehtis Teise maailmasõja ajal nagu Saksamaalgi pimendus (norra keeles mørklegging): nähtavat valgust vähendati või kaotati, et vaenlane ei leiaks asulaid õhust. Pimendus tähendas akende katmist, tänavavalgustuse kustutamist ja sõidukite tulede varjamist; võimud nõudsid akende pimendamist ja pimenduspaber oli sõja-aastail nõutud kaup.",
+  "allikad": [
+   {
+    "tekst": "Store norske leksikon · mørklegging",
+    "url": "https://snl.no/m%C3%B8rklegging"
+   },
+   {
+    "tekst": "Store norske leksikon · blendingspapir",
+    "url": "https://snl.no/blendingspapir"
+   }
+  ]
+ },
+ {
+  "saksa": "abaja",
+  "liik": "sona",
+  "pealkiri": "Abajas",
+  "tekst": "Abajas on sügavale maasse ulatuv väike madal merelaht; sama sõnaga tähistatakse ka aeglase vooluga jõekääru. Siin on abajas laidude vahele jääv varjuline lahesopp, kuhu pääseb madala suudme kaudu.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · abajas",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=abajas"
+   }
+  ]
  }
 ]
