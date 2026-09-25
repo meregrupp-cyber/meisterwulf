@@ -1,5 +1,5 @@
-/* Saksa väljendite tõlkemullid — vt assets/tolge.js */
-.saksa{
+/* Mullid (tõlge, seletus, pilt, heli) — vt assets/tolge.js. Ikoon sõna järel ütleb, mis avaneb. */
+.saksa, .lisa{
   cursor:pointer;
   text-decoration:underline dotted;
   text-decoration-color:currentColor;
@@ -7,28 +7,66 @@
   text-underline-offset:.2em;
   border-radius:2px;
 }
-.saksa:hover, .saksa[aria-expanded="true"]{ text-decoration-style:solid; }
-.saksa:focus-visible{ outline:2px solid #c9a227; outline-offset:2px; }
+.saksa:hover, .lisa:hover, .saksa[aria-expanded="true"], .lisa[aria-expanded="true"]{ text-decoration-style:solid; }
+.saksa:focus-visible, .lisa:focus-visible{ outline:2px solid #c9a227; outline-offset:2px; }
+.saksa::after, .lisa::after{
+  content:""; display:inline-block; width:.74em; height:.74em; margin-left:.14em; vertical-align:-.04em;
+  background:currentColor; opacity:.7;
+  -webkit-mask:var(--ikoon) center / contain no-repeat; mask:var(--ikoon) center / contain no-repeat;
+}
+/* tõlge: jutumull */
+.saksa, [data-liik="tolge"]{ --ikoon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 2.5h13v8.5H6.2L2.5 14V11H1.5z'/%3E%3C/svg%3E"); }
+/* seletus: i ringis */
+[data-liik="selgitus"]{ --ikoon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm-1.1 5.6h2.2v5.6H6.9zm0-3.2h2.2v2.2H6.9z'/%3E%3C/svg%3E"); }
+/* pilt: raam mäe ja päikesega */
+[data-liik="pilt"]{ --ikoon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 2.5h14v11H1zm1.4 1.4v8.2h11.2V3.9zm1.2 7l3.1-3.6 2.1 2.3 1.6-1.6 2.6 2.9zM4.9 5.1a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z'/%3E%3C/svg%3E"); }
+/* heli: kõlar */
+[data-liik="heli"]{ --ikoon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5h3l4-3.2v11.4l-4-3.2h-3z'/%3E%3Cpath d='M11 5.2a3.8 3.8 0 0 1 0 5.6M12.9 3.3a6.4 6.4 0 0 1 0 9.4' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E"); }
+/* autori infomulli viide: ainult ikoon, ilma tekstita */
+.lisa--markus{ display:inline-block; margin-left:.1em; text-decoration:none; line-height:1; }
+.lisa--markus::after{ width:.95em; height:.95em; margin-left:0; vertical-align:-.12em; opacity:.8; }
+.lisa--markus:hover::after, .lisa--markus[aria-expanded="true"]::after{ opacity:1; }
+.lisa.is-playing::after{ animation:heli-pulss .7s ease-in-out infinite alternate; }
+@keyframes heli-pulss{ from{ opacity:.5; } to{ opacity:1; } }
+
 .tolge-mull{
   position:absolute; z-index:70;
-  max-width:340px;
-  padding:.6em .9em;
+  max-width:340px; overflow:auto;
+  padding:.65em .95em .7em;
   border:1px solid rgba(232,201,122,.6);
   border-radius:6px;
   background:#140e08;
   color:#f2e4c2;
   font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
   font-size:.94rem; line-height:1.45;
-  white-space:pre-line;
   box-shadow:0 16px 32px -12px rgba(0,0,0,.9);
   animation:tolge-in .15s ease;
+  scrollbar-width:thin;
 }
 .tolge-mull[hidden]{ display:none; }
+.tolge-mull--tolge{ white-space:pre-line; padding-right:1.9em; }
 .tolge-mull::after{
   content:""; position:absolute; left:var(--nool, 50%); bottom:-7px;
   transform:translateX(-50%);
   border:7px solid transparent; border-bottom:0; border-top-color:rgba(232,201,122,.6);
 }
 .tolge-mull.is-all::after{ bottom:auto; top:-7px; border-top:0; border-bottom:7px solid rgba(232,201,122,.6); }
+.tolge-mull-sulge{ position:absolute; top:.25em; right:.3em; width:1.6em; height:1.6em; border:0; border-radius:50%; background:transparent; color:#c8b189; font:1.1rem/1 inherit; cursor:pointer; }
+.tolge-mull-sulge:hover, .tolge-mull-sulge:focus-visible{ color:#f2e4c2; background:rgba(232,201,122,.15); outline:none; }
+.tolge-mull-pealkiri{ margin:0 1.6em .35em 0; font-size:.78rem; font-weight:400; letter-spacing:.18em; text-transform:uppercase; color:#e8c97a; }
+.tolge-mull-tekst{ margin:0 0 .6em; max-width:none; }
+.tolge-mull-tekst:last-child{ margin-bottom:0; }
+.tolge-mull-pilt{ margin:.3em 0 .5em; }
+.tolge-mull-pilt img{ display:block; width:100%; height:auto; max-height:260px; object-fit:contain; border:1px solid rgba(232,201,122,.3); background:#0b0805; }
+.tolge-mull-pilt figcaption{ margin-top:.4em; font-size:.82rem; color:#c8b189; }
+.tolge-mull-allkiri{ display:block; }
+.tolge-mull-allikas{ display:block; margin-top:.2em; font-size:.72rem; color:#a08c66; }
+.tolge-mull a{ color:#e8c97a; border-bottom:1px solid rgba(232,201,122,.4); }
+.tolge-mull a:hover{ color:#f2e4c2; }
+.tolge-mull-heli{ display:flex; align-items:center; gap:.7em; margin:.4em 0 .2em; }
+.tolge-mull-nupp{ flex:0 0 auto; padding:.35em .9em; border:1px solid #c9a227; border-radius:999px; background:linear-gradient(180deg, rgba(232,201,122,.2), rgba(232,201,122,.06)); color:#e8c97a; font:inherit; font-size:.82rem; letter-spacing:.08em; cursor:pointer; }
+.tolge-mull-nupp:hover, .tolge-mull-nupp:focus-visible{ color:#f2e4c2; box-shadow:0 0 12px rgba(232,201,122,.35); outline:none; }
+.tolge-mull-heliallkiri{ font-size:.82rem; color:#c8b189; }
+.tolge-mull-allikad{ margin:.5em 0 0; max-width:none; font-size:.76rem; color:#a08c66; }
 @keyframes tolge-in{ from{ opacity:0; transform:translateY(2px); } to{ opacity:1; transform:none; } }
-@media (prefers-reduced-motion: reduce){ .tolge-mull{ animation:none; } }
+@media (prefers-reduced-motion: reduce){ .tolge-mull{ animation:none; } .lisa.is-playing::after{ animation:none; } }

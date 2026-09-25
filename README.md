@@ -26,7 +26,7 @@ GitHub Pages            Cloudflare              külastaja
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
 | `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
 | `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
-| `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, saksa väljendite tõlkemullid, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
+| `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, mullid (tõlge, seletus, pilt, heli) ikoonidega, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
 | `404.html` | vealehekülg |
 
 ### Esilehe loogika
@@ -90,12 +90,15 @@ assets/
                            treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas)
   books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked (praegu kasutamata), näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
-  tolge.js, tolge.css      saksa väljendite tõlkemullid (kasutab lugemisleht)
+  tolge.js, tolge.css      mullid: tõlge, seletus, pilt, heli + ikoonid (kasutab lugemisleht)
 raudvaal/
   index.html, loe.js, loe.css   lugemisleht (üks leht, vaated #sisukord, #peatukk-NN, #sonastik, #kood)
   sisu/*.json              ehitatud sisu: sisukord, peatükid (tasuta avatekstina, tasulised krüpteerituna), sõnastik
-content/raudvaal/          käsikirjad markdownina + sisukord.json (register) + saksa-tolked.json (tõlkesõnastik); repos ainult tasuta peatükid
-assets/raudvaal/           das-boot-alarm.mp3 (õhuhäire heli)
+content/raudvaal/          käsikirjad markdownina + sisukord.json (register) + saksa-tolked.json (tõlkesõnastik)
+                           + lisad.json (seletused, pildid, helid); repos ainult tasuta peatükid
+assets/raudvaal/pildid/    lisamullide pildid (Commons, vaba litsents; kompass-hoovus.svg on oma joonis)
+assets/raudvaal/heli/      heliillustratsioonid (sünteesitud) + das-boot-alarm.mp3
+scripts/                   import-kasikiri.py, build-raudvaal.mjs, pildid.py (Commons), heli.py (helid)
 scripts/                   import-kasikiri.py (.odt/.docx -> markdown), build-raudvaal.mjs (markdown -> sisu/*.json)
 kasikiri/                  (gitignore) toorkäsikirjad .odt/.docx, kust importer loeb
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
@@ -169,9 +172,45 @@ Ehitus prindib lõpus, mitu mulli sõnastikust lisandus, millised kirjed ei
 esine kuskil (trükiviga kirjes) ja „KONTROLLI“ nimekirja saksapärastest
 tsitaatidest, millel mulli pole: need lisa sõnastikku ja ehita uuesti.
 
-Õhuhäire „ALARRRM!“ on tekstis `<span class="alarm">` (ehitus märgib ise);
-klõps mängib tasa (25 %) faili `assets/raudvaal/das-boot-alarm.mp3`, uus
-klõps või peatükist lahkumine peatab. Lugemisjärg (viimane
+#### Lisamullid: seletused, pildid, helid
+
+Peale tõlgete on tekstis kolme liiki lisamulle; ikoon sõna järel ütleb, mis
+avaneb (jutumull = tõlge, i = seletus, pildiraam = pilt, kõlar = heli).
+Kõik on failis `content/raudvaal/lisad.json`, kaks kuju:
+
+- `{"saksa": "Skagerrak", "liik": "sona", …}`: sõna tekstis saab mulli nagu
+  tõlgegi (kõigis peatükkides, käändelõpp kaasa arvatud);
+- `{"marker": "käsilood", "peatukk": 5, …}`: autori infomulli viide. Käsikirjas
+  on ülaindeksis number, mis on link faili lõpus oleva osa „Infomullid ja
+  allikad“ pealkirjale (`## 4 Käsilood`). Importer loeb osa sisse (tekst,
+  `Autorimärge:`, `Allikas:` lingid; `**Pildi kirjeldus.**` jms
+  tootmismärkused lähevad välja `markused`, mida ei näidata) ja jätab teksti
+  markeri `[[#käsilood]]`, mille kohale ehitus paneb ikoonimärgi. Olemasolevaid
+  kirjeid importer üle ei kirjuta (`--uuenda-lisad` kirjutab).
+
+Ühised väljad: `pealkiri`, `tekst` (lõigud tühja reaga), `pilt` (fail kaustas
+`assets/raudvaal/pildid/`, JPEG või SVG), `pildi_allkiri`, `pildi_allikas`
+(autor ja litsents, kuvatakse pildi all koos litsentsilingiga ja märkega
+„vähendatud“), `pildi_litsents_url`, `pildi_leht`, `heli` (fail kaustas
+`assets/raudvaal/heli/`), `heli_allkiri`, `helitugevus` (vaikimisi 0,35),
+`allikad` (lingid), `klass` (nt `alarm`). Mulli liik tuletatakse sisust:
+heli > pilt > seletus. Puuduv fail annab ehituses hoiatuse.
+
+**Pildid** tulevad Wikimedia Commonsist ainult vaba litsentsiga (avalik omand,
+CC0, CC BY, CC BY-SA): `python3 scripts/pildid.py too` toob kirjed, millel on
+`pilt_url` (Commonsi faililehe link, nt autori „Allikas“ reast), vähendab
+800 px laiuseks ja täidab autori ja litsentsi väljad;
+`python3 scripts/pildid.py otsi "en:Sounding line|de:Handlot" 6 /kuhu`
+toob kandidaadid ülevaatamiseks Vikipeedia artiklite piltidest (või
+`otsi "vaba otsing" …` Commonsi otsinguga). Commons piirab päringuid: skript
+ootab ja proovib uuesti, ära käivita mitut korraga.
+
+**Helid** on sünteesitud heliillustratsioonid (`python3 scripts/heli.py koik`:
+sonar, süvaveepomm, diisel, elektrimootor, laevakell, lennuk, õhutõrje;
+`heli.py morse "TEKST" fail.mp3` morsekood). Merelaineid meelega ei ole.
+Õhuhäire „ALARRRM!“ on `lisad.json` kirje (`klass: alarm`, helitugevus 0,25)
+faili `assets/raudvaal/heli/das-boot-alarm.mp3` jaoks. Heli käivitub mulli
+avamisel, mullis on nupp „Peata / Mängi“; sulgemine peatab. Lugemisjärg (viimane
 peatükk ja kerimisasukoht) on `localStorage`-is (`rv-jarg`): sisukorras nupp
 „Jätka lugemist“.
 
@@ -204,7 +243,10 @@ RAUDVAAL_KOOD='…' node scripts/build-raudvaal.mjs
 #    lõpus "KONTROLLI": saksakeelsed kohad, mida sõnastikus veel pole -> lisa need
 #    content/raudvaal/saksa-tolked.json faili ({saksa, tolge, liik}) ja ehita uuesti,
 #    kuni nimekiri on tühi. Ühesõnalised saksa terminid jutustuse sees (auastmed jms)
-#    lisa samuti, liik "sona".
+#    lisa samuti, liik "sona". Samas nimekirjas: autori infomullid ilma viiteta ja
+#    viited ilma kirjeta, puuduvad pildi-/helifailid.
+#    Kui käsikirjas oli osa "Infomullid ja allikad": python3 scripts/pildid.py too
+#    (toob Commonsi pildid) ja vajadusel lisa kirjetele pilt/heli käsitsi.
 
 # 3. vaata kohapeal (python3 -m http.server 8000 -> http://localhost:8000/raudvaal/),
 #    commiti raudvaal/sisu/ (ja tasuta peatüki .md, kui see on 00/01), pushi

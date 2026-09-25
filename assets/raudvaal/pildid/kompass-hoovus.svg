@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Miks kompassist üksi ei piisa</title>
+  <desc id="d">Ülaltvaade: laeva kurss kompassi järgi, hoovus küljelt ja nende koosmõjul kujunev tegelik tee; kaldal kaks kaldamärki.</desc>
+  <defs>
+    <marker id="n1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#5a3f16"/></marker>
+    <marker id="n2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#1f4e79"/></marker>
+    <marker id="n3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#8a1c1c"/></marker>
+  </defs>
+  <rect width="640" height="400" fill="#f4ead2"/>
+  <!-- kallas -->
+  <path d="M0 78 C120 60 220 96 330 70 S540 40 640 72 L640 0 0 0z" fill="#d9c393"/>
+  <path d="M0 78 C120 60 220 96 330 70 S540 40 640 72" fill="none" stroke="#8a6a1c" stroke-width="2"/>
+  <!-- kaldamärgid -->
+  <g fill="#2b1d10">
+    <path d="M150 62l10-30 10 30z"/><rect x="157" y="62" width="6" height="14"/>
+    <path d="M470 50l10-30 10 30z"/><rect x="477" y="50" width="6" height="14"/>
+  </g>
+  <text x="150" y="98" font-family="Georgia, serif" font-size="15" fill="#2b1d10">kaldamärk</text>
+  <text x="440" y="86" font-family="Georgia, serif" font-size="15" fill="#2b1d10">kaldamärk</text>
+  <!-- laev -->
+  <g transform="translate(200 330) rotate(-38)">
+    <path d="M-34 0 L0 -13 L34 0 L0 13z" fill="#2b1d10"/>
+  </g>
+  <!-- kurss kompassi järgi -->
+  <line x1="200" y1="330" x2="352" y2="128" stroke="#5a3f16" stroke-width="3" marker-end="url(#n1)"/>
+  <text x="228" y="196" font-family="Georgia, serif" font-size="16" fill="#5a3f16" transform="rotate(-53 228 196)">kurss kompassi järgi</text>
+  <!-- hoovus -->
+  <line x1="352" y1="128" x2="470" y2="128" stroke="#1f4e79" stroke-width="3" marker-end="url(#n2)"/>
+  <text x="372" y="118" font-family="Georgia, serif" font-size="16" fill="#1f4e79">hoovus</text>
+  <path d="M60 300q12-8 24 0t24 0t24 0M60 322q12-8 24 0t24 0t24 0" fill="none" stroke="#1f4e79" stroke-width="2" opacity=".6"/>
+  <!-- tegelik tee -->
+  <line x1="200" y1="330" x2="470" y2="128" stroke="#8a1c1c" stroke-width="3" stroke-dasharray="10 7" marker-end="url(#n3)"/>
+  <text x="340" y="268" font-family="Georgia, serif" font-size="16" fill="#8a1c1c" transform="rotate(-37 340 268)">tegelik tee üle põhja</text>
+  <!-- selgitus -->
+  <text x="20" y="378" font-family="Georgia, serif" font-size="14" fill="#5a3f16">Kompass näitab, kuhu laeva nina osutab; hoovus kannab kogu laeva küljele. Kaldamärkide asend näitab, kus paat päriselt on.</text>
+</svg>

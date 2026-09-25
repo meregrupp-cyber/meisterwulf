@@ -76,10 +76,12 @@ main#app{ padding-bottom:clamp(48px, 8vh, 96px); }
 .tekst hr::after{ content:"*\00a0*\00a0*"; font-size:1.1rem; }
 .leht .saksa{ text-decoration-color:#8a6a1c; }
 /* õhuhäire: klõps mängib heli */
-.alarm{ cursor:pointer; color:#8a1c1c; letter-spacing:.06em; text-decoration:underline dotted; text-decoration-color:#8a1c1c; text-underline-offset:.2em; border-radius:2px; }
-.alarm::after{ content:"\00a0♪"; font-size:.8em; opacity:.7; }
-.alarm:focus-visible{ outline:2px solid #8a1c1c; outline-offset:2px; }
-.alarm.is-playing{ animation:alarm-pulse .7s ease-in-out infinite alternate; }
+.leht .lisa{ text-decoration-color:#8a6a1c; }
+.leht .lisa:focus-visible{ outline-color:#8a6a1c; }
+/* õhuhäire (lisad.json klass "alarm") */
+.leht .alarm{ color:#8a1c1c; letter-spacing:.06em; text-decoration-color:#8a1c1c; }
+.leht .alarm:focus-visible{ outline-color:#8a1c1c; }
+.leht .alarm.is-playing{ animation:alarm-pulse .7s ease-in-out infinite alternate; }
 @keyframes alarm-pulse{ from{ color:#8a1c1c; } to{ color:#e04a2a; text-shadow:0 0 8px rgba(224,74,42,.5); } }
 .leht .saksa:focus-visible{ outline-color:#8a6a1c; }
 .mustand-riba{ margin:0 0 1.6em; padding:.55em 1em; text-align:center; font-size:.76rem; letter-spacing:.16em; text-transform:uppercase; color:#1a1206; background:#e8c24a; border-radius:4px; max-width:none; }

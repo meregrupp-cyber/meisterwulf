@@ -443,5 +443,20 @@
   "saksa": "Sanitäter",
   "tolge": "sanitar",
   "liik": "sona"
+ },
+ {
+  "saksa": "Ja.",
+  "tolge": "„Jah.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Noch nicht.",
+  "tolge": "„Veel mitte.”",
+  "liik": "lause"
+ },
+ {
+  "saksa": "Niemand.",
+  "tolge": "„Mitte keegi.”",
+  "liik": "lause"
  }
 ]
