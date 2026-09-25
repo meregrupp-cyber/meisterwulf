@@ -126,6 +126,13 @@
   ]
  },
  {
+  "saksa": "Befehl des Kommandanten. Von heute an wird nach Wachen geteilt. Nicht nach Dienstgrad.",
+  "tolge": "Komandöri käsk. Tänasest jagatakse koid vahikordade, mitte auastme järgi.",
+  "peatukid": [
+   "VIII"
+  ]
+ },
+ {
   "saksa": "Beide Maschinen kleine Fahrt voraus!",
   "tolge": "„Mõlemad masinad väike käik edasi!”",
   "peatukid": [
@@ -645,7 +652,7 @@
  },
  {
   "saksa": "Herr Kaleun.",
-  "tolge": "Härra komandör. (Kaleun on Kapitänleutnandi lühend, mida meeskond kasutab komandöri kohta.)",
+  "tolge": "Härra komandör. (Kaleun on kõnekeelne lühend auastmest Kapitänleutnant; Krüger ütleb seda Otto kohta komandöri tähenduses.)",
   "peatukid": [
    "VIII"
   ]
@@ -659,7 +666,7 @@
  },
  {
   "saksa": "Herr Obersteuermann.",
-  "tolge": "Härra ülemtüürimees.",
+  "tolge": "Härra tüürimeeste vanem.",
   "peatukid": [
    "VIII"
   ]
@@ -950,13 +957,6 @@
   "tolge": "„Krüger. Tüürimeeste vanem.” Obersteuermann – tüürimeeste vanem, vanemallohvitser.",
   "peatukid": [
    "II"
-  ]
- },
- {
-  "saksa": "Kurat.",
-  "tolge": "Parem või vasak?",
-  "peatukid": [
-   "VIII"
   ]
  },
  {
@@ -1667,13 +1667,6 @@
   ]
  },
  {
-  "saksa": "Von heute an wird nach Wachen geteilt. Nicht nach Dienstgrad.",
-  "tolge": "Tänasest jagatakse koid vahikordade, mitte auastme järgi.",
-  "peatukid": [
-   "VIII"
-  ]
- },
- {
   "saksa": "Von hier bis achteraus. Auch den Himmel absuchen.",
   "tolge": "„Siit ahtri poole. Pidage silmas ka taevast.”",
   "peatukid": [
@@ -1682,7 +1675,7 @@
  },
  {
   "saksa": "Von Uexküll. Kask.",
-  "tolge": "Von Uexküll. Kask. (Kaks nime nimekirjast: Dietrich von Uexküll ja Jaan Kask.)",
+  "tolge": "Kaks nime nimekirjast: von Uexküll ja Kask.",
   "peatukid": [
    "VIII"
   ]
