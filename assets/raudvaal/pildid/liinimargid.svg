@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Liiniga sai rääkida ka nähtavuseta</title>
+  <desc id="d">Animatsioon: tuuker vee all ja liinihoidja kummipaadis, nende vahel julgestusliin. Tõmbed liiguvad mööda liini; kõrval kokku lepitud tähendused. All lõtk: tuukri käsi liigub, aga teises otsas pole seda veel tunda.</desc>
+  <defs>
+    <marker id="p" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"><circle cx="5" cy="5" r="4" fill="#8a1c1c"/></marker>
+  </defs>
+  <rect width="760" height="460" fill="#f4ead2"/>
+  <rect x="0" y="90" width="430" height="230" fill="#cfe0ee"/>
+  <path d="M0 90 q20-8 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t30 0" fill="none" stroke="#1f4e79" stroke-width="2"/>
+  <!-- kummipaat ja liinihoidja -->
+  <path d="M250 84 q0 -18 18 -18 h110 q18 0 18 18 q0 12 -18 12 h-110 q-18 0 -18 -12z" fill="#5a3f16"/>
+  <circle cx="330" cy="42" r="10" fill="#e8c97a" stroke="#5a3f16"/>
+  <path d="M330 52 v14 M318 60 l12 -4 12 4" stroke="#e8c97a" stroke-width="4" fill="none"/>
+  <text x="300" y="20" font-family="Georgia, serif" font-size="13" fill="#2b1d10">liinihoidja</text>
+  <!-- tuuker -->
+  <g transform="translate(70 250)">
+    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#e8c97a" stroke="#5a3f16"/>
+    <rect x="-14" y="12" width="28" height="44" rx="8" fill="#2b1d10"/>
+    <rect x="-18" y="18" width="36" height="24" rx="8" fill="#a9c4a0" stroke="#2e6b2e"/>
+  </g>
+  <text x="30" y="332" font-family="Georgia, serif" font-size="13" fill="#2b1d10">tuuker</text>
+  <!-- liin -->
+  <path id="liin" d="M86 262 C160 230 230 150 318 70" fill="none" stroke="#8a6a1c" stroke-width="3"/>
+  <!-- tõmbed kui täpid liini mööda: 1 tõmme -->
+  <circle r="6" fill="#8a1c1c">
+    <animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.02;0.08;0.09;1" calcMode="linear"><mpath href="#liin"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.08;0.09;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <!-- vastus 1 tõmme alla -->
+  <circle r="6" fill="#1f4e79">
+    <animateMotion dur="12s" repeatCount="indefinite" keyPoints="1;1;0;0;0" keyTimes="0;0.12;0.18;0.19;1" calcMode="linear"><mpath href="#liin"/></animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.119;0.12;0.18;0.19;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <!-- kaks tõmmet -->
+  <circle r="6" fill="#8a1c1c">
+    <animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.30;0.36;0.37;1" calcMode="linear"><mpath href="#liin"/></animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.299;0.30;0.36;0.37;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="6" fill="#8a1c1c">
+    <animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.34;0.40;0.41;1" calcMode="linear"><mpath href="#liin"/></animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.339;0.34;0.40;0.41;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <!-- kiired tõmbed -->
+  <g>
+    <circle r="5" fill="#8a1c1c"><animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.60;0.66;0.661;1"><mpath href="#liin"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.599;0.60;0.66;0.661;1" dur="12s" repeatCount="indefinite"/></circle>
+    <circle r="5" fill="#8a1c1c"><animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.62;0.68;0.681;1"><mpath href="#liin"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.619;0.62;0.68;0.681;1" dur="12s" repeatCount="indefinite"/></circle>
+    <circle r="5" fill="#8a1c1c"><animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.64;0.70;0.701;1"><mpath href="#liin"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.639;0.64;0.70;0.701;1" dur="12s" repeatCount="indefinite"/></circle>
+    <circle r="5" fill="#8a1c1c"><animateMotion dur="12s" repeatCount="indefinite" keyPoints="0;0;1;1;1" keyTimes="0;0.66;0.72;0.721;1"><mpath href="#liin"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.659;0.66;0.72;0.721;1" dur="12s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- tähendused -->
+  <g font-family="Georgia, serif" font-size="14" fill="#2b1d10">
+    <text x="460" y="70" font-size="15">Peatükis kokku lepitud märgid</text>
+    <g><text x="460" y="110">● üks tõmme: kas kõik on korras?</text><text x="478" y="128" fill="#1f4e79">● sama tõmme vastuseks: korras</text>
+      <animate attributeName="opacity" values="1;1;.35;.35;1" keyTimes="0;0.25;0.27;0.97;1" dur="12s" repeatCount="indefinite"/></g>
+    <g opacity=".35"><text x="460" y="168">●● kaks tõmmet: aidake üles tulla</text>
+      <animate attributeName="opacity" values=".35;.35;1;1;.35;.35" keyTimes="0;0.28;0.30;0.52;0.54;1" dur="12s" repeatCount="indefinite"/></g>
+    <g opacity=".35"><text x="460" y="208" fill="#8a1c1c">●●●● kiired tõmbed: kohe üles!</text>
+      <animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;0.58;0.60;0.85;0.87" dur="12s" repeatCount="indefinite"/></g>
+    <text x="460" y="248" font-size="12" fill="#5a3f16">Märk ülalt täidetakse ka siis,</text>
+    <text x="460" y="264" font-size="12" fill="#5a3f16">kui all pole veel häda.</text>
+  </g>
+  <!-- lõtk -->
+  <g transform="translate(0 340)">
+    <text x="20" y="18" font-family="Georgia, serif" font-size="14" fill="#2b1d10">Lõtk: liinis on liiga palju vaba köit</text>
+    <path d="M60 80 C120 110 170 110 230 60 S330 20 380 50" fill="none" stroke="#8a6a1c" stroke-width="3">
+      <animate attributeName="d" values="M60 80 C120 110 170 110 230 60 S330 20 380 50;M40 70 C120 110 170 110 230 60 S330 20 380 50;M60 80 C120 110 170 110 230 60 S330 20 380 50" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <text x="30" y="104" font-family="Georgia, serif" font-size="12" fill="#5a3f16">tuukri käsi liigub…</text>
+    <text x="330" y="80" font-family="Georgia, serif" font-size="12" fill="#5a3f16">…teises otsas pole seda tunda</text>
+    <text x="440" y="36" font-family="Georgia, serif" font-size="12" fill="#2b1d10">Liinihoidja laseb laeva tõusmisel köit järele</text>
+    <text x="440" y="52" font-family="Georgia, serif" font-size="12" fill="#2b1d10">ja korjab vajudes sisse: liin püsib pingul,</text>
+    <text x="440" y="68" font-family="Georgia, serif" font-size="12" fill="#2b1d10">aga ei tõmba tuukrit.</text>
+    <text x="440" y="100" font-family="Georgia, serif" font-size="11" fill="#5a3f16">Romaani meeste oma märgid, mitte Saksa mereväe</text>
+    <text x="440" y="114" font-family="Georgia, serif" font-size="11" fill="#5a3f16">ametlik tabel. Joonis: meisterwulf.com.</text>
+  </g>
+</svg>

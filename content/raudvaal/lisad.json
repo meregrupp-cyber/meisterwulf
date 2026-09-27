@@ -1588,7 +1588,10 @@
    "Kuulatav võrdlusnäide ja pildikavand. 27-sekundiline masinatelegraafi salvestis muuseumilaevalt Sołdek. Selle kõrvale sobib kahe näidiku lihtne joonis: ühel sillalt antud käsk, teisel masinaruumi vastus.",
    "Märkus. Helimulli pealkiri peab nimetama Sołdekit ja salvestusaastat 2015. Tegemist on 1948. aastal vette lastud aurulaeva seadmega, mille heli aitab mõista märguande otstarvet; see ei ole U-398 ega Saksa allveelaeva autentne helisalvestis.",
    "Salvestis. Monika Widzicka, Work With Sounds / Museum of Municipal Engineering; salvestatud Gdański riikliku meremuuseumi laeval Sołdek. Litsents CC BY 4.0."
-  ]
+  ],
+  "pilt": "masinatelegraaf.svg",
+  "pildi_allkiri": "Animeeritud skeem: vasaku ja parema poole telegraaf sillal ja masinaruumis. Sild annab käsu, masinaruumi osuti järgneb alles siis, kui masinamees käsu kinnitab.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "drägeri-tauchretter-ja-korduvkasutatav-hingamisgaas",
@@ -1597,7 +1600,10 @@
   "tekst": "Tauchretter oli allveelaevniku päästeaparaat. 1930. aastate Gegenlunge tüübi hingamiskott paiknes ümber õlgade ja vastu rinda. Kasutaja hingas suulise ning lühikese vooliku kaudu; nina sulges klamber. Hingamisgaas käis kopsude ja koti vahel edasi-tagasi, süsihappegaasi sidus padrun ning hapnikku lisati väikesest balloonist. Iga väljahingamisega ei paisatud kogu gaasi vette, nagu teeb tavapärane avatud hingamisringiga akvalang. Peatükis kasutavad mehed päästevahendit hädapäraseks lühitööks. Pääsemiseks mõeldud aparaati ja eraldi töötuukri varustust ei saa pidada samaväärseks.",
   "markused": [
    "Ajalooline foto ja läbilõike kavand. Drägeri ajalooülevaate 16. leheküljel on 1932. aastaga tähistatud foto rinnal kantavast päästeaparaadist. Lisada selle kõrvale lihtsustatud läbilõige: hingamiskott, suuline, voolik, süsihappegaasi siduv padrun ja hapnikuballoon. Nooled näitavad sama voolikut mööda kulgevat sisse- ja väljahingamist. Varase patendi joonist võib kasutada koti kuju võrdlemiseks; selles kirjeldatud hapnikku eraldavat padrunit ei tohi segi ajada hilisema ballooniga variandiga."
-  ]
+  ],
+  "pilt": "tauchretter.svg",
+  "pildi_allkiri": "Lihtsustatud läbilõige: hingamiskott ümber õlgade ja vastu rinda, suuline ja lühike voolik, süsihappegaasi siduv padrun ja väike hapnikuballoon. Sisse- ja väljahingamine käib sama voolikut mööda.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "liiniga-sai-rääkida-ka-nähtavuseta",
@@ -1606,7 +1612,10 @@
   "tekst": "Tuukri julgestusliin oli ühtlasi sidevahend. Tõmmete arv ja laad andsid pinnal seisvale abimehele teada, kas tuuker on põhjas, vajab abi või tahab üles tulla. Henry Hartley kirjeldab 1931. aastal USA mereväe varasemat korda: üks tõmme julgestusliinist teatas põhja jõudmisest, kuid üks tõmme õhuvoolikust palus õhku juurde. Tähendus sõltus niisiis ka sellest, millist ühendust kasutati. Peatüki mehed lepivad kokku oma lihtsustatud märgid; neid ei esitata Saksa mereväe ametliku signaalitabelina. Läbiproovimine teeb kokkuleppe arusaadavaks ka ühise töökeele puudumisel.",
   "markused": [
    "Lühianimatsiooni kavand. Jagatud pilt näitab korraga tuukri ja pinnal seisva liinihoidja kätt. Nähtavale ilmuvad peatükis kokku lepitud tõmbed ning nende tähendused. Eraldi näidata liini lõtku: tuukri käsi liigub, aga teises otsas pole seda veel tunda. See aitab mõista, miks liinihoidja laseb laeva tõusmisel köit järele ja korjab vajudes sisse."
-  ]
+  ],
+  "pilt": "liinimargid.svg",
+  "pildi_allkiri": "Animatsioon: peatükis kokku lepitud tõmbed liiguvad mööda liini tuukri ja liinihoidja vahel; all lõtk, mille tõttu tuukri liigutust teises otsas veel ei tunta.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "miks-tross-enne-lõikamist-kinni-seoti",
@@ -1615,6 +1624,19 @@
   "tekst": "Terastross koosneb omavahel keeratud traadikimpudest. Lahtise otsa või lõikekoha juures võivad keerud hargnema hakata ning teravad traadid välja turritada. Pehme traadiga tihedalt ümber seotud koht hoiab kimbud koos. Inglise merendustermin on seizing. Võte aitab ka lõiget kontrollida: kinniseotult püsivad traadid saetee kõrval paremini paigal. Katkenud või roostetanud trossi puhul ei muuda selline side vana materjali uuesti töökindlaks; selles stseenis aitab see risu laeva küljest eemaldada.",
   "markused": [
    "Detailpiltide kavand. Kolm lähivaadet samast trossijupist: lahti hargnenud traadid; pehme traadiga seotud lõikekoha ümbrus; eraldatud ja koos püsiv ots. Näidata selgelt, et peen sidumistraat läheb ümber jämedama kandetrossi. Võrdlusallika tänapäevast lõikeseadet pole vaja ajastustseeni üle kanda: romaanis kasutatakse väikest käsirauasaagi."
-  ]
+  ],
+  "pilt": "trossi-sidumine.svg",
+  "pildi_allkiri": "Kolm vaadet samast trossist: seomata ots hargneb; pehme traadiga seotud mõlemal pool saeteed; lõigatud otsad püsivad koos.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "saksa": "kraapimist",
+  "liik": "sona",
+  "peatukk": 9,
+  "pealkiri": "Kruvi takerdub",
+  "tekst": "Heliillustratsioon: nii võis vee all kõlada, kui triivinud plank ja tross sõukruvi ümber keerdusid: kolksud vastu keret, iga pöördega korduv kraapimine, järsk rappumine ja vasaku poole mootori seiskumine.",
+  "heli": "kruvi-kinni.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon, mitte ajalooline salvestis."
  }
 ]
