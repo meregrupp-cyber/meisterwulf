@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "uUGB9qt7syf/BqpC",
-  "ct": "FP3JWxvcLRjjMGEc3UHc1sjC"
+  "iv": "FE8+n0zcDx28Pdtc",
+  "ct": "4uxZt1MT+mJJjEYniuuQrYHH"
  },
  "peatukid": [
   {
@@ -134,9 +134,9 @@
    "ord": 9,
    "osa": 2,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Norra rannikuveed, 30. aprill – 1. mai 1945"
   },
   {
    "slug": "peatukk-10",

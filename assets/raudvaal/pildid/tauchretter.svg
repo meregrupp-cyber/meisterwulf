@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Drägeri Tauchretter: suletud hingamisring</title>
+  <desc id="d">Lihtsustatud läbilõige: hingamiskott ümber õlgade ja vastu rinda, suuline ja lühike voolik, süsihappegaasi siduv padrun ning väike hapnikuballoon. Nooled näitavad, et sisse- ja väljahingamine käib sama voolikut mööda.</desc>
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#1f4e79"/></marker>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#8a1c1c"/></marker>
+    <marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#2e6b2e"/></marker>
+  </defs>
+  <rect width="760" height="460" fill="#f4ead2"/>
+  <!-- inimese siluett -->
+  <g fill="#d9c393" stroke="#5a3f16" stroke-width="2">
+    <ellipse cx="250" cy="92" rx="42" ry="50"/>
+    <path d="M150 190 Q160 150 205 142 L295 142 Q340 150 350 190 L360 420 L140 420 Z"/>
+  </g>
+  <!-- ninaklamber -->
+  <rect x="236" y="92" width="28" height="9" rx="3" fill="#2b1d10"/>
+  <text x="300" y="96" font-family="Georgia, serif" font-size="12" fill="#2b1d10">ninaklamber</text>
+  <line x1="266" y1="96" x2="296" y2="93" stroke="#2b1d10" stroke-width="1"/>
+  <!-- suuline -->
+  <rect x="238" y="116" width="24" height="12" rx="4" fill="#5a3f16"/>
+  <!-- hingamiskott: U ümber kaela ja rinnal -->
+  <path d="M175 160 Q175 150 190 150 L205 150 L205 300 Q250 330 295 300 L295 150 L310 150 Q325 150 325 160 L325 320 Q250 370 175 320 Z" fill="#a9c4a0" stroke="#2e6b2e" stroke-width="2.5" opacity=".92">
+    <animateTransform attributeName="transform" type="scale" values="1 1;1.015 1.03;1 1" dur="4s" repeatCount="indefinite" additive="sum"/>
+  </path>
+  <text x="120" y="210" font-family="Georgia, serif" font-size="13" fill="#2e6b2e" text-anchor="end">hingamiskott</text>
+  <text x="120" y="226" font-family="Georgia, serif" font-size="11" fill="#2e6b2e" text-anchor="end">(ümber õlgade,</text>
+  <text x="120" y="240" font-family="Georgia, serif" font-size="11" fill="#2e6b2e" text-anchor="end">vastu rinda)</text>
+  <line x1="124" y1="214" x2="176" y2="214" stroke="#2e6b2e" stroke-width="1"/>
+  <!-- voolik suulisest kotti -->
+  <path d="M250 128 C250 150 250 160 250 205" fill="none" stroke="#2b1d10" stroke-width="10" stroke-linecap="round"/>
+  <path d="M250 128 C250 150 250 160 250 205" fill="none" stroke="#7a6a50" stroke-width="6" stroke-linecap="round"/>
+  <!-- padrun kotis -->
+  <rect x="222" y="205" width="56" height="70" rx="6" fill="#e8e0c8" stroke="#5a3f16" stroke-width="2"/>
+  <g fill="#b59a5c"><circle cx="236" cy="222" r="3"/><circle cx="252" cy="232" r="3"/><circle cx="266" cy="220" r="3"/><circle cx="240" cy="248" r="3"/><circle cx="262" cy="258" r="3"/><circle cx="250" cy="262" r="3"/></g>
+  <!-- hapnikuballoon kotis -->
+  <rect x="292" y="250" width="22" height="58" rx="10" fill="#2e6b2e" stroke="#1d4a1d" stroke-width="1.5"/>
+  <rect x="298" y="242" width="10" height="10" fill="#1d4a1d"/>
+  <path d="M303 242 V232 H282" fill="none" stroke="#2e6b2e" stroke-width="2.5" marker-end="url(#a3)"/>
+  <!-- sisse- ja väljahingamise nooled samas voolikus -->
+  <line x1="236" y1="140" x2="236" y2="196" stroke="#8a1c1c" stroke-width="2.5" marker-end="url(#a2)">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <line x1="264" y1="196" x2="264" y2="140" stroke="#1f4e79" stroke-width="2.5" marker-end="url(#a1)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.55;0.95;1" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <!-- sildid paremal -->
+  <g font-family="Georgia, serif" fill="#2b1d10" font-size="13">
+    <text x="400" y="110">suuline ja lühike voolik</text>
+    <line x1="398" y1="106" x2="264" y2="122" stroke="#2b1d10" stroke-width="1"/>
+    <text x="400" y="230">padrun: seob väljahingatud</text>
+    <text x="400" y="246">süsihappegaasi (CO₂)</text>
+    <line x1="398" y1="228" x2="280" y2="232" stroke="#2b1d10" stroke-width="1"/>
+    <text x="400" y="290" fill="#2e6b2e">väike hapnikuballoon (O₂):</text>
+    <text x="400" y="306" fill="#2e6b2e">lisab kulunud hapniku</text>
+    <line x1="398" y1="288" x2="316" y2="280" stroke="#2e6b2e" stroke-width="1"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="13">
+    <text x="400" y="160" fill="#8a1c1c">väljahingamine: gaas läheb kotti</text>
+    <text x="400" y="178" fill="#1f4e79">sissehingamine: sama voolikut mööda tagasi</text>
+  </g>
+  <text x="20" y="440" font-family="Georgia, serif" font-size="13" fill="#5a3f16">Suletud hingamisring: gaas käib kopsude ja koti vahel edasi-tagasi, vette mullidena ei lähe. Aparaat oli mõeldud uppunud</text>
+  <text x="20" y="456" font-family="Georgia, serif" font-size="13" fill="#5a3f16">paadist pääsemiseks, mitte tööks. Lihtsustatud skeem 1930. aastate Gegenlunge tüübi järgi. Joonis: meisterwulf.com.</text>
+</svg>

@@ -11,7 +11,8 @@ Menüü: sonar (ASDIC-i ping), wasserbombe (süvaveepommid), diesel (allveelaeva
 emootor (elektrimootorid vee all), laevakell (laevakell), lennuk (lennuk möödub), flak (õhutõrje),
 kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid), diisel-kaivitus (allveelaeva
 diisli käivitamine suruõhuga), praam (väikese praami tihke mootor ja lahtine plekk), snorkel (šnorklisõit:
-peaklapp sulgub, diislid summutuvad ja rõhk langeb).
+peaklapp sulgub, diislid summutuvad ja rõhk langeb), kruvi-kinni (sõukruvi takerdub trossi: kolksud,
+kraapimine, rappumine, seiskumine).
 Merelaineid meelega ei ole. Kõik on heliillustratsioonid, mitte ajaloolised salvestised.
 Vajab: numpy, imageio-ffmpeg (python3 -m pip install numpy imageio-ffmpeg).
 """
@@ -261,6 +262,38 @@ def snorkel(sec=12.0):
     return fade(norm(out, 0.8), 800, 900)
 
 
+def kruvi_kinni(sec=9.0):
+    """Sõukruvi takerdub: elektrimootori undamine, kaks kolksu vastu keret, rütmiline kraapimine, järsk rappumine, vasak pool seiskub."""
+    tt = t(sec); n = len(tt)
+    stop = 6.2
+    f = np.where(tt < stop, 180.0, 180.0 * np.exp(-(tt - stop) * 1.6))            # mootori põhitoon langeb seiskudes
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    amp = np.where(tt < stop, 1.0, np.exp(-(tt - stop) * 1.2))
+    motor = (0.35 * np.sin(ph) + 0.15 * np.sin(2 * ph) + 0.06 * np.sin(3 * ph)) * amp
+    motor += lowpass_fast(rng.normal(0, 1, n), 20) * 0.05 * amp                    # vee sahin kere taga
+    out = motor
+    def clunk(at, g=1.0):
+        c = t(0.45)
+        x = (np.sin(2 * np.pi * 70 * c) + 0.6 * np.sin(2 * np.pi * 143 * c)) * np.exp(-c * 9) + lowpass_fast(rng.normal(0, 1, len(c)), 8) * np.exp(-c * 25) * 0.8
+        mix_at(out, x * g, at)
+    clunk(1.0, 0.9); clunk(2.1, 1.0)
+    # kraapimine: müra, mida moduleerib kruvi pööre (u 3 korda sekundis), kaks lõiku
+    rev = 3.2
+    for a, b in ((2.6, 4.0), (4.5, 5.9)):
+        m = (tt > a) & (tt < b)
+        tm = tt[m]
+        mod = np.maximum(0, np.sin(2 * np.pi * rev * tm)) ** 3
+        grit = rng.normal(0, 1, len(tm))
+        grit = grit - lowpass_fast(grit, 6)                                           # kõrgpääs: krigin
+        out[m] += grit * mod * 0.35 * np.clip((tm - a) / 0.2, 0, 1) * np.clip((b - tm) / 0.2, 0, 1)
+    # järsk rappumine enne seiskumist
+    m = (tt > 5.9) & (tt < 6.5)
+    tm = tt[m] - 5.9
+    out[m] += np.sin(2 * np.pi * 9 * tm) * np.sin(2 * np.pi * 55 * tm) * np.exp(-tm * 4) * 0.9
+    clunk(6.0, 0.8)
+    return fade(norm(out, 0.85), 300, 900)
+
+
 def write_mp3(x, path: Path):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -274,7 +307,7 @@ def write_mp3(x, path: Path):
     print(f"  {path.relative_to(ROOT)}  {len(x) / SR:.1f} s, {path.stat().st_size // 1024} KB")
 
 
-MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel}
+MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel, "kruvi-kinni": kruvi_kinni}
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "koik":
