@@ -1591,7 +1591,24 @@
   ],
   "pilt": "masinatelegraaf.svg",
   "pildi_allkiri": "Animeeritud skeem: vasaku ja parema poole telegraaf sillal ja masinaruumis. Sild annab käsu, masinaruumi osuti järgneb alles siis, kui masinamees käsu kinnitab.",
-  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
+  "allikad": [
+   {
+    "tekst": "Tüübi VIIC käsiraamat, 15.07.1940, lk 180: masinatelegraaf (U-boat Archive – Type VII C Manual: \"U-boat Information for U-boat Type VIIC\", tõlkinud Maciek Florek)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Sołdeki masinatelegraafi helifail ja salvestise andmed (Wikimedia Commons: File:WWS ShipSodekengineordertelegraph.ogg)",
+    "url": "https://commons.wikimedia.org/wiki/File:WWS_ShipSodekengineordertelegraph.ogg"
+   },
+   {
+    "tekst": "Creative Commons Attribution 4.0 litsents (Attribution 4.0 International – CC BY 4.0, deed)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "heli": "masinatelegraaf-soldek.mp3",
+  "helitugevus": 0.6,
+  "heli_allkiri": "Muuseumilaeva Sołdek masinatelegraaf, salvestatud 2015 (Gdańsk). Sołdek lasti vette 1948; see ei ole U-398 ega Saksa allveelaeva heli, vaid võrdlusnäide märguande otstarbest. Salvestis: Monika Widzicka, Work With Sounds / Museum of Municipal Engineering, CC BY 4.0."
  },
  {
   "marker": "drägeri-tauchretter-ja-korduvkasutatav-hingamisgaas",
@@ -1603,7 +1620,21 @@
   ],
   "pilt": "tauchretter.svg",
   "pildi_allkiri": "Lihtsustatud läbilõige: hingamiskott ümber õlgade ja vastu rinda, suuline ja lühike voolik, süsihappegaasi siduv padrun ja väike hapnikuballoon. Sisse- ja väljahingamine käib sama voolikut mööda.",
-  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
+  "allikad": [
+   {
+    "tekst": "Drägeri ettevõtte ajalooülevaade, lk 16: foto ja päästeaparaadi taust (\"Dräger. Die Geschichte des Unternehmens\", Drägerwerk AG & Co. KGaA, Corporate Communications)",
+    "url": "https://ub-sachdokpdf.ub.unibas.ch/sachdok/2014/BAU_1_6230722.pdf"
+   },
+   {
+    "tekst": "Ajalooline Gegenlunge ehitusjoonis, säilitatud The Rebreathersite'is (\"1931 Dräger Gegenlunge – The Rebreathersite\")",
+    "url": "https://therebreathersite.nl/1931-drager-gegenlunge/"
+   },
+   {
+    "tekst": "O. H. Drägeri ja H. Stelzneri patent US1878474A, avaldatud 1932 (Google Patents: \"Life-saving gear\")",
+    "url": "https://patents.google.com/patent/US1878474A/en"
+   }
+  ]
  },
  {
   "marker": "liiniga-sai-rääkida-ka-nähtavuseta",
@@ -1615,7 +1646,13 @@
   ],
   "pilt": "liinimargid.svg",
   "pildi_allkiri": "Animatsioon: peatükis kokku lepitud tõmbed liiguvad mööda liini tuukri ja liinihoidja vahel; all lõtk, mille tõttu tuukri liigutust teises otsas veel ei tunta.",
-  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
+  "allikad": [
+   {
+    "tekst": "Henry Hartley, USA merevägi: 'Some Historical Facts On Diving', Proceedings, märts 1931 (Proceedings, March 1931, Vol. 57/3/337)",
+    "url": "https://www.usni.org/magazines/proceedings/1931/march/some-historical-facts-diving"
+   }
+  ]
  },
  {
   "marker": "miks-tross-enne-lõikamist-kinni-seoti",
@@ -1627,7 +1664,13 @@
   ],
   "pilt": "trossi-sidumine.svg",
   "pildi_allkiri": "Kolm vaadet samast trossist: seomata ots hargneb; pehme traadiga seotud mõlemal pool saeteed; lõigatud otsad püsivad koos.",
-  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
+  "allikad": [
+   {
+    "tekst": "Transport for NSW: terastrossi otsa sidumine, selgitus ja detailpildid (\"Dogging and Rigging guide – Seizing process of wire rope\", NSW Government)",
+    "url": "https://www.nsw.gov.au/employment/dogging-and-rigging/guide/part-1-general-rigging-principles/lifting-equipment/steel-wire-ropes/seizing-process-wire-rope"
+   }
+  ]
  },
  {
   "saksa": "kraapimist",
@@ -1638,5 +1681,233 @@
   "heli": "kruvi-kinni.mp3",
   "helitugevus": 0.5,
   "heli_allkiri": "Sünteesitud heliillustratsioon, mitte ajalooline salvestis."
+ },
+ {
+  "saksa": "lülitusratta",
+  "liik": "sona",
+  "pealkiri": "Lülitusratas ja ampermeeter",
+  "tekst": "VII C paadi elektrimootoreid juhiti elektrimootoriruumi pealülitustahvlitelt, kus asusid AEG pöördlülitid ja mõõteriistad. Lüliteid keerati käsiratastega: sõidusuuna lüliti ratas paremale andis edasikäigu, vasakule tagasikäigu, keskasendis oli lüliti väljas. Kui sõukruvi ümber keerdunud risu võlli pidurdab, pöörded langevad, mootori vastuelektromotoorjõud väheneb ja mootor tõmbab rohkem voolu – ampermeetri osuti tõuseb.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat · A II 3 Partitioning of the pressure hull (Room 1) ja B IX 3b Main switchboards with rotary switches (lk 170–172)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Wikipedia · Counter-electromotive force",
+    "url": "https://en.wikipedia.org/wiki/Counter-electromotive_force"
+   }
+  ]
+ },
+ {
+  "saksa": "kaabeltau",
+  "liik": "sona",
+  "pealkiri": "Kaabeltau",
+  "tekst": "Kaabeltau on merenduses kasutatav pikkusühik: kümnendik meremiili ehk 185,2 meetrit. Ajalooliselt on kaabeltau pikkus eri maades ja laevastikes erinenud, olenevalt mõõtmise standardist umbes 169 ja 220 meetri vahel. „Viimased kaabeltaud” tähendab niisiis viimast lühikest, mõnesaja meetri pikkust teelõiku enne varjulist ankrukohta.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · kaabeltau",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kaabeltau"
+   },
+   {
+    "tekst": "Wikipedia · Cable length",
+    "url": "https://en.wikipedia.org/wiki/Cable_length"
+   }
+  ]
+ },
+ {
+  "saksa": "sõukruvi",
+  "liik": "sona",
+  "pealkiri": "Sõukruvi",
+  "tekst": "Sõukruvi on võlli otsas pöörlev laevakruvi. Selle keskosa ehk rumm kinnitab kruvi võlli külge ja kannab labasid, mis on seatud kruvijoone kujuliselt kaldu ning tõukavad pöörlemisel vett taha. VII C paadil oli ahtris kaks võlli ja kaks ühest tükist valatud kolmelabalist messingkruvi läbimõõduga 1,62 m. Köied, trossid, võrgud ja muu praht võivad sõukruvi ümber keerduda.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat · B I 5a Propellers (lk 136)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Wikipedia · Propeller (marine)",
+    "url": "https://en.wikipedia.org/wiki/Propeller_(marine)"
+   }
+  ],
+  "pilt": "viic-ahter.jpg",
+  "pildi_allkiri": "VIIC tüüpi U-995 ahter Laboes: kaks kolmelabalist sõukruvi, nende vahel kaksikrool ja ahtri sügavustüürid. Siia keerdusid romaanis tross ja plank. Tänapäevane võrdluspilt.",
+  "pildi_allikas": "McKarri, 2013 (oma töö; U-995, Laboe) / CC BY-SA 3.0",
+  "pildi_litsents_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Type_VIIC_submarine_stern.jpg",
+  "pildi_litsents": "CC BY-SA 3.0"
+ },
+ {
+  "saksa": "kaldamärgi",
+  "liik": "sona",
+  "pealkiri": "Kaldamärgid ja peiling",
+  "tekst": "Kaldamärk on kaldal või madalas vees asuv rajatis või looduslik ese, mis on laevasõidul tähiseks. Ankrusse jäädes valitakse paar selget märki ja võetakse neile peiling ehk vaatlussuuna nurk põhjasuuna suhtes. Kui peilingud püsivad, peab ankur; kui märgid hakkavad laeva suhtes liikuma, triivib laev ja ankur võib mööda põhja libiseda. Tugev tuul või äkilised puhangud suurendavad seda ohtu.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · kaldamärk",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kaldam%C3%A4rk"
+   },
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · peiling",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=peiling"
+   },
+   {
+    "tekst": "The Nautical Institute · What does a 'good' anchor watch look like?",
+    "url": "https://www.nautinst.org/resources-page/what-does-a-good-anchor-watch-look-like.html"
+   }
+  ]
+ },
+ {
+  "saksa": "pootshaagi",
+  "liik": "sona",
+  "pealkiri": "Pootshaak",
+  "tekst": "Pootshaak on pika varre otsas olev teraskonks, millel on üks sirge ja üks kõver haru. Sellega tõmmatakse paati kai või laeva ligi, tõugatakse end teisest alusest või kaist eemale ning püütakse veest ujuvaid esemeid, näiteks palke või prahti. Sirge haruga saab lükata, kõvera haruga haakida ja tõmmata.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · pootshaak",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=pootshaak"
+   },
+   {
+    "tekst": "Wikipedia · Boathook",
+    "url": "https://en.wikipedia.org/wiki/Boathook"
+   }
+  ]
+ },
+ {
+  "saksa": "Kuus kraadi",
+  "liik": "sona",
+  "pealkiri": "Kuus kraadi: külmašokk",
+  "tekst": "Järsult külma vette sattudes tabab inimest külmašokk: nahk jahtub kiiresti, ta ahmib tahtmatult õhku ja hingab kiiresti. Kui vesi on külmem kui umbes 15 °C, võib hinge kinnipidamise aeg langeda tavaliselt 60–90 sekundilt vaid mõne sekundini. Esmane reaktsioon möödub enamasti alla viie minutiga. Umbes kolme minuti pärast hakkavad jahtuma pindmised lihased ja närvid; alajahtumine ehk hüpotermia tuleb alles hiljem, umbes poole tunni pärast.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Cold shock response",
+    "url": "https://en.wikipedia.org/wiki/Cold_shock_response"
+   }
+  ]
+ },
+ {
+  "saksa": "mõrraotsa",
+  "liik": "sona",
+  "pealkiri": "Mõrd",
+  "tekst": "Mõrd on kalapüünis, millel on puitvõrudele toetuv võrgust, vitstest või muust materjalist kere. Kala pääseb sisse suu kaudu, kuid ahenev lehtrikujuline pujus teeb tal väljapääsu raskeks. Mõrd kinnitatakse veekogu põhja pikkade teivastega ja jääb paigale püüdma; mõrdu käiakse nõudmas ehk saaki välja võtmas.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · mõrd",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=m%C3%B5rd"
+   },
+   {
+    "tekst": "Vikipeedia · Mõrd",
+    "url": "https://et.wikipedia.org/wiki/M%C3%B5rd"
+   }
+  ]
+ },
+ {
+  "saksa": "Kummiriidest ülikond",
+  "liik": "sona",
+  "pealkiri": "Kummiriidest kuivülikond",
+  "tekst": "Kuivülikond hoiab vett kehast eemal: kummeeritud riidest kest ning kaela- ja randmetihendid takistavad vee sissepääsu, ehkki päris veekindlad tihendid ei ole. Õhuke kummiriie ise soojust peaaegu ei hoia – soojustavad selle all kantavad riided ja nende vahele jäänud õhk. Varaste kuivülikondide all kanti enamasti villast soojuspesu, sest vill hoiab soojust ka niiskena paremini kui enamik teisi looduslikke kiude.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Dry suit",
+    "url": "https://en.wikipedia.org/wiki/Dry_suit"
+   }
+  ]
+ },
+ {
+  "saksa": "võllipidur",
+  "liik": "sona",
+  "pealkiri": "Võllipidur ja tuukri ohutus",
+  "tekst": "VII C paadi kummalgi sõukruvivõllil oli pidur: kruviga pingutatav lintpidur võlli trumli ümber, mis pidi võlli kindlalt paigal hoidma ka siis, kui peasidur oli lahti ja teine võll töötas täiskäigul. Laevaaluses tuukritöös kehtib sama põhimõte tänapäevalgi: enne sukeldumist lülitatakse välja ja lukustatakse sõukruvid, merevee sisse- ja väljavoolud ning muud seadmed, mis võivad tuukri või tema varustuse kinni haarata või enda poole imeda.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat · B I 5b Drive shafts, bearings and shaft brakes (lk 136–137)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "West P&I · Underwater Hull Cleaning – Risks and Precautions Associated with Diving Operations (2023)",
+    "url": "https://www.westpandi.com/news-and-resources/news/april-2023/underwater-hull-cleaning-risks-and-precautions-ass/"
+   }
+  ]
+ },
+ {
+  "saksa": "tekiplangu",
+  "liik": "sona",
+  "pealkiri": "Tekiplank ja tihendus",
+  "tekst": "Puulaeva tekk laoti plankudest. Plankude vahele jäävatesse kiilukujulistesse vuukidesse löödi tihendusvasara ja laia peitlitaolise tihendusrauaga männitõrvas immutatud puuvillakiudu või takku ehk kanepikiudu. Tekivuugid valati seejärel üle sulatatud pigiga. Plangu servas olevad vana tihenduse jäägid on sellise töö jäljed.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Caulking",
+    "url": "https://en.wikipedia.org/wiki/Caulking"
+   }
+  ]
+ },
+ {
+  "saksa": "kaladest, mis end laeva põhja imevad",
+  "liik": "sona",
+  "pealkiri": "Imikalad",
+  "tekst": "Imikalad kinnituvad suuremate loomade või esemete külge ovaalse imiketta abil, mis on tugevasti moondunud seljauim. Nad sõidavad kaasa haide, raide, vaalade ja merikilpkonnade, vahel ka laevade ja paatide küljes ning kasvavad liigiti 30–110 cm pikkuseks. Imikalad elavad troopilistes ja soojades meredes. Antiikajal usuti, et imikala suudab laeva kinni pidada; ladina sõna remora tähendab viivitust.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · Imikala",
+    "url": "https://et.wikipedia.org/wiki/Imikala"
+   },
+   {
+    "tekst": "Wikipedia · Remora",
+    "url": "https://en.wikipedia.org/wiki/Remora"
+   }
+  ]
+ },
+ {
+  "saksa": "Radist",
+  "liik": "sona",
+  "pealkiri": "Radist ja hüdrofon",
+  "tekst": "Allveelaeva raadiomehed saatsid ja võtsid vastu raadiosõnumeid ning kodeerisid ja dekodeerisid neid. Nende ülesanne oli ka kuulata hüdrofoni ehk veealust kuulamisseadet, mille ruum asus raadioruumi kõrval, ning avastada vastase radarit. Aastatel 1944–1945 oli VII C paadil kaks raadioallohvitseri (Funkmaat) ja 3–4 raadiooperaatorit (Funker); päeval kestis vaht neli, öösel kuus tundi.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · The Radio Crew",
+    "url": "https://uboat.net/men/crew/radio.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "päästeaparaad",
+  "liik": "sona",
+  "peatukk": 9,
+  "pealkiri": "Tauchretter: päris aparaat",
+  "tekst": "USA merevägi pildistas 1942. aasta juulis uputatud U-701 ellujäänult ära võetud Drägeri päästeaparaati. Samasugune Tauchretter kuulus iga Saksa allveelaevniku varustusse: rinnale kinnitatav hingamiskott suulise, padruni ja väikese hapnikuballooniga.",
+  "allikad": [
+   {
+    "tekst": "Wikimedia Commons · U-701 Tauchretter (US Navy, Naval History and Heritage Command)",
+    "url": "https://commons.wikimedia.org/wiki/File:U-701_Tauchretter.jpg"
+   }
+  ],
+  "pilt": "tauchretter-u701.jpg",
+  "pildi_allkiri": "Drägeri Tauchretter, mis võeti ära U-701 ellujäänult; USA mereväe foto, 9. juuli 1942. Ajastu võrdluspilt.",
+  "pildi_allikas": "US Navy (USN), 9. juuli 1942; allikas Naval History and Heritage Command (history.navy.mil) / Public domain",
+  "pildi_litsents_url": "https://commons.wikimedia.org/wiki/File:U-701_Tauchretter.jpg",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-701_Tauchretter.jpg",
+  "pildi_litsents": "Public domain"
+ },
+ {
+  "saksa": "Masinatelegraafi",
+  "liik": "sona",
+  "peatukk": 9,
+  "pealkiri": "Masinatelegraafi vastuvõtja",
+  "tekst": "Saksa allveelaeva masinatelegraafi vastuvõtja masinaruumis: sihverplaadil on käigud edasi ja tagasi (Kleine, Halbe, Große Fahrt; Äußerste Kraft) ning „Stopp“. Kui sild käsu andis, liikus siin osuti ja kostis märguanne; masinamees kinnitas käsu ja seadis mootori ise.",
+  "allikad": [
+   {
+    "tekst": "Wikimedia Commons · U-505 Engine Gauge Telegraph",
+    "url": "https://commons.wikimedia.org/wiki/File:U-505_Engine_Gauge_Telegraph.jpg"
+   },
+   {
+    "tekst": "U-boat Archive · Type VII C Manual (Engine order telegraph system, lk 180)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ],
+  "pilt": "telegraaf-u505.jpg",
+  "pildi_allkiri": "Masinatelegraafi vastuvõtja Saksa allveelaeva U-505 masinaruumis (Chicago teaduse- ja tööstusmuuseum). U-505 oli IXC tüüpi, VIIC paadi seadmed olid samasugused. Tänapäevane võrdluspilt.",
+  "pildi_allikas": "Avsar Aras, 2013 (oma töö; U-505, Museum of Science and Industry, Chicago) / CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-505_Engine_Gauge_Telegraph.jpg",
+  "pildi_litsents": "CC BY-SA 4.0"
  }
 ]

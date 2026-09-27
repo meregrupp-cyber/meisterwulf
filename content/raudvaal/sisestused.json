@@ -164,5 +164,138 @@
   "parast": "17259501f52af403",
   "loik": "Auastme ütleb ta astme võrra madalamalt. Otto ei paranda.",
   "markus": "Sidusus L6/T8: Otto on Oberleutnant (II), Schrade ütleb „Herr Leutnant“; märkus teeb sellest taotlusliku joone"
+ },
+ {
+  "peatukk": 9,
+  "parast": "f49b2008488cc95e",
+  "asenda": "See on sama noor masinist, kes oli koos Matsiga vahekäigus samme proovinud",
+  "uus": "See on seesama noor masinist, kes oli Matsiga abajas tekil võidu seisnud ja hiljem vahekäigus samme proovinud",
+  "markus": "Sidusus IX: Heller seotakse VI noore masinaruumi mehega ja VIII harjutusrühmaga"
+ },
+ {
+  "peatukk": 9,
+  "parast": "4dec1d0d48a06928",
+  "asenda": "Ta laseb selle veel Matsile öelda, kuigi poiss saab suuremast osast juba aru.",
+  "uus": "Ta ütleb selle Matsile veel eesti keeles üle, kuigi poiss saab mõnest sõnast juba ise aru.",
+  "markus": "Sidusus IX: Mats mõistab saksa keelt vähe (VIII papagoi, IX tõlked)"
+ },
+ {
+  "peatukk": 9,
+  "parast": "4228a54c8f85de3b",
+  "asenda": "Ta küsib Casparilt, kes on selle aparaadiga varem sukeldunud.",
+  "uus": "Ta küsib Casparilt, kas keegi pardal on päästeaparaadiga varem sukeldunud.",
+  "markus": "Sidusus IX: aparaati pole varem nimetatud, viide „selle aparaadiga“ jäi õhku"
+ },
+ {
+  "peatukk": 9,
+  "parast": "1a243bed7bef48bf",
+  "asenda": "keda lasti vette selleks, et näha, mida ta oskab",
+  "uus": "keda meister lasi jõe ääres vette selleks, et näha, mida ta oskab",
+  "markus": "Sidusus IX: mälestus proloogi jõeõpetusest, eristub V peatüki öisest sukeldumisest"
+ },
+ {
+  "peatukk": 9,
+  "parast": "7de1cefbdd40beaf",
+  "asenda": "Selle asemel aitab ta kuiva särki üle Matsi pea tõmmata",
+  "uus": "Selle asemel aitab ta Helleri kuiva särki üle Matsi pea tõmmata",
+  "markus": "Sidusus IX: X algab sellest, et laenatud särk läheb Helleri asemele tagasi"
+ },
+ {
+  "peatukk": 9,
+  "parast": "6d35525eb9924f1e",
+  "asenda": "kuigi keskruumis pole enam vaja",
+  "uus": "kuigi tsentraalis pole enam vaja",
+  "markus": "Sidusus IX: termin: tsentraal"
+ },
+ {
+  "peatukk": 9,
+  "parast": "0ba000af56baabef",
+  "asenda": "millega tegeleb torpeedomees",
+  "uus": "millega tegeleb torpedomadrus",
+  "markus": "Sidusus IX: termin: torpedomadrus"
+ },
+ {
+  "peatukk": 9,
+  "parast": "71a08eb89e210484",
+  "asenda": "Taaniel tõstab vaba käe. Torpeedomees peatub.",
+  "uus": "Taaniel tõstab vaba käe. Torpedomadrus peatub.",
+  "markus": "Sidusus IX: termin: torpedomadrus"
+ },
+ {
+  "peatukk": 9,
+  "parast": "ceb8edf1220880fe",
+  "asenda": "torpeedomees laseb tõsteotsa lõdvemaks",
+  "uus": "torpedomadrus laseb tõsteotsa lõdvemaks",
+  "markus": "Sidusus IX: termin: torpedomadrus"
+ },
+ {
+  "peatukk": 9,
+  "parast": "9f1b6bad57f3402c",
+  "asenda": "ja torpeedomees saab otsa pisut juurde võtta",
+  "uus": "ja torpedomadrus saab otsa pisut juurde võtta",
+  "markus": "Sidusus IX: termin: torpedomadrus"
+ },
+ {
+  "peatukk": 9,
+  "parast": "52dcca8c872a53d4",
+  "asenda": "Siis vajub alumine ots vabaks. Torpeedomees",
+  "uus": "Siis vajub alumine ots vabaks. Torpedomadrus",
+  "markus": "Sidusus IX: termin: torpedomadrus"
+ },
+ {
+  "peatukk": 9,
+  "parast": "7eb0fa0b7a8e72e5",
+  "asenda": "Ta kohtub isaga trepi juures",
+  "uus": "Ta kohtub isaga redeli juures",
+  "markus": "Sidusus IX: termin: torniredel on „redel“"
+ },
+ {
+  "peatukk": 9,
+  "parast": "a8741245d6ff3ea9",
+  "asenda": "elektrimootorite ruumi uksel",
+  "uus": "elektrimootoriruumi uksel",
+  "markus": "Sidusus IX: termin: elektrimootoriruum"
+ },
+ {
+  "peatukk": 9,
+  "parast": "7506c46cea8dfc68",
+  "asenda": "Mats laskub vette redelit mööda. Esimese astme juures",
+  "uus": "Mats laskub vette köisredelit mööda. Esimese pulga juures",
+  "markus": "Sidusus IX: vette viiv redel on köisredel, redeli osad on pulgad"
+ },
+ {
+  "peatukk": 9,
+  "parast": "55b4c6c1bae9b09f",
+  "asenda": "Roolid peavad samuti paigal püsima.",
+  "uus": "Roolid ja ahtri sügavustüürid peavad samuti paigal püsima.",
+  "markus": "Sidusus IX: ahtri sügavustüürid on kruvide lähedal, tuukri töökohas"
+ },
+ {
+  "peatukk": 9,
+  "parast": "34ebb834812fb9ec",
+  "asenda": "Õhuvaru on väike ja aparaat",
+  "uus": "Hapnikuvaru on väike ja aparaat",
+  "markus": "Sidusus IX: Tauchretteris on hapnik, mitte õhk"
+ },
+ {
+  "peatukk": 9,
+  "parast": "6e37676559d15a35",
+  "asenda": "jääb hetkeks poordi kõrvale",
+  "uus": "jääb hetkeks parda kõrvale",
+  "markus": "Sidusus IX: termin: parras (I–VIII)"
+ },
+ {
+  "peatukk": 9,
+  "parast": "52dcca8c872a53d4",
+  "asenda": "pöörab puidu poordi poole",
+  "uus": "pöörab puidu parda poole",
+  "markus": "Sidusus IX: termin: parras (I–VIII)"
+ },
+ {
+  "peatukk": 7,
+  "parast": "9a4c62f0d3f715f3",
+  "asenda": "tõmbab paadihaagiga külje vahelt",
+  "uus": "tõmbab pootshaagiga külje vahelt",
+  "markus": "Sidusus VII/IX: pootshaak (IX neljas kohas) ühtlustatud VII-ga"
  }
 ]
