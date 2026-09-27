@@ -331,6 +331,7 @@ def main():
     body, notes = split_notes(lines)
     body, infomullid = parse_infomullid(body)
     dateline, body = strip_header(body, entry["pealkiri"], warnings)
+    nr_marker = {im["nr"]: im["marker"] for im in infomullid}
 
     out_lines, used = [], set()
     for i, ln in enumerate(body, 1):
@@ -342,7 +343,9 @@ def main():
             out_lines.append("***")
             continue
         used.update(MARK.findall(s))
-        s = SUP_LINK.sub(lambda m: "[[#" + (m.group(2) or m.group(4)) + "]]", s)      # seletusviide jääb markeriks [[#slug]]
+        # seletusviide jääb markeriks [[#slug]]; Word lühendab üle 40 märgi pikad järjehoidjad räsiks (X…),
+        # seepärast eelistatakse viite numbrit [N] -> infomulli nr N marker
+        s = SUP_LINK.sub(lambda m: "[[#" + nr_marker.get(int(m.group(1) or m.group(3)), m.group(2) or m.group(4)) + "]]", s)
         out_lines.append(bubble_paragraph(s, notes, i, warnings))
     for k in notes:
         if k not in used:

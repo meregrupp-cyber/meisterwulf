@@ -112,6 +112,20 @@
   ]
  },
  {
+  "saksa": "Backbord bleibt gestoppt. Steuerbord kleine Fahrt voraus. Niemand versucht, die Backbordwelle freizufahren. Erst müssen wir wissen, was sie festhält.",
+  "tolge": "Vasak jääb seisma. Parem aeglaselt edasi. Keegi ei püüa vasakut võlli käiguga vabastada. Kõigepealt peame teadma, mis teda kinni hoiab.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
+  "saksa": "Backbord klar. Langsame Fahrt möglich. Mehr erst draußen.",
+  "tolge": "Vasak valmis. Aeglane käik võimalik. Rohkem proovime alles väljas.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
   "saksa": "Backborddiesel bleibt aus. Wasser am Zylinderkopf. Das muss ich erst offen sehen.",
   "tolge": "„Vasak diisel jääb seisma. Silindripea juures on vett. Pean selle enne lahti võtma.”",
   "peatukid": [
@@ -133,6 +147,13 @@
   ]
  },
  {
+  "saksa": "Beide herauf. Für den Jungen ist Schluss. Heller, bleiben Sie ebenfalls aus dem Wasser, bis wir wissen, was passiert ist.",
+  "tolge": "Mõlemad üles. Poisile tänaseks aitab. Heller, ka teie püsite veest väljas, kuni teame, mis juhtus.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
   "saksa": "Beide Maschinen kleine Fahrt voraus!",
   "tolge": "„Mõlemad masinad väike käik edasi!”",
   "peatukid": [
@@ -144,6 +165,13 @@
   "tolge": "„Mõlemad masinad väike käik edasi.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Beide Wellen sind gesichert. Ich bleibe unten. Freigabe erst, wenn beide Männer wieder an Deck sind und sämtliche Leinen aus dem Wasser.",
+  "tolge": "Mõlemad võllid on kindlustatud. Jään alla. Vabastame need alles siis, kui mõlemad mehed on tekil ja kõik liinid veest väljas.",
+  "peatukid": [
+   "IX"
   ]
  },
  {
@@ -298,6 +326,13 @@
   "tolge": "„See ei ole komandöri käsk.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Das Seil ist durch. Die letzte Windung hängt nur noch am Holz. Wenn wir das Brett heben, muss das Ende mitkommen.",
+  "tolge": "Tross on läbi. Viimane keerd ripub veel ainult puidu küljes. Kui plangu üles tõstame, peab ots kaasa tulema.",
+  "peatukid": [
+   "IX"
   ]
  },
  {
@@ -476,6 +511,13 @@
   ]
  },
  {
+  "saksa": "Drahtseil um die Nabe. Das Holz sitzt zwischen Seil und Flügel. Wenn wir nur ziehen, wird die Schlinge enger. Ich muss an die andere Seite.",
+  "tolge": "Terastross on ümber rummu. Puit on trossi ja laba vahel. Kui ainult tõmbame, läheb silmus koomale. Pean teisele küljele pääsema.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
   "saksa": "Dreißig!",
   "tolge": "„Kolmkümmend!”",
   "peatukid": [
@@ -487,6 +529,20 @@
   "tolge": "„Niisuguse nimega võib ka oma tegelikust päritolust eksitava mulje jätta.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Ein Zug: alles in Ordnung. Zwei: beim Heraufkommen helfen. Schnelle Züge: sofort herauf. Und wenn von oben nichts mehr zu verstehen ist, komme ich ebenfalls.",
+  "tolge": "Üks tõmme: kõik on korras. Kaks: aidake üles tulla. Kiired tõmbed: kohe üles. Ja kui ülalt tulevatest märkidest enam aru ei saa, tulen samuti üles.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
+  "saksa": "Eine Kette. Oder ein Fender, der bei jedem Seegang auf dieselbe Stelle geschlagen hat. Das Holz kann lange getrieben sein.",
+  "tolge": "Kett. Või vender, mis lainetusega aina vastu sama kohta lõi. Puit võis kaua triivida.",
+  "peatukid": [
+   "IX"
   ]
  },
  {
@@ -557,6 +613,13 @@
   "tolge": "See teeb ainult jalga pannes valu.",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Fertig.",
+  "tolge": "Valmis.",
+  "peatukid": [
+   "IX"
   ]
  },
  {
@@ -988,6 +1051,13 @@
   ]
  },
  {
+  "saksa": "Lassen Sie das Messer hier. Den Rest schaffe ich allein.",
+  "tolge": "Jätke nuga siia. Ülejäänuga saan ise hakkama.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
   "saksa": "Laufplanke weg!",
   "tolge": "„Ülekäigulaud ära!”",
   "peatukid": [
@@ -1114,6 +1184,13 @@
   ]
  },
  {
+  "saksa": "Mit dem Tauchretter war ich im Wasser. An dieser Schraube habe ich noch nicht gearbeitet. Ich sehe sie mir zuerst an, bevor wir Werkzeug hinuntergeben.",
+  "tolge": "Päästeaparaadiga olen vees käinud. Selle kruvi juures pole ma veel töötanud. Enne kui tööriistad alla anname, vaatan selle üle.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
   "saksa": "Mit den Ersatzröhren allein nicht. Hier ist mehr abgerissen.",
   "tolge": "„Ainult tagavaralampidega mitte. Siin on rohkem asju lahti rebenenud.”",
   "peatukid": [
@@ -1230,6 +1307,13 @@
   "tolge": "„Mitte keegi.”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Noch ein Strang. Dann kann ich das Ende herausziehen. Das Brett muss ein wenig tiefer, aber nicht weiter zur Seite. Dort steht der Draht ab.",
+  "tolge": "Veel üks traadikimp. Siis saan otsa välja tõmmata. Plank peab minema natuke sügavamale, aga mitte rohkem kõrvale. Seal turritab traat välja.",
+  "peatukid": [
+   "IX"
   ]
  },
  {
@@ -1510,6 +1594,13 @@
   "tolge": "Saapakontroll.",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Taucher fertig?",
+  "tolge": "Tuuker valmis?",
+  "peatukid": [
+   "IX"
   ]
  },
  {
@@ -1912,6 +2003,13 @@
   ]
  },
  {
+  "saksa": "Wir liegen fest. Zwei Mann bleiben oben. Sobald sich die Peilung ändert, wecken Sie mich. Auch wenn es nur wenig ist.",
+  "tolge": "Oleme kindlalt ankrus. Kaks meest jäävad üles. Niipea kui peiling muutub, äratate mu. Ka siis, kui muutus on väike.",
+  "peatukid": [
+   "IX"
+  ]
+ },
+ {
   "saksa": "Wir setzen den Kommandanten und die Zivilisten an Land. Wer von der Besatzung mitgehen will, meldet sich bei Krüger. Ich werde niemanden zurückhalten.",
   "tolge": "„Viime komandöri ja tsiviilisikud kaldale. Kes meeskonnast tahab kaasa minna, teatagu Krügerile. Ma ei hoia kedagi kinni.”",
   "peatukid": [
@@ -1944,6 +2042,13 @@
   "tolge": "„Kõigepealt vajame varjulist lahte ja remonti. Rohkem ei saa ma teile täna lubada.”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Zum Herauskommen ist er da. Heute benutzen wir ihn für eine kurze Arbeit. Wenn ich schwer atmen muss, breche ich ab.",
+  "tolge": "See on mõeldud väljapääsemiseks. Täna kasutame seda lühikeseks tööks. Kui mul tuleb raskelt hingata, katkestan.",
+  "peatukid": [
+   "IX"
   ]
  },
  {
