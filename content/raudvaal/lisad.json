@@ -399,7 +399,7 @@
   "pohjendus": "II ptk: lugeja vajab pilti sellest, millisest sadamast ja olukorrast lahkutakse. Linna tänavapilt on I ptk pildimullis „rusuhunnik”."
  },
  {
-  "saksa": "traaler",
+  "saksa": "Teed avavad traalerid",
   "liik": "sona",
   "tyyp": "selgitus",
   "pealkiri": "Miinitraalerid ja traalitud faarvaater",
@@ -3946,7 +3946,10 @@
   ],
   "markused": [
    "Leitud heli ja soovitud töötlus. Benboncani salvestis „Six Bells, Ship Time”, avaldatud 19. augustil 2009 Freesoundis. Umbes kümnesekundilises näites kõlab kuus laevakella lööki. Infomullis sobib heli kõrvale näidata, kuidas kolm löögipaari vastavad kolmele möödunud tunnile. See on tänapäevane näidissalvestis vanast ajamärguandest; autorile viidata (Benboncan, CC BY 4.0)."
-  ]
+  ],
+  "heli": "kuus-klaasi.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Laevakell lööb kuus klaasi: kolm löögipaari, vahi algusest on möödunud kolm tundi. Tänapäevane salvestis. Benboncan, 2009 (Freesound) / CC BY 4.0."
  },
  {
   "marker": "põhivalgustus-ja-avariilambid",
@@ -3961,7 +3964,10 @@
   ],
   "markused": [
    "Joonise kirjeldus. Kõrvuti traadist kaitsevõrega põhivalgusti ja väikese oma akuga avariilambi selgitavad kujutised. Teine vaade näitab hämarasse jäänud ruumis helendavaid näidikuid: käigutee on aimatav, kuid inimeste näod ja käed jäävad varju. Joonise tehniline alus on allpool viidatud aruanne; seda ei esitleta Widari originaalfotona."
-  ]
+  ],
+  "pilt": "avariivalgus.svg",
+  "pildi_allkiri": "Kui põhitoide kaob, süttib oma akuga avariilamp ise; näidikute järelhelendavad jaotised jäävad nähtavaks, näod ja käed varju. Lihtsustatud joonis IXC tüüpi paatide 1946. aasta aruande järgi, mitte Widari foto.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "viimane-õmblustöö-merel",
@@ -3980,7 +3986,12 @@
   ],
   "markused": [
    "Leitud foto. NZ History lehel avaldatud ajalooline foto Leanderi merematusest pärast Kolombangara lahingut, juuli 1943. Pildiallkirjas säilitada tegeliku laeva ja sündmuse andmed. Foto on võrdlusmaterjal sõjaaegse merematuse kohta."
-  ]
+  ],
+  "pilt": "leander-merematus.jpg",
+  "pildi_allkiri": "Merematus Uus-Meremaa ristlejal Leander pärast Kolombangara lahingut, juuli 1943.",
+  "pildi_allikas": "HMNZS Leander, 1943; National Museum of the Royal New Zealand Navy, AAG 0025 / avalik omand (Uus-Meremaa foto enne 1944)",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://navymuseum.co.nz/explore/by-themes/world-war-two-by-themes/remembering-the-battle-of-kolombangara/"
  },
  {
   "marker": "tuulealune-parras-ja-kahe-aluse-erinev-liikumine",
@@ -3995,7 +4006,10 @@
   ],
   "markused": [
    "Joonise kirjeldus. Lihtne kaheosaline joonis. Ülaltvaates on Widar lainepoolsel küljel, kummipaat tema tuulealuses pardas ja traaler eemal. Eraldi nooled näitavad tuult ning teise nurga alt saabuvat ummiklainet. Kõrvalvaates kujutatakse sama üleminekukohta kahel järjestikusel hetkel: algul on kummipaat kõrgemal, seejärel allveelaevast madalamal. Märkida vaba pardakõrgus. Joonis selgitab romaani olukorda; see pole konkreetse ajaloolise üleandmise dokument. Allikaks olev tänapäevane juhend aitab selgitada meresõiduvõtet ja aluste liikumist; selle varustusnõudeid pole loos 1945. aastasse üle kantud."
-  ]
+  ],
+  "pilt": "tuulealune.svg",
+  "pildi_allkiri": "Ülal: Widar varjab kummipaati tuule ja ummiklaine eest. All: alused kerkivad eri ajal ning last vähendab paadi vaba pardakõrgust. Joonis selgitab romaani olukorda.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "viskeliin-ja-ahvirusika-sõlm",
@@ -4014,7 +4028,12 @@
   ],
   "markused": [
    "Pildi ja joonise kirjeldus. Lähivõte nöörist punutud „ahvirusikast” koos lahtiselt laotud viskeliiniga. Kõrval väike joonis, kus peenike liin toob üle jämeda köie. Sõlme võrdluspildiks sobib mereameti foto ainult köiest valmistatud sõlmest. See on tänapäevane näidis. Metallist või kivist lisaraskusega sõlm võib tabamuse korral vigastada; mereameti leht näitab ka selliseid ohtlikke näiteid."
-  ]
+  ],
+  "pilt": "ahvirusikas.jpg",
+  "pildi_allkiri": "Ainult köiest põimitud „ahvirusikas” (monkey’s fist) viskeliini otsas.",
+  "pildi_allikas": "Markus Bärlocher, 2008 (oma töö) / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Affenfaust.jpg"
  },
  {
   "marker": "täispuhutav-päästevöö-oli-olemas-juba-sõja-ajal",
@@ -4033,6 +4052,257 @@
   ],
   "markused": [
    "Joonise kirjeldus. Seletav joonis tühjast ja täidetud kummivööst kõrvuti. Märkida väike suruõhuballoon, tõmberõngas ja õhuga täituv osa. Teisel väikesel joonisel näidata julgestusvööd ning eraldi liini laeva kinnituse küljes. Ühegi muuseumieseme täpset mudelit ei maksa nende tekstiallikate põhjal juurde oletada."
+  ],
+  "pilt": "paastevoo.svg",
+  "pildi_allkiri": "Vasakul kummist päästevöö: rõngast tõmmates täidab väike suruõhuballoon vöö. Paremal julgestusvöö, mille liin on laeva kinnituse küljes. Seletav joonis, mitte konkreetse mudeli kujutis.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "saksa": "pealse",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Jalatsi pealne",
+  "tekst": "Pealne on EKI ühendsõnastiku järgi jalatsi pealmine osa. Saapatöökoja Truman Boot Co. sõnastiku järgi kuulub pealse hulka kõik, mis jääb tallast kõrgemale: varbaid kattev esiosa ning jalga külgedelt ja kannalt ümbritsevad nahatükid. Tald ise pealse hulka ei kuulu.",
+  "allikad": [
+   {
+    "tekst": "Sõnaveeb (EKI ühendsõnastik) · pealne",
+    "url": "https://sonaveeb.ee/search/unif/dlall/dsall/pealne/1/est"
+   },
+   {
+    "tekst": "Truman Boot Co. · Dictionary of Boot Building (upper, vamp, quarter, counter pocket)",
+    "url": "https://www.trumanboot.com/pages/boot-building-dictionary"
+   }
+  ]
+ },
+ {
+  "saksa": "õhupuhur",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Õhupuhurid ja ventilatsioon",
+  "tekst": "VII C tüübi käsiraamatu järgi vahetas ventilatsioonisüsteem paadis õhku ja tõmbas välja akude laadimisel tekkivad gaasid. Masinaruumis olid sisse- ja väljatõmbepuhur, mis võisid töötada koos või eraldi. Torud kulgesid ahtri torpeedoruumist vööri torpeedoruumini, igas ruumis oli võrega avaus ja väljatõmbetoru viidi ruumi madalaimasse kohta, sest süsihappegaas on õhust raskem. Suuremal IXD2 tüüpi Widaril võisid üksikasjad erineda.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C Manual, B.V „Ventilating Systems”",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "Relvakapi",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Käsirelvad pardal",
+  "tekst": "Allveelaeval oli peale torpeedode ja suurtükkide ka väike hulk käsirelvi. Näiteks väiksema VII C tüübi paadi käsiraamat loetleb kergkuulipilduja MG 34, kaks automaati, 7,65 mm Mauseri püstolid, täägid koos vööde ja padrunitaskutega ning kaks signaalpüstolit; käsirelvade padruneid hoiti ohvitseride ruumi moonasalves. Relvakapi võti ja arvestus annavad kontrolli laeva enda relvade üle.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C Manual, IV.4 „Small arms” ja I.3.c",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "ka moon",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Moon ehk laskemoon",
+  "tekst": "Moon tähendab siin laskemoona ehk padruneid. EKSS-i järgi on moon eelkõige toit ja toidukraam (toidumoon, päevamoon); tavaliselt liitsõna lõpus tähendab see ka lahinguvarustust: laskemoon, sõjamoon. Samakujuline sõna moon (omastav mooni) on hoopis lill ehk magun. Relvade järel heidetakse eraldi merre ka nende padrunid.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · moon",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=moon&F=M"
+   }
+  ]
+ },
+ {
+  "saksa": "torpeedoallohvitser",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Torpeedoallohvitser",
+  "tekst": "Saksa mereväes kuulusid torpedomadrused mehaanikute teenistusharru: VII C tüübi paadi käsiraamatu tabelis on see teenistusliin „Mechanic (Artificers/Torpedomen)”. U-340 meeskonnanimekirjas on selle haru allohvitser kirjas auastmega Mechanikersmaat. Torpedomadrused hooldasid torpeedosid; VII C paadis hoiti nende kontaktsüütureid ja süüteseadiseid vööriruumis eraldi kindlas hoiukohas. Süüteseadised polnud torpedomadrusele seega võõrad.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C Manual (Career track VII; torpedo munitions storage)",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "U-boat Archive · U-340 Interrogation Report, nominal roll",
+    "url": "https://uboatarchive.net/Int/U-340INT.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "purjenõel",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Purjenõel ja purjekinnas",
+  "tekst": "Purjenõel on EKI ühendsõnastiku järgi kolmetahulise esiosaga sirge nõel purjede ja purjeriidest esemete õmblemiseks. Et seda läbi tugeva riide suruda, kanti peopesakaitset, purjetamise oskuskeeles purjekinnast: kinnast, millel on ava pöidla jaoks ja peopesa kohal metallplaat. Nõela tagumine ots toetatakse plaadile ja nõel surutakse käega riidest läbi.",
+  "allikad": [
+   {
+    "tekst": "Sõnaveeb (EKI ühendsõnastik) · purjenõel",
+    "url": "https://sonaveeb.ee/search/unif/dlall/dsall/purjen%C3%B5el/1/est"
+   },
+   {
+    "tekst": "Sõnaveeb (purjetamise terminibaas) · purjekinnas",
+    "url": "https://sonaveeb.ee/search/unif/dlall/pur/purjekinnas"
+   }
+  ],
+  "pilt": "purjekinnas.jpg",
+  "pildi_allkiri": "Purjekinnas ehk peopesakaitse ja purjenõel: nõela tagumine ots toetub peopesa metallplaadile.",
+  "pildi_allikas": "Elgewen, 2011 (oma töö) / CC0",
+  "pildi_litsents": "CC0",
+  "pildi_litsents_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Sailmaker%27s_palm_and_needle.JPG"
+ },
+ {
+  "saksa": "juurde õmmeldud kiil",
+  "liik": "sona",
+  "peatukk": 19,
+  "pealkiri": "Kiil saapas",
+  "tekst": "Kiil ei ole siin laeva põhja pikisuunas läbiv tala. EKSS-i järgi tähendab kiil õmblustöös ka kolmnurkset vahele õmmeldud või kootud riidetükki: kiiludega seelik, kiiludega sukad. Villemi saapa keele kõrvale õmbles Taaniel Norras samal põhimõttel pehmest nahast kiilu, et saabas mahuks sidemega jala peale. Kui paistetus alanes, vajus lisanahk paelte all voldiks; seepärast palus Villem peatüki alguses saabast jälle kitsamaks teha.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · kiil",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kiil&F=M"
+   }
+  ]
+ },
+ {
+  "saksa": "Traaleri tuled",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Laeva tuled öösel",
+  "tekst": "Öösel näitab sõitev laev kindlaksmääratud tulesid: paremal pardal rohelist ja vasakul punast külgtuld ning ahtris valget ahtrituld; masinjõul liikuval laeval põleb lisaks valge mastituli, mis paistab eest ja külgedelt. Nende järgi saab teine laev aru, mis alusega on tegu ja mis nurga all see tema suhtes liigub. Aurulaevadelt nõudis Briti Admiraliteet punast ja rohelist külgtuld ning valget mastituld juba 1848. aastal.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Navigation light",
+    "url": "https://en.wikipedia.org/wiki/Navigation_light"
+   }
+  ]
+ },
+ {
+  "saksa": "lühemad lained",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Ristlainetus",
+  "tekst": "Ristlainetuses kulgevad lained kahes eri suunas ja liituvad üksteisega. Nii juhtub ka siis, kui tuul pöördub: vana lainetus jookseb edasi, uue tuule tekitatud lained aga kulgevad selle suhtes nurga all. Suurtele lainetele on ohutum minna otse vastu, ristlainetuses on see võimatu, sest ühele vastu minnes jääb teine külje peale. Väikestele paatidele on selline meri eriti ohtlik.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · ristlainetus",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=ristlainetus"
+   },
+   {
+    "tekst": "Wikipedia · Cross sea",
+    "url": "https://en.wikipedia.org/wiki/Cross_sea"
+   }
+  ]
+ },
+ {
+  "saksa": "seotud võrgud",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Traal ja külgtraaler",
+  "tekst": "Traal on lehtrikujuline võrk, mida laev enda järel veab; saak koguneb võrgu suletud tagumisse otsa ning võrgusuud hoiavad vees lahti tiivana töötavad lauad. Põhja-Atlandi süvamerepüügil olid kuni 1960. aastate lõpuni levinuimad külgtraalerid: võrk lasti vette üle parda ja trossid jooksid ees ja taga parda kohal olevatest raamidest rippuvate plokkide kaudu. Pealisehitis asus harilikult ahtri pool, kalaruum keskel.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Fishing trawler",
+    "url": "https://en.wikipedia.org/wiki/Fishing_trawler"
+   },
+   {
+    "tekst": "Wikipedia · Trawling",
+    "url": "https://en.wikipedia.org/wiki/Trawling"
+   }
+  ],
+  "pilt": "kulgtraaler.jpg",
+  "pildi_allkiri": "Briti külgtraaler Northern Pride merel 1943. aastal, kõrge vöör ja madal ahter; sõja ajal mereväe teenistuses.",
+  "pildi_allikas": "Lt F. A. Hudson, Royal Navy; Imperial War Museums A 15416 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A15416.jpg"
+ },
+ {
+  "saksa": "vints",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Vints",
+  "tekst": "Vints on seade lasti teisaldamiseks: selle tross või kett keritakse enamasti trumlile. On auru-, elektri-, mootor- ja käsivintse. Traaleri tekil on traalvints, millega juhitakse võrku vedavaid trosse ja millele need keritakse, kui neid ei kasutata. Külgtraaleril asub see põiki pealisehitise ees.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · vints",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=vints"
+   },
+   {
+    "tekst": "Wikipedia · Fishing trawler",
+    "url": "https://en.wikipedia.org/wiki/Fishing_trawler"
+   }
+  ]
+ },
+ {
+  "saksa": "karabiin",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Karabiin: püss ja haak",
+  "tekst": "Karabiin on lühikese vintrauaga kerge püss. Eesti keeles on sõnal ka teine tähendus: karabiinhaak, millega kinnitatakse näiteks julgestusliin vöö külge. Haak ongi saanud nime relva järgi: saksa Karabinerhaken tähendab karabiinikonksu, sest karabiiniga relvastatud sõdurid kinnitasid sellega oma relva vöö külge.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · karabiin",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=karabiin"
+   },
+   {
+    "tekst": "Wikipedia · Carabiner",
+    "url": "https://en.wikipedia.org/wiki/Carabiner"
+   }
+  ]
+ },
+ {
+  "saksa": "ballastipaagi",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Topeltkere ja ballastipaagid",
+  "tekst": "IX tüüpi allveelaevadel, mille hulka kuulub ka Widari tüüp IXD2, oli tugeva survekere ümber teine, välimine kest. Kahe kesta vahel paiknesid ballastipaagid ja osa kütusest; kest koos laia ja lameda tekiga tegi paadi pinnal merekindlaks. Sukeldumiseks täidetakse ballastipaagid veega, pinnale tõusmiseks puhutakse vesi suruõhuga välja. Teki servast alla laskudes otsib Taaniel jalgealust just paagi kumeralt välisplaadilt.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Type IX submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_IX_submarine"
+   },
+   {
+    "tekst": "Wikipedia · Tauchzelle",
+    "url": "https://de.wikipedia.org/wiki/Tauchzelle"
+   }
+  ]
+ },
+ {
+  "saksa": "Päästerõngas",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Päästerõngas",
+  "tekst": "Päästerõngas on rõngakujuline vetelpäästevahend; laevadel olid tavalised ka purjeriidega kaetud ja värvitud korkrõngad. Kui keegi kukub üle parda, hüütakse kõvasti „Mann über Bord!” ja talle visatakse võimalikult kiiresti ja täpselt rõngas: see annab ujuvust ja teeb vees oleva inimese paremini nähtavaks. Üks inimene määratakse ainult teda jälgima ning ta osutab väljasirutatud käega vees oleva inimese suunas.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Mann-über-Bord-Manöver",
+    "url": "https://de.wikipedia.org/wiki/Mann-%C3%BCber-Bord-Man%C3%B6ver"
+   },
+   {
+    "tekst": "Wikipedia · Rettungsring",
+    "url": "https://de.wikipedia.org/wiki/Rettungsring"
+   }
+  ],
+  "pilt": "paasterongas.jpg",
+  "pildi_allkiri": "Päästerõngas Teise maailmasõja aegsel Kanada korvetil Sackville, mis on praegu muuseumilaev. Tänapäevane foto.",
+  "pildi_allikas": "Unbeatable101, 2019 (oma töö) / CC0",
+  "pildi_litsents": "CC0",
+  "pildi_litsents_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:HMCS_Sackville_Lifebuoy.jpg"
+ },
+ {
+  "saksa": "allatuult",
+  "liik": "sona",
+  "peatukk": 20,
+  "pealkiri": "Triiv ja otsimine allatuult",
+  "tekst": "Vees hõljuvat eset või inimest kannavad edasi pinnahoovus ja tuul, mis surub vastu veest välja ulatuvaid osi; tuule põhjustatud triivi nimetatakse inglise keeles leeway. Suurem osa sellest triivist on allatuult, kuid ese võib tuule suunast kalduda paremale või vasakule ja ette pole teada, kummale poole. Seepärast tuleb otsinguala määrates arvestada nii allatuult triiviga kui ka kõrvalekaldega mõlemale poole.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Leeway",
+    "url": "https://en.wikipedia.org/wiki/Leeway"
+   }
   ]
  }
 ]

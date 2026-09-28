@@ -871,5 +871,68 @@
   "asenda": "kuid leitnant paneb ainult aja enda jaoks kirja",
   "uus": "kuid too paneb ainult aja enda jaoks kirja",
   "markus": "XVIII: Lemke vaatepunktis mitte „leitnant” (Schrade alandus)"
+ },
+ {
+  "peatukk": 20,
+  "parast": "1fc1334c0951d7b5",
+  "asenda": "Ta jätab uuri naisele",
+  "uus": "Ta ei võta naise uuri kaasa",
+  "markus": "XX: hundiga uur on Katharina oma (I, II, V, IX, X, XV)"
+ },
+ {
+  "peatukk": 19,
+  "parast": "529cda5e80156acb",
+  "asenda": "Ta küsib, kas kapten keelas Schrade korralduse",
+  "uus": "Ta küsib, kas komandör keelas Schrade korralduse",
+  "markus": "XIX: Brandt on komandör; „kapten” on XX-s traaleri juht"
+ },
+ {
+  "peatukk": 19,
+  "parast": "f8c58126f92c3fc2",
+  "asenda": "Kaardilaual seisab lahtine logiraamat",
+  "uus": "Kaardilaual seisab lahtine vahipäevik",
+  "markus": "XIX: logiraamat → vahipäevik (I–XVIII termin)"
+ },
+ {
+  "peatukk": 20,
+  "parast": "0edfde0dfd9768ea",
+  "asenda": "Otto kirjutab juhtunu logiraamatusse",
+  "uus": "Otto kirjutab juhtunu vahipäevikusse",
+  "markus": "XX: logiraamat → vahipäevik (I–XVIII termin)"
+ },
+ {
+  "peatukk": 20,
+  "parast": "a36c8998992fb0b1",
+  "asenda": "sama madrus, kes eile Villemile oma madratsi andis",
+  "uus": "sama madrus, kes Villemile oma madratsi andis",
+  "markus": "XX: madrats anti matusele eelnenud õhtul, mitte „eile”"
+ },
+ {
+  "peatukk": 20,
+  "parast": "e22c115d4b824bd4",
+  "asenda": "Suurt arveraamatut siin ei ole",
+  "uus": "Arveraamatut siin ei ole",
+  "markus": "XX: arveraamat on vihikusuurune (XIV)"
+ },
+ {
+  "peatukk": 20,
+  "parast": "bd9f2c311d605eda",
+  "asenda": "Tald leiab ballastitanki kumera väliskesta pealt",
+  "uus": "Tald leiab ballastipaagi kumera väliskesta pealt",
+  "markus": "XX: ballastitank → ballastipaak (I–XVIII termin)"
+ },
+ {
+  "peatukk": 20,
+  "parast": "7c65812ff1e5e607",
+  "asenda": "Alla läheb ta astehaaval",
+  "uus": "Alla läheb ta pulk-pulgalt",
+  "markus": "XX: torniredelil on pulgad (XV, XVI)"
+ },
+ {
+  "peatukk": 19,
+  "parast": "de48a9d78ced0e24",
+  "asenda": "Tsentraalis jääb mees rooliratta juurde.",
+  "uus": "Tsentraalis jääb roolimees oma kohale.",
+  "markus": "XIX: Saksa allveelaeva tsentraalis juhiti rooli nuppudega, rooliratas oli ainult avariiroolina"
  }
 ]
