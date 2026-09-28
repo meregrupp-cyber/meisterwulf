@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "DU+cBlEYKTOMKdKf",
-  "ct": "DpcyLYPBE/np9aJY4RfHXPMZ"
+  "iv": "pIbh4PpSldU0Q3hL",
+  "ct": "2Lr3LTjpHBFhwJdbczuUF/yK"
  },
  "peatukid": [
   {
@@ -211,9 +211,9 @@
    "ord": 16,
    "osa": 3,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Atlandi ookean, lõunakurss, 11.–12. mai 1945"
   },
   {
    "slug": "peatukk-17",
@@ -222,9 +222,9 @@
    "ord": 17,
    "osa": 3,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Atlandi ookean, 13.–14. mai 1945"
   },
   {
    "slug": "peatukk-18",
@@ -233,9 +233,9 @@
    "ord": 18,
    "osa": 3,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Atlandi ookean, juuni–juuli 1945"
   },
   {
    "slug": "peatukk-19",

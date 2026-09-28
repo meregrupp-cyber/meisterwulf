@@ -3428,5 +3428,164 @@
   "pildi_allikas": "Sgt Smith, No 5 Army Film & Photographic Unit, 1945; Imperial War Museums (BU 11294) / Public domain",
   "pildi_litsents": "Public domain",
   "pildi_leht": "https://commons.wikimedia.org/wiki/File:Germany_Under_Allied_Occupation_BU11294.jpg"
+ },
+ {
+  "marker": "kuidas-mereveest-sai-magevesi",
+  "peatukk": 16,
+  "pealkiri": "Kuidas mereveest sai magevesi",
+  "tekst": "Destillaatoris aurustatakse merevesi ja tekkinud aur jahutatakse uuesti veeks. Sool jääb valdavalt aurustisse; kogutud vee soolsust tuleb siiski kontrollida. Saksa allveelaeva U-570 kohta koostatud Briti tehniline aruanne kirjeldab elektrilist destillaatorit, mille juures kasutati soojuse säästmiseks nii kuuma soolvett kui ka valminud destillaati. Vee puhtust kontrollis elektriline soolsusmõõtur. Aruandes antud keskmine tootlikkus oli neli Briti gallonit ehk umbes 18 liitrit tunnis. Need andmed käivad VIIC-tüüpi U-570 kohta. Seadme olemasolu ei tähendanud, et vett võis piiramatult kulutada: seda vajasid inimesed ning destilleeritud vett vajasid ka pliiakud. Peatüki pesuveenorm ei hõlma joogivett ega toiduvalmistamist.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · U-570 Briti tehniline aruanne · Electric Distiller, lk 34",
+    "url": "https://www.uboatarchive.net/U-570/U-570BritishReport.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne selgitav skeem aurustist, jahutist ja soolsusmõõturist. Merevesi ja kontsentreeruv soolvesi üht värvi, aur ning kogutav magevesi teist värvi. Joonis tutvustab destilleerimise põhimõtet; Widari täpset torustikku pole vaja kujutada."
+  ]
+ },
+ {
+  "marker": "pervitin-väsimust-varjav-tablett",
+  "peatukk": 16,
+  "pealkiri": "Pervitin — väsimust varjav tablett",
+  "tekst": "Pervitin oli metamfetamiini sisaldava erguti kaubanimi. Temmler tõi ravimi turule 1938. aastal ning seda kasutati ka Saksa sõjaväes, et väsimust ja unisust ajutiselt maha suruda. Tegemist ei olnud rahustiga. Erguti võis anda erksuse ja enesekindluse tunde, kuid sellega kaasnesid sõltuvuse ning tõsiste kõrvaltoimete ohud. Saksamaal muudeti Pervitin 1941. aastal retseptiravimiks. Väike ravimikarp igapäevaste taskuasjade hulgas aitab mõista, miks närvilisus ja unetus ei pruukinud sõjast tulnud meeste juures kohe eraldi tähelepanu äratada.",
+  "allikad": [
+   {
+    "tekst": "Deutschlandmuseum · Stimulant Pervitin",
+    "url": "https://www.deutschlandmuseum.de/en/collection/stimulant-pervitin/"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Deutschlandmuseumi kogus säilitatava Pervitini originaalpakendi foto, millel kaubanimi on loetav. Näidata pakendit tervikuna ja soovi korral teise vaatena etiketi suurendust; kasutusjuhisest ei ole vaja annustamisnäidet välja tõsta."
+  ]
+ },
+ {
+  "marker": "operatsioon-vee-all",
+  "peatukk": 16,
+  "pealkiri": "Operatsioon vee all",
+  "tekst": "Erakorraline kõhuoperatsioon allveelaeval ei ole pelgalt seiklusromaani võte. 11. septembril 1942 eemaldas USA allveelaeval Seadragon sanitaarallohvitser Wheeler B. Lipes madrus Darrel D. Rectori põletikulise ussripiku. Arsti pardal ei olnud. Komandör viis paadi umbes 37 meetri sügavusse, et operatsiooniks kasutatud ohvitseride söögilaud vähem kõiguks. Osa instrumente tuli asendada käepäraste esemetega, näiteks kasutati painutatud lusikaid. Patsient jäi ellu. See konkreetne juhtum on dokumenteeritud USA mereväe ettekandes; see ei tähenda, et kõigil allveelaevadel olnuks ühesugune meditsiinivarustus või väljaõpe. Stabiilne kurss ja sügavus võisid operatsiooni ajal olla sama tähtsad kui vaba laud ja valgustus.",
+  "allikad": [
+   {
+    "tekst": "Naval History and Heritage Command · Submarine Squadron TWO Report — Appendectomy",
+    "url": "https://www.history.navy.mil/research/library/oral-histories/wwii/oral-history-appendectomy-performed-on-fourth-war-patrol-of-ussseadragon-1942/submarine-squadron-two-report-appendectomy.html"
+   },
+   {
+    "tekst": "Submarine Force Library & Museum · Robert J. Schneller, Surgery on a Submarine",
+    "url": "https://ussnautilus.org/surgery-on-a-submarine/"
+   }
+  ],
+  "markused": [
+   "Lisamaterjali kirjeldus. Katkend 1942. aasta ametlikust ettekandest, milles on kirjas operatsiooni aeg ja paadi sügavus. Kõrval väike eestikeelne selgitus, et 120 jalga on ligikaudu 37 meetrit. Lavastatud operatsioonipilti pole vaja."
+  ]
+ },
+ {
+  "marker": "klartext-teade-mille-lugemiseks-polnud-võtit-vaja",
+  "peatukk": 17,
+  "pealkiri": "Klartext — teade, mille lugemiseks polnud võtit vaja",
+  "tekst": "1945. aasta mais anti Saksa allveelaevadele käsk saata asukohateated šifreerimata. Ingliskeelses korralduses kasutati lühendit P/L ehk plain language; saksakeelne vaste on Klartext. Sellise teate võis endiselt edastada morsemärkidega, kuid vastuvõtja ei vajanud selle lahtimõtestamiseks salajast võtit. Merel asuva paadi asukoht muutus teatavaks kõigile, kes oskasid vastavat sidet kuulata. Alistumisjuhend nägi ette korralduste kordamise iga kahe tunni järel kuni uue korralduseni.",
+  "allikad": [
+   {
+    "tekst": "HyperWar · Germany Surrenders Unconditionally · mereväe alistumiskorralduse lisa A, lk 25",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Dip/ETO-Surrender-Docs.html"
+   }
+  ],
+  "markused": [
+   "Lisamaterjali kirjeldus. Katkend algdokumendi lisast A, kus on näha lühend P/L ning kordamise intervall. Kõrvale lühikesed eestikeelsed vasted. Romaani saksa tekst annab korralduse põhisisu lühendatult."
+  ]
+ },
+ {
+  "marker": "kapitulatsiooniteate-hääl",
+  "peatukk": 17,
+  "pealkiri": "Kapitulatsiooniteate hääl",
+  "tekst": "Karl Dönitz teatas 8. mail 1945 Flensburgi raadio kaudu Saksa vägede tingimusteta kapitulatsioonist. See annab kaalu Lemke vastusele: alistumine oli välja kuulutatud Saksa juhtkonna enda raadiosõnavõtus. Sõja lõpp jõudis inimesteni eri aegadel ja eri viisil — ametliku korralduse, valjuhääldist kuuldud kõne või kellegi ümberjutustusena. Deutsches Rundfunkarchiv säilitab kõne salvestist tähisega KONF 2833984.",
+  "allikad": [
+   {
+    "tekst": "Deutsches Rundfunkarchiv · Prolog in O-Tönen · Rundfunkansprache von Großadmiral Dönitz zur Kapitulation, KONF 2833984",
+    "url": "https://www.dra.de/de/entdecken/1945-der-krieg-ist-aus/prolog-in-o-toenen-der-lange-weg-aus-dem-krieg/"
+   }
+  ],
+  "markused": [
+   "Heli kirjeldus. Lühike katkend Dönitzi 8. mai 1945 originaalsõnavõtust, kus ta teatab kapitulatsioonist. Säilitada kõneleja hääl ja salvestise loomulik kõla, lisada eestikeelne tõlge. Taustamuusikat ega juurde tehtud raadiohäireid pole vaja. Lõik tuleb valida viidatud arhiivisalvestisest; eraldi helifaili ei ole lisatud."
+  ]
+ },
+ {
+  "marker": "must-lipp-alistuva-allveelaeva-kohal",
+  "peatukk": 17,
+  "pealkiri": "Must lipp alistuva allveelaeva kohal",
+  "tekst": "1945. aasta mai erikorraldus nõudis alistuvatelt Saksa allveelaevadelt päeval suurt musta või sinist lippu ning öösel navigatsioonitulesid. Lipp oli kokkulepitud tunnus, mille järgi lennuki- ja laevameeskonnad said märgata, et allveelaev täidab alistumisjuhiseid. U-249 heiskas musta lipu ja teda eskortisid 9. mail Portlandi lähistele Briti laevad Amethyst ja Magpie. Sellest alistumisest on säilinud fotod.",
+  "allikad": [
+   {
+    "tekst": "HyperWar · Germany Surrenders Unconditionally · mereväe alistumiskorralduse lisa A",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Dip/ETO-Surrender-Docs.html"
+   },
+   {
+    "tekst": "U-boat Archive · U-249 alistumine merel · arhiivifotod",
+    "url": "https://www.uboatarchive.net/U-249A/U-249PhotosSurrenderAtSea.htm"
+   }
+  ],
+  "markused": [
+   "Leitud foto. U-249 alistumise arhiivifoto, millel paistab torn ja heisatud tume lipp. Pildiallkirjas säilitada tegelik laevanimi ning sündmuse aeg. Romaanis õmmeldud lipp jääb esialgu madratsi alla; ajalooline foto näitab, milleks selline tunnus merel mõeldud oli."
+  ]
+ },
+ {
+  "marker": "kuidas-päike-kell-ja-tabelid-asukoha-andsid",
+  "peatukk": 18,
+  "pealkiri": "Kuidas päike, kell ja tabelid asukoha andsid",
+  "tekst": "Sekstant mõõdab nurka taevakeha ja nähtava silmapiiri vahel. Päikese keskpäevase kõrguse ning almanahhist leitud deklinatsiooni — päikese nurkkauguse taevaekvaatorist — abil saab arvutada laiuskraadi. Mõõtmist tuleb parandada muu hulgas vaatleja silma kõrguse ja atmosfääri valgusmurdumise võrra. Pikkuskraadi leidmiseks on vaja teada täpset võrdlusaega: Maa pöördub tunnis 15 kraadi, seega vastab neljale minutile üks pikkuskraad. Sellepärast hoiti merel kronomeetrit, mille näitu ei seatud iga päev kohaliku keskpäeva järgi ümber. Kasutada sai ka pisut ette või taha käivat kella, kui selle viga ja käigu muutus olid teada ning arvutuses arvesse võetud. Eri kellaaegadel tehtud vaatluste ühendamisel tuli arvestada ka laeva vahepealset liikumist.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · What is longitude?",
+    "url": "https://www.rmg.co.uk/stories/time/what-longitude"
+   },
+   {
+    "tekst": "Royal Museums Greenwich · kronomeeter nr 524",
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-248420"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Selgitav joonis sekstandiga vaatlejast: otse nähtav silmapiir ning peeglist nähtav päikese alumine serv viiakse kokku. Kõrval avatud puukastis merekronomeeter ja väike tabel kella paranduste kohta. Ajalooliseks võrdluseks sobib Royal Museums Greenwichi kogus olev kronomeeter nr 524; selle juures säilinud meresõitja kiri kirjeldab, kuidas arvestati kella päevast mahajäämust. Muuseumieseme fotole jätta selle enda nimi ja dateering."
+  ]
+ },
+ {
+  "marker": "neptuni-kohus-ja-ekvaatoriristsed",
+  "peatukk": 18,
+  "pealkiri": "Neptuni kohus ja ekvaatoriristsed",
+  "tekst": "Esimest korda ekvaatorit ületanud meremeeste ristimine on sajanditevanune tava. Algajad toodi merejumal Neptuniks riietunud kaaslase ette ning pidid läbima naljakaid või vahel üsna tooreid katsumusi. Tavasse kuulus veega ülevalamine või vettekastmine; mõnel laeval mängiti ka habemeajamist, kasutades selleks suurt näilist habemenuga. Tegelased ja katsed erinesid laevati. Tavalisest teenistusest eraldi etenduses võis kokast saada merejumal, kelle ees pidid aru andma ka endast kõrgema auastmega esmaületajad. Widari sosinal peetud ristsed on romaani oludest sündinud variant sellest kombest.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · Crossing the line",
+    "url": "https://www.rmg.co.uk/stories/ocean/curatorial/crossing-line"
+   }
+  ],
+  "markused": [
+   "Leitud foto. Royal Museums Greenwichi artiklis avaldatud foto purjelaevalt Passat, 1911. Meeskonnaliikmed on riietunud Neptuniks ja tema kaasaks Salaciaks. Pilt näitab meremeeste endi valmistatud kostüüme; allkirjas säilitada tegelik laevanimi ja aastaarv."
+  ]
+ },
+ {
+  "marker": "mida-kuulaja-sõukruvi-helist-otsib",
+  "peatukk": 18,
+  "pealkiri": "Mida kuulaja sõukruvi helist otsib",
+  "tekst": "Pöörleva sõukruvi labad tekitavad vees korrapäraseid rõhumuutusi. Nende kordumise sagedus oleneb pöörlemiskiirusest ja labade arvust; laeva hääles võib seetõttu eristuda iseloomulik rütm. Lisanduda võib kavitatsioon: madala rõhu tõttu tekkivate aurumullide kokkuvarisemisel sünnib müra. Heli kuuldavust mõjutavad muu hulgas laeva kiirus, kuulamise suund ja taustamüra. Tuttava kruviheli puudumine kuulaja kõrvus ei tõenda, et heli allikal pole sõukruvi. Passiivse kuulamise korral võtab hüdrofon vastu vees leviva heli, ise otsingusignaali välja saatmata. Lemke märgitud peiling on suund heli allika poole; üks peiling ei anna veel kaugust.",
+  "allikad": [
+   {
+    "tekst": "Discovery of Sound in the Sea · Ship",
+    "url": "https://dosits.org/galleries/audio-gallery/anthropogenic-sounds/ship/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · How does shipping affect ocean sound levels?",
+    "url": "https://dosits.org/science/sounds-in-the-sea/how-does-shipping-affect-ocean-sound-levels/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · Deep Ocean Sounds",
+    "url": "https://dosits.org/deep-ocean-sounds/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · helifail CD-ship.mp3",
+    "url": "https://dosits.org/wp-content/uploads/2017/07/CD-ship.mp3"
+   }
+  ],
+  "markused": [
+   "Leitud heli ja soovitud töötlus. NOAA/PMEL-i hüdrofonisalvestis laeva helist, mis jõudis 2015. aasta mõõtmistel Mariana süviku Challengeri sügavikku. See on tänapäevane võrdlusmaterjal veealuse kuulamise kohta. Esitada helinäide muutmata kiirusel, koos päritolu ja aastaarvuga. Kuulamisjuhis võib paluda tähele panna heli korrapärasust ja selle muutumist ajas. Salvestis aitab ette kujutada, millise materjaliga kuulaja töötab; romaani tundmatu heli jääb kirjeldusse."
+  ]
  }
 ]

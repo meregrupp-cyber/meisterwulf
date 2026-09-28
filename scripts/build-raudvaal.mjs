@@ -112,7 +112,7 @@ const escAttr = (s) => esc(s).replace(/"/g, "&quot;");
 
 function inline(text, bubbles) {
   const found = [];
-  text = text.replace(/\[\[([\s\S]+?)\|\|([\s\S]+?)\]\]/g, (m, a, b) => {
+  text = text.replace(/\[\[(?!#)([\s\S]+?)\|\|([\s\S]+?)\]\]/g, (m, a, b) => {
     found.push([a.trim().replace(/\s+/g, " "), b.trim().replace(/\s+/g, " ")]);
     return "\u0000" + (found.length - 1) + "\u0000";
   });

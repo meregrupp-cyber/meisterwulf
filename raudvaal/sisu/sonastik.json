@@ -70,6 +70,13 @@
   ]
  },
  {
+  "saksa": "An alle U-Boote in See. Sofort auftauchen und aufgetaucht bleiben. Standort und Bootsnummer im Klartext melden. Am Tage eine große schwarze oder blaue Flagge führen.",
+  "tolge": "Kõigile merel viibivatele allveelaevadele. Kohe pinnale tõusta ja pinnale jääda. Teatada šifreerimata oma asukoht ja paadi number. Päeval kanda suurt musta või sinist lippu.",
+  "peatukid": [
+   "XVII"
+  ]
+ },
+ {
   "saksa": "Auch Ihr Mann nennt sich von Wulf?",
   "tolge": "„Ka teie mees nimetab end von Wulfiks?”",
   "peatukid": [
@@ -144,6 +151,13 @@
   "tolge": "Vasak valmis. Aeglane käik võimalik. Rohkem proovime alles väljas.",
   "peatukid": [
    "IX"
+  ]
+ },
+ {
+  "saksa": "Backbord! Da ist etwas neben uns. Kein Licht, nur ein Schatten. Eben war es noch da, dicht unter der Oberfläche.",
+  "tolge": "Vasakus pardas! Seal on midagi meie kõrval. Tuld ei ole, ainult vari. Äsja oli veel seal, otse veepinna all.",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
@@ -231,6 +245,13 @@
   ]
  },
  {
+  "saksa": "Bis der Arzt fertig ist, sofern die Lage es erlaubt. Keine unnötigen Kurs- oder Fahrtänderungen. Der Leitende meldet mir den Batteriestand.",
+  "tolge": "Kuni arst lõpetab, kui olukord seda lubab. Ei mingeid tarbetuid kursi- ega kiirusemuutusi. Peamehaanik teatab mulle akude seisust.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
   "saksa": "Bis Horten. Dort melden Sie sich bei der Dienststelle. Das gilt für alle sechs.",
   "tolge": "„Hortenini. Seal annate endast teenistusasutuses teada. See kehtib kõigi kuue kohta.”",
   "peatukid": [
@@ -249,6 +270,13 @@
   "tolge": "„Kuni asjaolude selgitamiseni jäävad kõik isikud pardale.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Bitte, bleiben Sie stehen. Hier ist genug Platz. Ich brauche nur ein wenig frische Luft.",
+  "tolge": "Palun jääge paigale. Siin on küllalt ruumi. Mul on ainult veidi värsket õhku vaja.",
+  "peatukid": [
+   "XVI"
   ]
  },
  {
@@ -340,6 +368,13 @@
   "tolge": "Siis kirjutame: mõlemad ajamid rivist väljas.",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Dann sieht man, dass jemand die Tür geöffnet hat. Mehr ist nicht erforderlich.",
+  "tolge": "Siis on näha, et keegi on ukse avanud. Rohkem polegi vaja.",
+  "peatukid": [
+   "XVII"
   ]
  },
  {
@@ -441,6 +476,13 @@
   ]
  },
  {
+  "saksa": "Das obere Fach bleibt frei. Für den Herrn und die Ampullen. So lautet die Anweisung.",
+  "tolge": "Ülemine riiul jäetakse vabaks. Härrale ja ampullidele. Nii on korraldatud.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
   "saksa": "Das Seil ist durch. Die letzte Windung hängt nur noch am Holz. Wenn wir das Brett heben, muss das Ende mitkommen.",
   "tolge": "Tross on läbi. Viimane keerd ripub veel ainult puidu küljes. Kui plangu üles tõstame, peab ots kaasa tulema.",
   "peatukid": [
@@ -504,6 +546,20 @@
   ]
  },
  {
+  "saksa": "Der Doktor ist beim Passagier. Danach braucht er seine Ruhe. Die Mannschaft soll sich zu den angegebenen Zeiten melden.",
+  "tolge": "Arst on reisija juures. Pärast vajab ta rahu. Meeskond peab pöörduma ettenähtud aegadel.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
+  "saksa": "Der Eingriff ist beendet. Es war höchste Zeit. Jetzt braucht er Ruhe und ständige Beobachtung. Mit der Operation allein ist es noch nicht überstanden.",
+  "tolge": "Operatsioon on lõppenud. Oli viimane aeg. Nüüd vajab ta rahu ja pidevat jälgimist. Ainuüksi operatsiooniga ei ole oht veel möödas.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
   "saksa": "Der Empfänger arbeitet. Der Sender nicht. Auch nicht für ein einziges Wort, Herr Kaleun.",
   "tolge": "Vastuvõtja töötab. Saatja ei tööta. Isegi mitte üheainsa sõna jaoks, härra komandör.",
   "peatukid": [
@@ -529,6 +585,13 @@
   "tolge": "Pea antakse üle kohtumisel. Aja saate teada raadio kaudu.",
   "peatukid": [
    "VII"
+  ]
+ },
+ {
+  "saksa": "Der Krieg ist aus.",
+  "tolge": "Sõda on läbi.",
+  "peatukid": [
+   "XVII"
   ]
  },
  {
@@ -574,6 +637,13 @@
   ]
  },
  {
+  "saksa": "Der Sender ist betriebsbereit, Herr Leutnant. Aber ohne Befehl des Kommandanten darf ich nichts senden. Auch keine Standortmeldung.",
+  "tolge": "Saatja on töökorras, härra leitnant. Aga komandöri käsuta ei tohi ma midagi välja saata. Ka asukohateadet mitte.",
+  "peatukid": [
+   "XVII"
+  ]
+ },
+ {
   "saksa": "Der Sender ist zerstört, Herr Kaleun.",
   "tolge": "„Saatja on purunenud, komandör.” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
   "peatukid": [
@@ -616,6 +686,13 @@
   ]
  },
  {
+  "saksa": "Die Kante hier ist eingerissen. Wenn sie im Wind hält, reicht die Größe. Kann ich Nadel und Faden von Ihnen haben?",
+  "tolge": "See serv siin on rebenenud. Kui ta tuules vastu peab, on suurusest küllalt. Kas ma saaksin teilt nõela ja niiti?",
+  "peatukid": [
+   "XVII"
+  ]
+ },
+ {
   "saksa": "Die Liste bekommen Sie, wenn wir die neuen Papiere gesehen haben. Für heute muss Ihnen die Zahl genügen.",
   "tolge": "Nimekirja saate siis, kui oleme uusi pabereid näinud. Täna peab teile inimeste arvust piisama.",
   "peatukid": [
@@ -637,6 +714,13 @@
   ]
  },
  {
+  "saksa": "Die Mittagsbreite stimmt. Für die Länge nehmen wir die Beobachtung vom Vormittag dazu. Und vergessen Sie nicht, dass wir inzwischen weitergefahren sind.",
+  "tolge": "Keskpäevane laius klapib. Pikkuse leidmiseks võtame juurde ennelõunase vaatluse. Ja ärge unustage, et oleme vahepeal edasi sõitnud.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "Die Namen werden einzeln vereinbart. Wer mitgeht, entscheidet selbst. Und die Verpflichtung endet am ersten vereinbarten Landungsort. So unterschreibe ich.",
   "tolge": "Nimed lepitakse eraldi kokku. Igaüks otsustab ise, kas tuleb kaasa. Ja kohustus lõpeb esimeses kokkulepitud maabumiskohas. Nii kirjutan ma alla.",
   "peatukid": [
@@ -655,6 +739,13 @@
   "tolge": "Padrunid seovad süsihappegaasi. Hapnikku anname juurde balloonidest. Aga kõigepealt mõõdetakse.",
   "peatukid": [
    "VI"
+  ]
+ },
+ {
+  "saksa": "Die Peilung des Geräuschs hat sich verändert. Unser Kurs blieb gleich. Ich konnte es zweimal wiederfinden, aber keinem Schiff zuordnen.",
+  "tolge": "Heli tuli nüüd teisest suunast. Meie kurss jäi samaks. Leidsin selle kaks korda uuesti üles, aga ei osanud seda ühegi laevaga seostada.",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
@@ -910,6 +1001,13 @@
   ]
  },
  {
+  "saksa": "Euer Funker hat mitgeschrieben. Frag ihn selbst. Und die Kapitulation hat Dönitz schon am achten Mai im Rundfunk bekanntgegeben.",
+  "tolge": "Teie oma radist kirjutas kaasa. Küsi temalt endalt. Ja Dönitz teatas kapitulatsioonist raadios juba kaheksandal mail.",
+  "peatukid": [
+   "XVII"
+  ]
+ },
+ {
   "saksa": "Fertig.",
   "tolge": "Valmis.",
   "peatukid": [
@@ -931,6 +1029,13 @@
   ]
  },
  {
+  "saksa": "Führer.",
+  "tolge": "Juht.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "FuMB-Ortung!",
   "tolge": "„FuMB tuvastas radari!” FuMB (Funkmessbeobachtung) on vastase radarikiirgust avastav hoiatusseade.",
   "peatukid": [
@@ -942,6 +1047,13 @@
   "tolge": "„Viieteistkümnendast seitsmeteistkümnendani.” – s.t aastatel 1915–1917.",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Für den Passagier. Ohne Speck. Lassen Sie den kleinen Topf stehen; ich bringe ihn selbst hin.",
+  "tolge": "Reisijale. Ilma pekita. Jätke väike pott paigale, ma viin selle ise kohale.",
+  "peatukid": [
+   "XVI"
   ]
  },
  {
@@ -970,6 +1082,13 @@
   "tolge": "„Sai pihta. Üle parda. Ma ei suutnud teda kinni hoida.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Gibt es einen neuen schriftlichen Befehl, der Widar von der Kapitulation ausnimmt? Dann lassen Sie ihn vorlesen. Die Männer haben den anderen Befehl bereits gelesen.",
+  "tolge": "Kas on uus kirjalik käsk, mis vabastab Widari kapitulatsioonikohustusest? Siis laske see ette lugeda. Mehed on teist käsku juba lugenud.",
+  "peatukid": [
+   "XVII"
   ]
  },
  {
@@ -1054,6 +1173,27 @@
   "tolge": "„Härra von Uexküll. Te võtate tema vahikorra üle.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Herr Wolf hat seine Arznei bekommen und schläft. Reuter wird schlechter. Ich bleibe jetzt bei ihm. Wenn sich beim Passagier etwas ändert, holen Sie mich sofort.",
+  "tolge": "Härra Wolf on oma rohu saanud ja magab. Reuteri seisund halveneb. Jään nüüd tema juurde. Kui reisija seisundis midagi muutub, kutsuge mind kohe.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
+  "saksa": "Herr Wolf!",
+  "tolge": "Härra Wolf!",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
+  "saksa": "Herr Wolf. Halten Sie sich hier fest. Langsam, ich habe Sie. Der andere Fuß zuerst.",
+  "tolge": "Härra Wolf. Hoidke siit kinni. Aeglaselt, ma hoian teid. Teine jalg enne.",
+  "peatukid": [
+   "XVI"
   ]
  },
  {
@@ -1162,6 +1302,20 @@
   ]
  },
  {
+  "saksa": "Ich kann eine akute Blinddarmentzündung nicht ausschließen. Der Zustand verschlechtert sich. Wenn wir operieren müssen, brauche ich Licht, sauberes Wasser und einen Platz, an dem niemand vorbeidrängt.",
+  "tolge": "Ma ei saa välistada ägedat ussripikupõletikku. Seisund halveneb. Kui peame opereerima, vajan valgust, puhast vett ja kohta, kus keegi meist mööda ei trügi.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
+  "saksa": "Ich kann keine Ampullen herbeizaubern. Was noch da ist, muss reichen. Sagen Sie ihm, dass ich später wiederkomme.",
+  "tolge": "Ma ei saa ampulle juurde nõiduda. Sellest, mis alles on, peab jätkuma. Öelge talle, et tulen hiljem tagasi.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "Ich kenne den Preis nicht. Und ich weiß nicht, wer euch diesen Barren abkauft. Dazu bräuchtet ihr jemanden an Land, dem ihr vertrauen könnt.",
   "tolge": "Ma ei tea hinda. Ja ma ei tea, kes teilt selle kangi ära ostaks. Selleks oleks teil kaldal vaja kedagi, keda võite usaldada.",
   "peatukid": [
@@ -1194,6 +1348,13 @@
   "tolge": "„Ma vaatan järele. Mine aga.”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Ich schreibe ihr, wenn es nötig wird. Jetzt sind Sie beim Arzt. Ihre Sachen bleiben bei Ihnen, und jemand sitzt an Ihrem Bett, wenn Sie aufwachen.",
+  "tolge": "Ma kirjutan talle, kui seda on vaja. Praegu olete arsti juures. Teie asjad jäävad teie juurde ja ärgates istub keegi teie voodi kõrval.",
+  "peatukid": [
+   "XVI"
   ]
  },
  {
@@ -1232,10 +1393,24 @@
   ]
  },
  {
+  "saksa": "Ich will die Menschen an Land bringen, dorthin, wo man sie aufnimmt. Danach will ich mir eine Tür bauen, an der mein Name steht. Und selbst entscheiden, wen ich hereinlasse.",
+  "tolge": "Ma tahan inimesed maale viia, sinna, kus nad vastu võetakse. Pärast tahan endale ehitada ukse, millel on minu nimi. Ja ise otsustada, keda ma sisse lasen.",
+  "peatukid": [
+   "XVII"
+  ]
+ },
+ {
   "saksa": "Ihr Mann setzt sich vorläufig hier.",
   "tolge": "„Teie mees istub esialgu siia.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "In einem Notfall lasse ich den Funkraum öffnen. Bis dahin bleibt diese Anordnung bestehen. Sie geben dem Funker keinen eigenen Sendebefehl.",
+  "tolge": "Hädaolukorras lasen raadioruumi avada. Seni jääb see korraldus kehtima. Teie ei anna radistile omalt poolt saatmiskäsku.",
+  "peatukid": [
+   "XVII"
   ]
  },
  {
@@ -1338,6 +1513,13 @@
   ]
  },
  {
+  "saksa": "Kein Schraubengeräusch.",
+  "tolge": "Kruviheli ei olnud.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "Kein Wasser aus der Leitung. Auch wenn es sauber aussieht.",
   "tolge": "„Mitte kraanivett. Isegi kui see paistab puhas.”",
   "peatukid": [
@@ -1356,6 +1538,13 @@
   "tolge": "Kättesaamise kinnitust ei nõuta. Vastuse puudumist käsitatakse sõlmitud kokkuleppe jätkuva kehtimisena.",
   "peatukid": [
    "XII"
+  ]
+ },
+ {
+  "saksa": "Keine Rufe, kein Lärm. Der Passagier braucht Ruhe. Sorgen Sie dafür, dass die Männer das verstehen.",
+  "tolge": "Ei mingit hõikumist ega lärmi. Reisijal on vaja rahu. Hoolitsege, et mehed sellest aru saaksid.",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
@@ -1464,6 +1653,13 @@
   ]
  },
  {
+  "saksa": "Lassen Sie die beiden sicheren Peilungen stehen. Alles andere bleibt offen. Wenn Sie es wieder hören, holen Sie mich gleich dazu.",
+  "tolge": "Jätke need kaks kindlat peilingut alles. Kõik muu jääb lahtiseks. Kui te seda jälle kuulete, kutsuge mind kohe juurde.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "Laufplanke weg!",
   "tolge": "„Ülekäigulaud ära!”",
   "peatukid": [
@@ -1517,6 +1713,14 @@
   "tolge": "„Minu korraldus ei ole sellega tühistatud. Nõuan üleandmist.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Mein Füh…",
+  "tolge": "„Mu fü…” – katkestatud pöördumine „Mein Führer” („mu juht”).",
+  "peatukid": [
+   "XVI",
+   "XVIII"
   ]
  },
  {
@@ -1636,6 +1840,13 @@
   "tolge": "Homme jälle? Pärast vahti?",
   "peatukid": [
    "X"
+  ]
+ },
+ {
+  "saksa": "Name? Mats. Beruf? Noch keiner. Schon einmal am Äquator gewesen? Nein. Dann fehlt die Genehmigung für meine Gewässer.",
+  "tolge": "Nimi? Mats. Amet? Veel pole. Varem ekvaatoril käinud? Ei. Siis puudub teil luba minu vetesse tulla.",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
@@ -1835,6 +2046,13 @@
   ]
  },
  {
+  "saksa": "Rechnen Sie vorerst nicht mit ihm. Auch wenn das Fieber sinkt, geht er nicht zurück an die Maschine.",
+  "tolge": "Ärge temaga esialgu arvestage. Ka siis, kui palavik langeb, ei lähe ta masina juurde tagasi.",
+  "peatukid": [
+   "XVI"
+  ]
+ },
+ {
   "saksa": "Rechts höre ich nur ein Pfeifen. Links geht es. Aber die Richtung kann ich so nicht sicher melden. Holen Sie den anderen Funker.",
   "tolge": "Parema kõrvaga kuulen ainult vilet. Vasakuga kuulen. Aga suunda ei saa ma niiviisi kindlalt öelda. Kutsuge teine radist.",
   "peatukid": [
@@ -1846,6 +2064,13 @@
   "tolge": "Parem või vasak?",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Reuter kann seine Wache nicht mehr gehen. Fällt der nächste Mann aus, fehlen Ihnen Leute an den Maschinen. Lassen Sie den Arzt entscheiden, wer warten kann. Dafür ist er hier.",
+  "tolge": "Reuter ei suuda enam oma vahikorda teha. Kui järgmine mees ka välja langeb, pole teil masinate juurde inimesi. Las arst otsustab, kes võib oodata. Selleks ta siin ongi.",
+  "peatukid": [
+   "XVI"
   ]
  },
  {
@@ -2000,6 +2225,13 @@
   "tolge": "„Nii on tema nimi.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "So ist es schlechter. Ich kann mich kaum bewegen, ohne wieder aus der Stellung zu kommen.",
+  "tolge": "Nii on halvem. Ma ei saa peaaegu liigutadagi, ilma et asend jälle paigast läheks.",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
@@ -2182,6 +2414,13 @@
   "tolge": "Aga kui esimene on õige?",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Unser Auftrag gilt.",
+  "tolge": "Meie ülesanne kehtib.",
+  "peatukid": [
+   "XVII"
   ]
  },
  {
@@ -2423,6 +2662,13 @@
   ]
  },
  {
+  "saksa": "Wenn wir sie brauchen, muss sie fertig sein. Vielleicht haben wir dann keine Zeit zum Nähen. Jetzt wird sie noch nicht gesetzt.",
+  "tolge": "Kui meil seda vaja läheb, peab see valmis olema. Võib-olla pole meil siis õmblemiseks aega. Praegu seda veel ei heisata.",
+  "peatukid": [
+   "XVII"
+  ]
+ },
+ {
   "saksa": "Wer für einen anderen abholt, nennt auch dessen Namen. Die Portionen für die Wache bleiben zugedeckt hier. Dann muss niemand später die Reste zusammenkratzen.",
   "tolge": "Kes teisele toitu viib, ütleb ka tema nime. Vahis olijate portsjonid jäävad siia kaane alla. Siis ei pea keegi hiljem riismeid kokku kraapima.",
   "peatukid": [
@@ -2536,6 +2782,13 @@
   ]
  },
  {
+  "saksa": "Wir haben hier keinen Gerichtssaal. Und ich will auch keinen Strick im Vorschiff. Nicht heute, nicht morgen.",
+  "tolge": "Meil ei ole siin kohtusaali. Ja poomisnööri ma vööriruumis näha ei taha. Ei täna ega homme.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "Wir haben Wache gehabt, während die anderen gegessen haben. Jetzt sind wir da, und der Topf ist leer. So war es gestern auch.",
   "tolge": "Me olime vahis, kui teised sõid. Nüüd oleme siin ja pott on tühi. Eile oli samamoodi.",
   "peatukid": [
@@ -2550,10 +2803,24 @@
   ]
  },
  {
+  "saksa": "Wir kümmern uns um das Boot und die Menschen an Bord. Der Passagier bleibt Schrades Sache. Bei der ersten Gelegenheit nehmen seine Leute die ganze Gruppe wieder von Bord. Bis dahin nennt niemand seinen Namen vor der Mannschaft. Auch nicht scherzhaft.",
+  "tolge": "Meie hoolitseme paadi ja pardal olevate inimeste eest. Reisija eest vastutab Schrade. Esimesel võimalusel võtavad tema inimesed kogu rühma jälle pardalt ära. Seni ei nimeta keegi tema nime meeskonna kuuldes. Ka naljaga mitte.",
+  "peatukid": [
+   "XVIII"
+  ]
+ },
+ {
   "saksa": "Wir liegen fest. Zwei Mann bleiben oben. Sobald sich die Peilung ändert, wecken Sie mich. Auch wenn es nur wenig ist.",
   "tolge": "Oleme kindlalt ankrus. Kaks meest jäävad üles. Niipea kui peiling muutub, äratate mu. Ka siis, kui muutus on väike.",
   "peatukid": [
    "IX"
+  ]
+ },
+ {
+  "saksa": "Wir müssen damit rechnen, dass sie recht hat. Was tun wir dann? Und was tun wir, wenn wir uns irren?",
+  "tolge": "Peame arvestama, et tal võib õigus olla. Mida me siis teeme? Ja mida teeme, kui eksime?",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
@@ -2568,6 +2835,13 @@
   "tolge": "„Meid kutsutakse.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Wo zuerst? Zeigen Sie mir die Richtung. Und dann sagen Sie nur, was Sie gesehen haben. Die Größe lassen wir vorerst weg.",
+  "tolge": "Kus te seda esmalt nägite? Näidake mulle suund kätte. Ja siis rääkige ainult sellest, mida nägite. Suuruse jätame esialgu kõrvale.",
+  "peatukid": [
+   "XVIII"
   ]
  },
  {
