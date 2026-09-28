@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Veekiht ei ole helikindel sein</title>
+  <desc id="d">Animatsioon, põhimõtteskeem. Ühtlases vees levivad jälituslaeva helikiired sirgelt ja jõuavad allveelaevani. Kui vees on kiht, kus heli kiirus muutub, kiired painduvad: osa jääb pinnakihti, osa pöördub järsult alla, ja allveelaeva kohale jääb nõrgema heliga ala. Kiht võib aidata, kuid ei ole kindel sein.</desc>
+  <rect width="760" height="400" fill="#f4ead2"/>
+  <rect x="0" y="80" width="760" height="260" fill="#cfe0ee"/>
+  <rect x="0" y="80" width="760" height="100" fill="#dfeaf2" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M0 80 h760" stroke="#1f4e79" stroke-width="2"/>
+  <line x1="0" y1="180" x2="760" y2="180" stroke="#1f4e79" stroke-width="1.5" stroke-dasharray="8 5" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+  <text x="750" y="174" font-family="Georgia, serif" font-size="12" fill="#1f4e79" text-anchor="end" opacity="0">kihi piir: heli kiirus muutub
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+  <!-- laev -->
+  <path d="M80 80 l16 -14 h100 l16 14z" fill="#5a3f16"/>
+  <rect x="126" y="48" width="30" height="18" fill="#5a3f16"/>
+  <circle cx="140" cy="96" r="5" fill="#8a1c1c"/>
+  <!-- allveelaev -->
+  <g transform="translate(560 236)">
+    <path d="M-70 0 q8 -11 34 -11 h72 q26 0 34 11 q-8 11 -34 11 h-72 q-26 0 -34 -11z" fill="#4a4a4a"/>
+    <rect x="-10" y="-23" width="22" height="13" fill="#4a4a4a"/>
+  </g>
+  <!-- kiired -->
+  <g fill="none" stroke="#8a1c1c" stroke-width="2" opacity="0.85">
+    <path d="M140 96 C340 114 540 132 740 150">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.65;0.85;1"
+        values="M140 96 C340 114 540 132 740 150;M140 96 C340 114 540 132 740 150;M140 96 C300 118 500 150 740 132;M140 96 C300 118 500 150 740 132;M140 96 C340 114 540 132 740 150;M140 96 C340 114 540 132 740 150"/>
+    </path>
+    <path d="M140 96 C340 134 540 172 740 210">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.65;0.85;1"
+        values="M140 96 C340 134 540 172 740 210;M140 96 C340 134 540 172 740 210;M140 96 C320 140 520 176 740 160;M140 96 C320 140 520 176 740 160;M140 96 C340 134 540 172 740 210;M140 96 C340 134 540 172 740 210"/>
+    </path>
+    <path d="M140 96 C340 157 540 219 740 280">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.65;0.85;1"
+        values="M140 96 C340 157 540 219 740 280;M140 96 C340 157 540 219 740 280;M140 96 C250 150 300 250 330 340;M140 96 C250 150 300 250 330 340;M140 96 C340 157 540 219 740 280;M140 96 C340 157 540 219 740 280"/>
+    </path>
+    <path d="M140 96 C300 177 460 259 620 340">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.65;0.85;1"
+        values="M140 96 C300 177 460 259 620 340;M140 96 C300 177 460 259 620 340;M140 96 C210 160 240 260 260 340;M140 96 C210 160 240 260 260 340;M140 96 C300 177 460 259 620 340;M140 96 C300 177 460 259 620 340"/>
+    </path>
+    <path d="M140 96 C233 177 327 259 420 340">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.65;0.85;1"
+        values="M140 96 C233 177 327 259 420 340;M140 96 C233 177 327 259 420 340;M140 96 C180 170 200 260 205 340;M140 96 C180 170 200 260 205 340;M140 96 C233 177 327 259 420 340;M140 96 C233 177 327 259 420 340"/>
+    </path>
+  </g>
+  <ellipse cx="560" cy="250" rx="130" ry="60" fill="#2b1d10" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.12;0.12;0;0" keyTimes="0;0.15;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- sildid -->
+  <g font-family="Georgia, serif" font-size="14">
+    <text x="20" y="30" fill="#2b1d10">
+      <tspan>Ühtlane vesi: heli jõuab sirgelt allveelaevani</tspan>
+      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.15;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+    <text x="20" y="30" fill="#2b1d10" opacity="0">
+      <tspan>Kiht vees: kiired painduvad, paadi kohal on heli nõrgem</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="20" y="366">Heli kiirus merevees sõltub temperatuurist, soolsusest ja rõhust. Kiht võib heli suunda muuta,</text>
+    <text x="20" y="384">aga laevad liiguvad ja kiht ei ole kindel sein. Põhimõtteskeem, mitte Norra ranniku mõõteprofiil.</text>
+  </g>
+</svg>

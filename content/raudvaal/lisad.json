@@ -1585,24 +1585,22 @@
   "pealkiri": "Masinatelegraaf andis käsu masinamehele",
   "tekst": "Masinatelegraafi käepide ei juhtinud mootorit vahetult. See saatis soovitud käigu masinaruumi, kus masinamees võttis korralduse vastu ja kinnitas selle. VIIC paadis olid vasaku ja parema poole jaoks eraldi süsteemid. Märguanne võis eri ruumides kõlada sumisti, kella või pasunana; vaikseks sõiduks sai helid välja lülitada ning jälgida signaallampe. Seepärast ei tähenda telegraafi märgile „seis” viimine veel seda, et vee all töötamiseks oleks võll kindlalt liikumatu.",
   "markused": [
-   "Kuulatav võrdlusnäide ja pildikavand. 27-sekundiline masinatelegraafi salvestis muuseumilaevalt Sołdek. Selle kõrvale sobib kahe näidiku lihtne joonis: ühel sillalt antud käsk, teisel masinaruumi vastus.",
-   "Märkus. Helimulli pealkiri peab nimetama Sołdekit ja salvestusaastat 2015. Tegemist on 1948. aastal vette lastud aurulaeva seadmega, mille heli aitab mõista märguande otstarvet; see ei ole U-398 ega Saksa allveelaeva autentne helisalvestis.",
-   "Salvestis. Monika Widzicka, Work With Sounds / Museum of Municipal Engineering; salvestatud Gdański riikliku meremuuseumi laeval Sołdek. Litsents CC BY 4.0."
+   "Heli ja pildi kirjeldus. 27-sekundiline masinatelegraafi salvestis muuseumilaevalt Sołdek (2015). Selle kõrvale sobib kahe näidiku lihtne joonis: ühel sillalt antud käsk, teisel masinaruumi vastus. Helimulli pealkiri nimetab Sołdekit ja salvestusaastat: see on 1948. aastal vette lastud aurulaeva seade, mille heli aitab mõista märguande otstarvet, mitte U-398 ega Saksa allveelaeva autentne helisalvestis. Salvestis: Monika Widzicka, Work With Sounds / Museum of Municipal Engineering, Gdański riikliku meremuuseumi laev Sołdek; litsents CC BY 4.0."
   ],
   "pilt": "masinatelegraaf.svg",
   "pildi_allkiri": "Animeeritud skeem: vasaku ja parema poole telegraaf sillal ja masinaruumis. Sild annab käsu, masinaruumi osuti järgneb alles siis, kui masinamees käsu kinnitab.",
   "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
   "allikad": [
    {
-    "tekst": "Tüübi VIIC käsiraamat, 15.07.1940, lk 180: masinatelegraaf (U-boat Archive – Type VII C Manual: \"U-boat Information for U-boat Type VIIC\", tõlkinud Maciek Florek)",
+    "tekst": "VIIC käsiraamat · masinatelegraaf · lk 180",
     "url": "https://www.uboatarchive.net/Manual/Manual.htm"
    },
    {
-    "tekst": "Sołdeki masinatelegraafi helifail ja salvestise andmed (Wikimedia Commons: File:WWS ShipSodekengineordertelegraph.ogg)",
+    "tekst": "Wikimedia Commons · Work With Sounds · Sołdeki masinatelegraaf",
     "url": "https://commons.wikimedia.org/wiki/File:WWS_ShipSodekengineordertelegraph.ogg"
    },
    {
-    "tekst": "Creative Commons Attribution 4.0 litsents (Attribution 4.0 International – CC BY 4.0, deed)",
+    "tekst": "Salvestise litsents CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
    }
   ],
@@ -1616,22 +1614,22 @@
   "pealkiri": "Drägeri Tauchretter ja korduvkasutatav hingamisgaas",
   "tekst": "Tauchretter oli allveelaevniku päästeaparaat. 1930. aastate Gegenlunge tüübi hingamiskott paiknes ümber õlgade ja vastu rinda. Kasutaja hingas suulise ning lühikese vooliku kaudu; nina sulges klamber. Hingamisgaas käis kopsude ja koti vahel edasi-tagasi, süsihappegaasi sidus padrun ning hapnikku lisati väikesest balloonist. Iga väljahingamisega ei paisatud kogu gaasi vette, nagu teeb tavapärane avatud hingamisringiga akvalang. Peatükis kasutavad mehed päästevahendit hädapäraseks lühitööks. Pääsemiseks mõeldud aparaati ja eraldi töötuukri varustust ei saa pidada samaväärseks.",
   "markused": [
-   "Ajalooline foto ja läbilõike kavand. Drägeri ajalooülevaate 16. leheküljel on 1932. aastaga tähistatud foto rinnal kantavast päästeaparaadist. Lisada selle kõrvale lihtsustatud läbilõige: hingamiskott, suuline, voolik, süsihappegaasi siduv padrun ja hapnikuballoon. Nooled näitavad sama voolikut mööda kulgevat sisse- ja väljahingamist. Varase patendi joonist võib kasutada koti kuju võrdlemiseks; selles kirjeldatud hapnikku eraldavat padrunit ei tohi segi ajada hilisema ballooniga variandiga."
+   "Pildi ja joonise kirjeldus. Drägeri ajalooülevaate 16. leheküljel on 1932. aastaga tähistatud foto rinnal kantavast päästeaparaadist. Lisada selle kõrvale lihtsustatud läbilõige: hingamiskott, suuline, voolik, süsihappegaasi siduv padrun ja hapnikuballoon. Nooled näitavad sama voolikut mööda kulgevat sisse- ja väljahingamist. Varase patendi joonist võib kasutada koti kuju võrdlemiseks; selles kirjeldatud hapnikku eraldavat padrunit ei tohi segi ajada hilisema ballooniga variandiga."
   ],
   "pilt": "tauchretter.svg",
   "pildi_allkiri": "Lihtsustatud läbilõige: hingamiskott ümber õlgade ja vastu rinda, suuline ja lühike voolik, süsihappegaasi siduv padrun ja väike hapnikuballoon. Sisse- ja väljahingamine käib sama voolikut mööda.",
   "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
   "allikad": [
    {
-    "tekst": "Drägeri ettevõtte ajalooülevaade, lk 16: foto ja päästeaparaadi taust (\"Dräger. Die Geschichte des Unternehmens\", Drägerwerk AG & Co. KGaA, Corporate Communications)",
+    "tekst": "Dräger · Die Geschichte des Unternehmens · lk 16",
     "url": "https://ub-sachdokpdf.ub.unibas.ch/sachdok/2014/BAU_1_6230722.pdf"
    },
    {
-    "tekst": "Ajalooline Gegenlunge ehitusjoonis, säilitatud The Rebreathersite'is (\"1931 Dräger Gegenlunge – The Rebreathersite\")",
+    "tekst": "The Rebreathersite · 1931 Dräger Gegenlunge",
     "url": "https://therebreathersite.nl/1931-drager-gegenlunge/"
    },
    {
-    "tekst": "O. H. Drägeri ja H. Stelzneri patent US1878474A, avaldatud 1932 (Google Patents: \"Life-saving gear\")",
+    "tekst": "Google Patents · US1878474A · Life-saving gear · 1932",
     "url": "https://patents.google.com/patent/US1878474A/en"
    }
   ]
@@ -1642,14 +1640,14 @@
   "pealkiri": "Liiniga sai rääkida ka nähtavuseta",
   "tekst": "Tuukri julgestusliin oli ühtlasi sidevahend. Tõmmete arv ja laad andsid pinnal seisvale abimehele teada, kas tuuker on põhjas, vajab abi või tahab üles tulla. Henry Hartley kirjeldab 1931. aastal USA mereväe varasemat korda: üks tõmme julgestusliinist teatas põhja jõudmisest, kuid üks tõmme õhuvoolikust palus õhku juurde. Tähendus sõltus niisiis ka sellest, millist ühendust kasutati. Peatüki mehed lepivad kokku oma lihtsustatud märgid; neid ei esitata Saksa mereväe ametliku signaalitabelina. Läbiproovimine teeb kokkuleppe arusaadavaks ka ühise töökeele puudumisel.",
   "markused": [
-   "Lühianimatsiooni kavand. Jagatud pilt näitab korraga tuukri ja pinnal seisva liinihoidja kätt. Nähtavale ilmuvad peatükis kokku lepitud tõmbed ning nende tähendused. Eraldi näidata liini lõtku: tuukri käsi liigub, aga teises otsas pole seda veel tunda. See aitab mõista, miks liinihoidja laseb laeva tõusmisel köit järele ja korjab vajudes sisse."
+   "Animatsiooni kirjeldus. Jagatud pilt näitab korraga tuukri ja pinnal seisva liinihoidja kätt. Nähtavale ilmuvad peatükis kokku lepitud tõmbed ning nende tähendused. Eraldi näidata liini lõtku: tuukri käsi liigub, aga teises otsas pole seda veel tunda. See aitab mõista, miks liinihoidja laseb laeva tõusmisel köit järele ja korjab vajudes sisse."
   ],
   "pilt": "liinimargid.svg",
   "pildi_allkiri": "Animatsioon: peatükis kokku lepitud tõmbed liiguvad mööda liini tuukri ja liinihoidja vahel; all lõtk, mille tõttu tuukri liigutust teises otsas veel ei tunta.",
   "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
   "allikad": [
    {
-    "tekst": "Henry Hartley, USA merevägi: 'Some Historical Facts On Diving', Proceedings, märts 1931 (Proceedings, March 1931, Vol. 57/3/337)",
+    "tekst": "U.S. Naval Institute Proceedings · Henry Hartley, Some Historical Facts On Diving · märts 1931",
     "url": "https://www.usni.org/magazines/proceedings/1931/march/some-historical-facts-diving"
    }
   ]
@@ -1660,14 +1658,14 @@
   "pealkiri": "Miks tross enne lõikamist kinni seoti",
   "tekst": "Terastross koosneb omavahel keeratud traadikimpudest. Lahtise otsa või lõikekoha juures võivad keerud hargnema hakata ning teravad traadid välja turritada. Pehme traadiga tihedalt ümber seotud koht hoiab kimbud koos. Inglise merendustermin on seizing. Võte aitab ka lõiget kontrollida: kinniseotult püsivad traadid saetee kõrval paremini paigal. Katkenud või roostetanud trossi puhul ei muuda selline side vana materjali uuesti töökindlaks; selles stseenis aitab see risu laeva küljest eemaldada.",
   "markused": [
-   "Detailpiltide kavand. Kolm lähivaadet samast trossijupist: lahti hargnenud traadid; pehme traadiga seotud lõikekoha ümbrus; eraldatud ja koos püsiv ots. Näidata selgelt, et peen sidumistraat läheb ümber jämedama kandetrossi. Võrdlusallika tänapäevast lõikeseadet pole vaja ajastustseeni üle kanda: romaanis kasutatakse väikest käsirauasaagi."
+   "Pildi kirjeldus. Kolm lähivaadet samast trossijupist: lahti hargnenud traadid; pehme traadiga seotud lõikekoha ümbrus; eraldatud ja koos püsiv ots. Näidata selgelt, et peen sidumistraat läheb ümber jämedama kandetrossi. Võrdlusallika tänapäevast lõikeseadet pole vaja ajastustseeni üle kanda: romaanis kasutatakse väikest käsirauasaagi."
   ],
   "pilt": "trossi-sidumine.svg",
   "pildi_allkiri": "Kolm vaadet samast trossist: seomata ots hargneb; pehme traadiga seotud mõlemal pool saeteed; lõigatud otsad püsivad koos.",
   "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
   "allikad": [
    {
-    "tekst": "Transport for NSW: terastrossi otsa sidumine, selgitus ja detailpildid (\"Dogging and Rigging guide – Seizing process of wire rope\", NSW Government)",
+    "tekst": "Transport for NSW · Dogging and Rigging guide · Seizing process of wire rope",
     "url": "https://www.nsw.gov.au/employment/dogging-and-rigging/guide/part-1-general-rigging-principles/lifting-equipment/steel-wire-ropes/seizing-process-wire-rope"
    }
   ]
@@ -1909,5 +1907,314 @@
   "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-505_Engine_Gauge_Telegraph.jpg",
   "pildi_litsents": "CC BY-SA 4.0"
+ },
+ {
+  "marker": "rüütelkonna-matrikkel",
+  "peatukk": 10,
+  "pealkiri": "Rüütelkonna matrikkel",
+  "tekst": "Balti rüütelkondade matriklid olid aadlisuguvõsade ja hiljem ka üksikisikute ametlikud nimekirjad. Nendesse kuulumine tähendas ajalooliselt kohta seisuslikus omavalitsuses. Aadlipäritolu ja rüütelkonna liikmesus ei olnud päris sama: leidus ka aadlikke, kelle suguvõsa ei olnud kohaliku rüütelkonna matriklisse kantud. Vastuvõtul tuli põlvnemist tõendada. Seepärast võis sama perekonnanime taga peituv haru või sugulusside olla tähtsam kui nime ees seisev „von”. Romaanis eristab Dietrich perekonnanime kandmist ja tema silmis tunnustatud põlvnemist.",
+  "allikad": [
+   {
+    "tekst": "Verband der Baltischen Ritterschaften · Matrikel",
+    "url": "https://www.baltische-ritterschaften-de.de/genealogen/matrikel/"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Vana suguvõsaregistri lehekülg koos lihtsa selgitava skeemiga: perekonnanimi, sugulusliin ja kanne rüütelkonna matriklisse. Need on kolm eri asja. Näidispildiks sobib ajaloolise registri digikoopia; väljamõeldud Wulfide sugupuud ei esitata arhiiviallikana."
+  ],
+  "pilt": "matrikkel.svg",
+  "pildi_allkiri": "Skeem: sama perekonnanimi võib olla mitmel harul; vastuvõtul tuli põlvnemist tõendada; matriklisse võis olla kantud ainult üks haru. Nimed ja numbrid on välja mõeldud, see ei ole Wulfide sugupuu.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "meresõda-mängulaual",
+  "peatukk": 10,
+  "pealkiri": "Meresõda mängulaual",
+  "tekst": "Mereväes harjutati olukorra hindamist ja käskude tagajärgi sõjamängudega. Teise maailmasõja aegsel fotol Liverpooli Western Approaches Tactical Unitist liiguvad laevamudelid põrandale kantud mänguväljal. Mängijad vaatavad seda läbi varjava vaheseina avade, nii et nad ei näe tervet olukorda; abilised liigutavad mudeleid ja arvestavad korralduste mõju. See on ajalooline näide sellest, kuidas harjutusse lisati piiratud teave. Peatüki kruuside, lusikate ja muudetud sügavusnumbriga ülesanne on romaani jaoks loodud.",
+  "pilt_url": "https://commons.wikimedia.org/wiki/File:WATU_wargame_1.png",
+  "pildi_allikas": "Leitnant C. H. Parnall, Imperial War Museums, objekt 205159247. Avalik omand: Briti riiklik autoriõigus on aegunud.",
+  "pildi_allkiri": "Western Approaches Tactical Uniti sõjamäng Liverpoolis. Ajastu võrdluspilt.",
+  "allikad": [
+   {
+    "tekst": "IWM foto Wikimedia Commonsis · WATU wargame 1",
+    "url": "https://commons.wikimedia.org/wiki/File:WATU_wargame_1.png"
+   },
+   {
+    "tekst": "Imperial War Museums · objekt 205159247 · originaali kataloogikirje",
+    "url": "https://www.iwm.org.uk/collections/item/object/205159247"
+   }
+  ],
+  "markused": [
+   "Leitud foto. „WATU wargame 1”: vaade mänguväljale ja selle kõrval seisvale vaheseinale. Infomull võiks pildil eraldi esile tõsta mängijate vaateavad ja mudelite liigutajad. Pilt kujutab Briti väljaõpet; see ei ole foto Saksa allveelaeva messist. Pildiallkiri: „Western Approaches Tactical Uniti sõjamäng Liverpoolis. Ajastu võrdluspilt.”"
+  ]
+ },
+ {
+  "marker": "kaardi-number-ei-kirjelda-kogu-merepõhja",
+  "peatukk": 10,
+  "pealkiri": "Kaardi number ei kirjelda kogu merepõhja",
+  "tekst": "Vanad merepõhjamõõdistused koosnesid üksikutest loodimistest. Sügavus võis mõõdetud punktis olla õige, kuid kahe punkti vahele võis jääda märkamata kivi või madalik. Ka varane ühekiireline kajalood mõõtis eelkõige alust mööda läbitud joont, jättes mõõdistusliinide vahele lünki. Üks võte nende vahede kontrollimiseks oli kahe paadi vahel kindlal sügavusel veetav raskustatud traat: takistusse puutudes tõmbus see pingule. Peatüki kaheksast kahekümne kaheksaks muudetud number on teistsugune viga — eksimus ärakirjas. Mõõdistuse puudulikkus ja ümberkirjutamisviga võivad mõlemad kaardi kasutajat eksitada.",
+  "allikad": [
+   {
+    "tekst": "NOAA Office of Coast Survey · History of Hydrographic Surveying",
+    "url": "https://www.nauticalcharts.noaa.gov/learn/history-of-hydrographic-surveying.html"
+   },
+   {
+    "tekst": "NOAA Office of Coast Survey · How accurate are nautical charts?",
+    "url": "https://nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Kaheosaline pilt. Ülal on harvad mõõtepunktid, nende vahel avastamata veealune kivi; all kontrollib kahe paadi vahele lastud traat sama ala. Väikesel lisapildil võrreldakse romaani ülesandelehe arve 8 ja 28. Joonis tuleb tähistada selgitava skeemina, mitte tegeliku Norra ranniku kaardina."
+  ],
+  "pilt": "loodimised.svg",
+  "pildi_allkiri": "Animeeritud skeem: loodimised annavad sügavuse ainult mõõtepunktides ja kahe punkti vahele võib jääda kivi; kahe paadi vahel kindlal sügavusel veetav traat jääb takistuse taha kinni. Paremal all romaani ülesandelehe 28, mis pidanuks olema 8. Selgitav skeem, mitte Norra ranniku kaart.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "mida-näitas-rasv-loodi-põhjas",
+  "peatukk": 10,
+  "pealkiri": "Mida näitas rasv loodi põhjas",
+  "tekst": "Käsilood koosnes raskusest ja tähistatud liinist. Liinilt loeti sügavus, kuid loodi põhjas olevasse õõnsusse pandi ka rasva, mille külge jäid põhja puudutamisel liiv, muda või väikesed kiviosakesed. Nii sai ühe tõstega teada nii vee sügavuse kui ka midagi põhja iseloomu kohta. Neid andmeid võrreldi merekaardi ja sõidujuhistega, et asukohta hinnata. Royal Museums Greenwichi kirjeldatud eksemplari liinil on nahast ning punasest ja valgest riidest märgid.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · NAV0676 · Sounding lead and line",
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-42888"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Käsilood tervikuna, kõrval loodi põhja õõnsuse läbilõige koos rasva külge jäänud liivaga. Muuseumi ese NAV0676 on dateeritud umbes 1950. aastasse ja sobib võrdluseks pika kasutusajaga töövõtte selgitamisel. Veebipildil tuleb see dateering säilitada. Muuseumi foto asemel võib teha oma selgitava joonise."
+  ],
+  "pilt": "loodi-rasv.svg",
+  "pildi_allkiri": "Selgitav joonis: käsilood märgistatud liiniga, loodi põhja õõnsus rasvaga ja selle külge jäänud liiv; kõrval liiv, muda ja kivikillud kui võimalikud tulemused.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "asdic-kuulamine-ja-otsimine-on-eri-asjad",
+  "peatukk": 11,
+  "pealkiri": "ASDIC: kuulamine ja otsimine on eri asjad",
+  "tekst": "Hüdrofoniga kuulatakse vees juba olevaid helisid, näiteks sõukruvide müra. Aktiivsonar ehk toonases Briti mereväe kõnepruugis ASDIC saadab ise välja heliimpulsi ja võtab vastu selle kaja. Väljasaatmise ning tagasijõudmise ajavahe võimaldab hinnata kaugust. Allveelaevas kuuldav otsimisheli pole sama mis jälituslaeva operaatori kuularisse töödeldud signaal. Ka ühe impulsi kuulmine ei ütle veel, kui hea kajakontakti vastane sai.",
+  "allikad": [
+   {
+    "tekst": "Discovery of Sound in the Sea · Sonar · helinäide",
+    "url": "https://dosits.org/galleries/audio-gallery/anthropogenic-sounds/sonar/"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. DOSITSi heligaleriis on kuuesekundiline salvestis lähedast sihtmärki jälgivast aktiivsonarist; heli autorina on märgitud J & A Enterprises. See sobib impulsi ja kajade kuuldeliseks võrdluseks. Leht ei nimeta seadme mudelit ega salvestamise aastat, seega ei esitle infomull seda 1945. aasta ASDICu ega U-398 pardal kuuldud heli salvestisena; helifaili avalikuks taaskasutuseks tuleb õigusi eraldi kontrollida. Kõrvale lihtne skeem külgvaates: saatja veepinnal oleva laeva all, heli teekond allveelaevani ning tagasi. Väljasaatmise ja kaja vahele märgitud ajavahe näitab, kust kaugushinnang tuleb."
+  ],
+  "pilt": "sonar-kaja.svg",
+  "pildi_allkiri": "Animeeritud skeem: jälituslaeva kere all olev saatja saadab impulsi, kaja tuleb allveelaevalt tagasi; ajavahe annab kauguse. Hüdrofon ainult kuulab, ASDIC saadab ise heli.",
+  "heli": "sonar.mp3",
+  "helitugevus": 0.45,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: otsimisimpulsid ja nõrgad kajad, nagu neid võis kuulda kere läbi. Mitte ajalooline salvestis ega ASDICu operaatori kuularis kõlanud signaal.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "schleichfahrt-miks-võeti-jalanõud-jalast",
+  "peatukk": 11,
+  "pealkiri": "Schleichfahrt: miks võeti jalanõud jalast?",
+  "tekst": "Saksa allveelaevaülema 1943. aasta käsiraamat käskis vaiksel sõidul peatada mittevajalikud masinad, rääkida tasa, töötada vaikselt ning liikuda sukkis või sokkides. Müra võib kanduda kinnituste kaudu keresse ja sealt vette. Jalanõude äravõtmine ei kaotanud sonarikaja: see vähendas hääli, mida vastase kuulamisseadmed võisid tabada. Samas juhendis soovitati kasutada liikumise varjamiseks vastase sõukruvide või plahvatuste müra. Peatükis katkestatakse pumpamine vaid ajutiselt, sest paati kogunev vesi sunnib pumpa uuesti käivitama.",
+  "allikad": [
+   {
+    "tekst": "The Submarine Commander’s Handbook · 1943, punkt 250 · sõjaaegne ingliskeelne tõlge, PDF lk 68",
+    "url": "https://uboatdata.ussleahy.com/Downloads/The%20Submarine%20Commander%27s%20Handbook.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Väljalõige 1943. aasta käsiraamatu punktist 250, kus on kõrvuti vaikselt töötamise, sokkides liikumise ja käsitsi tüürimise juhised. Kõrvale lühike eestikeelne selgitus, kuidas masina värin kinnituste kaudu laevakeresse jõuab. Eraldi helifaili pole vaja."
+  ],
+  "pilt": "vaikne-soit.svg",
+  "pildi_allkiri": "Vasakul 1943. aasta allveelaevaülema käsiraamatu punkti 250 kokkuvõte (sõjaaegse ingliskeelse tõlke järgi); paremal skeem: masina värin ja sammud kanduvad kinnituste kaudu kerre ja vette.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "veekiht-ei-ole-helikindel-sein",
+  "peatukk": 11,
+  "pealkiri": "Veekiht ei ole helikindel sein",
+  "tekst": "Heli kiirus merevees sõltub temperatuurist, soolsusest ja rõhust. Kui helikiirus sügavusega muutub, võib heli tee kaarduda; mõnes piirkonnas kostab signaal selle tõttu nõrgemalt, teises paremini. Pelk teadmine, et rannal on peal magedam vesi, ei ütle, millisel sügavusel saab end jälitaja eest varjata. Peatükis on kihistumise mõju tegelaste oletus, mida nad kontrollivad veeproovi ja kuulamisteadete abil. See pole tõend konkreetse 2. mai 1945 veekihi kohta.",
+  "allikad": [
+   {
+    "tekst": "Discovery of Sound in the Sea · Sound Channel Variability",
+    "url": "https://dosits.org/science/movement/sofar-channel/sound-channel-variability/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · Shallow Water Propagation",
+    "url": "https://dosits.org/science/advanced-topics/shallow-water-propagation/"
+   }
+  ],
+  "markused": [
+   "Animatsiooni kirjeldus. Liikuv skeem, kus vaataja saab muuta veekihtide helikiirust ja näha heli teekonna muutumist. Märkida selgelt, et tegu on põhimõtteskeemiga, mitte Norra ranniku tegeliku mõõteprofiiliga. Helifail ei lisaks siin vajalikku teavet."
+  ],
+  "pilt": "veekiht.svg",
+  "pildi_allkiri": "Animeeritud põhimõtteskeem: ühtlases vees jõuavad helikiired allveelaevani, kihilises vees nad painduvad ja paadi kohale jääb nõrgema heliga ala. Mitte Norra ranniku tegelik mõõteprofiil.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "bold-väike-peibutis-suure-laeva-asemel",
+  "peatukk": 11,
+  "pealkiri": "Bold: väike peibutis suure laeva asemel",
+  "tekst": "Bold oli allveelaevalt vette lastav keemiline peibutis. Selle tekitatud gaasimullid peegeldasid otsimisheli ja võisid anda jälitajale eksitava kaja. Peibutise väljutamine ei peatanud jälitust automaatselt: allveelaeval tuli eemalduda ning vastane võis pettusest aru saada või päris paadi uuesti leida. USA mereväe sõjaaegset luuret käsitlevas aruandes leidub nii Boldi kirjeldus kui ka teateid selle kasutamisest. Seade pole loo jaoks välja mõeldud.",
+  "pilt_url": "https://commons.wikimedia.org/wiki/File:Pillenwerfer.jpg",
+  "pildi_allikas": "USA valitsuse materjal, Wikimedia Commonsis märgitud avalikuks omandiks.",
+  "allikad": [
+   {
+    "tekst": "USA mereväe luurearuanne SRH-025 · Anti-Detection Devices · 7 BOLD · lk 19–20",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Ultra/SRH-025/SRH025-2.html"
+   },
+   {
+    "tekst": "Joonis Wikimedia Commonsis · Individual BOLD Pellet",
+    "url": "https://commons.wikimedia.org/wiki/File:Pillenwerfer.jpg"
+   }
+  ],
+  "markused": [
+   "Leitud pilt. Ajalooline tehniline joonis „Individual BOLD Pellet”. Wikimedia Commonsi faili nimi on „Pillenwerfer.jpg”, kuid joonise allkirjas nimetatakse Boldi peibutist; seda ei esitleta kogu väljutusseadme läbilõikena. Eraldi helinäidet pole vaja, sest lugejale oluline eksitav kaja seostub infomulli \\[1\\] sonarinäitega."
+  ]
+ },
+ {
+  "marker": "raadioteade-vee-alla",
+  "peatukk": 12,
+  "pealkiri": "Raadioteade vee alla",
+  "tekst": "Väga madala sagedusega raadiolaineid ehk VLF-laineid sai vastu võtta ka sukeldunud allveelaev. See ei tähendanud, et sõnumeid võis selgelt kuulata igal sügavusel: merevesi summutab raadiosignaali ning vastuvõtt sõltub muu hulgas sagedusest, saatjast ja antenni sügavusest. U-517 ellujäänute sõjaaegses ülekuulamisaruandes nimetati väga pikkade lainete puhul umbes 15 meetrit. Seda ei saa võtta kõigi paatide ja jaamade kindla piirina. Peatükis tõustakse seepärast sideajaks madalamale. Kuulamiseks pole tarvis oma saatjat tööle panna.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · U 517 ellujäänute ülekuulamisaruanne · X (xi) Reception of Long Waves",
+    "url": "https://www.uboatarchive.net/Int/U-517INT.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Külgvaates paat veepinna all, antennile jõudev nõrgenev raadiosignaal ja kaldasaatja. Sügavuse suurenedes muutub signaali tähistav joon tuhmimaks. Näidata põhimõtet, mitte kinnitamata täpset U-398 antennipaigutust."
+  ],
+  "pilt": "vlf-vastuvott.svg",
+  "pildi_allkiri": "Põhimõtteskeem: kaldasaatja väga pikad lained; merevesi summutab signaali ja mida sügavamal on antenn, seda nõrgem on vastuvõtt. U-517 aruande umbes 15 meetrit on näide, mitte kõigi paatide piir.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "morse-ei-ole-salakiri",
+  "peatukk": 12,
+  "pealkiri": "Morse ei ole salakiri",
+  "tekst": "Morse lühikesed ja pikad märgid annavad edasi tähti, numbreid ning teenistusmärke. Salajasus tuleb sõnumi kodeerimisest või šifreerimisest, mitte sellest, et seda piiksudena saadetakse. Radist võib vastuvõetud märgid õigesti üles kirjutada, teadmata veel sõnumi sisu. Peatükis jaguneb töö samamoodi: kõigepealt pannakse kirja märgirühmad, seejärel leitakse kooditabelist nende tähendus. Schrade eraldi koodilehed on romaani väljamõeldis, mitte väide Saksa mereväe Enigma tegeliku kasutuskorra kohta.",
+  "allikad": [
+   {
+    "tekst": "ARRL · 15 WPM Code Practice Archive Files",
+    "url": "https://www.arrl.org/15-wpm-code-archive"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. ARRL-i jaama W1AW morseharjutuste arhiiv, kiirus 15 sõna minutis. Lehel on MP3-salvestised ja nende juurde kuuluv tekst. Näiteks 10. jaanuari 2024 harjutusest piisab lühikesest kuulamisest, et tajuda, kuidas märgid katkematuks jadaks muutuvad. See on tänapäevane õppesalvestis, mitte 1945. aasta sõnum; sõnumi sisu ei pea romaani teatega kattuma. Kõrvale pilt: üks lühike morses edastatud sõna, selle punktid-kriipsud ning tekstivaste, ja teise etapina kokkulepitud märgirühma tähendus kooditabelis. Nii eristuvad heli lugemine ja sõnumi lahtivõtmine."
+  ],
+  "pilt": "morse.svg",
+  "pildi_allkiri": "Kaks etappi: märgid kirjutatakse tähtedeks (W I D A R), kokkulepitud märgirühma tähendus leitakse alles kooditabelist. Märgirühm ja tabel on välja mõeldud näide.",
+  "heli": "morse-widar.mp3",
+  "helitugevus": 0.4,
+  "heli_allkiri": "Sünteesitud õppenäide: sõna WIDAR kaks korda morses, umbes 15 sõna minutis, taustal kerge raadiokohin. Mitte 1945. aasta sõnum.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "kütuse-asemele-tuli-merevesi",
+  "peatukk": 12,
+  "pealkiri": "Kütuse asemele tuli merevesi",
+  "tekst": "VIIC tüübi paatide kütusesüsteem polnud lihtsalt suur tühjenev paak. Ajastu tehnilise käsiraamatu järgi suruti enamikust kütusepaakidest õli edasi paagi põhja juhitud merevee abil. Vesi võttis väheneva kütuse ruumi. Kütuse ja merevee tihedus erineb, seega tuli kaalu ning trimmi muutust ikkagi arvestada. Sõiduulatuse hindamisel tuli omakorda lahus hoida paagis olev kogus ja sellest saadav teepikkus: sama kütust kulus ka akude laadimiseks, mis ei viinud paati tingimata vastava arvu miilide võrra edasi.",
+  "allikad": [
+   {
+    "tekst": "VIIC käsiraamat · B VIII Fuel Oil Installations · lk 165–166",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtsustatud kütusepaagi läbilõige, kus all on sissevoolav merevesi ja selle kohal kütus; väljuva toru nool viib mootori toitesüsteemi poole. Teine väike skeem näitab diisli töö jagunemist sõukruvi käitamise ja akude laadimise vahel. Mootori helinäidet siia vaja ei ole."
+  ],
+  "pilt": "kytusepaak.svg",
+  "pildi_allkiri": "Animeeritud skeem: kütust võetakse paagist ülevalt, alt tuleb asemele merevesi. Kõrval: sama diisel kas viib paati edasi või laeb akusid.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "vana-kuupäev-sõjateates",
+  "peatukk": 12,
+  "pealkiri": "Vana kuupäev sõjateates",
+  "tekst": "Berliini ümberpiiramine sulgus 25. aprillil 1945. Peatükis loetakse seda teadet 3. mail: tegemist on selgelt hilinenud olukorrateatega, mitte väitega, et linn piirati sisse alles mais. Schrade võrgustiku vahendatud sõnum ja selle hilinemise põhjus kuuluvad romaani väljamõeldisse. Katharina märgitud kaks aega — olukorra kuupäev ning teate kättesaamine — ei ole seega sama asi.",
+  "allikad": [
+   {
+    "tekst": "Bundesarchiv · Lagekarte zur Schlacht um Berlin · RH 24-56/145K",
+    "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/dokumente-zur-zeitgeschichte/lagekarte-zur-schlacht-um-berlin/"
+   }
+  ],
+  "markused": [
+   "Leitud pilt. Bundesarchivi avaldatud Berliini kaitseala olukorrakaart 1945. aasta aprillist, viide BArch, RH 24-56/145K. See näitab kaitseringe ja vägede asetust ning aitab mõista, mida tähendas linnale sissepiiramine. Säilitada originaalallkiri ning lisada eestikeelne lühiselgitus. Helinäide pole vajalik."
+  ]
+ },
+ {
+  "marker": "köiest-vender",
+  "peatukk": 13,
+  "pealkiri": "Köiest vender",
+  "tekst": "Enne tänapäevaseid täispuhutavaid vendreid valmistati laevakere kaitseks ka köiest punutud patju. Vender võtab vastu kerede kokkupuute ja kaitseb pinda, kuid ei muuda kahte laeva üheks jäigaks tervikuks. Mõlemad liiguvad lainetes edasi. Pikisuunas veetud kinnitusotsad piiravad nende omavahelist nihkumist; üleandmise ohutus sõltub ikkagi ilmast ja meeskonna tööst. Peatükis katkestatakse kõrvuti seismine enne, kui kasvav lainetus sunnib seda tegema.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · EQA0538 · Fender, rope",
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-18136"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Originaaljoonis jämedast köiest punutud piklikust vendrist, mille otstes on riputamiseks aasad. Kõrval väike külgvaade kahe paadi vahel kokkusurutud vendrile. Punuti ehituse võrdluseks sobib Royal Museums Greenwichi kogus olev sisalist vender EQA0538; see konkreetne museaal valmistati 1972. aastal ning seda ei esitleta sõjaaegse esemena. Helinäidet pole vaja."
+  ],
+  "pilt": "vender.svg",
+  "pildi_allkiri": "Selgitav joonis: köiest punutud piklik vender aasadega; kahe kõrvuti lainetes liikuva paadi vahel surutakse see kokku, kinnitusotsad piiravad nihkumist.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "suur-kaugsõidupaat",
+  "peatukk": 13,
+  "pealkiri": "Suur kaugsõidupaat",
+  "tekst": "IXD2 oli märksa suurem kui U-398 tüüpi VIIC: pikkust ligi 88 meetrit varasema paadi ligikaudu 67 meetri vastu. Suurem kere võimaldas mahutada rohkem varusid ja sobis kaugsõitudeks, sealhulgas Kaug-Ida ühendusteks. Lisaruum ei tähendanud siiski, et kümned juurde tulnud inimesed oleksid saanud eraldi asemel magada. Widar ise on romaani väljamõeldud laev; ajalooline U-873 annab selle tüübi väljanägemisest hea võrdluse.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · U-873 esialgne ülekuulamisaruanne · kavandatud Jaapani-reis ja last",
+    "url": "https://www.uboatarchive.net/U-873A/U-873PreliminaryReport.htm"
+   },
+   {
+    "tekst": "Naval History and Heritage Command · NH 75660 · U-873 kuivdokis, 30.06.1945",
+    "url": "https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-75000/NH-75660.html"
+   },
+   {
+    "tekst": "U-boat Archive · Design Studies · sama kuupäevaga foto",
+    "url": "https://www.uboatarchive.net/Design/DesignStudies.htm"
+   }
+  ],
+  "markused": [
+   "Leitud foto. USA mereväe ajalooline foto U-873-st Portsmouthi mereväetehase kuivdokis, 30. juuni 1945, fotonumber NH 75660. Tähelepanu suunata pika kere ja torni proportsioonidele. Allkirjas säilitada tegelik laevanimi U-873. Joonisel võib kõrvale lisada VIIC ja IXD2 siluetid samas mõõtkavas; Widari romaanis kirjeldatud ümberehitusi ei omistata fotol olevale paadile."
+  ]
+ },
+ {
+  "marker": "surmateade-mis-rääkis-lahingus-langemisest",
+  "peatukk": 13,
+  "pealkiri": "Surmateade, mis rääkis lahingus langemisest",
+  "tekst": "Saksa ametlik raadioteade Hitleri surmast jõudis eetrisse 1. mail 1945. Dönitz kujutas tema surma lahingus langemisena; ajalooliselt suri Hitler 30. aprillil Berliinis enesetapu läbi. Romaanitegelased kuulevad ja loevad seda, mida neile teatatakse. Peatükis saadud koopia kannab algset kuupäeva, mitte 8. mai uudise kuupäeva. Lemke sõnastus on teate mõtte edasiandmine, mitte arhiivisalvestise sõnasõnaline transkriptsioon.",
+  "allikad": [
+   {
+    "tekst": "Bundesarchiv · Rundfunkansprache von Karl Dönitz zum Tod von Adolf Hitler · RH 26-1002/8",
+    "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/dokumente-zur-zeitgeschichte/rundfunkansprache-von-karl-doenitz-zum-tod-von-adolf-hitler/"
+   },
+   {
+    "tekst": "SWR Kultur · ARD Archivradio · BBC meldet Hitlers Tod",
+    "url": "https://www.swr.de/swrkultur/wissen/archivradio/bbc-meldet-hitlers-tod-1945-100.html"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. ARD Archivradio / SWR-i lehel „BBC meldet Hitlers Tod” on käsitletud BBC 1. mai 1945 erakorralist teadet. Sobiv võrdlus on algne ingliskeelne raadiosalvestis koos Big Beni märguandega. See ei ole Lemke hääl ega Saksa teate originaal. SWR selgitab ka levinud eksitust: versioon, kus uudis kõlab Vera Lynni laulu peal, pandi kokku alles 1972. aastal. Infomullis kasutada algset, muusikata teadet või linkida vastavale arhiivilehele. Kõrvale Bundesarchivi avaldatud Dönitzi 1. mai kõne tekstikoopia, viide BArch, RH 26-1002/8: pilt ja heli võimaldavad võrrelda Saksa ametlikku sõnastust ning seda, kuidas BBC sama teadet vahendas."
+  ]
+ },
+ {
+  "marker": "vidari-king-ja-kingsepa-nahalõiked",
+  "peatukk": 13,
+  "pealkiri": "Vidari king ja kingsepa nahalõiked",
+  "tekst": "Snorri Sturlusoni „Nooremas Eddas” on Vidar vaikiv jumal ja Odini poeg. Kui Fenrir on Odini neelanud, surub Vidar paksu kingaga hundi alumisele lõualuule ning rebib tema suu lahti. Kinga materjal koguneb nahaülejääkidest, mis inimeste kingade varba- ja kannaosa juurest ära lõigatakse. Vidar kuulub nende jumalate hulka, kes jäävad pärast Ragnaröki elama. See on müüdi seletus nahajääkide tähtsusele, mitte tõend, et kõik Põhjala kingsepad sellist kommet järgisid.",
+  "allikad": [
+   {
+    "tekst": "Project Gutenberg · Snorri Sturluson, The Younger Edda · Vidar p 29, Ragnarök ja ellujäämine p 58",
+    "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Kingsepalaua serv, saapatald ja väikesed nahalõiked; tagaplaanil vana raamatu illustratsioonina hiiglaslik king hundi lõualuul. Esiplaanil jääb rõhk äratuntavale käsitööle. Widari nime saksa kirjakuju ja müüdi Vidar siduda ühe lühikese allkirjaga. Eraldi helinäidet pole vaja."
+  ]
  }
 ]
