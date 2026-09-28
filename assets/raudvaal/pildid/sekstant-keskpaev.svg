@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Keskpäevane päikesevaatlus</title>
+  <desc id="d">Animatsioon kolmes osas. Vasakul vaatleja tornil: sekstant mõõdab nurka nähtava silmapiiri ja päikese vahel; päike tõuseb keskpäevani kõrgemale ja hakkab siis laskuma, suurim nurk on keskpäevane kõrgus. Paremal vaade sekstandi pikksilmast: vasakul pool otse nähtav silmapiir, paremal peeglist nähtav päike, mille alumine serv viiakse silmapiirini. All kronomeeter lahtises puukastis ja näidistabel kella vea ja päevase käigu kohta.</desc>
+  <defs>
+    <clipPath id="vaade"><circle cx="580" cy="178" r="96"/></clipPath>
+  </defs>
+  <rect width="760" height="460" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="28" font-size="16">Keskpäevane päikesevaatlus</text>
+    <text x="20" y="54" font-size="13">1. Sekstant mõõdab nurka silmapiiri ja päikese vahel</text>
+    <text x="440" y="54" font-size="13">2. Mida vaatleja pikksilmas näeb</text>
+  </g>
+
+  <!-- 1. kõrvalvaade -->
+  <rect x="20" y="66" width="390" height="190" fill="#e6eef2"/>
+  <rect x="20" y="226" width="390" height="30" fill="#6f9fc4"/>
+  <line x1="20" y1="226" x2="410" y2="226" stroke="#1f4e79" stroke-width="1.5"/>
+  <!-- torn -->
+  <path d="M46 226 V190 H84 V226 Z" fill="#6b6b6b"/>
+  <circle cx="70" cy="180" r="7" fill="#2b1d10"/>
+  <path d="M70 187 V200" stroke="#2b1d10" stroke-width="3"/>
+  <!-- silma kõrgus -->
+  <path d="M34 180 V226" stroke="#8a1c1c" stroke-width="1.5"/>
+  <path d="M30 180 H38 M30 226 H38" stroke="#8a1c1c" stroke-width="1.5"/>
+  <text x="27" y="264" font-family="Georgia, serif" font-size="11" fill="#8a1c1c">silma kõrgus</text>
+  <!-- vaatejoon silmapiirile -->
+  <line x1="74" y1="180" x2="404" y2="224" stroke="#1f4e79" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="300" y="246" font-family="Georgia, serif" font-size="11" fill="#fff">nähtav silmapiir</text>
+  <!-- päike ja vaatejoon -->
+  <line x1="74" y1="180" x2="330" y2="120" stroke="#8a6a1c" stroke-width="2">
+    <animate attributeName="y2" values="130;92;92;130" keyTimes="0;0.45;0.55;1" dur="12s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="330" cy="120" r="14" fill="#e0a526" stroke="#8a6a1c" stroke-width="2">
+    <animate attributeName="cy" values="130;92;92;130" keyTimes="0;0.45;0.55;1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M150 190 A80 80 0 0 0 146 166" fill="none" stroke="#2e6b2e" stroke-width="3"/>
+  <text x="156" y="176" font-family="Georgia, serif" font-size="12" fill="#2e6b2e">mõõdetav nurk</text>
+  <text x="130" y="86" font-family="Georgia, serif" font-size="12" fill="#5a3f16" opacity="0">
+    keskpäev: nurk on suurim
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.45;0.55;0.6;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- 2. vaade pikksilmast -->
+  <g clip-path="url(#vaade)">
+    <rect x="484" y="82" width="192" height="96" fill="#e6eef2"/>
+    <rect x="484" y="178" width="192" height="96" fill="#6f9fc4"/>
+    <rect x="580" y="82" width="96" height="192" fill="#dfe6ea" opacity="0.85"/>
+    <line x1="484" y1="178" x2="676" y2="178" stroke="#1f4e79" stroke-width="2"/>
+    <circle cx="628" cy="110" r="16" fill="#e0a526" stroke="#8a6a1c" stroke-width="2">
+      <animate attributeName="cy" values="110;162;162;110" keyTimes="0;0.5;0.9;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="580" y1="82" x2="580" y2="274" stroke="#4a4a4a" stroke-width="1.5"/>
+  </g>
+  <circle cx="580" cy="178" r="96" fill="none" stroke="#2b1d10" stroke-width="5"/>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="440" y="296">otse: silmapiir</text>
+    <text x="600" y="296">peeglist: päike</text>
+  </g>
+  <text x="440" y="316" font-family="Georgia, serif" font-size="12" fill="#5a3f16">Päikese alumine serv viiakse silmapiirini, nurk loetakse kaarelt.</text>
+
+  <!-- valem -->
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="20" y="290">Laius = päikese kaugus seniidist (90° − kõrgus) ja almanahhi</text>
+    <text x="20" y="306">deklinatsioon; liidetakse või lahutatakse vastavalt sellele, kas päike</text>
+    <text x="20" y="322">on vaatlejast põhjas või lõunas. Enne parandatakse silma kõrgus ja valgusmurdumine.</text>
+  </g>
+
+  <!-- 3. kronomeeter -->
+  <text x="20" y="352" font-family="Georgia, serif" font-size="13" fill="#2b1d10">3. Kronomeeter: kella ei seata ümber, viga kirjutatakse üles</text>
+  <path d="M30 372 H170 L182 360 H42 Z" fill="#a4764a" stroke="#5a3f16" stroke-width="2"/>
+  <rect x="30" y="372" width="140" height="74" fill="#8a5a2e" stroke="#5a3f16" stroke-width="2"/>
+  <rect x="38" y="378" width="124" height="62" fill="#c8a47a"/>
+  <circle cx="100" cy="409" r="27" fill="#fffdf6" stroke="#6b6b6b" stroke-width="3"/>
+  <g stroke="#2b1d10" stroke-width="1.5">
+    <line x1="100" y1="385" x2="100" y2="389"/><line x1="124" y1="409" x2="120" y2="409"/>
+    <line x1="100" y1="433" x2="100" y2="429"/><line x1="76" y1="409" x2="80" y2="409"/>
+  </g>
+  <line x1="100" y1="409" x2="100" y2="393" stroke="#2b1d10" stroke-width="2.5"/>
+  <line x1="100" y1="409" x2="114" y2="414" stroke="#2b1d10" stroke-width="2"/>
+  <line x1="100" y1="409" x2="100" y2="387" stroke="#8a1c1c" stroke-width="1">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 409" to="360 100 409" dur="60s" repeatCount="indefinite"/>
+  </line>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="210" y="376" font-weight="bold">Kella päevik (näide)</text>
+    <text x="210" y="396">kuupäev</text><text x="300" y="396">ees võrdlusajast</text><text x="430" y="396">päevane käik</text>
+    <line x1="210" y1="401" x2="530" y2="401" stroke="#8a7a5a"/>
+    <text x="210" y="416">6. juuni</text><text x="300" y="416">1 min 12 s</text><text x="430" y="416">jääb 2 s maha</text>
+    <text x="210" y="432">7. juuni</text><text x="300" y="432">1 min 10 s</text><text x="430" y="432">jääb 2 s maha</text>
+    <text x="210" y="448">8. juuni</text><text x="300" y="448">1 min 08 s</text><text x="430" y="448">…</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#5a3f16">
+    <text x="556" y="380">Maa pöördub 15° tunnis:</text>
+    <text x="556" y="396">4 minutit = 1 pikkuskraad,</text>
+    <text x="556" y="412">4 sekundit = 1 kaareminut.</text>
+    <text x="556" y="432">Teadmata kellaviga nihutaks</text>
+    <text x="556" y="448">punkti kaardil ida või lääne poole.</text>
+  </g>
+</svg>

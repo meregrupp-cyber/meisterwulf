@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img" aria-labelledby="t d">
+  <title id="t">P/L: teade ilma salakirjata</title>
+  <desc id="d">Ümber kirjutatud katkend 1945. aasta mai mereväe alistumiskorralduse lisast A, mis saadeti kõigile merel olevatele Saksa allveelaevadele. Esile on tõstetud lühend P/L ehk plain language, šifreerimata tekst, ja lause, mille järgi korraldust korrati iga kahe tunni järel kuni uue korralduseni. Paremal eestikeelsed vasted.</desc>
+  <rect width="760" height="440" fill="#f4ead2"/>
+  <text x="20" y="30" font-family="Georgia, serif" font-size="16" fill="#2b1d10">Alistumiskorraldus allveelaevadele, lisa A (katkend)</text>
+  <text x="20" y="50" font-family="Georgia, serif" font-size="12" fill="#5a3f16">Ümber kirjutatud algdokumendist; punktid B, C, D, F ja lõpulause</text>
+
+  <!-- telegrammileht -->
+  <rect x="20" y="66" width="440" height="330" fill="#fffdf6" stroke="#8a7a5a" stroke-width="1.5"/>
+  <line x1="20" y1="96" x2="460" y2="96" stroke="#8a7a5a" stroke-dasharray="3 3"/>
+  <g font-family="'Courier New', Courier, monospace" font-size="13" fill="#2b1d10">
+    <text x="34" y="88">TO ALL 'U' BOATS AT SEA:</text>
+    <text x="34" y="122">(B) REPORT IMMEDIATELY IN</text>
+    <text x="66" y="140">YOUR POSITION IN LATITUDE AND</text>
+    <text x="66" y="158">LONGITUDE AND NUMBER OF YOUR</text>
+    <text x="66" y="176">'U' BOAT ...</text>
+    <text x="34" y="204">(C) FLY A LARGE BLACK OR BLUE</text>
+    <text x="66" y="222">FLAG BY DAY.</text>
+    <text x="34" y="250">(D) BURN NAVIGATION LIGHTS BY</text>
+    <text x="66" y="268">NIGHT.</text>
+    <text x="34" y="296">(F) MAKE ALL SIGNALS IN</text>
+    <text x="34" y="324">2. THESE INSTRUCTIONS WILL BE</text>
+    <text x="58" y="342">REPEATED AT</text>
+    <text x="58" y="360">UNTIL FURTHER NOTICE.</text>
+  </g>
+  <!-- esiletõstetud P/L -->
+  <g font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#8a1c1c">
+    <rect x="245" y="109" width="36" height="18" rx="3" fill="none" stroke="#8a1c1c" stroke-width="2"/>
+    <text x="249" y="122">P/L</text>
+    <rect x="221" y="283" width="36" height="18" rx="3" fill="none" stroke="#8a1c1c" stroke-width="2"/>
+    <text x="225" y="296">P/L.</text>
+    <rect x="156" y="329" width="166" height="18" rx="3" fill="none" stroke="#1f4e79" stroke-width="2"/>
+    <text x="160" y="342" fill="#1f4e79">TWO-HOUR INTERVALS</text>
+  </g>
+
+  <!-- eestikeelsed vasted -->
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="484" y="88" font-size="14">Eesti keeles</text>
+    <text x="484" y="122" font-size="13">(B) Teatada kohe</text>
+    <text x="484" y="140" font-size="13" fill="#8a1c1c">šifreerimata</text>
+    <text x="484" y="158" font-size="13">oma laius, pikkus ja paadi</text>
+    <text x="484" y="176" font-size="13">number.</text>
+    <text x="484" y="204" font-size="13">(C) Päeval kanda suurt musta</text>
+    <text x="484" y="222" font-size="13">või sinist lippu.</text>
+    <text x="484" y="250" font-size="13">(D) Öösel hoida tuled</text>
+    <text x="484" y="268" font-size="13">põlemas.</text>
+    <text x="484" y="296" font-size="13">(F) Kõik teated saata</text>
+    <text x="484" y="314" font-size="13" fill="#8a1c1c">šifreerimata.</text>
+    <text x="484" y="342" font-size="13">2. Korratakse</text>
+    <text x="484" y="360" font-size="13" fill="#1f4e79">iga kahe tunni järel,</text>
+    <text x="484" y="378" font-size="13">kuni tuleb uus korraldus.</text>
+  </g>
+  <g stroke="#b9a88a" stroke-width="1">
+    <line x1="470" y1="112" x2="470" y2="382"/>
+  </g>
+  <!-- seletus -->
+  <rect x="20" y="404" width="720" height="30" rx="4" fill="#efe2c4"/>
+  <text x="32" y="424" font-family="Georgia, serif" font-size="13" fill="#2b1d10"><tspan fill="#8a1c1c" font-weight="bold">P/L</tspan> = plain language, lihtne keel; saksa keeles <tspan font-style="italic">Klartext</tspan>. Teate võis saata morsemärkidega, aga võtit polnud vaja.</text>
+</svg>
