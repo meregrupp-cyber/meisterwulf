@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "ISQxIP0NA/k2ebJn",
-  "ct": "I3g1qleUy9oYZ0Da06bKStqY"
+  "iv": "Gzk1y6GkiPnQADUA",
+  "ct": "a5nRsMJs+LCI2PzVXMzXR2KU"
  },
  "peatukid": [
   {
@@ -244,9 +244,9 @@
    "ord": 19,
    "osa": 4,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Lõuna-Atlant, juuli lõpp 1945"
   },
   {
    "slug": "peatukk-20",
@@ -255,9 +255,9 @@
    "ord": 20,
    "osa": 4,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Argentina ranniku lähedal, avameri. Juuli lõpp 1945"
   },
   {
    "slug": "peatukk-21",

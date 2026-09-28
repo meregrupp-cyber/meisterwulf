@@ -3924,5 +3924,115 @@
     "url": "https://en.wikipedia.org/wiki/Oakum"
    }
   ]
+ },
+ {
+  "marker": "vahiaeg-kellalöökide-järgi",
+  "peatukk": 19,
+  "pealkiri": "Vahiaeg kellalöökide järgi",
+  "tekst": "Vana meremehekeelne „klaas” tähistab pooltundi ja seda märkivat kellalööki. Nimetus seostub pooletunnise liivakellaga, mida vahis regulaarselt ümber pöörati. Tavapärase neljatunnise vahi kestel lisandus iga poole tunni järel üks löök, kuni täis sai kaheksa. Löögid rühmitati paaridesse. Kuus klaasi kõlab seega kolme löögipaarina ja tähendab, et vahi algusest on möödunud kolm tundi. Hommikul kell kaheksa alanud vahi puhul on siis kell üksteist. Ainuüksi löökide arvust ei saa teada ööpäeva kellaaega — selleks peab teadma, milline vaht parajasti kestab.",
+  "allikad": [
+   {
+    "tekst": "EKI Sõnaveeb · klaas (merendus)",
+    "url": "https://sonaveeb.ee/search/unif/est/eki%2Cesterm/klaas/1/est"
+   },
+   {
+    "tekst": "Naval Marine Archive · Watches and bells",
+    "url": "https://navalmarinearchive.com/research/docs/bells_and_watches.html"
+   },
+   {
+    "tekst": "Freesound · Benboncan · Six Bells, Ship Time",
+    "url": "https://freesound.org/people/Benboncan/sounds/77697/"
+   }
+  ],
+  "markused": [
+   "Leitud heli ja soovitud töötlus. Benboncani salvestis „Six Bells, Ship Time”, avaldatud 19. augustil 2009 Freesoundis. Umbes kümnesekundilises näites kõlab kuus laevakella lööki. Infomullis sobib heli kõrvale näidata, kuidas kolm löögipaari vastavad kolmele möödunud tunnile. See on tänapäevane näidissalvestis vanast ajamärguandest; autorile viidata (Benboncan, CC BY 4.0)."
+  ]
+ },
+ {
+  "marker": "põhivalgustus-ja-avariilambid",
+  "peatukk": 19,
+  "pealkiri": "Põhivalgustus ja avariilambid",
+  "tekst": "Saksa IXC tüüpi allveelaevade valgustust uurinud Portsmouthi laevatehase 1946. aasta aruande järgi oli paadis mitu kaitset täieliku pimeduse vastu. Ühe valgustuse toiteallika rikke korral said osa lampe endiselt voolu teisest. Kogu põhivalgustuse toite kadumisel lülitusid automaatselt sisse oma väikeste akudega avariilambid. Need andsid märksa nõrgemat valgust. Ka paljude mõõteriistade skaalad olid kaetud järelhelendava ainega. Samas märgib aruanne, et uuritud paatidel polnud eraldi punast või sinist üldvalgustust silmade pimedusega harjutamiseks; kasutati punaste klaasidega prille. See kirjeldab IXC lahendust ja annab ajaloolise võrdluse romaani IXD2 tüüpi Widari stseenile.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Portsmouth Naval Shipyard · Former German Submarine Type IXC — Lighting, aruanne 2G-9C S64, mai 1946 (Emergency Lighting, Non-Electric Illumination, Low Level Illumination)",
+    "url": "https://www.uboatarchive.net/Design/DesignStudiesTypeIXC-S64.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Kõrvuti traadist kaitsevõrega põhivalgusti ja väikese oma akuga avariilambi selgitavad kujutised. Teine vaade näitab hämarasse jäänud ruumis helendavaid näidikuid: käigutee on aimatav, kuid inimeste näod ja käed jäävad varju. Joonise tehniline alus on allpool viidatud aruanne; seda ei esitleta Widari originaalfotona."
+  ]
+ },
+ {
+  "marker": "viimane-õmblustöö-merel",
+  "peatukk": 19,
+  "pealkiri": "Viimane õmblustöö merel",
+  "tekst": "Pikal merereisil ei olnud alati võimalik surnut kodusadamasse viia. Mitmes meretraditsioonis õmmeldi keha tugevasse riidesse, sageli surnu enda rippkoisse, ning jalgade juurde lisati raskus. Töö tegid kaaslased; purjeriide õmbles tavaliselt purjemeister. See komme püsis ka Teise maailmasõja ajal. Uus-Meremaa ristlejal Leander maeti pärast 1943. aasta juulis toimunud Kolombangara lahingut langenud merre rippkoides, mille jalgadepoolsesse otsa oli pandud pliiraskus. Talituse keel ja usuline osa olenesid laevaperest. Villemi matus romaanis lähtub sellest vanast praktikast ning tema kaaslaste oludest.",
+  "allikad": [
+   {
+    "tekst": "NZ History · Burial at sea after Kolombangara",
+    "url": "https://nzhistory.govt.nz/media/photo/burial-sea-after-kolombangara"
+   },
+   {
+    "tekst": "Royal Australian Navy · Burial at sea",
+    "url": "https://www.navy.gov.au/about-navy/history/customs-traditions/burial-sea"
+   }
+  ],
+  "markused": [
+   "Leitud foto. NZ History lehel avaldatud ajalooline foto Leanderi merematusest pärast Kolombangara lahingut, juuli 1943. Pildiallkirjas säilitada tegeliku laeva ja sündmuse andmed. Foto on võrdlusmaterjal sõjaaegse merematuse kohta."
+  ]
+ },
+ {
+  "marker": "tuulealune-parras-ja-kahe-aluse-erinev-liikumine",
+  "peatukk": 20,
+  "pealkiri": "Tuulealune parras ja kahe aluse erinev liikumine",
+  "tekst": "Suurem laev saab kurssi muutes pakkuda väikesele paadile tuule ja pealetuleva laine eest varju. Meremehed nimetavad seda tuulealuseks pardaks ehk lee-poordiks. Varju valik sõltub nii tuulest kui ka lainetuse suunast: kaugelt saabunud ummiklaine võib tulla hoopis teisest küljest. Ka varjus jäävad alused erineva kiirusega kerkima ja vajuma. Oht tekib eriti ümberastumisel, kui toetuspind jala alt ära liigub või kaks parrast kokku löövad. Vendrid pehmendavad kokkupuudet, kuid ei peata aluste liikumist. Lisa lasti vähendab väikese paadi vaba pardakõrgust, mistõttu pääseb vesi kergemini sisse.",
+  "allikad": [
+   {
+    "tekst": "Port of London Authority · The Embarkation & Disembarkation of Pilots. Code of Safe Practice, jaanuar 2013, ptk 5–7 (Sunmi Patroli uurimisaruande lisades)",
+    "url": "https://assets.publishing.service.gov.uk/media/59dcbaba40f0b63118216854/Sunmi-Patrol_CombinedAnnexes.pdf"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne kaheosaline joonis. Ülaltvaates on Widar lainepoolsel küljel, kummipaat tema tuulealuses pardas ja traaler eemal. Eraldi nooled näitavad tuult ning teise nurga alt saabuvat ummiklainet. Kõrvalvaates kujutatakse sama üleminekukohta kahel järjestikusel hetkel: algul on kummipaat kõrgemal, seejärel allveelaevast madalamal. Märkida vaba pardakõrgus. Joonis selgitab romaani olukorda; see pole konkreetse ajaloolise üleandmise dokument. Allikaks olev tänapäevane juhend aitab selgitada meresõiduvõtet ja aluste liikumist; selle varustusnõudeid pole loos 1945. aastasse üle kantud."
+  ]
+ },
+ {
+  "marker": "viskeliin-ja-ahvirusika-sõlm",
+  "peatukk": 20,
+  "pealkiri": "Viskeliin ja „ahvirusika” sõlm",
+  "tekst": "Jämedat sildumisotsa on raske kaugele heita. Kõigepealt visatakse üle peenem liin, millega teine pool tõmbab jämeda otsa enda juurde. Heidet hõlbustab liini otsa punutud ümmargune sõlm, inglise keeles monkey’s fist. Nii saab ühenduse luua ka siis, kui aluste vahelt pole võimalik käega ulatada. Viskeliini ülesanne on viia ots kohale; see ei asenda lasti tõstmiseks mõeldud köit ega teki külge kinnitatud julgestusliini.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · Knot keyring (sõlme kuju ja kasutus viskeliinil)",
+    "url": "https://shop.rmg.co.uk/products/knot-keyring"
+   },
+   {
+    "tekst": "Maritime and Coastguard Agency · Safety Bulletin 2: Dangerously weighted ships’ heaving lines",
+    "url": "https://www.gov.uk/government/publications/safety-bulletin-2-dangerously-weighted-heaving-lines/safety-bulletin-2-dangerously-weighted-ships-heaving-lines"
+   }
+  ],
+  "markused": [
+   "Pildi ja joonise kirjeldus. Lähivõte nöörist punutud „ahvirusikast” koos lahtiselt laotud viskeliiniga. Kõrval väike joonis, kus peenike liin toob üle jämeda köie. Sõlme võrdluspildiks sobib mereameti foto ainult köiest valmistatud sõlmest. See on tänapäevane näidis. Metallist või kivist lisaraskusega sõlm võib tabamuse korral vigastada; mereameti leht näitab ka selliseid ohtlikke näiteid."
+  ]
+ },
+ {
+  "marker": "täispuhutav-päästevöö-oli-olemas-juba-sõja-ajal",
+  "peatukk": 20,
+  "pealkiri": "Täispuhutav päästevöö oli olemas juba sõja ajal",
+  "tekst": "U-454 ellujäänute ülekuulamise 1943. aasta aruandes kirjeldatakse kummist päästevööd, mis täideti rõngast tõmmates: väikesest balloonist pääses vöösse suruõhk. Täispuhutav päästevahend ei eelda seega tänapäevast automaatselt veega kokkupuutel rakenduvat vesti. Aruandes kirjeldatud seadme käivitab inimene ise.\n\nPäästevöö ja tekil töötaja julgestusvöö täidavad eri ülesandeid. Esimene annab vees ujuvust, teine ühendab inimese liiniga laeva külge. Saksa XB-tüübi allveelaeva käsiraamatus on tormise mere jaoks mainitud nii julgestusvöid kui ka kinnitusliine. Need allikad dokumenteerivad sõjaaegset varustust eri allveelaevatüüpidel; Widari konkreetne varustus ja selle kasutamine on romaanis rekonstrueeritud.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · U-454 ellujäänute ülekuulamise aruanne, september 1943, II osa punkt xi „Rubber Lifebelts”",
+    "url": "https://www.uboatarchive.net/Int/U-454INT.htm"
+   },
+   {
+    "tekst": "U-boat Archive · XB-tüübi allveelaeva käsiraamat, lk 79 (päästevahendid ja julgestusliinid)",
+    "url": "https://www.uboatarchive.net/Manual/ManualXB.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Seletav joonis tühjast ja täidetud kummivööst kõrvuti. Märkida väike suruõhuballoon, tõmberõngas ja õhuga täituv osa. Teisel väikesel joonisel näidata julgestusvööd ning eraldi liini laeva kinnituse küljes. Ühegi muuseumieseme täpset mudelit ei maksa nende tekstiallikate põhjal juurde oletada."
+  ]
  }
 ]
