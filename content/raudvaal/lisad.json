@@ -2954,5 +2954,131 @@
   "pildi_allikas": "W. G. Collingwood, 1908 (The Elder or Poetic Edda) / Public domain",
   "pildi_litsents": "Public domain",
   "pildi_leht": "https://commons.wikimedia.org/wiki/File:Vidar_by_Collingwood.jpg"
+ },
+ {
+  "marker": "kuidas-lasti-kaal-laeva-asendist-välja-arvutada",
+  "peatukk": 14,
+  "pealkiri": "Kuidas lasti kaal laeva asendist välja arvutada?",
+  "tekst": "Süvis näitab, kui sügavale kere vette ulatub. Trimm kirjeldab laeva pikikallet, mida pinnal saab hinnata vööri ja ahtri süviste vahe järgi. Lasti lisamine suurendab veeväljasurvet; olemasoleva lasti ümbertõstmine muudab raskuse jaotust. Need on kaks eri muutust. Ahtri ühe lugemi põhjal ei saa otsustada, mitu tonni lasti on arvestusest puudu: vaja on ka vööri süvist, tankide seisu, varude kaalu ja laeva hüdrostaatilisi andmeid.\n\nSõjaaegsetel allveelaevadel liigutati pikitasakaalu muutmiseks vett vööri ja ahtri trimmitankide vahel. VIIC käsiraamatus on nende vahekauguseks antud 41,6 meetrit; see arv ei kirjelda Widari tüüpi IXD2. Väikegi raskus kaugel tasakaalupunktist annab märgatava momendi. Pinnal ja vee all on pikistabiilsus erinev, mistõttu sama lastinihe ei anna mõlemas olukorras sama kallet. Peatüki ligi neljakümnesentimeetrisest süvisevahest seletab suurema osa tankide tegeliku seisu ja vanade paberite erinevus. Kulla kaal selgub alles mõõtmiste, kastide kaalumise ning õige pakkimisnimekirja võrdlemisel.",
+  "allikad": [
+   {
+    "tekst": "VIIC käsiraamat · A.III Trim tanks",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "The Fleet Type Submarine · 19. peatükk · kompensatsiooniarvestus",
+    "url": "https://maritime.org/doc/fleetsub/chap19.php"
+   },
+   {
+    "tekst": "Handbook of Damage Control · III osa · raskusmoment ja trimm",
+    "url": "https://maritime.org/doc/dc/part3.php"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne külgvaade allveelaevast. Esimeses vaates lisatakse raskus ahtrisse, teises tõstetakse sama raskus keskosa poole. Eraldi näidata vee liigutamist trimmitankide vahel. Märkida vöör, ahter, veeliin ja raskuse kaugus tasakaalupunktist. Joonis selgitab põhimõtet ega anna väljamõeldud Widarile kinnitamata tehaseandmeid. Infomullis võiks lasti asukohta nihutada ja näha, kuidas muutub raskusmoment; täpseid kaldenurki pole vaja välja mõelda."
+  ],
+  "pilt": "trimm.svg",
+  "pildi_allkiri": "Animeeritud põhimõtteskeem: sama raskus ahtris annab suurema kalde kui keskosa lähedal, sest moment on kaal korda kaugus tasakaalupunktist; all vesi liigub trimmitankide vahel. Kalded on liialdatud, Widari tehaseandmeid joonis ei esita.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "mida-ütlevad-kullakangi-märgid",
+  "peatukk": 14,
+  "pealkiri": "Mida ütlevad kullakangi märgid?",
+  "tekst": "Kangi number võimaldab eset nimekirjaga võrrelda. Proov väljendab kullasisaldust tuhandikes: loos loetud 996,4 tähendab 99,64 protsenti kulda massi järgi. Tempel üksi ei tõenda kulla õiguspärast päritolu ega anna täielikku omanike ajalugu.\n\nInglise Panga 1997. aasta ülevaade kirjeldab kaht kotka ja haakristiga kangi, mis pärinesid röövitud Belgia kullavarust. Kuld oli ümber sulatatud ning kangidele löödud varasem, 1938. aasta daatum, et päritolu varjata. Seega võis ka pealtnäha selge märgistus eksitada. Kõik sõjaaegsed kangid polnud ühesuguste templitega; ajaloolise näite põhjal ei saa määrata romaani lasti iga kangi päritolu.",
+  "allikad": [
+   {
+    "tekst": "Bank of England · Old Lady Article on Nazi Gold · september 1997",
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/freedom-of-information/2016/old-lady-article-on-nazi-gold.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Lähivaade ajaloolise kangi templitele koos viitadega „number”, „proov” ja „tempel”. Võrdluseks sobib nimetatud Inglise Panga artiklis avaldatud foto. Foto allkirjas säilitada tegeliku eseme päritolu ning eristada seda romaani väljamõeldud kangist. Natsionaalsotsialistlik sümboolika jääb siin dokumenteeritava eseme tunnuseks."
+  ]
+ },
+ {
+  "marker": "neli-tonni-kuid-kõigest-tünnitäis-metalli",
+  "peatukk": 14,
+  "pealkiri": "Neli tonni, kuid kõigest tünnitäis metalli",
+  "tekst": "Kulla tihedus on ligikaudu 19,3 kilogrammi liitri kohta. Neli tonni peaaegu puhast kulda võtab seega umbes 207 liitrit. See on metalli enda ruumala: kangide vahele jääv õhk, pakkematerjal ja puukastid võtavad lisaruumi. Umbes 12,5-kilone kang mahutab ruumalalt kõigest ligikaudu 0,65 liitrit metalli. Sellepärast võib kangi esimest korda tõstes silma järgi hinnatud raskus tugevasti petta.\n\nSuured pangakullakangid pole kõik täpselt sama kaaluga. Bundesbanki rahamuuseumi käega tõstetav näidiskang kaalub umbes 12,5 kilo. Romaanis kontrollitakse lasti pakkimisnimekirja järgi; nelja kangi kohta ei eeldata automaatselt, et igaüks kaalub täpselt 12,5 kilo. Samuti pole neli tonni kulda koos pakendiga enam neljatonnine koorem.",
+  "allikad": [
+   {
+    "tekst": "Royal Society of Chemistry · Gold · tihedus",
+    "url": "https://periodic-table.rsc.org/element/79/"
+   },
+   {
+    "tekst": "Deutsche Bundesbank · Goldbarren zum Anfassen",
+    "url": "https://www.bundesbank.de/de/aufgaben/bargeld/gold"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Kõrvuti ligikaudu 12,5-kilone kullakang ja liitrine mõõdunõu, millel on märgitud 0,65 liitri kõrgus. Teine võrdlus näitab 207-liitrist ruumala ning selle kõrval eraldi kaheksakümmet pakitud kasti. Pildi allkirjas rõhutada, et esimene näitab üksnes metalli ruumala. Kaalutunde edasiandmiseks sobib lingitav võrdlus Bundesbanki muuseumi tõstetava kangiga. Ruumalad on allikate andmete põhjal arvutatud ligikaudsed väärtused."
+  ],
+  "pilt": "kulla-ruumala.svg",
+  "pildi_allkiri": "Ligikaudne võrdlus: 12,5-kilose kangi metall mahuks umbes 0,65 liitrisse; neli tonni kulda on umbes 207 liitrit metalli, veidi üle ühe vaadi. Kõrval kaheksakümmend kasti, mis võtavad pakendiga mitu korda rohkem ruumi.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "klapp-mida-tihendati-lihvimisega",
+  "peatukk": 15,
+  "pealkiri": "Klapp, mida tihendati lihvimisega",
+  "tekst": "Allveelaeva diisli väljalasketee pidi laskma kuuma gaasi välja ja sukeldumisel merevee eemal hoidma. Tavalise pehme tihendi kasutamine polnud kuumade väljalaskeklappide juures lihtne lahendus. Briti U-570 tehniline aruanne kirjeldab metall-metall-vastu klappe, mille tihenduspindu sai sulgemisel pöörava liikumisega kokku lihvida. Välise klapi mehhanismi käitas väike suruõhumootor; sisemise grupiklapi vastav seade oli käsiajamiga. Nii püüti säilitada veetihedust hoolimata kuumusest ja tahmast.\n\nTerve ja korralikult suletud klapp ei kõrvalda aga mõra selle kõrval olevas kere läbiviigus. Romaanis pääseb vesi sisse ühenduse kahjustuse kaudu. Pinnal seatud kate ja toestus piiravad leket, kuid nende olemasolu ei tõenda, et ühendus taluks uut sukeldumist.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · U-570 Briti tehniline aruanne · Muffler Valve Grinding Gear, lk 34",
+    "url": "https://www.uboatarchive.net/U-570/U-570BritishReport.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Selge lõige väljalasketeest koos sulgurite ja survekerega. Eraldi suurenduses näidata klapi ning pesa kokkupuutepinda ja klapi pööramist. Romaani mõra asukoht märkida põhimõtteskeemil, eristades seda ajaloolise U-570 tegelikust seisukorrast. Vältida mootori silindris asuva väljalaskeklapi kujutamist selle merd sulgeva seadme asemel."
+  ],
+  "pilt": "valjalaskeklapp.svg",
+  "pildi_allkiri": "Põhimõtteskeem: väljalasketoru läheb läbi survekere, sees on sisemine ja väljas välimine klapp. Suurendus näitab metallist taldrikut ja pesa, mis sulgemisel pöörates kokku lihviti. Punane mõra läbiviigu kõrval on romaani oma, mitte U-570 seisukord.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "pootsmani-vile-töökorraldus-üle-teki",
+  "peatukk": 15,
+  "pealkiri": "Pootsmani vile: töökorraldus üle teki",
+  "tekst": "Pootsmani vile ehk boatswain’s call oli praktiline sidevahend ajal, mil tuul, purjed ja laevatöö müra võisid hüüu summutada. Selle heliga kutsuti tähelepanu ja anti kokkulepitud korraldusi. USA mereväe ajalookäsitlus seob vile muu hulgas inimeste pardale tõstmise juhtimisega: tuli märku anda, millal tõsta ja millal peatuda. Hilisem tseremoniaalne kasutus säilitas osa vanadest töövõtetest.\n\nPeatükis tõmbab vile vintsimehe tähelepanu; tõstmise korraldus kinnitatakse käemärgiga. Romaan ei eelda, et iga riigi kaubalaev kasutas ühesugust mereväe signaalide süsteemi.\n\nHelinäite kirjeldus: lühike tänapäevane näidissalvestis ehtsa pootsmanivilega — esmalt madal ja kõrge toon eraldi, seejärel kokkulepitud töömärguande näidis. Kõrvale lisada vastav tähendus ja kasutatud meretraditsioon. Eesmärk on kuulda, kuidas väike pill kannab korraldust; taustamuusikat ega merekohinat pole vaja. See on salvestise kavand, mitte leitud 1945. aasta originaalheli.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · Boatswain’s call",
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-62326"
+   },
+   {
+    "tekst": "Naval History and Heritage Command · Nautical Terms and Phrases · Piping",
+    "url": "https://www.history.navy.mil/browse-by-topic/heritage/speak-like-a-sailor/nautical-terms-and-phrases-their-meaning-and-origin.html"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. Lühike tänapäevane näidissalvestis ehtsa pootsmanivilega: esmalt madal ja kõrge toon eraldi, seejärel kokkulepitud töömärguande näidis; kõrvale vastav tähendus ja meretraditsioon. Eesmärk on kuulda, kuidas väike pill kannab korraldust; taustamuusikat ega merekohinat pole vaja. See on salvestise kavand, mitte leitud 1945. aasta originaalheli. Pildil lähivõte vilest ja seda hoidvast käest; Royal Museums Greenwichi kaunistatud hõbevile asemel võib auriku töövile joonisel olla lihtne metallist ese."
+  ]
+ },
+ {
+  "marker": "miks-ballasti-võtmine-ei-tähenda-veel-laeva-uputamist",
+  "peatukk": 15,
+  "pealkiri": "Miks ballasti võtmine ei tähenda veel laeva uputamist?",
+  "tekst": "Tavalisel sukeldumisel võetakse vesi ballastitankidesse ning meeskonna ja seadmetega survekere jääb kuivaks. Paat säilitab võimaluse vett suruõhuga välja tõrjuda ja pinnale tõusta. Laeva tahtlikul uputamisel püütakse seda taastumisvõimalust kõrvaldada, muu hulgas lastes vett survekeresse ja muutes laeva päästmise raskeks.\n\nU-505 vallutamine 4. juunil 1944 näitab, et meeskonna lahkumine ei tähendanud tingimata laeva lõppu. USA pardumisrühm sulges veeteid, taastas tihenduse ja tegeles uputuslaengutega; samuti toodi ära salajasi pabereid. Paat jäi alles. Seda kirjeldab operatsioonis osalenud laevarühma aruanne. Romaani U-398 saatus on väljamõeldud; ajalooline juhtum aitab selgitada, miks inimesed, dokumendid ja laeva lõplik seisund kontrolliti eraldi üle.",
+  "allikad": [
+   {
+    "tekst": "VIIC käsiraamat · sukeldumis- ja ballastisüsteemid",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "U-boat Archive · Task Group 22.3 · Capture of German Submarine U-505",
+    "url": "https://www.uboatarchive.net/U-505A/U-505TG22.3Report.htm"
+   },
+   {
+    "tekst": "Naval History and Heritage Command · U-505 Capture",
+    "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1944/u-505-capture.html"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Kaks lihtsat lõiget. Ühel on vesi ballastitankides ja kuiv survekere, teisel vesi ka survekere sees. Võrdluseks võib lisada arhiivifoto U-505 pardumisest, säilitades tegeliku laevanime ja kuupäeva. Täpset laengute paigutust ega süüteseadme skeemi selle põhimõtte seletamiseks vaja pole."
+  ],
+  "pilt": "ballast-uputus.svg",
+  "pildi_allkiri": "Lihtsustatud ristlõiked: sukeldumisel on vesi ballastitankides ja survekere kuiv, suruõhuga saab vee välja puhuda; uputamisel pääseb vesi survekere sisse ja paat ei saa enam ise tõusta.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  }
 ]

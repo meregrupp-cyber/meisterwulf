@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "T1GK1esiYe04iclL",
-  "ct": "DsFjQ2Wye7oqXQVJC5GVarcl"
+  "iv": "l5q5pYCAs/C6tZuC",
+  "ct": "Z/4Qqfmt8WFugc1uL8WhiRyj"
  },
  "peatukid": [
   {
@@ -189,9 +189,9 @@
    "ord": 14,
    "osa": 3,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Atlandi ookean, Rockallist läänes, 9. mai 1945"
   },
   {
    "slug": "peatukk-15",
@@ -200,9 +200,9 @@
    "ord": 15,
    "osa": 3,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Atlandi ookean, Rockallist läänes, 10. mai 1945"
   },
   {
    "slug": "peatukk-16",
