@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Päästevöö ja julgestusvöö</title>
+  <desc id="d">Animatsioon, seletav joonis. Vasakul kummist päästevöö: kui rõngast tõmmata, laseb väike suruõhuballoon õhu vöösse ja lame kummikott paisub. Paremal teine vahend: tekil töötaja julgestusvöö, millest läheb liin laeva kindla kinnituse külge. Päästevöö hoiab vees pinnal, julgestusvöö ühendab inimese laevaga. Ühegi muuseumieseme täpne mudel ei ole.</desc>
+  <rect width="760" height="420" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="28" font-size="16">Kaks vööd, kaks ülesannet</text>
+    <text x="20" y="54" font-size="13">1. Kummist päästevöö: hoiab vees pinnal</text>
+    <text x="470" y="54" font-size="13">2. Julgestusvöö: hoiab laeva küljes</text>
+  </g>
+
+  <!-- päästevöö: kummikott -->
+  <g>
+    <path d="M60 170 Q60 150 90 150 H330 Q360 150 360 170 Q360 190 330 190 H90 Q60 190 60 170 Z" fill="#c9722a" stroke="#6b3a12" stroke-width="3">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" keyTimes="0;0.3;0.55;0.9;1"
+        values="M60 170 Q60 164 90 164 H330 Q360 164 360 170 Q360 176 330 176 H90 Q60 176 60 170 Z;M60 170 Q60 164 90 164 H330 Q360 164 360 170 Q360 176 330 176 H90 Q60 176 60 170 Z;M60 170 Q60 132 90 132 H330 Q360 132 360 170 Q360 208 330 208 H90 Q60 208 60 170 Z;M60 170 Q60 132 90 132 H330 Q360 132 360 170 Q360 208 330 208 H90 Q60 208 60 170 Z;M60 170 Q60 164 90 164 H330 Q360 164 360 170 Q360 176 330 176 H90 Q60 176 60 170 Z"/>
+    </path>
+    <!-- rihm -->
+    <rect x="30" y="166" width="30" height="8" fill="#5a3f16"/><rect x="360" y="166" width="30" height="8" fill="#5a3f16"/>
+    <rect x="388" y="160" width="14" height="20" rx="3" fill="none" stroke="#5a3f16" stroke-width="3"/>
+  </g>
+  <!-- ballon ja ventiil -->
+  <rect x="180" y="214" width="70" height="22" rx="10" fill="#8a8a8a" stroke="#4a4a4a" stroke-width="2"/>
+  <path d="M215 214 V200" stroke="#4a4a4a" stroke-width="4">
+    <animate attributeName="d" values="M215 214 V176;M215 214 V176;M215 214 V208;M215 214 V208;M215 214 V176" keyTimes="0;0.3;0.55;0.9;1" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <!-- tõmberõngas -->
+  <line x1="250" y1="225" x2="286" y2="240" stroke="#4a4a4a" stroke-width="2">
+    <animate attributeName="y2" values="240;240;262;262;240" keyTimes="0;0.25;0.3;0.9;1" dur="8s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="294" cy="244" r="10" fill="none" stroke="#8a1c1c" stroke-width="4">
+    <animate attributeName="cy" values="244;244;266;266;244" keyTimes="0;0.25;0.3;0.9;1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- õhuvool -->
+  <g fill="#1f4e79" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.3;0.32;0.55;1" dur="8s" repeatCount="indefinite"/>
+    <circle cx="215" cy="196" r="3"><animate attributeName="cy" values="210;172" dur="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="205" cy="196" r="2.5"><animate attributeName="cy" values="210;168" dur="0.7s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="225" cy="196" r="2.5"><animate attributeName="cy" values="210;170" dur="0.5s" begin="0.35s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="60" y="106">kummikott: lame, kuni õhku sisse ei lasta</text>
+    <line x1="140" y1="112" x2="150" y2="146" stroke="#2b1d10" stroke-width="1"/>
+    <text x="90" y="262">väike suruõhuballoon</text>
+    <text x="312" y="280" fill="#8a1c1c">tõmberõngas</text>
+    <text x="30" y="306">Inimene tõmbab rõngast ise; ballooni õhk täidab kummi.</text>
+    <text x="30" y="324">Vöö ei käivitu veega kokku puutudes iseenesest.</text>
+  </g>
+  <text x="250" y="124" font-family="Georgia, serif" font-size="12" fill="#6b3a12" opacity="0">täis: annab ujuvust
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.56;0.9;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- julgestusvöö -->
+  <rect x="470" y="330" width="270" height="12" fill="#6b6b6b"/>
+  <text x="470" y="360" font-family="Georgia, serif" font-size="11" fill="#5a3f16">tekk</text>
+  <!-- kinnitus -->
+  <path d="M700 330 V312 H720 V330" fill="none" stroke="#2b1d10" stroke-width="5"/>
+  <text x="740" y="360" font-family="Georgia, serif" font-size="11" fill="#2b1d10" text-anchor="end">kindel kinnitus</text>
+  <!-- inimene -->
+  <circle cx="560" cy="170" r="16" fill="#c89a7a"/>
+  <path d="M540 190 H580 L586 270 H534 Z" fill="#5a4a3a"/>
+  <path d="M540 270 L534 330 M580 270 L588 330" stroke="#3a2e22" stroke-width="12" stroke-linecap="round"/>
+  <!-- vöö ja liin -->
+  <rect x="532" y="238" width="58" height="12" fill="#8a6a1c"/>
+  <circle cx="596" cy="244" r="5" fill="none" stroke="#4a4a4a" stroke-width="3"/>
+  <path d="M600 246 Q650 300 710 314" fill="none" stroke="#1f4e79" stroke-width="3">
+    <animate attributeName="d" values="M600 246 Q650 300 710 314;M600 246 Q660 270 710 314;M600 246 Q650 300 710 314" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="620" y="226">julgestusvöö</text>
+    <text x="650" y="268" fill="#1f4e79">liin</text>
+    <text x="470" y="386">Liin ühendab tekil töötaja laeva külge;</text>
+    <text x="470" y="402">ujuvust see ei anna.</text>
+  </g>
+</svg>
