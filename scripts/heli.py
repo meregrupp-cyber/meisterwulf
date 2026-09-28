@@ -13,7 +13,7 @@ kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid), di
 diisli käivitamine suruõhuga), praam (väikese praami tihke mootor ja lahtine plekk), snorkel (šnorklisõit:
 peaklapp sulgub, diislid summutuvad ja rõhk langeb), kruvi-kinni (sõukruvi takerdub trossi: kolksud,
 kraapimine, rappumine, seiskumine), kaks-kruvi (kahe laeva sõukruvid hüdrofonis:
-kiirem, aeglasem, siis mõlemad korraga), pootsmanivile (madal ja kõrge toon, siis töömärguanne).
+kiirem, aeglasem, siis mõlemad korraga).
 Merelaineid meelega ei ole. Kõik on heliillustratsioonid, mitte ajaloolised salvestised.
 Vajab: numpy, imageio-ffmpeg (python3 -m pip install numpy imageio-ffmpeg).
 """
@@ -315,25 +315,6 @@ def kaks_kruvi(sec=12.0):
     return fade(norm(out + base, 0.8), 300, 700)
 
 
-def pootsmanivile(sec=7.5):
-    """Pootsmanivile: esmalt madal ja kõrge toon eraldi, siis töömärguanne (tõus kõrgele, trillerdav kõrge toon, langus)."""
-    out = np.zeros(int(SR * sec))
-    def toon(f0, f1, d, trill=0.0):
-        tt = t(d); f = np.linspace(f0, f1, len(tt))
-        ph = 2 * np.pi * np.cumsum(f) / SR
-        x = np.sin(ph) + 0.18 * np.sin(2 * ph) + 0.06 * np.sin(3 * ph)
-        if trill: x *= 0.65 + 0.35 * np.sin(2 * np.pi * trill * tt)
-        x += lowpass_fast(rng.normal(0, 1, len(tt)), 3) * 0.05          # hingus
-        return fade(x, 25, 60)
-    mix_at(out, toon(1450, 1450, 0.7) * 0.6, 0.3)            # madal toon
-    mix_at(out, toon(2750, 2750, 0.7) * 0.5, 1.4)            # kõrge toon
-    mix_at(out, toon(1450, 2750, 0.35) * 0.55, 2.8)          # märguanne: tõus
-    mix_at(out, toon(2750, 2750, 1.6, trill=18) * 0.5, 3.15) # trillerdav kõrge
-    mix_at(out, toon(2750, 1450, 0.5) * 0.55, 4.75)          # langus
-    mix_at(out, toon(1450, 1450, 0.8) * 0.6, 5.25)
-    return fade(norm(out, 0.7), 20, 400)
-
-
 def write_mp3(x, path: Path):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -347,7 +328,7 @@ def write_mp3(x, path: Path):
     print(f"  {path.relative_to(ROOT)}  {len(x) / SR:.1f} s, {path.stat().st_size // 1024} KB")
 
 
-MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel, "kruvi-kinni": kruvi_kinni, "kaks-kruvi": kaks_kruvi, "pootsmanivile": pootsmanivile}
+MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel, "kruvi-kinni": kruvi_kinni, "kaks-kruvi": kaks_kruvi}
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "koik":
