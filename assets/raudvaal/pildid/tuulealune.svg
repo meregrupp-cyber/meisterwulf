@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Tuulealune parras</title>
+  <desc id="d">Kaheosaline joonis. Ülal ülaltvaade: tuul ja teise nurga alt tulev ummiklaine löövad vastu allveelaeva ühte külge; teisel küljel, tuulealuses pardas, on vesi rahulikum ja seal ootab kummipaat, traaler hoiab eemale. All animeeritud kõrvalvaade: allveelaev ja kummipaat kerkivad ja vajuvad eri ajal, nii et paat on kord teki kõrgusel, kord sellest palju madalamal. Paremal võrdlus: last vähendab paadi vaba pardakõrgust. Joonis selgitab romaani olukorda, see ei ole ajaloolise üleandmise dokument.</desc>
+  <defs>
+    <marker id="nool" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1f4e79"/></marker>
+    <marker id="noolp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#8a1c1c"/></marker>
+  </defs>
+  <rect width="760" height="460" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="28" font-size="16">Tuulealune parras ja kahe aluse erinev liikumine</text>
+    <text x="20" y="52" font-size="13">1. Ülaltvaade</text>
+  </g>
+  <!-- meri -->
+  <rect x="20" y="62" width="720" height="178" fill="#cfe0ee"/>
+  <!-- rahulikum vesi tuulealuses -->
+  <path d="M170 150 H560 L620 236 H120 Z" fill="#e3edf5"/>
+  <!-- tuul -->
+  <g stroke="#8a1c1c" stroke-width="3" marker-end="url(#noolp)">
+    <line x1="210" y1="70" x2="250" y2="112"/><line x1="330" y1="70" x2="370" y2="112"/><line x1="450" y1="70" x2="490" y2="112"/>
+  </g>
+  <text x="560" y="84" font-family="Georgia, serif" font-size="12" fill="#8a1c1c">tuul</text>
+  <!-- ummiklaine -->
+  <g stroke="#1f4e79" stroke-width="2" fill="none">
+    <path d="M40 80 q20 10 40 0 t40 0" /><path d="M40 100 q20 10 40 0 t40 0"/><path d="M40 120 q20 10 40 0 t40 0"/>
+  </g>
+  <line x1="60" y1="140" x2="150" y2="128" stroke="#1f4e79" stroke-width="3" marker-end="url(#nool)"/>
+  <text x="30" y="160" font-family="Georgia, serif" font-size="12" fill="#1f4e79">ummiklaine teise</text>
+  <text x="30" y="174" font-family="Georgia, serif" font-size="12" fill="#1f4e79">nurga alt</text>
+  <!-- Widar -->
+  <path d="M170 132 Q175 118 200 116 H520 Q560 120 580 132 Q560 146 520 148 H200 Q175 146 170 132 Z" fill="#6b6b6b"/>
+  <rect x="330" y="122" width="50" height="20" rx="6" fill="#4a4a4a"/>
+  <text x="250" y="137" font-family="Georgia, serif" font-size="12" fill="#fff">Widar</text>
+  <!-- vendrid -->
+  <g fill="#8a6a1c"><circle cx="300" cy="150" r="4"/><circle cx="330" cy="150" r="4"/><circle cx="360" cy="150" r="4"/></g>
+  <!-- kummipaat -->
+  <ellipse cx="330" cy="172" rx="26" ry="11" fill="#e0a526" stroke="#8a6a1c" stroke-width="2"/>
+  <line x1="330" y1="150" x2="330" y2="161" stroke="#2b1d10" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="364" y="178" font-family="Georgia, serif" font-size="12" fill="#2b1d10">kummipaat</text>
+  <text x="190" y="214" font-family="Georgia, serif" font-size="12" fill="#2b1d10">tuulealune parras: vesi rahulikum, kuid mitte vaikne</text>
+  <!-- traaler -->
+  <path d="M640 196 Q648 186 668 186 H700 Q712 190 716 198 Q712 206 700 208 H668 Q648 206 640 196 Z" fill="#5a3f16"/>
+  <rect x="676" y="190" width="14" height="12" fill="#2b1d10"/>
+  <text x="606" y="228" font-family="Georgia, serif" font-size="12" fill="#2b1d10">traaler hoiab eemale</text>
+
+  <!-- 2. kõrvalvaade -->
+  <text x="20" y="266" font-family="Georgia, serif" font-size="13" fill="#2b1d10">2. Kõrvalvaade: alused kerkivad eri ajal</text>
+  <rect x="20" y="276" width="420" height="170" fill="#e6eef2"/>
+  <rect x="20" y="370" width="420" height="76" fill="#cfe0ee">
+    <animate attributeName="y" values="370;356;370;384;370" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <!-- allveelaeva kere ristlõige -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0;0 6;0 0" dur="6s" repeatCount="indefinite"/>
+    <path d="M60 330 H220 L236 346 Q200 420 140 420 Q80 420 50 360 Z" fill="#6b6b6b"/>
+    <rect x="60" y="324" width="160" height="8" fill="#8a8a8a"/>
+    <text x="84" y="318" font-family="Georgia, serif" font-size="11" fill="#2b1d10">Widari tekk</text>
+    <circle cx="240" cy="352" r="6" fill="#8a6a1c"/>
+  </g>
+  <!-- kummipaat, teine faas -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 -14;0 18;0 34;0 4;0 -14" dur="6s" repeatCount="indefinite"/>
+    <path d="M262 356 H372 Q380 356 380 364 V372 Q380 380 372 380 H262 Q254 380 254 372 V364 Q254 356 262 356 Z" fill="#e0a526" stroke="#8a6a1c" stroke-width="2"/>
+    <text x="276" y="398" font-family="Georgia, serif" font-size="11" fill="#2b1d10">kummipaat</text>
+  </g>
+  <text x="262" y="300" font-family="Georgia, serif" font-size="11" fill="#8a1c1c">ümberastumise oht:</text>
+  <text x="262" y="314" font-family="Georgia, serif" font-size="11" fill="#8a1c1c">tugi kaob jala alt</text>
+
+  <!-- 3. vaba pardakõrgus -->
+  <text x="470" y="266" font-family="Georgia, serif" font-size="13" fill="#2b1d10">3. Vaba pardakõrgus</text>
+  <rect x="470" y="276" width="270" height="170" fill="#e6eef2"/>
+  <rect x="470" y="372" width="270" height="74" fill="#cfe0ee"/>
+  <!-- tühi paat -->
+  <path d="M488 346 H588 Q596 346 596 354 V372 Q596 380 588 380 H488 Q480 380 480 372 V354 Q480 346 488 346 Z" fill="#e0a526" stroke="#8a6a1c" stroke-width="2"/>
+  <path d="M604 346 V372" stroke="#8a1c1c" stroke-width="2"/><path d="M600 346 H608 M600 372 H608" stroke="#8a1c1c" stroke-width="2"/>
+  <text x="486" y="404" font-family="Georgia, serif" font-size="11" fill="#2b1d10">tühjalt: palju parrast</text>
+  <!-- koormatud paat -->
+  <path d="M628 362 H716 Q724 362 724 370 V388 Q724 396 716 396 H628 Q620 396 620 388 V370 Q620 362 628 362 Z" fill="#e0a526" stroke="#8a6a1c" stroke-width="2"/>
+  <rect x="636" y="348" width="26" height="18" fill="#8a5a2e"/><rect x="668" y="348" width="26" height="18" fill="#8a5a2e"/>
+  <path d="M730 362 V372" stroke="#8a1c1c" stroke-width="2"/><path d="M726 362 H734 M726 372 H734" stroke="#8a1c1c" stroke-width="2"/>
+  <text x="620" y="420" font-family="Georgia, serif" font-size="11" fill="#2b1d10">kastidega: vesi</text>
+  <text x="620" y="434" font-family="Georgia, serif" font-size="11" fill="#2b1d10">pääseb kergesti üle ääre</text>
+</svg>

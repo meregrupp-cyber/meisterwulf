@@ -77,6 +77,13 @@
   ]
  },
  {
+  "saksa": "An Land wartet niemand bis morgen. Die Fahrzeuge stehen bereit. Lassen Sie uns hinüber, dann können Sie mit dem Kapitän über den Rest sprechen. Ich werde ihm erklären, was hier geschehen ist.",
+  "tolge": "Maal ei oota keegi homseni. Sõidukid on valmis. Laske meil üle minna, siis saate kapteniga ülejäänust rääkida. Mina selgitan talle, mis siin juhtunud on.",
+  "peatukid": [
+   "XX"
+  ]
+ },
+ {
   "saksa": "Auch Ihr Mann nennt sich von Wulf?",
   "tolge": "„Ka teie mees nimetab end von Wulfiks?”",
   "peatukid": [
@@ -340,6 +347,13 @@
   "tolge": "Siis jääme oma inimeste juurde. Mida tähendab R nende nimede kõrval? Ja kes saab lubatud dokumendid?",
   "peatukid": [
    "XIII"
+  ]
+ },
+ {
+  "saksa": "Dann bleibt diese Kiste hier. Die alte Leine wird nicht zum Heben benutzt. Ich will sie erst ganz sehen. Haben Sie mich verstanden?",
+  "tolge": "Siis jääb see kast siia. Vana liiniga ei tõsteta. Tahan selle enne tervenisti üle vaadata. Kas saite minust aru?",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -630,6 +644,13 @@
   ]
  },
  {
+  "saksa": "Der Passagier ist jetzt an der Reihe. Nach Dr. Schrade, vor der Ladung. So lautet die Anweisung. Wir gehen nicht noch einmal mit ihm hinunter.",
+  "tolge": "Nüüd on reisija kord. Pärast doktor Schradet, enne lasti. Selline on korraldus. Me ei lähe temaga veel kord alla.",
+  "peatukid": [
+   "XX"
+  ]
+ },
+ {
   "saksa": "Der rechte Kurat arbeitet nicht.",
   "tolge": "Parempoolne kurat ei tööta.",
   "peatukid": [
@@ -767,6 +788,13 @@
   "tolge": "Ühendus võetakse lahti enne, kui lainetus meid selleks sunnib. Kõigepealt teie inimesed tagasi, siis voolikud ja otsad.",
   "peatukid": [
    "XIII"
+  ]
+ },
+ {
+  "saksa": "Die Verschnürung bleibt, wie sie ist. Ich übergebe die Stücke mit unbeschädigten Siegeln. Für das Öffnen fehlt Ihnen die Befugnis.",
+  "tolge": "Sidumisköied jäävad nii, nagu nad on. Mina annan saadetised üle tervete plommidega. Teil pole õigust neid avada.",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -959,6 +987,13 @@
   ]
  },
  {
+  "saksa": "Er ist weg.",
+  "tolge": "Ta on läinud.",
+  "peatukid": [
+   "XX"
+  ]
+ },
+ {
   "saksa": "Er überlebt den Untergang. Und er tötet den Wolf. Für ein Boot, das eine Familie Wulf aufnehmen soll, ist das ein eigentümlicher Name.",
   "tolge": "Ta jääb maailma hukus ellu. Ja tapab hundi. Paadi jaoks, mis peab Wulfi perekonna peale võtma, on see iseäralik nimi.",
   "peatukid": [
@@ -1012,6 +1047,13 @@
   "tolge": "Valmis.",
   "peatukid": [
    "IX"
+  ]
+ },
+ {
+  "saksa": "Feuer einstellen! Unsere Männer sind im Wasser!",
+  "tolge": "Tuli seis! Meie mehed on vees!",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -1131,6 +1173,13 @@
   "tolge": "Rootsi keeles: „Hei, seal! Mis paat see on?”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Halt! Noch nicht ziehen!",
+  "tolge": "Pea! Veel ei tõmba!",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -1267,6 +1316,20 @@
   ]
  },
  {
+  "saksa": "Ich habe das Boot. Die Wachen bleiben bestehen. Krüger, lassen Sie die Waffen einsammeln. Und holen Sie den Arzt.",
+  "tolge": "Mina juhin paati. Vahikorrad jäävad kehtima. Krüger, laske relvad kokku korjata. Ja kutsuge arst.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
+  "saksa": "Ich habe die Zusage, dass die Besatzung versorgt wird. Auch die Männer ohne neue Papiere. Mehr kann ich Ihnen heute nicht sagen.",
+  "tolge": "Mulle on kinnitatud, et meeskonna eest kantakse hoolt. Ka nende meeste eest, kes uusi pabereid ei saa. Rohkem ei oska ma teile täna öelda.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Ich habe eine Frau in Deutschland. Wie soll sie mich finden, wenn ich einen anderen Namen trage? Sie weiß ja nicht einmal, wo ich jetzt bin.",
   "tolge": "Mul on Saksamaal naine. Kuidas ta mind üles leiab, kui mul on teine nimi? Ta ei tea ju sedagi, kus ma praegu olen.",
   "peatukid": [
@@ -1274,10 +1337,24 @@
   ]
  },
  {
+  "saksa": "Ich habe geschossen. Auf den Mann mit der Pistole. Villem stand dahinter.",
+  "tolge": "Mina tulistasin. Seda meest, kellel oli püstol. Villem seisis tema taga.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Ich habe ihn als Schiffbrüchigen aufgenommen.",
   "tolge": "„Ma võtsin ta pardale merehädalisena.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Ich habe ihn gesehen. Das ist ein kranker Mann, weiter nichts. Wir wissen doch alle, was aus Berlin gemeldet wurde.",
+  "tolge": "Ma olen teda näinud. See on haige mees, muud midagi. Me kõik ju teame, mida Berliinist teatati.",
+  "peatukid": [
+   "XIX"
   ]
  },
  {
@@ -1555,6 +1632,13 @@
   ]
  },
  {
+  "saksa": "Kisten zurück! Niemand steigt ein!",
+  "tolge": "Kastid tagasi! Keegi ei astu paati!",
+  "peatukid": [
+   "XX"
+  ]
+ },
+ {
   "saksa": "Klar zum Ablegen!",
   "tolge": "„Valmis kaist lahkumiseks!”",
   "peatukid": [
@@ -1660,6 +1744,13 @@
   ]
  },
  {
+  "saksa": "Lassen Sie los!",
+  "tolge": "Laske lahti!",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Laufplanke weg!",
   "tolge": "„Ülekäigulaud ära!”",
   "peatukid": [
@@ -1692,6 +1783,13 @@
   "tolge": "„Jätke lõdvaks!”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Mann über Bord!",
+  "tolge": "Mees üle parda!",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -1735,6 +1833,13 @@
   "tolge": "Minu vahetus?",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Meine Leute haben Sprengladungen an Bord angebracht. Falls Sie die Übergabe verhindern, werden Sie mit diesem Boot nicht weiterfahren. Überlegen Sie gut, wem Sie hier etwas versprechen.",
+  "tolge": "Minu mehed on pardale lõhkelaengud paigutanud. Kui te üleandmist takistate, ei sõida te selle paadiga enam edasi. Mõelge hästi järele, kellele te siin midagi lubate.",
+  "peatukid": [
+   "XIX"
   ]
  },
  {
@@ -1826,6 +1931,13 @@
   "tolge": "„Ainult tagavaralampidega mitte. Siin on rohkem asju lahti rebenenud.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "Mit Hilfe. Aber er bleibt nicht mehr liegen. Was ich ihm sonst gegeben habe, ist aufgebraucht. Ich kann ihn jetzt nicht einfach wieder ruhigstellen.",
+  "tolge": "Abiga küll. Aga ta ei püsi enam pikali. See, mida ma talle tavaliselt andsin, on otsas. Ma ei saa teda praegu lihtsalt uuesti ravimiga rahustada.",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -1934,6 +2046,13 @@
   ]
  },
  {
+  "saksa": "Nicht mehr schießen! Alle Waffen runter. Sofort!",
+  "tolge": "Enam ei tulista! Kõik relvad alla. Kohe!",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Nicht öffnen.",
   "tolge": "„Mitte avada.”",
   "peatukid": [
@@ -1952,6 +2071,13 @@
   "tolge": "„Keegi pole puudu?” Taaniel kinnitab, et kõik on kohal.",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Niemand verlässt seinen Posten ohne Ablösung. Auch wenn es Lärm gibt. Das Boot muss weitergeführt werden. Alles andere kommt danach.",
+  "tolge": "Keegi ei lahku oma kohalt enne vahetaja tulekut. Ka siis, kui tekib lärmi. Paati peab edasi juhtima. Kõik muu tuleb pärast.",
+  "peatukid": [
+   "XIX"
   ]
  },
  {
@@ -2004,6 +2130,13 @@
   ]
  },
  {
+  "saksa": "Ohne mein Wissen. Auf meinem Boot. Und jetzt soll ich dafür sorgen, dass es heil ankommt.",
+  "tolge": "Minu teadmata. Minu paadis. Ja nüüd pean mina hoolitsema selle eest, et see tervelt kohale jõuaks.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Ohne meinen Bruder gehe ich nicht.",
   "tolge": "„Ilma vennata ma ei lähe.”",
   "peatukid": [
@@ -2043,6 +2176,13 @@
   "tolge": "„Isikuline koosseis viia edasi muutmata kujul. Kedagi kaldale üle ei anta.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "R: austauschbar. Keine Zusage persönlicher Dokumente.",
+  "tolge": "„R: asendatav. Isikupaberite kohta lubadus puudub.”",
+  "peatukid": [
+   "XIX"
   ]
  },
  {
@@ -2109,6 +2249,27 @@
   ]
  },
  {
+  "saksa": "Schreiben Sie genau, was Sie gesehen haben. Keine Namen, die Ihnen niemand bestätigt hat. Die Uhrzeit kann ich bezeugen. Den Rest nicht.",
+  "tolge": "Kirjutage täpselt, mida te nägite. Ärge pange kirja nimesid, mida keegi pole teile kinnitanud. Kellaaega võin ma tunnistada. Ülejäänut mitte.",
+  "peatukid": [
+   "XX"
+  ]
+ },
+ {
+  "saksa": "Schreiben Sie nicht, dass er zuerst geschossen hat. Das habe ich nicht gesehen. Das kann ich nicht unterschreiben.",
+  "tolge": "Ärge kirjutage, et tema tulistas esimesena. Seda ma ei näinud. Sellele ma alla kirjutada ei saa.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
+  "saksa": "Sechs Glas. Um zwölf kommt die Ablösung.",
+  "tolge": "Kuus klaasi. Kell kaksteist tuleb vahetus.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Sechs zusätzliche Personen,",
   "tolge": "„Kuus lisareisijat.”",
   "peatukid": [
@@ -2127,6 +2288,13 @@
   "tolge": "Väga naljakas.",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Selbst wenn die Geschichte stimmt, bleibt unser Auftrag bestehen. Darüber wird hier nicht abgestimmt.",
+  "tolge": "Isegi kui see jutt vastab tõele, jääb meie ülesanne jõusse. Selle üle siin ei hääletata.",
+  "peatukid": [
+   "XIX"
   ]
  },
  {
@@ -2165,10 +2333,24 @@
   ]
  },
  {
+  "saksa": "Sie gehen mit Ihrer ganzen Gruppe von Bord. Ihr Arzt und der Passagier ebenfalls. Die Übergabe findet auf See statt. Danach bestimmen Sie weder unseren Kurs noch, wo meine Leute an Land gehen.",
+  "tolge": "Te lahkute pardalt kogu oma rühmaga. Ka teie arst ja reisija. Üleandmine toimub merel. Pärast seda ei määra teie enam meie kurssi ega seda, kus minu inimesed maale lähevad.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Sie gehen unter Deck und warten auf weitere Befehle.",
   "tolge": "„Te lähete alla ja ootate edasisi korraldusi.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Sie haben Ihr erstes Boot verloren. Ich habe für dieses noch die Verantwortung. Glauben Sie nicht, dass ich sie einfach abgeben kann.",
+  "tolge": "Oma esimese paadi te kaotasite. Mina vastutan selle eest ikka veel. Ärge arvake, et võin selle vastutuse lihtsalt käest anda.",
+  "peatukid": [
+   "XIX"
   ]
  },
  {
@@ -2190,6 +2372,20 @@
   "tolge": "„Teie ei tule kaasa.” Otto vastab: „Veel mitte.”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Sie können das Boot nicht einfach behalten. An Land wird man nach Papieren fragen. Und Sie haben kein einziges Papier, das Ihnen dieses Boot überlässt.",
+  "tolge": "Te ei saa paati lihtsalt endale jätta. Maal küsitakse pabereid. Ja teil pole ainsatki paberit, millega see paat teile antaks.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
+  "saksa": "Sie können zuerst hinüber. Zwei Kisten, wie vereinbart. Alles Weitere nur auf mein Zeichen. Wenn Krüger abbricht, wird abgebrochen. Darüber verhandeln wir nicht auf dem Deck.",
+  "tolge": "Teie võite esimesena üle minna. Kaks kasti, nagu kokku lepitud. Kõik edasine toimub ainult minu märguandel. Kui Krüger katkestab, siis katkestatakse. Selle üle me tekil ei vaidle.",
+  "peatukid": [
+   "XX"
   ]
  },
  {
@@ -2536,6 +2732,13 @@
   ]
  },
  {
+  "saksa": "Waffen ins Wasser.",
+  "tolge": "Relvad vette.",
+  "peatukid": [
+   "XIX"
+  ]
+ },
+ {
   "saksa": "Wann haben Sie sich zuletzt bei Ihrer Einheit gemeldet?",
   "tolge": "„Millal te viimati oma väeosas endast teada andsite?”",
   "peatukid": [
@@ -2821,6 +3024,13 @@
   "tolge": "Peame arvestama, et tal võib õigus olla. Mida me siis teeme? Ja mida teeme, kui eksime?",
   "peatukid": [
    "XVIII"
+  ]
+ },
+ {
+  "saksa": "Wir müssen die Übergabe verschieben. Der Wind dreht, und von Westen kommt mehr. Für einen ruhigen Mann reicht es vielleicht noch. Für Ihre ganze Gesellschaft und die Kisten nicht.",
+  "tolge": "Peame üleandmise edasi lükkama. Tuul pöörab ja lääne poolt tuleb juurde. Ühe rahuliku mehe jaoks ehk veel piisab. Kogu teie seltskonna ja kastide jaoks mitte.",
+  "peatukid": [
+   "XX"
   ]
  },
  {
