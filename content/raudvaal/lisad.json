@@ -3428,5 +3428,501 @@
   "pildi_allikas": "Sgt Smith, No 5 Army Film & Photographic Unit, 1945; Imperial War Museums (BU 11294) / Public domain",
   "pildi_litsents": "Public domain",
   "pildi_leht": "https://commons.wikimedia.org/wiki/File:Germany_Under_Allied_Occupation_BU11294.jpg"
+ },
+ {
+  "marker": "kuidas-mereveest-sai-magevesi",
+  "peatukk": 16,
+  "pealkiri": "Kuidas mereveest sai magevesi",
+  "tekst": "Destillaatoris aurustatakse merevesi ja tekkinud aur jahutatakse uuesti veeks. Sool jääb valdavalt aurustisse; kogutud vee soolsust tuleb siiski kontrollida. Saksa allveelaeva U-570 kohta koostatud Briti tehniline aruanne kirjeldab elektrilist destillaatorit, mille juures kasutati soojuse säästmiseks nii kuuma soolvett kui ka valminud destillaati. Vee puhtust kontrollis elektriline soolsusmõõtur. Aruandes antud keskmine tootlikkus oli neli Briti gallonit ehk umbes 18 liitrit tunnis. Need andmed käivad VIIC-tüüpi U-570 kohta. Seadme olemasolu ei tähendanud, et vett võis piiramatult kulutada: seda vajasid inimesed ning destilleeritud vett vajasid ka pliiakud. Peatüki pesuveenorm ei hõlma joogivett ega toiduvalmistamist.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · U-570 Briti tehniline aruanne · Electric Distiller, lk 34",
+    "url": "https://www.uboatarchive.net/U-570/U-570BritishReport.htm"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Lihtne selgitav skeem aurustist, jahutist ja soolsusmõõturist. Merevesi ja kontsentreeruv soolvesi üht värvi, aur ning kogutav magevesi teist värvi. Joonis tutvustab destilleerimise põhimõtet; Widari täpset torustikku pole vaja kujutada."
+  ],
+  "pilt": "destillaator.svg",
+  "pildi_allkiri": "Destilleerimise põhimõte: merevesi keeb aurustis, aur muutub jahutis uuesti veeks ja soolsusmõõtur kontrollib, kas vesi on puhas. Lihtsustatud skeem, mitte Widari torustik.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "pervitin-väsimust-varjav-tablett",
+  "peatukk": 16,
+  "pealkiri": "Pervitin — väsimust varjav tablett",
+  "tekst": "Pervitin oli metamfetamiini sisaldava erguti kaubanimi. Temmler tõi ravimi turule 1938. aastal ning seda kasutati ka Saksa sõjaväes, et väsimust ja unisust ajutiselt maha suruda. Tegemist ei olnud rahustiga. Erguti võis anda erksuse ja enesekindluse tunde, kuid sellega kaasnesid sõltuvuse ning tõsiste kõrvaltoimete ohud. Saksamaal muudeti Pervitin 1941. aastal retseptiravimiks. Väike ravimikarp igapäevaste taskuasjade hulgas aitab mõista, miks närvilisus ja unetus ei pruukinud sõjast tulnud meeste juures kohe eraldi tähelepanu äratada.",
+  "allikad": [
+   {
+    "tekst": "Deutschlandmuseum · Stimulant Pervitin",
+    "url": "https://www.deutschlandmuseum.de/en/collection/stimulant-pervitin/"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Deutschlandmuseumi kogus säilitatava Pervitini originaalpakendi foto, millel kaubanimi on loetav. Näidata pakendit tervikuna ja soovi korral teise vaatena etiketi suurendust; kasutusjuhisest ei ole vaja annustamisnäidet välja tõsta."
+  ],
+  "pilt": "pervitin.jpg",
+  "pildi_allkiri": "Pervitini tablettide tuub ja karp, 1940. aastad. Deutschlandmuseum Berlin.",
+  "pildi_allikas": "Deutschlandmuseum Berlin / CC BY-SA 4.0",
+  "pildi_litsents": "CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Aufputschmittel_Pervitin_Deutschlandmuseum_Berlin,_CC_BY-SA_4.0.jpg"
+ },
+ {
+  "marker": "operatsioon-vee-all",
+  "peatukk": 16,
+  "pealkiri": "Operatsioon vee all",
+  "tekst": "Erakorraline kõhuoperatsioon allveelaeval ei ole pelgalt seiklusromaani võte. 11. septembril 1942 eemaldas USA allveelaeval Seadragon sanitaarallohvitser Wheeler B. Lipes madrus Darrel D. Rectori põletikulise ussripiku. Arsti pardal ei olnud. Komandör viis paadi umbes 37 meetri sügavusse, et operatsiooniks kasutatud ohvitseride söögilaud vähem kõiguks. Osa instrumente tuli asendada käepäraste esemetega, näiteks kasutati painutatud lusikaid. Patsient jäi ellu. See konkreetne juhtum on dokumenteeritud USA mereväe ettekandes; see ei tähenda, et kõigil allveelaevadel olnuks ühesugune meditsiinivarustus või väljaõpe. Stabiilne kurss ja sügavus võisid operatsiooni ajal olla sama tähtsad kui vaba laud ja valgustus.",
+  "allikad": [
+   {
+    "tekst": "Naval History and Heritage Command · Submarine Squadron TWO Report — Appendectomy",
+    "url": "https://www.history.navy.mil/research/library/oral-histories/wwii/oral-history-appendectomy-performed-on-fourth-war-patrol-of-ussseadragon-1942/submarine-squadron-two-report-appendectomy.html"
+   },
+   {
+    "tekst": "Submarine Force Library & Museum · Robert J. Schneller, Surgery on a Submarine",
+    "url": "https://ussnautilus.org/surgery-on-a-submarine/"
+   }
+  ],
+  "markused": [
+   "Lisamaterjali kirjeldus. Katkend 1942. aasta ametlikust ettekandest, milles on kirjas operatsiooni aeg ja paadi sügavus. Kõrval väike eestikeelne selgitus, et 120 jalga on ligikaudu 37 meetrit. Lavastatud operatsioonipilti pole vaja."
+  ],
+  "pilt": "uss-seadragon.jpg",
+  "pildi_allkiri": "USA allveelaev Seadragon (SS-194) 1939. aastal, kolm aastat enne pardal tehtud pimesooleoperatsiooni.",
+  "pildi_allikas": "U.S. Navy, foto 19-N-20953; National Archives / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:USS_Seadragon_(SS-194);0819404.jpg"
+ },
+ {
+  "marker": "klartext-teade-mille-lugemiseks-polnud-võtit-vaja",
+  "peatukk": 17,
+  "pealkiri": "Klartext — teade, mille lugemiseks polnud võtit vaja",
+  "tekst": "1945. aasta mais anti Saksa allveelaevadele käsk saata asukohateated šifreerimata. Ingliskeelses korralduses kasutati lühendit P/L ehk plain language; saksakeelne vaste on Klartext. Sellise teate võis endiselt edastada morsemärkidega, kuid vastuvõtja ei vajanud selle lahtimõtestamiseks salajast võtit. Merel asuva paadi asukoht muutus teatavaks kõigile, kes oskasid vastavat sidet kuulata. Alistumisjuhend nägi ette korralduste kordamise iga kahe tunni järel kuni uue korralduseni.",
+  "allikad": [
+   {
+    "tekst": "HyperWar · Germany Surrenders Unconditionally · mereväe alistumiskorralduse lisa A, lk 25",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Dip/ETO-Surrender-Docs.html"
+   }
+  ],
+  "markused": [
+   "Lisamaterjali kirjeldus. Katkend algdokumendi lisast A, kus on näha lühend P/L ning kordamise intervall. Kõrvale lühikesed eestikeelsed vasted. Romaani saksa tekst annab korralduse põhisisu lühendatult."
+  ],
+  "pilt": "klartext-lisa-a.svg",
+  "pildi_allkiri": "Katkend alistumiskorralduse lisast A (punktid B, C, D, F ja lõpulause) koos eestikeelsete vastetega. P/L = plain language, šifreerimata tekst.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi; tekst: Annexure 'A', Surrender of German 'U' Boat Fleet (HyperWar)"
+ },
+ {
+  "marker": "kapitulatsiooniteate-hääl",
+  "peatukk": 17,
+  "pealkiri": "Kapitulatsiooniteate hääl",
+  "tekst": "Karl Dönitz teatas 8. mail 1945 Flensburgi raadio kaudu Saksa vägede tingimusteta kapitulatsioonist. See annab kaalu Lemke vastusele: alistumine oli välja kuulutatud Saksa juhtkonna enda raadiosõnavõtus. Sõja lõpp jõudis inimesteni eri aegadel ja eri viisil — ametliku korralduse, valjuhääldist kuuldud kõne või kellegi ümberjutustusena. Deutsches Rundfunkarchiv säilitab kõne salvestist tähisega KONF 2833984.",
+  "allikad": [
+   {
+    "tekst": "Deutsches Rundfunkarchiv · Prolog in O-Tönen · Rundfunkansprache von Großadmiral Dönitz zur Kapitulation, KONF 2833984",
+    "url": "https://www.dra.de/de/entdecken/1945-der-krieg-ist-aus/prolog-in-o-toenen-der-lange-weg-aus-dem-krieg/"
+   }
+  ],
+  "markused": [
+   "Heli kirjeldus. Lühike katkend Dönitzi 8. mai 1945 originaalsõnavõtust, kus ta teatab kapitulatsioonist. Säilitada kõneleja hääl ja salvestise loomulik kõla, lisada eestikeelne tõlge. Taustamuusikat ega juurde tehtud raadiohäireid pole vaja. Lõik tuleb valida viidatud arhiivisalvestisest; eraldi helifaili ei ole lisatud."
+  ]
+ },
+ {
+  "marker": "must-lipp-alistuva-allveelaeva-kohal",
+  "peatukk": 17,
+  "pealkiri": "Must lipp alistuva allveelaeva kohal",
+  "tekst": "1945. aasta mai erikorraldus nõudis alistuvatelt Saksa allveelaevadelt päeval suurt musta või sinist lippu ning öösel navigatsioonitulesid. Lipp oli kokkulepitud tunnus, mille järgi lennuki- ja laevameeskonnad said märgata, et allveelaev täidab alistumisjuhiseid. U-249 heiskas musta lipu ja teda eskortisid 9. mail Portlandi lähistele Briti laevad Amethyst ja Magpie. Sellest alistumisest on säilinud fotod.",
+  "allikad": [
+   {
+    "tekst": "HyperWar · Germany Surrenders Unconditionally · mereväe alistumiskorralduse lisa A",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Dip/ETO-Surrender-Docs.html"
+   },
+   {
+    "tekst": "U-boat Archive · U-249 alistumine merel · arhiivifotod",
+    "url": "https://www.uboatarchive.net/U-249A/U-249PhotosSurrenderAtSea.htm"
+   }
+  ],
+  "markused": [
+   "Leitud foto. U-249 alistumise arhiivifoto, millel paistab torn ja heisatud tume lipp. Pildiallkirjas säilitada tegelik laevanimi ning sündmuse aeg. Romaanis õmmeldud lipp jääb esialgu madratsi alla; ajalooline foto näitab, milleks selline tunnus merel mõeldud oli."
+  ],
+  "pilt": "u249-alistumine.jpg",
+  "pildi_allkiri": "U-249 alistub 9. mail 1945 Scilly saarte lähedal; vaade USA mereväe patrull-lennukilt. Lipp ei eristu õhufotol.",
+  "pildi_allikas": "U.S. Navy, foto 80-G-320284; National Archives / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:80-G-320284_(36010597865).jpg"
+ },
+ {
+  "marker": "kuidas-päike-kell-ja-tabelid-asukoha-andsid",
+  "peatukk": 18,
+  "pealkiri": "Kuidas päike, kell ja tabelid asukoha andsid",
+  "tekst": "Sekstant mõõdab nurka taevakeha ja nähtava silmapiiri vahel. Päikese keskpäevase kõrguse ning almanahhist leitud deklinatsiooni — päikese nurkkauguse taevaekvaatorist — abil saab arvutada laiuskraadi. Mõõtmist tuleb parandada muu hulgas vaatleja silma kõrguse ja atmosfääri valgusmurdumise võrra. Pikkuskraadi leidmiseks on vaja teada täpset võrdlusaega: Maa pöördub tunnis 15 kraadi, seega vastab neljale minutile üks pikkuskraad. Sellepärast hoiti merel kronomeetrit, mille näitu ei seatud iga päev kohaliku keskpäeva järgi ümber. Kasutada sai ka pisut ette või taha käivat kella, kui selle viga ja käigu muutus olid teada ning arvutuses arvesse võetud. Eri kellaaegadel tehtud vaatluste ühendamisel tuli arvestada ka laeva vahepealset liikumist.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · What is longitude?",
+    "url": "https://www.rmg.co.uk/stories/time/what-longitude"
+   },
+   {
+    "tekst": "Royal Museums Greenwich · kronomeeter nr 524",
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-248420"
+   }
+  ],
+  "markused": [
+   "Joonise kirjeldus. Selgitav joonis sekstandiga vaatlejast: otse nähtav silmapiir ning peeglist nähtav päikese alumine serv viiakse kokku. Kõrval avatud puukastis merekronomeeter ja väike tabel kella paranduste kohta. Ajalooliseks võrdluseks sobib Royal Museums Greenwichi kogus olev kronomeeter nr 524; selle juures säilinud meresõitja kiri kirjeldab, kuidas arvestati kella päevast mahajäämust. Muuseumieseme fotole jätta selle enda nimi ja dateering."
+  ],
+  "pilt": "sekstant-keskpaev.svg",
+  "pildi_allkiri": "Keskpäevane vaatlus: sekstandiga viiakse päikese alumine serv silmapiirini; kronomeetri viga ja päevane käik kirjutatakse üles. Tabeli arvud on näide.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "neptuni-kohus-ja-ekvaatoriristsed",
+  "peatukk": 18,
+  "pealkiri": "Neptuni kohus ja ekvaatoriristsed",
+  "tekst": "Esimest korda ekvaatorit ületanud meremeeste ristimine on sajanditevanune tava. Algajad toodi merejumal Neptuniks riietunud kaaslase ette ning pidid läbima naljakaid või vahel üsna tooreid katsumusi. Tavasse kuulus veega ülevalamine või vettekastmine; mõnel laeval mängiti ka habemeajamist, kasutades selleks suurt näilist habemenuga. Tegelased ja katsed erinesid laevati. Tavalisest teenistusest eraldi etenduses võis kokast saada merejumal, kelle ees pidid aru andma ka endast kõrgema auastmega esmaületajad. Widari sosinal peetud ristsed on romaani oludest sündinud variant sellest kombest.",
+  "allikad": [
+   {
+    "tekst": "Royal Museums Greenwich · Crossing the line",
+    "url": "https://www.rmg.co.uk/stories/ocean/curatorial/crossing-line"
+   }
+  ],
+  "markused": [
+   "Leitud foto. Royal Museums Greenwichi artiklis avaldatud foto purjelaevalt Passat, 1911. Meeskonnaliikmed on riietunud Neptuniks ja tema kaasaks Salaciaks. Pilt näitab meremeeste endi valmistatud kostüüme; allkirjas säilitada tegelik laevanimi ja aastaarv."
+  ],
+  "pilt": "o21-neptun.jpg",
+  "pildi_allkiri": "Neptun ja tema kaasa Hollandi allveelaeva O 21 ekvaatoripeol, 1940–1945.",
+  "pildi_allikas": "Anefo; Nationaal Archief / CC0",
+  "pildi_litsents": "CC0",
+  "pildi_litsents_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Onderzeeboot_Hr._Ms._O21._Neptunus_festival_bij_het_passeren_van_de_evenaar._N,_Bestanddeelnr_935-0328.jpg"
+ },
+ {
+  "marker": "mida-kuulaja-sõukruvi-helist-otsib",
+  "peatukk": 18,
+  "pealkiri": "Mida kuulaja sõukruvi helist otsib",
+  "tekst": "Pöörleva sõukruvi labad tekitavad vees korrapäraseid rõhumuutusi. Nende kordumise sagedus oleneb pöörlemiskiirusest ja labade arvust; laeva hääles võib seetõttu eristuda iseloomulik rütm. Lisanduda võib kavitatsioon: madala rõhu tõttu tekkivate aurumullide kokkuvarisemisel sünnib müra. Heli kuuldavust mõjutavad muu hulgas laeva kiirus, kuulamise suund ja taustamüra. Tuttava kruviheli puudumine kuulaja kõrvus ei tõenda, et heli allikal pole sõukruvi. Passiivse kuulamise korral võtab hüdrofon vastu vees leviva heli, ise otsingusignaali välja saatmata. Lemke märgitud peiling on suund heli allika poole; üks peiling ei anna veel kaugust.",
+  "allikad": [
+   {
+    "tekst": "Discovery of Sound in the Sea · Ship",
+    "url": "https://dosits.org/galleries/audio-gallery/anthropogenic-sounds/ship/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · How does shipping affect ocean sound levels?",
+    "url": "https://dosits.org/science/sounds-in-the-sea/how-does-shipping-affect-ocean-sound-levels/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · Deep Ocean Sounds",
+    "url": "https://dosits.org/deep-ocean-sounds/"
+   },
+   {
+    "tekst": "Discovery of Sound in the Sea · helifail CD-ship.mp3",
+    "url": "https://dosits.org/wp-content/uploads/2017/07/CD-ship.mp3"
+   },
+   {
+    "tekst": "NOAA PMEL Acoustics Program · Challenger Deep · Ship Traffic in June 2020",
+    "url": "https://www.pmel.noaa.gov/acoustics/multimedia.html"
+   }
+  ],
+  "markused": [
+   "Leitud heli ja soovitud töötlus. NOAA/PMEL-i hüdrofonisalvestis laeva helist, mis jõudis 2015. aasta mõõtmistel Mariana süviku Challengeri sügavikku. See on tänapäevane võrdlusmaterjal veealuse kuulamise kohta. Esitada helinäide muutmata kiirusel, koos päritolu ja aastaarvuga. Kuulamisjuhis võib paluda tähele panna heli korrapärasust ja selle muutumist ajas. Salvestis aitab ette kujutada, millise materjaliga kuulaja töötab; romaani tundmatu heli jääb kirjeldusse."
+  ],
+  "heli": "challenger-deep-laev.mp3",
+  "helitugevus": 0.6,
+  "heli_allkiri": "Möödasõitva laeva müra, salvestatud Mariaani süviku Challengeri sügavikku paigutatud hüdrofoniga 25. juunil 2020. Esitatud allikas avaldatud kujul: kümme korda kiirendatud, et madal müra kõrvaga kuulda oleks. NOAA PMEL Acoustics Program."
+ },
+ {
+  "saksa": "ussripikupõletik",
+  "liik": "sona",
+  "peatukk": 16,
+  "pealkiri": "Ussripikupõletik",
+  "tekst": "Ussripik ehk apendiks on umbsoolest lähtuv umbes 7 cm pikkune usjas elund paremal alakõhus. Põletiku korral algab valu tavaliselt ebamääraselt naba või ülakõhu piirkonnas ja koondub mõne tunni pärast paremale alakõhtu, nagu Reuterilgi; kaasneda võivad isutus, iiveldus ja mõõdukas palavik. Kui ussripik mulgustub, satub mäda kõhuõõnde ja tekib eluohtlik kõhukelmepõletik. Seepärast eemaldatakse põletikuline ussripik enamasti operatsiooniga.",
+  "allikad": [
+   {
+    "tekst": "Kliinik.ee · Haiguste ABC: Ussripikupõletik",
+    "url": "https://www.kliinik.ee/haiguste_abc/ussripikupoletik/id-1930"
+   },
+   {
+    "tekst": "Wikipedia · Appendicitis",
+    "url": "https://en.wikipedia.org/wiki/Appendicitis"
+   }
+  ]
+ },
+ {
+  "saksa": "loksumine",
+  "liik": "sona",
+  "peatukk": 16,
+  "pealkiri": "Lainetus sügavuses",
+  "tekst": "Sügavas vees paneb pinnalaine veeosakesed liikuma ringjat rada mööda, kuid see liikumine nõrgeneb sügavuse kasvades kiiresti: poole lainepikkuse sügavusel on see vähem kui viis protsenti pinnal toimuvast. Seepärast kõigub vee all sõitev allveelaev lainetuses palju vähem kui pinnal. Mida pikemad on lained, seda sügavamale see liikumine ulatub ja seda sügavamale tuleb rahuliku vee leidmiseks laskuda.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Wind wave",
+    "url": "https://en.wikipedia.org/wiki/Wind_wave"
+   }
+  ],
+  "pilt": "laine-sugavus.svg",
+  "pildi_allkiri": "Pinnalaine paneb veeosakesed ringiratast liikuma; sügavuse kasvades jäävad ringid kiiresti väiksemaks. Lihtsustatud joonis.",
+  "pildi_allikas": "Joonis: meisterwulf.com"
+ },
+ {
+  "saksa": "akude seisu",
+  "liik": "sona",
+  "peatukk": 16,
+  "pealkiri": "Akud ja veealune ulatus",
+  "tekst": "Vee all liigub allveelaev akudest toidetud elektrimootoritega; diislid, mis pinnal paati ajavad ja ühtlasi akusid laadivad, on siis seisatud. Widariga sama tüüpi IXD2 paatide veealune ulatus oli nelja sõlmega sõites umbes 57 meremiili ehk veidi üle 14 tunni. Iga vee all veedetud tund kulutab laengut ja keegi ei tea, kui kaua operatsioon kestab – seepärast laseb Brandt enne sukeldumist akude seisu kontrollida.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · Type IXD (IXD2 tehnilised andmed)",
+    "url": "https://uboat.net/types/ixd.htm"
+   },
+   {
+    "tekst": "Wikipedia · Diesel–electric powertrain",
+    "url": "https://en.wikipedia.org/wiki/Diesel%E2%80%93electric_powertrain#Submarines"
+   }
+  ]
+ },
+ {
+  "saksa": "sügavustüürime",
+  "liik": "sona",
+  "peatukk": 16,
+  "pealkiri": "Sügavustüürimehed",
+  "tekst": "Sügavustüürimehed juhtisid tsentraalis eraldi juhtimiskohtadest vööri- ja ahtripoolseid sügavustüüre (saksa Tiefenruder). Tüüride asend muudab paadi pikikallet ning koos edasiliikumisega ka sügavust; ahtritüürid toimivad umbes nagu lennuki kõrgustüür. Sukeldumiseks tuleb täita paake, tüüridega häälestatakse sügavust ja asendit vee all peenelt. Operatsiooni ajal pidid nad hoidma paadi ühtlaselt määratud sügavusel ja peaaegu rõhtsalt.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Diving plane",
+    "url": "https://en.wikipedia.org/wiki/Diving_plane"
+   },
+   {
+    "tekst": "Wikipedia · Tiefenruder",
+    "url": "https://de.wikipedia.org/wiki/Tiefenruder"
+   }
+  ]
+ },
+ {
+  "saksa": "Loch Eriboll",
+  "liik": "sona",
+  "peatukk": 17,
+  "pealkiri": "Loch Eriboll",
+  "tekst": "Loch Eriboll on umbes 16 km pikkune merelaht Šotimaa põhjarannikul. Sügav ja tormise mere eest varjatud laht on sajandeid olnud ankruplats. Teise maailmasõja ajal peatusid seal sageli Briti mereväe laevad ning seal teeninud Briti sõjaväelased hüüdsid lahte halva ilma pärast „Lock 'orrible”. Esimene alistunud allveelaev U-1009 jõudis lahte 10. mail 1945; 19. maiks oli seal vastu võetud 33 paati ja 1627 meest.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Loch Eriboll",
+    "url": "https://en.wikipedia.org/wiki/Loch_Eriboll"
+   },
+   {
+    "tekst": "Northern Times · The forgotten anniversary of the day Loch Eriboll became a watery prison for Nazi subs (2020)",
+    "url": "https://www.northern-times.co.uk/news/nazi-subs-and-loch-eriboll-199474/"
+   }
+  ],
+  "pilt": "loch-eriboll-kolonn.jpg",
+  "pildi_allkiri": "Alistunud Saksa allveelaevad teel Loch Eribolli poole, mai 1945. Foto Briti mereväe ametlikult fotograafilt.",
+  "pildi_allikas": "Royal Navy ametlik fotograaf; Imperial War Museums A 28906 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A28906.jpg"
+ },
+ {
+  "saksa": "relvade ohutuks tegemine",
+  "liik": "sona",
+  "peatukk": 17,
+  "pealkiri": "Relvad ohutuks",
+  "tekst": "Alistumiskorralduse järgi pidid merel olevad allveelaevad heitma kogu laskemoona üle parda, võtma suurtükkidelt lukud ja tegema torpeedod ohutuks, eemaldades neilt süüteseadmed. Nii ei jäänud pinnal sõitvale paadile laskevalmis relvi. Loch Eribollis kontrollisid Briti pardameeskonnad hiljem ise, et paadis poleks õhkimislaenguid ja et torpeedode süüteseadmed oleksid tõesti eemaldatud.",
+  "allikad": [
+   {
+    "tekst": "HyperWar · Surrender documents, Annexure A (1945)",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Dip/ETO-Surrender-Docs.html"
+   },
+   {
+    "tekst": "Naval Historical Society of Australia · U Boat surrender in Loch Eriboll",
+    "url": "https://navyhistory.au/u-boat-surrender-in-loch-eriboll-8th-to-23rd-may-1945/"
+   }
+  ],
+  "pilt": "u826-loch-eriboll.jpg",
+  "pildi_allkiri": "Loch Eriboll, mai 1945: Briti relvastatud valve jälgib, kuidas Saksa madrus kannab alistunud U-826-lt torpeedo osa ära.",
+  "pildi_allikas": "Lt. C. H. Parnall, Royal Navy; Imperial War Museums A 28531 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-826_at_Loch_Eriboll_Scotland_after_surrender_1945_IWM_A_28531.jpg"
+ },
+ {
+  "saksa": "vangi",
+  "liik": "sona",
+  "peatukk": 17,
+  "pealkiri": "Sõjavangid pärast alistumist",
+  "tekst": "Loch Eribolli lahes alistunud allveelaevad saadeti edasi Loch Alshi. Seal viidi meeskonnad allveelaevade emalaevale ja sealt sõjavangilaagritesse; pardale jäi vaid väike meeskond paadi edasiviimiseks. Suurbritannias oli 1946. aastal umbes 400 000 Saksa sõjavangi ja enamik neist töötas taludes. Kojusaatmine algas 1946. aasta septembris ning enamik mehi jõudis koju 1948. aasta teisel poolel.",
+  "allikad": [
+   {
+    "tekst": "Naval Historical Society of Australia · U Boat surrender in Loch Eriboll, lk 2",
+    "url": "https://navyhistory.au/u-boat-surrender-in-loch-eriboll-8th-to-23rd-may-1945/2/"
+   },
+   {
+    "tekst": "Naval Historical Society of Australia · U Boat surrender in Loch Eriboll, lk 3",
+    "url": "https://navyhistory.au/u-boat-surrender-in-loch-eriboll-8th-to-23rd-may-1945/3/"
+   },
+   {
+    "tekst": "Wikipedia · German prisoners of war in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/German_prisoners_of_war_in_the_United_Kingdom"
+   }
+  ]
+ },
+ {
+  "saksa": "saatevõti",
+  "liik": "sona",
+  "peatukk": 17,
+  "pealkiri": "Saatevõti ehk morsevõti",
+  "tekst": "Saatevõti ehk morsevõti on hoob, mida vajutatakse vedru vastu alla ja mille kontakt sulgeb vooluringi. Lühike vajutus annab punkti, pikem kriipsu. Sellist võtit kasutati nii traattelegraafis kui ka raadiotelegraafias. Algaja jõudis saata umbes 5, osav telegrafist umbes 30 sõna minutis. Peatükis jääb võti raadioruumi lauale, kui uks plommitakse: saatja on töökorras, kuid komandöri käsuta ei tohi sellega midagi välja saata.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Telegraph key",
+    "url": "https://en.wikipedia.org/wiki/Telegraph_key"
+   },
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · võti",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=v%C3%B5ti"
+   }
+  ],
+  "pilt": "morsevoti-junker.jpg",
+  "pildi_allkiri": "Saksa morsevõti (Junker), nagu neid kasutati raadiotelegraafias.",
+  "pildi_allikas": "JunkerPet, 2011 (oma töö) / CC BY-SA 3.0",
+  "pildi_litsents": "CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Junker_Taste.png"
+ },
+ {
+  "saksa": "rahu märgiks valget",
+  "liik": "sona",
+  "peatukk": 17,
+  "pealkiri": "Valge lipp",
+  "tekst": "Valge lipp on rahvusvaheliselt tunnustatud vaherahu ja läbirääkimise märk. Kuna läbirääkimisi palub sageli nõrgem pool, tähendab see ka alistumist. 1899. aasta Haagi konventsiooni artikkel 32 tagab valget lippu kandvale läbirääkijale ehk parlamentäärile puutumatuse. Valge lipu kandjat ei tohi tulistada ja ta ise ei tohi tuld avada; lipu väärkasutus on sõjakuritegu.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · White flag",
+    "url": "https://en.wikipedia.org/wiki/White_flag"
+   }
+  ]
+ },
+ {
+  "saksa": "teiselt aadressilt",
+  "liik": "sona",
+  "peatukk": 17,
+  "pealkiri": "Kadunud aadressid ja otsinguteenistus",
+  "tekst": "Sõja lõpul olid paljud Saksa pered laiali: kodud olid pommitatud ning inimesed evakueeritud, ära viidud või põgenenud. Kiri vanale aadressile ei pruukinud adressaati leida. 1945. aasta mais asutati Flensburgis otsinguteenistus, millest kasvas Saksa Punase Risti otsinguteenistus (DRK-Suchdienst). 1950. aasta maiks oli sellele esitatud umbes 14 miljonit päringut kadunud lähedaste leidmiseks.",
+  "allikad": [
+   {
+    "tekst": "DRK-Suchdienst · Geschichte des DRK-Suchdienstes",
+    "url": "https://www.drk-suchdienst.de/de/wir-%C3%BCber-uns/geschichte-des-drk-suchdienstes"
+   },
+   {
+    "tekst": "Wikipedia · Deutsches Rotes Kreuz",
+    "url": "https://de.wikipedia.org/wiki/Deutsches_Rotes_Kreuz"
+   }
+  ]
+ },
+ {
+  "saksa": "kuiviku",
+  "liik": "sona",
+  "peatukk": 18,
+  "pealkiri": "Kuivikud ja laevaküpsis",
+  "tekst": "Kuivikud on kuivatatud leiva- või saiaviilud. Laevaproviandiks kasutati sarnaseid kõvu küpsetisi, mida saksa keeles kutsuti Schiffszwieback või Hartbrot; enne konservikarpide leiutamist olid need sõjaväe ja laevade toidus üks põhiosi. Vähese veesisalduse tõttu säilisid need kaua, kuid vanemaid sorte sai süüa ainult vedelikku kastetuna – nii nagu Mats laseb oma kuivikul kuumas joogis pehmeneda.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · kuivik",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kuivik"
+   },
+   {
+    "tekst": "Wikipedia · Hartkeks",
+    "url": "https://de.wikipedia.org/wiki/Hartkeks"
+   }
+  ],
+  "pilt": "laevakupsis.jpg",
+  "pildi_allkiri": "Laevaküpsis ehk laevakuivik, Inglismaa, 1875. Science Museumi kogu.",
+  "pildi_allikas": "Science Museum, London (A33642); foto Wellcome Images L0064860 / CC BY 4.0",
+  "pildi_litsents": "CC BY 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Ship%27s_biscuit,_England,_1875_Wellcome_L0064860.jpg"
+ },
+ {
+  "saksa": "kirdepassaat",
+  "liik": "sona",
+  "peatukk": 18,
+  "pealkiri": "Kirdepassaat",
+  "tekst": "Passaadid on püsivad tuuled, mis puhuvad umbes 30. laiuskraadi ümbrusest ekvaatori poole. Maa pöörlemise mõjul (Coriolisi jõud) tulevad need põhjapoolkeral kirdest ja lõunapoolkeral kagust. Ekvaatori lähedal, kus kahe poolkera passaadid kohtuvad, on nõrkade ja muutlike tuulte madalrõhuvöönd. Purjelaevad kasutasid passaate sajandeid Atlandi ookeani ületamiseks.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · Passaat",
+    "url": "https://et.wikipedia.org/wiki/Passaat"
+   },
+   {
+    "tekst": "Wikipedia · Trade winds",
+    "url": "https://en.wikipedia.org/wiki/Trade_winds"
+   }
+  ]
+ },
+ {
+  "saksa": "meresõidualmanahh",
+  "liik": "sona",
+  "peatukk": 18,
+  "pealkiri": "Meresõidualmanahh",
+  "tekst": "Meresõidualmanahh on igal aastal ilmuv tabeliraamat, kust navigaator leiab Päikese, Kuu, planeetide ja valitud tähtede asukohad. Saksa ookeanilaevanduses oli astronoomilise navigatsiooni ametlik käsiraamat Nautisches Jahrbuch. Esimese väljaande koostas Carl Bremiker Preisi kaubandus-, tööstus- ja avalike tööde ministeeriumi algatusel; see ilmus 1850. aastal vaatlusaasta 1852 jaoks.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Nautisches Jahrbuch",
+    "url": "https://de.wikipedia.org/wiki/Nautisches_Jahrbuch"
+   },
+   {
+    "tekst": "Wikipedia · Nautical almanac",
+    "url": "https://en.wikipedia.org/wiki/Nautical_almanac"
+   }
+  ]
+ },
+ {
+  "saksa": "rinnauim",
+  "liik": "sona",
+  "peatukk": 18,
+  "pealkiri": "Lendkalad",
+  "tekst": "Lendkalad on peamiselt pääsukalalaste sugukonda kuuluvad kalad, kes elavad troopilistes ja lähistroopilistes meredes. Nende suured rinnauimed toimivad tiibadena: kala tõuseb veest välja ja liugleb tavaliselt 30–50 meetrit, arvatavasti röövkalade eest põgenedes. Sageli maanduvad nad kogemata väiksemate alusete tekile. Nii võisid ka Matsi leitud kalad Widari tekile jääda.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · Lendkalad",
+    "url": "https://et.wikipedia.org/wiki/Lendkalad"
+   },
+   {
+    "tekst": "Wikipedia · Flying fish",
+    "url": "https://en.wikipedia.org/wiki/Flying_fish"
+   }
+  ],
+  "pilt": "lendkala-tekil.jpg",
+  "pildi_allkiri": "Lendkala laeva tekil, rinnauimed laiali: Hollandi reisilaeval Nestor teel Surinami, 1955.",
+  "pildi_allikas": "Willem van de Poll, 1955; Nationaal Archief / CC0",
+  "pildi_litsents": "CC0",
+  "pildi_litsents_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Een_vliegende_vis_op_de_ms_Nestor_op_weg_naar_Suriname,_Bestanddeelnr_252-2133.jpg"
+ },
+ {
+  "saksa": "kolmhar",
+  "liik": "sona",
+  "peatukk": 18,
+  "pealkiri": "Kolmhark",
+  "tekst": "Kolmhark on kolmeharuline ahing või hark; ladinakeelne tridens on kokku pandud sõnadest tri ‘kolm’ ja dentes ‘hambad’. Kalapüügil suurendasid kolm haru tabamise võimalust ja vähendasid ohtu, et halvasti tabatud kala end lahti rabeleb. Klassikalises mütoloogias on kolmhark merejumala tööriist: kreeklastel Poseidoni, roomlastel Neptuni oma. Widaril piisab selleks pilsikonksust ja kahest juurde seotud puuharust.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · kolmhark",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kolmhark"
+   },
+   {
+    "tekst": "Wikipedia · Trident",
+    "url": "https://en.wikipedia.org/wiki/Trident"
+   }
+  ]
+ },
+ {
+  "saksa": "takk",
+  "liik": "sona",
+  "peatukk": 18,
+  "pealkiri": "Takk",
+  "tekst": "Takk on lina, kanepi või muu kiutaime ropsimisel ja sugemisel saadud lühikeste kiudude ja puitunud taimeosade sasimik. Takust kedrati lõnga, sellega topiti palkseinu ja tihendati lekkivaid paate. Tõrvatud laevatakku (inglise oakum) saadi omal ajal ka vanu tõrvaseid köisi kiududeks harutades; vanglates ja vaestemajades oli see aeglane, sõrmi kurnav töö. Sassis juuste kohta öeldakse eesti keeles: „juuksed nagu takk”.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · takk",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=takk"
+   },
+   {
+    "tekst": "Wikipedia · Oakum",
+    "url": "https://en.wikipedia.org/wiki/Oakum"
+   }
+  ]
  }
 ]
