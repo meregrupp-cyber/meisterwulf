@@ -12,7 +12,8 @@ emootor (elektrimootorid vee all), laevakell (laevakell), lennuk (lennuk möödu
 kuumpea (kalakutri kuumpeamootor ehk semidiisel, aeglased üksikud löögid), diisel-kaivitus (allveelaeva
 diisli käivitamine suruõhuga), praam (väikese praami tihke mootor ja lahtine plekk), snorkel (šnorklisõit:
 peaklapp sulgub, diislid summutuvad ja rõhk langeb), kruvi-kinni (sõukruvi takerdub trossi: kolksud,
-kraapimine, rappumine, seiskumine).
+kraapimine, rappumine, seiskumine), kaks-kruvi (kahe laeva sõukruvid hüdrofonis:
+kiirem, aeglasem, siis mõlemad korraga).
 Merelaineid meelega ei ole. Kõik on heliillustratsioonid, mitte ajaloolised salvestised.
 Vajab: numpy, imageio-ffmpeg (python3 -m pip install numpy imageio-ffmpeg).
 """
@@ -294,6 +295,26 @@ def kruvi_kinni(sec=9.0):
     return fade(norm(out, 0.85), 300, 900)
 
 
+def kaks_kruvi(sec=12.0):
+    """Kaks laeva sõukruvi hüdrofonis: esmalt kiirem kruvi, siis aeglasem ja raskem, lõpuks mõlemad korraga."""
+    n = int(SR * sec); out = np.zeros(n)
+    base = lowpass_fast(rng.normal(0, 1, n), 40) * 0.05                 # merekohin kuularis
+    def rytm(start, end, rate, f_lo, gain):
+        k = 0
+        while start + k / rate < end:
+            at = start + k / rate + rng.normal(0, 0.004)
+            d = 0.16; tt = t(d)
+            swish = lowpass_fast(rng.normal(0, 1, len(tt)), f_lo) * np.sin(np.pi * tt / d) ** 2
+            thump = np.sin(2 * np.pi * 70 * tt) * env_exp(d, 0.04)
+            mix_at(out, (swish * 1.3 + thump * 0.6) * gain, at)
+            k += 1
+    rytm(0.3, 4.3, 4.4, 6, 0.9)        # kiire kruvi (väiksem laev)
+    rytm(4.8, 8.6, 2.3, 12, 1.1)       # aeglane, raskem löögirida
+    rytm(8.9, sec - 0.3, 4.4, 6, 0.7)
+    rytm(9.0, sec - 0.3, 2.3, 12, 0.9)
+    return fade(norm(out + base, 0.8), 300, 700)
+
+
 def write_mp3(x, path: Path):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -307,7 +328,7 @@ def write_mp3(x, path: Path):
     print(f"  {path.relative_to(ROOT)}  {len(x) / SR:.1f} s, {path.stat().st_size // 1024} KB")
 
 
-MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel, "kruvi-kinni": kruvi_kinni}
+MENU = {"sonar": sonar, "wasserbombe": wasserbombe, "diesel": diesel, "emootor": emootor, "laevakell": laevakell, "lennuk": lennuk, "flak": flak, "kuumpea": kuumpea, "diisel-kaivitus": diisel_kaivitus, "praam": praam, "snorkel": snorkel, "kruvi-kinni": kruvi_kinni, "kaks-kruvi": kaks_kruvi}
 
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "koik":

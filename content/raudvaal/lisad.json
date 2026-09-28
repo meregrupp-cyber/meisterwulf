@@ -1864,7 +1864,13 @@
     "tekst": "uboat.net · The Radio Crew",
     "url": "https://uboat.net/men/crew/radio.htm"
    }
-  ]
+  ],
+  "pilt": "u995-raadioruum.jpg",
+  "pildi_allkiri": "Muuseumipaadi U 995 (Laboe) raadioruum: vastuvõtjad ja saatja, kõrval kuulamisruum. Tänapäevane foto.",
+  "pildi_allikas": "James Steakley, 2012 (oma töö; U 995, Laboe) / CC BY-SA 3.0",
+  "pildi_litsents": "CC BY-SA 3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U_995_Funkraum.jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0"
  },
  {
   "saksa": "päästeaparaad",
@@ -1932,8 +1938,8 @@
   "pealkiri": "Meresõda mängulaual",
   "tekst": "Mereväes harjutati olukorra hindamist ja käskude tagajärgi sõjamängudega. Teise maailmasõja aegsel fotol Liverpooli Western Approaches Tactical Unitist liiguvad laevamudelid põrandale kantud mänguväljal. Mängijad vaatavad seda läbi varjava vaheseina avade, nii et nad ei näe tervet olukorda; abilised liigutavad mudeleid ja arvestavad korralduste mõju. See on ajalooline näide sellest, kuidas harjutusse lisati piiratud teave. Peatüki kruuside, lusikate ja muudetud sügavusnumbriga ülesanne on romaani jaoks loodud.",
   "pilt_url": "https://commons.wikimedia.org/wiki/File:WATU_wargame_1.png",
-  "pildi_allikas": "Leitnant C. H. Parnall, Imperial War Museums, objekt 205159247. Avalik omand: Briti riiklik autoriõigus on aegunud.",
-  "pildi_allkiri": "Western Approaches Tactical Uniti sõjamäng Liverpoolis. Ajastu võrdluspilt.",
+  "pildi_allikas": "Lt C. H. Parnall, 1942; Imperial War Museums / Public domain",
+  "pildi_allkiri": "Western Approaches Tactical Uniti sõjamäng Liverpoolis 1942: ohvitserid vaatavad mänguvälja vaheseina avade kaudu, naisteenistuse (WRNS) ohvitserid liigutavad laevu ja arvutavad käikude tulemusi. Briti väljaõpe, mitte Saksa allveelaev.",
   "allikad": [
    {
     "tekst": "IWM foto Wikimedia Commonsis · WATU wargame 1",
@@ -1946,7 +1952,10 @@
   ],
   "markused": [
    "Leitud foto. „WATU wargame 1”: vaade mänguväljale ja selle kõrval seisvale vaheseinale. Infomull võiks pildil eraldi esile tõsta mängijate vaateavad ja mudelite liigutajad. Pilt kujutab Briti väljaõpet; see ei ole foto Saksa allveelaeva messist. Pildiallkiri: „Western Approaches Tactical Uniti sõjamäng Liverpoolis. Ajastu võrdluspilt.”"
-  ]
+  ],
+  "pilt": "watu-sojamang.jpg",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:WATU_wargame_1.png"
  },
  {
   "marker": "kaardi-number-ei-kirjelda-kogu-merepõhja",
@@ -2055,7 +2064,7 @@
   "pealkiri": "Bold: väike peibutis suure laeva asemel",
   "tekst": "Bold oli allveelaevalt vette lastav keemiline peibutis. Selle tekitatud gaasimullid peegeldasid otsimisheli ja võisid anda jälitajale eksitava kaja. Peibutise väljutamine ei peatanud jälitust automaatselt: allveelaeval tuli eemalduda ning vastane võis pettusest aru saada või päris paadi uuesti leida. USA mereväe sõjaaegset luuret käsitlevas aruandes leidub nii Boldi kirjeldus kui ka teateid selle kasutamisest. Seade pole loo jaoks välja mõeldud.",
   "pilt_url": "https://commons.wikimedia.org/wiki/File:Pillenwerfer.jpg",
-  "pildi_allikas": "USA valitsuse materjal, Wikimedia Commonsis märgitud avalikuks omandiks.",
+  "pildi_allikas": "USA valitsus, aruanne SRH-025 / Public domain",
   "allikad": [
    {
     "tekst": "USA mereväe luurearuanne SRH-025 · Anti-Detection Devices · 7 BOLD · lk 19–20",
@@ -2068,7 +2077,11 @@
   ],
   "markused": [
    "Leitud pilt. Ajalooline tehniline joonis „Individual BOLD Pellet”. Wikimedia Commonsi faili nimi on „Pillenwerfer.jpg”, kuid joonise allkirjas nimetatakse Boldi peibutist; seda ei esitleta kogu väljutusseadme läbilõikena. Eraldi helinäidet pole vaja, sest lugejale oluline eksitav kaja seostub infomulli \\[1\\] sonarinäitega."
-  ]
+  ],
+  "pilt": "bold-padrun.jpg",
+  "pildi_allkiri": "USA luurearuande SRH-025 joonis Boldi üksikust padrunist („Individual BOLD Pellet”). Commonsi failinimi on Pillenwerfer.jpg, kuid joonis näitab peibutist, mitte kogu väljutusseadet.",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Pillenwerfer.jpg"
  },
  {
   "marker": "raadioteade-vee-alla",
@@ -2140,7 +2153,13 @@
   ],
   "markused": [
    "Leitud pilt. Bundesarchivi avaldatud Berliini kaitseala olukorrakaart 1945. aasta aprillist, viide BArch, RH 24-56/145K. See näitab kaitseringe ja vägede asetust ning aitab mõista, mida tähendas linnale sissepiiramine. Säilitada originaalallkiri ning lisada eestikeelne lühiselgitus. Helinäide pole vajalik."
-  ]
+  ],
+  "pilt": "berliini-lahing.jpg",
+  "pildi_allkiri": "Berliini lahing 16.–25. aprill 1945: Nõukogude ja Poola vägede pealetung ning Berliini ümber sulguv piiramisrõngas. Tänapäevane kaart ingliskeelsete tähistega.",
+  "pildi_allikas": "Lonio17 / Orionist, 2012 / CC BY-SA 4.0",
+  "pildi_litsents": "CC BY-SA 4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Battle_of_Berlin_1945-a.png",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0"
  },
  {
   "marker": "köiest-vender",
@@ -2181,7 +2200,12 @@
   ],
   "markused": [
    "Leitud foto. USA mereväe ajalooline foto U-873-st Portsmouthi mereväetehase kuivdokis, 30. juuni 1945, fotonumber NH 75660. Tähelepanu suunata pika kere ja torni proportsioonidele. Allkirjas säilitada tegelik laevanimi U-873. Joonisel võib kõrvale lisada VIIC ja IXD2 siluetid samas mõõtkavas; Widari romaanis kirjeldatud ümberehitusi ei omistata fotol olevale paadile."
-  ]
+  ],
+  "pilt": "u873-ixd2.jpg",
+  "pildi_allkiri": "Ülal: IXD2 tüüpi U-873 Portsmouthi mereväetehase kuivdokis 30. juunil 1945 (USA mereväe foto NH 75660). All: VIIC ja IXD2 lihtsustatud siluetid samas mõõtkavas. Widar on romaani väljamõeldud laev; romaani ümberehitusi fotol olevale paadile ei omistata.",
+  "pildi_allikas": "Foto: USA merevägi, 1945 (Naval History and Heritage Command, NH 75660) / Public domain; siluetid: meisterwulf.com",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:German_submarine_U-873_in_drydock_at_the_Portsmouth_Naval_Shipyard,_New_Hampshire_(USA),_on_30_June_1945_(NH_75660).jpg"
  },
  {
   "marker": "surmateade-mis-rääkis-lahingus-langemisest",
@@ -2200,7 +2224,12 @@
   ],
   "markused": [
    "Heli ja pildi kirjeldus. ARD Archivradio / SWR-i lehel „BBC meldet Hitlers Tod” on käsitletud BBC 1. mai 1945 erakorralist teadet. Sobiv võrdlus on algne ingliskeelne raadiosalvestis koos Big Beni märguandega. See ei ole Lemke hääl ega Saksa teate originaal. SWR selgitab ka levinud eksitust: versioon, kus uudis kõlab Vera Lynni laulu peal, pandi kokku alles 1972. aastal. Infomullis kasutada algset, muusikata teadet või linkida vastavale arhiivilehele. Kõrvale Bundesarchivi avaldatud Dönitzi 1. mai kõne tekstikoopia, viide BArch, RH 26-1002/8: pilt ja heli võimaldavad võrrelda Saksa ametlikku sõnastust ning seda, kuidas BBC sama teadet vahendas."
-  ]
+  ],
+  "pilt": "hitler-dead.jpg",
+  "pildi_allkiri": "USA sõjaväelehe The Stars and Stripes erinumbri esikülg 2. mail 1945: „Hitler Dead”. Leht kordab Saksa raadio sõnastust, et Hitler olevat oma komandopunktis langenud; tegelikult tegi ta 30. aprillil enesetapu.",
+  "pildi_allikas": "The Stars and Stripes, USA armee, 1945 / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Stars_%26_Stripes_%26_Hitler_Dead2.jpg"
  },
  {
   "marker": "vidari-king-ja-kingsepa-nahalõiked",
@@ -2215,6 +2244,715 @@
   ],
   "markused": [
    "Pildi kirjeldus. Kingsepalaua serv, saapatald ja väikesed nahalõiked; tagaplaanil vana raamatu illustratsioonina hiiglaslik king hundi lõualuul. Esiplaanil jääb rõhk äratuntavale käsitööle. Widari nime saksa kirjakuju ja müüdi Vidar siduda ühe lühikese allkirjaga. Eraldi helinäidet pole vaja."
+  ],
+  "pilt": "vidar-frolich.jpg",
+  "pildi_allkiri": "Lorenz Frølichi joonistus (1895): Vidar surub jalaga Fenriri alumise lõua maha ja kisub suu lahti.",
+  "pildi_allikas": "Lorenz Frølich, 1895 (Karl Gjellerup, Den ældre Eddas Gudesange) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Fenrir_and_V%C3%AD%C3%B0arr_by_Lorenz_Fr%C3%B8lich.jpg"
+ },
+ {
+  "saksa": "ohvitserid",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Ohvitseride ruum VII C paadis",
+  "tekst": "VII C tüüpi allveelaevas tulid vööri torpeedoruumist ahtri poole kõigepealt tualett ja vanemallohvitseride kojad, seejärel ohvitseride ja komandöri kojad. Komandöri koi vastas olid raadio- ja kuulamisruum, nende taga tsentraal. U-570 kohta koostatud USA mereväe aruanne loetleb ühe komandöri, kolm ohvitseride ja neli vanemallohvitseride koid. Ruumid järgnesid üksteisele, nii et vööri ja tsentraali vahel liikujad pidid neist läbi minema.",
+  "allikad": [
+   {
+    "tekst": "Community Stories · Layout of German Type VIIC U-boat",
+    "url": "https://www.communitystories.ca/v2/tragic-sinking-ss-caribou_naufrage-tragique/gallery/layout-of-german-type-viic-u-boat/"
+   },
+   {
+    "tekst": "U-boat Archive · U-570 ONI Report (Accommodations)",
+    "url": "https://www.uboatarchive.net/U-570/U-570ONIReport.htm"
+   }
   ]
+ },
+ {
+  "saksa": "kaotanud mõisa",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "1919. aasta maareform",
+  "tekst": "Eesti Asutav Kogu võttis 10. oktoobril 1919 vastu maaseaduse, millega riik võõrandas 2 346 494 hektarit maad, sellest 1 934 679 hektarit rüütlimõisate omanikelt. Paljud mõisnikud olid baltisakslased. Seadus ei näinud võõrandatud mõisate eest ette hüvitist; alles hiljem maksis valitsus rahvusvahelise surve tõttu kompensatsiooni. 1925. aasta 26. mai seadusega said endised omanikud või nende pärijad tagasi kuni 50-hektarise koha.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · 1919. aasta maareform",
+    "url": "https://et.wikipedia.org/wiki/1919._aasta_maareform"
+   }
+  ]
+ },
+ {
+  "saksa": "Allohvitser",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Obersteuermann ehk tüürimeeste vanem",
+  "tekst": "Krüger on paadi Obersteuermann ehk tüürimeeste vanem. Kriegsmarine'is tähistas see Oberfeldwebeli-taseme allohvitseri auastet tüürimeeste teenistusharus. Liitlaste ülekuulamisaruannetes on see ametikoht kirjas kui „C.P.O. (Navigation)”, st navigatsiooni eest vastutav vanemallohvitser. Seepärast on kaardid ja asukoha arvutamine paadis tema töö.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Obersteuermann",
+    "url": "https://de.wikipedia.org/wiki/Obersteuermann"
+   },
+   {
+    "tekst": "U-boat Archive · U-643 Interrogation Report (meeskonnanimekiri)",
+    "url": "https://uboatarchive.net/U-643A/U-643INT.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "kursijoon",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Kursijoon ja meremiil",
+  "tekst": "Kurss on suund, kuhu laeva juhitakse; see antakse kraadides põhjasuunast, kas tõelise või magnetilise põhja järgi. Kavandatud tee kantakse kaardile sirgete lõikudena. Vahemaa võetakse mõõtesirkliga ja loetakse sageli kaardi külgservas olevalt laiuskaalalt: üks kaareminut piki meridiaani on ligikaudu üks meremiil ehk 1852 meetrit. Krügeri harjutuslehel on laiuskaala asemel mõõtkava.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Course (navigation)",
+    "url": "https://en.wikipedia.org/wiki/Course_(navigation)"
+   },
+   {
+    "tekst": "Wikipedia · Divider caliper",
+    "url": "https://en.wikipedia.org/wiki/Divider_caliper"
+   }
+  ]
+ },
+ {
+  "saksa": "Sügavused",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Sügavusnumbrid merekaardil",
+  "tekst": "Merekaardi sügavusnumbrid näitavad mõõdetud sügavust kokkulepitud lähtetasemest (inglise chart datum), mis on seotud kohaliku veetasemega; üha sagedamini on selleks madalaim prognoositav mõõn. Tegeliku sügavuse saamiseks liidetakse numbrile parasjagu kehtiv tõusu kõrgus. Enamikus maailmas antakse sügavusi meetrites, vanematel ja USA kaartidel ka jalgades või süldades. Krügeri ülesandelehel on meetrid.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Nautical chart",
+    "url": "https://en.wikipedia.org/wiki/Nautical_chart"
+   },
+   {
+    "tekst": "Wikipedia · Chart datum",
+    "url": "https://en.wikipedia.org/wiki/Chart_datum"
+   }
+  ]
+ },
+ {
+  "saksa": "konvoi",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Konvoi ja Norra rannikutee",
+  "tekst": "Konvoi on laevade rühm, mis sõidab vastastikuse toetuse ja kaitse nimel koos, sageli relvastatud saatjatega. Allveelaeval oli konvoid raskem leida kui üksikult sõitvaid laevu ning rünnakuks lähenedes muutus ta ise saatjatele sihtmärgiks. Norra rannikul kulges laevatee suures osas tuhandete saarte ja karide varjus; lagedale merele tuli minna vaid mõnes kohas, näiteks Lindesnesi ja Stadi juures. Krügeri ülesandes tuleb konvoist mööda pääseda.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Convoy",
+    "url": "https://en.wikipedia.org/wiki/Convoy"
+   },
+   {
+    "tekst": "Wikipedia (norra) · Skipsleia langs norskekysten",
+    "url": "https://no.wikipedia.org/wiki/Skipsleia_langs_norskekysten"
+   }
+  ]
+ },
+ {
+  "saksa": "ühenduslüli",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Ankruketi ühenduslüli",
+  "tekst": "Ankrukett koosneb mitmest kettapikkusest, mis on omavahel ühendatud lahtivõetavate lülidega. Kettapikkus oli eri maades erinev: Saksamaal 25 m, Inglismaal 21,95 m. Selleks kasutatava Kenteri lüli töötas Max Kenter välja aastatel 1905–1907 Saksa mereväeametis. See on tavalise ketilüli kujuga; osi hoiab koos koonustihvt, mille ava suletakse sisse löödud pliiplommiga. Lahti võetakse lüli haamri ja tihvtilöögiga.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Kenterschäkel",
+    "url": "https://de.wikipedia.org/wiki/Kentersch%C3%A4kel"
+   },
+   {
+    "tekst": "Wikipedia (saksa) · Schäkel (Maßeinheit)",
+    "url": "https://de.wikipedia.org/wiki/Sch%C3%A4kel_(Ma%C3%9Feinheit)"
+   }
+  ]
+ },
+ {
+  "saksa": "õpipoisiks",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Õpipoiss",
+  "tekst": "Õpipoiss oli käsitööline, kes õppis ametit meistri juures; kui meister ta edasi lubas, sai temast sell. Euroopa käsitöötraditsioonis alustati tavaliselt 10–15-aastaselt ja elati meistri majapidamises: meister sai odava tööjõu ning andis vastu toidu, peavarju ja väljaõppe. Õpiaeg kestis kahest seitsme või enama aastani, vanasti peeti tavaliseks seitset aastat. Taaniel läks võõrasse töökotta neljateistkümneaastaselt.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · Õpipoiss",
+    "url": "https://et.wikipedia.org/wiki/%C3%95pipoiss"
+   },
+   {
+    "tekst": "Wikipedia · Apprenticeship",
+    "url": "https://en.wikipedia.org/wiki/Apprenticeship"
+   }
+  ],
+  "pilt": "kingsepa-tookoda.jpg",
+  "pildi_allkiri": "Kingsepa töökoda umbes 1880: meister ja abilised laua ümber, riiulitel liistud ja nahk (lasteraamatust ametite kohta).",
+  "pildi_allikas": "tundmatu kunstnik, u 1880; TU Braunschweigi digiraamatukogu / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Schuhmacher_1880.jpg"
+ },
+ {
+  "saksa": "muud kui traati",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Kingsepa traat",
+  "tekst": "Kingsepa traat ehk pigitraat on pigitatud jäme linane niit naha õmblemiseks: sellega õmmeldi näiteks saapapealseid ja lahti tulnud talda. Nõela asemel kasutati käsitsi õmmeldes niidi otsa kinnitatud sea- või terasharjast. Kingsepa töökojas ei tähenda „traat” seega metalltraati: kui Taanielile ei antud teha muud kui traati, tuli tal valmistada just seda õmblusniiti.",
+  "allikad": [
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · pigitraat",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=pigitraat"
+   },
+   {
+    "tekst": "Wikipedia (saksa) · Schuhmacher",
+    "url": "https://de.wikipedia.org/wiki/Schuhmacher"
+   }
+  ]
+ },
+ {
+  "saksa": "ritsikat",
+  "liik": "sona",
+  "peatukk": 10,
+  "pealkiri": "Ritsikad Hiinas",
+  "tekst": "Hiinas on ritsikaid ehk kilke peetud lemmikloomadena juba muinasajast, algul nende siristamise pärast; 12. sajandi algusest korraldati ka ritsikavõitlusi. Putukat ärgitati roti vurrukarvadest või värsketest rohukõrtest tehtud kõditajaga. Eriti hinnatakse Shandongi ritsikaid: Shanghais 1990. ja 2000. aastatel müüdud putukad pärinesid enamasti Shandongi Ningjini maakonnast, kus ritsikapüük sai talupoegade kõrvaltööks.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Crickets as pets",
+    "url": "https://en.wikipedia.org/wiki/Crickets_as_pets"
+   },
+   {
+    "tekst": "Eesti keele seletav sõnaraamat · ritsikas",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=ritsikas"
+   }
+  ]
+ },
+ {
+  "saksa": "löögirida",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Sõukruvi rütm",
+  "tekst": "Sõukruvi häälest saab kuulamisseadmes eristada korduvat rütmi ja selle järgi loendada kruvi pöördeid. Teise maailmasõja allveelaevadel kuulas operaator sihtmärgi sõukruvi ja määras selle pöörlemissageduse; kui laevatüüp oli teada, sai pööretest hinnata laeva kiirust. Peatükis eristab Lemke kaht eri rütmiga kruvi, kuid laevatüüpi ta veel ei tea.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Pitometer log · Propeller RPM",
+    "url": "https://en.wikipedia.org/wiki/Pitometer_log"
+   }
+  ],
+  "heli": "kaks-kruvi.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Sünteesitud heliillustratsioon: esmalt kiirem sõukruvi, siis aeglasem ja raskem löögirida, lõpuks mõlemad korraga, nagu kuulaja neid hüdrofonis eristab. Mitte ajalooline salvestis."
+ },
+ {
+  "saksa": "kuulamissuunda",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "GHG: suuna otsimine kuulates",
+  "tekst": "Saksa allveelaeva kuulamisseade GHG (Gruppenhorchgerät) koosnes kahest 24 hüdrofoniga rühmast, üks kummalgi pool keret. Kuulaja pööras ratast, kuni sihtmärgi heli oli kõige valjem, ja luges suuna skaalalt; heal juhul oli täpsus alla kraadi. Vööri ja ahtri suunas jäi 40-kraadine surnud sektor. Kõige paremini kuulis seade üle 20 meetri sügavusel ja alla kolmesõlmelise käiguga.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Gruppenhorchgerät",
+    "url": "https://en.wikipedia.org/wiki/Gruppenhorchger%C3%A4t"
+   }
+  ]
+ },
+ {
+  "saksa": "töötavad kordamööda",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Kahe laevaga jaht",
+  "tekst": "Briti kapten Frederic John Walker töötas välja nn hiiliva rünnaku (creeping attack). Üks laev jäi paigale ja hoidis ASDICuga kontakti, mida allveelaev kuulis, ning juhatas teist laeva sihtmärgi kohale. Teine lähenes aeglaselt ja võimalikult vaikselt, oma ASDICut kasutamata, ning heitis sügavuspommid esimese laeva märguande peale. Peatükis kuuleb Lemke vaid, et üks laev aeglustab ja teine läheneb.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Creeping attack",
+    "url": "https://en.wikipedia.org/wiki/Creeping_attack"
+   },
+   {
+    "tekst": "Wikipedia · Frederic John Walker",
+    "url": "https://en.wikipedia.org/wiki/Frederic_John_Walker"
+   }
+  ],
+  "pilt": "starling-pommid.jpg",
+  "pildi_allkiri": "Sügavuspommid plahvatavad HMS Starlingi ahtri taga Atlandil jaanuaris 1944. Starling oli kapten Walkeri juhitud saatjagrupi laev.",
+  "pildi_allikas": "C. H. Parnall, Royal Navy, 1944; Imperial War Museums (A 21992) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Depth_charges_explode_astern_of_HMS_STARLING_of_the_2nd_Escort_Group_in_the_Atlantic,_January_1944._A21992.jpg"
+ },
+ {
+  "saksa": "Ahtritoru",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Ahtritoru ja akustiline torpeedo",
+  "tekst": "VII C paadil oli neli vööritoru ja üks ahtritoru, mille laadimisots asus ahtris elektrimootoriruumis. 1943. aasta sügisest kasutati ka akustilist torpeedot G7es (T V), mis juhtus saatelaeva sõukruvide müra järgi. Pärast sellise torpeedo laskmist pidi paat laskuma 60 meetrini ja jääma vaikseks, et torpeedo teda ennast ei tabaks. Romaan ei ütle, milline torpeedo ahtritorus on.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Wikipedia · G7es torpedo",
+    "url": "https://en.wikipedia.org/wiki/G7es_torpedo"
+   }
+  ]
+ },
+ {
+  "saksa": "kaldemõõtur",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Kaldemõõtur",
+  "tekst": "Kaldemõõtur näitab, kui palju laev on kaldu. Allveelaevas on tähtis pikikalle: kas vöör või ahter on madalamal. 1943. aasta sukeldumiseeskirja järgi kordas eesmine sügavustüürimees inseneri antud sügavust ja tagumine kallet, mida tuli hoida. Pikal sügaval sõidul võis paat sisse imbuva vee tõttu raskeks jääda ja ahtrist vajuma hakata.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Inclinometer",
+    "url": "https://en.wikipedia.org/wiki/Inclinometer"
+   },
+   {
+    "tekst": "U-boat Archive · 1943. aasta sukeldumiseeskiri, § 152 ja § 186",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   }
+  ],
+  "pilt": "u995-sukeldumisjaam.jpg",
+  "pildi_allkiri": "Muuseumipaadi U 995 (Laboe) sukeldumisjaam tsentraalis: sügavusnäidikud ning sügavustüüride rattad, mille juures hoiti sügavust ja kallet. Tänapäevane foto.",
+  "pildi_allikas": "James Steakley, 2012 (oma töö; U 995, Laboe) / CC BY-SA 3.0",
+  "pildi_litsents": "CC BY-SA 3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U_995,_Tauchstation.jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ {
+  "saksa": "veeproovi",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Veeproov ja vee tihedus",
+  "tekst": "Paadi tasakaal vee all sõltub ümbritseva vee tihedusest. 1943. aasta sukeldumiseeskiri nõudis merevee erikaalu mõõtmist ja sukeldumispäevikusse kandmist. Fjordides ja jõesuudmetes jääb kergem magevesi soolase merevee peale; tihedamasse vette jõudes paat kipub tõusma. Allveelaevaülema käsiraamat soovitas ASDICuga jälitamisel mõõta laskumise ajal vee tihedust ja temperatuuri, et leida kiht, mis kajaimpulsse nõrgendab.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · 1943. aasta sukeldumiseeskiri, § 91 ja § 104",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   },
+   {
+    "tekst": "Wikipedia · Halocline",
+    "url": "https://en.wikipedia.org/wiki/Halocline"
+   },
+   {
+    "tekst": "Vikipeedia · Archimedese seadus",
+    "url": "https://et.wikipedia.org/wiki/Archimedese_seadus"
+   },
+   {
+    "tekst": "The Submarine Commander's Handbook, 1943 · p 250 ja 254",
+    "url": "https://uboatdata.ussleahy.com/Downloads/The%20Submarine%20Commander%27s%20Handbook.pdf"
+   }
+  ]
+ },
+ {
+  "saksa": "läbiviik",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Survekere läbiviigud ja lekked",
+  "tekst": "Survekeret läbivad kaablid, torud, võllid ja ajamivardad; iga selline läbiviik või ava on võimalik lekkekoht. 1943. aasta sukeldumiseeskirja järgi tuli alates 40 meetrist pöörata erilist tähelepanu sulgeklappidele, survekere avadele ja pilssidele. Vee sissetungist, eriti heitgaasiklappide ja võllitihendite juures, tuli kohe teatada vaneminsenerile.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · 1943. aasta sukeldumiseeskiri, § 183 ja § 184",
+    "url": "https://www.uboatarchive.net/Diving/DivingRegulations.htm"
+   },
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "käiku juurde ja pööramiskäsu",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Kontakti kaotamise hetk",
+  "tekst": "Sügavuspommid heideti ründava laeva ahtrist, nii et laev pidi sõitma allveelaeva kohale. Viimasel lähenemisel kadus ASDICu kontakt tavaliselt umbes 300 jardi ehk 275 meetri kaugusel: paat jäi kiire alla ja lähedalt tulev kaja sulas väljasaadetud impulsiga kokku. Kogenud komandörid oskasid ette näha, millal jälitaja rünnakuks kiirendab, ning pöörasid kontakti kadumise hetkel järsult ja suure käiguga kõrvale.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · ASDIC / Sonar",
+    "url": "https://uboat.net/allies/technical/asdic.htm"
+   },
+   {
+    "tekst": "Wikipedia · Hedgehog (weapon)",
+    "url": "https://en.wikipedia.org/wiki/Hedgehog_(weapon)"
+   },
+   {
+    "tekst": "Wikipedia · Creeping attack",
+    "url": "https://en.wikipedia.org/wiki/Creeping_attack"
+   }
+  ],
+  "pilt": "asdic-operaatorid.jpg",
+  "pildi_allkiri": "Allveelaevatõrje ohvitser ja madrused kuulavad ASDICut Briti hävitajal HMS Anthony Gibraltari lähistel 26. jaanuaril 1944.",
+  "pildi_allikas": "Lt R. G. G. Coote, Royal Navy, 1944; Imperial War Museums (A 22617) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:HMS_Anthony_on_An_Anti-submarine_Patrol,_Off_Gibraltar,_26_January_1944_A22617.jpg"
+ },
+ {
+  "saksa": "paremale kõrvale",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Akustiline trauma",
+  "tekst": "Väga vali lühike heli, näiteks lähedane plahvatus, võib kahjustada sisekõrva karvarakke ja isegi trummikilet. Seda nimetatakse akustiliseks traumaks. Tagajärjeks võivad olla kuulmislangus, pearinglus, raskused heli suuna määramisel ja tinnitus ehk kõrvavile, mida kuuleb ainult inimene ise. Kuulmislangus võib olla ajutine või jäädav. Peatükis ei oska keegi Lemkele öelda, kas kuulmine taastub.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Acoustic trauma",
+    "url": "https://en.wikipedia.org/wiki/Acoustic_trauma"
+   },
+   {
+    "tekst": "Vikipeedia · Tinnitus",
+    "url": "https://et.wikipedia.org/wiki/Tinnitus"
+   }
+  ]
+ },
+ {
+  "saksa": "kiiluvette",
+  "liik": "sona",
+  "peatukk": 11,
+  "pealkiri": "Kiiluvesi",
+  "tekst": "Kiiluvesi on vahutav veejoom liikuva laeva taga. See peegeldab heli: ASDICu kajad tulid tagasi ka laevade kiiluveest ja tekitasid valehäireid. Saksa allveelaevaülema 1943. aasta käsiraamat soovitas jälitamise ajal võimalusel pääseda minema vastase sõukruvi kiiluvees, sest see segab tema kuulamist. Just seda Otto proovib: ta viib paadi sinna, kust üks jälitajatest äsja läbi sõitis.",
+  "allikad": [
+   {
+    "tekst": "EKSS · kiiluvesi",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kiiluvesi"
+   },
+   {
+    "tekst": "uboat.net · ASDIC / Sonar",
+    "url": "https://uboat.net/allies/technical/asdic.htm"
+   },
+   {
+    "tekst": "The Submarine Commander's Handbook, 1943 · p 250 ja 254",
+    "url": "https://uboatdata.ussleahy.com/Downloads/The%20Submarine%20Commander%27s%20Handbook.pdf"
+   }
+  ]
+ },
+ {
+  "saksa": "Argentina",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Argentina 1945",
+  "tekst": "Argentina püsis suurema osa sõjast neutraalne, katkestas 26. jaanuaril 1944 suhted teljeriikidega ja kuulutas 27. märtsil 1945 sõja Jaapanile ning selle liitlasena ka Saksamaale. Pärast Saksamaa alistumist jõudis Mar del Platasse kaks Saksa allveelaeva: U-530 10. juulil ja U-398-ga sama tüüpi VII C paat U-977 17. augustil 1945. U-977 oli lahkunud Kristiansandist 2. mail. Argentina andis mõlemad paadid pärast ülekuulamist USA sõjaväele.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · U-977",
+    "url": "https://uboat.net/boats/u977.htm"
+   },
+   {
+    "tekst": "Wikipedia · Argentina during World War II",
+    "url": "https://en.wikipedia.org/wiki/Argentina_during_World_War_II"
+   }
+  ]
+ },
+ {
+  "saksa": "kordussaade",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Kordussaade ja ühesuunaline side",
+  "tekst": "Allveelaevadega peeti ühesuunalist raadiosidet kindla kava järgi: paat teadis saateaegu ja oli selleks ajaks sobival sügavusel. Sõnumeid saadeti peamiselt öösel, mõnikord korraga mitmest saatjast, ning kättesaamist ei kinnitatud. Iga paadi teated kandsid oma järjekorranumbrit. Kogu allveelaevade tavaliiklust korrati ka väga madalal sagedusel, et seda saaks vastu võtta vee all või siis, kui lühilaine ei levinud.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · Radio Communications of German U-boats in WWI and WWII",
+    "url": "https://uboat.net/articles/35.html"
+   },
+   {
+    "tekst": "HyperWar · SRH-025, ptk VIII · U-Boat Communications",
+    "url": "https://www.ibiblio.org/hyperwar/ETO/Ultra/SRH-025/SRH025-8.html"
+   }
+  ],
+  "pilt": "goliath-mastid.jpg",
+  "pildi_allkiri": "Väga pikkade lainete saatja Goliath, mille kaudu Saksa merevägi 1943–1945 saatis teateid ka vee all olevatele allveelaevadele. Foto on tehtud 2008. aastal Venemaal, kuhu saatja pärast sõda Kalbe an der Milde juurest viidi.",
+  "pildi_allikas": "Jevgeni Katõšev, 2008 (oma töö) / CC BY 3.0",
+  "pildi_litsents": "CC BY 3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Goliath_(from_a_distance_appr_250_m).jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by/3.0"
+ },
+ {
+  "saksa": "koordinaat",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Asukoht ruudustikukaardil",
+  "tekst": "Saksa merevägi ei edastanud asukohti raadios tavaliselt laius- ja pikkuskraadides, vaid mereruutude kaardi (Marinequadratkarte) järgi: kaks tähte ja neli numbrit, näiteks AN 9566. Suure ruudu külg oli umbes 900 km, iga jaotusega kahanes see kolm korda ja väikseim ruut oli umbes 11 km lai. Kui kohtumispaikade senist kirjeldamisviisi hakati pidama vaenlasele teadaolevaks, võeti kasutusele ruudutähiste lisavarjamine, mis kestis sõja lõpuni.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Marinequadrat",
+    "url": "https://de.wikipedia.org/wiki/Marinequadrat"
+   },
+   {
+    "tekst": "Wikipedia · Kurzsignale",
+    "url": "https://en.wikipedia.org/wiki/Kurzsignale"
+   }
+  ]
+ },
+ {
+  "saksa": "Rockall",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Rockall",
+  "tekst": "Rockall on Atlandi ookeani põhjaosas asuv asustamata graniitkalju, umbes 17 meetrit kõrge ning aluselt ligikaudu 31 × 25 meetrit. Šotimaa St Kilda saarestikust jääb see 301 km, Iirimaa Tory saarest 423 km kaugusele. Suvel puhkavad kaljul merelinnud; 1949. aastast kannab Rockalli nime ka üks Briti laevailmateate merepiirkondadest. Käsus nimetatud kohtumispunkt jääb kaljust läände, lagedale merele.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Rockall",
+    "url": "https://en.wikipedia.org/wiki/Rockall"
+   }
+  ]
+ },
+ {
+  "saksa": "seitsmenda mai",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "7.–8. mai 1945: alistumine",
+  "tekst": "7. mail 1945 kell 2.41 Kesk-Euroopa aja järgi kirjutas kindral Alfred Jodl Reimsis alla Saksamaa tingimusteta alistumisele, mis jõustus 8. mail kell 23.01; Berliini-Karlshorstis kirjutati alistumisakt uuesti alla 8.–9. mai öösel. Juba 4. mail oli Montgomery Loode-Euroopa Saksa vägede alistumisel nõudnud, et ka merevägi koos allveelaevadega antaks üle tervena. Seega jääb kohtumiseks määratud öö alistumisakti allkirjastamise ja jõustumise vahele.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · German Instrument of Surrender",
+    "url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender"
+   },
+   {
+    "tekst": "Wikipedia · Operation Regenbogen (U-boat)",
+    "url": "https://en.wikipedia.org/wiki/Operation_Regenbogen_(U-boat)"
+   }
+  ]
+ },
+ {
+  "saksa": "Ookeani ületamine",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "VII C kütus ja sõiduulatus",
+  "tekst": "VII C tüüpi allveelaev mahutas umbes 113 tonni diislikütust. Suurem osa sellest oli survekere sees, osa survekere välisküljel sadulpaakides. Täis paakidega jätkus säästlikul 10-sõlmesel kiirusel pinnal umbes 8500 meremiiliks, vee all elektrimootoritel aga vaid umbes 80 meremiiliks 4-sõlmese kiirusega. Need on täis paakidega paadi tabeliarvud; Caspar arvestab sellega, mis pärast pikka sõitu tegelikult alles on.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Type VII submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_VII_submarine"
+   },
+   {
+    "tekst": "uboat.net · Type VIIC",
+    "url": "https://uboat.net/types/viic.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "tuleb läbipääs",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Läbipääs Atlandile",
+  "tekst": "Gröönimaa, Islandi ja Suurbritannia vaheline mereala (inglise GIUK gap) eraldab Norra merd ja Põhjamerd avatud Atlandist. Sõja algusest kasutasid Saksa sõjalaevad seda Saksamaalt ja 1940. aasta aprillist ka okupeeritud Norrast Atlandile pääsemiseks, kuid liitlaste tõkestustegevus Põhjamerel ja selles vahes takistas läbimurdmist. Briti väed hõivasid 1940. aastal Fääri saared ja Islandi. Norra merest Rockalli poole minnes tuleb see vahe läbida.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · GIUK gap",
+    "url": "https://en.wikipedia.org/wiki/GIUK_gap"
+   }
+  ]
+ },
+ {
+  "saksa": "hispaania keel",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Sakslased Argentinas",
+  "tekst": "Argentinas räägitakse hispaania keelt, kuid sinna oli juba enne sõda asunud suur saksakeelne kogukond: 1923. ja 1924. aastal saabus umbes 10 000 sakslast aastas ning 1933. aastal oli riigis 176 saksa kooli. Kogukonnas oli nii natsismi vastaseid, sealhulgas Saksa juute, kui ka Hitleri toetajaid. 1939. aasta detsembris interneeriti Argentinas ja Uruguays sõjalaeva Admiral Graf Spee meeskond, kellest osa jäi hiljem sinna elama.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · German Argentines",
+    "url": "https://en.wikipedia.org/wiki/German_Argentines"
+   },
+   {
+    "tekst": "Wikipedia · Argentina during World War II",
+    "url": "https://en.wikipedia.org/wiki/Argentina_during_World_War_II"
+   }
+  ]
+ },
+ {
+  "saksa": "uusi pabereid",
+  "liik": "sona",
+  "peatukk": 12,
+  "pealkiri": "Uued paberid ja rotiteed",
+  "tekst": "Rotiteedeks (inglise ratlines) nimetatakse põgenemisteid, mida natsid ja nende kaastöölised kasutasid alates 1945. aastast Euroopast lahkumiseks. Enim jõudis neid Argentinasse, kus Juan Peróni valitsus seda soodustas. Sageli sõideti võõra nimega; Rahvusvahelise Punase Risti Rooma büroo reisidokumendid kehtisid Lõuna-Ameerikas passi eest. Josef Mengele saabus 1949. aastal Helmut Gregori, Adolf Eichmann 1950. aastal Ricardo Klementi nime all.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Ratlines (World War II)",
+    "url": "https://en.wikipedia.org/wiki/Ratlines_(World_War_II)"
+   },
+   {
+    "tekst": "Wikipedia · Josef Mengele",
+    "url": "https://en.wikipedia.org/wiki/Josef_Mengele"
+   },
+   {
+    "tekst": "Wikipedia · Adolf Eichmann",
+    "url": "https://en.wikipedia.org/wiki/Adolf_Eichmann"
+   }
+  ]
+ },
+ {
+  "saksa": "vilgutatakse lampi",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Signaallamp ja tunnussignaal",
+  "tekst": "Signaallamp ehk morselamp annab valgusvälgatustega edasi morsemärke. Enamasti on lambi ees lamellkatik, mida avatakse ja suletakse hoovaga, sest tugev hõõglamp süttib ja kustub märkide jaoks liiga aeglaselt. Saksa mereväe släng kutsub seda „Klappbuchsiks” ehk klõbisevaks karbiks. Tunnussignaali järgi tuntakse ära laev, lennuk või inimene. Otto läheneb alles siis, kui tunnus on mõlemalt poolt antud.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Signallampe",
+    "url": "https://de.wikipedia.org/wiki/Signallampe"
+   },
+   {
+    "tekst": "Wikipedia · Recognition signal",
+    "url": "https://en.wikipedia.org/wiki/Recognition_signal"
+   }
+  ],
+  "pilt": "signaallamp.jpg",
+  "pildi_allkiri": "Signalist saadab Briti sõjalaeval signaallambiga teadet, 1942. Ajastu võrdluspilt.",
+  "pildi_allikas": "Royal Navy ametlik fotograaf, 1942; Imperial War Museums (TR 91) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:The_Royal_Navy_in_1942_TR91.jpg"
+ },
+ {
+  "saksa": "heiteliin",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Heiteliin",
+  "tekst": "Heiteliin on peenike köis, mille otsas on raskuseks tihe sõlm, näiteks nn ahvirusikas. Jämedat kinnitusotsa on kaugele visata liiga raske, seepärast visatakse üle heiteliin ja teisel pool tõmmatakse selle abil kinnitusots enda juurde. Nii ei pea laev kaile lähemale minema, kui tarvis; samamoodi luuakse ühendus kahe laeva vahel. Meresporti võistlustel viskavad mehed heiteliini umbes 30, naised umbes 20 meetri kaugusele.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Wurfleine",
+    "url": "https://de.wikipedia.org/wiki/Wurfleine"
+   },
+   {
+    "tekst": "Wikipedia · Monkey's fist",
+    "url": "https://en.wikipedia.org/wiki/Monkey%27s_fist"
+   }
+  ]
+ },
+ {
+  "saksa": "rünnakud lõpetada",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Käsk rünnakud lõpetada",
+  "tekst": "4. mai 1945 hommikul saadeti kõigile Saksa allveelaevade komandöridele Dönitzi käsk lõpetada kohe tulistamine ja igasugune vaenulik tegevus liitlaste laevade vastu. Merel oli sel päeval 64 paati. Mitte kõik ei saanud käsku korralikult kätte ja mõni uputas laevu veel 7. mail. Briti Admiraliteedi 6. mai luureteates tsiteeritakse pealtkuulatud sõnumit, mille järgi paatidel kästi ühtlasi alustada tagasiteed.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · U-boats at Sea on May 4, 1945",
+    "url": "https://uboat.net/fates/at-sea.htm"
+   },
+   {
+    "tekst": "U-boat Archive · Admiralty–COMINCH Serial Messages, May 1945 (OIC Serial 1657, 6. mai)",
+    "url": "https://www.uboatarchive.net/Admiralty/AdmiraltyMessage1945-MAY.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "kütusevoolik",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Kütuse üleandmine merel",
+  "tekst": "Saksa allveelaevu tangiti sõja ajal ka avamerel. Selleks võeti teenistusse kümme XIV tüüpi varustuspaati ehk „lüpsilehma” (Milchkuh), mis võisid teistele paatidele üle anda 613 tonni kütust; sõja lõpuks olid kõik kümme uputatud. Tankimine kestis sageli tunde ja seadis ohtu mõlemad paadid. Üks II maailmasõjas Saksa laevastikus kasutatud viis oli ahtrimeetod: tarnija vedas voolikut vees järel ja taga sõitev laev võttis selle üles.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Type XIV submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_XIV_submarine"
+   },
+   {
+    "tekst": "Wikipedia · Underway replenishment",
+    "url": "https://en.wikipedia.org/wiki/Underway_replenishment"
+   }
+  ]
+ },
+ {
+  "saksa": "korvetikapten",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Korvetikapten",
+  "tekst": "Korvetikapten (Korvettenkapitän, sõna-sõnalt „korveti kapten”) oli Saksa sõjalaevastikus madalaim staabiohvitseri auaste ja vastas maaväe majorile. Temast madalam oli kaptenleitnant, kõrgem fregatikapten. Kaptenleitnandist omakorda astme võrra madalam oli vanemleitnant (Oberleutnant zur See), nii et Brandt seisab Ottost kahe astme võrra kõrgemal.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Korvettenkapitän",
+    "url": "https://de.wikipedia.org/wiki/Korvettenkapit%C3%A4n"
+   },
+   {
+    "tekst": "Wikipedia · Korvettenkapitän",
+    "url": "https://en.wikipedia.org/wiki/Korvettenkapit%C3%A4n"
+   },
+   {
+    "tekst": "Wikipedia · Kapitänleutnant",
+    "url": "https://en.wikipedia.org/wiki/Kapit%C3%A4nleutnant"
+   }
+  ]
+ },
+ {
+  "saksa": "kapituleerumis",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Kapitulatsioon 8. mail 1945",
+  "tekst": "Saksa relvajõudude tingimusteta alistumise akt allkirjastati Reimsis 7. mai varahommikul ja Berliinis uuesti 8. mai kuupäevaga. See jõustus 8. mail kell 23.01 Kesk-Euroopa aja järgi. Akti järgi pidid Saksa väed selleks ajaks sõjategevuse lõpetama, jääma oma kohtadele ja täielikult desarmeeruma. Ühtki laeva ei tohtinud uputada ega selle kere, masinaid või varustust kahjustada. Peatüki kohtumine toimub just sel päeval.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · German Instrument of Surrender",
+    "url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender"
+   }
+  ]
+ },
+ {
+  "saksa": "lisab ta arsti",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Arst suurel allveelaeval",
+  "tekst": "U-398 pardal arsti ei ole, haigete eest hoolitseb sanitar. Allveelaeva lisakoosseisu võis aga kuuluda ka pardaarst (Bordarzt). XIV tüüpi varustuspaatidel oli arst ja ravikoht vigastatud meremeestele ning ka suure IXD2 tüüpi U-852 meeskonda kuulus laevaarst. Nii ei ole Katharina palve suurelt paadilt arsti saada põhjendamatu, olgugi et arsti tulek U-398-le venib.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · The U-boat Crew",
+    "url": "https://uboat.net/men/crew/"
+   },
+   {
+    "tekst": "Wikipedia · Type XIV submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_XIV_submarine"
+   },
+   {
+    "tekst": "Wikipedia · German submarine U-852",
+    "url": "https://en.wikipedia.org/wiki/German_submarine_U-852"
+   }
+  ]
+ },
+ {
+  "saksa": "Laeva kadumine paberitest",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Kieli pommitamine aprillis 1945",
+  "tekst": "1945. aasta aprillis pommitasid liitlased Kieli sadamat ja laevatehaseid korduvalt. 3.–9. aprillini uputasid pommid Kielis mitu allveelaeva, nende seas 4. aprillil Germaniawerfti kai ääres U-237. 9. aprilli öösel ründas sadamat üle 300 Briti lennuki ning ristleja Admiral Scheer sai tabamusi ja läks ümber. Nii ei ole Schrade jutt õhurünnakus hävinud paadist ajastu taustal usutamatu; Widar ise on romaani väljamõeldis.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · German cruiser Admiral Scheer",
+    "url": "https://en.wikipedia.org/wiki/German_cruiser_Admiral_Scheer"
+   },
+   {
+    "tekst": "uboat.net · U-boats Bombed in Safe Waters",
+    "url": "https://uboat.net/fates/bombed.htm"
+   }
+  ],
+  "pilt": "admiral-scheer-kiel.jpg",
+  "pildi_allkiri": "Raskeristleja Admiral Scheer ümberläinuna Kieli dokis pärast 9./10. aprilli 1945 öist pommirünnakut.",
+  "pildi_allikas": "Royal Air Force ametlik fotograaf, 1945; Imperial War Museums (CL 2772) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Kiel,_Royal_Air_Force_Bomber_Command,_1942-1945_CL2772.jpg"
+ },
+ {
+  "saksa": "maailma hävingut",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Ragnarök",
+  "tekst": "Ragnarök (vanapõhja keeles umbes „jumalate lõplik saatus”) on põhjamaa müütide maailmalõpp. Sellele eelneb kolm talve ilma suveta; lõpuks katab tulehiid Surtr kogu maa leekidega. Seejärel kerkib maa merest uuesti, kaunis ja roheline. Ellu jäävad jumalad Vidar, Vali, Modi ja Magni, tagasi tulevad Baldr ja Höd ning kaks metsa varjunud inimest, Líf ja Lífþrasir, asustavad maailma uuesti.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Ragnarök",
+    "url": "https://en.wikipedia.org/wiki/Ragnar%C3%B6k"
+   }
+  ]
+ },
+ {
+  "saksa": "Suur hunt",
+  "liik": "sona",
+  "peatukk": 13,
+  "pealkiri": "Fenrir",
+  "tekst": "Hunt, kellest Dietrich räägib, on Fenrir, Loki ja hiiglanna Angrboða poeg. Kuna ennustused lubasid temast suurt häda, sidusid jumalad ta kääbuste valmistatud köidikuga Gleipnir; Tyr kaotas seejuures parema käe. Ragnaröki ajal pääseb Fenrir lahti ja tuleb pärani suuga, ülemine lõug taevas ja alumine maas, leegid silmist ja sõõrmetest. Sepa lühike vastus Matsile on müüdi vaimus.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Fenrir",
+    "url": "https://en.wikipedia.org/wiki/Fenrir"
+   }
+  ],
+  "pilt": "vidar-collingwood.jpg",
+  "pildi_allkiri": "W. G. Collingwoodi illustratsioon (1908): Vidar seisab Fenriri hiiglaslike lõugade vahel ja hoiab neid lahti.",
+  "pildi_allikas": "W. G. Collingwood, 1908 (The Elder or Poetic Edda) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Vidar_by_Collingwood.jpg"
  }
 ]
