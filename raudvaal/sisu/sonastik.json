@@ -155,7 +155,7 @@
  },
  {
   "saksa": "Backbord! Da ist etwas neben uns. Kein Licht, nur ein Schatten. Eben war es noch da, dicht unter der Oberfläche.",
-  "tolge": "Vasakus pardas! Seal on midagi meie kõrval. Tuld ei ole, ainult vari. Äsja oli veel seal, otse veepinna all.",
+  "tolge": "Vasakul pool! Seal on midagi meie kõrval. Tuld ei ole, ainult vari. Äsja oli veel seal, otse veepinna all.",
   "peatukid": [
    "XVIII"
   ]
@@ -246,7 +246,7 @@
  },
  {
   "saksa": "Bis der Arzt fertig ist, sofern die Lage es erlaubt. Keine unnötigen Kurs- oder Fahrtänderungen. Der Leitende meldet mir den Batteriestand.",
-  "tolge": "Kuni arst lõpetab, kui olukord seda lubab. Ei mingeid tarbetuid kursi- ega kiirusemuutusi. Peamehaanik teatab mulle akude seisust.",
+  "tolge": "Kuni arst lõpetab, kui olukord seda lubab. Ei mingeid tarbetuid kursi- ega kiirusemuutusi. Vaneminsener teatab mulle akude seisust.",
   "peatukid": [
    "XVI"
   ]
@@ -637,8 +637,8 @@
   ]
  },
  {
-  "saksa": "Der Sender ist betriebsbereit, Herr Leutnant. Aber ohne Befehl des Kommandanten darf ich nichts senden. Auch keine Standortmeldung.",
-  "tolge": "Saatja on töökorras, härra leitnant. Aga komandöri käsuta ei tohi ma midagi välja saata. Ka asukohateadet mitte.",
+  "saksa": "Der Sender ist betriebsbereit, Herr Oberleutnant. Aber ohne Befehl des Kommandanten darf ich nichts senden. Auch keine Standortmeldung.",
+  "tolge": "Saatja on töökorras, härra vanemleitnant. Aga komandöri käsuta ei tohi ma midagi välja saata. Ka asukohateadet mitte.",
   "peatukid": [
    "XVII"
   ]

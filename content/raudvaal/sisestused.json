@@ -745,5 +745,131 @@
   "asenda": "kas tema lubadus inimeste vastuvõtmise kohta kehtib ka ilma Schrade leheta",
   "uus": "kas Widar võtab inimesi vastu ka ilma Schrade leheta",
   "markus": "XV: Brandti lubadust polnud näidatud"
+ },
+ {
+  "peatukk": 17,
+  "parast": "e69ba45adeb87a88",
+  "asenda": "Herr Leutnant. Aber ohne Befehl des Kommandanten darf ich nichts senden. Auch keine Standortmeldung.||Saatja on töökorras, härra leitnant.",
+  "uus": "Herr Oberleutnant. Aber ohne Befehl des Kommandanten darf ich nichts senden. Auch keine Standortmeldung.||Saatja on töökorras, härra vanemleitnant.",
+  "markus": "XVII: Widari radist pöördub Otto poole õige auastmega („Herr Leutnant” on Schrade alandus)"
+ },
+ {
+  "peatukk": 18,
+  "parast": "2f4e7ce7e527a71a",
+  "asenda": "kui vahetaja on kuulamiskoha üle võtnud",
+  "uus": "kui Widari vahetaja on kuulamiskoha üle võtnud",
+  "markus": "XVIII: U-398 teine radist läks aurikule (XV); vahetaja on Widari mees"
+ },
+ {
+  "peatukk": 16,
+  "parast": "85d7f71725e36ebc",
+  "asenda": "kes otsib leitnanti.",
+  "uus": "kes otsib vanemleitnanti.",
+  "markus": "XVI: Otto auaste on vanemleitnant"
+ },
+ {
+  "peatukk": 16,
+  "parast": "577e474681bde356",
+  "asenda": "Peamehaanik teatab mulle akude seisust.",
+  "uus": "Vaneminsener teatab mulle akude seisust.",
+  "markus": "XVI: LI = vaneminsener (II, XIV)"
+ },
+ {
+  "peatukk": 16,
+  "parast": "1ae662dbb6324e4b",
+  "asenda": "mitu astet allapoole saanud",
+  "uus": "mitu pulka allapoole saanud",
+  "markus": "XVI: redeli osad on pulgad"
+ },
+ {
+  "peatukk": 16,
+  "parast": "1d421dc71d0615d2",
+  "asenda": "mõni aeg hiljem keskposti lähedalt",
+  "uus": "mõni aeg hiljem tsentraali lähedalt",
+  "markus": "XVI: keskpost → tsentraal (I–XV termin)"
+ },
+ {
+  "peatukk": 16,
+  "parast": "8c4acd4a39b257c1",
+  "asenda": "Nüüd tuleb keskposti poolt Brandt.",
+  "uus": "Nüüd tuleb tsentraali poolt Brandt.",
+  "markus": "XVI: keskpost → tsentraal (I–XV termin)"
+ },
+ {
+  "peatukk": 16,
+  "parast": "ceb71094cc83087e",
+  "asenda": "Otto läheb keskposti. Seal töötab",
+  "uus": "Otto läheb tsentraali. Seal töötab",
+  "markus": "XVI: keskpost → tsentraal (I–XV termin)"
+ },
+ {
+  "peatukk": 16,
+  "parast": "f352d29141821277",
+  "asenda": "kuni keskpostist teda kutsutakse",
+  "uus": "kuni tsentraalist teda kutsutakse",
+  "markus": "XVI: keskpost → tsentraal (I–XV termin)"
+ },
+ {
+  "peatukk": 16,
+  "parast": "85d7f71725e36ebc",
+  "asenda": "Keskposti poolt tuleb madrus,",
+  "uus": "Tsentraali poolt tuleb madrus,",
+  "markus": "XVI: keskpost → tsentraal (I–XV termin)"
+ },
+ {
+  "peatukk": 17,
+  "parast": "ee6415fa0b226d5a",
+  "asenda": "keskpostis Brandti vahimehed",
+  "uus": "tsentraalis Brandti vahimehed",
+  "markus": "XVII: keskpost → tsentraal (I–XV termin)"
+ },
+ {
+  "peatukk": 17,
+  "parast": "e1cc03fb13060d01",
+  "asenda": "kas hommikune korraldus kantakse logiraamatusse.",
+  "uus": "kas hommikune korraldus kantakse vahipäevikusse.",
+  "markus": "XVII: logiraamat → vahipäevik (I–XV termin)"
+ },
+ {
+  "peatukk": 17,
+  "parast": "3fbc4a5902f49b25",
+  "asenda": "kas keeld märgitakse logiraamatusse",
+  "uus": "kas keeld märgitakse vahipäevikusse",
+  "markus": "XVII: logiraamat → vahipäevik (I–XV termin)"
+ },
+ {
+  "peatukk": 18,
+  "parast": "3db551386ea486db",
+  "asenda": "Katharina õpib eristama logiraamatus seda",
+  "uus": "Katharina õpib eristama vahipäevikus seda",
+  "markus": "XVIII: logiraamat → vahipäevik (I–XV termin)"
+ },
+ {
+  "peatukk": 18,
+  "parast": "dcaac92128c141c3",
+  "asenda": "Katharina jätab oma arvutuslehe logiraamatu vahele",
+  "uus": "Katharina jätab oma arvutuslehe vahipäeviku vahele",
+  "markus": "XVIII: logiraamat → vahipäevik (I–XV termin)"
+ },
+ {
+  "peatukk": 17,
+  "parast": "ee6415fa0b226d5a",
+  "asenda": "mille tõttu Reuteri asemele tuli täna uusi inimesi leida",
+  "uus": "mille tõttu Reuteri asemele tuli uusi inimesi leida",
+  "markus": "XVII: Reuteri asendajad leiti 11.–12. mail, mitte 13. mail"
+ },
+ {
+  "peatukk": 18,
+  "parast": "400b89063c564393",
+  "asenda": "Vasakus pardas! Seal on midagi",
+  "uus": "Vasakul pool! Seal on midagi",
+  "markus": "XVIII: „Backbord!” nagu XV „Paremal pool!”"
+ },
+ {
+  "peatukk": 18,
+  "parast": "6c2ad72ac8f79a96",
+  "asenda": "kuid leitnant paneb ainult aja enda jaoks kirja",
+  "uus": "kuid too paneb ainult aja enda jaoks kirja",
+  "markus": "XVIII: Lemke vaatepunktis mitte „leitnant” (Schrade alandus)"
  }
 ]
