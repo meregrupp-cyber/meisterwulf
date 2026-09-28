@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Raadioteade vee alla</title>
+  <desc id="d">Põhimõtteskeem. Kaldal asuv väga pikkade lainete saatja. Merevesi summutab raadiosignaali: mida sügavamal on allveelaeva antenn, seda nõrgem on signaal. Madalal saab teadet kuulata, sügaval mitte. U-517 aruandes nimetati väga pikkade lainete puhul umbes 15 meetrit, kuid see ei ole kõigi paatide kindel piir.</desc>
+  <defs>
+    <linearGradient id="sumbub" gradientUnits="userSpaceOnUse" x1="0" y1="110" x2="0" y2="360">
+      <stop offset="0" stop-color="#8a1c1c" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#8a1c1c" stop-opacity="0.35"/>
+      <stop offset="0.8" stop-color="#8a1c1c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="400" fill="#f4ead2"/>
+  <!-- kallas ja mastid -->
+  <path d="M0 110 L0 360 L120 360 L150 110 Z" fill="#b59a6a"/>
+  <path d="M0 110 H150" stroke="#5a3f16"/>
+  <g stroke="#2b1d10" stroke-width="2">
+    <line x1="30" y1="110" x2="30" y2="30"/><line x1="70" y1="110" x2="70" y2="30"/><line x1="110" y1="110" x2="110" y2="30"/>
+    <path d="M30 34 H110" fill="none"/>
+  </g>
+  <text x="10" y="20" font-family="Georgia, serif" font-size="13" fill="#2b1d10">kaldasaatja, väga pikad lained</text>
+  <!-- lained õhus -->
+  <g fill="none" stroke="#8a1c1c" stroke-width="2">
+    <path stroke-dasharray="12 4" d="M130 60 q8 -10 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0">
+      <animate attributeName="stroke-dashoffset" values="0;-32" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <!-- meri -->
+  <rect x="150" y="110" width="610" height="250" fill="#cfe0ee"/>
+  <path d="M150 110 H760" stroke="#1f4e79" stroke-width="2"/>
+  <g stroke="url(#sumbub)" stroke-width="3" fill="none">
+    <path d="M260 110 v250"/><path d="M380 110 v250"/><path d="M500 110 v250"/><path d="M620 110 v250"/><path d="M740 110 v250"/>
+  </g>
+  <!-- sügavusskaala -->
+  <g font-family="Georgia, serif" font-size="11" fill="#1f4e79">
+    <line x1="170" y1="110" x2="170" y2="350" stroke="#1f4e79"/>
+    <line x1="166" y1="170" x2="174" y2="170" stroke="#1f4e79"/><text x="178" y="174">umbes 15 m</text>
+  </g>
+  <!-- paadid -->
+  <g fill="#4a4a4a">
+    <g transform="translate(330 126)"><path d="M-50 0 q6 -8 24 -8 h52 q18 0 24 8 q-6 8 -24 8 h-52 q-18 0 -24 -8z"/><rect x="-6" y="-18" width="14" height="10"/><line x1="0" y1="-18" x2="0" y2="-34" stroke="#4a4a4a" stroke-width="2"/></g>
+    <g transform="translate(470 178)"><path d="M-50 0 q6 -8 24 -8 h52 q18 0 24 8 q-6 8 -24 8 h-52 q-18 0 -24 -8z"/><rect x="-6" y="-18" width="14" height="10"/></g>
+    <g transform="translate(610 290)"><path d="M-50 0 q6 -8 24 -8 h52 q18 0 24 8 q-6 8 -24 8 h-52 q-18 0 -24 -8z"/><rect x="-6" y="-18" width="14" height="10"/></g>
+  </g>
+  <!-- signaalitulbad -->
+  <g>
+    <rect x="370" y="116" width="6" height="6" fill="#2e6b2e"/><rect x="378" y="112" width="6" height="10" fill="#2e6b2e"/><rect x="386" y="108" width="6" height="14" fill="#2e6b2e"/>
+    <rect x="510" y="170" width="6" height="6" fill="#8a6a1c"/><rect x="518" y="166" width="6" height="10" fill="#8a6a1c"/><rect x="526" y="162" width="6" height="14" fill="#ddd" stroke="#999" stroke-width=".5"/>
+    <rect x="650" y="282" width="6" height="6" fill="#ddd" stroke="#999" stroke-width=".5"/><rect x="658" y="278" width="6" height="10" fill="#ddd" stroke="#999" stroke-width=".5"/><rect x="666" y="274" width="6" height="14" fill="#ddd" stroke="#999" stroke-width=".5"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="290" y="152">madalal: kuulda</text>
+    <text x="430" y="206">sügavamal: nõrk</text>
+    <text x="560" y="322">sügaval: ei jõua kohale</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="20" y="382">Merevesi summutab raadiosignaali. Vastuvõtt sõltub sagedusest, saatjast ja antenni sügavusest; 15 m on</text>
+    <text x="20" y="398">U-517 aruande näide, mitte kõigi paatide piir. Kuulamiseks ei pea oma saatjat tööle panema.</text>
+  </g>
+</svg>

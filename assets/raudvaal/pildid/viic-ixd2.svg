@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-labelledby="t d">
+  <title id="t">VIIC ja IXD2 samas mõõtkavas</title>
+  <desc id="d">Kahe Saksa allveelaevatüübi lihtsustatud külgvaated samas mõõtkavas: VIIC umbes 67 meetrit, IXD2 umbes 88 meetrit. Mõõtjoon 0 kuni 80 meetrit.</desc>
+  <rect width="760" height="330" fill="#f4ead2"/>
+  <text x="20" y="28" font-family="Georgia, serif" font-size="15" fill="#2b1d10">Samas mõõtkavas (lihtsustatud külgvaated)</text>
+  <!-- VIIC: 67,1 m -> 503 px, algus x=50 -->
+  <g transform="translate(50 110)">
+    <path d="M0 0 C20 -14 60 -16 120 -16 H420 C470 -16 490 -8 503 0 C490 8 470 12 420 12 H120 C60 12 20 10 0 0Z" fill="#4a4a4a"/>
+    <path d="M40 -16 H470" stroke="#6b6b6b" stroke-width="3"/>
+    <path d="M225 -16 V-40 Q228 -46 240 -46 H275 Q285 -46 287 -38 L292 -16Z" fill="#4a4a4a"/>
+    <line x1="252" y1="-46" x2="252" y2="-66" stroke="#4a4a4a" stroke-width="2"/>
+  </g>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="50" y="148" font-size="14">VIIC (nagu U-398)</text>
+    <text x="563" y="114" font-size="14">≈ 67 m</text>
+  </g>
+  <!-- IXD2: 87,6 m -> 657 px -->
+  <g transform="translate(50 230)">
+    <path d="M0 0 C24 -17 70 -20 140 -20 H570 C625 -20 645 -9 657 0 C645 10 625 14 570 14 H140 C70 14 24 12 0 0Z" fill="#3c3c3c"/>
+    <path d="M44 -20 H620" stroke="#5f5f5f" stroke-width="3"/>
+    <path d="M280 -20 V-46 Q283 -52 296 -52 H340 Q352 -52 354 -43 L360 -20Z" fill="#3c3c3c"/>
+    <line x1="312" y1="-52" x2="312" y2="-74" stroke="#3c3c3c" stroke-width="2"/>
+  </g>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="50" y="272" font-size="14">IXD2 (kaugsõidupaat, nagu U-873)</text>
+    <text x="707" y="190" font-size="14" text-anchor="end">≈ 88 m</text>
+  </g>
+  <!-- mõõtjoon: 1 m = 7,5 px -->
+  <g transform="translate(50 300)" font-family="Georgia, serif" font-size="11" fill="#2b1d10">
+    <line x1="0" y1="0" x2="600" y2="0" stroke="#2b1d10" stroke-width="1.5"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#2b1d10"/><line x1="150" y1="-5" x2="150" y2="5" stroke="#2b1d10"/>
+    <line x1="300" y1="-5" x2="300" y2="5" stroke="#2b1d10"/><line x1="450" y1="-5" x2="450" y2="5" stroke="#2b1d10"/><line x1="600" y1="-5" x2="600" y2="5" stroke="#2b1d10"/>
+    <text x="0" y="20" text-anchor="middle">0</text><text x="150" y="20" text-anchor="middle">20</text><text x="300" y="20" text-anchor="middle">40</text>
+    <text x="450" y="20" text-anchor="middle">60</text><text x="600" y="20" text-anchor="middle">80 m</text>
+  </g>
+</svg>

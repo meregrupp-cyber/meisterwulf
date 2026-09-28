@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Rüütelkonna matrikkel: kolm eri asja</title>
+  <desc id="d">Skeem. Vasakul perekonnanimi, mida kannavad kaks haru. Keskel sugulusliin, kus põlvnemine viib ühe haruni. Paremal rüütelkonna matrikli lehekülg, kuhu on kantud ainult üks haru. Nimed on välja mõeldud.</desc>
+  <rect width="760" height="400" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="32" font-size="17">Nimi, põlvnemine ja kanne matriklis ei ole üks ja sama</text>
+    <text x="20" y="64" font-size="14" fill="#1f4e79">1. Perekonnanimi</text>
+    <text x="270" y="64" font-size="14" fill="#1f4e79">2. Sugulusliin</text>
+    <text x="520" y="64" font-size="14" fill="#1f4e79">3. Kanne matriklis</text>
+  </g>
+  <!-- 1: kaks ukseplaati sama nimega -->
+  <g font-family="Georgia, serif">
+    <rect x="30" y="90" width="190" height="56" rx="6" fill="#e9dcbc" stroke="#5a3f16" stroke-width="1.5"/>
+    <text x="125" y="115" font-size="16" text-anchor="middle" fill="#2b1d10">von A.</text>
+    <text x="125" y="135" font-size="11" text-anchor="middle" fill="#5a3f16">haru I</text>
+    <rect x="30" y="162" width="190" height="56" rx="6" fill="#e9dcbc" stroke="#5a3f16" stroke-width="1.5"/>
+    <text x="125" y="187" font-size="16" text-anchor="middle" fill="#2b1d10">von A.</text>
+    <text x="125" y="207" font-size="11" text-anchor="middle" fill="#5a3f16">haru II</text>
+    <text x="30" y="250" font-size="12" fill="#8a1c1c">sama nimi, sama „von”:</text>
+    <text x="30" y="266" font-size="12" fill="#8a1c1c">nime järgi neid ei erista</text>
+  </g>
+  <!-- 2: sugupuu -->
+  <g stroke="#5a3f16" stroke-width="2" fill="none">
+    <path d="M375 100 v24 M375 124 h-50 v26 M375 124 h50 v26 M325 174 v28 M425 174 v28"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" text-anchor="middle" fill="#2b1d10">
+    <rect x="330" y="80" width="90" height="22" rx="4" fill="#f4ead2" stroke="#5a3f16"/>
+    <text x="375" y="95">esiisa</text>
+    <rect x="280" y="150" width="90" height="24" rx="4" fill="#dbe7d3" stroke="#2e6b2e"/>
+    <text x="325" y="166">poeg (haru I)</text>
+    <rect x="380" y="150" width="90" height="24" rx="4" fill="#f4ead2" stroke="#5a3f16"/>
+    <text x="425" y="166">poeg (haru II)</text>
+    <rect x="280" y="202" width="90" height="24" rx="4" fill="#dbe7d3" stroke="#2e6b2e"/>
+    <text x="325" y="218">järeltulijad</text>
+    <rect x="380" y="202" width="90" height="24" rx="4" fill="#f4ead2" stroke="#5a3f16"/>
+    <text x="425" y="218">järeltulijad</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#8a1c1c">
+    <text x="270" y="250">vastuvõtul tuli põlvnemist</text>
+    <text x="270" y="266">dokumentidega tõendada</text>
+  </g>
+  <!-- 3: matrikli leht -->
+  <g font-family="Georgia, serif">
+    <rect x="520" y="80" width="220" height="200" fill="#fbf5e6" stroke="#5a3f16" stroke-width="1.5"/>
+    <text x="630" y="102" font-size="12" text-anchor="middle" fill="#5a3f16" font-style="italic">Matrikel der Ritterschaft</text>
+    <line x1="535" y1="110" x2="725" y2="110" stroke="#5a3f16"/>
+    <g font-size="12" fill="#2b1d10">
+      <text x="535" y="132">Nr. 11   von B.</text>
+      <text x="535" y="156">Nr. 12   von A., haru I</text>
+      <text x="535" y="180">Nr. 13   von C.</text>
+      <text x="535" y="204">Nr. 14   von D.</text>
+      <text x="535" y="228">…</text>
+    </g>
+    <rect x="530" y="142" width="150" height="20" fill="none" stroke="#2e6b2e" stroke-width="2" rx="3"/>
+    <text x="535" y="268" font-size="11" fill="#5a3f16">haru II siin ei ole</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="20" y="316">Balti rüütelkondade matriklid olid suguvõsade ja hiljem ka üksikisikute ametlikud nimekirjad.</text>
+    <text x="20" y="336">Matriklisse kuulumine tähendas kohta seisuslikus omavalitsuses. Leidus ka aadlikke, kelle haru</text>
+    <text x="20" y="356">kohaliku rüütelkonna matriklisse kantud ei olnud.</text>
+    <text x="20" y="386" font-size="11" fill="#5a3f16">Põhimõtteskeem; nimed ja numbrid on välja mõeldud, see ei ole Wulfide sugupuu ega arhiiviallikas.</text>
+  </g>
+</svg>

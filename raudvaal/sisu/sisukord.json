@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "FE8+n0zcDx28Pdtc",
-  "ct": "4uxZt1MT+mJJjEYniuuQrYHH"
+  "iv": "T1GK1esiYe04iclL",
+  "ct": "DsFjQ2Wye7oqXQVJC5GVarcl"
  },
  "peatukid": [
   {
@@ -145,9 +145,9 @@
    "ord": 10,
    "osa": 2,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Norra rannikuveed, 1.–2. mai 1945"
   },
   {
    "slug": "peatukk-11",
@@ -156,9 +156,9 @@
    "ord": 11,
    "osa": 2,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Norra rannikuveed, 2. mai 1945"
   },
   {
    "slug": "peatukk-12",
@@ -167,9 +167,9 @@
    "ord": 12,
    "osa": 2,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Norra meri, 3. mai 1945"
   },
   {
    "slug": "peatukk-13",
@@ -178,9 +178,9 @@
    "ord": 13,
    "osa": 3,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Atlandi ookean, Rockallist läänes, 8. mai 1945"
   },
   {
    "slug": "peatukk-14",

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d">
+  <title id="t">ASDIC: kuulamine ja otsimine on eri asjad</title>
+  <desc id="d">Animatsioon külgvaates. Veepinnal oleva laeva põhja all olev saatja saadab heliimpulsi; see levib allveelaevani ja kaja tuleb tagasi. All ajatelg: impulsi ja kaja vaheline aeg annab kauguse. Kõrval selgitus: hüdrofon ainult kuulab, aktiivsonar saadab ise heli ja kuulab kaja.</desc>
+  <defs>
+    <clipPath id="vesi"><rect x="0" y="92" width="760" height="218"/></clipPath>
+  </defs>
+  <rect width="760" height="420" fill="#f4ead2"/>
+  <rect x="0" y="92" width="760" height="218" fill="#cfe0ee"/>
+  <path d="M0 92 h760" stroke="#1f4e79" stroke-width="2"/>
+  <!-- laev -->
+  <path d="M70 92 l20 -18 h130 l20 18 z" fill="#5a3f16"/>
+  <rect x="130" y="54" width="40" height="20" fill="#5a3f16"/>
+  <path d="M142 92 q8 14 16 0" fill="#2b1d10"/>
+  <text x="40" y="44" font-family="Georgia, serif" font-size="13" fill="#2b1d10">jälituslaev, saatja kere all</text>
+  <!-- allveelaev -->
+  <g transform="translate(560 262)">
+    <path d="M-80 0 q10 -12 40 -12 h80 q30 0 40 12 q-10 12 -40 12 h-80 q-30 0 -40 -12z" fill="#4a4a4a"/>
+    <rect x="-12" y="-26" width="26" height="15" fill="#4a4a4a"/>
+  </g>
+  <text x="560" y="300" font-family="Georgia, serif" font-size="13" fill="#2b1d10" text-anchor="middle">allveelaev</text>
+  <!-- ping -->
+  <g clip-path="url(#vesi)">
+    <circle cx="150" cy="104" r="1" fill="none" stroke="#8a1c1c" stroke-width="3">
+      <animate attributeName="r" values="1;460;460" keyTimes="0;0.45;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.35;0;0" keyTimes="0;0.44;0.45;1" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="262" r="1" fill="none" stroke="#1f4e79" stroke-width="3" opacity="0">
+      <animate attributeName="r" values="1;1;460;460" keyTimes="0;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0.8;0.15;0" keyTimes="0;0.449;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g font-family="Georgia, serif" font-size="12">
+    <text x="300" y="150" fill="#8a1c1c">impulss läheb välja</text>
+    <text x="330" y="222" fill="#1f4e79">kaja tuleb tagasi</text>
+  </g>
+  <!-- ajatelg -->
+  <line x1="60" y1="350" x2="700" y2="350" stroke="#2b1d10" stroke-width="1.5"/>
+  <line x1="120" y1="340" x2="120" y2="360" stroke="#8a1c1c" stroke-width="3"/>
+  <line x1="520" y1="340" x2="520" y2="360" stroke="#1f4e79" stroke-width="3"/>
+  <path d="M126 336 H514" stroke="#2b1d10" marker-end="none"/>
+  <g font-family="Georgia, serif" font-size="13" fill="#2b1d10">
+    <text x="100" y="378" fill="#8a1c1c">ping</text>
+    <text x="500" y="378" fill="#1f4e79">kaja</text>
+    <text x="320" y="330" text-anchor="middle">aeg edasi-tagasi</text>
+    <text x="60" y="404">kaugus ≈ heli kiirus vees (umbes 1500 m/s) × aeg ÷ 2</text>
+  </g>
+  <rect x="520" y="16" width="226" height="58" rx="6" fill="#fbf5e6" stroke="#5a3f16"/>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="530" y="36"><tspan fill="#1f4e79">hüdrofon</tspan>: kuulab vees olevaid helisid</text>
+    <text x="530" y="56"><tspan fill="#8a1c1c">ASDIC</tspan>: saadab heli ja kuulab kaja</text>
+  </g>
+</svg>

@@ -297,5 +297,187 @@
   "asenda": "tõmbab paadihaagiga külje vahelt",
   "uus": "tõmbab pootshaagiga külje vahelt",
   "markus": "Sidusus VII/IX: pootshaak (IX neljas kohas) ühtlustatud VII-ga"
+ },
+ {
+  "peatukk": 10,
+  "parast": "db9475e4d7938708",
+  "asenda": "Krüger oli talle enne sööki näidanud lehte",
+  "uus": "Paul Krüger oli talle enne sööki näidanud lehte",
+  "markus": "X: Krügeri eesnimi Paul (Katharina ütleb „Paul”, varem eesnime ei antud)"
+ },
+ {
+  "peatukk": 10,
+  "parast": "e53f6c595836d038",
+  "asenda": "millega Heller päeval oma leivanuga küsis",
+  "uus": "millega Heller päeval palus leivanoa enda kätte jätta",
+  "markus": "X: IX-s oli nuga Taanieli oma ja Heller palus selle enda kätte jätta"
+ },
+ {
+  "peatukk": 10,
+  "parast": "7178c8a6ed866141",
+  "asenda": "oli torpeedomees peatunud",
+  "uus": "oli torpedomadrus peatunud",
+  "markus": "X: termin torpedomadrus"
+ },
+ {
+  "peatukk": 10,
+  "parast": "ce7d289b40c7d4d4",
+  "asenda": "Ta katsub uut kannavoodrit ning küsib Taanielilt",
+  "uus": "Ta katsub uut kannavoodrit, mille Taaniel saapakontrolli järel sisse õmbles, ning küsib temalt",
+  "markus": "X: Dietrichi kannavooder seotud VIII saapakontrolliga"
+ },
+ {
+  "peatukk": 10,
+  "parast": "436689b400b117f9",
+  "asenda": "Põlvele on Katharina pannud kokku keeratud kuue",
+  "uus": "Põlve alla on Katharina pannud kokku keeratud kuue",
+  "markus": "X: kuub põlve all (järgmistes lõikudes libiseb põlve alt)"
+ },
+ {
+  "peatukk": 10,
+  "parast": "47419379ef53ef5b",
+  "asenda": "||Kes esimesena näeb, on võitnud.]]",
+  "uus": "||Kes enne näeb, on võitnud.]]",
+  "markus": "X: sama ütluse tõlge nagu II peatükis"
+ },
+ {
+  "peatukk": 11,
+  "parast": "220279dda57d086e",
+  "asenda": "ta pole haiget jalga veel kordagi saapasse saanud",
+  "uus": "haige jalg on viimastel päevadel jälle nii paiste läinud, et see ei mahu saapasse",
+  "markus": "XI: Villem kandis III–VI peatükis lõigatud saabast; nüüd on jalg uuesti paistes"
+ },
+ {
+  "peatukk": 11,
+  "parast": "8e1324ccf181e547",
+  "asenda": "Und das zweite Schiff, Herr Leutnant?",
+  "uus": "Und das zweite Schiff, Herr Kaleun?",
+  "markus": "XI: Krüger ütleb Ottole Kaleun (VIII); Herr Leutnant on Schrade alandav pöördumine"
+ },
+ {
+  "peatukk": 11,
+  "parast": "8e1324ccf181e547",
+  "asenda": "Ja teine laev, härra leitnant?",
+  "uus": "Ja teine laev, härra komandör?",
+  "markus": "XI: tõlge nagu VIII-s (Härra komandör)"
+ },
+ {
+  "peatukk": 11,
+  "parast": "ca54f1d9f44c360e",
+  "asenda": "Eile õhtul oli samal kohal nööp; Otto mäletab, kuidas ema seda kahe sõrmega mööda paberit edasi lükkas.",
+  "uus": "Eile õhtul oli söögilaual harjutuslehe peal nööp; Otto mäletab, kuidas Dietrich seda kahe sõrmega mööda paberit edasi lükkas.",
+  "markus": "XI: X-s liigutasid nööpi Dietrich ja Otto söögilaual, mitte Katharina kaardil"
+ },
+ {
+  "peatukk": 11,
+  "parast": "2d878d0c24fce045",
+  "asenda": "on torpeedomees juba käe tõstnud",
+  "uus": "on torpedomadrus juba käe tõstnud",
+  "markus": "XI: termin torpedomadrus"
+ },
+ {
+  "peatukk": 11,
+  "parast": "426a29cce1d934a3",
+  "asenda": "Torpeedomees tahab teada",
+  "uus": "Torpedomadrus tahab teada",
+  "markus": "XI: termin torpedomadrus"
+ },
+ {
+  "peatukk": 11,
+  "parast": "2322aadfcd781cf0",
+  "asenda": "mille peale torpeedomees tõstab käe",
+  "uus": "mille peale torpedomadrus tõstab käe",
+  "markus": "XI: termin torpedomadrus"
+ },
+ {
+  "peatukk": 11,
+  "parast": "7b4b0c265af2be27",
+  "asenda": "Dietrich tuleb vöörist keskruumi poole tagasi",
+  "uus": "Dietrich tuleb vöörist tsentraali poole tagasi",
+  "markus": "XI: termin tsentraal"
+ },
+ {
+  "peatukk": 11,
+  "parast": "f178c60087c0ff41",
+  "asenda": "Seesama mees oli pannud talle kuivad sokid",
+  "uus": "Seesama mees, kellega ta koid jagab, oli pannud talle kuivad sokid",
+  "markus": "XI: Jaan ja Dietrich jagavad VIII-st koid"
+ },
+ {
+  "peatukk": 12,
+  "parast": "eacc087d0e18337d",
+  "asenda": "Auch nicht für ein einziges Wort, Herr Leutnant.",
+  "uus": "Auch nicht für ein einziges Wort, Herr Kaleun.",
+  "markus": "XII: Lemke ütleb Ottole Kaleun; Herr Leutnant on Schrade pöördumine"
+ },
+ {
+  "peatukk": 12,
+  "parast": "eacc087d0e18337d",
+  "asenda": "sõna jaoks, härra leitnant.",
+  "uus": "sõna jaoks, härra komandör.",
+  "markus": "XII: tõlge nagu VIII-s"
+ },
+ {
+  "peatukk": 12,
+  "parast": "d22371036872fc43",
+  "asenda": "Üks vanematest torpeedomeestest küsib",
+  "uus": "Üks vanematest torpedomadrustest küsib",
+  "markus": "XII: termin torpedomadrus"
+ },
+ {
+  "peatukk": 12,
+  "parast": "7d0cced9cf5b5989",
+  "asenda": "mida torpeedomees küsis",
+  "uus": "mida torpedomadrus küsis",
+  "markus": "XII: termin torpedomadrus"
+ },
+ {
+  "peatukk": 12,
+  "parast": "585b81fe24bd7382",
+  "asenda": "Torpeedomees vajutab pöidla vöö vahele",
+  "uus": "Torpedomadrus vajutab pöidla vöö vahele",
+  "markus": "XII: termin torpedomadrus"
+ },
+ {
+  "peatukk": 12,
+  "parast": "7a21dd4d711935b0",
+  "asenda": "Katkise katteklaasiga sügavusmõõtja osuti liigub endiselt",
+  "uus": "Katkise katteklaasiga sügavusnäidiku osuti liigub endiselt",
+  "markus": "XII: termin sügavusnäidik (IV, VI, XI)"
+ },
+ {
+  "peatukk": 12,
+  "parast": "6ece2111c2e68a9b",
+  "asenda": "võtmed olid tal veel Kielis taskus, kuni Katharina need tema käest ära võttis ja paberite juurde pani. Taskus tegid nad",
+  "uus": "võti on tal ikka pükste taskus, seal, kus see teiste asjade vastu ei käi ega tee",
+  "markus": "XII: proloogis ja I-s on üks koduvõti Taanieli pükstetaskus"
+ },
+ {
+  "peatukk": 12,
+  "parast": "27db802be02c4fdf",
+  "asenda": "Üleantud varustuse loetelus on periskoobi pea ikka ühe joonega läbi tõmmatud",
+  "uus": "Üleantud varustuse loetelu juures on kättesaamist kinnitav lause ikka ühe joonega läbi tõmmatud ja periskoobi pea kirjas eraldi real",
+  "markus": "XII: VII-s tõmbas Katharina läbi kinnituslause, periskoobi pea jäi eraldi reale"
+ },
+ {
+  "peatukk": 12,
+  "parast": "ef7c405d7778fd40",
+  "asenda": "sedasama, mille Schrade endaga kaasa viis",
+  "uus": "samasugust nagu see, mille Schrade endaga kaasa viis",
+  "markus": "XII: VII-s viis Schrade koopia ära"
+ },
+ {
+  "peatukk": 12,
+  "parast": "a7b292cf8c728876",
+  "asenda": "näeb uuesti meest abaja kail",
+  "uus": "näeb uuesti meest tsentraalis",
+  "markus": "XII: Schrade pani pliiatsi lauale tsentraalis (VII)"
+ },
+ {
+  "peatukk": 13,
+  "parast": "dfca7aad8863d35c",
+  "asenda": "Köögist kostab tema järgmine küsimus",
+  "uus": "Kambüüsist kostab tema järgmine küsimus",
+  "markus": "XIII: termin kambüüs"
  }
 ]
