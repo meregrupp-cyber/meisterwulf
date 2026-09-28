@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Klapp, mida tihendati lihvimisega</title>
+  <desc id="d">Põhimõtteskeem. Survekere on paks horisontaalne joon: all diisliruum, üleval kerest väljas summuti, välimine klapp ja väljapääs merre. Väljalasketoru läheb kere läbiviigust läbi; kere sees on sisemine klapp. Suurendus näitab metallist klapitaldrikut ja pesa, mida sulgemisel pöörates kokku lihviti. Punasega on märgitud romaani mõra läbiviigu kõrval: klapid on kinni, aga vesi tuleb kõrvalt sisse.</desc>
+  <rect width="760" height="400" fill="#f4ead2"/>
+  <text x="20" y="28" font-family="Georgia, serif" font-size="15" fill="#2b1d10">Väljalasketee läbi survekere (põhimõtteskeem)</text>
+  <!-- väljas: meri -->
+  <rect x="20" y="44" width="460" height="120" fill="#cfe0ee"/>
+  <text x="30" y="64" font-family="Georgia, serif" font-size="12" fill="#1f4e79">väljas: meri (vee all)</text>
+  <!-- survekere -->
+  <rect x="20" y="164" width="460" height="16" fill="#4a4a4a"/>
+  <text x="30" y="200" font-family="Georgia, serif" font-size="12" fill="#2b1d10">survekere</text>
+  <!-- sees -->
+  <rect x="20" y="180" width="460" height="180" fill="#e9e2cf"/>
+  <text x="30" y="350" font-family="Georgia, serif" font-size="12" fill="#2b1d10">sees: diisliruum</text>
+  <rect x="60" y="270" width="140" height="64" rx="6" fill="#6b6b6b"/>
+  <text x="130" y="307" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">diisel</text>
+  <!-- toru -->
+  <path d="M180 270 V240 H250 V90 H400" fill="none" stroke="#5a3f16" stroke-width="12"/>
+  <!-- läbiviik -->
+  <rect x="236" y="156" width="28" height="32" fill="none" stroke="#1f4e79" stroke-width="3"/>
+  <text x="272" y="200" font-family="Georgia, serif" font-size="12" fill="#1f4e79">kere läbiviik</text>
+  <!-- sisemine klapp -->
+  <circle cx="250" cy="224" r="12" fill="#fbf5e6" stroke="#2b1d10" stroke-width="2"/>
+  <line x1="241" y1="224" x2="259" y2="224" stroke="#2b1d10" stroke-width="3"/>
+  <text x="270" y="240" font-family="Georgia, serif" font-size="12" fill="#2b1d10">sisemine klapp (kinni)</text>
+  <!-- summuti ja välimine klapp -->
+  <rect x="290" y="74" width="60" height="32" rx="6" fill="#8c8c8c" stroke="#4a4a4a"/>
+  <text x="320" y="124" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">summuti</text>
+  <circle cx="400" cy="90" r="12" fill="#fbf5e6" stroke="#2b1d10" stroke-width="2"/>
+  <line x1="400" y1="81" x2="400" y2="99" stroke="#2b1d10" stroke-width="3"/>
+  <text x="368" y="66" font-family="Georgia, serif" font-size="12" fill="#2b1d10">välimine klapp (kinni)</text>
+  <!-- mõra ja vesi -->
+  <path d="M266 164 l5 5 -4 4 6 6" fill="none" stroke="#8a1c1c" stroke-width="3"/>
+  <g fill="#1f4e79">
+    <circle cx="270" cy="186" r="3"><animate attributeName="cy" values="182;260" dur="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="275" cy="186" r="2.5"><animate attributeName="cy" values="184;268" dur="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="266" cy="186" r="2"><animate attributeName="cy" values="182;250" dur="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#8a1c1c">
+    <text x="300" y="280">mõra läbiviigu kõrval:</text>
+    <text x="300" y="296">klapid on kinni, aga vesi</text>
+    <text x="300" y="312">tuleb kõrvalt sisse</text>
+  </g>
+  <!-- suurendus -->
+  <rect x="500" y="44" width="244" height="316" rx="8" fill="#fbf5e6" stroke="#5a3f16"/>
+  <text x="512" y="68" font-family="Georgia, serif" font-size="13" fill="#2b1d10">Suurendus: klapp ja pesa</text>
+  <path d="M530 210 H600 L610 190 H660 L670 210 H720 V240 H530Z" fill="#8c8c8c" stroke="#4a4a4a"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 -18; 0 0; 0 0; 0 -18" keyTimes="0;0.35;0.8;1" dur="5s" repeatCount="indefinite"/>
+    <path d="M600 170 H670 L660 190 H610Z" fill="#c9c9c9" stroke="#4a4a4a" stroke-width="1.5"/>
+    <line x1="635" y1="110" x2="635" y2="170" stroke="#4a4a4a" stroke-width="4"/>
+  </g>
+  <path d="M600 128 A40 12 0 0 0 670 128" fill="none" stroke="#8a1c1c" stroke-width="2"/>
+  <path d="M670 128 l-8 -6 m8 6 l-9 3" stroke="#8a1c1c" stroke-width="2"/>
+  <text x="678" y="132" font-family="Georgia, serif" font-size="12" fill="#8a1c1c">pööre</text>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="512" y="272">metall vastu metalli: sulgemisel</text>
+    <text x="512" y="288">pööratakse taldrikut pesal, nii</text>
+    <text x="512" y="304">lihvuvad tihenduspinnad kokku</text>
+    <text x="512" y="330" fill="#5a3f16">kuumuse ja tahma käes ei sobi</text>
+    <text x="512" y="346" fill="#5a3f16">pehme tihend hästi</text>
+  </g>
+  <text x="20" y="390" font-family="Georgia, serif" font-size="11" fill="#5a3f16">U-570 aruande järgi; mõra asukoht on romaani oma, mitte U-570 seisukord. Mootori silindri väljalaskeklappi siin ei kujutata.</text>
+</svg>
