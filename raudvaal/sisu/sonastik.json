@@ -120,7 +120,7 @@
  },
  {
   "saksa": "Auftauchen! Alle Tauchzellen anblasen. Tiefenruder auf Steigen. Niemand öffnet ein Schott ohne Befehl.",
-  "tolge": "Pinnale! Kõik peaballastitankid välja puhuda. Sügavustüürid tõusule. Keegi ei ava vaheseinaluuki ilma käsuta.",
+  "tolge": "Pinnale! Kõik sukeldumispaagid välja puhuda. Sügavustüürid tõusule. Keegi ei ava vaheseinaluuki ilma käsuta.",
   "peatukid": [
    "XV"
   ]
@@ -533,7 +533,7 @@
  },
  {
   "saksa": "Der Leitende Ingenieur prüft die Ladung. Bis er fertig ist, wird hier nichts wieder zugedeckt.",
-  "tolge": "Peamehaanik kontrollib lasti. Enne kui ta lõpetab, ei kaeta siin midagi uuesti kinni.",
+  "tolge": "Vaneminsener kontrollib lasti. Enne kui ta lõpetab, ei kaeta siin midagi uuesti kinni.",
   "peatukid": [
    "XIV"
   ]
@@ -687,7 +687,7 @@
  },
  {
   "saksa": "Die Zugänge bleiben frei. Wer später eine Kiste versetzt, meldet es vorher beim Leitenden Ingenieur. Auch Ihre Leute, Herr Doktor.",
-  "tolge": "Juurdepääsud jäävad vabaks. Kes edaspidi mõne kasti ümber tõstab, teatab sellest enne peamehaanikule. Ka teie mehed, härra doktor.",
+  "tolge": "Juurdepääsud jäävad vabaks. Kes edaspidi mõne kasti ümber tõstab, teatab sellest enne vaneminsenerile. Ka teie mehed, härra doktor.",
   "peatukid": [
    "XIV"
   ]
@@ -1015,6 +1015,13 @@
   ]
  },
  {
+  "saksa": "Herr Kaleun, ich möchte doch auf den Dampfer. Ich habe zuerst zugesagt, weil Sie einen Maschinisten brauchen. Aber ich will nach Hause.",
+  "tolge": "Härra komandör, ma tahaksin siiski aurikule minna. Algul nõustusin, sest teil on masinameest vaja. Aga ma tahan koju.",
+  "peatukid": [
+   "XV"
+  ]
+ },
+ {
   "saksa": "Herr Kaleun?",
   "tolge": "„Härra kaptenleitnant?” Kaleun – kõnekeelne lühend auastmest Kapitänleutnant, kaptenleitnant; komandör.",
   "peatukid": [
@@ -1026,13 +1033,6 @@
   "tolge": "Härra komandör. (Kaleun on kõnekeelne lühend auastmest Kapitänleutnant; Krüger ütleb seda Otto kohta komandöri tähenduses.)",
   "peatukid": [
    "VIII"
-  ]
- },
- {
-  "saksa": "Herr Leutnant, ich möchte doch auf den Dampfer. Ich habe zuerst zugesagt, weil Sie einen Maschinisten brauchen. Aber ich will nach Hause.",
-  "tolge": "Härra leitnant, ma tahaksin siiski aurikule minna. Algul nõustusin, sest teil on masinameest vaja. Aga ma tahan koju.",
-  "peatukid": [
-   "XV"
   ]
  },
  {
@@ -1113,8 +1113,8 @@
   ]
  },
  {
-  "saksa": "Ich bleibe beim LI. Wenn er auf Widar geht, gehe ich mit. Herr Leutnant, haben Sie dort noch einen Platz für mich?",
-  "tolge": "„Mina jään peamehaaniku juurde. Kui tema läheb Widarile, lähen kaasa. Härra leitnant, kas teil on seal veel minu jaoks kohta?” LI on lühend nimetusest Leitender Ingenieur, siin paadi peamehaanik.",
+  "saksa": "Ich bleibe beim LI. Wenn er auf Widar geht, gehe ich mit. Herr Kaleun, haben Sie dort noch einen Platz für mich?",
+  "tolge": "„Mina jään vaneminseneri juurde. Kui tema läheb Widarile, lähen kaasa. Härra komandör, kas teil on seal veel minu jaoks kohta?” LI on lühend nimetusest Leitender Ingenieur, siin paadi vaneminsener.",
   "peatukid": [
    "XV"
   ]
@@ -1535,7 +1535,7 @@
  },
  {
   "saksa": "Meine Leute sind zum Arbeiten hier. Weshalb haben Sie dem Leitenden Ingenieur ein falsches Ladegewicht genannt?",
-  "tolge": "Minu mehed on siin tööd tegemas. Miks te peamehaanikule vale lastikaalu andsite?",
+  "tolge": "Minu mehed on siin tööd tegemas. Miks te vaneminsenerile vale lastikaalu andsite?",
   "peatukid": [
    "XIV"
   ]
@@ -2368,7 +2368,7 @@
  },
  {
   "saksa": "Wassereinbruch im Dieselraum! Steuerbord, oben an der Abgasdurchführung. Die Ventile sind zu. Es kommt daneben durch!",
-  "tolge": "Vee sissevool diisliruumis! Tüürpoordis, üleval väljalaske läbiviigu juures. Klapid on kinni. Vesi tuleb kõrvalt läbi!",
+  "tolge": "Vee sissevool masinaruumis! Paremal pool, üleval väljalaske läbiviigu juures. Klapid on kinni. Vesi tuleb kõrvalt läbi!",
   "peatukid": [
    "XV"
   ]

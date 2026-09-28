@@ -415,7 +415,13 @@
   "heli_allkiri": "Heliillustratsioon: allveelaeva diiselmootorite müra pinnal sõites.",
   "pohjendus": "II, III, IV ja V ptk pakkusid kõik diislite heli (ankrud „diislite”, „Diislid”, „diisli”); liidetud üheks. Algvorm „diisel” tekstis ei esine, seepärast ankur „diisli”, mis katab II ptk „diislite” (rida 186), IV ptk „diisliga” ja V ptk „diisli”; III ja IV ptk lause alguses olev „Diislid” jääb suure algustähe tõttu katmata. „diislikütuse” (II ptk rida 60) ankur ei haara, sest lubatud käändelõpp on kuni viis tähte.",
   "heli_id": "diesel",
-  "heli": "diesel.mp3"
+  "heli": "diesel.mp3",
+  "pilt": "u995-diisliruum.jpg",
+  "pildi_allkiri": "Muuseumipaadi U 995 (Laboe) diisliruum: kahe diisli vahel kitsas käik. Tänapäevane foto.",
+  "pildi_allikas": "James Steakley, 2012 (oma töö; U 995, Laboe) / CC BY-SA 3.0",
+  "pildi_litsents": "CC BY-SA 3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U_995,_Dieselraum.jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0"
  },
  {
   "saksa": "sanitar",
@@ -2994,7 +3000,10 @@
   ],
   "markused": [
    "Pildi kirjeldus. Lähivaade ajaloolise kangi templitele koos viitadega „number”, „proov” ja „tempel”. Võrdluseks sobib nimetatud Inglise Panga artiklis avaldatud foto. Foto allkirjas säilitada tegeliku eseme päritolu ning eristada seda romaani väljamõeldud kangist. Natsionaalsotsialistlik sümboolika jääb siin dokumenteeritava eseme tunnuseks."
-  ]
+  ],
+  "pilt": "kullakangi-margid.svg",
+  "pildi_allkiri": "Skeem: kangi number seob selle nimekirjaga, proov näitab kullasisaldust tuhandikes (996,4 = 99,64 %), tempel näitab märgistajat, kuid ei tõenda päritolu. Number on välja mõeldud; tempel on tähistatud ainult sildiga.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "neli-tonni-kuid-kõigest-tünnitäis-metalli",
@@ -3053,7 +3062,16 @@
   ],
   "markused": [
    "Heli ja pildi kirjeldus. Lühike tänapäevane näidissalvestis ehtsa pootsmanivilega: esmalt madal ja kõrge toon eraldi, seejärel kokkulepitud töömärguande näidis; kõrvale vastav tähendus ja meretraditsioon. Eesmärk on kuulda, kuidas väike pill kannab korraldust; taustamuusikat ega merekohinat pole vaja. See on salvestise kavand, mitte leitud 1945. aasta originaalheli. Pildil lähivõte vilest ja seda hoidvast käest; Royal Museums Greenwichi kaunistatud hõbevile asemel võib auriku töövile joonisel olla lihtne metallist ese."
-  ]
+  ],
+  "pilt": "pootsmanivile.jpg",
+  "pildi_allkiri": "Pootsmanivile ehk pootsmani pill (Bootsmannspfeife) ketiga.",
+  "pildi_allikas": "ThoKay, 2007 (oma töö) / CC BY-SA 3.0",
+  "pildi_litsents": "CC BY-SA 3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bootsmannpfeife.jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "heli": "pootsmanivile-general-call.mp3",
+  "helitugevus": 0.45,
+  "heli_allkiri": "Pootsmanivilega mängitud üldsignaal (General Call), tänapäevane salvestis. Briti ja USA mereväe tavasignaal, mitte 1945. aasta auriku vile. Seloloving, 2021 / CC0."
  },
  {
   "marker": "miks-ballasti-võtmine-ei-tähenda-veel-laeva-uputamist",
@@ -3080,5 +3098,335 @@
   "pilt": "ballast-uputus.svg",
   "pildi_allkiri": "Lihtsustatud ristlõiked: sukeldumisel on vesi ballastitankides ja survekere kuiv, suruõhuga saab vee välja puhuda; uputamisel pääseb vesi survekere sisse ja paat ei saa enam ise tõusta.",
   "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "saksa": "Saksamaa on alistunud",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Alistumine merel",
+  "tekst": "Alistumise teade ei toonud merel olevaid allveelaevu kohe sadamasse. Widariga sama IXD2 tüüpi U-873 oli 8. mail teel Kariibi merele, andis end 11. mail merel üle USA eskortlaevale Vance ja toodi 16. mail Portsmouthi. Norrast lastiga Jaapani poole teele läinud U-234 sai 10. mail pinnal Dönitzi viimase käsu tõusta pinnale ja alistuda. Komandör otsustas minna ameeriklaste juurde ning paat alistus 14. mail USS Suttonile.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · German submarine U-873",
+    "url": "https://en.wikipedia.org/wiki/German_submarine_U-873"
+   },
+   {
+    "tekst": "Wikipedia · German submarine U-234",
+    "url": "https://en.wikipedia.org/wiki/German_submarine_U-234"
+   }
+  ]
+ },
+ {
+  "saksa": "vedrukaal",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Vedrukaal",
+  "tekst": "Vedrukaalu põhiosa on vedru, mille venitus on Hooke’i seaduse järgi võrdeline seda venitava jõuga. Seega mõõdab kaal tegelikult jõudu ning kilogrammides näitab ta õigesti ainult siis, kui kiirendus piki vedru telge ei muutu. Õõtsuval laeval see nii ei ole: laev tõuseb ja langeb koos koormaga ning osuti kõigub. Seepärast oodatakse peatükis, kuni liikumine rahuneb, ja loetakse uuesti.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Spring scale",
+    "url": "https://en.wikipedia.org/wiki/Spring_scale"
+   },
+   {
+    "tekst": "EKI · EKSS: vedrukaal",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=vedrukaal"
+   }
+  ],
+  "pilt": "vedrukaal.jpg",
+  "pildi_allkiri": "George Salter & Co kvadrant-vedrukaal konksudega, kaalub kuni umbes 50 kg (19. sajand, Aucklandi sõjamälestusmuuseum).",
+  "pildi_allikas": "Auckland War Memorial Museum (AM 66316) / CC BY 4.0",
+  "pildi_litsents": "CC BY 4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Balance,_spring_(AM_66316-2).jpg",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by/4.0"
+ },
+ {
+  "saksa": "tropp",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Tropp",
+  "tekst": "Laevanduses ja ehituses on tropp EKSS-i järgi aasadega tross, millega last kinnitatakse tõstemehhanismi konksu külge; on kahe- ja mitmeharulisi troppe. Tropp viiakse koorma alt läbi ja selle aasad pannakse tõstekonksu otsa.",
+  "allikad": [
+   {
+    "tekst": "EKI · EKSS: tropp",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=tropp"
+   }
+  ]
+ },
+ {
+  "saksa": "aluspuu",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Aluspuud",
+  "tekst": "Aluspuud on koorma alla pandud puutükid, mis hoiavad seda põrandast lahti, nii et alla mahub tõstmiseks tropp. Laevanduses kutsutakse lasti alla ja vahele pandavat odavat materjali, sageli puitu, inglise sõnaga dunnage. See eraldab laadungi osi ja takistab lasti nihkumist laeva õõtsudes; laevaruumides tehti sellest varem laudadest raame.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Dunnage",
+    "url": "https://en.wikipedia.org/wiki/Dunnage"
+   },
+   {
+    "tekst": "EKI · EKSS: aluspuu",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=aluspuu"
+   }
+  ]
+ },
+ {
+  "saksa": "plomm",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Plomm",
+  "tekst": "Plomm (ladina plumbum ‘plii’) on templiga metallkettake, millega suletakse kast, mahuti või arvesti. Kettakese aukudest viiakse läbi traat ning plommitangid pigistavad kettakese kokku, nii et traat jääb kinni, ja vajutavad samal ajal templi mõlemale küljele. Terve plomm näitab, et pakendit pole vahepeal avatud. Kasti tegelikku sisu või kaalu see ei tõenda.",
+  "allikad": [
+   {
+    "tekst": "EKI · EKSS: plomm",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=plomm"
+   },
+   {
+    "tekst": "Wikipedia (saksa) · Plombe (Siegel)",
+    "url": "https://de.wikipedia.org/wiki/Plombe_(Siegel)"
+   }
+  ],
+  "pilt": "pliiplomm.jpg",
+  "pildi_allkiri": "Pliiplomm plommitraadiga.",
+  "pildi_allikas": "Sadolli, 2011 (oma töö) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bleiplombe.jpg"
+ },
+ {
+  "saksa": "kinnituspuid",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Kui last nihkub",
+  "tekst": "Laev kaldub ja õõtsub pidevalt ning kui suur hulk lasti nihkub ühele poole, jääb laev kreeni ja võib halvimal juhul ümber minna. Seepärast kiilutakse last pehmest puust karkassiga laeva konstruktsiooni või teise lasti vastu ja tühimikud täidetakse. Sidemed peavad olema pingul ja võimalikult lühikesed ning neid peab saama teel kontrollida ja pingutada.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Sailing ship accidents (Cargo shift)",
+    "url": "https://en.wikipedia.org/wiki/Sailing_ship_accidents"
+   },
+   {
+    "tekst": "Marine Insight · The Basics of Cargo Lashing and Securing on Ships",
+    "url": "https://www.marineinsight.com/marine-safety/the-basics-of-lashing-and-cargo-securing-on-ships/"
+   }
+  ]
+ },
+ {
+  "saksa": "kulla hinna",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Kulla hind 1945",
+  "tekst": "Kulla ametlik hind oli sõja lõpul kindlaks määratud: 1944. aasta Bretton Woodsi süsteemis sidus USA dollari kullaga kursiga 35 dollarit untsi eest, nii et 1 dollar vastas 888,67 milligrammile kullale. Selle järgi oleks umbes 12,5-kilone kang väärt ligikaudu 14 000 dollarit. USA rahvaloenduse järgi oli kodu mediaanväärtus 1940. aastal 2938 ja 1950. aastal 7354 dollarit.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Bretton Woods system",
+    "url": "https://en.wikipedia.org/wiki/Bretton_Woods_system"
+   },
+   {
+    "tekst": "U.S. Census Bureau · Median Home Values: Unadjusted",
+    "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-values/values-unadj.txt"
+   }
+  ]
+ },
+ {
+  "saksa": "õliriid",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Õliriie",
+  "tekst": "Õliriie on EKSS-i järgi endisaegne veetihe labase koega puuvill- või linane riie, mida töödeldi värnitsa ja meevaha seguga. Sellest õmmeldi meremeeste vihmarõivaid ja sellega kaeti koormaid. Enne 19. sajandit oli õliriie üks väheseid painduvaid veekindlaid materjale ning sellest tehti ka pagasi veekindel väliskiht; hiljem asendasid selle vinüülist materjalid.",
+  "allikad": [
+   {
+    "tekst": "EKI · EKSS: õliriie",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=%C3%B5liriie"
+   },
+   {
+    "tekst": "Wikipedia · Oilcloth",
+    "url": "https://en.wikipedia.org/wiki/Oilcloth"
+   }
+  ]
+ },
+ {
+  "saksa": "akuruum",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Akuruum ja vesinik",
+  "tekst": "Allveelaeva akud paiknesid eraldi akuruumides teiste ruumide põranda all. Pliiakud eraldavad eriti laadimisel vesinikku. uboat.net’i tehnilise ülevaate järgi on üle 4,5-protsendilise vesinikusisaldusega õhk süttimis- ja üle 9-protsendilisega plahvatusohtlik, mistõttu akuruumil peab olema hea õhutus. Peatükis jäetakse lasti ümber paigutades hooldusluugid ja õhuteed vabaks.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · Maintenance and usage of submarine batteries",
+    "url": "https://uboat.net/articles/id/54"
+   },
+   {
+    "tekst": "Wikipedia · Lead–acid battery",
+    "url": "https://en.wikipedia.org/wiki/Lead%E2%80%93acid_battery"
+   }
+  ]
+ },
+ {
+  "saksa": "kullakast",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Reichsbanki kuld 1945",
+  "tekst": "3. veebruaril 1945 hävitasid USA pommitajad Berliinis Saksa keskpanga Reichsbanki hoone peaaegu täielikult. Suurem osa panga kullavarust saadeti 11. veebruaril raudteel Merkersi kaaliumikaevandusse. USA väed leidsid selle aprilli algul: inventuur loetles 8198 kullakangi ja 55 kasti kangikulda, seal oli ka SS-i röövsaak. Kuld anti hiljem komisjonile, mis jagas selle riikidele, kelle keskpanga kulla natsid olid röövinud.",
+  "allikad": [
+   {
+    "tekst": "U.S. National Archives · Prologue: Nazi Gold: The Merkers Mine Treasure",
+    "url": "https://www.archives.gov/publications/prologue/1999/spring/nazi-gold-merkers-mine-treasure.html"
+   }
+  ],
+  "pilt": "merkers-kuld.jpg",
+  "pildi_allkiri": "USA 3. armee aprillis 1945 Merkersi kaaliumikaevanduse varakambrist leitud Reichsbanki kuld: kotid ja kastid ridadena.",
+  "pildi_allikas": "USA armee, 1945; U.S. National Archives (NARA 5757188) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Capture_of_Germany%27s_Gold_-_NARA_-_5757188.jpg"
+ },
+ {
+  "saksa": "Tarapacá",
+  "liik": "sona",
+  "peatukk": 14,
+  "pealkiri": "Tarapacá",
+  "tekst": "Tarapacá on Põhja-Tšiili piirkond, mille halduskeskus on Iquique. Kuni Vaikse ookeani sõjani (1879–1884), mida Tšiili pidas Boliivia ja Peruu liidu vastu, kuulus see Peruule; rahuga loovutas Peruu Tarapacá Tšiilile. Piirkonna rikkuseks oli salpeeter ehk nitraat, mille kaevandamise buum lõppes 1920. aastate keskel sünteetilise nitraadi tõttu. Romaanis esinev Tarapacá on väljamõeldud.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Tarapacá Region",
+    "url": "https://en.wikipedia.org/wiki/Tarapac%C3%A1_Region"
+   },
+   {
+    "tekst": "Wikipedia · War of the Pacific",
+    "url": "https://en.wikipedia.org/wiki/War_of_the_Pacific"
+   }
+  ]
+ },
+ {
+  "saksa": "alistumiskorraldus",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Alistumiskorraldus allveelaevadele",
+  "tekst": "Reimsis 7. mail 1945 alistumisdokumentidele lisatud ja 8. mail raadios edastatud korraldus käskis merel olevatel allveelaevadel kohe pinnale tõusta ja sinna jääda, teatada avatekstis asukoht ja paadi number, heisata päeval suur must või sinine lipp ning süüdata öösel sõidutuled. Paati ei tohtinud uputada ega kahjustada. Rockalli kandist pidid paadid minema Šotimaa põhjaranniku Loch Eribolli lahte. Sukeldudes eirab Otto juba esimest punkti.",
+  "allikad": [
+   {
+    "tekst": "uboat.net · Surrender order of the German U-boat fleet",
+    "url": "https://uboat.net/articles/70.html"
+   },
+   {
+    "tekst": "uboat.net · U-boats That Surrendered – The Definitive List",
+    "url": "https://uboat.net/articles/83.html"
+   }
+  ],
+  "pilt": "u1009-must-lipp.jpg",
+  "pildi_allkiri": "U 1009, esimene alistunud allveelaev, jõuab mais 1945 Šotimaale Loch Eribolli lahte, heisatud musta alistumislipuga.",
+  "pildi_allikas": "Lt C. H. Parnall, Royal Navy, 1945; Imperial War Museums (A 28521) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-1009_surrenders_at_Loch_Eriboll_Scotland_1945_IWM_A_28521.jpg"
+ },
+ {
+  "saksa": "Lennukit märkab",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Patrull-lennukid pärast alistumist",
+  "tekst": "Briti rannikuväejuhatuse (Coastal Command) sõjaaegsed operatsioonid lõppesid ametlikult alles 4. juuni 1945 keskööl. Ka pärast alistumist lendasid patrull-lennukid edasi: 9. mail tõusis U-249 pinnale, heiskas nõutud musta lipu ja andis end üle USA mereväe lennukile PB4Y-1 Liberator, misjärel see saadeti Portlandi. Just sellist kohtumist Otto sukeldudes väldib.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · RAF Coastal Command",
+    "url": "https://en.wikipedia.org/wiki/RAF_Coastal_Command"
+   },
+   {
+    "tekst": "uboat.net · U-249",
+    "url": "https://uboat.net/boats/u249.htm"
+   }
+  ],
+  "pilt": "sunderland-1945.jpg",
+  "pildi_allkiri": "No. 201 eskadrilli Sunderland lendab mais 1945 Coastal Commandi sõja viimasel operatiivlennul.",
+  "pildi_allikas": "B. J. Daventry, Royal Air Force, 1945; Imperial War Museums (CH 18020) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Aircraft_of_the_Royal_Air_Force_1939-1945-_Short_S.25_Sunderland._CH18020.jpg"
+ },
+ {
+  "saksa": "Suruõhk lastakse",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Suruõhk ja tankide väljapuhumine",
+  "tekst": "VII C paadi suruõhku hoiti 12 kõrgsurveballoonis, igaühes 325 liitrit, töörõhuga 205 kg/cm²; balloone täitsid kompressorid. Sukeldumispaakide väljapuhumist juhiti tsentraali tüürpoordi poolel asuvast puhumisjaoturist. Käsiraamatu järgi puhuti seni, kuni paadil oli torniluugi ohutuks avamiseks piisavalt ujuvust; paakidesse jäänud vesi surus pinnal välja diislite heitgaas.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat · III Diving Installations, lk 40–43",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "pukseeri",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Allveelaeva pukseerimine",
+  "tekst": "27. augustil 1941 vallutatud U-570 oli Islandist lõunas lennuki rünnakus vigastatud. Halvenevas ilmas ei õnnestunud seda mitu korda puksiiri võtta, lõpuks võttis selle puksiiri Briti relvastatud traaler Kingston Agate. Paat võttis vett ja võis uppuda, seepärast veeti see kahe päeva pärast pikema Reykjavíki tee asemel Þorlákshöfnis randa. Puksiirots, ilm ja lekkiv kere olid seal samad mured, mida kaalub Brandt.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · HMS Graph",
+    "url": "https://en.wikipedia.org/wiki/HMS_Graph"
+   },
+   {
+    "tekst": "uboat.net · U-570",
+    "url": "https://uboat.net/boats/u570.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "lastiluugi",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Lastiluuk, present ja kiil",
+  "tekst": "Terasest luugikaaned levisid kaubalaevadel laialt alles 1950. aastatel. Varem kaeti lastiluuk puitkaantega, mis toetusid põikitaladele, ja peale tõmmati üks kuni kolm kihti presenti. Presendi servad painutati üle luugiääre ning kinnitati liistude ja kiiludega. Kiil tähendab siin teravnurkset kinnituseset, mitte laeva põhja pikisuunas läbivat tala. Luugi avamine või sulgemine võttis tekimeeskonnal tunni-paar.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (saksa) · Lukendeckel",
+    "url": "https://de.wikipedia.org/wiki/Lukendeckel"
+   },
+   {
+    "tekst": "EKI · EKSS: kiil",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=kiil&F=M"
+   }
+  ]
+ },
+ {
+  "saksa": "signaaliraamat",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Signaaliraamatud ja võtmelehed",
+  "tekst": "Saksa mereväe raadioteated kodeeriti enne Enigmaga krüptimist lühisignaalide raamatu (Kurzsignalheft) abil, mis asendas lauseid neljatäheliste rühmadega; masina iga päeva seaded võeti võtmelehelt. Mereväe koodiraamatud trükiti punase vees lahustuva tindiga roosale paberile, et need ohu korral hävineksid. Chicago teadus- ja tööstusmuuseumis on eksponeeritud pliiga raskendatud kaantega koodiraamatuid, mis pidid üle parda visatuna põhja vajuma.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Enigma machine",
+    "url": "https://en.wikipedia.org/wiki/Enigma_machine"
+   },
+   {
+    "tekst": "HistoryNet · U-505: America's Captured U-boat",
+    "url": "https://historynet.com/may-2008-americas-u-boat/"
+   }
+  ],
+  "pilt": "u505-pardumine.jpg",
+  "pildi_allkiri": "USA mereväe pardumisrühm kinnitab 4. juunil 1944 vallutatud U-505 vööri külge puksiirotsa; paadilt saadi kätte ka salajased paberid.",
+  "pildi_allikas": "USA merevägi, 1944 (80-G-49172) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:A_U.S._Navy_boarding_party_working_to_secure_a_tow_line_to_the_bow_of_the_captured_German_submarine_U-505,_4_June_1944_(80-G-49172).jpg"
+ },
+ {
+  "saksa": "uputuslaeng",
+  "liik": "sona",
+  "peatukk": 15,
+  "pealkiri": "Uputuslaengud ja „Regenbogen”",
+  "tekst": "VII C paadi varustuses olid enesehävituseks kaks kasti, kummaski neli lõhkelaengut, ning käsitsi süüdatavad viitsütikud; lõhkeaineid hoiti tsentraali uputatavas salves. 1945. aasta mai esimesel nädalal uputati peamiselt Põhja-Saksamaa sadamates vähemalt 195 allveelaeva. Massilise uputamise koodsõna „Regenbogen” (vikerkaar) anti väidetavalt 5. mai öösel ja tühistati kaheksa minuti pärast, et mitte ohustada läbirääkimisi Montgomeryga.",
+  "allikad": [
+   {
+    "tekst": "U-boat Archive · Type VII C käsiraamat · IV Armament: demolition equipment, lk 57",
+    "url": "https://www.uboatarchive.net/Manual/Manual.htm"
+   },
+   {
+    "tekst": "Wikipedia · Operation Regenbogen (U-boat)",
+    "url": "https://en.wikipedia.org/wiki/Operation_Regenbogen_(U-boat)"
+   }
+  ],
+  "pilt": "hamburg-punker.jpg",
+  "pildi_allkiri": "Hamburgi allveelaevapunker oktoobris 1945: esiplaanil põhja lastud allveelaev.",
+  "pildi_allikas": "Sgt Smith, No 5 Army Film & Photographic Unit, 1945; Imperial War Museums (BU 11294) / Public domain",
+  "pildi_litsents": "Public domain",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Germany_Under_Allied_Occupation_BU11294.jpg"
  }
 ]

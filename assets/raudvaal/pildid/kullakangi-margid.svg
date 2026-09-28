@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Mida ütlevad kullakangi märgid</title>
+  <desc id="d">Skeem: kullakangi pealispinnal on kolm eri märki. Number seob kangi nimekirjaga. Proov, näiteks 996,4, näitab kullasisaldust tuhandikes ehk 99,64 protsenti. Tempel näitab, kes kangi märgistas, kuid ei tõenda kulla päritolu. Joonis on skemaatiline, tempel on tähistatud ainult sildiga.</desc>
+  <rect width="760" height="380" fill="#f4ead2"/>
+  <text x="20" y="30" font-family="Georgia, serif" font-size="15" fill="#2b1d10">Kangi pealt loetakse kolm eri asja</text>
+  <!-- kang -->
+  <path d="M130 250 L180 120 H560 L610 250 Z" fill="#d4af37" stroke="#8a6d10" stroke-width="3"/>
+  <path d="M180 120 H560 L545 150 H195 Z" fill="#e8c95a" stroke="#8a6d10"/>
+  <!-- tempel -->
+  <circle cx="265" cy="200" r="34" fill="none" stroke="#6b5410" stroke-width="3" stroke-dasharray="5 3"/>
+  <text x="265" y="197" font-family="Georgia, serif" font-size="11" fill="#6b5410" text-anchor="middle">tempel</text>
+  <text x="265" y="211" font-family="Georgia, serif" font-size="10" fill="#6b5410" text-anchor="middle">(kotkas ja haakrist)</text>
+  <!-- proov -->
+  <rect x="330" y="182" width="90" height="30" fill="none" stroke="#6b5410" stroke-width="2"/>
+  <text x="375" y="203" font-family="Georgia, serif" font-size="17" fill="#6b5410" text-anchor="middle">996,4</text>
+  <!-- number -->
+  <rect x="440" y="182" width="110" height="30" fill="none" stroke="#6b5410" stroke-width="2"/>
+  <text x="495" y="203" font-family="Georgia, serif" font-size="15" fill="#6b5410" text-anchor="middle" letter-spacing="1">Nr 3 1 7 4</text>
+  <!-- viited -->
+  <g stroke="#2b1d10" stroke-width="1.5" fill="none">
+    <path d="M265 234 V300 H120"/>
+    <path d="M375 212 V320"/>
+    <path d="M495 212 V300 H630"/>
+  </g>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="296" font-size="14">tempel</text>
+    <text x="20" y="314" font-size="11" fill="#5a3f16">kes märgistas; ei tõenda</text>
+    <text x="20" y="328" font-size="11" fill="#5a3f16">kulla õiguspärast päritolu</text>
+    <text x="330" y="338" font-size="14">proov</text>
+    <text x="300" y="356" font-size="11" fill="#5a3f16">tuhandikes: 996,4 = 99,64 % kulda</text>
+    <text x="640" y="296" font-size="14">number</text>
+    <text x="640" y="314" font-size="11" fill="#5a3f16">seob kangi</text>
+    <text x="640" y="328" font-size="11" fill="#5a3f16">pakkimisnimekirjaga</text>
+  </g>
+  <text x="740" y="372" font-family="Georgia, serif" font-size="10" fill="#5a3f16" text-anchor="end">Skemaatiline joonis; number on välja mõeldud. Inglise Panga 1997. aasta ülevaate järgi võis tempel ka eksitada.</text>
+</svg>

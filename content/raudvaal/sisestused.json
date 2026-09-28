@@ -479,5 +479,271 @@
   "asenda": "Köögist kostab tema järgmine küsimus",
   "uus": "Kambüüsist kostab tema järgmine küsimus",
   "markus": "XIII: termin kambüüs"
+ },
+ {
+  "peatukk": 14,
+  "parast": "9580f0d06d456308",
+  "asenda": "Caspar tuleb oma ametivennaga keskposti poolt.",
+  "uus": "Caspar tuleb oma ametivennaga tsentraali poolt.",
+  "markus": "XIV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "de38b794f4c1823e",
+  "asenda": "ja sanitaar teab, mida küsida",
+  "uus": "ja sanitar teab, mida küsida",
+  "markus": "XIV: termin sanitar (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "b130d3639578bea1",
+  "asenda": "Sanitaar annab tema märkmed Ottole",
+  "uus": "Sanitar annab tema märkmed Ottole",
+  "markus": "XIV: termin sanitar (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "32c8ce2bd41b7d44",
+  "asenda": "Siis võtab ta logiraamatu kõrvalt puhta lehe.",
+  "uus": "Siis võtab ta vahipäeviku kõrvalt puhta lehe.",
+  "markus": "XIV: termin vahipäevik (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "b2bba0df2f6f23c6",
+  "asenda": "||Peamehaanik kontrollib lasti.",
+  "uus": "||Vaneminsener kontrollib lasti.",
+  "markus": "XIV: Leitender Ingenieur = vaneminsener (II)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "a8f332138d8c20f8",
+  "asenda": "Miks te peamehaanikule vale lastikaalu andsite?",
+  "uus": "Miks te vaneminsenerile vale lastikaalu andsite?",
+  "markus": "XIV: Leitender Ingenieur = vaneminsener (II)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "810d11eebb9cf013",
+  "asenda": "teatab sellest enne peamehaanikule.",
+  "uus": "teatab sellest enne vaneminsenerile.",
+  "markus": "XIV: Leitender Ingenieur = vaneminsener (II)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "511169166028bbe6",
+  "asenda": "seejärel tankide tegelikku seisu",
+  "uus": "seejärel paakide tegelikku seisu",
+  "markus": "XIV: termin paak (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "802c86bc8f020589",
+  "asenda": "Ta laseb tuua tankide mõõtelehe",
+  "uus": "Ta laseb tuua paakide mõõtelehe",
+  "markus": "XIV: termin paak (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "88b5bfc6fe3ef181",
+  "asenda": "kus tankide ja varude kontrollitud kaal",
+  "uus": "kus paakide ja varude kontrollitud kaal",
+  "markus": "XIV: termin paak (I–XIII)"
+ },
+ {
+  "peatukk": 14,
+  "parast": "9eee7989e91e6ed5",
+  "asenda": "Noor masinist Widarilt hoiab endiselt purunenud lauda",
+  "uus": "Heller hoiab endiselt purunenud lauda",
+  "markus": "XIV: lauatükki hoiab Heller (lõigud 46 ja 88)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "db3f9dd9125e06e8",
+  "asenda": "kuidas keskpostis käsku korratakse",
+  "uus": "kuidas tsentraalis käsku korratakse",
+  "markus": "XV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "911fdf4582e6fbd0",
+  "asenda": "Keskposti jõuab teade",
+  "uus": "Tsentraali jõuab teade",
+  "markus": "XV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "edd4785c921bc549",
+  "asenda": "keskpostist antakse uus korraldus",
+  "uus": "tsentraalist antakse uus korraldus",
+  "markus": "XV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "99b77bb2ed4b8198",
+  "asenda": "Keskpostis näeb Otto uut periskoobipead",
+  "uus": "Tsentraalis näeb Otto uut periskoobipead",
+  "markus": "XV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "436e21d0e526c637",
+  "asenda": "Keskpostis on kell seinal.",
+  "uus": "Tsentraalis on kell seinal.",
+  "markus": "XV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "df1321f47ef62725",
+  "asenda": "Katharina ootab keskposti pool",
+  "uus": "Katharina ootab tsentraali pool",
+  "markus": "XV: termin tsentraal (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "652dd1aaf5e9a62b",
+  "asenda": "Villem tuuakse üles koos sanitaariga.",
+  "uus": "Villem tuuakse üles koos sanitariga.",
+  "markus": "XV: termin sanitar (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "9334489636c179b7",
+  "asenda": "Sanitaar räägib temaga, annab märkmed üle",
+  "uus": "Sanitar räägib temaga, annab märkmed üle",
+  "markus": "XV: termin sanitar (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "051384e27a97d018",
+  "asenda": "Katharina hoiab logiraamatut ja inimeste nimekirju",
+  "uus": "Katharina hoiab vahipäevikut ja inimeste nimekirju",
+  "markus": "XV: termin vahipäevik (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "81815a7d408c04fe",
+  "asenda": "Otto ulatab talle logiraamatu veekindlas ümbrises.",
+  "uus": "Otto ulatab talle vahipäeviku veekindlas ümbrises.",
+  "markus": "XV: termin vahipäevik (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "79914c043b4922ba",
+  "asenda": "annab talle logiraamatu ning hoiab kaant tuule eest",
+  "uus": "annab talle vahipäeviku ning hoiab kaant tuule eest",
+  "markus": "XV: termin vahipäevik (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "0273df67281fe646",
+  "asenda": "„Mina jään peamehaaniku juurde.",
+  "uus": "„Mina jään vaneminseneri juurde.",
+  "markus": "XV: Leitender Ingenieur = vaneminsener (II)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "0273df67281fe646",
+  "asenda": "siin paadi peamehaanik.",
+  "uus": "siin paadi vaneminsener.",
+  "markus": "XV: Leitender Ingenieur = vaneminsener (II)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "0273df67281fe646",
+  "asenda": "Herr Leutnant, haben Sie dort noch einen Platz für mich?",
+  "uus": "Herr Kaleun, haben Sie dort noch einen Platz für mich?",
+  "markus": "XV: meeskond ütleb Ottole Kaleun (VIII, XI, XII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "0273df67281fe646",
+  "asenda": "Härra leitnant, kas teil on seal veel minu jaoks kohta?",
+  "uus": "Härra komandör, kas teil on seal veel minu jaoks kohta?",
+  "markus": "XV: tõlge nagu VIII-s"
+ },
+ {
+  "peatukk": 15,
+  "parast": "bf30e5881b390aa0",
+  "asenda": "Herr Leutnant, ich möchte doch auf den Dampfer.",
+  "uus": "Herr Kaleun, ich möchte doch auf den Dampfer.",
+  "markus": "XV: meeskond ütleb Ottole Kaleun"
+ },
+ {
+  "peatukk": 15,
+  "parast": "bf30e5881b390aa0",
+  "asenda": "Härra leitnant, ma tahaksin siiski aurikule minna.",
+  "uus": "Härra komandör, ma tahaksin siiski aurikule minna.",
+  "markus": "XV: tõlge nagu VIII-s"
+ },
+ {
+  "peatukk": 15,
+  "parast": "099e84818e207557",
+  "asenda": "Vee sissevool diisliruumis! Tüürpoordis, üleval väljalaske läbiviigu juures.",
+  "uus": "Vee sissevool masinaruumis! Paremal pool, üleval väljalaske läbiviigu juures.",
+  "markus": "XV: masinaruum ja parem pool nagu IV, IX"
+ },
+ {
+  "peatukk": 15,
+  "parast": "de27c6e8b0ff559b",
+  "asenda": "Kõik peaballastitankid välja puhuda.",
+  "uus": "Kõik sukeldumispaagid välja puhuda.",
+  "markus": "XV: Tauchzellen = sukeldumispaagid (VIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "33f7a18b67efa40d",
+  "asenda": "Suruõhk lastakse tankidesse.",
+  "uus": "Suruõhk lastakse paakidesse.",
+  "markus": "XV: termin paak (I–XIII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "acc8893151313d60",
+  "asenda": "laseb end viimase astme võrra aidata",
+  "uus": "laseb end viimase pulga võrra aidata",
+  "markus": "XV: redeli osad on pulgad"
+ },
+ {
+  "peatukk": 15,
+  "parast": "b674bc9aa8074b90",
+  "asenda": "ta võtab terve lambi ettevaatlikult pesast välja",
+  "uus": "ta võtab terve raadiolambi ettevaatlikult pesast välja",
+  "markus": "XV: saatja elektronlamp (IV), mitte signaallamp"
+ },
+ {
+  "peatukk": 15,
+  "parast": "270fb66fcf1e96c6",
+  "asenda": "Uur on tal taskus; seda ta pole ära pannud.",
+  "uus": "Võti on tal taskus; seda ta pole ära pannud.",
+  "markus": "XV: hundiga uur on Katharina oma, Taanieli taskus on koduvõti (I, XII)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "3294306cf6a35655",
+  "asenda": "Taaniel võtab kaks liistu välja.",
+  "uus": "Taaniel võtab välja kaks liistu, mida ta on pardal lõikama hakanud.",
+  "markus": "XV: Kieli liistud jäid maha (I)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "e828f40cccd5fa80",
+  "asenda": "Kokku tuleks tema paati üheksakümmend seitse inimest.",
+  "uus": "Koos voliniku saatjaskonnaga tuleks tema paati kokku üheksakümmend seitse inimest.",
+  "markus": "XV: 48 meeskonnaliiget (XIII) + saatjaskond + 39"
+ },
+ {
+  "peatukk": 15,
+  "parast": "30077e53abfdbba5",
+  "asenda": "Kaust, mille nad eile leidsid, on all tema koti põhjas.",
+  "uus": "Kaust, mille ta eile leidis, on all tema koti põhjas.",
+  "markus": "XV: kausta leidis Katharina üksi (XIV)"
+ },
+ {
+  "peatukk": 15,
+  "parast": "0f7b5f8b3e3d1b52",
+  "asenda": "kas tema lubadus inimeste vastuvõtmise kohta kehtib ka ilma Schrade leheta",
+  "uus": "kas Widar võtab inimesi vastu ka ilma Schrade leheta",
+  "markus": "XV: Brandti lubadust polnud näidatud"
  }
 ]
