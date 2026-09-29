@@ -87,7 +87,8 @@ assets/
   shoemaker/               galerii (1024×512, ühtlustatud toon), video eelvaade
   shoemaker/orig/          samad fotod töötlemata värvides — avanevad galeriis klõpsu peale suurelt
   kungfu/                  tunnistus 1991–92, pärimusregister 2023, duani tunnistus 2026,
-                           treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas)
+                           treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas;
+                           ehitatakse allikast content/kungfu/, vt „Treeningprogrammi PDF“)
   books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked (praegu kasutamata), näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
   tolge.js, tolge.css      mullid: tõlge, seletus, pilt, heli + ikoonid (kasutab lugemisleht)
@@ -96,10 +97,12 @@ raudvaal/
   sisu/*.json              ehitatud sisu: sisukord, peatükid (tasuta avatekstina, tasulised krüpteerituna), sõnastik
 content/raudvaal/          käsikirjad markdownina + sisukord.json (register) + saksa-tolked.json (tõlkesõnastik)
                            + lisad.json (seletused, pildid, helid); repos ainult tasuta peatükid
+content/kungfu/            treeningprogramm-et/en/zh.html + treeningprogramm.css: kung fu koolituse
+                           tutvustuse (viis väravat) allikas, millest ehitatakse assets/kungfu/*.pdf
 assets/raudvaal/pildid/    lisamullide pildid (Commons, vaba litsents; kompass-hoovus.svg on oma joonis)
 assets/raudvaal/heli/      heliillustratsioonid (sünteesitud) + das-boot-alarm.mp3
-scripts/                   import-kasikiri.py, build-raudvaal.mjs, pildid.py (Commons), heli.py (helid)
-scripts/                   import-kasikiri.py (.odt/.docx -> markdown), build-raudvaal.mjs (markdown -> sisu/*.json)
+scripts/                   import-kasikiri.py (.odt/.docx -> markdown), build-raudvaal.mjs (markdown -> sisu/*.json),
+                           pildid.py (Commons), heli.py (helid), build-treeningprogramm.mjs (html -> kung fu PDF-id)
 kasikiri/                  (gitignore) toorkäsikirjad .odt/.docx, kust importer loeb
 favicon.svg, robots.txt, sitemap.xml, CNAME, .nojekyll
 ```
@@ -115,6 +118,23 @@ toon, vinjett), et erineva taustaga fotod istuksid lehe värvigammaga.
 Klõps pildil avab kaustast `orig/` originaali õigetes värvides; klõps
 ükskõik kuhu (või Esc) sulgeb. Uue pildi lisamisel pane töödeldud
 versioon `shoemaker/` ja originaal sama nimega `shoemaker/orig/` alla.
+
+### Treeningprogrammi PDF
+
+Kung fu lehe nupp „Koolituse tutvustus (PDF)“ avab `assets/kungfu/treeningprogramm-<keel>.pdf`
+parajasti valitud keeles. Kolme PDF-i allikas on `content/kungfu/treeningprogramm-et/en/zh.html`
+(ühine stiil `treeningprogramm.css`, logo `assets/logo/`). Teksti muutmiseks paranda HTML-i
+kõigis kolmes keeles ja ehita PDF-id uuesti:
+
+```sh
+npm i playwright && npx playwright install chromium   # ühekordselt
+node scripts/build-treeningprogramm.mjs                # kõik kolm; `… et zh` ainult need
+```
+
+Kirjad: Liberation Serif/Sans ja hiina märkidele WenQuanYi Zen Hei (Debianis paketid
+`fonts-liberation`, `fonts-wqy-zenhei`); teiste kirjadega võivad leheküljed teisiti murduda.
+Lehevahetused on HTML-is klassiga `pb` (väravad 2 ja 4, ülevaatetabel, sõnastik), et iga keel
+mahuks viiele leheküljele nagu seni.
 
 ### Raamatu lisamine
 

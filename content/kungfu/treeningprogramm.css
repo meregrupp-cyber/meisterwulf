@@ -1,0 +1,23 @@
+/* Treeningprogrammi PDF-ide ühine stiil (et/en/zh). Trükitakse Chromiumiga:
+   node scripts/build-treeningprogramm.mjs  ->  assets/kungfu/treeningprogramm-*.pdf
+   Kirjad: Liberation Serif/Sans (Times New Romani ja Ariali mõõdukaaslased); hiina märgid tulevad süsteemi
+   asenduskirjast (WenQuanYi Zen Hei). Hiina kirja ei nimetata meelega: nimetatud kirjale, millel puudub
+   rasvane lõige, Chromium rasvast ei sünteesi, asenduskirjale sünteesib. */
+@page{ size:Letter; margin:.75in 1in .6in 1in; @bottom-center{ content:counter(page); font:9pt "Liberation Serif", "Times New Roman", serif; } }
+@page:first{ margin-top:.5in; }
+html,body{ margin:0; padding:0; }
+body{ font-family:"Liberation Serif", "Times New Roman", Times, serif; font-size:12pt; line-height:1.28; color:#000; }
+.logo{ display:block; width:93pt; height:auto; margin:0 auto; }
+h1{ font-family:"Liberation Sans", Arial, sans-serif; font-weight:700; font-size:28pt; line-height:1.15; text-align:center; margin:6pt 0 8pt; }
+.subtitle{ font-family:"Liberation Sans", Arial, sans-serif; font-weight:700; font-size:18pt; line-height:1.2; text-align:center; margin:0 0 18pt; }
+h2{ font-family:"Liberation Sans", Arial, sans-serif; font-weight:700; font-style:italic; font-size:14pt; line-height:1.2; margin:16pt 0 6pt; page-break-after:avoid; }
+html[lang^="zh"] h2{ font-style:normal; }
+p{ margin:0 0 6pt; }
+ul,ol{ margin:0 0 6pt; padding-left:32pt; }
+li{ margin:0; }
+table{ border-collapse:collapse; margin:0 0 6pt; }
+th,td{ text-align:left; vertical-align:top; padding:2pt 14pt 2pt 0; }
+th{ font-weight:700; }
+.pb{ page-break-before:always; margin-top:0; }
+.right{ text-align:right; margin-top:14pt; }
+.contact p{ margin:0 0 8pt; }
