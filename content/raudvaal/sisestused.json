@@ -934,5 +934,47 @@
   "asenda": "Tsentraalis jääb mees rooliratta juurde.",
   "uus": "Tsentraalis jääb roolimees oma kohale.",
   "markus": "XIX: Saksa allveelaeva tsentraalis juhiti rooli nuppudega, rooliratas oli ainult avariiroolina"
+ },
+ {
+  "peatukk": 21,
+  "parast": "77db6f2030f2f997",
+  "asenda": "on tankid ja masinad üle vaadatud",
+  "uus": "on paagid ja masinad üle vaadatud",
+  "markus": "XXI: tank → paak (I–XX termin)"
+ },
+ {
+  "peatukk": 21,
+  "parast": "972e37d968145b89",
+  "asenda": "võtab ta oma märkmiku ja kontrollib",
+  "uus": "võtab Taaniel naise märkmiku ja kontrollib",
+  "markus": "XXI: Villemi surmaaja kirjutas üles Katharina (XIX)"
+ },
+ {
+  "peatukk": 21,
+  "parast": "92008d5115954747",
+  "asenda": "Nad lasevad teate paati viia",
+  "uus": "Nad lasevad Matsil teate paati viia",
+  "markus": "XXI: Mats peab olema paadis, kus Heller talle kaardi ette loeb"
+ },
+ {
+  "peatukk": 21,
+  "parast": "56285c06b8097a1f",
+  "asenda": "Küüne kõrvale jäänud haav on kinni",
+  "uus": "Küüne alla jäänud haav on kinni",
+  "markus": "XXI: haav on küüne all (XIX)"
+ },
+ {
+  "peatukk": 21,
+  "parast": "10628a9a57ea5b4f",
+  "asenda": "jääda saare taha sügise lõpuni ootama",
+  "uus": "jääda saare taha kevadeni ootama",
+  "markus": "XXI: august on lõunapoolkeral talv, järgmine aastaaeg on kevad"
+ },
+ {
+  "peatukk": 21,
+  "parast": "1a4045bc8a5f47bf",
+  "asenda": "millesse see merel pakiti",
+  "uus": "milles see leiti",
+  "markus": "XXI: kes arveraamatu pakkis, pole teada (XIV: leiti õliriides)"
  }
 ]

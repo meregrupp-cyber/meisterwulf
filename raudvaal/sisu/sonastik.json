@@ -217,6 +217,13 @@
   ]
  },
  {
+  "saksa": "Bekommen die Leute ihre Papiere selbst in die Hand? Oder bleiben sie bei Ihrem Auftraggeber, bis irgendeine Verpflichtung erfüllt ist?",
+  "tolge": "Kas inimesed saavad oma paberid enda kätte? Või jäävad need teie tellija juurde, kuni mingi kohustus on täidetud?",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
   "saksa": "Bergungsleinen und Fender bereit! Zwei Mann nach vorn!",
   "tolge": "„Päästeliinid ja vendrid valmis! Kaks meest vööri!” Vendrid – pehmed kaitsed laevakülgede vahel.",
   "peatukid": [
@@ -504,6 +511,13 @@
   ]
  },
  {
+  "saksa": "Dass die Suche eingestellt wurde, ist keine Erlaubnis zum Einlaufen. Und es bedeutet nicht, dass die Hafenbehörde uns hier duldet.",
+  "tolge": "See, et otsimine lõpetati, ei anna luba sadamasse sõita. Ja see ei tähenda, et sadamavõimud meid siin taluvad.",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
   "saksa": "Den Empfang bestätigen wir. Die Verwendung unserer Leute ist eine andere Sache. Das muss getrennt vereinbart werden.",
   "tolge": "Kättesaamist kinnitame. Meie inimeste rakendamine on teine küsimus. See tuleb eraldi kokku leppida.",
   "peatukid": [
@@ -557,6 +571,13 @@
   "tolge": "„Väljumiskäsk samuti mitte.”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Der Befehl kam im Mai. Glauben Sie nicht, dass uns das Tuch jetzt die Anmeldung im Hafen erspart.",
+  "tolge": "See käsk tuli mais. Ärge arvake, et see riidetükk vabastab meid nüüd sadamas sisseregistreerimisest.",
+  "peatukid": [
+   "XXI"
   ]
  },
  {
@@ -1029,6 +1050,13 @@
   ]
  },
  {
+  "saksa": "Es sind neue Verhältnisse. Alte Zusagen gelten nicht automatisch weiter. Die Ware kann helfen, einen ordentlichen Anfang zu machen. Aber dafür muss sie zuerst übernommen und gewogen werden.",
+  "tolge": "Olud on muutunud. Vanad lubadused ei kehti automaatselt edasi. Kaup võib aidata korralikult otsast alustada. Selleks tuleb see aga kõigepealt üle võtta ja kaaluda.",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
   "saksa": "Es tut nur beim Anziehen weh.",
   "tolge": "See teeb ainult jalga pannes valu.",
   "peatukid": [
@@ -1145,6 +1173,13 @@
   "tolge": "Kuld. See on kuld. Selle eest tassin heameelega veel kaks kasti. Võib-olla saab igaüks meist ühe.",
   "peatukid": [
    "XIV"
+  ]
+ },
+ {
+  "saksa": "Gracias.",
+  "tolge": "„Aitäh.” (Hispaania keeles.)",
+  "peatukid": [
+   "XXI"
   ]
  },
  {
@@ -1562,6 +1597,13 @@
   ]
  },
  {
+  "saksa": "Jeder bekommt seine Zeit an Land. Aber niemand geht allein in die Stadt. Die Ablösung steht vorher fest. Wer zurückkommt, meldet sich bei Krüger.",
+  "tolge": "Igaüks saab oma aja maal. Aga keegi ei lähe üksi linna. Vahetus määratakse enne kindlaks. Tagasitulija annab endast Krügerile teada.",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
   "saksa": "Jetzt sind wir einundsechzig.",
   "tolge": "„Nüüd on meid kuuskümmend üks.”",
   "peatukid": [
@@ -1657,6 +1699,13 @@
   "tolge": "„Tulge!”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Können die Männer mit diesen Papieren selbst Arbeit suchen? Oder sind sie an einen bestimmten Arbeitgeber gebunden?",
+  "tolge": "Kas mehed võivad nende paberitega ise tööd otsida? Või on nad seotud kindla tööandjaga?",
+  "peatukid": [
+   "XXI"
   ]
  },
  {
@@ -1783,6 +1832,13 @@
   "tolge": "„Jätke lõdvaks!”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Man sagte mir, Sie brauchen Papiere für die Mannschaft und einen Liegeplatz. Über beides lässt sich sprechen. Zuerst muss ich wissen, wer die Kosten übernimmt.",
+  "tolge": "Mulle öeldi, et vajate meeskonnale pabereid ja laevale kaikohta. Mõlemast saab rääkida. Kõigepealt pean teadma, kes kulud tasub.",
+  "peatukid": [
+   "XXI"
   ]
  },
  {
@@ -2410,6 +2466,20 @@
   ]
  },
  {
+  "saksa": "Siebzehn Meter, verstanden.",
+  "tolge": "Seitseteist meetrit, sain aru.",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
+  "saksa": "Siebzehn Meter. Sand.",
+  "tolge": "Seitseteist meetrit. Liiv.",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
   "saksa": "So geht es.",
   "tolge": "„Nii see käib.”",
   "peatukid": [
@@ -2851,6 +2921,13 @@
   ]
  },
  {
+  "saksa": "Wen vertreten Sie bei diesem Geschäft? Ich möchte den Namen hören, bevor wir über die Ladung sprechen.",
+  "tolge": "Keda te selle tehingu juures esindate? Tahaksin nime kuulda, enne kui lastist räägime.",
+  "peatukid": [
+   "XXI"
+  ]
+ },
+ {
   "saksa": "Wenn der Junge geht, muss ein anderer seine Wache mit übernehmen. Ich kann die Leute nicht länger arbeiten lassen, als sie auf den Beinen bleiben. Er kennt die Maschine. Ich habe keinen zweiten Mann wie ihn.",
   "tolge": "„Kui poiss läheb, peab keegi teine ka tema vahikorra üle võtma. Ma ei saa lasta meestel kauem töötada, kui nad jalul püsivad. Ta tunneb seda masinat. Mul ei ole teist temasugust meest.”",
   "peatukid": [
@@ -3038,6 +3115,13 @@
   "tolge": "„Viime komandöri ja tsiviilisikud kaldale. Kes meeskonnast tahab kaasa minna, teatagu Krügerile. Ma ei hoia kedagi kinni.”",
   "peatukid": [
    "V"
+  ]
+ },
+ {
+  "saksa": "Wir sind auf den Kanarischen Inseln interniert. Alle siebenundzwanzig sind am Leben. Es gibt zu essen und richtige Betten. Wann wir weiterdürfen, weiß niemand. Bitte geben Sie Nachricht, wenn diese Karte ankommt. Grüße an alle. Petersen.",
+  "tolge": "Oleme Kanaari saartel interneeritud. Kõik kakskümmend seitse on elus. Süüa on ja päris voodid. Millal edasi pääseme, ei tea keegi. Palun andke teada, kui see kaart kohale jõuab. Tervitused kõigile. Petersen.",
+  "peatukid": [
+   "XXI"
   ]
  },
  {

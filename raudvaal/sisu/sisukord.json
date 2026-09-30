@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "xMc/xOYtRaz6lZ/M",
-  "ct": "A6KYlC/gIpPXxkKKjalmq3O4"
+  "iv": "bwptIUh1JCK0KYf8",
+  "ct": "T7mfQbFedg2+EK5S/UTA54ZM"
  },
  "peatukid": [
   {
@@ -266,9 +266,9 @@
    "ord": 21,
    "osa": 4,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Puerto Deseado, Patagoonia. 10.–18. august 1945"
   },
   {
    "slug": "peatukk-22",

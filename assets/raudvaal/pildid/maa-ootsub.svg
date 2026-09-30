@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Maa õõtsub veel</title>
+  <desc id="d">Animatsioon, kaks kõrvutist siluetti. Vasakul seisab inimene õõtsuval tekil ja kohandab kehaasendit, et püsti püsida. Paremal seisab ta liikumatul kail; kai ei liigu, kuid katkendlikud jooned tema ümber kujutavad õõtsumist, mida ta endiselt tajub. Allkiri: alus on paigal, liikumistunne võib veel püsida.</desc>
+  <rect width="760" height="380" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="30" font-size="15">1. Merel: tekk liigub, keha kohaneb</text>
+    <text x="400" y="30" font-size="15">2. Kaldal: kai seisab, tunne jääb</text>
+  </g>
+
+  <!-- 1. tekk -->
+  <rect x="20" y="44" width="340" height="280" fill="#e6eef2"/>
+  <rect x="20" y="270" width="340" height="54" fill="#cfe0ee"/>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="-7 190 250;7 190 250;-7 190 250" dur="4s" repeatCount="indefinite"/>
+    <rect x="60" y="246" width="260" height="14" fill="#6b6b6b"/>
+    <!-- inimene, kes hoiab end püsti: vastupöördes -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="7 190 246;-7 190 246;7 190 246" dur="4s" repeatCount="indefinite"/>
+      <circle cx="190" cy="124" r="15" fill="#c89a7a"/>
+      <path d="M172 142 H208 L212 200 H168 Z" fill="#5a4a3a"/>
+      <path d="M176 200 L162 246 M204 200 L218 246" stroke="#3a2e22" stroke-width="11" stroke-linecap="round"/>
+      <path d="M172 150 L148 184 M208 150 L232 184" stroke="#5a4a3a" stroke-width="9" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="36" y="306" font-family="Georgia, serif" font-size="12" fill="#1f4e79">jalad laiali, põlved pehmed, keha püsib püsti</text>
+
+  <!-- 2. kai -->
+  <rect x="400" y="44" width="340" height="280" fill="#e6eef2"/>
+  <rect x="400" y="270" width="340" height="54" fill="#cfe0ee"/>
+  <rect x="440" y="246" width="260" height="14" fill="#8a6a44"/>
+  <g fill="#6b4f2e"><rect x="460" y="260" width="10" height="64"/><rect x="560" y="260" width="10" height="64"/><rect x="660" y="260" width="10" height="64"/></g>
+  <!-- post -->
+  <rect x="640" y="200" width="12" height="46" fill="#6b4f2e"/>
+  <!-- inimene seisab paigal -->
+  <circle cx="570" cy="124" r="15" fill="#c89a7a"/>
+  <path d="M552 142 H588 L592 200 H548 Z" fill="#5a4a3a"/>
+  <path d="M556 200 L546 246 M584 200 L594 246" stroke="#3a2e22" stroke-width="11" stroke-linecap="round"/>
+  <path d="M588 150 L636 204" stroke="#5a4a3a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M552 150 L534 186" stroke="#5a4a3a" stroke-width="9" stroke-linecap="round"/>
+  <!-- tajutud õõtsumine -->
+  <g fill="none" stroke="#8a1c1c" stroke-width="2" stroke-dasharray="6 5">
+    <path d="M520 110 Q570 92 620 110">
+      <animate attributeName="d" values="M520 104 Q570 86 620 116;M520 116 Q570 98 620 104;M520 104 Q570 86 620 116" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M500 150 Q570 132 640 150">
+      <animate attributeName="d" values="M500 142 Q570 124 640 158;M500 158 Q570 140 640 142;M500 142 Q570 124 640 158" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="416" y="66" font-family="Georgia, serif" font-size="12" fill="#8a1c1c">punane: tajutud õõtsumine, kai ise ei liigu</text>
+
+  <rect x="20" y="336" width="720" height="32" rx="4" fill="#efe2c4"/>
+  <text x="380" y="357" font-family="Georgia, serif" font-size="14" fill="#2b1d10" text-anchor="middle">Alus on paigal; liikumistunne võib veel püsida.</text>
+</svg>
