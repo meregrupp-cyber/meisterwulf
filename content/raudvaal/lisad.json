@@ -4326,7 +4326,10 @@
   ],
   "markused": [
    "Heli ja pildi kirjeldus. Vana pliist loodiraskus, selle põhja õnarus ja riidemärkidega liini lõik. Kõrval suurendus rasva külge jäänud liivateradest. Võrdluseks sobib The Mariners’ Museumi 1880.–1920. aastasse dateeritud kaheksatahuline loodiraskus, museaal 1934.1497.000001. Muuseumieseme kuju võib näidata ajaloolise näitena, ilma et omistataks Widarile täpselt sama mudelit. Helinäitena 8–12 sekundi pikkune lavastatud töösuhtlus: loodija hüüab selgelt „Siebzehn Meter. Sand.”, seejärel kostab kaugemalt kinnitus „Siebzehn Meter, verstanden.” Ekraanil on kõrvuti mõõt, põhja kirjeldus ja vastuvõtukinnitus. Näide selgitab, kuidas tekilt saadud mõõtetulemus jõuab juhtijani; see on romaani teksti järgi tehtav rekonstruktsioon."
-  ]
+  ],
+  "pilt": "loodi-rasv.svg",
+  "pildi_allkiri": "Käsilood: liinil on märgid, raskuse põhjas õnarus rasvaga. Rasva külge jäänud liiv, muda või karbitükid näitavad põhja iseloomu.",
+  "pildi_allikas": "Joonis: meisterwulf.com"
  },
  {
   "marker": "miks-kaldale-jõudes-maa-õõtsub",
@@ -4341,7 +4344,10 @@
   ],
   "markused": [
    "Joonise kirjeldus. Kaks kõrvutist lihtsat siluetti. Esimesel seisab inimene õõtsuval tekil ja kohandab kehaasendit. Teisel seisab ta liikumatul kail, ent kõrval olev katkendlik liikumisjoon kujutab tema tajutud õõtsumist. Allkiri: „Alus on paigal; liikumistunne võib veel püsida.”"
-  ]
+  ],
+  "pilt": "maa-ootsub.svg",
+  "pildi_allkiri": "Alus on paigal; liikumistunne võib veel püsida.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
  },
  {
   "marker": "kaks-päriselt-argentinasse-jõudnud-allveelaeva",
@@ -4364,6 +4370,185 @@
   ],
   "markused": [
    "Pildi ja joonise kirjeldus. U-530 ja U-977 ajaloolised fotod koos saabumiskuupäevadega, kõrval väike kaart Mar del Plata, San Matíase lahe ja Puerto Deseadoga. Widari teekond tähistada eraldi romaani sündmustikuna. Nii ei jää muljet, et väljamõeldud Widar oleks kolmas samaväärselt dokumenteeritud saabumine."
+  ],
+  "pilt": "argentina-1945-u530-u977.jpg",
+  "pildi_allkiri": "Dokumenteeritud saabumised Mar del Platas (U-530 10. juulil, U-977 17. augustil 1945) ja Mendoza sügavuspommid San Matíase lahes. Widari ankrukoht Puerto Deseados on romaani sündmustik.",
+  "pildi_allikas": "Kaart: meisterwulf.com. Fotod: La Capital, Mar del Plata (U-530) ja Daniel Mesa (U-977), 1945 / avalik omand (Argentina fotod üle 25 aasta)",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:U-530.jpg"
+ },
+ {
+  "saksa": "ría",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Ría Deseado",
+  "tekst": "Ría on jõeorg, mille meri on üle ujutanud: veetaseme tõustes tungis meri endise oru suudmeossa ja tekkis kitsas laht, kus on tõus ja mõõn. Sõna on hispaania keelest; Hispaanias on tuntuimad Galiitsia ríad. Ría Deseado ulatub sisemaale 50–53 km, suue on umbes 7 km lai, sügavus keskmiselt 8 m ja kohati kuni 45 m. Estuaaris on mitu saart, näiteks Chaffers, Quinta ja Quiroga.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Ría Deseado",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADa_Deseado"
+   },
+   {
+    "tekst": "Wikipedia (hispaania) · Ría",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADa"
+   }
+  ],
+  "pilt": "ria-deseado.jpg",
+  "pildi_allkiri": "Ría Deseado: kaljused kaldad ja madalad saared estuaaris. Tänapäevane foto Isla Elena saarelt.",
+  "pildi_allikas": "Mikelzubi, 2007 (oma töö) / CC BY-SA 3.0",
+  "pildi_litsents": "CC BY-SA 3.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Isla_Elena_-_barranca.jpg"
+ },
+ {
+  "saksa": "laevavarustaja",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Laevavarustaja",
+  "tekst": "Laevavarustaja (inglise ship chandler) on kaupmees, kes müüb laevadele tarvikuid ja varustust. Vanasti leidus tema laos purjeriiet, tõrva, köisi, takku, laternaid, naelu ja tööriistu, tänapäeval ka hoolduskaupu ja meeskonna toitu. Teenuse väärtus on kiirus: võõras sadamas ei pea laev ise poode otsima, varustaja toob kauba kohale ning krediidiga ostes pole vaja raha vahetada.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Ship chandler",
+    "url": "https://en.wikipedia.org/wiki/Ship_chandler"
+   }
+  ]
+ },
+ {
+  "saksa": "radiogramm",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Radiogramm",
+  "tekst": "Radiogramm ehk raadiotelegramm on raadio teel edastatud telegramm. Umbes 1900. aastast sai raadiotelegraafia abil saata telegraafisignaale ilma traadita. Esimese maailmasõja ajaks olid ookeaniülesed raadiojaamad ühendatud maismaa telegraafivõrguga, nii et telegraafikontorist sai sõnumi raadio teel teise riiki saata. Sõnumite vorm kinnitati rahvusvahelistes kokkulepetes, näiteks 1927. aasta Washingtoni raadiotelegraafia konventsioonis.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · radiogramm",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=radiogramm&F=M"
+   },
+   {
+    "tekst": "Wikipedia · Radiogram (message)",
+    "url": "https://en.wikipedia.org/wiki/Radiogram_(message)"
+   }
+  ]
+ },
+ {
+  "saksa": "Puerto Deseado",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Puerto Deseado",
+  "tekst": "Puerto Deseado asub Patagoonias Deseado jõe suudmeestuaari põhjakaldal. Koht sai nime inglise korsaari Thomas Cavendishi laeva Desire järgi: Cavendish sisenes estuaari 17. detsembril 1586 ja nimetas sadama Port Desire’iks. Hispaania Real Compañía Marítima rajas sinna 1790. aasta paiku asula, mille viimased sõdurid lahkusid 1807. Linna kolmandaks asutamispäevaks loetakse 15. juulit 1884; asutajaks peetakse Antonio Onetot.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Puerto Deseado",
+    "url": "https://es.wikipedia.org/wiki/Puerto_Deseado"
+   },
+   {
+    "tekst": "Wikipedia · Puerto Deseado",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Deseado"
+   }
+  ],
+  "pilt": "deseado-sadamasild-1928.jpg",
+  "pildi_allkiri": "Puerto Deseado uue sadamasilla ja kraana avamine 1928. aastal.",
+  "pildi_allikas": "José Menéndez, 1928 / avalik omand (Argentina foto üle 25 aasta)",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Muelle_guinche.jpg"
+ },
+ {
+  "saksa": "süvis",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Süvis",
+  "tekst": "Süvis on laeva vees istumise sügavus ehk see, kui sügavale ulatub laeva veealune osa. Widariga sama, IXD2 tüüpi allveelaeva süvis oli 5,40 m, pikkus 87,6 m ja veeväljasurve pinnal 1616 tonni. Käik, kust kalapaat üle pääseb, võib nii suurele allveelaevale olla liiga madal.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · süvis",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=s%C3%BCvis&F=M"
+   },
+   {
+    "tekst": "uboat.net · Type IXD2",
+    "url": "https://uboat.net/types/ixd.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "madalveeseis",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Tõus ja mõõn rías",
+  "tekst": "Ría Deseado on suure tõusu ja mõõnaga estuaar: veetaseme keskmine kõikumine on seal 2,9–4,2 m ning kevadise ja sügisese võrdpäevsuse aegsete suurimate tõusude ajal kuni 5,24 m. Soolane merevesi ulatub kuni Paso Gregoreseni ning jõe vähese vooluhulga tõttu on tõusu- ja mõõnavoolude mõju seda tugevam. Kõrgvee ajal mõõdetud sügavusest võib mõõnaks kaduda mitu meetrit; seepärast võrreldakse loodinäitu madalveeseisuga.",
+  "allikad": [
+   {
+    "tekst": "Isla, Iantanos, Estrada 2004 · Dinámica submareal y condiciones ambientales de la ría Deseado (Revista de la Asociación Geológica Argentina)",
+    "url": "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S0004-48222004000300001"
+   }
+  ]
+ },
+ {
+  "saksa": "villapall",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Patagoonia vill ja raudtee",
+  "tekst": "19. sajandi lõpul ja 20. sajandi alguses levis lambakasvatus üle Patagoonia stepi ning Argentina ja Tšiili lõunaosast sai üks maailma tähtsamaid lambakasvatuspiirkondi. Lambaid peeti estanciates ehk karjamõisates ja algul toodeti peamiselt villa. Aastatel 1909–1914 ehitati Puerto Deseadost Las Herasesse 283 km pikkune raudtee, mis vedas estanciatest lambaid ja villa; sadamaharu viis vagunid kaini. Liin suleti 1978.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Patagonian sheep farming boom",
+    "url": "https://en.wikipedia.org/wiki/Patagonian_sheep_farming_boom"
+   },
+   {
+    "tekst": "Wikipedia (hispaania) · Ferrocarril Puerto Deseado a Colonia Las Heras",
+    "url": "https://es.wikipedia.org/wiki/Ferrocarril_Puerto_Deseado_a_Colonia_Las_Heras"
+   }
+  ],
+  "pilt": "deseado-jaam-1936.jpg",
+  "pildi_allkiri": "Puerto Deseado raudteejaam 1936. aastal. Siit viis raudtee estanciatesse sisemaal.",
+  "pildi_allikas": "Tundmatu autor, 1936 / avalik omand (Argentina foto üle 25 aasta)",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:PDstation1936.jpg"
+ },
+ {
+  "saksa": "Comodoro Rivadavia",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Comodoro Rivadavia sõjaline kubermang",
+  "tekst": "Comodoro Rivadavia sõjaline kubermang (Gobernación Militar de Comodoro Rivadavia) moodustati 31. mail 1944 seadusjõulise dekreediga Chubuti ja Santa Cruzi territooriumi osadest. San Jorge lahe ümbrus oli toona Argentina peamine nafta- ja gaasipiirkond ning ala peeti merelt tuleva sissetungi suhtes väga haavatavaks. Kubermangu kuulus ka Puerto Deseado departemang. Seda juhtisid kindralid ja see kaotati 1955. aastal.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Gobernación Militar de Comodoro Rivadavia",
+    "url": "https://es.wikipedia.org/wiki/Gobernaci%C3%B3n_Militar_de_Comodoro_Rivadavia"
+   }
+  ]
+ },
+ {
+  "saksa": "Jaapani alistumis",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Jaapani alistumine 1945",
+  "tekst": "15. augustil 1945 veidi pärast keskpäeva Jaapani aja järgi edastati raadios keiser Hirohito pöördumine: Jaapan võtab vastu Potsdami deklaratsiooni tingimused. Ametlik alistumisakt allkirjastati 2. septembril lahingulaeval USS Missouri Tokyo lahes. Tsingtausse, mille Jaapan oli 1938. aastal uuesti okupeerinud, naasid Hiina Vabariigi (Kuomintangi) väed pärast Jaapani alistumist.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia · Victory over Japan Day",
+    "url": "https://en.wikipedia.org/wiki/Victory_over_Japan_Day"
+   },
+   {
+    "tekst": "Wikipedia · Qingdao",
+    "url": "https://en.wikipedia.org/wiki/Qingdao"
+   }
+  ]
+ },
+ {
+  "saksa": "prahiraha",
+  "liik": "sona",
+  "peatukk": 21,
+  "pealkiri": "Prahiraha",
+  "tekst": "Prahiraha on laevalasti veotasu. EKSS-i järgi on praht laevaga veetav kaup ehk last ning prahtima tähendab kaubaveoks laeva rentima. Tingimused pannakse kirja prahtimislepingus (inglise charter party). Reisiprahi puhul annab laevaomanik kapteni, meeskonna ja varustuse, prahtija aga vastutab lasti laadimise ja lossimise eest kokkulepitud aja jooksul; aja ületamisel maksab ta laevaomanikule hüvitist.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · praht, prahiraha, prahtima",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=prah%2A&F=M"
+   },
+   {
+    "tekst": "Wikipedia · Charterparty",
+    "url": "https://en.wikipedia.org/wiki/Charterparty"
+   }
   ]
  }
 ]
