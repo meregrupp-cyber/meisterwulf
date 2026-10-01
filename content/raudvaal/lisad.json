@@ -4550,5 +4550,47 @@
     "url": "https://en.wikipedia.org/wiki/Charterparty"
    }
   ]
+ },
+ {
+  "marker": "kolm-ärakirja-ühe-trükkimisega",
+  "peatukk": 22,
+  "pealkiri": "Kolm ärakirja ühe trükkimisega",
+  "tekst": "Enne paljundusmasinate levikut tehti kontorites ärakirju sageli kopeerpaberiga. Õhukeste kirjapaberilehtede vahele asetati värvainekihiga paberid, värvine pool allapoole. Kirjutusmasina tähe löök jättis värvilindi kaudu jälje pealmisele lehele ning surus kopeerpaberite värvi alumistele lehtedele. Nii sai ühe trükkimisega mitu eksemplari. Alumised võisid jääda kahvatumaks; iga parandus tuli kõigis eksemplarides üle kontrollida.\n\nValmis käsikirjalist raamatut sel moel otse paljundada ei saanud: selle sisu tuli uuesti trükkida. Ääremärkused, mahakriipsutused ja raskesti loetavad kohad vajasid eraldi tähelepanu. Romaanis valmivad raamatu tekstilised ärakirjad, mitte selle lehekülgede fotokoopiad.",
+  "allikad": [
+   {
+    "tekst": "Smithsonian Education · kopeerpaber ja dokumentide paljundamine enne tänapäevaseid koopiamasinaid",
+    "url": "https://www.smithsonianeducation.org/educators/lesson_plans/carbons/text/equip.html"
+   },
+   {
+    "tekst": "Science Museum Group · Imperial Model B typewriter, c. 1915 (tähehoovad ja paberikelk)",
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38144/imperial-model-b-typewriter-c-1915"
+   },
+   {
+    "tekst": "Cornwall Community Museum · Artifact of the Week: Hall typewriter, ca. 1887 (kell parema veerise piiriku juures)",
+    "url": "https://cornwallcommunitymuseum.wordpress.com/2017/11/05/artifact-of-the-week-hall-typewriter-ca-1887/"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. Mehaaniline kontorikirjutusmasin, selle kõrval lahtitõstetud paberipakk. Viis kihti on nähtavalt eraldatud: kirjapaber, kopeerpaber, kirjapaber, kopeerpaber, kirjapaber. Nool näitab värvikihi suunda. Kõrval sama rea kolm eksemplari, alumine veidi kahvatum. Ajaloolise masinatüübi näiteks sobib Science Museum Groupi Imperial Model B, umbes 1915; see ei määra romaanis kasutatud masina marki. Helinäitena 12–15 sekundi pikkune salvestus töötavast mehaanilisest kirjutusmasinast: kõigepealt trükitakse üks rida, siis kõlab lähenevast paremast veerisest hoiatav kell, järgneb veel paar tähelööki ning käsitsi tehtud kelgu tagasiviimine koos paberi edasipööramisega järgmisele reale. Kolme tegevuse ajal ilmuvad selgitused „Tähe löök”, „Rea lõpu hoiatus” ja „Uuele reale viimine”. Näide õpetab, mida eri helid tähendavad. See on töökäigu tänapäevane demonstratsioon."
+  ]
+ },
+ {
+  "marker": "kuidas-väike-viht-kaalub-suurt-kasti",
+  "peatukk": 22,
+  "pealkiri": "Kuidas väike viht kaalub suurt kasti?",
+  "tekst": "Lao platvormkaal kasutab hoobasid: platvormile toetuv koorem ja väiksem vasturaskus mõjuvad süsteemile erineva õlapikkuse kaudu. Seetõttu saab rasket kasti kaaluda ilma sama raske vihtide kogumita. Nihutatav viht muudab oma asukohaga jõumomenti; näit loetakse tasakaalu saabudes. Hoobade ja tugede ehitus võimaldab paigutada suure koorma platvormile.\n\nBrutokaal hõlmab kaupa koos pakendiga. Taara on pakendi mass ning netokaal kauba enda mass: neto = bruto − taara. Kulla eest tasumisel on tähtis ka metalli puhtus, mida kaalumine ei määra. Lao kaaluga saadud kogunäit ei asenda väärismetalli täpsemat kaalumist ja proovimist.",
+  "allikad": [
+   {
+    "tekst": "Science Museum Group · Platform scale, c. 1930 (Y1989.246.15)",
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8407159/platform-scale"
+   },
+   {
+    "tekst": "National Bureau of Standards · Miscellaneous Publication 272 (1965): kaalude ajalooline areng ja liithoobadega platvormkaal",
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub272.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi ja joonise kirjeldus. 1930. aasta paiku valmistatud mehaaniline platvormkaal, millel on eristatavad koormaplatvorm, sammas ja kaalukang. Sobiv ajalooline võrdlusese on Science Museum Groupi Birminghamis valmistatud kaal Y1989.246.15. Kõrval lihtsustatud hoobade skeem ning arvutusnäide: „Kast koos sisuga 54 kg − tühi pakend 4 kg = kaup 50 kg.” Arvud on selgitav näide, mitte romaani kullakasti kaalumistulemus."
+  ]
  }
 ]
