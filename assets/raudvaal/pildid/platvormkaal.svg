@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" role="img" aria-labelledby="t d">
+  <title id="t">Kuidas väike viht kaalub suurt kasti</title>
+  <desc id="d">Animatsioon. Vasakul mehaaniline platvormkaal: kast seisab koormaplatvormil, kaalukangil libiseb väike nihutatav viht, kuni kang jõuab tasakaalu ja näidu saab lugeda. Paremal lihtsustatud hoova skeem: suur koorem lühikesel õlal ja väike raskus pikal õlal tasakaalustavad teineteist. All arvutusnäide: kast koos sisuga 54 kilogrammi, tühi pakend 4 kilogrammi, kaup 50 kilogrammi. Arvud on selgitav näide, mitte romaani kullakasti kaal.</desc>
+  <rect width="760" height="450" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="28" font-size="16">Kuidas väike viht kaalub suurt kasti</text>
+    <text x="20" y="54" font-size="13">1. Lao platvormkaal</text>
+    <text x="420" y="54" font-size="13">2. Hoob lihtsustatult</text>
+  </g>
+
+  <!-- 1. platvormkaal -->
+  <rect x="40" y="250" width="300" height="22" fill="#6b4f2e"/>
+  <rect x="52" y="272" width="276" height="10" fill="#4a3620"/>
+  <!-- sammas -->
+  <rect x="64" y="96" width="16" height="154" fill="#4a4a4a"/>
+  <!-- kaalukang ja viht (pöördub tasakaalu) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="8 72 104;8 72 104;0 72 104;0 72 104;8 72 104" keyTimes="0;0.15;0.6;0.9;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="66" y="100" width="250" height="8" fill="#8a8a8a"/>
+    <g fill="#2b1d10">
+      <rect x="100" y="94" width="2" height="6"/><rect x="140" y="94" width="2" height="6"/><rect x="180" y="94" width="2" height="6"/><rect x="220" y="94" width="2" height="6"/><rect x="260" y="94" width="2" height="6"/><rect x="300" y="94" width="2" height="6"/>
+    </g>
+    <rect x="96" y="90" width="18" height="26" rx="3" fill="#8a1c1c">
+      <animate attributeName="x" values="96;96;232;232;96" keyTimes="0;0.15;0.6;0.9;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M316 104 l14 -6 v12 z" fill="#2b1d10"/>
+  </g>
+  <!-- tasakaalumärk -->
+  <rect x="324" y="96" width="4" height="16" fill="#2e6b2e"/>
+  <text x="336" y="110" font-family="Georgia, serif" font-size="11" fill="#2e6b2e" opacity="0">tasakaal
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.58;0.62;0.9;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <!-- kast -->
+  <rect x="170" y="196" width="110" height="54" fill="#a4764a" stroke="#5a3f16" stroke-width="2"/>
+  <path d="M170 210 H280 M170 236 H280" stroke="#5a3f16" stroke-width="1.5"/>
+  <text x="225" y="228" font-family="Georgia, serif" font-size="12" fill="#2b1d10" text-anchor="middle">kast</text>
+  <g font-family="Georgia, serif" font-size="12" fill="#5a3f16">
+    <text x="90" y="84">nihutatav viht</text>
+    <text x="250" y="140">kaalukang</text>
+    <text x="40" y="300">koormaplatvorm</text>
+    <text x="40" y="320">Vihti nihutatakse, kuni kang on</text>
+    <text x="40" y="336">tasakaalus; siis loetakse näit.</text>
+  </g>
+
+  <!-- 2. hoob -->
+  <line x1="430" y1="170" x2="730" y2="170" stroke="#4a4a4a" stroke-width="6"/>
+  <path d="M480 172 l-14 30 h28 z" fill="#2b1d10"/>
+  <!-- koorem lühikesel õlal -->
+  <rect x="434" y="122" width="40" height="46" fill="#a4764a" stroke="#5a3f16" stroke-width="2"/>
+  <text x="454" y="150" font-family="Georgia, serif" font-size="11" text-anchor="middle" fill="#2b1d10">suur</text>
+  <!-- viht pikal õlal -->
+  <rect x="704" y="152" width="18" height="16" fill="#8a1c1c"/>
+  <text x="713" y="146" font-family="Georgia, serif" font-size="11" text-anchor="middle" fill="#8a1c1c">väike</text>
+  <!-- õlad -->
+  <g stroke="#1f4e79" stroke-width="2">
+    <line x1="454" y1="214" x2="480" y2="214"/><line x1="480" y1="214" x2="713" y2="214"/>
+    <line x1="454" y1="208" x2="454" y2="220"/><line x1="480" y1="208" x2="480" y2="220"/><line x1="713" y1="208" x2="713" y2="220"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#1f4e79">
+    <text x="440" y="236">lühike õlg</text>
+    <text x="570" y="236">pikk õlg</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10">
+    <text x="420" y="268">Koorem × lühike õlg = viht × pikk õlg.</text>
+    <text x="420" y="286">Päris platvormkaalus on mitu hooba ühendatud,</text>
+    <text x="420" y="304">nii et kast võib seista platvormil ükskõik kus.</text>
+  </g>
+
+  <!-- 3. arvutus -->
+  <rect x="20" y="356" width="720" height="82" rx="4" fill="#efe2c4"/>
+  <g font-family="Georgia, serif" font-size="14" fill="#2b1d10">
+    <text x="34" y="380">Bruto: kast koos sisuga 54 kg</text>
+    <text x="34" y="400">− taara: tühi pakend 4 kg</text>
+    <text x="34" y="420" font-weight="bold">= neto: kaup 50 kg</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#5a3f16">
+    <text x="330" y="380">Arvud on selgitav näide, mitte romaani kullakasti kaal.</text>
+    <text x="330" y="400">Kaal ei näita metalli puhtust: kulla proov määratakse</text>
+    <text x="330" y="418">eraldi, täpsema kaalumise ja proovimisega.</text>
+  </g>
+</svg>
