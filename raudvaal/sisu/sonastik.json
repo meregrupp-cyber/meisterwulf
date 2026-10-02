@@ -791,6 +791,13 @@
   ]
  },
  {
+  "saksa": "Die Rückgabe des Geschäftsbuchs würde die weitere Abwicklung für alle Beteiligten erheblich erleichtern.",
+  "tolge": "Arveraamatu tagastamine hõlbustaks kõigi asjaosaliste jaoks edasist asjaajamist märgatavalt.",
+  "peatukid": [
+   "XXII"
+  ]
+ },
+ {
   "saksa": "Die Tarapacá übernimmt die ausscheidenden Leute. Voraussetzung ist Ihre schriftliche Bestätigung, dass Sie mit dem benötigten Personal auf Widar weiter Dienst tun.",
   "tolge": "Tarapacá võtab lahkuvad mehed peale. Eelduseks on teie kirjalik kinnitus, et jätkate vajalike meestega Widaril teenistust.",
   "peatukid": [
@@ -816,6 +823,13 @@
   "tolge": "Sidumisköied jäävad nii, nagu nad on. Mina annan saadetised üle tervete plommidega. Teil pole õigust neid avada.",
   "peatukid": [
    "XX"
+  ]
+ },
+ {
+  "saksa": "Die Versorgung ist vorbereitet. Ihr Vertreter kann die Ware besichtigen. Für die Männer liegen vorläufige Bescheinigungen bereit. Zuerst müssen wir jedoch feststellen, welchen Wert Sie tatsächlich übergeben.",
+  "tolge": "Varustus on valmis pandud. Teie esindaja võib kauba üle vaadata. Meestele on ajutised tõendid valmis. Kõigepealt peame aga kindlaks tegema, millise väärtuse te tegelikult üle annate.",
+  "peatukid": [
+   "XXII"
   ]
  },
  {
@@ -1148,6 +1162,13 @@
   ]
  },
  {
+  "saksa": "Geschäft ist Geschäft.",
+  "tolge": "Äri on äri.",
+  "peatukid": [
+   "XXII"
+  ]
+ },
+ {
   "saksa": "Getroffen. Über Bord. Ich konnte ihn nicht halten.",
   "tolge": "„Sai pihta. Üle parda. Ma ei suutnud teda kinni hoida.”",
   "peatukid": [
@@ -1309,6 +1330,13 @@
   ]
  },
  {
+  "saksa": "Hier steht nicht, dass Sie diese beiden Kisten kaufen. Sie übernehmen die Verfügung über die gesamte Ladung. Und wer entscheidet danach, welche Kosten Sie davon abziehen?",
+  "tolge": "Siin ei ole kirjas, et ostate need kaks kasti. Te võtate endale õiguse kogu lasti käsutada. Ja kes otsustab seejärel, millised kulud te sellest maha arvate?",
+  "peatukid": [
+   "XXII"
+  ]
+ },
+ {
   "saksa": "Hier. Erst sauber. Dann sehen.",
   "tolge": "Siit. Enne puhtaks. Siis vaatame.",
   "peatukid": [
@@ -1341,6 +1369,13 @@
   "tolge": "„Mina jään vaneminseneri juurde. Kui tema läheb Widarile, lähen kaasa. Härra komandör, kas teil on seal veel minu jaoks kohta?” LI on lühend nimetusest Leitender Ingenieur, siin paadi vaneminsener.",
   "peatukid": [
    "XV"
+  ]
+ },
+ {
+  "saksa": "Ich fahre mit. Meine Gründe müssen nicht Ihre sein. Prüfen Sie bitte Ihre eigenen. Wir haben Arbeit für jeden Mann, aber niemand kann Ihnen sagen, wann Sie wieder festen Boden betreten.",
+  "tolge": "Mina sõidan kaasa. Teie põhjused ei pea minu omadega kokku langema. Mõelge palun enda omad läbi. Meil on tööd igale mehele, kuid keegi ei saa teile öelda, millal te jälle kindlale maale astute.",
+  "peatukid": [
+   "XXII"
   ]
  },
  {
@@ -1397,6 +1432,13 @@
   "tolge": "Mul ei ole aega.",
   "peatukid": [
    "VIII"
+  ]
+ },
+ {
+  "saksa": "Ich habe nichts gegen China, Herr Oberleutnant. Aber hier habe ich eine Arbeit und ein Bett. Weiterfahren kann ich später immer noch. Geben Sie mir das vereinbarte Geld, dann bin ich zufrieden.",
+  "tolge": "Mul pole midagi Hiina vastu, härra vanemleitnant. Aga siin on mul töö ja voodi. Edasi sõita saan hiljemgi. Andke mulle kokkulepitud raha ja ma olen rahul.",
+  "peatukid": [
+   "XXII"
   ]
  },
  {
@@ -1797,6 +1839,13 @@
   "tolge": "Laske lahti!",
   "peatukid": [
    "XIX"
+  ]
+ },
+ {
+  "saksa": "Lassen Sie meine Hand los.",
+  "tolge": "Laske mu käsi lahti.",
+  "peatukid": [
+   "XXII"
   ]
  },
  {
@@ -2235,6 +2284,13 @@
   ]
  },
  {
+  "saksa": "Peso bruto. Falta la tara.",
+  "tolge": "„Brutokaal. Taara on veel maha arvamata.” (Hispaania keeles.)",
+  "peatukid": [
+   "XXII"
+  ]
+ },
+ {
   "saksa": "R: austauschbar. Keine Zusage persönlicher Dokumente.",
   "tolge": "„R: asendatav. Isikupaberite kohta lubadus puudub.”",
   "peatukid": [
@@ -2435,6 +2491,13 @@
   "tolge": "Te ei saa paati lihtsalt endale jätta. Maal küsitakse pabereid. Ja teil pole ainsatki paberit, millega see paat teile antaks.",
   "peatukid": [
    "XIX"
+  ]
+ },
+ {
+  "saksa": "Sie können nicht erwarten, dass wir Ihre Leute aufnehmen und Ihnen zugleich das Boot zur freien Verfügung lassen. Herr Doktor Schrade hat andere Zusagen gemacht. Diese Dinge gehören zusammen.",
+  "tolge": "Te ei saa oodata, et võtame teie inimesed vastu ja jätame samal ajal paadi teie vabaks käsutuseks. Härra doktor Schrade on andnud teistsuguseid lubadusi. Need asjad käivad kokku.",
+  "peatukid": [
+   "XXII"
   ]
  },
  {
@@ -3111,6 +3174,13 @@
   ]
  },
  {
+  "saksa": "Wir nehmen zwei Kisten mit. An Bord wird nichts weiter herausgegeben, auch nicht gegen eine Nachricht mit meiner Unterschrift. Wenn ich etwas ändern will, komme ich selbst zurück.",
+  "tolge": "Võtame kaasa kaks kasti. Pardalt ei anta enam midagi välja, isegi minu allkirjaga teate alusel. Kui tahan midagi muuta, tulen ise tagasi.",
+  "peatukid": [
+   "XXII"
+  ]
+ },
+ {
   "saksa": "Wir setzen den Kommandanten und die Zivilisten an Land. Wer von der Besatzung mitgehen will, meldet sich bei Krüger. Ich werde niemanden zurückhalten.",
   "tolge": "„Viime komandöri ja tsiviilisikud kaldale. Kes meeskonnast tahab kaasa minna, teatagu Krügerile. Ma ei hoia kedagi kinni.”",
   "peatukid": [
@@ -3122,6 +3192,13 @@
   "tolge": "Oleme Kanaari saartel interneeritud. Kõik kakskümmend seitse on elus. Süüa on ja päris voodid. Millal edasi pääseme, ei tea keegi. Palun andke teada, kui see kaart kohale jõuab. Tervitused kõigile. Petersen.",
   "peatukid": [
    "XXI"
+  ]
+ },
+ {
+  "saksa": "Wir stimmen über die Weiterfahrt nach China ab. Wer hierbleiben will, kann es noch sagen. Ich verlange kein Versprechen für den Rest Ihres Lebens. Aber für die nächste Fahrt brauche ich eine klare Antwort.",
+  "tolge": "Hääletame Hiinasse edasisõidu üle. Kes tahab siia jääda, saab sellest veel teada anda. Ma ei nõua teilt lubadust kogu ülejäänud eluks. Aga järgmiseks sõiduks vajan selget vastust.",
+  "peatukid": [
+   "XXII"
   ]
  },
  {
@@ -3171,6 +3248,13 @@
   "tolge": "„Vööri. Nagu kästud.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Zur Tür! Alle raus, die Kisten bleiben!",
+  "tolge": "Ukse juurde! Kõik välja, kastid jäävad!",
+  "peatukid": [
+   "XXII"
   ]
  },
  {

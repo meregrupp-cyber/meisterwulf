@@ -1296,7 +1296,7 @@
   ]
  },
  {
-  "saksa": "kopeerpaber",
+  "saksa": "kopeerpaberijälg",
   "liik": "sona",
   "pealkiri": "Kopeerpaber ja koopia",
   "tekst": "Kopeerpaber on ühelt küljelt pigmendiga kaetud leht, mis pannakse kahe paberi vahele: kirjutusmasina või pliiatsi surve kannab sinise või musta jälje alumisele lehele ja koopia sünnib originaaliga ühekorraga; mõistlik piir oli neli-viis koopiat. Meetodi leiutas Pellegrino Turri 1801, patendi sai Ralph Wedgwood 1806; asjaajamises oli kopeerpaber laialt kasutusel 1870.–1980. aastatel. Schrade leht on niisugune koopia: õhuke ja tagaküljel sinine.",
@@ -4548,6 +4548,207 @@
    {
     "tekst": "Wikipedia · Charterparty",
     "url": "https://en.wikipedia.org/wiki/Charterparty"
+   }
+  ]
+ },
+ {
+  "marker": "kolm-ärakirja-ühe-trükkimisega",
+  "peatukk": 22,
+  "pealkiri": "Kolm ärakirja ühe trükkimisega",
+  "tekst": "Enne paljundusmasinate levikut tehti kontorites ärakirju sageli kopeerpaberiga. Õhukeste kirjapaberilehtede vahele asetati värvainekihiga paberid, värvine pool allapoole. Kirjutusmasina tähe löök jättis värvilindi kaudu jälje pealmisele lehele ning surus kopeerpaberite värvi alumistele lehtedele. Nii sai ühe trükkimisega mitu eksemplari. Alumised võisid jääda kahvatumaks; iga parandus tuli kõigis eksemplarides üle kontrollida.\n\nValmis käsikirjalist raamatut sel moel otse paljundada ei saanud: selle sisu tuli uuesti trükkida. Ääremärkused, mahakriipsutused ja raskesti loetavad kohad vajasid eraldi tähelepanu. Romaanis valmivad raamatu tekstilised ärakirjad, mitte selle lehekülgede fotokoopiad.",
+  "allikad": [
+   {
+    "tekst": "Smithsonian Education · kopeerpaber ja dokumentide paljundamine enne tänapäevaseid koopiamasinaid",
+    "url": "https://www.smithsonianeducation.org/educators/lesson_plans/carbons/text/equip.html"
+   },
+   {
+    "tekst": "Science Museum Group · Imperial Model B typewriter, c. 1915 (tähehoovad ja paberikelk)",
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38144/imperial-model-b-typewriter-c-1915"
+   },
+   {
+    "tekst": "Cornwall Community Museum · Artifact of the Week: Hall typewriter, ca. 1887 (kell parema veerise piiriku juures)",
+    "url": "https://cornwallcommunitymuseum.wordpress.com/2017/11/05/artifact-of-the-week-hall-typewriter-ca-1887/"
+   }
+  ],
+  "markused": [
+   "Heli ja pildi kirjeldus. Mehaaniline kontorikirjutusmasin, selle kõrval lahtitõstetud paberipakk. Viis kihti on nähtavalt eraldatud: kirjapaber, kopeerpaber, kirjapaber, kopeerpaber, kirjapaber. Nool näitab värvikihi suunda. Kõrval sama rea kolm eksemplari, alumine veidi kahvatum. Ajaloolise masinatüübi näiteks sobib Science Museum Groupi Imperial Model B, umbes 1915; see ei määra romaanis kasutatud masina marki. Helinäitena 12–15 sekundi pikkune salvestus töötavast mehaanilisest kirjutusmasinast: kõigepealt trükitakse üks rida, siis kõlab lähenevast paremast veerisest hoiatav kell, järgneb veel paar tähelööki ning käsitsi tehtud kelgu tagasiviimine koos paberi edasipööramisega järgmisele reale. Kolme tegevuse ajal ilmuvad selgitused „Tähe löök”, „Rea lõpu hoiatus” ja „Uuele reale viimine”. Näide õpetab, mida eri helid tähendavad. See on töökäigu tänapäevane demonstratsioon."
+  ],
+  "pilt": "kopeerpaber-kolm-eksemplari.svg",
+  "pildi_allkiri": "Üks tähe löök läbi viiekihilise paki: originaal ja kaks koopiat, alumine kõige kahvatum.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi",
+  "heli": "kirjutusmasin.mp3",
+  "helitugevus": 0.5,
+  "heli_allkiri": "Mehaaniline kirjutusmasin Erika 5 (1940): tähelöögid, rea lõpu kell ja kelgu tagasiviimine. Tänapäevane salvestis. Work With Sounds / Konrad Gutkowski, 2015 / CC BY 4.0."
+ },
+ {
+  "marker": "kuidas-väike-viht-kaalub-suurt-kasti",
+  "peatukk": 22,
+  "pealkiri": "Kuidas väike viht kaalub suurt kasti?",
+  "tekst": "Lao platvormkaal kasutab hoobasid: platvormile toetuv koorem ja väiksem vasturaskus mõjuvad süsteemile erineva õlapikkuse kaudu. Seetõttu saab rasket kasti kaaluda ilma sama raske vihtide kogumita. Nihutatav viht muudab oma asukohaga jõumomenti; näit loetakse tasakaalu saabudes. Hoobade ja tugede ehitus võimaldab paigutada suure koorma platvormile.\n\nBrutokaal hõlmab kaupa koos pakendiga. Taara on pakendi mass ning netokaal kauba enda mass: neto = bruto − taara. Kulla eest tasumisel on tähtis ka metalli puhtus, mida kaalumine ei määra. Lao kaaluga saadud kogunäit ei asenda väärismetalli täpsemat kaalumist ja proovimist.",
+  "allikad": [
+   {
+    "tekst": "Science Museum Group · Platform scale, c. 1930 (Y1989.246.15)",
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8407159/platform-scale"
+   },
+   {
+    "tekst": "National Bureau of Standards · Miscellaneous Publication 272 (1965): kaalude ajalooline areng ja liithoobadega platvormkaal",
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub272.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi ja joonise kirjeldus. 1930. aasta paiku valmistatud mehaaniline platvormkaal, millel on eristatavad koormaplatvorm, sammas ja kaalukang. Sobiv ajalooline võrdlusese on Science Museum Groupi Birminghamis valmistatud kaal Y1989.246.15. Kõrval lihtsustatud hoobade skeem ning arvutusnäide: „Kast koos sisuga 54 kg − tühi pakend 4 kg = kaup 50 kg.” Arvud on selgitav näide, mitte romaani kullakasti kaalumistulemus."
+  ],
+  "pilt": "platvormkaal.svg",
+  "pildi_allkiri": "Nihutatav viht viib kaalukangi tasakaalu; kõrval hoova põhimõte ning bruto, taara ja neto näide.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "saksa": "kohaliku notar",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Notar ehk escribano público",
+  "tekst": "Argentinas kannab notar ametinimetust escribano público. Ta on õigusharidusega jurist, kelle allkiri annab eradokumendile avaliku dokumendi iseloomu; erinevalt advokaadist peab ta olema erapooletu. Notar võib hoiule võtta dokumente, väärtpabereid ja raha; osalised, ese, eesmärk ja tingimused kantakse akti või kviitungile. Akt kinnitab notari ees toimunut, näiteks ümbrike üleandmist, mitte paberites kirjeldatud sündmuste tõesust.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Notario",
+    "url": "https://es.wikipedia.org/wiki/Notario"
+   },
+   {
+    "tekst": "Revista del Notariado (Colegio de Escribanos de la Capital Federal) · J. Giralt Font, „Las actas de depósito y el artículo 985 del Código Civil”",
+    "url": "https://www.colegio-escribanos.org.ar/biblioteca/cgi-bin/ESCRI/ARTICULOS/60218.pdf"
+   }
+  ]
+ },
+ {
+  "saksa": "lähevad rannaaurik",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Rannaaurikud ja telegraaf",
+  "tekst": "Patagoonia sadamaid ühendasid Buenos Airesega 1880. aastast mereväe transpordilaevad ja 1901. aastast ka eraettevõtete aurikud, mis vedasid reisijaid, kaupa ja posti. Näiteks mereväe transpordilaev 1.º de Mayo tegi 1944. aastal seitse reisi Ushuaiasse ja jäi ka 1945. aastal rannikuliinile. Kiirem side oli telegraaf: aastatel 1899–1903 ehitati piki Atlandi rannikut telegraafiliin, millel oli kontor igas sadamas.",
+  "allikad": [
+   {
+    "tekst": "PATAGONIA database · H. Brumatti, „Servicio Postal Marítimo”",
+    "url": "https://www.drault.com/pdb/correo/serviciopostal.maritimo.html"
+   },
+   {
+    "tekst": "Wikipedia (hispaania) · ARA 1.º de Mayo (1894)",
+    "url": "https://es.wikipedia.org/wiki/ARA_1.%C2%BA_de_Mayo_(1894)"
+   }
+  ]
+ },
+ {
+  "saksa": "koht sõrmejälje",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Sõrmejäljed Argentinas",
+  "tekst": "Argentina oli sõrmejälgedega isikutuvastuse teerajaja. Buenos Airese provintsi politseiametnik, Horvaatiast pärit Juan Vucetich koostas La Platas 1. septembril 1891 maailma esimesed sõrmejäljekaardid. 1892. aastal tuvastati tema meetodil esimest korda mõrvar: süüdlase reetis kuriteopaigale jäänud verine sõrmejälg. 1911. aasta sõjaväekohustuse ja valimiste seadusega võeti tema süsteem kasutusele üle 18-aastaste Argentina meeste tuvastamiseks.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Juan Vucetich",
+    "url": "https://es.wikipedia.org/wiki/Juan_Vucetich"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Juan Vucetich",
+    "url": "https://en.wikipedia.org/wiki/Juan_Vucetich"
+   }
+  ]
+ },
+ {
+  "saksa": "arvestatakse proov",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Proov: kulla puhtuse määramine",
+  "tekst": "Hinnapakkumises tähendab proov kulla puhtuse kindlakstegemist; selle kulu arvestatakse hinnast maha. Kangikulla puhtust määratakse tulekatsega: kangist võetud tükk mähitakse koos vase ja hõbedaga pliifooliumi ning kuumutatakse luutuhast või magneesiumoksiidist tiiglis, kus mitteväärismetallid oksüdeeruvad ja imenduvad tiiglisse. Hõbe eemaldatakse lämmastikhappega ja kuld kaalutakse. Meetod hävitab proovitüki, kuid on kõige täpsem.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · proov",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=proov"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Metallurgical assay",
+    "url": "https://en.wikipedia.org/wiki/Metallurgical_assay"
+   }
+  ]
+ },
+ {
+  "saksa": "järgmise pügi",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Pügi ehk lammaste pügamine",
+  "tekst": "Pügi tähendab pügamist ehk lammastelt villa lõikamist. Patagoonias pöeti lambaid traditsiooniliselt pärast poegimist, hiliskevadel ja suve alguses, kui ilm on leebem; lõunapoolkeral on hiliskevad november ja detsember. Augustis oli järgmine pügi seega mitme kuu kaugusel. Laenu järgmise pügamise peale tasub talupidaja järgmise villasaagi rahast.",
+  "allikad": [
+   {
+    "tekst": "EKI · Eesti keele seletav sõnaraamat · pügi",
+    "url": "https://arhiiv.eki.ee/dict/ekss/index.cgi?Q=p%C3%BCgi"
+   },
+   {
+    "tekst": "INTA Presencia nr 73 (2020) · E. González, M. Easdale, D. Sacchero, „¿Cuándo podemos fijar la fecha de esquila?”",
+    "url": "https://ri.conicet.gov.ar/bitstream/handle/11336/116292/CONICET_Digital_Nro.212db238-8712-4c44-94c3-cf639d8048b3_A.pdf?sequence=2&isAllowed=y"
+   }
+  ]
+ },
+ {
+  "saksa": "annab pastaka",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Pastakas ehk birome",
+  "tekst": "Pastakas ehk pastapliiats kannab Argentinas tänini nime birome. Ungari ajakirjanik László Bíró emigreerus Teise maailmasõja algul Argentinasse ja patenteeris oma kuulpliiatsi Buenos Aireses 10. juunil 1943. Kaubamärk Birome on liidetud Bíró ja tema kaaslase Juan Jorge Meyne nimest. Uut kirjutusvahendit kiideti, et see kuivab kohe ja sobib kopeerpaberiga koopiate tegemiseks; ajakiri Leoplán reklaamis esimest biromet 1945. aastal.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Ladislao Biro",
+    "url": "https://es.wikipedia.org/wiki/Ladislao_Biro"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Ballpoint pen",
+    "url": "https://en.wikipedia.org/wiki/Ballpoint_pen"
+   }
+  ],
+  "pilt": "birome-pastapliiats.jpg",
+  "pildi_allkiri": "Varajane Argentinas valmistatud Birome-pastapliiats. Tänapäevane foto.",
+  "pildi_allikas": "Roberto Fiadone, 2006 (oma töö) / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Bol%C3%ADgrafo_birome_II.jpg"
+ },
+ {
+  "saksa": "Lõuna-Aafrika kandis",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Lõuna-Aafrika 1945",
+  "tekst": "Lõuna-Aafrika Liit oli 1931. aasta Westminsteri statuudi järgi Suurbritanniaga võrdõiguslik dominioon, mille riigipea oli Briti kuningas. Peaminister Jan Smuts kuulutas 6. septembril 1939, et riik on sõjas Saksamaaga. Lõuna-Aafrika 6. soomusdiviis võitles aastatel 1944–1945 Itaalias ning riik toetas meeste ja laevadega ka sõda Jaapani vastu.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Military history of South Africa during World War II",
+    "url": "https://en.wikipedia.org/wiki/Military_history_of_South_Africa_during_World_War_II"
+   }
+  ]
+ },
+ {
+  "saksa": "kulunud rahatähte",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Argentina peso 1945",
+  "tekst": "Argentina rahaühik oli 1881–1969 peso moneda nacional (M$N), mis jagunes 100 sentaavoks. 1935. aastast andis rahatähti välja keskpank Banco Central, esialgu 1899. aastast käibel olnud kujundusega „Efigie del Progreso” (Progressi kujutis). 1942. aastal hakkas keskpank välja andma oma kujundusega rahatähti; suurematel nimiväärtustel oli José de San Martíni portree. 1945. aastal liikusid seega korraga vana ja uue kujundusega rahatähed.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (hispaania) · Peso moneda nacional",
+    "url": "https://es.wikipedia.org/wiki/Peso_moneda_nacional"
+   }
+  ]
+ },
+ {
+  "saksa": "teab Shandongist",
+  "liik": "sona",
+  "peatukk": 22,
+  "pealkiri": "Shandong 1945",
+  "tekst": "Shandong on Hiina idaranniku provints, mille poolsaarel asub Tsingtau. Jaapani okupatsiooni ajal vastupanu jätkus ning 1945. aastaks hoidsid kommunistlikud väed osa provintsist. Sõja lõpus kutsusid nii kommunistide raadio Yan'anist kui ka valitsuse raadio Chongqingist Jaapani vägesid endale alistuma ja mõlemad pooled tõttasid okupeeritud alasid üle võtma. Liitlaste tingimuste järgi pidid jaapanlased alistuma Kuomintangi valitsusvägedele.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Shandong",
+    "url": "https://en.wikipedia.org/wiki/Shandong"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Chinese Civil War",
+    "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War"
    }
   ]
  }

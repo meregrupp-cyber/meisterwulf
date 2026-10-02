@@ -976,5 +976,82 @@
   "asenda": "millesse see merel pakiti",
   "uus": "milles see leiti",
   "markus": "XXI: kes arveraamatu pakkis, pole teada (XIV: leiti õliriides)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "c614c19c4fe67078",
+  "asenda": "Kapten tunneb esimese",
+  "uus": "Komandör tunneb esimese",
+  "markus": "XXII: Brandt on komandör; „kapten” oli traaleri ja auriku juht"
+ },
+ {
+  "peatukk": 22,
+  "parast": "bc2d7c4d6299dd84",
+  "asenda": "China, Herr Leutnant.",
+  "uus": "China, Herr Oberleutnant.",
+  "markus": "XXII: Widari mehed pöörduvad Otto poole „Herr Oberleutnant” (XVII)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "bc2d7c4d6299dd84",
+  "asenda": "Hiina vastu, härra leitnant.",
+  "uus": "Hiina vastu, härra vanemleitnant.",
+  "markus": "XXII: Widari mehed pöörduvad Otto poole „härra vanemleitnant” (XVII)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "af5a582713083dbe",
+  "asenda": "Torpedomees Ernst Bode",
+  "uus": "Widari torpedomadrus Ernst Bode",
+  "markus": "XXII: Bode on Widari mees (XV: U-398-lt tuli 12 nimelist inimest); termin torpedomadrus"
+ },
+ {
+  "peatukk": 22,
+  "parast": "d37e9bd75080a67c",
+  "asenda": "Torpedomees vaatab",
+  "uus": "Torpedomadrus vaatab",
+  "markus": "XXII: torpedomadrus (I–XXI termin)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "737644dc94492844",
+  "asenda": "aga torpedomees ei pahanda",
+  "uus": "aga torpedomadrus ei pahanda",
+  "markus": "XXII: torpedomadrus (I–XXI termin)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "3627244dcc63f430",
+  "asenda": "Torpedomees küsib veel",
+  "uus": "Torpedomadrus küsib veel",
+  "markus": "XXII: torpedomadrus (I–XXI termin)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "ef494b0f45cd5ad1",
+  "asenda": "on logiraamatus kirjas",
+  "uus": "on vahipäevikus kirjas",
+  "markus": "XXII: logiraamat → vahipäevik (I–XXI termin)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "a56fab77492298b3",
+  "asenda": "seisab ta pakpoordis",
+  "uus": "seisab ta vasaku parda ääres",
+  "markus": "XXII: pakpoord → vasak parras (I–XXI)"
+ },
+ {
+  "peatukk": 22,
+  "parast": "57d74d1a2e92a281",
+  "asenda": "kannab ta teisele lehele",
+  "uus": "kannab ta omaette lehele",
+  "markus": "XXII: kangi number on vihiku esimesel lehel „Võlg” all"
+ },
+ {
+  "peatukk": 22,
+  "parast": "0327ed7c5753a1cb",
+  "asenda": "Chen saab tema edasisest",
+  "uus": "Chen saab Schrade edasisest",
+  "markus": "XXII: „tema” ei viita selgelt Schradele"
  }
 ]

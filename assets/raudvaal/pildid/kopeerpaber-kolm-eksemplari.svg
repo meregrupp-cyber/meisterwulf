@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Kolm eksemplari ühe trükkimisega</title>
+  <desc id="d">Animatsioon. Vasakul mehaaniline kontorikirjutusmasin, mille rullis on paberipakk. Keskel sama pakk lahtitõstetuna viieks kihiks: kirjapaber, kopeerpaber, kirjapaber, kopeerpaber, kirjapaber; nool näitab, et kopeerpaberi värvikiht on allapoole. Tähe löök jätab jälje pealmisele lehele värvilindi kaudu ning surub kopeerpaberite värvi alumistele lehtedele. Paremal sama rida kolmes eksemplaris, alumine kõige kahvatum. Masina mark ei ole romaanis määratud.</desc>
+  <rect width="760" height="440" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="28" font-size="16">Kolm eksemplari ühe trükkimisega</text>
+    <text x="20" y="56" font-size="13">1. Kirjutusmasin</text>
+    <text x="300" y="56" font-size="13">2. Paberipakk lahti tõstetuna</text>
+    <text x="560" y="56" font-size="13">3. Sama rida kolm korda</text>
+  </g>
+
+  <!-- 1. kirjutusmasin -->
+  <g>
+    <!-- paber rullis -->
+    <rect x="70" y="72" width="150" height="70" fill="#fffdf6" stroke="#b9a88a"/>
+    <line x1="80" y1="96" x2="150" y2="96" stroke="#2b1d10" stroke-width="2">
+      <animate attributeName="x2" values="80;80;200;200" keyTimes="0;0.1;0.6;1" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <!-- rull ja kelk -->
+    <rect x="50" y="138" width="190" height="20" rx="10" fill="#3a3a3a">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 0;-40 0;-40 0;0 0" keyTimes="0;0.1;0.6;0.8;0.9" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="246" cy="148" r="8" fill="#6b6b6b"/>
+    <!-- korpus -->
+    <path d="M40 160 H250 L272 250 H18 Z" fill="#2f2f2f"/>
+    <path d="M60 170 H230 L240 206 H50 Z" fill="#4a4a4a"/>
+    <!-- tähehoob -->
+    <line x1="145" y1="206" x2="145" y2="160" stroke="#b9b9b9" stroke-width="3">
+      <animate attributeName="y2" values="190;160;190;190;160;190" keyTimes="0;0.15;0.3;0.4;0.5;0.6" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <!-- klahvid -->
+    <g fill="#e6e6e6" stroke="#1a1a1a" stroke-width="1">
+      <circle cx="54" cy="226" r="7"/><circle cx="74" cy="226" r="7"/><circle cx="94" cy="226" r="7"/><circle cx="114" cy="226" r="7"/><circle cx="134" cy="226" r="7"/><circle cx="154" cy="226" r="7"/><circle cx="174" cy="226" r="7"/><circle cx="194" cy="226" r="7"/><circle cx="214" cy="226" r="7"/><circle cx="234" cy="226" r="7"/>
+      <circle cx="64" cy="242" r="7"/><circle cx="84" cy="242" r="7"/><circle cx="104" cy="242" r="7"/><circle cx="124" cy="242" r="7"/><circle cx="144" cy="242" r="7"/><circle cx="164" cy="242" r="7"/><circle cx="184" cy="242" r="7"/><circle cx="204" cy="242" r="7"/><circle cx="224" cy="242" r="7"/>
+    </g>
+    <!-- kell -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.55;0.58;0.66;1" dur="8s" repeatCount="indefinite"/>
+      <path d="M258 108 q10 -4 16 6 M262 98 q16 -6 24 10" fill="none" stroke="#8a1c1c" stroke-width="2"/>
+      <text x="256" y="92" font-family="Georgia, serif" font-size="12" fill="#8a1c1c">kell</text>
+    </g>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#5a3f16">
+    <text x="20" y="276">Tähe löök: hoob lööb läbi värvilindi pakile.</text>
+    <text x="20" y="294">Kell: parem veeris on lähedal.</text>
+    <text x="20" y="312">Kelk tagasi: paber pöörab uuele reale.</text>
+  </g>
+
+  <!-- 2. kihid -->
+  <g font-family="Georgia, serif" font-size="12">
+    <g>
+      <rect x="300" y="78" width="190" height="22" fill="#fffdf6" stroke="#b9a88a"/>
+      <text x="310" y="94" fill="#2b1d10">kirjapaber (originaal)</text>
+    </g>
+    <g>
+      <rect x="300" y="112" width="190" height="16" fill="#3b4a7a"/>
+      <rect x="300" y="128" width="190" height="4" fill="#1f2a50"/>
+      <text x="310" y="124" fill="#fff">kopeerpaber</text>
+    </g>
+    <g>
+      <rect x="300" y="144" width="190" height="22" fill="#fffdf6" stroke="#b9a88a"/>
+      <text x="310" y="160" fill="#2b1d10">kirjapaber (1. koopia)</text>
+    </g>
+    <g>
+      <rect x="300" y="178" width="190" height="16" fill="#3b4a7a"/>
+      <rect x="300" y="194" width="190" height="4" fill="#1f2a50"/>
+      <text x="310" y="190" fill="#fff">kopeerpaber</text>
+    </g>
+    <g>
+      <rect x="300" y="210" width="190" height="22" fill="#fffdf6" stroke="#b9a88a"/>
+      <text x="310" y="226" fill="#2b1d10">kirjapaber (2. koopia)</text>
+    </g>
+  </g>
+  <!-- värvikiht allapoole -->
+  <g fill="#8a1c1c" font-family="Georgia, serif" font-size="11">
+    <path d="M500 122 v14 l-5 -6 m5 6 l5 -6" stroke="#8a1c1c" stroke-width="2" fill="none"/>
+    <path d="M500 188 v14 l-5 -6 m5 6 l5 -6" stroke="#8a1c1c" stroke-width="2" fill="none"/>
+    <text x="508" y="132">värvine</text>
+    <text x="508" y="146">pool all</text>
+  </g>
+  <!-- löök läbi paki -->
+  <path d="M395 66 V240" stroke="#2b1d10" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0;1;0" keyTimes="0;0.15;0.3;0.4;0.5;0.6" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <text x="300" y="262" font-family="Georgia, serif" font-size="12" fill="#5a3f16">Üks löök jätab jälje kõigile kolmele lehele.</text>
+
+  <!-- 3. eksemplarid -->
+  <g font-family="'Courier New', Courier, monospace" font-size="13">
+    <rect x="560" y="72" width="180" height="54" fill="#fffdf6" stroke="#b9a88a"/>
+    <text x="570" y="104" fill="#1a1a1a">Leht 1, rida 1</text>
+    <rect x="560" y="140" width="180" height="54" fill="#fffdf6" stroke="#b9a88a"/>
+    <text x="570" y="172" fill="#2d3f78" opacity="0.8">Leht 1, rida 1</text>
+    <rect x="560" y="208" width="180" height="54" fill="#fffdf6" stroke="#b9a88a"/>
+    <text x="570" y="240" fill="#2d3f78" opacity="0.45">Leht 1, rida 1</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="11" fill="#5a3f16">
+    <text x="560" y="122">originaal</text>
+    <text x="560" y="190">1. koopia</text>
+    <text x="560" y="258">2. koopia: kõige kahvatum</text>
+  </g>
+
+  <rect x="20" y="340" width="720" height="80" rx="4" fill="#efe2c4"/>
+  <g font-family="Georgia, serif" font-size="13" fill="#2b1d10">
+    <text x="34" y="364">Käsitsi kirjutatud raamatut ei saanud niimoodi paljundada: selle tekst tuli uuesti läbi trükkida.</text>
+    <text x="34" y="384">Iga parandus tuli üle vaadata kõigis eksemplarides. Masina mark on joonisel üldine,</text>
+    <text x="34" y="404">romaan seda ei nimeta.</text>
+  </g>
+</svg>
