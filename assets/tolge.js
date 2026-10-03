@@ -7,6 +7,7 @@
      <span class="lisa lisa--markus" …><span class="sr-only">Lisa: Käsilood</span></span>   (autori infomulli viide, ainult ikoon)
    Mulli tekst (data-tolge): lõigud tühja reaga eraldi; lõik, mille iga rida algab „• “, on loend.
    data-laius="560" annab pikale seletusele laiema mulli (vaikimisi 420, tõlkel 340).
+   Modaalaknas (aria-modal="true", position:fixed) avatud mull paigutatakse akna sisse.
    Klõps/puudutus avab mulli elemendi kohal (või all); sama elemendi uus puudutus, klõps mujal,
    Esc või mulli × sulgeb. Klaviatuur: Tab, Enter/tühik. Korraga üks mull. Heli mängib mulli
    avamisel (vaikselt), peatub sulgemisel; mullis on nupp „Peata / Mängi”. */
@@ -15,6 +16,10 @@
   var SEL = ".saksa, .lisa";
   var open = null, bubble = null, audio = null, audioBtn = null;
 
+  function closeLabel() {           /* mitmekeelsel lehel <html data-lang>, muidu lang */
+    var d = document.documentElement, l = (d.getAttribute("data-lang") || d.lang || "et").slice(0, 2);
+    return l === "zh" ? "关闭" : l === "en" ? "Close" : "Sulge";
+  }
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
 
   function ensure() {
@@ -49,12 +54,17 @@
     var liik = elm.getAttribute("data-liik") || "tolge";
     b.className = "tolge-mull tolge-mull--" + liik;
     var close = el("button", "tolge-mull-sulge", "×");
-    close.type = "button"; close.setAttribute("aria-label", "Sulge");
+    close.type = "button"; close.setAttribute("aria-label", closeLabel());
     close.addEventListener("click", hide);
     b.appendChild(close);
+    var sisu = el("div", "tolge-mull-sisu");   /* sõna kirjeldus (aria-describedby): pealkiri + tekst, ilma "Sulge"-ta */
+    sisu.id = "tolge-mull-sisu";
+    b.appendChild(sisu);
     var title = elm.getAttribute("data-pealkiri");
-    if (title) b.appendChild(el("h4", "tolge-mull-pealkiri", title));
-    if (title) b.setAttribute("aria-label", title); else b.removeAttribute("aria-label");
+    if (title) {
+      var h = el("h4", "tolge-mull-pealkiri", title); h.id = "tolge-mull-pealkiri";
+      sisu.appendChild(h); b.setAttribute("aria-labelledby", h.id);
+    } else b.removeAttribute("aria-labelledby");
     var text = elm.getAttribute("data-tolge") || "";
     text.split(/\n\s*\n/).forEach(function (par) {
       par = par.trim();
@@ -63,8 +73,8 @@
       if (lines.every(function (ln) { return /^\s*•\s+/.test(ln); })) {   /* loend */
         var ul = el("ul", "tolge-mull-loend");
         lines.forEach(function (ln) { ul.appendChild(el("li", null, ln.replace(/^\s*•\s+/, ""))); });
-        b.appendChild(ul);
-      } else b.appendChild(el("p", "tolge-mull-tekst", par));
+        sisu.appendChild(ul);
+      } else sisu.appendChild(el("p", "tolge-mull-tekst", par));
     });
     var pilt = elm.getAttribute("data-pilt");
     if (pilt) {
@@ -85,7 +95,7 @@
         cap.appendChild(small);
       }
       if (cap.childNodes.length) fig.appendChild(cap);
-      b.appendChild(fig);
+      sisu.appendChild(fig);
     }
     var heli = elm.getAttribute("data-heli");
     if (heli) {
@@ -96,7 +106,7 @@
       row.appendChild(audioBtn);
       var hcap = elm.getAttribute("data-heli-allkiri");
       if (hcap) row.appendChild(el("span", "tolge-mull-heliallkiri", hcap));
-      b.appendChild(row);
+      sisu.appendChild(row);
       audioPlay(heli, vol);
     }
     var allikad = elm.getAttribute("data-allikad");
@@ -109,7 +119,7 @@
             if (i) p.appendChild(document.createTextNode(" · "));
             var a = el("a", null, s.tekst || s.url); a.href = s.url; a.target = "_blank"; a.rel = "noopener"; p.appendChild(a);
           });
-          b.appendChild(p);
+          sisu.appendChild(p);
         }
       } catch (e) {}
     }
@@ -133,15 +143,18 @@
     var below = r.bottom + bh + 12 <= vh;
     if (!above && !below) {             /* pikk mull: ruumikamale poolele, kerib seal, sõna jääb nähtavale */
       var roomAbove = r.top - 16, roomBelow = vh - r.bottom - 16, room = Math.max(roomAbove, roomBelow);
-      if (room >= 160) {
+      if (room >= Math.min(160, Math.max(80, vh * 0.3))) {
         b.style.maxHeight = Math.floor(room) + "px";
         bh = b.offsetHeight;
         above = roomAbove >= roomBelow; below = !above;
       }
     }
     var top = above ? r.top - bh - 10 : below ? r.bottom + 10 : Math.max(4, Math.min(r.top - bh - 10, vh - bh - 4));
-    b.style.left = Math.round(left + window.scrollX) + "px";
-    b.style.top = Math.round(top + window.scrollY) + "px";
+    var host = b.parentNode, hr = host === document.body ? null : host.getBoundingClientRect();
+    var ox = hr ? host.scrollLeft - hr.left - host.clientLeft : window.scrollX;
+    var oy = hr ? host.scrollTop - hr.top - host.clientTop : window.scrollY;
+    b.style.left = Math.round(left + ox) + "px";
+    b.style.top = Math.round(top + oy) + "px";
     b.style.setProperty("--nool", Math.round(cx - left) + "px");
     b.classList.toggle("is-all", !above);
   }
@@ -150,12 +163,14 @@
     hide();
     open = elm;                         /* enne build(): heli käivitub kohe ja märgib elemendi */
     build(elm);
+    var host = (elm.closest && elm.closest('[aria-modal="true"]')) || document.body;   /* aknas avatud mull jääb aknasse */
+    if (bubble.parentNode !== host) host.appendChild(bubble);
     bubble.hidden = false;
     place(elm);
     var img = bubble.querySelector("img");
     if (img && !img.complete) img.addEventListener("load", function () { if (open === elm) place(elm); }, { once: true });
     elm.setAttribute("aria-expanded", "true");
-    elm.setAttribute("aria-describedby", bubble.id);
+    elm.setAttribute("aria-describedby", "tolge-mull-sisu");
     open = elm;
   }
   function hide() {
@@ -163,6 +178,7 @@
     if (!open) return;
     open.setAttribute("aria-expanded", "false");
     open.removeAttribute("aria-describedby");
+    if (bubble && bubble.contains(document.activeElement)) open.focus();
     open = null;
     if (bubble) bubble.hidden = true;
   }

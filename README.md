@@ -275,8 +275,12 @@ selle ehitus, kung fu lehel tuleb see muutmisel käsitsi uuendada). Element:
 `data-tolge`: lõigud tühja reaga (`&#10;&#10;`) eraldi; lõik, mille iga rida algab
 „• “, kuvatakse loendina. `data-laius` annab pikale seletusele laiema mulli
 (vaikimisi 420 px). Kui mull ei mahu sõna kohale ega alla, läheb see ruumikamale
-poolele ja kerib seal, sõna jääb nähtavale. Kung fu lehel on bàishī mull ajatelje
-2023 kirjes ja wushu/kungfu selgitusaknas (aknas sulgeb Esc esmalt mulli, siis akna).
+poolele ja kerib seal, sõna jääb nähtavale. Modaalaknas (`aria-modal="true"`,
+`position:fixed`) avatud mull paigutatakse akna sisse, et ekraanilugeja ja
+fookuse lõks seda näeksid. Sõna kirjeldus (`aria-describedby`) on mulli pealkiri
+ja tekst; sulgemisnupu nimi tuleb lehe keelest (`data-lang`, muidu `lang`).
+Kung fu lehel on bàishī mull ajatelje 2023 kirjes ja wushu/kungfu selgitusaknas
+(aknas sulgeb Esc esmalt mulli, siis akna).
 
 #### Uue peatüki lisamine
 
