@@ -56,6 +56,10 @@
 .tolge-mull-pealkiri{ margin:0 1.6em .35em 0; font-size:.78rem; font-weight:400; letter-spacing:.18em; text-transform:uppercase; color:#e8c97a; }
 .tolge-mull-tekst{ margin:0 0 .6em; max-width:none; white-space:pre-line; }
 .tolge-mull-tekst:last-child{ margin-bottom:0; }
+.tolge-mull-loend{ margin:-.2em 0 .6em; padding-left:1.15em; }
+.tolge-mull-loend li{ margin:0 0 .3em; padding-left:.1em; }
+.tolge-mull-loend li::marker{ color:#c9a227; }
+.tolge-mull-loend:last-child{ margin-bottom:0; }
 .tolge-mull-pilt{ margin:.3em 0 .5em; }
 .tolge-mull-pilt img{ display:block; width:100%; height:auto; max-height:260px; object-fit:contain; border:1px solid rgba(232,201,122,.3); background:#0b0805; }
 .tolge-mull-pilt figcaption{ margin-top:.4em; font-size:.82rem; color:#c8b189; }

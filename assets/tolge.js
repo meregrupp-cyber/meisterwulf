@@ -5,6 +5,8 @@
            data-pildi-allkiri="…" data-pildi-allikas="…" data-litsents="…" data-pildi-leht="…" data-allikad='[{"tekst","url"}]'>Kiel</span>
      <span class="lisa lisa--heli" data-liik="heli" data-heli="/assets/…mp3" data-heli-allkiri="…" data-helitugevus="0.25">ALARRRM!</span>
      <span class="lisa lisa--markus" …><span class="sr-only">Lisa: Käsilood</span></span>   (autori infomulli viide, ainult ikoon)
+   Mulli tekst (data-tolge): lõigud tühja reaga eraldi; lõik, mille iga rida algab „• “, on loend.
+   data-laius="560" annab pikale seletusele laiema mulli (vaikimisi 420, tõlkel 340).
    Klõps/puudutus avab mulli elemendi kohal (või all); sama elemendi uus puudutus, klõps mujal,
    Esc või mulli × sulgeb. Klaviatuur: Tab, Enter/tühik. Korraga üks mull. Heli mängib mulli
    avamisel (vaikselt), peatub sulgemisel; mullis on nupp „Peata / Mängi”. */
@@ -52,8 +54,18 @@
     b.appendChild(close);
     var title = elm.getAttribute("data-pealkiri");
     if (title) b.appendChild(el("h4", "tolge-mull-pealkiri", title));
+    if (title) b.setAttribute("aria-label", title); else b.removeAttribute("aria-label");
     var text = elm.getAttribute("data-tolge") || "";
-    text.split(/\n\s*\n/).forEach(function (par) { if (par.trim()) b.appendChild(el("p", "tolge-mull-tekst", par.trim())); });
+    text.split(/\n\s*\n/).forEach(function (par) {
+      par = par.trim();
+      if (!par) return;
+      var lines = par.split("\n");
+      if (lines.every(function (ln) { return /^\s*•\s+/.test(ln); })) {   /* loend */
+        var ul = el("ul", "tolge-mull-loend");
+        lines.forEach(function (ln) { ul.appendChild(el("li", null, ln.replace(/^\s*•\s+/, ""))); });
+        b.appendChild(ul);
+      } else b.appendChild(el("p", "tolge-mull-tekst", par));
+    });
     var pilt = elm.getAttribute("data-pilt");
     if (pilt) {
       var fig = el("figure", "tolge-mull-pilt");
@@ -111,13 +123,22 @@
     var vw = document.documentElement.clientWidth, vh = document.documentElement.clientHeight;
     var pad = 12;
     b.style.left = "0px"; b.style.top = "0px";
-    b.style.maxWidth = Math.min(b.classList.contains("tolge-mull--tolge") ? 340 : 420, vw - 2 * pad) + "px";
+    var laius = parseInt(elm.getAttribute("data-laius"), 10);
+    b.style.maxWidth = Math.min(laius > 0 ? laius : b.classList.contains("tolge-mull--tolge") ? 340 : 420, vw - 2 * pad) + "px";
     b.style.maxHeight = Math.round(vh * 0.72) + "px";
     var bw = b.offsetWidth, bh = b.offsetHeight;
     var cx = r.left + r.width / 2;
     var left = Math.round(Math.min(Math.max(pad, cx - bw / 2), Math.max(pad, vw - pad - bw)));
     var above = r.top - bh - 12 >= 4;
     var below = r.bottom + bh + 12 <= vh;
+    if (!above && !below) {             /* pikk mull: ruumikamale poolele, kerib seal, sõna jääb nähtavale */
+      var roomAbove = r.top - 16, roomBelow = vh - r.bottom - 16, room = Math.max(roomAbove, roomBelow);
+      if (room >= 160) {
+        b.style.maxHeight = Math.floor(room) + "px";
+        bh = b.offsetHeight;
+        above = roomAbove >= roomBelow; below = !above;
+      }
+    }
     var top = above ? r.top - bh - 10 : below ? r.bottom + 10 : Math.max(4, Math.min(r.top - bh - 10, vh - bh - 4));
     b.style.left = Math.round(left + window.scrollX) + "px";
     b.style.top = Math.round(top + window.scrollY) + "px";
