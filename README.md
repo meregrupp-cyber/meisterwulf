@@ -336,9 +336,10 @@ raamatute lehel hinna märkus „Müügile tuleb, kui raamat on valmis“ ja JSO
 E-posti aadressid pannakse kokku JavaScriptiga (`data-u` + `data-d`), et
 robotid neid lähtekoodist ei korjaks. Kingsepp: kriuks@suvi.ch; kung fu ja
 raamatud: meister.wulf@pm.me, tel 510 5573. Iga lehe jaluses (esilehel
-paremal all) on Facebooki link facebook.com/meister.von.wulf; allvee-
-instruktori mainimised viitavad meregrupp.ee-le (eesti k → `/`, inglise ja
-hiina k → `/en/`).
+paremal all) on Facebooki link facebook.com/meister.von.wulf. Kung fu lehel
+viitab „treeneri kvalifikatsioon“ Eesti spordiregistri treeneri lehele
+(eesti k → `spordiregister.ee/et/treener/11202/…`, inglise ja hiina k →
+`/en/…`, ankur `#kutsed_kehtivad`).
 
 ---
 
