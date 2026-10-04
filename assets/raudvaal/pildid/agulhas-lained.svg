@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520" role="img" aria-labelledby="t d">
+  <title id="t">Miks võivad lained Aafrika lõunatipu lähedal järsemaks muutuda?</title>
+  <desc id="d">Animatsioon. Lõuna-Aafrika lõunatipu kaart: Hea Lootuse neem, lõunapoolsem Agulhase neem ehk Nõelaneem ja Kaplinn. Jäme punane nool näitab Agulhase hoovuse üldsuunda piki idarannikut edelasse; edelast saabuvad lainefrondid liiguvad sellele vastu. Katkendliku ringiga on märgitud Widari asukoht romaani sündmustikus. All kaks lihtsustatud laineprofiili: tavaline lainejada ning vastuvoolus lühemaks ja järsemaks muutuv lainejada. Kaart on lihtsustatud ega ole navigeerimiseks.</desc>
+  <defs>
+    <marker id="nool" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a1c1c"/></marker>
+    <marker id="nool2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f4e79"/></marker>
+    <clipPath id="kaart"><rect x="20" y="52" width="560" height="295"/></clipPath>
+    <clipPath id="p1"><rect x="24" y="392" width="338" height="96"/></clipPath>
+    <clipPath id="p2"><rect x="398" y="392" width="338" height="96"/></clipPath>
+  </defs>
+  <rect width="760" height="520" fill="#f4ead2"/>
+  <g font-family="Georgia, serif" fill="#2b1d10">
+    <text x="20" y="30" font-size="16">Miks võivad lained Aafrika lõunatipu lähedal järsemaks muutuda?</text>
+  </g>
+
+  <!-- kaart -->
+  <rect x="20" y="52" width="560" height="295" fill="#d9e4ea" stroke="#5a3f16" stroke-width="1"/>
+  <g clip-path="url(#kaart)">
+    <!-- lainefrondid edelast -->
+    <g fill="none" stroke="#1f4e79" stroke-width="2" stroke-linecap="round" opacity="0.75">
+      <animateTransform attributeName="transform" type="translate" values="0 0;35.2 -19" dur="3s" repeatCount="indefinite"/>
+      <path d="M115.7,320.0 Q144.1,343.3 147.9,379.9" /><path d="M150.9,301.1 Q179.3,324.4 183.1,360.9" /><path d="M186.1,282.1 Q214.5,305.4 218.3,341.9" /><path d="M221.3,263.1 Q249.7,286.4 253.5,323.0" /><path d="M256.5,244.2 Q284.9,267.5 288.7,304.0" /><path d="M291.7,225.2 Q320.1,248.5 323.9,285.1" /><path d="M326.9,206.3 Q355.3,229.6 359.1,266.1" />
+    </g>
+    <polygon points="83.2,52.0 78.3,72.7 66.2,93.3 61.3,101.0 66.2,111.0 71.0,114.5 74.4,128.7 80.8,143.4 89.5,164.1 87.1,168.8 84.2,172.9 86.1,180.6 89.5,185.9 91.6,191.1 92.9,188.9 91.0,177.7 95.3,174.7 102.6,174.1 108.9,176.5 109.4,184.8 108.9,193.0 119.6,190.7 128.9,194.8 131.8,207.2 143.9,211.3 156.1,216.0 165.9,219.1 168.7,216.0 180.4,208.3 207.1,197.1 233.8,192.4 255.7,184.8 270.8,181.2 267.9,175.9 277.6,171.8 291.2,170.0 314.0,174.7 329.6,173.5 332.0,176.5 345.6,171.2 374.8,174.7 401.0,182.4 413.7,171.8 428.2,170.0 438.0,167.6 442.8,171.8 445.2,161.2 462.3,153.5 476.8,156.4 501.1,146.4 525.4,128.7 549.7,112.8 569.2,96.2 581.3,81.5 581.3,52.0 83.2,52.0" fill="#e8dcbc" stroke="#5a3f16" stroke-width="1.4" stroke-linejoin="round"/>
+    <!-- Agulhase hoovus -->
+    <path d="M583.8,119.8 L535.2,167.1 L472.0,202.4 L399.1,231.9 L321.3,261.4 L253.3,290.9 L199.8,320.4" fill="none" stroke="#8a1c1c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.85" marker-end="url(#nool)"/>
+    <path d="M583.8,119.8 L535.2,167.1 L472.0,202.4 L399.1,231.9 L321.3,261.4 L253.3,290.9 L199.8,320.4" fill="none" stroke="#f4ead2" stroke-width="2" stroke-dasharray="6 14" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" values="20;0" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <!-- punktid ja nimed -->
+  <circle cx="91.6" cy="191.1" r="4" fill="#2b1d10"/>
+  <circle cx="165.9" cy="219.1" r="4" fill="#2b1d10"/>
+  <circle cx="89.5" cy="165.3" r="2.5" fill="#5a3f16"/>
+  <g font-family="Georgia, serif" font-size="12" fill="#2b1d10" stroke="#d9e4ea" stroke-width="3" paint-order="stroke" stroke-linejoin="round">
+    <text x="95.5" y="161.3" fill="#5a3f16" font-size="11">Kaplinn</text>
+    <text x="26" y="233.1">Hea Lootuse neem</text>
+    <path d="M61.6,221.1 L88.6,195.1" stroke="#2b1d10" stroke-width="1"/>
+    <text x="173.9" y="237.1">Agulhase neem</text>
+    <text x="173.9" y="251.1" font-size="11" fill="#5a3f16">(Nõelaneem, Aafrika lõunatipp)</text>
+    <text x="300" y="110" font-size="14" letter-spacing="2" fill="#5a3f16">LÕUNA-AAFRIKA</text>
+    <text x="40" y="318" font-size="12" letter-spacing="2" fill="#1f4e79">ATLANDI OOKEAN</text>
+    <text x="440" y="330" font-size="12" letter-spacing="2" fill="#1f4e79">INDIA OOKEAN</text>
+    <text x="440" y="236" fill="#8a1c1c">Agulhase hoovus</text>
+    <text x="440" y="250" font-size="11" fill="#8a1c1c">voolab edelasse</text>
+    <text x="150" y="300" font-size="11" fill="#1f4e79" stroke="#d9e4ea" stroke-width="3" paint-order="stroke">lained edelast</text>
+  </g>
+  <!-- Widar -->
+  <circle cx="129.4" cy="252.6" r="9" fill="none" stroke="#2e6b2e" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <circle cx="129.4" cy="252.6" r="2.5" fill="#2e6b2e"/>
+  <text x="142.4" y="268.6" font-family="Georgia, serif" font-size="11" fill="#2e6b2e" stroke="#d9e4ea" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Widar (romaani sündmustik)</text>
+  <!-- põhi -->
+  <g font-family="Georgia, serif" font-size="11" fill="#2b1d10">
+    <path d="M556,292 L562,272 L568,292 L562,287 z" fill="#2b1d10"/>
+    <text x="558" y="306">P</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="11" fill="#5a3f16">
+    <text x="592" y="70">Kaart on lihtsustatud.</text>
+    <text x="592" y="86">Hea Lootuse neem ei ole</text>
+    <text x="592" y="100">Aafrika lõunapoolseim punkt:</text>
+    <text x="592" y="114">selleks on Agulhase neem.</text>
+    <text x="592" y="142">Kui lained liiguvad</text>
+    <text x="592" y="156">hoovusele vastu, võivad</text>
+    <text x="592" y="170">need muutuda lühemaks,</text>
+    <text x="592" y="184">kõrgemaks ja järsemaks.</text>
+    <text x="592" y="212">Kõrvalised hoovused ja</text>
+    <text x="592" y="226">keerised teevad olukorra</text>
+    <text x="592" y="240">keerulisemaks kui üks nool.</text>
+    <text x="592" y="268">Widari asukoht on romaani</text>
+    <text x="592" y="282">sündmustik, mitte 1945. aasta</text>
+    <text x="592" y="296">ilmavaatluse tulemus.</text>
+  </g>
+
+  <!-- laineprofiilid -->
+  <g font-family="Georgia, serif" font-size="13" fill="#2b1d10">
+    <text x="24" y="380">1. Tavaline lainejada</text>
+    <text x="398" y="380">2. Lained hoovusele vastu</text>
+  </g>
+  <rect x="24" y="392" width="338" height="96" fill="#d9e4ea"/>
+  <rect x="398" y="392" width="338" height="96" fill="#d9e4ea"/>
+  <g clip-path="url(#p1)">
+    <path d="M-88.0,438.0 L-85.8,438.1 L-83.5,438.5 L-81.2,439.1 L-78.9,439.9 L-76.5,440.9 L-74.1,442.1 L-71.6,443.5 L-69.0,444.9 L-66.3,446.4 L-63.6,448.0 L-60.7,449.6 L-57.8,451.1 L-54.8,452.5 L-51.7,453.9 L-48.5,455.1 L-45.3,456.1 L-42.0,456.9 L-38.7,457.5 L-35.4,457.9 L-32.0,458.0 L-28.6,457.9 L-25.3,457.5 L-22.0,456.9 L-18.7,456.1 L-15.5,455.1 L-12.3,453.9 L-9.2,452.5 L-6.2,451.1 L-3.3,449.6 L-0.4,448.0 L2.3,446.4 L5.0,444.9 L7.6,443.5 L10.1,442.1 L12.5,440.9 L14.9,439.9 L17.2,439.1 L19.5,438.5 L21.8,438.1 L24.0,438.0 L26.2,438.1 L28.5,438.5 L30.8,439.1 L33.1,439.9 L35.5,440.9 L37.9,442.1 L40.4,443.5 L43.0,444.9 L45.7,446.4 L48.4,448.0 L51.3,449.6 L54.2,451.1 L57.2,452.5 L60.3,453.9 L63.5,455.1 L66.7,456.1 L70.0,456.9 L73.3,457.5 L76.6,457.9 L80.0,458.0 L83.4,457.9 L86.7,457.5 L90.0,456.9 L93.3,456.1 L96.5,455.1 L99.7,453.9 L102.8,452.5 L105.8,451.1 L108.7,449.6 L111.6,448.0 L114.3,446.4 L117.0,444.9 L119.6,443.5 L122.1,442.1 L124.5,440.9 L126.9,439.9 L129.2,439.1 L131.5,438.5 L133.8,438.1 L136.0,438.0 L138.2,438.1 L140.5,438.5 L142.8,439.1 L145.1,439.9 L147.5,440.9 L149.9,442.1 L152.4,443.5 L155.0,444.9 L157.7,446.4 L160.4,448.0 L163.3,449.6 L166.2,451.1 L169.2,452.5 L172.3,453.9 L175.5,455.1 L178.7,456.1 L182.0,456.9 L185.3,457.5 L188.6,457.9 L192.0,458.0 L195.4,457.9 L198.7,457.5 L202.0,456.9 L205.3,456.1 L208.5,455.1 L211.7,453.9 L214.8,452.5 L217.8,451.1 L220.7,449.6 L223.6,448.0 L226.3,446.4 L229.0,444.9 L231.6,443.5 L234.1,442.1 L236.5,440.9 L238.9,439.9 L241.2,439.1 L243.5,438.5 L245.8,438.1 L248.0,438.0 L250.2,438.1 L252.5,438.5 L254.8,439.1 L257.1,439.9 L259.5,440.9 L261.9,442.1 L264.4,443.5 L267.0,444.9 L269.7,446.4 L272.4,448.0 L275.3,449.6 L278.2,451.1 L281.2,452.5 L284.3,453.9 L287.5,455.1 L290.7,456.1 L294.0,456.9 L297.3,457.5 L300.6,457.9 L304.0,458.0 L307.4,457.9 L310.7,457.5 L314.0,456.9 L317.3,456.1 L320.5,455.1 L323.7,453.9 L326.8,452.5 L329.8,451.1 L332.7,449.6 L335.6,448.0 L338.3,446.4 L341.0,444.9 L343.6,443.5 L346.1,442.1 L348.5,440.9 L350.9,439.9 L353.2,439.1 L355.5,438.5 L357.8,438.1 L360.0,438.0 L362.2,438.1 L364.5,438.5 L366.8,439.1 L369.1,439.9 L371.5,440.9 L373.9,442.1 L376.4,443.5 L379.0,444.9 L381.7,446.4 L384.4,448.0 L387.3,449.6 L390.2,451.1 L393.2,452.5 L396.3,453.9 L399.5,455.1 L402.7,456.1 L406.0,456.9 L409.3,457.5 L412.6,457.9 L416.0,458.0 L419.4,457.9 L422.7,457.5 L426.0,456.9 L429.3,456.1 L432.5,455.1 L435.7,453.9 L438.8,452.5 L441.8,451.1 L444.7,449.6 L447.6,448.0 L450.3,446.4 L453.0,444.9 L455.6,443.5 L458.1,442.1 L460.5,440.9 L462.9,439.9 L465.2,439.1 L467.5,438.5 L469.8,438.1 L472.0,438.0" fill="none" stroke="#1f4e79" stroke-width="2.2">
+      <animateTransform attributeName="transform" type="translate" values="0 0;112 0" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g clip-path="url(#p2)">
+    <path d="M334.0,431.0 L334.6,431.2 L335.3,431.8 L336.0,432.9 L336.8,434.2 L337.7,436.0 L338.7,438.0 L339.8,440.3 L341.0,442.7 L342.4,445.3 L343.9,448.0 L345.6,450.7 L347.4,453.3 L349.4,455.7 L351.5,458.0 L353.7,460.0 L356.0,461.8 L358.4,463.1 L360.9,464.2 L363.4,464.8 L366.0,465.0 L368.6,464.8 L371.1,464.2 L373.6,463.1 L376.0,461.8 L378.3,460.0 L380.5,458.0 L382.6,455.7 L384.6,453.3 L386.4,450.7 L388.1,448.0 L389.6,445.3 L391.0,442.7 L392.2,440.3 L393.3,438.0 L394.3,436.0 L395.2,434.2 L396.0,432.9 L396.7,431.8 L397.4,431.2 L398.0,431.0 L398.6,431.2 L399.3,431.8 L400.0,432.9 L400.8,434.2 L401.7,436.0 L402.7,438.0 L403.8,440.3 L405.0,442.7 L406.4,445.3 L407.9,448.0 L409.6,450.7 L411.4,453.3 L413.4,455.7 L415.5,458.0 L417.7,460.0 L420.0,461.8 L422.4,463.1 L424.9,464.2 L427.4,464.8 L430.0,465.0 L432.6,464.8 L435.1,464.2 L437.6,463.1 L440.0,461.8 L442.3,460.0 L444.5,458.0 L446.6,455.7 L448.6,453.3 L450.4,450.7 L452.1,448.0 L453.6,445.3 L455.0,442.7 L456.2,440.3 L457.3,438.0 L458.3,436.0 L459.2,434.2 L460.0,432.9 L460.7,431.8 L461.4,431.2 L462.0,431.0 L462.6,431.2 L463.3,431.8 L464.0,432.9 L464.8,434.2 L465.7,436.0 L466.7,438.0 L467.8,440.3 L469.0,442.7 L470.4,445.3 L471.9,448.0 L473.6,450.7 L475.4,453.3 L477.4,455.7 L479.5,458.0 L481.7,460.0 L484.0,461.8 L486.4,463.1 L488.9,464.2 L491.4,464.8 L494.0,465.0 L496.6,464.8 L499.1,464.2 L501.6,463.1 L504.0,461.8 L506.3,460.0 L508.5,458.0 L510.6,455.7 L512.6,453.3 L514.4,450.7 L516.1,448.0 L517.6,445.3 L519.0,442.7 L520.2,440.3 L521.3,438.0 L522.3,436.0 L523.2,434.2 L524.0,432.9 L524.7,431.8 L525.4,431.2 L526.0,431.0 L526.6,431.2 L527.3,431.8 L528.0,432.9 L528.8,434.2 L529.7,436.0 L530.7,438.0 L531.8,440.3 L533.0,442.7 L534.4,445.3 L535.9,448.0 L537.6,450.7 L539.4,453.3 L541.4,455.7 L543.5,458.0 L545.7,460.0 L548.0,461.8 L550.4,463.1 L552.9,464.2 L555.4,464.8 L558.0,465.0 L560.6,464.8 L563.1,464.2 L565.6,463.1 L568.0,461.8 L570.3,460.0 L572.5,458.0 L574.6,455.7 L576.6,453.3 L578.4,450.7 L580.1,448.0 L581.6,445.3 L583.0,442.7 L584.2,440.3 L585.3,438.0 L586.3,436.0 L587.2,434.2 L588.0,432.9 L588.7,431.8 L589.4,431.2 L590.0,431.0 L590.6,431.2 L591.3,431.8 L592.0,432.9 L592.8,434.2 L593.7,436.0 L594.7,438.0 L595.8,440.3 L597.0,442.7 L598.4,445.3 L599.9,448.0 L601.6,450.7 L603.4,453.3 L605.4,455.7 L607.5,458.0 L609.7,460.0 L612.0,461.8 L614.4,463.1 L616.9,464.2 L619.4,464.8 L622.0,465.0 L624.6,464.8 L627.1,464.2 L629.6,463.1 L632.0,461.8 L634.3,460.0 L636.5,458.0 L638.6,455.7 L640.6,453.3 L642.4,450.7 L644.1,448.0 L645.6,445.3 L647.0,442.7 L648.2,440.3 L649.3,438.0 L650.3,436.0 L651.2,434.2 L652.0,432.9 L652.7,431.8 L653.4,431.2 L654.0,431.0 L654.6,431.2 L655.3,431.8 L656.0,432.9 L656.8,434.2 L657.7,436.0 L658.7,438.0 L659.8,440.3 L661.0,442.7 L662.4,445.3 L663.9,448.0 L665.6,450.7 L667.4,453.3 L669.4,455.7 L671.5,458.0 L673.7,460.0 L676.0,461.8 L678.4,463.1 L680.9,464.2 L683.4,464.8 L686.0,465.0 L688.6,464.8 L691.1,464.2 L693.6,463.1 L696.0,461.8 L698.3,460.0 L700.5,458.0 L702.6,455.7 L704.6,453.3 L706.4,450.7 L708.1,448.0 L709.6,445.3 L711.0,442.7 L712.2,440.3 L713.3,438.0 L714.3,436.0 L715.2,434.2 L716.0,432.9 L716.7,431.8 L717.4,431.2 L718.0,431.0 L718.6,431.2 L719.3,431.8 L720.0,432.9 L720.8,434.2 L721.7,436.0 L722.7,438.0 L723.8,440.3 L725.0,442.7 L726.4,445.3 L727.9,448.0 L729.6,450.7 L731.4,453.3 L733.4,455.7 L735.5,458.0 L737.7,460.0 L740.0,461.8 L742.4,463.1 L744.9,464.2 L747.4,464.8 L750.0,465.0 L752.6,464.8 L755.1,464.2 L757.6,463.1 L760.0,461.8 L762.3,460.0 L764.5,458.0 L766.6,455.7 L768.6,453.3 L770.4,450.7 L772.1,448.0 L773.6,445.3 L775.0,442.7 L776.2,440.3 L777.3,438.0 L778.3,436.0 L779.2,434.2 L780.0,432.9 L780.7,431.8 L781.4,431.2 L782.0,431.0 L782.6,431.2 L783.3,431.8 L784.0,432.9 L784.8,434.2 L785.7,436.0 L786.7,438.0 L787.8,440.3 L789.0,442.7 L790.4,445.3 L791.9,448.0 L793.6,450.7" fill="none" stroke="#1f4e79" stroke-width="2.2">
+      <animateTransform attributeName="transform" type="translate" values="0 0;64 0" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g stroke-width="2" fill="none">
+    <path d="M40,478 H120" stroke="#1f4e79" marker-end="url(#nool2)"/>
+    <path d="M414,478 H494" stroke="#1f4e79" marker-end="url(#nool2)"/>
+    <path d="M720,402 H630" stroke="#8a1c1c" stroke-width="5" marker-end="url(#nool)"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="11">
+    <text x="128" y="482" fill="#1f4e79">laine liikumine</text>
+    <text x="502" y="482" fill="#1f4e79">laine liikumine</text>
+    <text x="560" y="420" fill="#8a1c1c">hoovus vastu</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="12" fill="#5a3f16">
+    <text x="24" y="508">Pikad ja madalad lained.</text>
+    <text x="398" y="508">Lühemad, kõrgemad ja järsemad lained. Profiilid on lihtsustatud.</text>
+  </g>
+</svg>

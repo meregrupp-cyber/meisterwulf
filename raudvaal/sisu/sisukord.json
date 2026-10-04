@@ -24,8 +24,8 @@
   "iter": 600000
  },
  "kontroll": {
-  "iv": "fta3rzsgOhfxEYaR",
-  "ct": "cgpRgIOGDblIhGoVyAQwGb0H"
+  "iv": "jViXzK1MJ93YePk9",
+  "ct": "KdpBdqNQN2ipi/L2lvygONPz"
  },
  "peatukid": [
   {
@@ -288,9 +288,9 @@
    "ord": 23,
    "osa": 4,
    "free": false,
-   "published": false,
+   "published": true,
    "mustand": false,
-   "dateline": null
+   "dateline": "Lõuna-Atlandil ja India ookeanil, september–november 1945"
   },
   {
    "slug": "peatukk-24",

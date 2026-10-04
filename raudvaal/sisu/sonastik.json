@@ -70,6 +70,13 @@
   ]
  },
  {
+  "saksa": "Am reparierten Motor wird keine Kontrolle ausgelassen. Wer müde ist, sagt es vorher. Ich will keine Unterschrift unter einem Wert, den der Mann ohne Prüfung nur vom Vorgänger übernommen hat.",
+  "tolge": "Remonditud mootori juures ei jäeta ühtki kontrolli vahele. Kes on väsinud, ütleb seda enne. Ma ei taha allkirja näidu alla, mille mees on kontrollimata lihtsalt eelmiselt vahilt üle võtnud.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "An alle U-Boote in See. Sofort auftauchen und aufgetaucht bleiben. Standort und Bootsnummer im Klartext melden. Am Tage eine große schwarze oder blaue Flagge führen.",
   "tolge": "Kõigile merel viibivatele allveelaevadele. Kohe pinnale tõusta ja pinnale jääda. Teatada šifreerimata oma asukoht ja paadi number. Päeval kanda suurt musta või sinist lippu.",
   "peatukid": [
@@ -207,6 +214,13 @@
   "tolge": "„Mõlemad masinad väike käik edasi.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Beide Maschinen kleine Fahrt voraus. Wir halten den Bug gegen die See. Melden Sie sofort, wenn die Schrauben freikommen.",
+  "tolge": "Mõlemad masinad väike käik edasi. Hoiame vööri vastu lainet. Teatage kohe, kui sõukruvid veest välja kerkivad.",
+  "peatukid": [
+   "XXIII"
   ]
  },
  {
@@ -798,6 +812,13 @@
   ]
  },
  {
+  "saksa": "Die Schale ist noch brauchbar. Aber wir brauchen passendes Lagermetall und eine Werkstatt. Wenn wir nur irgendetwas Weiches hineingießen, stehen wir in wenigen Tagen wieder hier.",
+  "tolge": "Laagrikoor on veel kõlblik. Aga meil on tarvis sobivat laagrimetalli ja töökoda. Kui valame sinna lihtsalt midagi pehmet, oleme mõne päeva pärast samas seisus tagasi.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "Die Tarapacá übernimmt die ausscheidenden Leute. Voraussetzung ist Ihre schriftliche Bestätigung, dass Sie mit dem benötigten Personal auf Widar weiter Dienst tun.",
   "tolge": "Tarapacá võtab lahkuvad mehed peale. Eelduseks on teie kirjalik kinnitus, et jätkate vajalike meestega Widaril teenistust.",
   "peatukid": [
@@ -1302,6 +1323,13 @@
   ]
  },
  {
+  "saksa": "Heute gewinnen wir keine Meilen. Halten Sie genügend Abstand zur Küste. Den verlorenen Weg können wir morgen nachholen, wenn das Wetter es zulässt.",
+  "tolge": "Täna me miile ei võida. Hoidke rannikust piisavalt kaugele. Kaotatud maa saame homme tagasi teha, kui ilm lubab.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "Hier bleiben. Sieh mich an. Die Maschinen laufen. Es brennt nicht mehr. Du bleibst bei mir, hörst du? Du musst jetzt nicht reden. Wir warten, bis du wieder ruhig atmen kannst.",
   "tolge": "Jää siia. Vaata mulle otsa. Masinad töötavad. Enam ei põle. Sa jääd minu juurde, kuuled? Praegu pole vaja rääkida. Ootame, kuni saad jälle rahulikult hingata.",
   "peatukid": [
@@ -1660,6 +1688,13 @@
   ]
  },
  {
+  "saksa": "Kap der Guten Hoffnung.",
+  "tolge": "Hea Lootuse neem.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "Kapok. Der Rest kann weg.",
   "tolge": "Kapok. Ülejäänu võib minema visata.",
   "peatukid": [
@@ -1713,6 +1748,13 @@
   "tolge": "„Viina ei anna. Teed ainult neile, kes on täiesti ärkvel.”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "Keiner geht ohne Sicherung nach oben. Auch nicht für eine Minute. Und bevor einer die Luke öffnet, meldet er sich hier.",
+  "tolge": "Keegi ei lähe üles julgestuseta. Isegi mitte üheks minutiks. Ja enne luugi avamist antakse endast siin teada.",
+  "peatukid": [
+   "XXIII"
   ]
  },
  {
@@ -1790,6 +1832,13 @@
   "tolge": "Koormust lisage aeglaselt. Kui temperatuur muutub, teatage kohe. Ma jään alla, kuni näidud on püsivad. Mootor peab täna veel akusid laadima.",
   "peatukid": [
    "VII"
+  ]
+ },
+ {
+  "saksa": "Langsam. Halten. Jetzt weiter.",
+  "tolge": "Aeglaselt. Hoidke. Nüüd edasi.",
+  "peatukid": [
+   "XXIII"
   ]
  },
  {
@@ -2053,6 +2102,13 @@
   ]
  },
  {
+  "saksa": "Morgen noch einmal unter Last. Bis dahin bleibt die Drehzahl begrenzt. Wenn die Temperatur steigt oder der Öldruck abfällt, stellen wir sofort wieder ab.",
+  "tolge": "Homme veel üks kord koormuse all. Seni jäävad pöörded piiratuks. Kui temperatuur tõuseb või õlirõhk langeb, jätame kohe uuesti seisma.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "Morgen wieder? Nach der Wache?",
   "tolge": "Homme jälle? Pärast vahti?",
   "peatukid": [
@@ -2225,6 +2281,13 @@
   "tolge": "„Noh?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Nur die hohen Stellen. Nicht dort, wo die Farbe fehlt. Wir wollen sehen, wo die Fläche trägt. Wenn du zu viel wegnimmst, kannst du es nicht zurücklegen.",
+  "tolge": "Ainult kõrged kohad. Mitte sealt, kus värvi pole. Tahame näha, kus pind kannab. Kui võtad liiga palju maha, ei saa sa seda tagasi panna.",
+  "peatukid": [
+   "XXIII"
   ]
  },
  {
@@ -2627,6 +2690,13 @@
   ]
  },
  {
+  "saksa": "Steuerborddiesel stoppen. Nicht wieder anlassen. Die Kurbelgehäusedeckel bleiben vorerst geschlossen.",
+  "tolge": "Parema poole diisel seisma. Uuesti mitte käivitada. Karteriluugid jäävad esialgu suletuks.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "Stiefelkontrolle.",
   "tolge": "Saapakontroll.",
   "peatukid": [
@@ -2767,6 +2837,13 @@
   ]
  },
  {
+  "saksa": "Unter Wasser bekommen wir Ruhe. Die Batterien werden dabei aber nicht voller. Ich möchte noch genug darin haben, wenn wir später wieder auftauchen müssen.",
+  "tolge": "Vee all saame rahu. Akud ei lähe sellest aga rohkem täis. Tahaksin, et neis oleks veel piisavalt varu, kui peame hiljem jälle pinnale tulema.",
+  "peatukid": [
+   "XXIII"
+  ]
+ },
+ {
   "saksa": "Ventil?",
   "tolge": "Ventiil?",
   "peatukid": [
@@ -2883,6 +2960,13 @@
   "tolge": "„Millal?”",
   "peatukid": [
    "II"
+  ]
+ },
+ {
+  "saksa": "War das jetzt die ganze Form?",
+  "tolge": "Kas see oligi nüüd kogu vorm?",
+  "peatukid": [
+   "XXIII"
   ]
  },
  {
@@ -3136,6 +3220,13 @@
   "tolge": "Me olime vahis, kui teised sõid. Nüüd oleme siin ja pott on tühi. Eile oli samamoodi.",
   "peatukid": [
    "VI"
+  ]
+ },
+ {
+  "saksa": "Wir können auf Kredit und auf eine andere Lieferung warten. Nur sagt uns niemand, wie lange. Ohne eine brauchbare Reparatur fahre ich mit diesem Motor nicht weiter.",
+  "tolge": "Võime oodata krediiti ja mõnd teist saadetist. Ainult et keegi ei ütle, kui kaua. Korraliku remondita mina selle mootoriga edasi ei sõida.",
+  "peatukid": [
+   "XXIII"
   ]
  },
  {

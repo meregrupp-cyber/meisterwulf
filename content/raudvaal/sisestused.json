@@ -1053,5 +1053,89 @@
   "asenda": "Chen saab tema edasisest",
   "uus": "Chen saab Schrade edasisest",
   "markus": "XXII: „tema” ei viita selgelt Schradele"
+ },
+ {
+  "peatukk": 23,
+  "parast": "e58f49b1ea93f188",
+  "asenda": "kelle magamiskotile võib",
+  "uus": "kelle koile võib",
+  "markus": "XXIII: magamiskoht on raamatus „koi” (II, VIII)"
+ },
+ {
+  "peatukk": 23,
+  "parast": "d9dd5fd40f35f42e",
+  "asenda": "kas leitnant on selle",
+  "uus": "kas Otto on selle",
+  "markus": "XXIII: „leitnant” on Schrade halvustav pöördumine; Krüger ja jutustus ütlevad Otto"
+ },
+ {
+  "peatukk": 23,
+  "parast": "d9dd5fd40f35f42e",
+  "asenda": "katsub karabiini käega",
+  "uus": "katsub karabiinhaaki käega",
+  "markus": "XXIII: XX-s on karabiin püss; siin on mõeldud haaki"
+ },
+ {
+  "peatukk": 23,
+  "parast": "a89449189c3adbab",
+  "asenda": "Kahuriplatvormi piirdest paistab",
+  "uus": "Torni taga paistab õhutõrjeplatvormi piirdest",
+  "markus": "XXIII: Widari platvorm torni taga on XIII, XVI „õhutõrjeplatvorm”; IXD2-l vööris kahurit polnud"
+ },
+ {
+  "peatukk": 23,
+  "parast": "b0fcb0f746c69716",
+  "asenda": "Kapten ei siruta kätt",
+  "uus": "Komandör ei siruta kätt",
+  "markus": "XXIII: Brandt on komandör; „kapten” on traaleri, auriku ja varustaja juht"
+ },
+ {
+  "peatukk": 23,
+  "parast": "96a36a2d87e07c42",
+  "asenda": "Parema käe pöial on rannal saadud vigastusest",
+  "uus": "Parema pöidla küüne alt lõhkenud nahk on",
+  "markus": "XXIII: pöidla haav tekkis Widaril (XIX), mitte rannal"
+ },
+ {
+  "peatukk": 23,
+  "parast": "18f99de7134686ad",
+  "asenda": "kuupäeva hoiukviitungite juurde",
+  "uus": "kuupäeva vastuvõtuteadete juurde",
+  "markus": "XXIII: XXII-s on üks hoiukviitung ja kolm vastuvõtuteadet"
+ },
+ {
+  "peatukk": 23,
+  "parast": "e289a2f8f75603c9",
+  "asenda": "Tüürpoordi diisel seisma.",
+  "uus": "Parema poole diisel seisma.",
+  "markus": "XXIII: termin „parem pool”, mitte tüürpoord"
+ },
+ {
+  "peatukk": 23,
+  "parast": "5ab883e3db320b52",
+  "asenda": "Korraldus korratakse keskjaama.",
+  "uus": "Korraldus korratakse tsentraali.",
+  "markus": "XXIII: termin „tsentraal”"
+ },
+ {
+  "peatukk": 23,
+  "parast": "5ab883e3db320b52",
+  "asenda": "et Jaan kuuleb kõrval oleva mehe hingamist",
+  "uus": "et Jaan eristab kõrval oleva mehe häält",
+  "markus": "XXIII: teine peadiisel töötab samas ruumis edasi (vrd VII)"
+ },
+ {
+  "peatukk": 23,
+  "parast": "21f9ec472fd6bd65",
+  "asenda": "Ta ootab keskjaamas",
+  "uus": "Ta ootab tsentraalis",
+  "markus": "XXIII: termin „tsentraal”"
+ },
+ {
+  "peatukk": 23,
+  "parast": "373cca90c123e6b6",
+  "asenda": "Torniplatvormile jäävad",
+  "uus": "Õhutõrjeplatvormile jäävad",
+  "markus": "XXIII: XIII, XVI „õhutõrjeplatvorm”"
  }
 ]

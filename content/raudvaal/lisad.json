@@ -175,7 +175,7 @@
   "pohjendus": "I ptk: lubade, kontrollpostide ja värava tähendus saab selgeks ühe lühikese selgitusega. Ankur tekstis esinevas vormis, sest algvorm „läbipääsuluba” peatükis ei esine."
  },
  {
-  "saksa": "Rannas",
+  "saksa": "Rannas polnud",
   "liik": "sona",
   "tyyp": "selgitus",
   "pealkiri": "1944. aasta suur põgenemine",
@@ -4751,5 +4751,280 @@
     "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War"
    }
   ]
+ },
+ {
+  "marker": "miks-võivad-lained-aafrika-lõunatipu-lähedal-järsemaks-muutuda",
+  "peatukk": 23,
+  "pealkiri": "Miks võivad lained Aafrika lõunatipu lähedal järsemaks muutuda?",
+  "tekst": "Hea Lootuse neem ei ole Aafrika lõunapoolseim punkt: selleks on Agulhase ehk Nõelaneem. Aafrika idarannikut mööda liigub Agulhase hoovus valdavalt edelasse. Piirkonna ohtlik mereolukord võib tekkida muu hulgas siis, kui lained liiguvad hoovusele vastu. Laine ja hoovuse vastastikmõju võib lainepikkust vähendada ning laineid kõrgemaks ja järsemaks muuta. Kõrvalised hoovused ja veekeerised teevad tegeliku olukorra keerulisemaks kui üks kaardile tõmmatud nool.",
+  "allikad": [
+   {
+    "tekst": "ESA · Space4SafeSea: lainete ja hoovuse koosmõju Agulhase piirkonnas",
+    "url": "https://eo4society.esa.int/projects/space4safesea/"
+   },
+   {
+    "tekst": "NOAA AOML · Agulhase hoovuse vaatlusandmed ja piirkonna kaart",
+    "url": "https://www.aoml.noaa.gov/phod/altimetry/cvar/agu/transport.php"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Lõuna-Aafrika lõunatipu kaart, millel on eraldi märgitud Hea Lootuse neem ja Agulhase neem. Hoovuse üldsuunda tähistab jäme nool piki idarannikut edelasse. Selle vastas näidatakse edelast saabuvaid laineid. Kõrval on kaks lihtsustatud laineprofiili: tavapärane lainejada ning vastuvoolus lühemaks ja järsemaks muutuv lainejada. Widari asukoht on romaani sündmustiku illustratsioon, mitte 1945. aasta ilmavaatluse tulemus."
+  ],
+  "pilt": "agulhas-lained.svg",
+  "pildi_allkiri": "Agulhase hoovus voolab edelasse, lained saabuvad edelast; vastuvoolus muutuvad lained lühemaks ja järsemaks.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "valgemetalliga-vooderdatud-liuglaager",
+  "peatukk": 23,
+  "pealkiri": "Valgemetalliga vooderdatud liuglaager",
+  "tekst": "Liuglaagris ei pea võlli ja laagri vahel olema kuule ega rulle. Töötavas, korralikult määritud hüdrodünaamilises laagris eraldab pinnad õlikile. Laagri tugevam kandekest võib olla vooderdatud pehmema laagrimetalliga, mida tuntakse babiidina; laiem nimetus on valgemetall. See vooder talub väiksemaid sobitusvigu ja võib endasse võtta pisikesi osakesi, kaitstes kallimat võllipinda.\n\nKui õlikile katkeb, võivad pinnad kokku puutuda. Soojus ja koormus kahjustavad voodrit: see pehmeneb, määrdub laiali või rebeneb lahti. Meremehe jutt „sulanud laagrist” ei tähenda tingimata, et kogu laagri teraskest oleks sulaks muutunud.\n\nVana tüüpi paksu voodriga laagrit sai sobivatel tingimustel taastada: eemaldati kahjustatud vooder, valati asemele õige sulam ning töödeldi detail mõõtu. See eeldas terveks jäänud kandekesta, kontrollitud võllikaela ja rikke algpõhjuse kõrvaldamist. Saksa allveelaevade laagrites kasutati sõja ajal erinevaid sulameid; kirjeldatud remont on romaani konkreetse laagri lahendus.",
+  "allikad": [
+   {
+    "tekst": "Kingsbury · babiidiga vooderdatud laagrite taastamine",
+    "url": "https://www.kingsbury.com/babbitt-bearing-repair/"
+   },
+   {
+    "tekst": "Kingsbury · õlikile ja laagri töötingimused",
+    "url": "https://www.kingsbury.com/fluid-film-bearing-design-features/"
+   },
+   {
+    "tekst": "U-boat Archive · USA mereväe 1943. aasta U-527 ülekuulamisaruanne: laagrisulamid ja merel tehtud laagriremont",
+    "url": "https://uboatarchive.net/U-527A/U-527INT.htm"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Kõrvuti terve ja kahjustatud poolitatud liuglaager. Tervel detailil näidatakse kandekesta, õhukest õlikilet ja voodrit eri toonidega. Kahjustatul on näha voodri laialimäärdumist ning eraldunud ribasid. Eraldi väike pilt näitab laagrimetalli valuplokki. Õlikile on joonisel tegelikkusest paksemaks tehtud, et see oleks nähtav."
+  ],
+  "pilt": "liuglaager-valgemetall.svg",
+  "pildi_allkiri": "Terve laager: võlli kannab õlikile. Kahjustatud laager: õlikile katkes, vooder määrdus laiali ja rebenes.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "mida-näitab-sinine-kontrollvärv",
+  "peatukk": 23,
+  "pealkiri": "Mida näitab sinine kontrollvärv?",
+  "tekst": "Täpse sobitustöö juures ei piisa sellest, et metallpind näib silmale sile. Väga õhuke kontrollvärvi kiht ja detailide proovikontakt näitavad, millised kohad tegelikult kokku puutuvad. Värvijälje järgi saab kõrgeid kohti kaabitsaga ettevaatlikult vähendada, seejärel pind puhastada ja uuesti proovida. Vajalikku mõõtu ning lõtku kontrollitakse eraldi: värv ei asenda mõõteriista.\n\nKäsikaapimist kasutati masinate liugpindade ja sobivate laagripindade viimistlemisel. See oskus pole kadunud, kuigi tänapäevase valmis vahetusdetaili puhul lugeja seda enamasti ei kohta. Kõiki tänapäevaseid laagreid niimoodi sobitada ei tohi; õhukese töökattega laagri võib omavoliline kaapimine rikkuda.",
+  "allikad": [
+   {
+    "tekst": "White Metal Lined Bearing Engineering · laagrite kaapimine ja kaabitsad taastamistöös",
+    "url": "https://bearingengineering.co.za/products-and-services/"
+   },
+   {
+    "tekst": "U-boat Archive · USA mereväe 1943. aasta U-527 ülekuulamisaruanne: käsitsi kaabitud ja viilitud laagritega remont merel",
+    "url": "https://uboatarchive.net/U-527A/U-527INT.htm"
+   }
+  ],
+  "markused": [
+   "Animatsiooni kirjeldus. Neli järjestikust vaadet samast laagripinnast. Esmalt kontrollvärviga proovitud pind, millel on üksikud selgelt eristuvad kontaktikohad; seejärel kaabitsa lühike töökäik ühe kõrge koha peal; puhastamine; lõpuks uus kontaktikontroll. Kõrval on kaabitsa otsa suurendus. Näide selgitab võtte põhimõtet, mitte konkreetse Widari laagri lubatud mõõte."
+  ],
+  "pilt": "kontrollvarv-kaapimine.svg",
+  "pildi_allkiri": "Proovikontakt, kõrge koha kaapimine, puhastamine ja uus kontroll: kandvaid kohti jääb järjest rohkem.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "saksa": "Hea Lootuse neem",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Tormide neemest Hea Lootuse neemeks",
+  "tekst": "Esimese eurooplasena jõudis neemeni Portugali meresõitja Bartolomeu Dias 1488. aastal. Ta nimetas selle Tormide neemeks (portugali Cabo das Tormentas). Hea Lootuse neemeks nimetati see ümber kuningas João II soovil, sest neeme kaudu loodeti leida meretee Indiasse ja Itta. Esimene nimi meenutas torme, teine väljendas lootust edasise tee peale.",
+  "allikad": [
+   {
+    "tekst": "Vikipeedia · Hea Lootuse neem",
+    "url": "https://et.wikipedia.org/wiki/Hea_Lootuse_neem"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Cape of Good Hope",
+    "url": "https://en.wikipedia.org/wiki/Cape_of_Good_Hope"
+   }
+  ],
+  "pilt": "kapimaa-modis.jpg",
+  "pildi_allkiri": "Lõuna-Aafrika edelatipp satelliidilt: vasakul Kaplinna poolsaar Hea Lootuse neemega, lõunarannikul Aafrika lõunapoolseim punkt Agulhase neem. Tänapäevane MODIS-pilt, 2024.",
+  "pildi_allikas": "NASA GSFC, MODIS Land Rapid Response Team, 2024 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:South_Africa%27s_Western_Cape_(MODIS_2024-08-21).jpg"
+ },
+ {
+  "saksa": "taevavaatlus",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Taevavaatlus ja arvestuse viga",
+  "tekst": "Taevavaatlusel mõõdetakse sekstandiga nurka taevakeha ja nähtava silmapiiri vahel, seega peavad paistma nii päike või täht kui ka silmapiir. Pilves taeva või varjatud silmapiiri korral arvutatakse asukohta edasi kursi, kiiruse ja aja järgi. Kui uus vaatlus annab tegeliku koha, näitab selle suund ja kaugus arvestuslikust kohast, kui palju hoovus ja tuul on laeva kõrvale kandnud. Hoovuse suunda ja kiirust nimetatakse inglise keeles set and drift.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Celestial navigation",
+    "url": "https://en.wikipedia.org/wiki/Celestial_navigation"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Dead reckoning",
+    "url": "https://en.wikipedia.org/wiki/Dead_reckoning"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Set and drift",
+    "url": "https://en.wikipedia.org/wiki/Set_and_drift"
+   }
+  ]
+ },
+ {
+  "saksa": "Mosambiigi",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Mosambiik 1945",
+  "tekst": "1945. aastal oli Mosambiik Portugali koloonia (Colónia de Moçambique), mille pealinn oli alates 1898. aastast Lourenço Marques, praegune Maputo. Portugal teatas 1. septembril 1939, et jääb sõjas neutraalseks, ja püsis neutraalsena kogu sõja vältel. Koloonia rahaühik oli 1914. aastast Mosambiigi eskuudo.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Portuguese Mozambique",
+    "url": "https://en.wikipedia.org/wiki/Portuguese_Mozambique"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Portugal during World War II",
+    "url": "https://en.wikipedia.org/wiki/Portugal_during_World_War_II"
+   }
+  ]
+ },
+ {
+  "saksa": "Madagaskari",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Madagaskar 1945",
+  "tekst": "Madagaskar oli 1897. aastast Prantsuse koloonia ja jäi pärast Prantsusmaa kaotust 1940. aastal Vichy valitsuse alla. 5. mail 1942 alustasid britid operatsiooni Ironclad, et Jaapani laevastik ei saaks saare sadamaid kasutada, ja vallutasid põhjatipus Diego-Suarezi (praegu Antsiranana) sadama. Vichy vägede vastupanu lõppes novembris 1942 ja saar anti Vaba Prantsusmaa kontrolli alla; detsembris sai ülemkomissariks kindral Paul Legentilhomme.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Battle of Madagascar",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Madagascar"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · French Madagascar",
+    "url": "https://en.wikipedia.org/wiki/French_Madagascar"
+   }
+  ]
+ },
+ {
+  "saksa": "Nosy Be",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Nosy Be",
+  "tekst": "Nosy Be (malagassi keeles „suur saar”) on vulkaaniline saar Madagaskari loodeosa lähedal, rannikust umbes kaheksa kilomeetri kaugusel. Prantsusmaa võttis saare ametlikult valdusse 1841. aastal. Saare peamine linn ja sadam Hell-Ville, ametliku nimega Andoany, sai nime Bourboni saare ehk praeguse Réunioni kuberneri admiral de Helli järgi. Saare majandus rajanes kaua suhkruroo kasvatamisel. Saart ümbritsevad korallrahud.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Nosy Be",
+    "url": "https://en.wikipedia.org/wiki/Nosy_Be"
+   },
+   {
+    "tekst": "Wikipedia (prantsuse) · Nosy Be",
+    "url": "https://fr.wikipedia.org/wiki/Nosy_Be"
+   }
+  ],
+  "pilt": "nosy-be-kaart-1893.jpg",
+  "pildi_allkiri": "Nosy Be (Nossi-Bé) ja Madagaskari loodekallas Élisée Reclusi 1893. aasta kaardil: saarel Hellville, lõuna pool Nosy Komba; varjutus näitab veesügavust.",
+  "pildi_allikas": "Élisée Reclus, „The Earth and Its Inhabitants”, Africa IV, 1893 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:AFR_V4_D563_Nossi_B%C3%A9.png"
+ },
+ {
+  "saksa": "peadiisli",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Peadiislid",
+  "tekst": "Widariga sama tüüpi IXD2 allveelaeval oli kaks peadiislit: ülelaadimisega üheksasilindrilised neljataktilised MAN M 9 V 40/46, kokku 4400 hj. Lisaks oli paadil kaks väiksemat kuuesilindrilist MWM-diiselgeneraatorit, kokku 1000 hj, säästlikuks pikamaasõiduks. Kümnesõlmelise kiirusega pinnal sõites oli IXD2 sõiduulatus 31 500 meremiili. Sõna „peadiisel” eristab kahte suurt põhimootorit väiksematest diiselgeneraatoritest.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Type IX submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_IX_submarine"
+   },
+   {
+    "tekst": "Wikipedia (saksa) · U-Boot-Klasse IX",
+    "url": "https://de.wikipedia.org/wiki/U-Boot-Klasse_IX"
+   }
+  ],
+  "pilt": "u873-kuivdokk-1945.jpg",
+  "pildi_allkiri": "Sama tüüpi (IXD2) allveelaev U-873 kuivdokis Portsmouthis 30. juunil 1945: ahtris sõukruvid ja tüürid.",
+  "pildi_allikas": "U.S. Navy, Naval History and Heritage Command NH 75660, 1945 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:German_submarine_U-873_in_drydock_at_the_Portsmouth_Naval_Shipyard,_New_Hampshire_(USA),_on_30_June_1945_(NH_75660).jpg"
+ },
+ {
+  "saksa": "kuum mootor on piisavalt jahtunud",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Miks kuuma mootorit kohe ei avata",
+  "tekst": "Ülekuumenenud laager on karteris kuum koht: sellele pritsiv määrdeõli aurustub ja kondenseerub jahedamas kohas valgeks õliuduks. Kui udu on piisavalt tihe, võib kuum koht selle süüdata ja karteris toimub plahvatus. Plahvatuseks on vaja kütust, õhku ja süüdet, nii et luukide avamisel sissetungiv õhk võib ohtu suurendada. Seepärast jäävad karteriluugid suletuks ja mootoril lastakse enne avamist jahtuda.",
+  "allikad": [
+   {
+    "tekst": "Marine Diesels: Crankcase explosions",
+    "url": "https://marinediesels.info/2_stroke_engine_parts/Other_info/Crankcase_Explosions.htm"
+   },
+   {
+    "tekst": "Marine Diesels: Crankcase explosion (juhtumikirjeldus)",
+    "url": "https://marinediesels.info/Horror%20Stories/crankcase_explosion_1.htm"
+   }
+  ]
+ },
+ {
+  "saksa": "kolmekümne seitsme millimeetrine kahur",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "3,7 cm õhutõrjekahur",
+  "tekst": "Alates 1941. aastast kuulus IX tüüpi allveelaevade tavarelvastusse torni taha paigaldatud 3,7 cm kahur SK C/30U. See oli poolautomaatne õhutõrjerelv, mida laeti käsitsi üks padrun korraga; praktiline tulekiirus oli umbes 30 lasku minutis. Sõja lõpul paigaldati osale allveelaevadele selle asemel täisautomaatne 3,7 cm kahur M42 U. Romaan ei ütle, milline mudel Widaril on.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Type IX submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_IX_submarine"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · 3.7 cm SK C/30",
+    "url": "https://en.wikipedia.org/wiki/3.7_cm_SK_C/30"
+   },
+   {
+    "tekst": "uboat.net: U-boat Flak",
+    "url": "https://uboat.net/technical/flak.htm"
+   }
+  ],
+  "pilt": "u-paadi-37mm-kahur.jpg",
+  "pildi_allkiri": "Saksa allveelaeva 3,7 cm õhutõrjekahur Poola mereväemuuseumis Gdynias. Tänapäevane foto.",
+  "pildi_allikas": "Zala, 2017 (oma töö) / CC BY-SA 4.0",
+  "pildi_litsents": "CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:37_mm_U-Boot_Gdynia_1.jpg"
+ },
+ {
+  "saksa": "kaksikautomaat",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "2 cm kaksikkahur",
+  "tekst": "Kaksikautomaat on ühel alusel kaks automaatkahurit, saksa keeles Flakzwilling ehk õhutõrjekaksik. IX tüüpi allveelaevadel asendati alates 1943. aastast üksik 2 cm kahur kahe 2 cm kaksikkahuriga torni taga kõrgemal platvormil, 3,7 cm kahur viidi aga madalamale platvormile. 20 mm Flak 38 relva tulekiirus oli teoreetiliselt 450 ja praktikas umbes 180 lasku minutis; kaksikalusel oli neid kaks.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Type IX submarine",
+    "url": "https://en.wikipedia.org/wiki/Type_IX_submarine"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · 2 cm Flak 30/38/Flakvierling",
+    "url": "https://en.wikipedia.org/wiki/2_cm_Flak_30/38/Flakvierling"
+   }
+  ]
+ },
+ {
+  "saksa": "laguun",
+  "liik": "sona",
+  "peatukk": 23,
+  "pealkiri": "Laguun ja rifi läbipääs",
+  "tekst": "Laguun on madal veekogu, mida eraldab avamerest kitsas pinnavorm, näiteks korallrahu ehk rif, tõkkesaar või maasäär. Rifil murduvad lained kuhjavad vett ranna poole ja see voolab tagasi merre sageli just rifi vahe kaudu. Nii tekib kitsas ja tugev rannast eemale suunduv vool (inglise rip current). Selle kiirus on tavaliselt umbes pool meetrit sekundis, kuid võib ulatuda 2,5 meetrini sekundis – see on kiirem, kui inimene ujuda suudab.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Lagoon",
+    "url": "https://en.wikipedia.org/wiki/Lagoon"
+   },
+   {
+    "tekst": "Wikipedia (inglise) · Rip current",
+    "url": "https://en.wikipedia.org/wiki/Rip_current"
+   }
+  ],
+  "pilt": "nosy-iranja-laguun.jpg",
+  "pildi_allkiri": "Madal laguun ja liivariba Nosy Iranja saarel Madagaskari looderanniku lähedal. Tänapäevane foto, mitte romaani rand.",
+  "pildi_allikas": "Mendel264, 2022 (oma töö) / CC BY-SA 4.0",
+  "pildi_litsents": "CC BY-SA 4.0",
+  "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Nosy_Iranja_-_vue_de_haut.jpg"
  }
 ]
