@@ -1137,5 +1137,180 @@
   "asenda": "Torniplatvormile jäävad",
   "uus": "Õhutõrjeplatvormile jäävad",
   "markus": "XXIII: XIII, XVI „õhutõrjeplatvorm”"
+ },
+ {
+  "peatukk": 2,
+  "parast": "d9333a4a306513c3",
+  "asenda": "Diese Koje ist bis sechs frei,||„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
+  "uus": "Diese Koje ist bis sechs frei,||„See koi on kella kuueni vaba,”",
+  "markus": "II: kaheks lõhutud repliigi esimene pool sai terve tõlke"
+ },
+ {
+  "peatukk": 2,
+  "parast": "d9333a4a306513c3",
+  "asenda": "Danach sehen wir weiter.||„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
+  "uus": "Danach sehen wir weiter.||„Pärast vaatame edasi.”",
+  "markus": "II: kaheks lõhutud repliigi teine pool sai terve tõlke"
+ },
+ {
+  "peatukk": 24,
+  "parast": "09fc60d41b84fa02",
+  "asenda": "„Ma jään esialgu siia,” ütleb kapten.",
+  "uus": "„Ma jään esialgu siia,” ütleb komandör.",
+  "markus": "R4-01: Brandti nimetus jutustuses (komandör, mitte kapten)"
+ },
+ {
+  "peatukk": 24,
+  "parast": "16d3872a6c02b4eb",
+  "asenda": "kapteni laua sahtlis seisavad paberid",
+  "uus": "komandöri laua sahtlis seisavad paberid",
+  "markus": "R4-02: „kapteni laud”: kelle laud see on"
+ },
+ {
+  "peatukk": 22,
+  "parast": "07c49e44c5fee44c",
+  "asenda": "alatiseks kapteni käest",
+  "uus": "alatiseks ülemuste käest",
+  "markus": "R4-03: „kapteni käest küsima” reservi arutelus: keda mõeldakse"
+ },
+ {
+  "peatukk": 23,
+  "parast": "17fe5eff55df55cf",
+  "asenda": "merel uut õlitoru ega",
+  "uus": "merel lisatünni kütust ega",
+  "markus": "R4-04: Õlitoru mainitakse enne riket (ajaline nihe reservi lisalõigus)"
+ },
+ {
+  "peatukk": 23,
+  "parast": "17fe5eff55df55cf",
+  "asenda": "Otto märgib",
+  "uus": "Krüger märgib",
+  "markus": "R4-05: Lisalõigu õmblus: kaks järjestikust Otto-lauset, kaart märgitakse kaks korda"
+ },
+ {
+  "peatukk": 24,
+  "parast": "5da31865337534ac",
+  "asenda": "tähenda leitnant",
+  "uus": "tähenda vanemleitnant",
+  "markus": "R4-06: Otto auaste: „leitnant” jutustuses"
+ },
+ {
+  "peatukk": 24,
+  "parast": "501595ceee64e1b9",
+  "asenda": "selle esiosa",
+  "uus": "selle tagaosa",
+  "markus": "R4-07: Lini jalgratas: tagumine porilaud, ent tõstetakse esiosa"
+ },
+ {
+  "peatukk": 24,
+  "parast": "6166a390e73a6da0",
+  "asenda": "Seisukoht ei muuda selles midagi.]]",
+  "uus": "Sildumiskoht ei muuda selles midagi.]]",
+  "markus": "R4-08: Tõlge „Liegeplatz” → „seisukoht” (akurepliigi mulli eestikeelne pool)"
+ },
+ {
+  "peatukk": 24,
+  "parast": "4b453ba96d04cc81",
+  "asenda": "akuvahti saatva",
+  "uus": "akuvahti korraldava",
+  "markus": "R4-09: „akuvahti saatva elektriku” on kohmakas ja ebaselge"
+ },
+ {
+  "peatukk": 24,
+  "parast": "760f589d93ed085f",
+  "asenda": "Mats toob järile parema laua.",
+  "uus": "Mats toob töökotta parema laua.",
+  "markus": "R4-10: Sõna „järile” (ilmselt trükiviga)"
+ },
+ {
+  "peatukk": 24,
+  "parast": "81a5f9774ebd40b9",
+  "asenda": "kelle viimast",
+  "uus": "kelle praegust",
+  "markus": "R4-11: Otto Euroopa-mõtted ja III raamatu „last addresses he remembers”"
+ },
+ {
+  "peatukk": 20,
+  "parast": "5e4f7cd08aa254eb",
+  "asenda": "paneb üle antud kahe kasti juurde märke. Ühe juurde",
+  "uus": "paneb traalerile antud kahe kasti juurde märke. Kolmanda juurde",
+  "markus": "R6-01: Kuld: XX merre kukkunud kast"
+ },
+ {
+  "peatukk": 17,
+  "parast": "d2e42c242fd75dcf",
+  "asenda": "mida leitnant",
+  "uus": "mida vanemleitnant",
+  "markus": "R6-05: Auaste: Widari madrus kutsub Ottot leitnandiks"
+ },
+ {
+  "peatukk": 13,
+  "parast": "8fd5b2bc6ea185f6",
+  "asenda": "Komandör vastab, et Jaanil on oma ase",
+  "uus": "Otto vastab, et Jaanil on oma ase",
+  "markus": "R6-06: Pöördumine: kahe komandöri segadus"
+ },
+ {
+  "peatukk": 3,
+  "parast": "c8f5751718b0f1eb",
+  "asenda": "Seit unserer Heirat.||„See on minu abikaasa seaduslik nimi. Meie abiellumisest saadik.”]]",
+  "uus": "Seit über dreißig Jahren.||„See on minu abikaasa seaduslik nimi. Juba üle kolmekümne aasta.”]]",
+  "markus": "R1-01: Nimevõtmise aeg (Taaniel võttis von Wulfi nime enne pulmi)"
+ },
+ {
+  "peatukk": 6,
+  "parast": "ccf892f1054bbc01",
+  "asenda": "eelmisel",
+  "uus": "esimesel",
+  "markus": "R1-03: Ajajoon abajas: „eelmisel hommikul”"
+ },
+ {
+  "peatukk": 5,
+  "parast": "ff867f251ea567bd",
+  "asenda": "enne kui teie tagasi tulite",
+  "uus": "enne kui sina tagasi tulid",
+  "markus": "R1-05: Meister ei tulnud merelt tagasi"
+ },
+ {
+  "peatukk": 6,
+  "parast": "1d84eda43d9f4d15",
+  "asenda": "madruseid.",
+  "uus": "masiniste.",
+  "markus": "R1-06: Heller: madrus või masinist"
+ },
+ {
+  "peatukk": 13,
+  "parast": "6a999c361f1d4394",
+  "asenda": "Katharina paneb koti oma jalgade juurde.",
+  "uus": "Katharina keerab mantlihõlma lahti.",
+  "markus": "R3-01: Katharina kott ülekäigul"
+ },
+ {
+  "peatukk": 15,
+  "parast": "051384e27a97d018",
+  "asenda": "hoiab vahipäevikut ja inimeste",
+  "uus": "hoiab inimeste",
+  "markus": "R3-03: Kelle käes on vahipäevik U-398 mahajätmisel"
+ },
+ {
+  "peatukk": 7,
+  "parast": "cff737b1b53370f3",
+  "asenda": "aprilli öösel viib",
+  "uus": "aprilli varahommikul viib",
+  "markus": "R2-1: praam lahkub 28. aprilli varahommikul; VIII 29.4 kell 4 „veidi üle ööpäeva” merel"
+ },
+ {
+  "peatukk": 10,
+  "parast": "8f5c8fc7c4999adc",
+  "asenda": "Pärast keskööd on",
+  "uus": "Vastu hommikut on",
+  "markus": "R2-2: Dietrichi vaht algab keskööl; ta tuleb vahetuse üleandmise järel"
+ },
+ {
+  "peatukk": 10,
+  "parast": "09e97f115a9e4951",
+  "asenda": "näitab Ottolle",
+  "uus": "näitab Ottole",
+  "markus": "R2-3: kirjaviga"
  }
 ]

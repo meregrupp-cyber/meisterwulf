@@ -29,7 +29,7 @@ Tema tehtud saapad jäid tellijate jalga, pooleliolevad tööd pinkidele. Inimes
 
 1914. aastal abiellusid Taaniel ja Katharina. Nimeasja ajasid nad eraldi korda: Taaniel võttis naise perekonnanime. Sugulaste seas tekitas see pahameelt, kuid Katharina ei näinud põhjust otsust uuesti arutama hakata. Töökojas harjuti. Seal oli von Wulfi nimi tähendanud head tööd juba enne neid.
 
-Sõja ajal teenis Taaniel Kroonlinnas tuukrina. Ta jõudis koju tagasi ning 1919. aastal sündis neil Katharinaga poeg Otto. Töökojas tuli nüüd arvestada lapsega, kes kõigepealt magas ja seejärel üha sagedamini jalgu jäi. Hiljem viis vana meistri õpetus Taanieli endagi Hiinasse, Shandongi. Sealt naastes oli tal asju, millest ta rääkis vähe, nagu vanal Wulfil kunagi.
+Sõja ajal teenis Taaniel Kroonlinnas tuukrina. Ta jõudis koju tagasi ning 1919. aastal sündis neil Katharinaga poeg Otto. Töökojas tuli nüüd arvestada lapsega, kes kõigepealt magas ja seejärel üha sagedamini jalgu jäi. Poja sünnist oli Taaniel kirjutanud ka Shandongi, Wangi majja. Hiljem viis vana meistri õpetus ta endagi sinna. Sealt naastes oli tal asju, millest ta rääkis vähe, nagu vanal Wulfil kunagi.
 
 Otto kasvas üles töökoja häälte keskel. 1939. aasta sügisel läks ta koos ümberasujatega Saksamaale. Katharina keeldus kaasa minemast ja Taaniel jäi tema juurde. Pärast tulid pojalt kirjad, harvemini fotod. Ühel neist oli Otto mereväeohvitseri mundris. Isa uuris pilti kaua; tal oli raske kokku viia seda meest ja poissi, kelle saapaid ta alles mõne aasta eest oli parandanud.
 

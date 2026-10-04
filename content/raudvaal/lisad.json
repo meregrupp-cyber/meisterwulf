@@ -5026,5 +5026,218 @@
   "pildi_litsents": "CC BY-SA 4.0",
   "pildi_litsents_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "pildi_leht": "https://commons.wikimedia.org/wiki/File:Nosy_Iranja_-_vue_de_haut.jpg"
+ },
+ {
+  "marker": "miks-seisavad-tsingtaus-ameerika-sõjalaevad",
+  "peatukk": 24,
+  "pealkiri": "Miks seisavad Tsingtaus Ameerika sõjalaevad?",
+  "tekst": "Jaapani alistumine ei jätnud Hiina sadamaid 1945. aasta sügisel sõjaväest tühjaks. Ameerika merevägi ja merejalavägi osalesid Põhja-Hiinas muu hulgas Jaapani vägede alistumise vastuvõtmises, tagasisaatmise korraldamises ning sadamate ja transpordiühenduste julgestamises. Tsingtausse ehk tänapäeva Qingdaosse maabusid USA mereväejõud 11. oktoobril 1945. Sadamasse jäid Ameerika laevad ja kaldarajatisi teenindavad üksused. Samal ajal kestis Hiinas rahvuslaste ja kommunistide võimuvõitlus. Maailmasõja lõpp ei tähendanud piirkonnas üldist rahu.",
+  "allikad": [
+   {
+    "tekst": "Office of the Historian, USA välisministeerium · FRUS 1948, VIII, dok. 257: mereväe tegevus Tsingtaus ja 1945. aasta maabumine",
+    "url": "https://history.state.gov/historicaldocuments/frus1948v08/d257"
+   },
+   {
+    "tekst": "Naval History and Heritage Command · Jaapani alistumistseremoonia Tsingtaus, õhufoto 127-GW-179-225463",
+    "url": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-pacific/japanese-surrender/surrenders-outside-japan/127-gw-179-225463.html"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. 25. oktoobril 1945 Tsingtau hipodroomil toimunud Jaapani alistumistseremoonia arhiivifoto. Juures kuupäev, asukoht ja foto originaalallkirja tõlge. Foto avab sadamalinna sõjalist tausta; Widar ja selle varjumine kuuluvad romaani väljamõeldisse."
+  ],
+  "pilt": "tsingtau-alistumine-1945.jpg",
+  "pildi_allkiri": "Tsingtau hipodroom, 25. oktoober 1945: Jaapani delegatsioon asetab alistumistseremoonial mõõgad lauale. Originaalallkiri: „Jaapani alistumisdelegatsioon asetab mõõgad lauale – alistumistseremoonia viimane toiming Tsingtaus. Kindralmajor Lemuel Shepherd, 6. merejalaväediviisi ülem, juhatab koos Hiina valitsust esindava kindral Shen Pao Chengiga.” Widar ja selle varjumine on romaani väljamõeldis.",
+  "pildi_allikas": "Connolly, USA merejalavägi, 1945; NARA 127-GW-179-225930 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:Photograph_of_Japanese_Surrender_in_Tsingtao,_China.jpg"
+ },
+ {
+  "marker": "miks-ei-piisa-ühest-loodimisest",
+  "peatukk": 24,
+  "pealkiri": "Miks ei piisa ühest loodimisest?",
+  "tekst": "Merekaardi sügavusarv käib kindla võrdlustaseme kohta. Tegelik veesügavus muutub tõusu ja mõõna, tuule ning muude mõjuritega. Laeva jaoks on tähtis ka vahe kiilu ja põhja vahel, mitte üksnes see, kas paat mõõtmise hetkel ujub. Pika laeva peatuspaigas tuleb kontrollida kogu kere alla jäävat ala ning sissesõiduteed; vööri kõrval mõõdetud sügavus ei ütle, mis on ahtri all.\n\nDingzi laht on ulatuslike madalike ja setetega laht. Qingdao ametlik tänapäevane piirkonnakirjeldus annab suure osa lahe sügavuseks 2–5 meetrit ning suudme sügavamatele kohtadele kuni 20 meetrit. Need pole 1946. aasta mõõtmised. Romaani varjukoht on paigutatud suudmepoolsesse sügavamasse soppi; konkreetne sildumispaik, selle mõõtmised ja lao asukoht on väljamõeldud.",
+  "allikad": [
+   {
+    "tekst": "NOAA · loodetetabelite selgitused: kaardisügavuse ja loodete kõrguse suhe",
+    "url": "https://www.tidesandcurrents.noaa.gov/tidetables/2012/ectt2012book.pdf"
+   },
+   {
+    "tekst": "Qingdao linnavalitsus · keskkonnadokument: Dingzi lahe üldine sügavusjaotus (2024)",
+    "url": "https://www.qingdao.gov.cn/zwgk/xxgk/sthj/gkml/gwfg/202405/P020240517402254239379.pdf"
+   },
+   {
+    "tekst": "Jimo piirkonna kohalugu · Dingzi lahe madalikud, setted ja ajalooline sadamakasutus",
+    "url": "https://qdsq-jm.qingdao.gov.cn/zyz_144/jmshyyhdz_144/202204/t20220407_5215619.shtml"
+   }
+  ],
+  "markused": [
+   "Animatsiooni kirjeldus. Sama laev ja kaldalatt kõrgvee ning madalvee ajal. Merepõhi ja laeva süvis ei muutu, veepind langeb. Vööri all on sügavamat vett, ahtri all kõrgem põhi. Joonis näitab, kuidas vähim kiilualune varu otsustab, kas koht sobib. Arvud on selgitava näite omad, mitte väide ajaloolise Dingzi kaikoha kohta."
+  ],
+  "pilt": "kiilualune-varu.svg",
+  "pildi_allkiri": "Laev vajub koos veepinnaga, põhi jääb paigale: kiilualune varu on vähim ahtri all madalvee ajal. Arvud on näide.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "marker": "miks-ei-saa-allveelaeva-lihtsalt-välja-lülitada",
+  "peatukk": 24,
+  "pealkiri": "Miks ei saa allveelaeva lihtsalt välja lülitada?",
+  "tekst": "Pliiaku tühjeneb aegamisi ka kasutamata seistes. Kui see jäetakse pikaks ajaks vähese laenguga, võib plaatidel tekkiv pliisulfaat muuta aku võimekust püsivalt halvemaks. Seepärast ei tähenda säilitamine aku võimalikult tühjaks laskmist. Töökorras hoidmine nõuab laetuse jälgimist ja vajaduse järgi laadimist; laetud akut ei tohi ka valimatult üle laadida. Laadimisega kaasneva gaasi tõttu on õhuvahetus tähtis.\n\nPaadi talveks seismajätmisel jäävad lisaks akudele hoolt vajama pilss, niisked ruumid, määrimist vajavad pinnad ja seadmed. Romaanis säilitatakse mehitatud, piiratud valmisolekus paat. Seda ei esitata aastateks järelevalveta unustatava varjupaigana.",
+  "allikad": [
+   {
+    "tekst": "GS Yuasa · pliiakude säilitamine ja sulfateerumise põhjus",
+    "url": "https://www.yuasa.com/uk/faq/general-questions/?p=2"
+   },
+   {
+    "tekst": "GS Yuasa · meresõiduakude juhend: laetuse hoidmine ja ventilatsioon",
+    "url": "https://news.yuasa.co.uk/wp-content/uploads/2015/08/LIT061_Yuasa_Acitve_Leisure_Marine_web.pdf"
+   }
+  ],
+  "markused": [
+   "Pildi kirjeldus. Allveelaeva akuruumi lihtsustatud lõige: üksik avatud ehitusega pliiakuelement, selle elektrolüüt, õhukanal ja kontrolli tegev elektrik. Kõrval väike võrdlus „seisev, hooldatud aku” ning „pikalt tühjana seisnud aku”. Tänapäevane akujuhend selgitab keemilist põhimõtet, mitte Widari täpset elektriskeemi."
+  ],
+  "pilt": "akuruum-pliiaku.svg",
+  "pildi_allkiri": "Akuruum, üks pliiakuelement ja võrdlus: hooldatud aku ning pikalt tühjana seisnud, sulfateerunud aku.",
+  "pildi_allikas": "Joonis: meisterwulf.com, autori kirjelduse järgi"
+ },
+ {
+  "saksa": "Dingzi lahe",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Dingzi laht ja Jinkou sadam",
+  "tekst": "Dingzi laht (丁字湾, Dīngzì wān) asub Shandongi poolsaare lõunarannikul Jimo, Laiyangi ja Haiyangi maakonna vahel. Jimo kroonika järgi tuleb nimi lahe kujust, mis meenutab kirjamärki 丁. Lahe suue on kitsas, umbes 2,5 km lai. Qingi dünastia ajast vabariigi algusaastateni oli lahe loodeosas asuv Jinkou poolsaare lõunaranniku tuntud kaubasadam. Veel umbes 1930. aastal tegeles seal kaubaveoga ligi tuhat puuratastega käsikäru.",
+  "allikad": [
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · Dingzi laht",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/21/index.txt"
+   },
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · käsikärud Jinkou sadamas",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/287/index.txt"
+   }
+  ],
+  "pilt": "dingzi-laht-iss.jpg",
+  "pildi_allkiri": "Dingzi laht ja naaberlahed Shandongi rannikul rahvusvahelisest kosmosejaamast (NASA kirjelduse järgi), 29. juuli 2003. Tänapäevane foto.",
+  "pildi_allikas": "NASA, ISS Expedition 7 (ISS007-E-11444), 2003 / avalik omand",
+  "pildi_litsents": "Avalik omand",
+  "pildi_leht": "https://commons.wikimedia.org/wiki/File:ISS007-E-11444_-_View_of_China.jpg"
+ },
+ {
+  "saksa": "soolalao",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Soolaväljad Jimo rannikul",
+  "tekst": "Jimos keedeti soola varem igas majapidamises eraldi. 1891. aastal rajasid Daqiao küla elanikud soolavälja, kus merevesi aurustus päikese käes; sellega lõppes kroonika järgi kodune keetmine. Vabariigi algul lisandus soolavälju, ka Jinkousse Dingzi lahe äärde. 1917. aastal loodud Jinkou soolamaksuameti alla kuulusid ka naabermaakondade soolaväljad. 1933. aastal toodeti Jimos 30 000–40 000 tonni soola toiduks, kalade soolamiseks ja ekspordiks.",
+  "allikad": [
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · soolatootmine",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/223/index.txt"
+   },
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · Dingzi lahe vanad soolaväljad",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/21/index.txt"
+   }
+  ]
+ },
+ {
+  "saksa": "Sõdurid",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Relvarahu talvel 1946",
+  "tekst": "10. jaanuariks 1946 leppisid Hiina rahvuslaste valitsus ja kommunistid USA kindrali George Marshalli vahendusel kokku viivitamatus relvarahus, kuid kevadeks see lagunes. Jimo kroonika järgi asusid veebruaris maakonnalinnas rahvuslaste väed. Maakonna idaosast olid kommunistid 1945. aastal moodustanud Jidongi maakonna, mille valitsus lasi samal aastal süvendada Jinkou sadamat. Kroonika kirjeldab relvastatud vahejuhtumeid juba veebruaris.",
+  "allikad": [
+   {
+    "tekst": "Encyclopaedia Britannica · Marshall Mission",
+    "url": "https://www.britannica.com/event/Marshall-Mission"
+   },
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · sündmuste kroonika 1943–1946",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/3/index.txt"
+   }
+  ]
+ },
+ {
+  "saksa": "jalgratas",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Jalgratas Jimo kandis",
+  "tekst": "Jimo maakonnas ilmusid jalgrattad umbes 1930. aastal. Kroonika järgi oli neid toona maakonnalinnas ning Lancuni ja Nanquani raudteejaamas igas kohas vaid tosinkond. Nendega veeti peamiselt reisijaid, rahvakeeli 带脚 (dàijiǎo). Kaupa veeti tollal peamiselt käsikärudega. Dingzi lahe teisel kaldal Haiyangi maakonnas ilmusid esimesed jalgrattad 1924. aastal.",
+  "allikad": [
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · käsikärud ja jalgrattad",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/287/index.txt"
+   },
+   {
+    "tekst": "Haiyangi maakonnakroonika (海阳县志) · sõiduvahendid",
+    "url": "https://shandong-chorography.org/database/c64/section/1/article/454/index.txt"
+   }
+  ]
+ },
+ {
+  "saksa": "koos harjutas",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Õpetuspere nimetused",
+  "tekst": "Hiina võitluskunstides on õpetaja 师父 shīfu ehk „õpetaja-isa” ning tema õpilased kutsuvad üksteist vanemaks ja nooremaks vennaks või õeks (师兄, 师弟, 师姐, 师妹). Õpetaja kaasõpilased on õpilastele „suur onu” 师伯 või „väike onu” 师叔, sõltumata soost. Vanem ja noorem ei tähenda siin eluaastaid. Määrav on see, kumb ühise õpetaja juurde varem vastu võeti. 师傅 on laiem aunimetus, millega õpipoiss pöördub oma meistri poole.",
+  "allikad": [
+   {
+    "tekst": "Wikipedia (inglise) · Sifu",
+    "url": "https://en.wikipedia.org/wiki/Sifu"
+   }
+  ]
+ },
+ {
+  "saksa": "riidest king",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Läbiõmmeldud riidetallaga king",
+  "tekst": "Dingzi lahe äärse Haiyangi maakonna kroonika järgi kandsid tavalised inimesed vanasti peamiselt ise tehtud riidekingi, mille tald oli tihedalt läbi õmmeldud, aga ka autorehvist või seanahast tallaga jalanõusid. Niisugune nn tuhandekihiline tald tehakse tärklisega jäigastatud puuvillariide kihtidest. Need lõigatakse paberlõike järgi talla kujuliseks, ääristatakse ja õmmeldakse jämeda niidiga väikeste pistetega üle kogu pinna kokku.",
+  "allikad": [
+   {
+    "tekst": "Haiyangi maakonnakroonika (海阳县志) · rõivad ja jalanõud",
+    "url": "https://shandong-chorography.org/database/c64/section/1/article/450/index.txt"
+   },
+   {
+    "tekst": "Victoria and Albert Museum · xing jiao 行脚 (riidest kingad tuhandekihilise tallaga)",
+    "url": "https://collections.vam.ac.uk/item/O1499685"
+   }
+  ]
+ },
+ {
+  "saksa": "Tõusu ja mõõna jaoks",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Kinnitusotste varu",
+  "tekst": "Kui laev on tõusu ja mõõnaga vees kaldale kinnitatud, ei tohi otsad olla pingul. Muidu tekitab veetaseme muutus suure koormuse otstele ja laeva kinnituspunktidele. Seepärast jäetakse otstele varu ning neid kohendatakse: mõõnaga lastakse järele, tõusuga võetakse lõtk sisse. Jimo rannikul tuleb kõrgvesi kaks korda ööpäevas. Dingzi jõesuudmes muudab suunda ka hoovus: tõusuvool suundub põhja poole, mõõnavool ida poole ja võib ulatuda 3 sõlmeni.",
+  "allikad": [
+   {
+    "tekst": "Sea.net · Dock Lines and Fenders: The Complete Guide (otsad ja tõus)",
+    "url": "https://www.sea.net/education/dock-lines-and-fenders"
+   },
+   {
+    "tekst": "Jimo maakonnakroonika (即墨县志) · tõusud ja mõõnad",
+    "url": "https://shandong-chorography.org/database/c2/section/4/article/26/index.txt"
+   }
+  ]
+ },
+ {
+  "saksa": "vatikuub",
+  "liik": "sona",
+  "peatukk": 24,
+  "pealkiri": "Vatikuub",
+  "tekst": "Vatikuub (hiina 棉袄 mián'ǎo) on puuvillavatiga topitud talvekuub. Qingdao kombestiku ülevaate järgi kandsid lihtsamad mehed linnas ja maal nii Qingi ajal kui ka 1930. aastatel lühikest kuube, pikk rüü oli jõukamate rõivas. Dingzi lahe äärse Haiyangi maakonna kroonika järgi kandsid tavalised inimesed vanasti vatikuube mõnikord otse ihu peal, ilma alussärgita.",
+  "allikad": [
+   {
+    "tekst": "MDBG (CC-CEDICT) · 棉袄 mián'ǎo",
+    "url": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E6%A3%89%E8%A2%84"
+   },
+   {
+    "tekst": "Qingdao linna andmebaas (青岛市情资料库) · kombestik: rõivad",
+    "url": "https://shandong-chorography.org/database/b2/section/63/article/10/index.txt"
+   },
+   {
+    "tekst": "Haiyangi maakonnakroonika (海阳县志) · rõivad ja jalanõud",
+    "url": "https://shandong-chorography.org/database/c64/section/1/article/450/index.txt"
+   }
+  ]
  }
 ]
