@@ -1137,5 +1137,19 @@
   "asenda": "Torniplatvormile jäävad",
   "uus": "Õhutõrjeplatvormile jäävad",
   "markus": "XXIII: XIII, XVI „õhutõrjeplatvorm”"
+ },
+ {
+  "peatukk": 2,
+  "parast": "d9333a4a306513c3",
+  "asenda": "Diese Koje ist bis sechs frei,||„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
+  "uus": "Diese Koje ist bis sechs frei,||„See koi on kella kuueni vaba,”",
+  "markus": "II: kaheks lõhutud repliigi esimene pool sai terve tõlke"
+ },
+ {
+  "peatukk": 2,
+  "parast": "d9333a4a306513c3",
+  "asenda": "Danach sehen wir weiter.||„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
+  "uus": "Danach sehen wir weiter.||„Pärast vaatame edasi.”",
+  "markus": "II: kaheks lõhutud repliigi teine pool sai terve tõlke"
  }
 ]

@@ -287,6 +287,13 @@
   ]
  },
  {
+  "saksa": "Bis wir wissen, wer die Arbeit übernimmt. Danach möchte ich nach Hause, wenn ich einen Weg finde. Das habe ich lange genug vor mir hergeschoben.",
+  "tolge": "Kuni teame, kes töö üle võtab. Pärast seda tahaksin koju, kui leian tee. Olen seda juba piisavalt kaua edasi lükanud.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
   "saksa": "Bis zum Treffpunkt reicht es, wenn wir sparsam fahren. Für eine Suche ohne Ende reicht es nicht. Und Argentinien steht auf diesem Blatt überhaupt nicht.",
   "tolge": "Kohtumispunktini jätkub, kui säästlikult sõidame. Lõputuks otsimiseks ei jätku. Ja Argentinat sellel lehel üldse pole.",
   "peatukid": [
@@ -351,7 +358,7 @@
  },
  {
   "saksa": "Danach sehen wir weiter.",
-  "tolge": "„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
+  "tolge": "„Pärast vaatame edasi.”",
   "peatukid": [
    "II"
   ]
@@ -445,6 +452,13 @@
   "tolge": "See jääb meie vahele. Eriti meeste ees ei tahaks ma sellest midagi kuulda.",
   "peatukid": [
    "X"
+  ]
+ },
+ {
+  "saksa": "Das Boot bleibt besetzt. Keine Anlage wird einfach abgeschaltet, weil wir jetzt an Land schlafen können. Wer eine Arbeit übernimmt, trägt sie ein und meldet, wenn sie nicht erledigt ist.",
+  "tolge": "Paat jääb mehitatuks. Ühtki seadet ei lülitata lihtsalt välja sellepärast, et saame nüüd maal magada. Kes töö enda peale võtab, paneb selle kirja ja teatab, kui see jääb tegemata.",
+  "peatukid": [
+   "XXIV"
   ]
  },
  {
@@ -883,7 +897,7 @@
  },
  {
   "saksa": "Diese Koje ist bis sechs frei,",
-  "tolge": "„See koi on kella kuueni vaba. Pärast vaatame edasi.”",
+  "tolge": "„See koi on kella kuueni vaba,”",
   "peatukid": [
    "II"
   ]
@@ -1043,6 +1057,13 @@
   ]
  },
  {
+  "saksa": "Er hält jetzt. Aber ich merke, dass er auf meine Hände wartet und nicht mehr sieht, wohin ich mich bewege.",
+  "tolge": "Praegu ta peab vastu. Aga tunnen, et ta ootab mu käsi ega näe enam, kuhu ma ise liigun.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
   "saksa": "Er ist weg.",
   "tolge": "Ta on läinud.",
   "peatukid": [
@@ -1180,6 +1201,13 @@
   "tolge": "„Sünninimi?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Gehen Sie zu Ihrem Vater?",
+  "tolge": "Kas lähete oma isa juurde?",
+  "peatukid": [
+   "XXIV"
   ]
  },
  {
@@ -1397,6 +1425,13 @@
   "tolge": "„Mina jään vaneminseneri juurde. Kui tema läheb Widarile, lähen kaasa. Härra komandör, kas teil on seal veel minu jaoks kohta?” LI on lühend nimetusest Leitender Ingenieur, siin paadi vaneminsener.",
   "peatukid": [
    "XV"
+  ]
+ },
+ {
+  "saksa": "Ich dachte, ich komme morgen auch. Wenn er Zeit hat.",
+  "tolge": "Mõtlesin homme samuti tulla. Kui tal aega on.",
+  "peatukid": [
+   "XXIV"
   ]
  },
  {
@@ -1741,6 +1776,13 @@
   "tolge": "Ei mingit hõikumist ega lärmi. Reisijal on vaja rahu. Hoolitsege, et mehed sellest aru saaksid.",
   "peatukid": [
    "XVIII"
+  ]
+ },
+ {
+  "saksa": "Keine zusätzlichen Ballastmengen. Wir bleiben auf unserem normalen Tiefgang. Wenn wir den Kahn hier tiefer setzen, verlieren wir genau den Abstand, den wir gerade gemessen haben.",
+  "tolge": "Lisaballasti ei võeta. Jääme oma tavalise süvise juurde. Kui laseme paadi siin sügavamale, kaotame just selle vahemaa, mille äsja ära mõõtsime.",
+  "peatukid": [
+   "XXIV"
   ]
  },
  {
@@ -2396,6 +2438,13 @@
   ]
  },
  {
+  "saksa": "Sagt ihnen, dass wir unsere Leute selbst versorgen. Wir brauchen vorläufig Unterkunft und Arbeit. Und wenn jemand von uns etwas bestellt, muss vorher klar sein, wer dafür bezahlt.",
+  "tolge": "Öelge neile, et hoolitseme oma inimeste toidu eest ise. Vajame esialgu peavarju ja tööd. Ja kui keegi meist midagi tellib, peab enne selge olema, kes selle eest maksab.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
   "saksa": "Sanitäter!",
   "tolge": "„Sanitar!”",
   "peatukid": [
@@ -2648,6 +2697,13 @@
   ]
  },
  {
+  "saksa": "Soll ich stärker drücken?",
+  "tolge": "Kas peaksin tugevamini suruma?",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
   "saksa": "Sonderstab",
   "tolge": "Eristaap.",
   "peatukid": [
@@ -2771,6 +2827,13 @@
   "tolge": "„Ja aadliseisuse sai ta kohe teie käest kaasa?”",
   "peatukid": [
    "III"
+  ]
+ },
+ {
+  "saksa": "Und der Rest?",
+  "tolge": "Ja ülejäänu?",
+  "peatukid": [
+   "XXIV"
   ]
  },
  {
@@ -3082,6 +3145,13 @@
   ]
  },
  {
+  "saksa": "Wenn die Besatzung auseinandergeht, muss klar sein, wer Ausgaben bewilligt. Ich will nicht, dass einer von uns später im Namen aller etwas verspricht. Die zugesagte Hilfe muss bleiben. Aber keiner darf später behaupten, wir hätten ihm den ganzen Rest geschenkt. Schreiben Sie auf, was beschlossen wird, und lassen Sie mir eine Abschrift da.",
+  "tolge": "Kui meeskond laiali läheb, peab olema selge, kes kulutused heaks kiidab. Ma ei taha, et keegi meist hiljem kõigi nimel midagi lubab. Lubatud abi peab alles jääma. Aga keegi ei tohi hiljem väita, et kinkisime talle kogu ülejäänu. Pange otsused kirja ja jätke mulle ärakiri.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
   "saksa": "Wenn Sie die Angaben ändern, ist jede Lösung falsch. Man muss sich auf irgendetwas verlassen können. Wir können nicht vor jedem Schritt erst die ganze Küste neu vermessen lassen.",
   "tolge": "Kui te lähteandmeid muudate, on iga lahendus vale. Midagi peab ometi saama usaldada. Me ei saa lasta iga sammu eel kogu rannikut uuesti üle mõõta.",
   "peatukid": [
@@ -3188,6 +3258,13 @@
   ]
  },
  {
+  "saksa": "Wir fahren dort nicht hinein. Bei Hochwasser kommen wir vielleicht über die flache Stelle. Aber ich brauche einen Platz, an dem wir auch bei Niedrigwasser schwimmen.",
+  "tolge": "Me ei sõida sinna sisse. Kõrgveega saame võib-olla madalikust üle. Aga mul on vaja kohta, kus me ka madalveega ujume.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
   "saksa": "Wir gehen auf Grund. Keine weiteren Arbeiten an Deck. Die Leute sollen schlafen, sobald wir unten sicher liegen.",
   "tolge": "Laskume põhjale. Tekil rohkem tööd ei tehta. Niipea kui oleme all kindlalt paigas, lähevad mehed magama.",
   "peatukid": [
@@ -3241,6 +3318,13 @@
   "tolge": "Meie hoolitseme paadi ja pardal olevate inimeste eest. Reisija eest vastutab Schrade. Esimesel võimalusel võtavad tema inimesed kogu rühma jälle pardalt ära. Seni ei nimeta keegi tema nime meeskonna kuuldes. Ka naljaga mitte.",
   "peatukid": [
    "XVIII"
+  ]
+ },
+ {
+  "saksa": "Wir legen sie nicht leer still. Ladung, Säurestand, Temperatur und Lüftung werden weiter überwacht. Wenn wir Strom verbrauchen, müssen wir ihn auch wieder hineinbringen. Daran ändert der Liegeplatz nichts.",
+  "tolge": "Me ei jäta neid tühjalt seisma. Laetust, elektrolüüdi taset, temperatuuri ja ventilatsiooni jälgitakse edasi. Kui kasutame elektrit, tuleb see ka tagasi laadida. Seisukoht ei muuda selles midagi.",
+  "peatukid": [
+   "XXIV"
   ]
  },
  {
@@ -3381,6 +3465,27 @@
   "tolge": "„Kaks korda. Kui saaksime praegu saata, kuuleksid nad meid.”",
   "peatukid": [
    "IV"
+  ]
+ },
+ {
+  "saksa": "周师傅让我来。",
+  "tolge": "„Meister Zhou saatis mind.” Hiina keeles: Zhōu shīfu ràng wǒ lái.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
+  "saksa": "文海师叔？",
+  "tolge": "„Õpetusonu Wenhai?” Hiina keeles: Wénhǎi shīshū. 师叔 tähistab õpetaja nooremat kaasõpilast ehk sama õpetuspõlvkonna liiget; see ei ole veresuguluse nimetus. 文海, Wenhai, on Taanieli hiina nimi.",
+  "peatukid": [
+   "XXIV"
+  ]
+ },
+ {
+  "saksa": "锤子。",
+  "tolge": "„Haamer.” Hiina keeles: chuízi.",
+  "peatukid": [
+   "XXIV"
   ]
  }
 ]
