@@ -497,8 +497,8 @@
   ]
  },
  {
-  "saksa": "Das ist der rechtmäßige Name meines Mannes. Seit unserer Heirat.",
-  "tolge": "„See on minu abikaasa seaduslik nimi. Meie abiellumisest saadik.”",
+  "saksa": "Das ist der rechtmäßige Name meines Mannes. Seit über dreißig Jahren.",
+  "tolge": "„See on minu abikaasa seaduslik nimi. Juba üle kolmekümne aasta.”",
   "peatukid": [
    "III"
   ]
@@ -3322,7 +3322,7 @@
  },
  {
   "saksa": "Wir legen sie nicht leer still. Ladung, Säurestand, Temperatur und Lüftung werden weiter überwacht. Wenn wir Strom verbrauchen, müssen wir ihn auch wieder hineinbringen. Daran ändert der Liegeplatz nichts.",
-  "tolge": "Me ei jäta neid tühjalt seisma. Laetust, elektrolüüdi taset, temperatuuri ja ventilatsiooni jälgitakse edasi. Kui kasutame elektrit, tuleb see ka tagasi laadida. Seisukoht ei muuda selles midagi.",
+  "tolge": "Me ei jäta neid tühjalt seisma. Laetust, elektrolüüdi taset, temperatuuri ja ventilatsiooni jälgitakse edasi. Kui kasutame elektrit, tuleb see ka tagasi laadida. Sildumiskoht ei muuda selles midagi.",
   "peatukid": [
    "XXIV"
   ]
