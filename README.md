@@ -24,7 +24,7 @@ GitHub Pages            Cloudflare              külastaja
 |------|------|
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
-| `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), stiil, meister Wulf, liin, vormid, dokumendid (1991–92, 2023, duan 2026) |
+| `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), mida saab teha (kung fu kaardil link „wushu/kung fu selgitus“ avab selgitusakna; allveekungfu juures WaterFightsi üldidee ja reeglid, ingliskeelsed PDF-id Drive'is), stiil, meister Wulf, liin, vormid, ajatelg (2023 kirjes bàishī mull), dokumendid (1991–92, 2023, duan 2026) |
 | `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
 | `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, mullid (tõlge, seletus, pilt, heli) ikoonidega, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
 | `404.html` | vealehekülg |
@@ -91,7 +91,7 @@ assets/
                            ehitatakse allikast content/kungfu/, vt „Treeningprogrammi PDF“)
   books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked (praegu kasutamata), näidis-PDF (hiina k),
                            lola-ja-lohe-lk5.jpg (näidis, avaneb nupust "Loe näidet")
-  tolge.js, tolge.css      mullid: tõlge, seletus, pilt, heli + ikoonid (kasutab lugemisleht)
+  tolge.js, tolge.css      mullid: tõlge, seletus, pilt, heli + ikoonid (kasutavad lugemisleht ja kung fu leht)
 raudvaal/
   index.html, loe.js, loe.css   lugemisleht (üks leht, vaated #sisukord, #peatukk-NN, #sonastik, #kood)
   sisu/*.json              ehitatud sisu: sisukord, peatükid (tasuta avatekstina, tasulised krüpteerituna), sõnastik
@@ -260,6 +260,28 @@ Tasuliste peatükkide markdown-allikad on `.gitignore`-is
 mõni mitte-tasuta allikas on gitis jälgitav. Ära commiti neid ka kogemata:
 `git status` ei tohi tasulisi `.md` faile näidata.
 
+#### Mullid teistel lehtedel (kung fu leht)
+
+Sama mull töötab igal lehel, kus on `assets/tolge.css` ja `assets/tolge.js`
+(versiooninumber `?v=` on faili SHA-1 esimesed 8 märki; lugemislehel kirjutab
+selle ehitus, kung fu lehel tuleb see muutmisel käsitsi uuendada). Element:
+
+```html
+<span class="lisa lisa--selgitus" role="button" tabindex="0" aria-expanded="false"
+      data-liik="selgitus" data-laius="560" data-pealkiri="Bàishī · 拜师"
+      data-tolge="Esimene lõik…&#10;&#10;• loendi punkt&#10;• teine punkt&#10;&#10;Järgmine lõik…">bàishī</span>
+```
+
+`data-tolge`: lõigud tühja reaga (`&#10;&#10;`) eraldi; lõik, mille iga rida algab
+„• “, kuvatakse loendina. `data-laius` annab pikale seletusele laiema mulli
+(vaikimisi 420 px). Kui mull ei mahu sõna kohale ega alla, läheb see ruumikamale
+poolele ja kerib seal, sõna jääb nähtavale. Modaalaknas (`aria-modal="true"`,
+`position:fixed`) avatud mull paigutatakse akna sisse, et ekraanilugeja ja
+fookuse lõks seda näeksid. Sõna kirjeldus (`aria-describedby`) on mulli pealkiri
+ja tekst; sulgemisnupu nimi tuleb lehe keelest (`data-lang`, muidu `lang`).
+Kung fu lehel on bàishī mull ajatelje 2023 kirjes ja wushu/kungfu selgitusaknas
+(aknas sulgeb Esc esmalt mulli, siis akna).
+
 #### Uue peatüki lisamine
 
 Käsikiri tuleb .odt või .docx failina, kus saksakeelsete lausete tõlked on
@@ -314,9 +336,10 @@ raamatute lehel hinna märkus „Müügile tuleb, kui raamat on valmis“ ja JSO
 E-posti aadressid pannakse kokku JavaScriptiga (`data-u` + `data-d`), et
 robotid neid lähtekoodist ei korjaks. Kingsepp: kriuks@suvi.ch; kung fu ja
 raamatud: meister.wulf@pm.me, tel 510 5573. Iga lehe jaluses (esilehel
-paremal all) on Facebooki link facebook.com/meister.von.wulf; allvee-
-instruktori mainimised viitavad meregrupp.ee-le (eesti k → `/`, inglise ja
-hiina k → `/en/`).
+paremal all) on Facebooki link facebook.com/meister.von.wulf. Kung fu lehel
+viitab „treeneri kvalifikatsioon“ Eesti spordiregistri treeneri lehele
+(eesti k → `spordiregister.ee/et/treener/11202/…`, inglise ja hiina k →
+`/en/…`, ankur `#kutsed_kehtivad`).
 
 ---
 
