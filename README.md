@@ -122,17 +122,24 @@ versioon `shoemaker/` ja originaal sama nimega `shoemaker/orig/` alla.
 ### Treeningprogrammi PDF
 
 Kung fu lehe nupp „Koolituse tutvustus (PDF)“ avab `assets/kungfu/treeningprogramm-<keel>.pdf`
-parajasti valitud keeles. Kolme PDF-i allikas on `content/kungfu/treeningprogramm-et/en/zh.html`
+parajasti valitud keeles. Lingil on versiooninumber `?v=` (PDF-faili SHA-1 esimesed 8 märki),
+et brauser ja Cloudflare ei näitaks vana koopiat; PDF-i uuesti ehitamisel uuenda see `mantis.html`-is. Kolme PDF-i allikas on `content/kungfu/treeningprogramm-et/en/zh.html`
 (ühine stiil `treeningprogramm.css`, logo `assets/logo/`). Teksti muutmiseks paranda HTML-i
 kõigis kolmes keeles ja ehita PDF-id uuesti:
 
 ```sh
 npm i playwright && npx playwright install chromium   # ühekordselt
+python3 scripts/fonts-noto-sans-sc.py                 # ühekordselt: hiina kiri (vaja fonttools)
 node scripts/build-treeningprogramm.mjs                # kõik kolm; `… et zh` ainult need
 ```
 
-Kirjad: Liberation Serif/Sans ja hiina märkidele WenQuanYi Zen Hei (Debianis paketid
-`fonts-liberation`, `fonts-wqy-zenhei`); teiste kirjadega võivad leheküljed teisiti murduda.
+Kirjad: Liberation Serif/Sans (Debianis pakett `fonts-liberation`) ja hiina märkidele Noto Sans SC
+Regular + Bold staatiliste TrueType-lõigetena, mille `scripts/fonts-noto-sans-sc.py` teeb Google Fontsi
+muutuvkirjast ja paigaldab kausta `~/.local/share/fonts/`. Ilma nendeta ehitus ei käivitu: rasvase lõiketa
+kirjale (nt WenQuanYi Zen Hei) sünteesib Chromium rasvase kirja ja salvestab selle, nagu ka OTF/CFF- ja
+muutuvkirjad, PDF-i Type 3 kirjana, mida osa PDF-lugejaid näitab kastikestena. Kontroll: `pdffonts
+assets/kungfu/treeningprogramm-zh.pdf` ei tohi näidata ühtegi `Type 3` rida. Teiste kirjadega võivad
+leheküljed ka teisiti murduda.
 Lehevahetused on HTML-is klassiga `pb` (väravad 2 ja 4, ülevaatetabel, sõnastik, „Kuidas
 alustada“), nii et iga keel on kuuel leheküljel: 1 sissejuhatus ja värav 1, 2 väravad 2–3,
 3 väravad 4–5, 4 ülevaatetabel, tund ja reeglid, 5 sõnastik, päritolu ja „Qínná liini õpetuses“,
