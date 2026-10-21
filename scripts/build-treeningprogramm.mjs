@@ -3,13 +3,23 @@
 //   node scripts/build-treeningprogramm.mjs            (kõik kolm keelt)
 //   node scripts/build-treeningprogramm.mjs et zh      (ainult need)
 // Vaja: node 18+, npm-pakett playwright ja selle Chromium (npx playwright install chromium).
-// Kirjad: Liberation Serif/Sans ja WenQuanYi Zen Hei (Debiani/Ubuntu paketid fonts-liberation, fonts-wqy-zenhei);
-// nende puudumisel võtab Chromium asenduskirja ja lehekülgede murdumine võib nihkuda.
+// Kirjad: Liberation Serif/Sans (Debiani/Ubuntu pakett fonts-liberation) ja hiina märkidele Noto Sans SC Regular + Bold
+// staatiliste TrueType-lõigetena (python3 scripts/fonts-noto-sans-sc.py). Muu hiina kirjaga (sünteesitud rasvane,
+// OTF/CFF või muutuvkiri) salvestab Chromium märgid Type 3 kirjana, mida osa PDF-lugejaid näitab kastikestena;
+// seepärast skript ilma Noto Sans SC Regular ja Bold lõiketa ei ehita.
 import { chromium } from 'playwright';
+import { execFileSync } from 'node:child_process';
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { extname, join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+let styles = '';
+try { styles = execFileSync('fc-list', ['Noto Sans SC', 'style'], { encoding: 'utf8' }); } catch {}
+if (!/Regular/.test(styles) || !/Bold/.test(styles)) {
+  console.error('Puudub kiri Noto Sans SC (Regular ja Bold). Paigalda: python3 scripts/fonts-noto-sans-sc.py');
+  process.exit(1);
+}
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const langs = process.argv.slice(2).length ? process.argv.slice(2) : ['et', 'en', 'zh'];
