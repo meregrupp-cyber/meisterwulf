@@ -21,3 +21,6 @@ th{ font-weight:700; }
 .pb{ page-break-before:always; margin-top:0; }
 .right{ text-align:right; margin-top:14pt; }
 .contact p{ margin:0 0 8pt; }
+/* Eesti- ja ingliskeelses tekstis ei murta hiina nimesid (nt 分身八肘四段) märkide vahelt. */
+html:not([lang^="zh"]) body{ word-break:keep-all; }
+.nw{ white-space:nowrap; }

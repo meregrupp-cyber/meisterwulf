@@ -92,6 +92,17 @@ body.page-mantis{
 .forms .zh{ font-family:var(--font-zh); font-size:1.15rem; color:var(--parchment); }
 .forms .py{ display:block; color:var(--brass-light); font-size:.9rem; }
 .forms .tr{ display:block; color:var(--parchment-dim); font-size:.84rem; }
+/* vormisarjad (摘要, 分身八肘) ja qínná õppeosad: kaart üle kogu rea, osade loend veergudena (kitsal ekraanil üks veerg) */
+.forms .sari{ grid-column:1 / -1; }
+.forms .osad{ display:grid; grid-template-columns:repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap:.3em 1.4em; margin:.7em 0 0; padding:0; list-style:decimal inside; }
+.forms .osad li{ padding:0; border:0; border-radius:0; background:none; font-size:.86rem; color:var(--parchment-dim); }
+.forms .osad li::marker{ color:var(--brass); }
+.forms .osad .zh{ font-size:1rem; }
+.forms .osad .py{ display:inline; margin-left:.4em; font-size:.84rem; }
+.forms--qinna{ grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr)); margin-top:1em; }
+.forms--qinna .osad{ grid-template-columns:1fr; }
+.liin-qinna{ margin-top:2.2em; }
+.liin-qinna .markus{ margin-top:1em; font-size:.92rem; color:var(--parchment-dim); }
 
 /* mida saab õppida */
 .offer{ display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap:18px; }
@@ -249,10 +260,10 @@ body.page-mantis{
 
   <section class="section">
     <div class="wrap">
-      <h2><span data-l="et">Liini vormid</span><span data-l="en">Forms of the lineage</span><span data-l="zh">本门套路</span></h2>
-      <p data-l="et">Pärimusregistris kirjas olev õpitud materjal. Õpe liigub asendite ja liikumissammude juurest vormide, partneriga harjutuste ja qínná-võteteni. Relvad ja pärimusõpe on ka eraldi kiht. Mõnest vormist on liinis nii Meihua kui ka Taiji versioon; Wang Xiuyuani soovitusel omandatakse esmalt Meihua materjal ja alles seejärel Taiji oma.</p>
-      <p data-l="en">The material recorded in the lineage register. Training moves from frame and stepping through forms and partner application to qínná; weapons and lineage study form a separate layer. Some forms exist in the lineage in both a Meihua and a Taiji version; on Wang Xiuyuan's advice the Meihua material is mastered first and the Taiji material studied afterwards.</p>
-      <p data-l="zh">传承谱所载的学习内容。训练由功架与步法进入套路、对练应用与擒拿；器械与传承研习另成一层。部分套路在本门中兼有梅花与太极两种版本；按王秀远师父的嘱咐，先练熟梅花套路，再学太极套路。</p>
+      <h2><span data-l="et">Liini vormid ja vormisarjad</span><span data-l="en">Forms and form series of the lineage</span><span data-l="zh">本门套路与套路系列</span></h2>
+      <p data-l="et">Meister Wang Xiuyuani õpetusliini repertuaar pärimusregistri järgi: vormid, vormisarjad ja relvad. Loetelu kirjeldab liini õppesisu, mitte seda, kui kaugele keegi on selles jõudnud. Õpe liigub asendite ja liikumissammude juurest vormide, partneriga harjutuste ja qínná-võteteni. Relvad ja pärimusõpe on ka eraldi kiht. Mõnest vormist on liinis nii Meihua kui ka Taiji versioon; Wang Xiuyuani soovitusel omandatakse esmalt Meihua materjal ja alles seejärel Taiji oma. Vormisarjade osad ja qínná jaotus on esitatud meister Wang Xiuyuani praeguse õpetuse järgi.</p>
+      <p data-l="en">The repertoire of Master Wang Xiuyuan's teaching line, as recorded in the lineage register: forms, form series and weapons. The list describes what the lineage teaches, not how far anyone has progressed in it. Training moves from frame and stepping through forms and partner application to qínná; weapons and lineage study form a separate layer. Some forms exist in the lineage in both a Meihua and a Taiji version; on Wang Xiuyuan's advice the Meihua material is mastered first and the Taiji material studied afterwards. The parts of the form series and the division of qínná follow Master Wang Xiuyuan's current teaching.</p>
+      <p data-l="zh">王秀远师父一脉的传承内容，以传承谱所载为准：套路、套路系列与器械。此处列出的是本门的教学内容，并不表示某人已经全部掌握。训练由功架与步法进入套路、对练应用与擒拿；器械与传承研习另成一层。部分套路在本门中兼有梅花与太极两种版本；按王秀远师父的嘱咐，先练熟梅花套路，再学太极套路。套路系列的分段与擒拿的划分，依照王秀远师父目前的教学说明。</p>
       <ul class="forms">
         <li><span class="zh">指路</span><span class="py">Zhǐlù</span><span class="tr"><span data-l="et">„tee näitamine“ — sissejuhatav vorm</span><span data-l="en">"showing the way", introductory form</span><span data-l="zh">入门套路</span></span></li>
         <li><span class="zh">小反车</span><span class="py">Xiǎo Fǎnchē</span><span class="tr"><span data-l="et">„väike ümberpöörduv vanker“</span><span data-l="en">"small turning cart"</span><span data-l="zh">缠绕翻转的连贯动作</span></span></li>
@@ -260,10 +271,51 @@ body.page-mantis{
         <li><span class="zh">连五掌</span><span class="py">Liánwǔzhǎng</span><span class="tr"><span data-l="et">„seotud viis peopesa“</span><span data-l="en">"five linked palms"</span><span data-l="zh">连贯的掌法短套</span></span></li>
         <li><span class="zh">拦截</span><span class="py">Lánjié</span><span class="tr"><span data-l="et">„tõkestamine ja katkestamine“ — kontakt ja vasturünnak; Meihua ja Taiji versioon (梅花拦截 · 太极拦截)</span><span data-l="en">"intercepting", contact and counter-attack; Meihua and Taiji versions (梅花拦截 · 太极拦截)</span><span data-l="zh">接触与反击的重要套路；有梅花拦截与太极拦截两种版本</span></span></li>
         <li><span class="zh">崩步</span><span class="py">Bēngbù</span><span class="tr"><span data-l="et">Bengbu — klassikaline võitlusvorm; Meihua ja Taiji versioon (梅花崩步 · 太极崩步)</span><span data-l="en">Bengbu, a classical fighting form; Meihua and Taiji versions (梅花崩步 · 太极崩步)</span><span data-l="zh">经典实战套路；有梅花崩步与太极崩步两种版本</span></span></li>
-        <li><span class="zh">摘要</span><span class="py">Zhāiyào</span><span class="tr"><span data-l="et">„essents“ — edasijõudnute korpus</span><span data-l="en">"the essentials", advanced material</span><span data-l="zh">进阶核心内容</span></span></li>
-        <li><span class="zh">分身八肘</span><span class="py">Fēnshēn Bāzhǒu</span><span class="tr"><span data-l="et">„keha kaheksa lühimaa löögivahendit“ — lähimaa vorm; 八肘 ei tähenda sõna-sõnalt kaheksat küünarnukki</span><span data-l="en">"eight short-range body weapons", close-range form; 八肘 does not mean eight literal elbows</span><span data-l="zh">近身短打套路；“八肘”并非仅指肘法，而是以身体各部位为近身击打之器</span></span></li>
+        <li class="sari"><span class="zh">摘要</span><span class="py">Zhāiyào</span><span class="tr"><span data-l="et">„essents“ — kuueosaline edasijõudnute vormisari</span><span data-l="en">"the essentials", an advanced six-part form series</span><span data-l="zh">分为六段的进阶套路系列</span></span>
+          <ol class="osad">
+            <li><span class="zh">摘要一段</span><span class="py">Zhāiyào yī duàn</span></li>
+            <li><span class="zh">摘要二段</span><span class="py">Zhāiyào èr duàn</span></li>
+            <li><span class="zh">摘要三段</span><span class="py">Zhāiyào sān duàn</span></li>
+            <li><span class="zh">摘要四段</span><span class="py">Zhāiyào sì duàn</span></li>
+            <li><span class="zh">摘要五段</span><span class="py">Zhāiyào wǔ duàn</span></li>
+            <li><span class="zh">摘要六段</span><span class="py">Zhāiyào liù duàn</span></li>
+          </ol></li>
+        <li class="sari"><span class="zh">分身八肘</span><span class="py">Fēnshēn Bāzhǒu</span><span class="tr"><span data-l="et">neljaosaline edasijõudnute vormisari, milles pööratakse tähelepanu lähivõitluse tehnikatele</span><span data-l="en">a four-part advanced form series with an emphasis on close-range fighting methods</span><span data-l="zh">分为四段的进阶套路系列，注重近身技法</span></span>
+          <ol class="osad">
+            <li><span class="zh">分身八肘一段</span><span class="py">Fēnshēn Bāzhǒu yī duàn</span></li>
+            <li><span class="zh">分身八肘二段</span><span class="py">Fēnshēn Bāzhǒu èr duàn</span></li>
+            <li><span class="zh">分身八肘三段</span><span class="py">Fēnshēn Bāzhǒu sān duàn</span></li>
+            <li><span class="zh">分身八肘四段</span><span class="py">Fēnshēn Bāzhǒu sì duàn</span></li>
+          </ol></li>
         <li><span class="zh">刀 · 枪 · 剑 · 棍</span><span class="py">dāo · qiāng · jiàn · gùn</span><span class="tr"><span data-l="et">relvad: saabel, oda, sirgmõõk, kepp</span><span data-l="en">weapons: sabre, spear, straight sword, staff</span><span data-l="zh">器械四类</span></span></li>
       </ul>
+      <div class="liin-qinna">
+        <h3><span data-l="et">Väike ja suur qínná</span><span data-l="en">Small and Large Qínná</span><span data-l="zh">小擒拿与大擒拿</span></h3>
+        <p data-l="et">Qínná (擒拿) sisaldab haaramis-, vabastamis-, liigese kontrollimise ja vastase kontrolli alla võtmise tehnikaid. Meister Wang Xiuyuani õpetuses jaguneb qínná kümneks õppeosaks: väike qínná (小擒拿, Xiǎo Qínná) hõlmab osi 1–5 ning suur qínná (大擒拿, Dà Qínná) osi 6–10. Mõlemasse kuulub 36 tehnikat, kokku 72.</p>
+        <p data-l="en">Qínná (擒拿) comprises techniques for seizing, releasing, controlling joints and bringing an opponent under control. In Master Wang Xiuyuan's teaching, qínná is organized into ten training sections: Small Qínná (小擒拿, Xiǎo Qínná), sections 1–5, and Large Qínná (大擒拿, Dà Qínná), sections 6–10. Each group contains 36 techniques, making 72 in total.</p>
+        <p data-l="zh">擒拿包括抓握、解脱、关节控制以及制服对手的技法。按照王秀远师父的教学说明，擒拿分为十段：小擒拿为第一至第五段，大擒拿为第六至第十段。两部分各有三十六种技法，共七十二种。</p>
+        <ul class="forms forms--qinna">
+          <li><span class="zh">小擒拿</span><span class="py">Xiǎo Qínná</span><span class="tr"><span data-l="et">väike qínná: õppeosad 1–5, kokku 36 tehnikat</span><span data-l="en">Small Qínná: sections 1–5, 36 techniques</span><span data-l="zh">第一至第五段，共三十六种技法</span></span>
+            <ol class="osad">
+              <li><span class="zh">小擒拿第一段</span><span class="py">Xiǎo Qínná dì yī duàn</span></li>
+              <li><span class="zh">小擒拿第二段</span><span class="py">Xiǎo Qínná dì èr duàn</span></li>
+              <li><span class="zh">小擒拿第三段</span><span class="py">Xiǎo Qínná dì sān duàn</span></li>
+              <li><span class="zh">小擒拿第四段</span><span class="py">Xiǎo Qínná dì sì duàn</span></li>
+              <li><span class="zh">小擒拿第五段</span><span class="py">Xiǎo Qínná dì wǔ duàn</span></li>
+            </ol></li>
+          <li><span class="zh">大擒拿</span><span class="py">Dà Qínná</span><span class="tr"><span data-l="et">suur qínná: õppeosad 6–10, kokku 36 tehnikat</span><span data-l="en">Large Qínná: sections 6–10, 36 techniques</span><span data-l="zh">第六至第十段，共三十六种技法</span></span>
+            <ol class="osad" start="6">
+              <li><span class="zh">大擒拿第六段</span><span class="py">Dà Qínná dì liù duàn</span></li>
+              <li><span class="zh">大擒拿第七段</span><span class="py">Dà Qínná dì qī duàn</span></li>
+              <li><span class="zh">大擒拿第八段</span><span class="py">Dà Qínná dì bā duàn</span></li>
+              <li><span class="zh">大擒拿第九段</span><span class="py">Dà Qínná dì jiǔ duàn</span></li>
+              <li><span class="zh">大擒拿第十段</span><span class="py">Dà Qínná dì shí duàn</span></li>
+            </ol></li>
+        </ul>
+        <p class="markus" data-l="et">Meister Wulfi viie värava õppekava on eraldi pedagoogiline jaotus: viis väravat ja qínná kümme õppeosa ei vasta teineteisele üks-ühele.</p>
+        <p class="markus" data-l="en">Master Wulf's five-gate curriculum is a separate teaching structure: the five gates and the ten qínná sections do not correspond one to one.</p>
+        <p class="markus" data-l="zh">Wulf 师傅的五关课程是另一种教学安排：五关与擒拿十段并非一一对应。</p>
+      </div>
     </div>
   </section>
 
