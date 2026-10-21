@@ -24,7 +24,7 @@ GitHub Pages            Cloudflare              külastaja
 |------|------|
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
-| `mantis.html` | kung fu: treeningud (personaalne tund 20–40 € / h taseme järgi), koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), mida saab teha (kung fu kaardil link „wushu/kung fu selgitus“ avab selgitusakna; allveekungfu juures WaterFightsi üldidee ja reeglid, ingliskeelsed PDF-id Drive'is), stiil, meister Wulf, liin, vormid, ajatelg (2023 kirjes bàishī mull), dokumendid (1991–92, 2023, duan 2026) |
+| `mantis.html` | kung fu: treeningud, koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), mida saab teha (kung fu kaardil link „wushu/kung fu selgitus“ avab selgitusakna; allveekungfu juures WaterFightsi üldidee ja reeglid, ingliskeelsed PDF-id Drive'is), stiil, meister Wulf, liin, vormid ja vormisarjad (摘要 Zhāiyào kuus osa, 分身八肘 Fēnshēn Bāzhǒu neli osa; osade loend kaardil), väike ja suur qínná (小擒拿 õppeosad 1–5, 大擒拿 6–10, kumbki 36 tehnikat; viie värava õppekavaga üks-ühele ei kattu), ajatelg (2023 kirjes bàishī mull), dokumendid (1991–92, 2023, duan 2026) |
 | `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
 | `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, mullid (tõlge, seletus, pilt, heli) ikoonidega, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
 | `404.html` | vealehekülg |
@@ -133,8 +133,16 @@ node scripts/build-treeningprogramm.mjs                # kõik kolm; `… et zh`
 
 Kirjad: Liberation Serif/Sans ja hiina märkidele WenQuanYi Zen Hei (Debianis paketid
 `fonts-liberation`, `fonts-wqy-zenhei`); teiste kirjadega võivad leheküljed teisiti murduda.
-Lehevahetused on HTML-is klassiga `pb` (väravad 2 ja 4, ülevaatetabel, sõnastik), et iga keel
-mahuks viiele leheküljele nagu seni.
+Lehevahetused on HTML-is klassiga `pb` (väravad 2 ja 4, ülevaatetabel, sõnastik, „Kuidas
+alustada“), nii et iga keel on kuuel leheküljel: 1 sissejuhatus ja värav 1, 2 väravad 2–3,
+3 väravad 4–5, 4 ülevaatetabel, tund ja reeglid, 5 sõnastik, päritolu ja „Qínná liini õpetuses“,
+6 alustamine ja kontakt. Eesti- ja ingliskeelses tekstis ei murta hiina nimesid märkide vahelt
+(`word-break:keep-all`).
+
+Terminid (kõigis kolmes keeles ühtmoodi): 套路 tàolù = vorm, 段 duàn = osa (vormisarjas) või
+õppeosa (qínná's), 摘要 Zhāiyào = kuueosaline vormisari, 分身八肘 Fēnshēn Bāzhǒu = neljaosaline
+vormisari, 小擒拿 Xiǎo Qínná / 大擒拿 Dà Qínná = väike / suur qínná. Väravate qínná-harjutused
+(kehapiirkondade kaupa) on meister Wulfi õpetamise kord, mitte qínná pärimuslik kümneosaline jaotus.
 
 ### Raamatu lisamine
 
