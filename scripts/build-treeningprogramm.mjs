@@ -1,4 +1,6 @@
 // Treeningprogrammi PDF-id: content/kungfu/treeningprogramm-{et,en,zh}.html -> assets/kungfu/treeningprogramm-{et,en,zh}.pdf
+// NB! Alates 29.10.2026 on saidil autori enda PDF-id (vt README „Treeningprogrammi PDF“); see skript
+// kirjutaks need vanema HTML-allikaga üle. Käivita ainult siis, kui HTML-allikas on uuesti ajakohane.
 // Trükib Chromiumiga (Playwright). Käivita repo juurkaustast:
 //   node scripts/build-treeningprogramm.mjs            (kõik kolm keelt)
 //   node scripts/build-treeningprogramm.mjs et zh      (ainult need)

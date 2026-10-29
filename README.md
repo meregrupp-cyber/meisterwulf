@@ -123,7 +123,14 @@ versioon `shoemaker/` ja originaal sama nimega `shoemaker/orig/` alla.
 
 Kung fu lehe nupp „Koolituse tutvustus (PDF)“ avab `assets/kungfu/treeningprogramm-<keel>.pdf`
 parajasti valitud keeles. Lingil on versiooninumber `?v=` (PDF-faili SHA-1 esimesed 8 märki),
-et brauser ja Cloudflare ei näitaks vana koopiat; PDF-i uuesti ehitamisel uuenda see `mantis.html`-is. Kolme PDF-i allikas on `content/kungfu/treeningprogramm-et/en/zh.html`
+et brauser ja Cloudflare ei näitaks vana koopiat; PDF-i vahetamisel uuenda see `mantis.html`-is.
+
+**NB! Alates 29.10.2026 on saidil autori enda koostatud PDF-id** (Drive'i kaust, failid
+`treeningprogramm-et-3.pdf`, `training-programme-en-3.pdf`, `training-programme-zh-3.pdf`; A4, pildina,
+ilma tekstikihita). Allpool kirjeldatud HTML-allikad `content/kungfu/` on vanem versioon ega vasta neile:
+`build-treeningprogramm.mjs` kirjutaks autori PDF-id üle. Uus PDF tuleb autorilt ja asendatakse failina.
+
+Varasemate PDF-ide allikas on `content/kungfu/treeningprogramm-et/en/zh.html`
 (ühine stiil `treeningprogramm.css`, logo `assets/logo/`). Teksti muutmiseks paranda HTML-i
 kõigis kolmes keeles ja ehita PDF-id uuesti:
 
