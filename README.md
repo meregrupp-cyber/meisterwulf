@@ -24,7 +24,7 @@ GitHub Pages            Cloudflare              külastaja
 |------|------|
 | `index.html` | esileht — GIMP-i faili `temper.xcf` kompositsioon: taust, kolm keelesilti, kolm tervet fotokaarti, kiri kaartide all, Facebook |
 | `shoemaker.html` | kingsepp (Kriuks): tekst, hind (alates 2500 €), protsess, video, galerii, kontakt |
-| `mantis.html` | kung fu: treeningud, koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), mida saab teha (kung fu kaardil link „wushu/kung fu selgitus“ avab selgitusakna; allveekungfu juures WaterFightsi üldidee ja reeglid, ingliskeelsed PDF-id Drive'is), stiil, meister Wulf, liin, vormid ja vormisarjad (摘要 Zhāiyào kuus osa, 分身八肘 Fēnshēn Bāzhǒu neli osa; osade loend kaardil), väike ja suur qínná (小擒拿 õppeosad 1–5, 大擒拿 6–10, kumbki 36 tehnikat; viie värava õppekavaga üks-ühele ei kattu), ajatelg (2023 kirjes bàishī mull), dokumendid (1991–92, 2023, duan 2026) |
+| `mantis.html` | kung fu: treeningud, koolituse sisu + treeningprogrammi PDF (avaneb uues aknas keele järgi), mida saab teha (kung fu kaardil link „wushu/kung fu selgitus“ avab selgitusakna; allveekungfu juures WaterFightsi üldidee ja reeglid, ingliskeelsed PDF-id Drive'is), stiil, meister Wulf, liin, vormid ja vormisarjad (摘要 Zhāiyào: õppekavas osad 1–6, meister Wangi sõnul Weifangi materjalis kümme; 分身八肘 Fēnshēn Bāzhǒu neli osa; osade loend kaardil; vormidel õppetase: algtase, kesktase, edasijõudnute tase), väike ja suur qínná (tekstina: 小擒拿 õppeosad 1–5, 大擒拿 6–10, kumbki 36 tehnikat; viie värava õppekavaga üks-ühele ei kattu), ajatelg (2023 kirjes bàishī mull), dokumendid (1991–92, 2023, nõunikuks nimetamine ja kesktaseme lõputunnistus 2026) |
 | `books.html` | raamatud: „Meister Wulf“ (eesti k, ilmub okt 2026), „Raudvaal“ (e-raamat, järg, ilmub järjejutuna; proloog avaneb nupust „Loe proloogi“, nupp „Loe veebis“ viib lugemislehele) ja 狼的印记 (hiina k) — tutvustus avaneb nupust „Loe raamatust“, näidis-PDF; „Lola ja Lohe päästesalk“ (Markus Saksatamm, näidis nupust, ostulink Apollosse) |
 | `raudvaal/index.html` | „Raudvaal“ lugemisleht: sisukord osade kaupa, tasuta proloog ja I peatükk, koodiga avanevad tasulised peatükid, mullid (tõlge, seletus, pilt, heli) ikoonidega, sõnastik, lugemisjärg (vt „E-raamat „Raudvaal““) |
 | `404.html` | vealehekülg |
@@ -86,7 +86,7 @@ assets/
   logo/                    wulf-logo-320/640 (.webp, .png)
   shoemaker/               galerii (1024×512, ühtlustatud toon), video eelvaade
   shoemaker/orig/          samad fotod töötlemata värvides — avanevad galeriis klõpsu peale suurelt
-  kungfu/                  tunnistus 1991–92, pärimusregister 2023, duani tunnistus 2026,
+  kungfu/                  tunnistus 1991–92, pärimusregister 2023, ametikiri (nõunik) ja kesktaseme lõputunnistus 2026,
                            treeningprogramm-et/en/zh.pdf (koolituse tutvustus, avaneb uues aknas;
                            ehitatakse allikast content/kungfu/, vt „Treeningprogrammi PDF“)
   books/                   kaaned (et, raudvaal, zh, lola), tagakaas, eesleht, linoollõiked (praegu kasutamata), näidis-PDF (hiina k),
@@ -147,7 +147,7 @@ alustada“), nii et iga keel on kuuel leheküljel: 1 sissejuhatus ja värav 1, 
 (`word-break:keep-all`).
 
 Terminid (kõigis kolmes keeles ühtmoodi): 套路 tàolù = vorm, 段 duàn = osa (vormisarjas) või
-õppeosa (qínná's), 摘要 Zhāiyào = kuueosaline vormisari, 分身八肘 Fēnshēn Bāzhǒu = neljaosaline
+õppeosa (qínná's), 摘要 Zhāiyào = vormisari (õppekavas osad 1–6), 分身八肘 Fēnshēn Bāzhǒu = neljaosaline
 vormisari, 小擒拿 Xiǎo Qínná / 大擒拿 Dà Qínná = väike / suur qínná. Väravate qínná-harjutused
 (kehapiirkondade kaupa) on meister Wulfi õpetamise kord, mitte qínná pärimuslik kümneosaline jaotus.
 
